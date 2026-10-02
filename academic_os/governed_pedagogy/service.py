@@ -75,14 +75,17 @@ class GovernedPedagogyService:
         try: return validate_spec_bound(spec, self.learning, self.evidence_service)
         except (core.IngestionError, ValueError, FileNotFoundError, KeyError): return report(spec, ['SOURCE_OR_POLICY_EVIDENCE_CHANGED'])
 
-    def evaluate_lesson_authoring_eligibility(self, spec=None, *, learning_spec=None):
+    def evaluate_lesson_authoring_eligibility(self, spec=None, *, learning_spec=None, scope_framing=None):
         if spec is None:
             if learning_spec is None: reject('LEARNING_INPUT_REQUIRED', 'Supply bound learning evidence for a no-spec authoring decision.')
             return authoring_without_spec(self.evaluate_pedagogical_spec_eligibility(learning_spec))
         validation = self.validate_pedagogical_spec(spec)
         try:
             typed=GovernedPedagogicalSpecification.model_validate(spec)
-            if typed.approved_evidence is not None:return authoring.evaluate(typed,validation)
+            if typed.approved_evidence is not None:
+                from academic_os.generic_role_authoring.scope import validate_scope_framing
+                scope_check=None if scope_framing is None else validate_scope_framing(scope_framing,typed,self)
+                return authoring.evaluate(typed,validation,scope_validation=scope_check)
         except ValueError:pass
         raw = spec.model_dump(mode='json') if hasattr(spec, 'model_dump') else spec
         return LessonAuthoringEligibility(status='BLOCKED', reason_codes=['INVALID_OR_UNSUPPORTED_PEDAGOGICAL_SPEC'],
@@ -94,9 +97,11 @@ class GovernedPedagogyService:
         from .validation import validate_eligibility_bound
         return validate_eligibility_bound(value,learning_spec,approved_pack,self.learning,self.evidence_service)
 
-    def validate_lesson_authoring_eligibility(self, value, spec):
+    def validate_lesson_authoring_eligibility(self, value, spec, *, scope_framing=None):
         typed=GovernedPedagogicalSpecification.model_validate(spec)
-        return authoring.validate_gate(value,typed,self.validate_pedagogical_spec(typed))
+        from academic_os.generic_role_authoring.scope import validate_scope_framing
+        scope_check=None if scope_framing is None else validate_scope_framing(scope_framing,typed,self)
+        return authoring.validate_gate(value,typed,self.validate_pedagogical_spec(typed),scope_validation=scope_check)
 
     def persist_pedagogical_spec(self, value):
         spec=GovernedPedagogicalSpecification.model_validate(value)

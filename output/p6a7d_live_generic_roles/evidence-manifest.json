@@ -1,0 +1,18 @@
+{
+  "files": {
+    "output/p6a7d_live_generic_roles/acceptance.json": "7a9862a19afc650e1a830d22e693fd0919a40a83890ceed38debf7331cbcd355",
+    "output/p6a7d_live_generic_roles/before.json": "a5862c218d657f16b0c00c157ad1429903889a55a2c41aa5bc2ccf4ab6d53ddc",
+    "output/p6a7d_live_generic_roles/cross-role-separation.json": "7b8a6575fd244faf7f128d6b9206ecd6463468f647a094fc89cbda78dd86427a",
+    "output/p6a7d_live_generic_roles/historical-integrity.json": "04daedb531cf555d8748507ae1b999479a793312e4adcce54fb0177d89ba399f",
+    "output/p6a7d_live_generic_roles/preflight.json": "f1203f417817ce8bb1deba73e9c9cfe2535ab43fa76e26d899dbe031ca7bc885",
+    "output/p6a7d_live_generic_roles/trusted-state-integrity.json": "b30ac4448026936c60af49470755fe48cd437bc3c7bd1fb629d7cf7d40bac4a8",
+    "output/p6a7d_live_generic_roles/concept-check/diversity.json": "072e6549bccfe564aada40a1af2d13a84dc20ef9876c726e0e6fcb9461897ced",
+    "output/p6a7d_live_generic_roles/concept-check/preflight.json": "53274ea8c584924eca986261f57ca18e20a9c062e663a3e069d7f26764625784",
+    "output/p6a7d_live_generic_roles/concept-check/replay.json": "304bf5373865ace0fc4849ddcb81fca4267773f16982ad2f1fb5814ef44424e8",
+    "output/p6a7d_live_generic_roles/concept-check/summary.json": "8d37597c9440a77b836a4953a9f27b49e9e253860ee9abea7d78d67440019cee",
+    "output/p6a7d_live_generic_roles/representation/diversity.json": "072e6549bccfe564aada40a1af2d13a84dc20ef9876c726e0e6fcb9461897ced",
+    "output/p6a7d_live_generic_roles/representation/preflight.json": "53274ea8c584924eca986261f57ca18e20a9c062e663a3e069d7f26764625784",
+    "output/p6a7d_live_generic_roles/representation/replay.json": "304bf5373865ace0fc4849ddcb81fca4267773f16982ad2f1fb5814ef44424e8",
+    "output/p6a7d_live_generic_roles/representation/summary.json": "8d37597c9440a77b836a4953a9f27b49e9e253860ee9abea7d78d67440019cee"
+  }
+}

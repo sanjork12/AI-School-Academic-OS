@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "protected_files": 2077,
+  "historical_files": 1993,
+  "all_unchanged": true,
+  "baseline": {
+    "reference_version": "v1.16",
+    "valid": true,
+    "errors": [],
+    "manifest_sha256": "6bff999b96cf5014c75d72186732abf19d68c35b2cfcfee20b8b2d04a1067e0d",
+    "trust_authority": false,
+    "verification_scope": "current_conformance"
+  },
+  "regressions": "NOT_RERUN_PREFLIGHT_STOP; protected implementation unchanged"
+}

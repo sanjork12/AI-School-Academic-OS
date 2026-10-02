@@ -1,0 +1,17 @@
+{
+  "integrity": {
+    "credentials_unchanged": true,
+    "historical_files": 1969,
+    "historical_unchanged": true,
+    "model_calls": 0,
+    "trusted_state_unchanged": true,
+    "unrelated_production_unchanged": true
+  },
+  "model_calls": 0,
+  "negative_cases": 23,
+  "overall_after": "ELIGIBLE_WITH_WARNINGS",
+  "overall_before": "BLOCKED",
+  "replay_passes": 2,
+  "scope_valid": true,
+  "status": "PASS"
+}

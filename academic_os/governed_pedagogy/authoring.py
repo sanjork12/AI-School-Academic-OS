@@ -3,7 +3,7 @@ from .models import LessonAuthoringEligibility
 from academic_os.pedagogy_evidence.validation import hash_of
 
 VERSION='generic-role-lesson-authoring-gate/1'
-def requirements(spec, validation):
+def requirements(spec, validation, *, scope_validation=None):
     valid=validation.valid
     families=spec.approved_evidence.pedagogical_adapter.candidate_role_families if spec.approved_evidence else []
     from academic_os.generic_role_authoring.policy import supported,role_id,CONTRACTS,MAPPING_VERSION
@@ -14,6 +14,9 @@ def requirements(spec, validation):
           dict(key='authoring_contract',available=available),dict(key='content_provenance_constraints',available=available),dict(key='composition_contract',available=available)]
     for family in families:rows.append(dict(key=family+'_CONTENT_VALIDATOR',available=family in supported_families))
     for role in spec.role_contract.roles:
+        if role.role_key=='scope_framing' and scope_validation is not None:
+            rows.append(dict(key='VALID_DETERMINISTIC_SCOPE_FRAMING',available=valid and scope_validation.get('valid',False) and scope_validation.get('pedagogical_spec_hash')==hash_of(spec)))
+            continue
         if role.requirement=='required' and (not role.role_key.startswith('approved_') or role.family not in supported_families):
             rows.append(dict(key='UNSUPPORTED_REQUIRED_ROLE:'+role.role_key,available=False))
     return dict(schema_version='role-content-validation-requirements/1',checks=rows,
@@ -21,14 +24,15 @@ def requirements(spec, validation):
         concrete_role_mapping=[dict(family=f,role_id=role_id(spec,f),contract=CONTRACTS[f],mapping_policy=MAPPING_VERSION) for f in families if f in supported_families],
         role_eligibility={f:'ELIGIBLE_WITH_WARNINGS' if f in supported_families else 'BLOCKED' for f in families},content_generated=False)
 
-def evaluate(spec,validation):
-    diagnostic=requirements(spec,validation)
+def evaluate(spec,validation, *, scope_validation=None):
+    diagnostic=requirements(spec,validation,scope_validation=scope_validation)
     missing=[r['key'] for r in diagnostic['checks'] if not r['available']]
-    return LessonAuthoringEligibility(status='BLOCKED',reason_codes=['ROLE_CONTENT_CONTRACTS_INCOMPLETE'] if validation.valid else ['INVALID_PEDAGOGICAL_SPEC'],
+    status=('ELIGIBLE_WITH_WARNINGS' if spec.warnings else 'ELIGIBLE') if not missing and validation.valid else 'BLOCKED'
+    return LessonAuthoringEligibility(status=status,reason_codes=(['ROLE_CONTENT_CONTRACTS_INCOMPLETE'] if validation.valid else ['INVALID_PEDAGOGICAL_SPEC']) if status=='BLOCKED' else ['ALL_REQUIRED_ROLE_CONTRACTS_AVAILABLE'],
         missing_requirements=missing,warnings=spec.warnings,evidence_refs=spec.eligibility.evidence_refs,
-        learning_spec_hash=spec.learning_spec_hash,pedagogical_spec_hash=hash_of(spec),policy_version=VERSION)
+        learning_spec_hash=spec.learning_spec_hash,pedagogical_spec_hash=hash_of(spec),policy_version=VERSION if scope_validation is None else 'deterministic-framing-lesson-authoring-gate/1')
 
-def validate_gate(value,spec,validation):
+def validate_gate(value,spec,validation, *, scope_validation=None):
     # Pure gate evaluation, independent of the specification constructor.
     gate=LessonAuthoringEligibility.model_validate(value)
-    return dict(valid=gate==evaluate(spec,validation),errors=[] if gate==evaluate(spec,validation) else ['AUTHORING_GATE_CHANGED'])
+    return dict(valid=gate==evaluate(spec,validation,scope_validation=scope_validation),errors=[] if gate==evaluate(spec,validation,scope_validation=scope_validation) else ['AUTHORING_GATE_CHANGED'])

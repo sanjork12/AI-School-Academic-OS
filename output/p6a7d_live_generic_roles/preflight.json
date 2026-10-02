@@ -1,0 +1,47 @@
+{
+  "status": "BLOCKED",
+  "reason_codes": [
+    "AUTHOR_MODEL_UNAVAILABLE"
+  ],
+  "expected_provider": "OpenAI",
+  "expected_model": "gpt-5.6-sol",
+  "resolved_model": null,
+  "checks": {
+    "active_baseline_v1_16": true,
+    "api_credential_available": true,
+    "model_variable_present": false,
+    "resolved_model_exact": false
+  },
+  "remaining_checks": "NOT_RUN_STOPPED_AT_CONFIGURATION_GATE",
+  "live_provider_calls": 0,
+  "secret_values_stored": false,
+  "baseline": {
+    "reference_version": "v1.16",
+    "valid": true,
+    "errors": [],
+    "manifest_sha256": "6bff999b96cf5014c75d72186732abf19d68c35b2cfcfee20b8b2d04a1067e0d",
+    "trust_authority": false,
+    "verification_scope": "current_conformance"
+  },
+  "identities": {
+    "target": "EDX-4MA1-F-2.8-A",
+    "tier": "Foundation",
+    "learning_id": "b1751f5f0e80ecdf3e64f283826def3312de022c0d9575550e771527f97f4625",
+    "learning_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "pedagogy_id": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+    "pedagogy_hash": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+    "scope_id": "scope-194a674e18b7f545978890ac1ce7b0160646c48bbf970e7b887800b7f3c5685f",
+    "scope_hash": "931de5fb717d1dfb3d7fa91851571865402b35bf69678be53e33d68fa6f42945",
+    "briefs": {
+      "REPRESENTATION": {
+        "role_id": "generic-representation-41117787910e5ff2529e41b2666adcd74d7916bd490a282ceef50da8bba63cc1",
+        "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba"
+      },
+      "CONCEPT_CHECK": {
+        "role_id": "generic-concept-check-69d1224d83adce142a2004f85a6d9c2dbee49efd873dbda651aa3b000a01779f",
+        "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369"
+      }
+    },
+    "source": "Read from existing frozen artifacts; no new authenticated upstream preflight claimed."
+  }
+}

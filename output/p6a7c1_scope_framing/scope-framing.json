@@ -1,0 +1,302 @@
+{
+  "binding": {
+    "approved_pack_hash": "828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+    "approved_pack_id": "46e11a1b1a56b12fefc692a8d2a12af005235f2db0b223bca346a7033163fa17",
+    "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "learning_spec_id": "b1751f5f0e80ecdf3e64f283826def3312de022c0d9575550e771527f97f4625",
+    "pedagogical_spec_hash": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+    "pedagogical_spec_id": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+    "source_id": "EDX-4MA1-F-2.8-A",
+    "tier": "Foundation"
+  },
+  "construction_version": "bounded-scope-framing/1",
+  "disposition": "DETERMINISTIC_FRAMING",
+  "excluded_capabilities": [
+    {
+      "capability": "SOLVING_LINEAR_INEQUALITIES",
+      "policy_ref": "bounded-symbol-role-mapping/1:SOLVING_INEQUALITIES",
+      "provenance": "DETERMINISTIC_POLICY",
+      "status": "OUTSIDE_SELECTED_OBJECTIVE_SCOPE"
+    },
+    {
+      "capability": "NUMBER_LINE_SOLUTION_SETS",
+      "policy_ref": "bounded-symbol-role-mapping/1:NUMBER_LINE_SOLUTIONS",
+      "provenance": "DETERMINISTIC_POLICY",
+      "status": "OUTSIDE_SELECTED_OBJECTIVE_SCOPE"
+    },
+    {
+      "capability": "COMPOUND_INEQUALITIES",
+      "policy_ref": "bounded-symbol-role-mapping/1:COMPOUND_OR_QUADRATIC_INEQUALITIES",
+      "provenance": "DETERMINISTIC_POLICY",
+      "status": "OUTSIDE_SELECTED_OBJECTIVE_SCOPE"
+    },
+    {
+      "capability": "QUADRATIC_INEQUALITIES",
+      "policy_ref": "bounded-symbol-role-mapping/1:COMPOUND_OR_QUADRATIC_INEQUALITIES",
+      "provenance": "DETERMINISTIC_POLICY",
+      "status": "OUTSIDE_SELECTED_OBJECTIVE_SCOPE"
+    },
+    {
+      "capability": "INEQUALITY_REGIONS",
+      "policy_ref": "bounded-symbol-role-mapping/1:SOLUTION_REGIONS",
+      "provenance": "DETERMINISTIC_POLICY",
+      "status": "OUTSIDE_SELECTED_OBJECTIVE_SCOPE"
+    },
+    {
+      "capability": "UNRELATED_ALGEBRA_MANIPULATION",
+      "policy_ref": "bounded-symbol-role-mapping/1:ALGEBRAIC_MANIPULATION",
+      "provenance": "DETERMINISTIC_POLICY",
+      "status": "OUTSIDE_SELECTED_OBJECTIVE_SCOPE"
+    }
+  ],
+  "human_approved": false,
+  "identity": "scope-194a674e18b7f545978890ac1ce7b0160646c48bbf970e7b887800b7f3c5685f",
+  "included_capabilities": [
+    {
+      "criterion": {
+        "conditions": "SYMBOL_REPRESENTATION",
+        "criterion_id": "SC-1",
+        "evidence_basis": {
+          "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+          "classification": "PROPOSED",
+          "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+          "origin": "MODEL_PROPOSED",
+          "source_id": "EDX-4MA1-F-2.8-A"
+        },
+        "linked_learning_intention": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "observable_student_action": "INTERPRET_SYMBOL",
+        "quality_or_completion_rule": "MEANING_MATCHES_REVIEWED_SYMBOL",
+        "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+      },
+      "provenance": "APPROVED_PEDAGOGICAL_EVIDENCE",
+      "statement": "Interpret the reviewed inequality symbols >, <, ≥ and ≤."
+    },
+    {
+      "criterion": {
+        "conditions": "RELATION_REPRESENTATION",
+        "criterion_id": "SC-2",
+        "evidence_basis": {
+          "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+          "classification": "PROPOSED",
+          "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+          "origin": "MODEL_PROPOSED",
+          "source_id": "EDX-4MA1-F-2.8-A"
+        },
+        "linked_learning_intention": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "observable_student_action": "SELECT_SYMBOL",
+        "quality_or_completion_rule": "SYMBOL_MATCHES_STATED_RELATION",
+        "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+      },
+      "provenance": "APPROVED_PEDAGOGICAL_EVIDENCE",
+      "statement": "Select the reviewed inequality symbol matching a stated relation."
+    }
+  ],
+  "learning_intention": {
+    "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+    "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+    "kind": "capability",
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "output/topic2_canonical_promoted.json",
+        "output/topic2_human_review_decisions.json",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "reviewed-capability-prefix/1",
+      "source_ids": [
+        "EDX-4MA1-F-2.8-A"
+      ]
+    },
+    "source_id": "EDX-4MA1-F-2.8-A",
+    "statement": "Student should be able to: Understand and use the symbols >, <, ≥ and ≤."
+  },
+  "lesson_scope_statement": "Learning focus: Student should be able to: Understand and use the symbols >, <, ≥ and ≤.\nThis lesson is limited to: Interpret the reviewed inequality symbols >, <, ≥ and ≤. Select the reviewed inequality symbol matching a stated relation.",
+  "model_calls": 0,
+  "provenance": {
+    "binding": [
+      "SOURCE_BOUND_CONTEXT",
+      "GOVERNED_LEARNING_SPEC",
+      "APPROVED_PEDAGOGICAL_EVIDENCE"
+    ],
+    "construction_version": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "disposition": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "excluded_capabilities": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "human_approved": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "identity": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "included_capabilities": [
+      "APPROVED_PEDAGOGICAL_EVIDENCE",
+      "DETERMINISTIC_POLICY"
+    ],
+    "learning_intention": [
+      "GOVERNED_LEARNING_SPEC"
+    ],
+    "lesson_scope_statement": [
+      "GOVERNED_LEARNING_SPEC",
+      "APPROVED_PEDAGOGICAL_EVIDENCE",
+      "DETERMINISTIC_POLICY"
+    ],
+    "model_calls": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "published": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "required_role_families": [
+      "APPROVED_PEDAGOGICAL_EVIDENCE"
+    ],
+    "reviewed_canonical": [
+      "REVIEWED_CANONICAL_SEMANTIC"
+    ],
+    "schema_version": [
+      "DETERMINISTIC_POLICY"
+    ],
+    "source_context": [
+      "SOURCE_BOUND_CONTEXT"
+    ],
+    "warnings": [
+      "SOURCE_BOUND_CONTEXT",
+      "GOVERNED_LEARNING_SPEC",
+      "APPROVED_PEDAGOGICAL_EVIDENCE",
+      "DETERMINISTIC_POLICY"
+    ]
+  },
+  "published": false,
+  "required_role_families": [
+    "CONCEPT_CHECK",
+    "REPRESENTATION"
+  ],
+  "reviewed_canonical": {
+    "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+    "decision_ids": [
+      "REV-4MA1-T2-INEQ-SYMBOLS-001"
+    ],
+    "description": "Understand and use the symbols >, <, ≥ and ≤.",
+    "provenance": {
+      "classifications": [
+        "CANONICAL_DERIVED",
+        "HUMAN_REVIEWED"
+      ],
+      "evidence_refs": [
+        "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "output/topic2_canonical_promoted.json",
+        "output/topic2_human_review_decisions.json"
+      ],
+      "rule": "recorded-equivalent-canonical-meaning/1",
+      "source_ids": [
+        "EDX-4MA1-F-2.8-A"
+      ]
+    },
+    "relationship": "equivalent",
+    "source_id": "EDX-4MA1-F-2.8-A"
+  },
+  "schema_version": "scope-framing/1",
+  "source_context": {
+    "objective_code": "A",
+    "official_text": "understand and use the symbols >,<,  and ",
+    "provenance": {
+      "classifications": [
+        "SOURCE_DERIVED"
+      ],
+      "evidence_refs": [
+        "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "parsed:0987bc571907418d90ce56469c82a036"
+      ],
+      "rule": "exact-parsed-wording/1",
+      "source_ids": [
+        "EDX-4MA1-F-2.8-A"
+      ]
+    },
+    "source_id": "EDX-4MA1-F-2.8-A",
+    "subtopic_code": "2.8",
+    "subtopic_notes": [
+      "To include double-ended inequalities e.g. 1 < x  5",
+      "3x − 2 < 10, so x < 4",
+      "7 − x  5, so x  2",
+      "3 < x + 2  5 so 1 < x  3",
+      "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+      "Conventions for the inclusion of boundaries are not required"
+    ],
+    "tier": "Foundation",
+    "topic_code": "2"
+  },
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 22
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+      "page": null
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 2 warning(s).",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    },
+    {
+      "code": "BOUNDED_CONSTRUCTION_ONLY",
+      "message": "Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.",
+      "page": null
+    },
+    {
+      "code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+      "message": "success_criteria: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+      "message": "prerequisites: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+      "message": "known_misconceptions: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+      "message": "conceptual_knowledge: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+      "message": "concept_skill_task_relations: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+      "message": "assessment_evidence: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "NO_GENERIC_CALCULATION_MAPPING",
+      "message": "A reviewed capability meaning does not establish calculation method, task graph or Standard Deviation role compatibility.",
+      "page": null
+    }
+  ]
+}
