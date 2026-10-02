@@ -1,0 +1,11 @@
+{
+  "missing_requirements": [
+    "SUCCESS_CRITERIA_REQUIRED",
+    "ACTIVITY_SCOPE_REQUIRED",
+    "CHECK_ALIGNMENT_REQUIRED",
+    "PEDAGOGICAL_AUTHORING_REQUIRED"
+  ],
+  "pedagogical_specification": null,
+  "reason": "Required pedagogy inputs missing; validated qualification is not an eligible pedagogical specification.",
+  "status": "NOT_CONSTRUCTED"
+}

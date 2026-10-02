@@ -1,0 +1,231 @@
+{
+  "backend_tests": {
+    "errors": 0,
+    "failures": 0,
+    "model_calls": 0,
+    "skipped": 0,
+    "successful": true,
+    "total": 265
+  },
+  "baseline": {
+    "active_reference_version": "v1.11",
+    "manifest_path": "output/reference_freeze_v1_11/reference_manifest.json",
+    "manifest_sha256": "0aff6280b4f73d82a16770a36f016a4af4189ac349b7b84d2601ab7607d807fa",
+    "protected_files": 1772
+  },
+  "baseline_verification": {
+    "errors": [],
+    "manifest_sha256": "0aff6280b4f73d82a16770a36f016a4af4189ac349b7b84d2601ab7607d807fa",
+    "reference_version": "v1.11",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "evidence_sha256": {
+    "backend-tests.json": "1da32d08b7f714a10d4be53e870cec0736831ab6b7304bfaf3de74388be16f9e",
+    "comparison.json": "f3d73b18397b02e012e68a4e43716357f5e0a049f7923c7013eb29a34a67f38c",
+    "inspection.json": "d93d59c5242d5044700555c79e33c0e8c594c50702153e220865032f590d72fa",
+    "offline-acceptance.json": "fef05c2fa4f70d8dfa1624165044bea0d8e42892a00bb27449c476e05cb7f386",
+    "postfreeze-tests.json": "a1f2d92abcd09b733108dad750e6e2b47fe07534650f6244435501d2f87a029b"
+  },
+  "first_target": "EDX-4MA1-F-2.8-A",
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1672,
+    "manifests_through_v1_10_unchanged": true,
+    "model_calls": 0,
+    "standard_deviation_sha256": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "standard_deviation_unchanged": true,
+    "trusted_state_unchanged": true
+  },
+  "lessons_generated": false,
+  "milestone": "P6UI.4 / CORE",
+  "model_calls": 0,
+  "parsing_calls": 0,
+  "pedagogy_generated": false,
+  "postfreeze_tests": {
+    "errors": 0,
+    "failures": 0,
+    "model_calls": 0,
+    "skipped": 0,
+    "successful": true,
+    "total": 136
+  },
+  "publication": false,
+  "scope": "BOUNDED_REVIEWABLE_LEARNING_INTENTIONS_ONLY",
+  "scopes": {
+    "first-objective": {
+      "excluded": [],
+      "independently_ready": [
+        "EDX-4MA1-F-2.8-A"
+      ],
+      "receipt": {
+        "artifacts": {
+          "construction-input": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+          "eligibility": "1883cbd37389469f45828d039e2cc3295e4882e0d747e1cfa436e8823e347092",
+          "learning-specification": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "validation": "f3e5e3c785642ec966960e5f216ab416b1a2248188d05fdffdc66176669e9d8f"
+        },
+        "created_at": "2026-10-02T08:42:35.272748+00:00",
+        "selected_target_id": "98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74",
+        "semantic_sha256": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+        "source_package_hash": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "spec_id": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e"
+      },
+      "selected": 1,
+      "status": "ELIGIBLE_WITH_WARNINGS",
+      "unresolved": [],
+      "validation": {
+        "errors": [],
+        "model_calls": 0,
+        "policy_version": "bounded-reviewed-learning-intentions/1",
+        "schema_version": "governed-learning-validation/1",
+        "semantic_sha256": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+        "source_package_hash": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    },
+    "foundation-region": {
+      "excluded": [],
+      "independently_ready": [
+        "EDX-4MA1-F-2.8-E"
+      ],
+      "receipt": {
+        "artifacts": {
+          "construction-input": "83058211fc093aaaf91339836506490ecfdfd3d6b4dd7db15ed5790e22e5d623",
+          "eligibility": "e33edcb26a1eb4f58c0655ad6729322c42ee770ba93cc9a90a150c095de4c677",
+          "learning-specification": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584",
+          "validation": "7941c4d8cbd367d99b09ed6957b0887df4cf241c6fafd9430a44d93f6877c324"
+        },
+        "created_at": "2026-10-02T08:42:35.930824+00:00",
+        "selected_target_id": "8a5f64395ed7eeb0d007e5f58da71299887b0f5f15d85528fdb9b6720e98d0e5",
+        "semantic_sha256": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584",
+        "source_package_hash": "83058211fc093aaaf91339836506490ecfdfd3d6b4dd7db15ed5790e22e5d623",
+        "spec_id": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584"
+      },
+      "selected": 1,
+      "status": "ELIGIBLE_WITH_WARNINGS",
+      "unresolved": [],
+      "validation": {
+        "errors": [],
+        "model_calls": 0,
+        "policy_version": "bounded-reviewed-learning-intentions/1",
+        "schema_version": "governed-learning-validation/1",
+        "semantic_sha256": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584",
+        "source_package_hash": "83058211fc093aaaf91339836506490ecfdfd3d6b4dd7db15ed5790e22e5d623",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    },
+    "foundation-subtopic": {
+      "excluded": [],
+      "independently_ready": [
+        "EDX-4MA1-F-2.8-A",
+        "EDX-4MA1-F-2.8-E"
+      ],
+      "selected": 5,
+      "status": "REVIEW_REQUIRED",
+      "unresolved": [
+        "EDX-4MA1-F-2.8-B",
+        "EDX-4MA1-F-2.8-C",
+        "EDX-4MA1-F-2.8-D"
+      ]
+    },
+    "foundation-topic": {
+      "excluded": [],
+      "independently_ready": [
+        "EDX-4MA1-F-2.8-A",
+        "EDX-4MA1-F-2.8-E"
+      ],
+      "selected": 25,
+      "status": "REVIEW_REQUIRED",
+      "unresolved": [
+        "EDX-4MA1-F-2.1-A",
+        "EDX-4MA1-F-2.1-B",
+        "EDX-4MA1-F-2.1-C",
+        "EDX-4MA1-F-2.1-D",
+        "EDX-4MA1-F-2.2-A",
+        "EDX-4MA1-F-2.2-B",
+        "EDX-4MA1-F-2.2-C",
+        "EDX-4MA1-F-2.2-D",
+        "EDX-4MA1-F-2.2-E",
+        "EDX-4MA1-F-2.2-F",
+        "EDX-4MA1-F-2.3-A",
+        "EDX-4MA1-F-2.3-B",
+        "EDX-4MA1-F-2.3-C",
+        "EDX-4MA1-F-2.3-D",
+        "EDX-4MA1-F-2.3-E",
+        "EDX-4MA1-F-2.3-F",
+        "EDX-4MA1-F-2.4-A",
+        "EDX-4MA1-F-2.4-B",
+        "EDX-4MA1-F-2.6-A",
+        "EDX-4MA1-F-2.7-A",
+        "EDX-4MA1-F-2.8-B",
+        "EDX-4MA1-F-2.8-C",
+        "EDX-4MA1-F-2.8-D"
+      ]
+    },
+    "higher-region": {
+      "excluded": [],
+      "independently_ready": [
+        "EDX-4MA1-H-2.8-B"
+      ],
+      "receipt": {
+        "artifacts": {
+          "construction-input": "8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+          "eligibility": "b75266834d5e27cddfe514bef6c225b8698c4e0855f3f12463b4032095012b2c",
+          "learning-specification": "41d37b7d377b3ff9f9f1d01c72904bde5eac42b7856ae12302b76c08ec62742d",
+          "validation": "7f1829b147225cd67459607e870e2bdea4a1835f12c8914892955a2d235c0927"
+        },
+        "created_at": "2026-10-02T08:42:36.662711+00:00",
+        "selected_target_id": "bacbb18633178552bdc9eeb39c80fbf93058f2dddf70ac25ed97ee2cef04cf79",
+        "semantic_sha256": "41d37b7d377b3ff9f9f1d01c72904bde5eac42b7856ae12302b76c08ec62742d",
+        "source_package_hash": "8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "spec_id": "41d37b7d377b3ff9f9f1d01c72904bde5eac42b7856ae12302b76c08ec62742d"
+      },
+      "selected": 1,
+      "status": "ELIGIBLE_WITH_WARNINGS",
+      "unresolved": [],
+      "validation": {
+        "errors": [],
+        "model_calls": 0,
+        "policy_version": "bounded-reviewed-learning-intentions/1",
+        "schema_version": "governed-learning-validation/1",
+        "semantic_sha256": "41d37b7d377b3ff9f9f1d01c72904bde5eac42b7856ae12302b76c08ec62742d",
+        "source_package_hash": "8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    },
+    "higher-topic": {
+      "excluded": [],
+      "independently_ready": [
+        "EDX-4MA1-H-2.8-B"
+      ],
+      "selected": 16,
+      "status": "REVIEW_REQUIRED",
+      "unresolved": [
+        "EDX-4MA1-H-2.1-A",
+        "EDX-4MA1-H-2.2-A",
+        "EDX-4MA1-H-2.2-B",
+        "EDX-4MA1-H-2.2-C",
+        "EDX-4MA1-H-2.2-D",
+        "EDX-4MA1-H-2.2-E",
+        "EDX-4MA1-H-2.3-A",
+        "EDX-4MA1-H-2.5-A",
+        "EDX-4MA1-H-2.6-A",
+        "EDX-4MA1-H-2.6-B",
+        "EDX-4MA1-H-2.7-A",
+        "EDX-4MA1-H-2.7-B",
+        "EDX-4MA1-H-2.7-C",
+        "EDX-4MA1-H-2.7-D",
+        "EDX-4MA1-H-2.8-A"
+      ]
+    }
+  },
+  "trusted_writes": false,
+  "ui_changed": false,
+  "verdict": "PASS"
+}

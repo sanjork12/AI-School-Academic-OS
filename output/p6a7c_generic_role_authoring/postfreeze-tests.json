@@ -1,0 +1,13 @@
+{
+  "total": 83,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "modules": [
+    "tests_p0.test_reference_freeze",
+    "tests_p0.test_reference_revision",
+    "tests_p0.test_ai_qualification"
+  ],
+  "model_calls": 0
+}

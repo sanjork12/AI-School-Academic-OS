@@ -1,0 +1,24 @@
+{
+  "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+  "component_decisions": {
+    "activity_scope": "APPROVE",
+    "check_alignment": "APPROVE",
+    "pedagogical_adapter": "APPROVE",
+    "success_criteria": "APPROVE"
+  },
+  "human_decision_source_sha256": "d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43",
+  "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+  "policy_version": "bounded-symbol-evidence-authoring/1",
+  "proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+  "proposal_validation": {
+    "errors": [],
+    "pedagogical_truth_confirmed": false,
+    "proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+    "valid": true
+  },
+  "receipt_hash": "0d6370693eac74bbc6f43f2c1506dc5e5cb8f16654c122372a7893db70ddc672",
+  "review_valid": true,
+  "semantic_review_hash": "f82660fd73cbd17b68182e34dd8fe17ced3a57958d78d20e6f2855e0ee723f8f",
+  "target_source_id": "EDX-4MA1-F-2.8-A",
+  "tier": "Foundation"
+}

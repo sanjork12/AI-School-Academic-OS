@@ -1,0 +1,40 @@
+{
+  "alignment": {
+    "activity_id": "ACT-1",
+    "check_id": "CHK-1",
+    "criterion_id": "SC-1",
+    "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+  },
+  "binding": {
+    "approved_pack_hash": "828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+    "approved_pack_id": "46e11a1b1a56b12fefc692a8d2a12af005235f2db0b223bca346a7033163fa17",
+    "contract_version": "representation-role-candidate/1",
+    "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "mapping_policy": "bounded-symbol-role-mapping/1",
+    "pedagogical_spec_hash": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+    "proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+    "review_hash": "f82660fd73cbd17b68182e34dd8fe17ced3a57958d78d20e6f2855e0ee723f8f",
+    "role_family": "REPRESENTATION",
+    "role_id": "generic-representation-41117787910e5ff2529e41b2666adcd74d7916bd490a282ceef50da8bba63cc1",
+    "source_id": "EDX-4MA1-F-2.8-A",
+    "tier": "Foundation"
+  },
+  "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+  "content": {
+    "algebra": "Factor x squared minus one",
+    "expected_meaning": "GREATER_THAN",
+    "instruction": "Interpret the displayed inequality symbol.",
+    "response_mode": "SYMBOL_INTERPRETATION",
+    "symbol": ">"
+  },
+  "content_origin": "OFFLINE_FIXTURE_CONTENT",
+  "field_provenance": {
+    "expected_meaning": "OFFLINE_FIXTURE_CONTENT",
+    "instruction": "OFFLINE_FIXTURE_CONTENT",
+    "response_mode": "OFFLINE_FIXTURE_CONTENT",
+    "symbol": "OFFLINE_FIXTURE_CONTENT"
+  },
+  "schema_version": "representation-role-candidate/1",
+  "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY",
+  "status": "PROPOSED"
+}

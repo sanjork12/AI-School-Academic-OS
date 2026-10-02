@@ -1,0 +1,413 @@
+{
+  "assessment": "Task-form/worked-assessment connections require reviewed supporting evidence; learning checks require declared alignment",
+  "consumers": [
+    "P4 authored content references teaching blocks and learning refs",
+    "P5 reuses/authors only compatible role kinds, task forms, support modes and validated scope",
+    "P6 numerical authoring has explicit SD role/template/provenance policies"
+  ],
+  "created_at": "2026-10-02T08:54:11.899556+00:00",
+  "generic": [
+    "source learning refs",
+    "planned coverage",
+    "candidate slots",
+    "required/recommended/flexible constraints",
+    "warning preservation",
+    "structural validation separate from content readiness"
+  ],
+  "legacy_assumptions": [
+    "capability maps to calculation_method in P3B; unsafe to generalize to every action",
+    "P5 adapter explicitly requires standard-deviation and exactly three learning requirement types",
+    "P5 Gold profile fixes density, role order and timing",
+    "SL11 uses an SD summary formula hint"
+  ],
+  "legacy_hashes": {
+    "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+    "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "misconceptions": "P3C rejects unsupported common-mistake claims",
+  "phase": "BEFORE_IMPLEMENTATION",
+  "policy_decision": {
+    "construction": "No pedagogical specification if required inputs are missing",
+    "optional_gaps": [
+      "prerequisite evidence unless a chosen activity requires it",
+      "misconceptions",
+      "worked assessment examples unless that role is selected"
+    ],
+    "outcome_expected": "REVIEW_REQUIRED",
+    "primary_target": "EDX-4MA1-F-2.8-A",
+    "required_gaps": [
+      "SUCCESS_CRITERIA_REQUIRED",
+      "ACTIVITY_SCOPE_REQUIRED",
+      "CHECK_ALIGNMENT_REQUIRED",
+      "PEDAGOGICAL_AUTHORING_REQUIRED"
+    ],
+    "roles": "Non-authoring scope-framing requirement and optional summary can be represented; substantive roles stay unsupported; no automatic SL01-SL15 binding"
+  },
+  "roles": [
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": null,
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 0,
+        "target": 0
+      },
+      "kind": "orientation",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "orientation",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-01",
+      "role_key": "SL-01",
+      "substantive": false,
+      "support_mode": "not_applicable",
+      "title": "Learning orientation"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "concept_explanation",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "concept_development",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-02",
+      "role_key": "SL-02",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Concept explanation"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "concept_visual",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "concept_development",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-03",
+      "role_key": "SL-03",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Concept visual comparison"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "early_concept_retrieval",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "concept_development",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-04",
+      "role_key": "SL-04",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Early concept retrieval/check"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "calculation_method",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "calculation_development",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-05",
+      "role_key": "SL-05",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Calculation method"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "mini_worked_example",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "calculation_development",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-06",
+      "role_key": "SL-06",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Mini worked example"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "summary_method",
+      "learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "supported_task_form",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-07",
+      "role_key": "SL-07",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Summary-statistics method"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+      "coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "full_worked_examples",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "supported_task_form",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-08",
+      "role_key": "SL-08",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Worked example 1"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+      "coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "full_worked_examples",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "supported_task_form",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-09",
+      "role_key": "SL-09",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Worked example 2"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "guided_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "supported_practice",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-10",
+      "role_key": "SL-10",
+      "substantive": true,
+      "support_mode": "guided",
+      "title": "Guided practice 1"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "guided_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "supported_practice",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-11",
+      "role_key": "SL-11",
+      "substantive": true,
+      "support_mode": "guided",
+      "title": "Guided practice 2"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 2,
+        "target": 3
+      },
+      "kind": "independent_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "independent_application",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-12",
+      "role_key": "SL-12",
+      "substantive": true,
+      "support_mode": "independent",
+      "title": "Independent practice set"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "concept_check",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "check_and_closure",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-13",
+      "role_key": "SL-13",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Concept check"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "calculation_check",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "check_and_closure",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-standard-lesson-SL-14",
+      "role_key": "SL-14",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Calculation/application check"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "exit_check",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "check_and_closure",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-standard-lesson-SL-15",
+      "role_key": "SL-15",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Exit check + learning summary"
+    }
+  ],
+  "sequence": "P3B block order is not mandatory; P5 profile prescribes SD product sequencing",
+  "sources": {
+    "academic_os/ai_authoring/role_authoring.py": "f84135658035b996deae190d16daba361a63ab20d67e96b3869c741d462c9582",
+    "academic_os/ai_authoring/roles.py": "531785c71ba80a2b77a7e87d696a8ad67e5f3ca18c0fe397360529f9356e21ac",
+    "academic_os/lesson_profile_service.py": "84ad74aeb8009cf8fb87fd19498a083e70567b64350d09175aca9382d60c310c",
+    "academic_os/lesson_profiles.py": "fb06e995caea89c180eb3d942f0359f09f95a23b73d4e3aa8d2866ff2f267766",
+    "academic_os/pedagogical_core.py": "2267fda811983de176a8fbab02ae5ecd3e7dfc1b080059e45cd6ec508a990eaf",
+    "academic_os/pedagogical_models.py": "892766b65fed12c47d9a87dbb096dc28fd470dfab2fcca189cb43eb585cada03",
+    "academic_os/pedagogical_service.py": "5d8ac45478dd6a62bc5354b573f2460af6e0c01347c51596fa154c13858caa2a",
+    "academic_os/pedagogical_validation.py": "1056e69e9315ddb6d17f358ee728e4d43820964dda31b5c325873243da3d536c",
+    "academic_os/profiled_content.py": "3af6db7c70689ba85f08cec6dafa0dfb129341e6a904c4b3f087dd9bb11df5ec",
+    "academic_os/profiled_pedagogy.py": "05df42b9d1546be18b1a816719aaaff4d8c46275343deed9f4be517845216eda"
+  },
+  "success_criteria": "P3B candidate slots do not include explicit criteria; that is not proof that a new unsupported task can be checked"
+}

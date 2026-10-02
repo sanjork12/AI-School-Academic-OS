@@ -1,0 +1,14 @@
+{
+  "artifacts": {
+    "eligibility": "3a19e5a429bb727538afb46c3da31a3858734a5ff523e472616a7f8a15b3a7c7",
+    "learning-specification": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "lesson-authoring-eligibility": "5ae306d174309727c5040118e413017693a62fb8ebf9d94cb6cfecc9a1b7f929",
+    "qualification": "429045e09ca75d99d5b70c584e5c493cda4de426edce0be7a78f2c4cf2f188fa",
+    "role-contract": "b5d8405a7a3203b1df97328f06b8afa74ef4133b76b79bce0a121bf5dd9eae06",
+    "validation": "10831c33f2db39a91392a1a27a3ad4cdc2e6d00b9ed07f8d5b2f9d2b79d95cdc"
+  },
+  "created_at": "2026-10-02T09:12:03.145849+00:00",
+  "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+  "qualification_id": "429045e09ca75d99d5b70c584e5c493cda4de426edce0be7a78f2c4cf2f188fa",
+  "semantic_sha256": "429045e09ca75d99d5b70c584e5c493cda4de426edce0be7a78f2c4cf2f188fa"
+}

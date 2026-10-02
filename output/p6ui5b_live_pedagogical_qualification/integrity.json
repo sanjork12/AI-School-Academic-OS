@@ -1,0 +1,18 @@
+{
+  "approved_packs_created": 0,
+  "baseline_verification": {
+    "errors": [],
+    "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438",
+    "reference_version": "v1.13",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "contracts_unchanged": true,
+  "historical_artifacts_unchanged": true,
+  "historical_files_checked": 1781,
+  "human_reviews_created": 0,
+  "protected_implementation_changed": false,
+  "state_files_checked": 53,
+  "trusted_state_unchanged": true
+}

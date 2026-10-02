@@ -1,0 +1,50 @@
+[
+  {
+    "candidate": "representation-1",
+    "candidate_hash": "35ce9010b4b029470cb99f74e7bc38389759c0efe4d4a1bb6d38622692d09de1",
+    "composition_hash": "e5c5cab1e991c6daf8c52723f9a2cea32dc92edd438df59d2a348f94a7d79d75",
+    "identical": true,
+    "passes": 2,
+    "validation_hash": "16a052e46188f3fdfbe66d61a921e8091315a2265731d98291f4114373eebfb8"
+  },
+  {
+    "candidate": "representation-2",
+    "candidate_hash": "86078542e0e316cc4764aa739bce6f6c31823933226f2ce00c2dfb3ceae5d46d",
+    "composition_hash": "ee1ff2fa36f366dd6b01c991300456a892c75c616ffce48c15683963da1814e7",
+    "identical": true,
+    "passes": 2,
+    "validation_hash": "52fda4ce8a8a1c75f800ac5fdf48ca180808a64fd90ddd7ad456cf14cefe086e"
+  },
+  {
+    "candidate": "representation-3",
+    "candidate_hash": "a09be0f1e2482fc38fb6e6a0e85ba98c35e3676ecf2c81de5aef7b624a904ba7",
+    "composition_hash": "2a8e2d25c94d543e01e68c52ac18165ce7364f56266d521ae48f28ad56b64f02",
+    "identical": true,
+    "passes": 2,
+    "validation_hash": "17ac82e07a784a8a16534e571977f1bb3811a2ca6890430e0b35afb2272c3ffa"
+  },
+  {
+    "candidate": "concept_check-1",
+    "candidate_hash": "9c7942c6c3662b5b9adf2faa7507358ae7f15d3572615db9f29e997106aa890b",
+    "composition_hash": "d3d969e483cf9172ac160df5655508bc7d64788e556f356ab737b7bf53582cb1",
+    "identical": true,
+    "passes": 2,
+    "validation_hash": "c0ac24adf35257fcbf7fa52fedd6c363ef20e5c485deb0ae58a84983b460a4a7"
+  },
+  {
+    "candidate": "concept_check-2",
+    "candidate_hash": "2e0182de8b906cffc0c5f70e41ba4547caadc85d61d4c8f882f66b595c18549e",
+    "composition_hash": "ee99b87bd05d4d98f85f204a3174373aca9d00fc34a9453c894fb91386be3202",
+    "identical": true,
+    "passes": 2,
+    "validation_hash": "d369fdfbc16f8484879b63cd87877c9027f56b8a49a0707ff1e8844698440bd5"
+  },
+  {
+    "candidate": "concept_check-3",
+    "candidate_hash": "17f255c15ae3e01142a9df1d9c2afe7fb049b5848aeab90d8a970d88e9f5b001",
+    "composition_hash": "867bd1649f848c5719b44707fa97b0c4ff45a7697ce172b5d61cb507a6b7165e",
+    "identical": true,
+    "passes": 2,
+    "validation_hash": "2dad061b93a252399d4e5683187f5f3d0fe748f0ca3b6735694889dbe27fc89e"
+  }
+]

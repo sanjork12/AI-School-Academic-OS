@@ -1,0 +1,183 @@
+HUMAN REVIEW DECISION CONFIRMED
+
+Real human reviewer decision for target:
+
+EDX-4MA1-F-2.8-A
+Foundation
+
+Approved proposal:
+Attempt-01 semantic variant from P6UI.5B live qualification.
+
+Human review decisions:
+
+1. Success criteria
+   APPROVE
+
+2. Activity scope
+   APPROVE
+
+3. Learning-check alignment
+   APPROVE
+
+4. Pedagogical adapter
+   APPROVE
+
+The rationale is:
+
+- the proposal separately covers INTERPRET_SYMBOL and SELECT_SYMBOL
+- this preserves both parts of the reviewed canonical meaning:
+  “Understand and use the symbols >, <, ≥ and ≤.”
+- success criteria are observable and bounded to REVIEWED_INEQUALITY_SYMBOLS_ONLY
+- activity constraints remain within the permitted pedagogical vocabulary
+- each success criterion has an aligned observable check
+- the proposed REPRESEN­­TATION and CONCEPT_CHECK role families are supported by the proposal structure
+- no Standard Deviation-specific calculation pedagogy is imported
+
+Important governance statement:
+
+This human approval authorizes the pedagogical evidence only for
+governed pedagogical construction.
+
+It does NOT:
+
+- approve or repair the corrupted uploaded source wording
+- promote curriculum source trust
+- create canonical academic approval
+- create a trusted curriculum snapshot
+- approve lesson content
+- approve publication
+
+All inherited warnings must remain attached.
+
+Attempt-02 must NOT be approved.
+
+Its review disposition is:
+
+REVISE
+
+for:
+
+- success criteria
+- activity scope
+- check alignment
+- pedagogical adapter
+
+Reason:
+
+Attempt-02 does not provide sufficiently explicit independent evidence
+for the “understand” part of the reviewed canonical meaning.
+It primarily tests/selects the correct inequality symbol and therefore
+needs an explicit INTERPRET_SYMBOL success criterion and matching check.
+
+==================================================
+NEXT TASK
+==================================================
+
+Using the existing frozen P6UI.5A review contract:
+
+pedagogical-evidence-review/1
+
+1. Record this REAL human review decision against the exact Attempt-01 proposal hash.
+
+2. Do not synthesize or infer the proposal hash.
+   Read it from the existing P6UI.5B review bundle/evidence.
+
+3. Bind the review to the exact:
+   - proposal hash
+   - target source ID
+   - tier
+   - Learning Specification hash
+   - brief hash
+   - component decisions
+   - policy version
+
+4. Preserve receipt/timestamp metadata separately where the existing contract requires it.
+
+5. Construct the first real:
+
+approved-pedagogical-evidence-pack/1
+
+from:
+validated Attempt-01 proposal
++
+this real matching human approval
+
+6. Independently validate the approved evidence pack.
+
+7. Re-run the existing P6UI.5 pedagogical eligibility using:
+   - the existing Governed Learning Specification
+   - the new ApprovedPedagogicalEvidencePack
+
+8. If eligible under the frozen existing policy, construct:
+   governed-pedagogical-specification/1
+
+9. Independently validate the constructed pedagogical specification.
+
+10. Re-run:
+    lesson-authoring-eligibility/1
+
+11. Do NOT weaken or modify P6UI.5 eligibility rules merely to obtain ELIGIBLE.
+
+12. Do NOT modify the approved proposal contents.
+
+13. Do NOT create lesson content.
+
+14. Do NOT call any model/provider API.
+
+15. Do NOT modify trusted academic state.
+
+16. Preserve all inherited source/parser/governance warnings.
+
+17. Record Attempt-02 review disposition as REVISE only if the current review contract supports storing this without creating an approved pack.
+    Do not build an approved pack for Attempt-02.
+
+18. Compare before vs after:
+
+Before:
+Pedagogical eligibility = REVIEW_REQUIRED
+Lesson authoring eligibility = BLOCKED
+
+After:
+report actual resulting statuses without forcing a positive result.
+
+==================================================
+VERSIONING
+==================================================
+
+Current active baseline:
+v1.13
+
+If protected implementation/config/test files do not change and only new review/evidence artifacts are added:
+do not create a new engineering baseline automatically.
+
+If protected implementation files must change:
+run full acceptance and create v1.14 only if justified.
+
+Do not rewrite v1.13.
+
+==================================================
+RETURN EXACTLY
+==================================================
+
+1. Human review record created
+2. Exact proposal hash reviewed
+3. Component decisions
+4. Review validation result
+5. Approved evidence pack identity/hash
+6. Approved evidence pack validation result
+7. Preserved inherited warnings
+8. P6UI.5 pedagogical eligibility before
+9. P6UI.5 pedagogical eligibility after
+10. Governed Pedagogical Specification construction result
+11. Pedagogical Specification identity/hash if created
+12. Pedagogical Specification validation result
+13. Lesson authoring eligibility before
+14. Lesson authoring eligibility after
+15. Attempt-02 REVISE record result
+16. Model/API calls
+17. Historical artifact integrity
+18. Trusted-state integrity
+19. Baseline result
+20. Remaining gap to P6A.7
+21. Known limitations
+22. Final verdict

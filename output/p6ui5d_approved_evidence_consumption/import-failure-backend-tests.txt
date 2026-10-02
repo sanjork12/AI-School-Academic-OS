@@ -1,0 +1,104 @@
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+tests_p0 (unittest.loader._FailedTest.tests_p0) ... ERROR
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+======================================================================
+ERROR: tests_p0 (unittest.loader._FailedTest.tests_p0)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests_p0
+Traceback (most recent call last):
+  File "C:\Python314\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+ModuleNotFoundError: No module named 'tests_p0'
+
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.001s
+
+FAILED (errors=9)

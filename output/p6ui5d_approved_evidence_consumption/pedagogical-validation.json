@@ -1,0 +1,8 @@
+{
+  "errors": [],
+  "policy_version": "approved-evidence-pedagogical-readiness/1",
+  "semantic_sha256": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+  "status": "PASS_WITH_WARNINGS",
+  "valid": true,
+  "validated_schema": "governed-pedagogical-specification/1"
+}

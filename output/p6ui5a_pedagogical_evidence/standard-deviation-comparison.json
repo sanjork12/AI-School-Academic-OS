@@ -1,0 +1,40 @@
+{
+  "behavior_unchanged": true,
+  "conceptual_mapping": {
+    "P3A": "governed intentions and exact scope in brief",
+    "P3B": "pedagogical requirements map to proposed activity constraints",
+    "P3C": "coverage validation maps to criteria/check references",
+    "P5": "historical roles inform categories only",
+    "P6": "future model output stays proposed"
+  },
+  "excluded": [
+    "SD calculation method",
+    "summary statistics",
+    "fixed 15-role sequence",
+    "numerical worked examples"
+  ],
+  "legacy_hashes": {
+    "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+    "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "migration": false,
+  "role_category_references": {
+    "CONCEPT_CHECK": [
+      "SL-13",
+      "concept_check"
+    ],
+    "ORIENTATION": [
+      "SL-01",
+      "orientation"
+    ],
+    "REPRESENTATION": [
+      "SL-03",
+      "concept_visual"
+    ],
+    "SUMMARY": [
+      "SL-15",
+      "exit_check"
+    ]
+  }
+}

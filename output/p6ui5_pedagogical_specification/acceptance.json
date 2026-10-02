@@ -1,0 +1,89 @@
+{
+  "backend_tests": {
+    "errors": 0,
+    "failures": 0,
+    "model_calls": 0,
+    "skipped": 0,
+    "successful": true,
+    "total": 213
+  },
+  "baseline": {
+    "active_reference_version": "v1.12",
+    "manifest_path": "output/reference_freeze_v1_12/reference_manifest.json",
+    "manifest_sha256": "3e670f14d88659254a7319d6a84885849c0aed9127e3b5b16214835f30b1678f",
+    "protected_files": 1804
+  },
+  "baseline_verification": {
+    "errors": [],
+    "manifest_sha256": "3e670f14d88659254a7319d6a84885849c0aed9127e3b5b16214835f30b1678f",
+    "reference_version": "v1.12",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "content_generated": false,
+  "evidence_sha256": {
+    "backend-tests.json": "ab51b6c2ed95893dae0fca214ad3b9a15c8b3ddbb5986ccdc79fa6a0d2346bfc",
+    "eligibility.json": "45f4f52b2d96c7de3a630b2cf19824bba842c35494d467c31dfd29b8f3bcad3a",
+    "inspection.json": "839e3ce3e7625a3dcf4ea74c04d91456cdf7be03eb08c550c0d3e47c4adb4749",
+    "lesson-authoring-eligibility.json": "7ffe77279f0e80686e74689585ba40b0fdfe7eff97bfb104df475d7363feed4e",
+    "offline-acceptance.json": "a653aaaa4422f26e9d905c4cc5359912de0fe887aff8f285b0f731638e7b6a79",
+    "postfreeze-tests.json": "4792a010654056903f70f008143d9aab51ff707b3d507c84983f2ec86d17fc36",
+    "role-contract.json": "cfd3b9eccacb9fe7231af4efdb4a1ec63af66ff24faebf436cf356e73685c51d",
+    "standard-deviation-comparison.json": "073933fdd339424fbdb438365c3bb72902e4ac02cf3d8286e1e1338442f1e051",
+    "validation.json": "5db8685a6fa72b709ca6543ad4a016fd46e6bc021e771c827837654df1e8a510"
+  },
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1711,
+    "legacy_hashes": {
+      "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+      "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+      "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+    },
+    "manifests_through_v1_11_unchanged": true,
+    "model_calls": 0,
+    "standard_deviation_unchanged": true,
+    "trusted_state_unchanged": true
+  },
+  "lesson_authoring_eligibility": "BLOCKED",
+  "milestone": "P6UI.5 / CORE",
+  "missing_requirements": [
+    "SUCCESS_CRITERIA_REQUIRED",
+    "ACTIVITY_SCOPE_REQUIRED",
+    "CHECK_ALIGNMENT_REQUIRED",
+    "PEDAGOGICAL_AUTHORING_REQUIRED"
+  ],
+  "model_calls": 0,
+  "parsing_calls": 0,
+  "pedagogical_eligibility": "REVIEW_REQUIRED",
+  "pedagogical_specification_constructed": false,
+  "postfreeze_tests": {
+    "errors": 0,
+    "failures": 0,
+    "model_calls": 0,
+    "skipped": 0,
+    "successful": true,
+    "total": 134
+  },
+  "publication": false,
+  "qualification_receipt": {
+    "artifacts": {
+      "eligibility": "3a19e5a429bb727538afb46c3da31a3858734a5ff523e472616a7f8a15b3a7c7",
+      "learning-specification": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+      "lesson-authoring-eligibility": "5ae306d174309727c5040118e413017693a62fb8ebf9d94cb6cfecc9a1b7f929",
+      "qualification": "429045e09ca75d99d5b70c584e5c493cda4de426edce0be7a78f2c4cf2f188fa",
+      "role-contract": "b5d8405a7a3203b1df97328f06b8afa74ef4133b76b79bce0a121bf5dd9eae06",
+      "validation": "10831c33f2db39a91392a1a27a3ad4cdc2e6d00b9ed07f8d5b2f9d2b79d95cdc"
+    },
+    "created_at": "2026-10-02T09:12:03.145849+00:00",
+    "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "qualification_id": "429045e09ca75d99d5b70c584e5c493cda4de426edce0be7a78f2c4cf2f188fa",
+    "semantic_sha256": "429045e09ca75d99d5b70c584e5c493cda4de426edce0be7a78f2c4cf2f188fa"
+  },
+  "target": "EDX-4MA1-F-2.8-A",
+  "trusted_writes": false,
+  "ui_changed": false,
+  "verdict": "PASS"
+}

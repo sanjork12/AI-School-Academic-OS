@@ -1,0 +1,298 @@
+{
+  "legacy_role_compatibility": {
+    "SL-01": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-02": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-03": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-04": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-05": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-06": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-07": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-08": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-09": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-10": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-11": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-12": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-13": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-14": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER",
+    "SL-15": "UNSUPPORTED_NO_TOPIC2_PROFILE_ADAPTER"
+  },
+  "mandatory_sequence": [],
+  "optional_roles": [
+    "non_assessing_summary"
+  ],
+  "profile_selected": false,
+  "purpose": "NON_EXECUTABLE_PLANNING_CONSTRAINTS",
+  "required_roles": [
+    "scope_framing",
+    "approved_representation",
+    "approved_concept_check"
+  ],
+  "roles": [
+    {
+      "enabled_for_authoring": false,
+      "family": "framing",
+      "legacy_role_ids": [
+        "SL-01"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "EXACT_LEARNING_SCOPE_BINDING_REQUIRED",
+      "requirement": "required",
+      "role_key": "scope_framing"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "framing",
+      "legacy_role_ids": [
+        "SL-15"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "SUMMARY_ONLY_NO_EXIT_CHECK_INFERRED",
+      "requirement": "optional",
+      "role_key": "non_assessing_summary"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "concept",
+      "legacy_role_ids": [
+        "SL-02",
+        "SL-03",
+        "SL-04",
+        "SL-13"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "CONCEPT_MEANING_AND_RETRIEVAL_ADAPTER_UNAVAILABLE",
+      "requirement": "unsupported",
+      "role_key": "concept_explanation_retrieval"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "method",
+      "legacy_role_ids": [
+        "SL-05"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "NO_REVIEWED_CALCULATION_METHOD_ADAPTER",
+      "requirement": "unsupported",
+      "role_key": "method_formula_instruction"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "demonstration",
+      "legacy_role_ids": [
+        "SL-06",
+        "SL-07",
+        "SL-08",
+        "SL-09"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "NO_SUPPORTED_DATA_TASK_OR_WORKED_EXAMPLE_SCOPE",
+      "requirement": "unsupported",
+      "role_key": "data_backed_demonstration"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "practice",
+      "legacy_role_ids": [
+        "SL-10",
+        "SL-11",
+        "SL-12"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "NO_SUPPORTED_NUMERICAL_TASK_CONTRACT",
+      "requirement": "unsupported",
+      "role_key": "numerical_calculation_practice"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "assessment",
+      "legacy_role_ids": [
+        "SL-04",
+        "SL-13",
+        "SL-14",
+        "SL-15"
+      ],
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_POLICY"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "policy:governed-pedagogical-readiness/1",
+          "academic_os/profiled_pedagogy.py"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "bounded-role-admission/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "BROADER_ASSESSMENT_ROLE_MAPPING_UNAVAILABLE",
+      "requirement": "unsupported",
+      "role_key": "assessment_check"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "REPRESENTATION",
+      "legacy_role_ids": [],
+      "provenance": {
+        "classifications": [
+          "LEARNING_SPEC_DERIVED",
+          "APPROVED_PEDAGOGICAL_EVIDENCE",
+          "DETERMINISTIC_POLICY",
+          "HUMAN_REVIEWED"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "pack:828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+          "review:f82660fd73cbd17b68182e34dd8fe17ced3a57958d78d20e6f2855e0ee723f8f",
+          "consumer:approved-pedagogical-evidence-consumer/1"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "exact-approved-component-consumption/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "EXACT_APPROVED_ROLE_FAMILY",
+      "requirement": "required",
+      "role_key": "approved_representation"
+    },
+    {
+      "enabled_for_authoring": false,
+      "family": "CONCEPT_CHECK",
+      "legacy_role_ids": [],
+      "provenance": {
+        "classifications": [
+          "LEARNING_SPEC_DERIVED",
+          "APPROVED_PEDAGOGICAL_EVIDENCE",
+          "DETERMINISTIC_POLICY",
+          "HUMAN_REVIEWED"
+        ],
+        "evidence_refs": [
+          "learning:263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+          "pack:828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+          "review:f82660fd73cbd17b68182e34dd8fe17ced3a57958d78d20e6f2855e0ee723f8f",
+          "consumer:approved-pedagogical-evidence-consumer/1"
+        ],
+        "learning_intention_ids": [
+          "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953"
+        ],
+        "rule": "exact-approved-component-consumption/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "reason_code": "EXACT_APPROVED_ROLE_FAMILY",
+      "requirement": "required",
+      "role_key": "approved_concept_check"
+    }
+  ],
+  "schema_version": "governed-pedagogical-role-contract/1",
+  "unsupported_roles": [
+    "concept_explanation_retrieval",
+    "method_formula_instruction",
+    "data_backed_demonstration",
+    "numerical_calculation_practice",
+    "assessment_check"
+  ]
+}

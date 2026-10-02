@@ -1,0 +1,176 @@
+[
+  {
+    "path": "academic_os/ai_qualification/reference_baseline.py",
+    "observed_sha256": "70d1a7f4f0e6e18377e26a071091112d91054bf30a525678f3ba9e8ba1eac1a6",
+    "restored_sha256": "24070e9d5eb4be493b2261884e19d62a4eadfc7044a30af34e2c09cc5a8c309c",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "academic_os/curriculum_capability/evidence_manifest.json",
+    "observed_sha256": "156c432d9441f9d01f8e5c7940417a80382f22dfe9a446d5c5b1974d761f2163",
+    "restored_sha256": "aefe33ea9eec5094422b3b386707b28245bccc7a077301f4b07e8cc398b50ebf",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "academic_os/governed_pedagogy/role_evidence.json",
+    "observed_sha256": "609e51d3be9f5843cbceb26e6a69d4b0752552ac1cd457de6c88e301107e86f6",
+    "restored_sha256": "d1462e1fa40038e883d0d75024fb0fb9aa53123ce230a8719789a8ae2e6ba13a",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui3b/backend-tests.json",
+    "observed_sha256": "5de49818b680f755f56ce34fb84136ffa5d452068c20ac6e2426b9ea0a91cbd6",
+    "restored_sha256": "4c98b276d29ab03fcd3ad410b3cc3cb6e604244bc9be2236940da5e204216fb7",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui3b/backend-tests.txt",
+    "observed_sha256": "c721018d539f8d2458c5c5357e5e4a64ec24c046f329f972bf706297594164ab",
+    "restored_sha256": "85e0cbc44cac359e8c2ce58c89945e86a975a020fb057cba73eab68e928b999d",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui3b/before.json",
+    "observed_sha256": "39dacc4c91a00c0f45bbd2aedb465d6ce71cf66f9a79f7744ae0eeac32900c71",
+    "restored_sha256": "733cb5912bf56e18eeb74a7caa45445d1f51c347fc850059667cecf8326c4a9b",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui3b/postfreeze-tests.json",
+    "observed_sha256": "f2e0bfab298263f62f04ee1b04d1f675bf45a10e0bdfe9bdd04a2dad73b05863",
+    "restored_sha256": "004e17b21543112124727f5fb519a4f0010aaa625238b241805901d88d1478ef",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui3b/postfreeze-tests.txt",
+    "observed_sha256": "3947c7499823b7761526716c99ad15fe88b559f0e76727c87b9adf6bd76b3f4d",
+    "restored_sha256": "348824907e53965336c88ad14cf1d3097c7705102618278f0db4845aecaad36d",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui4_learning_specification/backend-tests.json",
+    "observed_sha256": "661bf9765852accb8fa47e2e887d1c166d80ab4bfde65e9de25d4316a12eeddf",
+    "restored_sha256": "1da32d08b7f714a10d4be53e870cec0736831ab6b7304bfaf3de74388be16f9e",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui4_learning_specification/backend-tests.txt",
+    "observed_sha256": "8437045c6dc768adef95cd80954a8019695359a647656c7532bb7673a75bb236",
+    "restored_sha256": "455b2e345eb31bda65b369c09f3b5a32d01475e16fce0adc92a6fab6f3132178",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui4_learning_specification/before.json",
+    "observed_sha256": "aaa6f6ba282b965c04efd4dcebc81475b40681f9e1fd8d8546f88b405166f57b",
+    "restored_sha256": "23fd8e2eb073ed7b8aca176e06dc965bb25d0b09a964cbe1bd853a08f6ef4213",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui4_learning_specification/inspection.json",
+    "observed_sha256": "561c5d466608633d24366a0760b31422437b477e5e4bab648f93f04a2e9519e2",
+    "restored_sha256": "d93d59c5242d5044700555c79e33c0e8c594c50702153e220865032f590d72fa",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui4_learning_specification/postfreeze-tests.json",
+    "observed_sha256": "38e1729f7d7d44c9719c1cfd1eafaf0b2f604499413fe2d6f554fb1ca555cb6d",
+    "restored_sha256": "a1f2d92abcd09b733108dad750e6e2b47fe07534650f6244435501d2f87a029b",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui4_learning_specification/postfreeze-tests.txt",
+    "observed_sha256": "88bbbbbe79141713856aeb4ece3db7653df638c87234a33f7c78af99338c55b5",
+    "restored_sha256": "88fc1fee9b597933dcb106b89b8ff426bd4b14da3f3d7887a86429b0a88cb791",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5_pedagogical_specification/backend-tests.json",
+    "observed_sha256": "5b6b470ee7ea2726edd647d314ae21b2f23a258b8431bee405929e6f9396d4fa",
+    "restored_sha256": "ab51b6c2ed95893dae0fca214ad3b9a15c8b3ddbb5986ccdc79fa6a0d2346bfc",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5_pedagogical_specification/backend-tests.txt",
+    "observed_sha256": "2e38e7af0585fe2ee5c1252bd1cc0cd0724283841fa1f2630555fc2052d92b41",
+    "restored_sha256": "b8dcb0f13e91fa6dc2bd3fadbb4e6469bffeeebe60dc87ef75c7a5149578341f",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5_pedagogical_specification/before.json",
+    "observed_sha256": "fec609fb18374c71332699d76e9a3b749aef2015091942cc879d34c4338cdaf4",
+    "restored_sha256": "c306769466aacaf0c9bc5a441d842ba24495a5bb1be08b132ffdfee71015295f",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5_pedagogical_specification/inspection.json",
+    "observed_sha256": "c5b8a404848a35f7c841eb163a682a94edd1ba5d54f5edcde953165dbd6c372d",
+    "restored_sha256": "839e3ce3e7625a3dcf4ea74c04d91456cdf7be03eb08c550c0d3e47c4adb4749",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5_pedagogical_specification/postfreeze-tests.json",
+    "observed_sha256": "db5984fce50e8204677c279e057efeb8ebbf1d95fe279aa00d7595942ed12e52",
+    "restored_sha256": "4792a010654056903f70f008143d9aab51ff707b3d507c84983f2ec86d17fc36",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5_pedagogical_specification/postfreeze-tests.txt",
+    "observed_sha256": "d617eb59ac3cca26a7454313cab5c27b9a57a461691d64832a8b5a7225ddea6f",
+    "restored_sha256": "ecf37d730976f6ac847eaab578b292360005ee36908aa9644673b61bec607ff1",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5a_pedagogical_evidence/backend-tests.json",
+    "observed_sha256": "555c75065ad2d102d8acd7babd9e9feb731f470fc8888e9e2f5e056d045dca47",
+    "restored_sha256": "2d3cffc6bfa476c5ff3ba2c0d39aa5db953a433af1038cf73befb8bf63c42742",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5a_pedagogical_evidence/backend-tests.txt",
+    "observed_sha256": "983aa68c158c9964fdf66d371e0aea394b3a7982871c63375bc6fe14f0c653ce",
+    "restored_sha256": "52ded3d4e33273eb3427c9626e42bef116f4614778f3de1a87e7f4a8b1d8669b",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5a_pedagogical_evidence/upstream-tests.json",
+    "observed_sha256": "f650994df36da5f6cb1d23569ed12c8f02706e415a94fe4a9c11851885d302f5",
+    "restored_sha256": "d3498ab88eba882a5f20aafbf23fe0862e5c55a05e8fb965904c82b2551a423c",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5a_pedagogical_evidence/upstream-tests.txt",
+    "observed_sha256": "0a4a2cbcd84dead6e77281b57324f66449be5b8a24a6638efd3b1a2367c00aa0",
+    "restored_sha256": "e3c4118013f7a4044d3cd013fc17df5856e2a46fe287fcb516829d71cff6cdee",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "tests_p0/test_reference_revision.py",
+    "observed_sha256": "ef7c53a7db8bd7a5cebc9b31badde5e533712ac0509bd02943be0dd6b241194e",
+    "restored_sha256": "a4b0c3903a6374996ca083ffc290a3c384b962af2e430ae2bf0311b645fa141c",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5a_pedagogical_evidence/postfreeze-tests.json",
+    "observed_sha256": "d11e3b4e1fc3d88fd70d5afccffa2a1b0aca5adbe33561e919c3f036cfbf7b8c",
+    "restored_sha256": "36f7765b26aad1a28889edf3dd2ce099a3ead65b7f5ee15a39958f5f34e5d56c",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5a_pedagogical_evidence/postfreeze-tests.txt",
+    "observed_sha256": "612960d4be0a27b253bfdcf000ae581b88eebe0480cf9319e716ca6498ec5062",
+    "restored_sha256": "daa68c3ac8b80f86ac6bc62b382752575de54b86cc1790a39cbe0ac706923e15",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5b_live_pedagogical_qualification/resume-01/review-comparison.html",
+    "observed_sha256": "e302e2c64e9b11738287b7c90ca0f4de7098aed600cd0eac7944b0241704067a",
+    "restored_sha256": "2bc2897056c912c0b2157ba82430083e6a2dd30c0033541ce85b66a06d6d1a17",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  },
+  {
+    "path": "output/p6ui5c_human_pedagogical_review/human-decision-original.txt",
+    "observed_sha256": "49205bbd3936c2aa27dd8e953c5d3b9e153b53aee353582f00c7a8747c427c6d",
+    "restored_sha256": "d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43",
+    "reason": "Exact original bytes recovered by newline-only conversion"
+  }
+]

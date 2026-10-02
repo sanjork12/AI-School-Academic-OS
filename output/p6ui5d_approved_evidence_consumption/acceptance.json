@@ -1,0 +1,127 @@
+{
+  "baseline": {
+    "active_reference_version": "v1.14",
+    "manifest_path": "output/reference_freeze_v1_14/reference_manifest.json",
+    "manifest_sha256": "9f1e1dea034efe8c9d9157c417e524763d17dafe8429280efd1d362f12fcaafb",
+    "protected_files": 1988
+  },
+  "conformance": {
+    "errors": [],
+    "manifest_sha256": "9f1e1dea034efe8c9d9157c417e524763d17dafe8429280efd1d362f12fcaafb",
+    "reference_version": "v1.14",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "construction_schema": "governed-pedagogical-specification/1",
+  "consumer_schema": "approved-pedagogical-evidence-consumer/1",
+  "integrity": {
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1877,
+    "legacy_hashes": {
+      "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+      "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+      "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+    },
+    "model_calls": 0,
+    "review_and_credentials_unchanged": true,
+    "standard_deviation_unchanged": true,
+    "trusted_state_unchanged": true
+  },
+  "known_limitations": [
+    "Real credential replay requires original Windows user DPAPI context",
+    "Concrete lesson mapping and role content contracts/validators remain unavailable",
+    "Schema /1 has an additive optional approved_evidence field; external strict consumers may require updates"
+  ],
+  "lesson_content_generated": false,
+  "milestone": "P6UI.5D",
+  "model_calls": 0,
+  "negative_cases_rejected": 19,
+  "newline_drift_recovery": {
+    "evidence": "newline-recovery.json",
+    "files": 29,
+    "method": "Only conversions reproducing original recorded byte hashes were applied"
+  },
+  "pack_modified": false,
+  "provider_api_calls": 0,
+  "remaining_gaps": [
+    "concrete_role_mapping",
+    "authoring_contract",
+    "content_provenance_constraints",
+    "REPRESENTATION_CONTENT_VALIDATOR",
+    "CONCEPT_CHECK_CONTENT_VALIDATOR"
+  ],
+  "result": {
+    "after": "ELIGIBLE_WITH_WARNINGS",
+    "authoring_gate_valid": true,
+    "before": "REVIEW_REQUIRED",
+    "consumer_valid": true,
+    "deterministic": true,
+    "eligibility_valid": true,
+    "inherited_warnings": 12,
+    "integrity": {
+      "historical_artifacts_unchanged": true,
+      "historical_files_checked": 1877,
+      "legacy_hashes": {
+        "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+        "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+        "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+      },
+      "model_calls": 0,
+      "review_and_credentials_unchanged": true,
+      "standard_deviation_unchanged": true,
+      "trusted_state_unchanged": true
+    },
+    "lesson_authoring": "BLOCKED",
+    "model_calls": 0,
+    "negative_cases": 19,
+    "pack_hash": "828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+    "pack_identity": "46e11a1b1a56b12fefc692a8d2a12af005235f2db0b223bca346a7033163fa17",
+    "replay": true,
+    "role_contract_valid": true,
+    "spec_valid": true,
+    "spec_warnings": 13,
+    "specification_hash": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+    "status": "PASS"
+  },
+  "review_decisions_modified": false,
+  "target": "EDX-4MA1-F-2.8-A",
+  "tests": {
+    "backend-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_approved_pedagogical_consumption",
+        "tests_p0.test_pedagogy_evidence",
+        "tests_p0.test_governed_pedagogy",
+        "tests_p0.test_governed_learning",
+        "tests_p0.test_pedagogical_specification",
+        "tests_p0.test_pedagogical_validation",
+        "tests_p0.test_lesson_profiles",
+        "tests_p0.test_syllabus_ingestion",
+        "tests_p0.test_curriculum_capability"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 317
+    },
+    "postfreeze-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_reference_freeze",
+        "tests_p0.test_reference_revision",
+        "tests_p0.test_ai_qualification",
+        "tests_p0.test_sl11_authoring"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 96
+    }
+  },
+  "tier": "Foundation",
+  "total_successful_test_executions": 413,
+  "verdict": "PASS"
+}

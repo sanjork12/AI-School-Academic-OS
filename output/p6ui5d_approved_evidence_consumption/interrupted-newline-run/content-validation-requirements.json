@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "available": true,
+      "key": "pedagogical_spec_valid"
+    },
+    {
+      "available": true,
+      "key": "approved_evidence_bound"
+    },
+    {
+      "available": true,
+      "key": "role_families_determined"
+    },
+    {
+      "available": false,
+      "key": "concrete_role_mapping"
+    },
+    {
+      "available": false,
+      "key": "authoring_contract"
+    },
+    {
+      "available": false,
+      "key": "content_provenance_constraints"
+    },
+    {
+      "available": false,
+      "key": "REPRESENTATION_CONTENT_VALIDATOR"
+    },
+    {
+      "available": false,
+      "key": "CONCEPT_CHECK_CONTENT_VALIDATOR"
+    }
+  ],
+  "concrete_role_mapping": [],
+  "content_generated": false,
+  "family_contracts": {
+    "CONCEPT_CHECK": {
+      "checks": [
+        "intention and criterion coverage",
+        "observable student evidence",
+        "no unreviewed assessment claims",
+        "proposal and content provenance"
+      ],
+      "status": "REQUIRED_NOT_IMPLEMENTED"
+    },
+    "REPRESENTATION": {
+      "checks": [
+        "exact approved symbol scope",
+        "source/canonical separation",
+        "observable representation",
+        "proposal and content provenance"
+      ],
+      "status": "REQUIRED_NOT_IMPLEMENTED"
+    }
+  },
+  "schema_version": "role-content-validation-requirements/1"
+}

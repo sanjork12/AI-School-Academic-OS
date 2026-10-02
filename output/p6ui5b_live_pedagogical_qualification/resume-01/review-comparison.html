@@ -1,0 +1,657 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>P6UI.5B neutral candidate comparison</title><style>body{font:15px system-ui;margin:28px;color:#172033;background:#fafafa}table{border-collapse:collapse;width:100%}th,td{border:1px solid #bbb;padding:12px;vertical-align:top;text-align:left}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;min-width:240px}h1{font-size:24px}.scroll{overflow:auto}a{color:#174ea6}</style><h1>P6UI.5B — human review comparison</h1><p>EDX-4MA1-F-2.8-A · Foundation · gpt-5.6-sol. Differences only; no winner or quality score. VALID_FOR_HUMAN_REVIEW does not mean approved.</p><p>Frozen brief SHA-256: e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f</p><p>Official source: understand and use the symbols &gt;,&lt;,  and </p><p>Reviewed canonical meaning: Understand and use the symbols &gt;, &lt;, ≥ and ≤.</p><div class="scroll"><table><thead><tr><th>Contract component</th><th>attempt-01<br><a href="human-review-bundles/attempt-01.json">Full review bundle</a></th><th>attempt-02<br><a href="human-review-bundles/attempt-02.json">Full review bundle</a></th><th>attempt-03<br><a href="human-review-bundles/attempt-03.json">Full review bundle</a></th><th>attempt-04<br><a href="human-review-bundles/attempt-04.json">Full review bundle</a></th><th>attempt-05<br><a href="human-review-bundles/attempt-05.json">Full review bundle</a></th></tr></thead><tbody><tr><th>Roles</th><td><pre>[
+  &quot;REPRESENTATION&quot;,
+  &quot;CONCEPT_CHECK&quot;
+]</pre></td><td><pre>[
+  &quot;REPRESENTATION&quot;,
+  &quot;CONCEPT_CHECK&quot;
+]</pre></td><td><pre>[
+  &quot;REPRESENTATION&quot;,
+  &quot;CONCEPT_CHECK&quot;
+]</pre></td><td><pre>[
+  &quot;REPRESENTATION&quot;,
+  &quot;CONCEPT_CHECK&quot;
+]</pre></td><td><pre>[
+  &quot;REPRESENTATION&quot;,
+  &quot;CONCEPT_CHECK&quot;
+]</pre></td></tr><tr><th>Success criteria</th><td><pre>[
+  {
+    &quot;conditions&quot;: &quot;SYMBOL_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;INTERPRET_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;MEANING_MATCHES_REVIEWED_SYMBOL&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;conditions&quot;: &quot;RELATION_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;SELECT_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;SYMBOL_MATCHES_STATED_RELATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;conditions&quot;: &quot;RELATION_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;SELECT_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;SYMBOL_MATCHES_STATED_RELATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;conditions&quot;: &quot;SYMBOL_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;INTERPRET_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;MEANING_MATCHES_REVIEWED_SYMBOL&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;conditions&quot;: &quot;RELATION_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;SELECT_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;SYMBOL_MATCHES_STATED_RELATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;conditions&quot;: &quot;SYMBOL_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;INTERPRET_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;MEANING_MATCHES_REVIEWED_SYMBOL&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;conditions&quot;: &quot;RELATION_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;SELECT_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;SYMBOL_MATCHES_STATED_RELATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;conditions&quot;: &quot;SYMBOL_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;INTERPRET_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;MEANING_MATCHES_REVIEWED_SYMBOL&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;conditions&quot;: &quot;RELATION_REPRESENTATION&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;linked_learning_intention&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;observable_student_action&quot;: &quot;SELECT_SYMBOL&quot;,
+    &quot;quality_or_completion_rule&quot;: &quot;SYMBOL_MATCHES_STATED_RELATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td></tr><tr><th>Activity constraints</th><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;category&quot;: &quot;REPRESENTATION&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-1&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;category&quot;: &quot;CONCEPT_CHECK&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-2&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;category&quot;: &quot;REPRESENTATION&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-1&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;category&quot;: &quot;REPRESENTATION&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-1&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;category&quot;: &quot;CONCEPT_CHECK&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-2&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;category&quot;: &quot;REPRESENTATION&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-1&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;category&quot;: &quot;CONCEPT_CHECK&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-2&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;category&quot;: &quot;REPRESENTATION&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-1&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;category&quot;: &quot;CONCEPT_CHECK&quot;,
+    &quot;criterion_ids&quot;: [
+      &quot;SC-2&quot;
+    ],
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;response_mode&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;scope&quot;: &quot;REVIEWED_INEQUALITY_SYMBOLS_ONLY&quot;
+  }
+]</pre></td></tr><tr><th>Check alignment</th><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;check_id&quot;: &quot;CHK-1&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;check_id&quot;: &quot;CHK-2&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;check_id&quot;: &quot;CHK-1&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;check_id&quot;: &quot;CHK-1&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;check_id&quot;: &quot;CHK-2&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;check_id&quot;: &quot;CHK-1&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;check_id&quot;: &quot;CHK-2&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  }
+]</pre></td><td><pre>[
+  {
+    &quot;activity_id&quot;: &quot;ACT-1&quot;,
+    &quot;check_id&quot;: &quot;CHK-1&quot;,
+    &quot;criterion_id&quot;: &quot;SC-1&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_INTERPRETATION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  },
+  {
+    &quot;activity_id&quot;: &quot;ACT-2&quot;,
+    &quot;check_id&quot;: &quot;CHK-2&quot;,
+    &quot;criterion_id&quot;: &quot;SC-2&quot;,
+    &quot;evidence_basis&quot;: {
+      &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+      &quot;classification&quot;: &quot;PROPOSED&quot;,
+      &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+      &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+      &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+    },
+    &quot;evidence_form&quot;: &quot;SYMBOL_SELECTION&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;prohibited_shortcut&quot;: &quot;NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE&quot;
+  }
+]</pre></td></tr><tr><th>Adapter</th><td><pre>{
+  &quot;action_meaning&quot;: &quot;Understand and use the symbols &gt;, &lt;, ≥ and ≤.&quot;,
+  &quot;activity_ids&quot;: [
+    &quot;ACT-1&quot;,
+    &quot;ACT-2&quot;
+  ],
+  &quot;candidate_role_families&quot;: [
+    &quot;REPRESENTATION&quot;,
+    &quot;CONCEPT_CHECK&quot;
+  ],
+  &quot;canonical_id&quot;: &quot;CAN-ALG-INEQ-SYMBOLS&quot;,
+  &quot;check_ids&quot;: [
+    &quot;CHK-1&quot;,
+    &quot;CHK-2&quot;
+  ],
+  &quot;criterion_ids&quot;: [
+    &quot;SC-1&quot;,
+    &quot;SC-2&quot;
+  ],
+  &quot;evidence_basis&quot;: {
+    &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+    &quot;classification&quot;: &quot;PROPOSED&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+    &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+  },
+  &quot;executable&quot;: false,
+  &quot;schema_version&quot;: &quot;pedagogical-adapter/1&quot;
+}</pre></td><td><pre>{
+  &quot;action_meaning&quot;: &quot;Understand and use the symbols &gt;, &lt;, ≥ and ≤.&quot;,
+  &quot;activity_ids&quot;: [
+    &quot;ACT-1&quot;
+  ],
+  &quot;candidate_role_families&quot;: [
+    &quot;REPRESENTATION&quot;,
+    &quot;CONCEPT_CHECK&quot;
+  ],
+  &quot;canonical_id&quot;: &quot;CAN-ALG-INEQ-SYMBOLS&quot;,
+  &quot;check_ids&quot;: [
+    &quot;CHK-1&quot;
+  ],
+  &quot;criterion_ids&quot;: [
+    &quot;SC-1&quot;
+  ],
+  &quot;evidence_basis&quot;: {
+    &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+    &quot;classification&quot;: &quot;PROPOSED&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+    &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+  },
+  &quot;executable&quot;: false,
+  &quot;schema_version&quot;: &quot;pedagogical-adapter/1&quot;
+}</pre></td><td><pre>{
+  &quot;action_meaning&quot;: &quot;Understand and use the symbols &gt;, &lt;, ≥ and ≤.&quot;,
+  &quot;activity_ids&quot;: [
+    &quot;ACT-1&quot;,
+    &quot;ACT-2&quot;
+  ],
+  &quot;candidate_role_families&quot;: [
+    &quot;REPRESENTATION&quot;,
+    &quot;CONCEPT_CHECK&quot;
+  ],
+  &quot;canonical_id&quot;: &quot;CAN-ALG-INEQ-SYMBOLS&quot;,
+  &quot;check_ids&quot;: [
+    &quot;CHK-1&quot;,
+    &quot;CHK-2&quot;
+  ],
+  &quot;criterion_ids&quot;: [
+    &quot;SC-1&quot;,
+    &quot;SC-2&quot;
+  ],
+  &quot;evidence_basis&quot;: {
+    &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+    &quot;classification&quot;: &quot;PROPOSED&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+    &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+  },
+  &quot;executable&quot;: false,
+  &quot;schema_version&quot;: &quot;pedagogical-adapter/1&quot;
+}</pre></td><td><pre>{
+  &quot;action_meaning&quot;: &quot;Understand and use the symbols &gt;, &lt;, ≥ and ≤.&quot;,
+  &quot;activity_ids&quot;: [
+    &quot;ACT-1&quot;,
+    &quot;ACT-2&quot;
+  ],
+  &quot;candidate_role_families&quot;: [
+    &quot;REPRESENTATION&quot;,
+    &quot;CONCEPT_CHECK&quot;
+  ],
+  &quot;canonical_id&quot;: &quot;CAN-ALG-INEQ-SYMBOLS&quot;,
+  &quot;check_ids&quot;: [
+    &quot;CHK-1&quot;,
+    &quot;CHK-2&quot;
+  ],
+  &quot;criterion_ids&quot;: [
+    &quot;SC-1&quot;,
+    &quot;SC-2&quot;
+  ],
+  &quot;evidence_basis&quot;: {
+    &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+    &quot;classification&quot;: &quot;PROPOSED&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+    &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+  },
+  &quot;executable&quot;: false,
+  &quot;schema_version&quot;: &quot;pedagogical-adapter/1&quot;
+}</pre></td><td><pre>{
+  &quot;action_meaning&quot;: &quot;Understand and use the symbols &gt;, &lt;, ≥ and ≤.&quot;,
+  &quot;activity_ids&quot;: [
+    &quot;ACT-1&quot;,
+    &quot;ACT-2&quot;
+  ],
+  &quot;candidate_role_families&quot;: [
+    &quot;REPRESENTATION&quot;,
+    &quot;CONCEPT_CHECK&quot;
+  ],
+  &quot;canonical_id&quot;: &quot;CAN-ALG-INEQ-SYMBOLS&quot;,
+  &quot;check_ids&quot;: [
+    &quot;CHK-1&quot;,
+    &quot;CHK-2&quot;
+  ],
+  &quot;criterion_ids&quot;: [
+    &quot;SC-1&quot;,
+    &quot;SC-2&quot;
+  ],
+  &quot;evidence_basis&quot;: {
+    &quot;brief_hash&quot;: &quot;e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f&quot;,
+    &quot;classification&quot;: &quot;PROPOSED&quot;,
+    &quot;intention_id&quot;: &quot;c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953&quot;,
+    &quot;origin&quot;: &quot;MODEL_PROPOSED&quot;,
+    &quot;source_id&quot;: &quot;EDX-4MA1-F-2.8-A&quot;
+  },
+  &quot;executable&quot;: false,
+  &quot;schema_version&quot;: &quot;pedagogical-adapter/1&quot;
+}</pre></td></tr></tbody></table></div><h2>Deterministic repetition analysis</h2><pre>{
+  &quot;scope&quot;: &quot;Valid candidates only; malformed/rejected structures are not normalized&quot;,
+  &quot;normalization&quot;: &quot;Ignore local IDs and ordering; replace all references with their semantic content; exclude shared brief/provenance. Preserve duplicate multiplicity and all pedagogical fields. No edits to original proposals.&quot;,
+  &quot;exact_distinct_proposals&quot;: 2,
+  &quot;normalized_distinct_proposals&quot;: 2,
+  &quot;component_distinct_counts&quot;: {
+    &quot;success_criteria&quot;: 2,
+    &quot;activity_scope&quot;: 2,
+    &quot;check_alignment&quot;: 2,
+    &quot;pedagogical_adapter&quot;: 2
+  },
+  &quot;role_family_distinct_count&quot;: 1,
+  &quot;valid_candidate_count&quot;: 5,
+  &quot;quality_ranking&quot;: null
+}</pre><h2>Inherited warnings</h2><pre>[
+  {
+    &quot;code&quot;: &quot;SYMBOL_EXTRACTION_WARNING&quot;,
+    &quot;message&quot;: &quot;Extracted symbols require comparison with the PDF; no repair was attempted.&quot;,
+    &quot;page&quot;: 22
+  },
+  {
+    &quot;code&quot;: &quot;PARSER_WARNING&quot;,
+    &quot;message&quot;: &quot;The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;PARSER_WARNING&quot;,
+    &quot;message&quot;: &quot;Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;VALIDATION_WARNING&quot;,
+    &quot;message&quot;: &quot;Parser reported 2 warning(s).&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;HUMAN_REVIEW_REQUIRED&quot;,
+    &quot;message&quot;: &quot;Uploaded source and mappings have no target-specific approval or trusted snapshot binding.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;BOUNDED_CONSTRUCTION_ONLY&quot;,
+    &quot;message&quot;: &quot;Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE&quot;,
+    &quot;message&quot;: &quot;success_criteria: no governed evidence; no claim constructed.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;PREREQUISITE_EVIDENCE_UNAVAILABLE&quot;,
+    &quot;message&quot;: &quot;prerequisites: no governed evidence; no claim constructed.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;MISCONCEPTION_EVIDENCE_UNAVAILABLE&quot;,
+    &quot;message&quot;: &quot;known_misconceptions: no governed evidence; no claim constructed.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;CONCEPT_MEANING_EVIDENCE_UNAVAILABLE&quot;,
+    &quot;message&quot;: &quot;conceptual_knowledge: no governed evidence; no claim constructed.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE&quot;,
+    &quot;message&quot;: &quot;concept_skill_task_relations: no governed evidence; no claim constructed.&quot;,
+    &quot;page&quot;: null
+  },
+  {
+    &quot;code&quot;: &quot;REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE&quot;,
+    &quot;message&quot;: &quot;assessment_evidence: no governed evidence; no claim constructed.&quot;,
+    &quot;page&quot;: null
+  }
+]</pre></html>

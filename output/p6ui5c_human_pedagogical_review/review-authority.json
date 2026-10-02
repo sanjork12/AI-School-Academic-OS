@@ -1,0 +1,9 @@
+{
+  "attestation_scope": "Local gateway records the user-confirmed decision, not independent identity certification",
+  "authority": "Explicit human user decision attached to this conversation",
+  "credential_location": "D:\\AI-School-Academic-OS\\tmp\\p6ui5c-human-review-authority\\key.dpapi",
+  "credential_protection": "Windows current-user DPAPI; plaintext never persisted",
+  "decision_source_sha256": "d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43",
+  "recovery": "Retain encrypted credential and the Windows user profile for future authenticated replay. No production default reviewer key was configured.",
+  "reviewer_id": "human-user:d60ff7b1-bbc7-4fcb-a243-894335961666"
+}

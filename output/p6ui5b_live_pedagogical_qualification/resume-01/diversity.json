@@ -1,0 +1,15 @@
+{
+  "component_distinct_counts": {
+    "activity_scope": 2,
+    "check_alignment": 2,
+    "pedagogical_adapter": 2,
+    "success_criteria": 2
+  },
+  "exact_distinct_proposals": 2,
+  "normalization": "Ignore local IDs and ordering; replace all references with their semantic content; exclude shared brief/provenance. Preserve duplicate multiplicity and all pedagogical fields. No edits to original proposals.",
+  "normalized_distinct_proposals": 2,
+  "quality_ranking": null,
+  "role_family_distinct_count": 1,
+  "scope": "Valid candidates only; malformed/rejected structures are not normalized",
+  "valid_candidate_count": 5
+}

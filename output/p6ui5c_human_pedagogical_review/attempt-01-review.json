@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-02T10:44:36.010566+00:00",
+  "review": {
+    "decisions": [
+      {
+        "component": "success_criteria",
+        "decision": "APPROVE",
+        "rationale": "The human reviewer confirms separate INTERPRET_SYMBOL and SELECT_SYMBOL coverage; observable success criteria bounded to REVIEWED_INEQUALITY_SYMBOLS_ONLY; permitted activity vocabulary; an aligned observable check per criterion; proposal-supported REPRESENTATION and CONCEPT_CHECK families; no Standard Deviation calculation pedagogy. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      },
+      {
+        "component": "activity_scope",
+        "decision": "APPROVE",
+        "rationale": "The human reviewer confirms separate INTERPRET_SYMBOL and SELECT_SYMBOL coverage; observable success criteria bounded to REVIEWED_INEQUALITY_SYMBOLS_ONLY; permitted activity vocabulary; an aligned observable check per criterion; proposal-supported REPRESENTATION and CONCEPT_CHECK families; no Standard Deviation calculation pedagogy. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      },
+      {
+        "component": "check_alignment",
+        "decision": "APPROVE",
+        "rationale": "The human reviewer confirms separate INTERPRET_SYMBOL and SELECT_SYMBOL coverage; observable success criteria bounded to REVIEWED_INEQUALITY_SYMBOLS_ONLY; permitted activity vocabulary; an aligned observable check per criterion; proposal-supported REPRESENTATION and CONCEPT_CHECK families; no Standard Deviation calculation pedagogy. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      },
+      {
+        "component": "pedagogical_adapter",
+        "decision": "APPROVE",
+        "rationale": "The human reviewer confirms separate INTERPRET_SYMBOL and SELECT_SYMBOL coverage; observable success criteria bounded to REVIEWED_INEQUALITY_SYMBOLS_ONLY; permitted activity vocabulary; an aligned observable check per criterion; proposal-supported REPRESENTATION and CONCEPT_CHECK families; no Standard Deviation calculation pedagogy. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      }
+    ],
+    "domain": "HUMAN_REVIEW",
+    "policy_version": "bounded-symbol-evidence-authoring/1",
+    "proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+    "purpose": "GOVERNED_PEDAGOGICAL_CONSTRUCTION_ONLY",
+    "reviewer_id": "human-user:d60ff7b1-bbc7-4fcb-a243-894335961666",
+    "schema_version": "pedagogical-evidence-review/1"
+  },
+  "semantic_hash": "f82660fd73cbd17b68182e34dd8fe17ced3a57958d78d20e6f2855e0ee723f8f",
+  "signature": "b4c15d7b327bfb79a4371b135399d183f930b02f30500afdcaf840a0c5eea4bb"
+}

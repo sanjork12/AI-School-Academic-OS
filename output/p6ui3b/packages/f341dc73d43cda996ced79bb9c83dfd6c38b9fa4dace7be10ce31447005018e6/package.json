@@ -1,0 +1,1714 @@
+{
+  "academically_approved": false,
+  "construction_version": "topic2-capability-construction/1",
+  "coverage": {
+    "canonical_mapped": 6,
+    "review_required": 3,
+    "selected_objectives": 25,
+    "unmapped": 16,
+    "warnings": 24
+  },
+  "eligibility": {
+    "CURRICULUM_BROWSABLE": {
+      "eligible": true,
+      "missing_requirements": [],
+      "reason_code": "VALIDATED_SOURCE_BOUND_CURRICULUM",
+      "status": "PASS_WITH_WARNINGS"
+    },
+    "LEARNING_SPEC_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "TARGET_SOURCE_VERIFICATION",
+        "TARGET_GOVERNED_CANONICAL_BINDINGS",
+        "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+        "REVIEWED_ASSESSMENT_EVIDENCE",
+        "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+        "TOPIC_CATALOG_ADAPTER",
+        "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1",
+        "RESOLVED_CANONICAL_SCOPE_OR_EXPLICIT_GOVERNED_PARTIAL_SCOPE"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "LESSON_AUTHORING_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_PEDAGOGICAL_SPECIFICATION",
+        "BOUNDED_AUTHORING_ADAPTER"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "PEDAGOGY_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_LEARNING_SPECIFICATION",
+        "BOUNDED_PEDAGOGY_ADAPTER"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "PRESENTATION_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "VALIDATED_AUTHORED_CONTENT",
+        "RENDERER_READY_PROFILE"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "QUESTION_AUTHORING_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_LEARNING_SPECIFICATION",
+        "REVIEWED_QUESTION_SCOPE_AND_POLICY"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    }
+  },
+  "evidence": {
+    "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+    "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+    "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+    "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9"
+  },
+  "model_calls": 0,
+  "objectives": [
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "a3c95849b18405489b1d7f19476d63f9776fdc3dbb45c96cc52dec0db6cfbd71",
+      "official_text": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.1-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.1",
+      "subtopic_name": "Use of symbols",
+      "subtopic_notes": [
+        "a³ = a × a × a",
+        "a⁵/a⁵ = 1; a⁰ = 1; a⁻¹ = 1/a",
+        "xᵐ × xⁿ = xᵐ⁺ⁿ; xᵐ ÷ xⁿ = xᵐ⁻ⁿ; (xᵐ)ⁿ = xᵐⁿ"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "B",
+      "objective_identity": "56916e9fc35153ed5f4e813e7146f45f9e9e369d2385291c4aae1fe144c167ff",
+      "official_text": "understand that algebraic expressions follow the generalised rules of arithmetic",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.1-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.1",
+      "subtopic_name": "Use of symbols",
+      "subtopic_notes": [
+        "a³ = a × a × a",
+        "a⁵/a⁵ = 1; a⁰ = 1; a⁻¹ = 1/a",
+        "xᵐ × xⁿ = xᵐ⁺ⁿ; xᵐ ÷ xⁿ = xᵐ⁻ⁿ; (xᵐ)ⁿ = xᵐⁿ"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "C",
+      "objective_identity": "f08b365cad36203bcb9865e405030e5a811f6870353d266f9655162f75d920ef",
+      "official_text": "use index notation for positive and negative integer powers (including zero)",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.1-C",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.1",
+      "subtopic_name": "Use of symbols",
+      "subtopic_notes": [
+        "a³ = a × a × a",
+        "a⁵/a⁵ = 1; a⁰ = 1; a⁻¹ = 1/a",
+        "xᵐ × xⁿ = xᵐ⁺ⁿ; xᵐ ÷ xⁿ = xᵐ⁻ⁿ; (xᵐ)ⁿ = xᵐⁿ"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "D",
+      "objective_identity": "f9b0177ff5fafa8001733bb014cf942ad9a9255bccc95d4cf4b613bb3391b2eb",
+      "official_text": "use index laws in simple cases",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.1-D",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.1",
+      "subtopic_name": "Use of symbols",
+      "subtopic_notes": [
+        "a³ = a × a × a",
+        "a⁵/a⁵ = 1; a⁰ = 1; a⁻¹ = 1/a",
+        "xᵐ × xⁿ = xᵐ⁺ⁿ; xᵐ ÷ xⁿ = xᵐ⁻ⁿ; (xᵐ)ⁿ = xᵐⁿ"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "16c5e2d50a18b23a05754c4bd3a6a0ee7c6ff95b3a4f94f4809d6ec93d768348",
+      "official_text": "evaluate expressions by substituting numerical values for letters",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.2-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "3(2x + 5)",
+        "Factorise fully 8xy² + 12y²",
+        "Expand and simplify (x + 8)(x − 5)",
+        "Factorise x2 + 10x + 24"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "B",
+      "objective_identity": "7b2588c7476f6868e23abde9d1db3951354ce484dfea9c907679f1112157db63",
+      "official_text": "collect like terms",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.2-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "3(2x + 5)",
+        "Factorise fully 8xy² + 12y²",
+        "Expand and simplify (x + 8)(x − 5)",
+        "Factorise x2 + 10x + 24"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "C",
+      "objective_identity": "875b56859aa713987f99ca82832b272ea8009d3f51873f841c7d8426a6a5cab8",
+      "official_text": "multiply a single term over a bracket",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.2-C",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "3(2x + 5)",
+        "Factorise fully 8xy² + 12y²",
+        "Expand and simplify (x + 8)(x − 5)",
+        "Factorise x2 + 10x + 24"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "D",
+      "objective_identity": "8cba6ed501c0cb2df6dcdc22692cfebb235dfcf8c5d72c074da34a183b9a6239",
+      "official_text": "take out common factors",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.2-D",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "3(2x + 5)",
+        "Factorise fully 8xy² + 12y²",
+        "Expand and simplify (x + 8)(x − 5)",
+        "Factorise x2 + 10x + 24"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "E",
+      "objective_identity": "9c7019f24ea8b6dc15bee23a117dc85f920cb2f684d6924dd05898f9934a3e1f",
+      "official_text": "expand the product of two simple linear expressions",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.2-E",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "3(2x + 5)",
+        "Factorise fully 8xy² + 12y²",
+        "Expand and simplify (x + 8)(x − 5)",
+        "Factorise x2 + 10x + 24"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "F",
+      "objective_identity": "3902fbfaa4cddeb5d45410b6bd95a96a588d859d223b9ddb748679181b2ff3f6",
+      "official_text": "understand the concept of a quadratic expression and be able to factorise such expressions (limited to x2 + bx + c)",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.2-F",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "3(2x + 5)",
+        "Factorise fully 8xy² + 12y²",
+        "Expand and simplify (x + 8)(x − 5)",
+        "Factorise x2 + 10x + 24"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "e418baa8292a3ff2420d03d4f4db4d9ef2be67999f47df13c0c9858c14adcf8d",
+      "official_text": "understand that a letter may represent an unknown number or a variable",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.3-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Evaluate 2x − 3y when x = 4 and y = −5",
+        "Make r the subject of A = πr²",
+        "Make t the subject of v = u + at"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "B",
+      "objective_identity": "53d056b77c8bae94709a3c7d688a7f7b4f11255332ade517c685e3fae7163ea8",
+      "official_text": "use correct notational conventions for algebraic expressions and formulae",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.3-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Evaluate 2x − 3y when x = 4 and y = −5",
+        "Make r the subject of A = πr²",
+        "Make t the subject of v = u + at"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "C",
+      "objective_identity": "0821c24432cabb61815a832d6da341cd1dee161214c0027de7a3a1f55e3a18be",
+      "official_text": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.3-C",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Evaluate 2x − 3y when x = 4 and y = −5",
+        "Make r the subject of A = πr²",
+        "Make t the subject of v = u + at"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "D",
+      "objective_identity": "fc75fcec4767f3286c8470a195f898a4dda85d8cccb5ce3c3493a8feee38ada5",
+      "official_text": "use formulae from mathematics and other real-life contexts expressed initially in words or diagrammatic form and convert to letters and symbols",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.3-D",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Evaluate 2x − 3y when x = 4 and y = −5",
+        "Make r the subject of A = πr²",
+        "Make t the subject of v = u + at"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "E",
+      "objective_identity": "f6584225817f7a78c12aeab3fc1fe57365dfb73946551d0f72f734f671a23980",
+      "official_text": "derive a formula or expression",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.3-E",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Evaluate 2x − 3y when x = 4 and y = −5",
+        "Make r the subject of A = πr²",
+        "Make t the subject of v = u + at"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "F",
+      "objective_identity": "84368ee84e49174eaeae57bbbc9bd427d9fb841faeb0a1a9641d0b562c10cac4",
+      "official_text": "change the subject of a formula where the subject appears once",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.3-F",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Evaluate 2x − 3y when x = 4 and y = −5",
+        "Make r the subject of A = πr²",
+        "Make t the subject of v = u + at"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+          "canonical_wording": "Solve linear equations in one unknown, including equations where the unknown appears on either or both sides.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-F-2.4-A",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "A",
+      "objective_identity": "eebdfb9b238c8956ae8ff3a3d91be893f7c537a0ca6367d971210d0c32958b0c",
+      "official_text": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.4-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.4",
+      "subtopic_name": "Linear equations",
+      "subtopic_notes": [
+        "5x + 8 = 12",
+        "7(x + 3) = 5x − 8",
+        "4x + 5/3 = 2",
+        "The three angles of a triangle are a°, (a + 10)°, (a + 20)°. Find the value of a"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-LINEAR-EQUATION-FORM",
+          "canonical_wording": "Set up simple linear equations from given data.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-F-2.4-B",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "B",
+      "objective_identity": "bae59968ec8db9f264c57d872d9ccba0ba59931b85383bde1ff7bf2d461cc438",
+      "official_text": "set up simple linear equations from given data",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.4-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.4",
+      "subtopic_name": "Linear equations",
+      "subtopic_notes": [
+        "5x + 8 = 12",
+        "7(x + 3) = 5x − 8",
+        "4x + 5/3 = 2",
+        "The three angles of a triangle are a°, (a + 10)°, (a + 20)°. Find the value of a"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-SIMLINEAR-SOLVE",
+          "canonical_wording": "Solve two simultaneous linear equations in two unknowns exactly.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-F-2.6-A",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "A",
+      "objective_identity": "8d93ef53d45d367d06884855542b13680da4344f7fe0f380a566317397736888",
+      "official_text": "calculate the exact solution of two simultaneous equations in two unknowns",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.6-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.6",
+      "subtopic_name": "Simultaneous linear equations",
+      "subtopic_notes": [
+        "x + y = 14, x − y = 2",
+        "2a + 5b = 12, 3a + b = 5"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-QUAD-FACTOR",
+          "canonical_wording": "Solve quadratic equations by factorisation.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-F-2.7-A",
+          "relationship": "narrower",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "A",
+      "objective_identity": "42e0135d3a50761a50fe32146421cb592b1e7b8436857728cc9494a705bfdd3e",
+      "official_text": "solve quadratic equations by factorisation (limited to x2 + bx + c = 0)",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.7-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.7",
+      "subtopic_name": "Quadratic equations",
+      "subtopic_notes": [
+        "Solve x2 + x − 30 = 0"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-SYMBOLS"
+      ],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+          "canonical_wording": "Understand and use the symbols >, <, ≥ and ≤.",
+          "decision_ids": [
+            "REV-4MA1-T2-INEQ-SYMBOLS-001"
+          ],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "RECORDED_DECISION",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-F-2.8-A",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "A",
+      "objective_identity": "c7af887480a533b9b5cffb8538b7fa1af913de74b20cadfac23c51cef09d112d",
+      "official_text": "understand and use the symbols >,<,  and ",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.8-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "To include double-ended inequalities e.g. 1 < x  5",
+        "3x − 2 < 10, so x < 4",
+        "7 − x  5, so x  2",
+        "3 < x + 2  5 so 1 < x  3",
+        "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+        "Conventions for the inclusion of boundaries are not required"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-INTERVAL-NUMBERLINE"
+      ],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "REVIEW_REQUIRED",
+      "objective_code": "B",
+      "objective_identity": "ea369c7a754a323e8fd67710d0a5cb189668cc1bcbec72108aa761239e05b565",
+      "official_text": "understand and use the convention for open and closed intervals on a number line",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.8-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "To include double-ended inequalities e.g. 1 < x  5",
+        "3x − 2 < 10, so x < 4",
+        "7 − x  5, so x  2",
+        "3 < x + 2  5 so 1 < x  3",
+        "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+        "Conventions for the inclusion of boundaries are not required"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-LINEAR-SOLVE-NUMBERLINE"
+      ],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "REVIEW_REQUIRED",
+      "objective_code": "C",
+      "objective_identity": "0d6459a2a7f4fabef1f4a1d7ca22e542bf4ab268f849d10b8dab285f946b39ca",
+      "official_text": "solve simple linear inequalities in one variable and represent the solution set on a number line",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.8-C",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "To include double-ended inequalities e.g. 1 < x  5",
+        "3x − 2 < 10, so x < 4",
+        "7 − x  5, so x  2",
+        "3 < x + 2  5 so 1 < x  3",
+        "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+        "Conventions for the inclusion of boundaries are not required"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-LINEAR-CARTESIAN-REPRESENT"
+      ],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "REVIEW_REQUIRED",
+      "objective_code": "D",
+      "objective_identity": "1974dd5bd5823c1104a5968ce1cf2d93b3952f009b384922f7f55302a2306886",
+      "official_text": "represent simple linear inequalities on rectangular Cartesian graphs",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.8-D",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "To include double-ended inequalities e.g. 1 < x  5",
+        "3x − 2 < 10, so x < 4",
+        "7 − x  5, so x  2",
+        "3 < x + 2  5 so 1 < x  3",
+        "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+        "Conventions for the inclusion of boundaries are not required"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-REGION-IDENTIFY"
+      ],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+          "canonical_wording": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+          "decision_ids": [
+            "REV-4MA1-T2-INEQ-REGION-001"
+          ],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "RECORDED_DECISION",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-F-2.8-E",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "E",
+      "objective_identity": "92bb1241dbd32f8d2401837ad4930adfb8a10ae159804ded12217b7eeff692b4",
+      "official_text": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-F-2.8-E",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "To include double-ended inequalities e.g. 1 < x  5",
+        "3x − 2 < 10, so x < 4",
+        "7 − x  5, so x  2",
+        "3 < x + 2  5 so 1 < x  3",
+        "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+        "Conventions for the inclusion of boundaries are not required"
+      ],
+      "tier": "Foundation",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        }
+      ]
+    }
+  ],
+  "schema_version": "academic-capability-package/1",
+  "source_binding": {
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "extraction_run_id": "0b269f4e0c1e4b54af4721f8ef9e2112",
+    "extraction_sha256": "aa0d487445cf6558aa9e1395498cb7df13cb4b0e396ebd3cdb8f1b86cba1403a",
+    "parsed_sha256": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+    "parser_mode": "preserved",
+    "parser_run_id": "0987bc571907418d90ce56469c82a036",
+    "parser_run_sha256": "b4f0af7963f88e08a4e87c35a30612a3fe1059722976264fa0003e21e6bf7726",
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "tree_sha256": "20be8722ff6ab58a60a43494b26a79c37a60f525b333785c70419f077f1eb3d9",
+    "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552"
+  },
+  "supported_capabilities": [
+    "CURRICULUM_BROWSABLE"
+  ],
+  "target": {
+    "academically_approved": false,
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "objective_codes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "A",
+      "B",
+      "A",
+      "A",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "parsed_sha256": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "run_id": "0987bc571907418d90ce56469c82a036",
+    "run_sha256": "b4f0af7963f88e08a4e87c35a30612a3fe1059722976264fa0003e21e6bf7726",
+    "schema_version": "selected-curriculum-target/2",
+    "source_ids": [
+      "EDX-4MA1-F-2.1-A",
+      "EDX-4MA1-F-2.1-B",
+      "EDX-4MA1-F-2.1-C",
+      "EDX-4MA1-F-2.1-D",
+      "EDX-4MA1-F-2.2-A",
+      "EDX-4MA1-F-2.2-B",
+      "EDX-4MA1-F-2.2-C",
+      "EDX-4MA1-F-2.2-D",
+      "EDX-4MA1-F-2.2-E",
+      "EDX-4MA1-F-2.2-F",
+      "EDX-4MA1-F-2.3-A",
+      "EDX-4MA1-F-2.3-B",
+      "EDX-4MA1-F-2.3-C",
+      "EDX-4MA1-F-2.3-D",
+      "EDX-4MA1-F-2.3-E",
+      "EDX-4MA1-F-2.3-F",
+      "EDX-4MA1-F-2.4-A",
+      "EDX-4MA1-F-2.4-B",
+      "EDX-4MA1-F-2.6-A",
+      "EDX-4MA1-F-2.7-A",
+      "EDX-4MA1-F-2.8-A",
+      "EDX-4MA1-F-2.8-B",
+      "EDX-4MA1-F-2.8-C",
+      "EDX-4MA1-F-2.8-D",
+      "EDX-4MA1-F-2.8-E"
+    ],
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "specification": "4MA1",
+    "subtopic_code": null,
+    "subtopic_name": null,
+    "target_id": "296f4b5a4dbf42d5a09678adfc7715ef95eace0e2aa1c3415db5c62355a3f512",
+    "tier": "Foundation",
+    "topic_code": "2",
+    "topic_name": "Equations, formulae and identities",
+    "tree_sha256": "20be8722ff6ab58a60a43494b26a79c37a60f525b333785c70419f077f1eb3d9",
+    "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+    "validation_state": "STRUCTURE_VALID"
+  },
+  "unresolved_items": [
+    "TARGET_SOURCE_VERIFICATION",
+    "TARGET_GOVERNED_CANONICAL_BINDINGS",
+    "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+    "REVIEWED_ASSESSMENT_EVIDENCE",
+    "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+    "TOPIC_CATALOG_ADAPTER",
+    "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1",
+    "RESOLVED_CANONICAL_SCOPE_OR_EXPLICIT_GOVERNED_PARTIAL_SCOPE"
+  ],
+  "unsupported_capabilities": [
+    "LEARNING_SPEC_ELIGIBLE",
+    "PEDAGOGY_ELIGIBLE",
+    "LESSON_AUTHORING_ELIGIBLE",
+    "QUESTION_AUTHORING_ELIGIBLE",
+    "PRESENTATION_ELIGIBLE"
+  ],
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 22
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+      "page": null
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 2 warning(s).",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-E: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-F: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-E: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-F: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-F-2.8-B: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-F-2.8-C: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-F-2.8-D: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    }
+  ]
+}

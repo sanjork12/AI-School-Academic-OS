@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-02T10:44:36.651870+00:00",
+  "review": {
+    "decisions": [
+      {
+        "component": "success_criteria",
+        "decision": "REVISE",
+        "rationale": "The human reviewer finds insufficient explicit independent evidence for the understand part of the canonical meaning. Add an explicit INTERPRET_SYMBOL success criterion and matching check; symbol selection alone is insufficient. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      },
+      {
+        "component": "activity_scope",
+        "decision": "REVISE",
+        "rationale": "The human reviewer finds insufficient explicit independent evidence for the understand part of the canonical meaning. Add an explicit INTERPRET_SYMBOL success criterion and matching check; symbol selection alone is insufficient. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      },
+      {
+        "component": "check_alignment",
+        "decision": "REVISE",
+        "rationale": "The human reviewer finds insufficient explicit independent evidence for the understand part of the canonical meaning. Add an explicit INTERPRET_SYMBOL success criterion and matching check; symbol selection alone is insufficient. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      },
+      {
+        "component": "pedagogical_adapter",
+        "decision": "REVISE",
+        "rationale": "The human reviewer finds insufficient explicit independent evidence for the understand part of the canonical meaning. Add an explicit INTERPRET_SYMBOL success criterion and matching check; symbol selection alone is insufficient. Approval scope, if APPROVE: governed pedagogical construction only; no source repair, curriculum trust promotion, canonical approval, trusted snapshot, lesson-content approval or publication. All inherited warnings remain. Exact bindings: {\"brief_hash\": \"e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f\", \"human_decision_source_sha256\": \"d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43\", \"learning_spec_hash\": \"263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e\", \"policy_version\": \"bounded-symbol-evidence-authoring/1\", \"proposal_hash\": \"1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc\", \"target_source_id\": \"EDX-4MA1-F-2.8-A\", \"tier\": \"Foundation\"}"
+      }
+    ],
+    "domain": "HUMAN_REVIEW",
+    "policy_version": "bounded-symbol-evidence-authoring/1",
+    "proposal_hash": "1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc",
+    "purpose": "GOVERNED_PEDAGOGICAL_CONSTRUCTION_ONLY",
+    "reviewer_id": "human-user:d60ff7b1-bbc7-4fcb-a243-894335961666",
+    "schema_version": "pedagogical-evidence-review/1"
+  },
+  "semantic_hash": "ff1072f9eb64eb8386059e99584dbb054a4b808426f6e4882b91f42e09f3df43",
+  "signature": "a47bdc2442ff3d03b1045361348657dad515fddab36a91f328a329ebc437f88c"
+}

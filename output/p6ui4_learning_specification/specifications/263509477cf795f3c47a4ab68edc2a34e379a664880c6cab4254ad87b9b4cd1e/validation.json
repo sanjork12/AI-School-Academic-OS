@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "model_calls": 0,
+  "policy_version": "bounded-reviewed-learning-intentions/1",
+  "schema_version": "governed-learning-validation/1",
+  "semantic_sha256": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+  "source_package_hash": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+  "status": "PASS_WITH_WARNINGS",
+  "valid": true
+}

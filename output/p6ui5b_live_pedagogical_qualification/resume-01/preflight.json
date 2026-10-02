@@ -1,0 +1,31 @@
+{
+  "baseline": {
+    "active_reference_version": "v1.13",
+    "manifest_path": "output/reference_freeze_v1_13/reference_manifest.json",
+    "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438"
+  },
+  "brief_id": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+  "brief_sha256": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+  "configuration_fingerprint": "eaabf44c70ae308390604e62c7ebe3b30f0803b93e508585da46315240ab64d8",
+  "key_available": true,
+  "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+  "learning_spec_id": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+  "model_configuration_source": "USER_EXPLICIT_RESUME_CONFIGURATION_RUN_LOCAL",
+  "mutation": 0,
+  "planned_calls": 5,
+  "policy_version": "bounded-symbol-evidence-authoring/1",
+  "provider_calls": 0,
+  "repair": 0,
+  "replacement": 0,
+  "request_sha256": "7d06276e8cca71a14dc2d1c60ff8695f1d22b5bdc7020f5fbe9ba65389a47e82",
+  "resolved_model": "gpt-5.6-sol",
+  "resolved_provider": "openai",
+  "retry": 0,
+  "runner_sha256": "c433e959fe8b5955aa1d5b30950f6748330836819159e7cb92b28417c77f2f41",
+  "schema_sha256": "5858ffb1926ff49968a3336187da4c36f9a094bbebe592291a63fa201e383609",
+  "sdk_version": "3.14.1",
+  "source_objective_id": "EDX-4MA1-F-2.8-A",
+  "started_at": "2026-10-02T10:02:42.338411+00:00",
+  "status": "PASS",
+  "tier": "Foundation"
+}

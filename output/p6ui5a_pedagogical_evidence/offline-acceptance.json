@@ -1,0 +1,21 @@
+{
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1741,
+    "legacy_hashes": {
+      "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+      "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+      "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+    },
+    "model_calls": 0,
+    "standard_deviation_unchanged": true,
+    "trusted_state_unchanged": true
+  },
+  "model_calls": 0,
+  "real_approvals": 0,
+  "rejected_negative_fixtures": 20,
+  "status": "PASS",
+  "target": "EDX-4MA1-F-2.8-A",
+  "valid_proposals": 1
+}

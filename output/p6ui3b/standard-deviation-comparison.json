@@ -1,0 +1,65 @@
+{
+  "generic_architecture": [
+    "versioned contracts",
+    "resolving source/evidence refs",
+    "consistent upstream read",
+    "coverage requirements"
+  ],
+  "shared_concepts": [
+    "curriculum identity",
+    "source references",
+    "warning/evidence boundaries",
+    "explicit trust state"
+  ],
+  "standard_deviation": {
+    "assessment_examples": 2,
+    "conceptual_basis": 1,
+    "learning_requirements": 3,
+    "schema_version": "learning-specification/1",
+    "snapshot_ids": [
+      "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+      "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+    ],
+    "source_contracts": [
+      "teacher-topic/2",
+      "assessment-intelligence/1"
+    ],
+    "trust_summary": {
+      "analytics_enabled": false,
+      "upstream": {
+        "assessment_evidence_reviewed": true,
+        "canonical_knowledge_approved": true,
+        "curriculum_association_confirmed": false,
+        "curriculum_verified": true,
+        "reviewed_example_count": 2,
+        "scope_note": "Reviewed examples only; no frequency, difficulty or trend inference. Curriculum verification refers to located wording, not confirmed scope equivalence.",
+        "source_count": 5,
+        "validity_notice": "Checked for this read only. A saved product view is not a trusted snapshot; refresh through the product service before use."
+      },
+      "upstream_teacher_view_validated": true
+    }
+  },
+  "standard_deviation_specific": [
+    "topic catalog selection",
+    "product aliases",
+    "concept/competency/task IDs",
+    "verified curriculum excerpt"
+  ],
+  "topic2": {
+    "gaps": [
+      "TARGET_SOURCE_VERIFICATION",
+      "TARGET_GOVERNED_CANONICAL_BINDINGS",
+      "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+      "REVIEWED_ASSESSMENT_EVIDENCE",
+      "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+      "TOPIC_CATALOG_ADAPTER",
+      "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1"
+    ],
+    "learning_spec_generated": false,
+    "schema_version": "academic-capability-package/1",
+    "source_bound": true,
+    "source_contract": "selected-curriculum-target/2",
+    "structure_valid": true,
+    "trusted_snapshot_backed": false
+  }
+}

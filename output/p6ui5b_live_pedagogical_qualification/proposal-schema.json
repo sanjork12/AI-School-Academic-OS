@@ -1,0 +1,1036 @@
+{
+  "$defs": {
+    "Activity": {
+      "additionalProperties": false,
+      "properties": {
+        "activity_id": {
+          "pattern": "^ACT-[1-9][0-9]*$",
+          "title": "Activity Id",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "REPRESENTATION",
+            "CONCEPT_CHECK"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "criterion_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Criterion Ids",
+          "type": "array"
+        },
+        "evidence_basis": {
+          "$ref": "#/$defs/Basis"
+        },
+        "response_mode": {
+          "enum": [
+            "SYMBOL_SELECTION",
+            "SYMBOL_INTERPRETATION"
+          ],
+          "title": "Response Mode",
+          "type": "string"
+        },
+        "scope": {
+          "const": "REVIEWED_INEQUALITY_SYMBOLS_ONLY",
+          "title": "Scope",
+          "type": "string"
+        }
+      },
+      "required": [
+        "activity_id",
+        "category",
+        "criterion_ids",
+        "response_mode",
+        "scope",
+        "evidence_basis"
+      ],
+      "title": "Activity",
+      "type": "object"
+    },
+    "Adapter": {
+      "additionalProperties": false,
+      "properties": {
+        "action_meaning": {
+          "title": "Action Meaning",
+          "type": "string"
+        },
+        "activity_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Activity Ids",
+          "type": "array"
+        },
+        "candidate_role_families": {
+          "items": {
+            "enum": [
+              "ORIENTATION",
+              "REPRESENTATION",
+              "CONCEPT_CHECK",
+              "SUMMARY"
+            ],
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Candidate Role Families",
+          "type": "array"
+        },
+        "canonical_id": {
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "check_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Check Ids",
+          "type": "array"
+        },
+        "criterion_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Criterion Ids",
+          "type": "array"
+        },
+        "evidence_basis": {
+          "$ref": "#/$defs/Basis"
+        },
+        "executable": {
+          "const": false,
+          "default": false,
+          "title": "Executable",
+          "type": "boolean"
+        },
+        "schema_version": {
+          "const": "pedagogical-adapter/1",
+          "default": "pedagogical-adapter/1",
+          "title": "Schema Version",
+          "type": "string"
+        }
+      },
+      "required": [
+        "canonical_id",
+        "action_meaning",
+        "criterion_ids",
+        "activity_ids",
+        "check_ids",
+        "candidate_role_families",
+        "evidence_basis"
+      ],
+      "title": "Adapter",
+      "type": "object"
+    },
+    "Basis": {
+      "additionalProperties": false,
+      "properties": {
+        "brief_hash": {
+          "title": "Brief Hash",
+          "type": "string"
+        },
+        "classification": {
+          "const": "PROPOSED",
+          "default": "PROPOSED",
+          "title": "Classification",
+          "type": "string"
+        },
+        "intention_id": {
+          "title": "Intention Id",
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "SYNTHETIC_OFFLINE",
+            "HUMAN_AUTHORED",
+            "MODEL_PROPOSED"
+          ],
+          "title": "Origin",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "origin",
+        "brief_hash",
+        "source_id",
+        "intention_id"
+      ],
+      "title": "Basis",
+      "type": "object"
+    },
+    "Brief": {
+      "additionalProperties": false,
+      "properties": {
+        "allowed_categories": {
+          "items": {
+            "enum": [
+              "success_criteria",
+              "activity_scope",
+              "check_alignment",
+              "pedagogical_adapter"
+            ],
+            "type": "string"
+          },
+          "title": "Allowed Categories",
+          "type": "array"
+        },
+        "authoring_constraints": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Authoring Constraints",
+          "type": "array"
+        },
+        "learning_spec_hash": {
+          "title": "Learning Spec Hash",
+          "type": "string"
+        },
+        "policy_version": {
+          "const": "bounded-symbol-evidence-authoring/1",
+          "default": "bounded-symbol-evidence-authoring/1",
+          "title": "Policy Version",
+          "type": "string"
+        },
+        "prohibited_claims": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Prohibited Claims",
+          "type": "array"
+        },
+        "review_requirements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Review Requirements",
+          "type": "array"
+        },
+        "role_evidence_hash": {
+          "title": "Role Evidence Hash",
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "pedagogical-evidence-authoring-brief/1",
+          "default": "pedagogical-evidence-authoring-brief/1",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "source_learning_spec": {
+          "$ref": "#/$defs/GovernedLearningSpecification"
+        }
+      },
+      "required": [
+        "learning_spec_hash",
+        "source_learning_spec",
+        "allowed_categories",
+        "role_evidence_hash",
+        "prohibited_claims",
+        "authoring_constraints",
+        "review_requirements"
+      ],
+      "title": "Brief",
+      "type": "object"
+    },
+    "CanonicalSemantic": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "decision_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Decision Ids",
+          "type": "array"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "relationship": {
+          "const": "equivalent",
+          "default": "equivalent",
+          "title": "Relationship",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "canonical_id",
+        "description",
+        "decision_ids",
+        "provenance"
+      ],
+      "title": "CanonicalSemantic",
+      "type": "object"
+    },
+    "Check": {
+      "additionalProperties": false,
+      "properties": {
+        "activity_id": {
+          "title": "Activity Id",
+          "type": "string"
+        },
+        "check_id": {
+          "pattern": "^CHK-[1-9][0-9]*$",
+          "title": "Check Id",
+          "type": "string"
+        },
+        "criterion_id": {
+          "title": "Criterion Id",
+          "type": "string"
+        },
+        "evidence_basis": {
+          "$ref": "#/$defs/Basis"
+        },
+        "evidence_form": {
+          "enum": [
+            "SYMBOL_SELECTION",
+            "SYMBOL_INTERPRETATION"
+          ],
+          "title": "Evidence Form",
+          "type": "string"
+        },
+        "intention_id": {
+          "title": "Intention Id",
+          "type": "string"
+        },
+        "prohibited_shortcut": {
+          "const": "NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE",
+          "title": "Prohibited Shortcut",
+          "type": "string"
+        }
+      },
+      "required": [
+        "check_id",
+        "intention_id",
+        "criterion_id",
+        "activity_id",
+        "evidence_form",
+        "prohibited_shortcut",
+        "evidence_basis"
+      ],
+      "title": "Check",
+      "type": "object"
+    },
+    "Criterion": {
+      "additionalProperties": false,
+      "properties": {
+        "conditions": {
+          "enum": [
+            "SYMBOL_REPRESENTATION",
+            "RELATION_REPRESENTATION"
+          ],
+          "title": "Conditions",
+          "type": "string"
+        },
+        "criterion_id": {
+          "pattern": "^SC-[1-9][0-9]*$",
+          "title": "Criterion Id",
+          "type": "string"
+        },
+        "evidence_basis": {
+          "$ref": "#/$defs/Basis"
+        },
+        "linked_learning_intention": {
+          "title": "Linked Learning Intention",
+          "type": "string"
+        },
+        "observable_student_action": {
+          "enum": [
+            "INTERPRET_SYMBOL",
+            "SELECT_SYMBOL"
+          ],
+          "title": "Observable Student Action",
+          "type": "string"
+        },
+        "quality_or_completion_rule": {
+          "enum": [
+            "MEANING_MATCHES_REVIEWED_SYMBOL",
+            "SYMBOL_MATCHES_STATED_RELATION"
+          ],
+          "title": "Quality Or Completion Rule",
+          "type": "string"
+        },
+        "scope": {
+          "const": "REVIEWED_INEQUALITY_SYMBOLS_ONLY",
+          "title": "Scope",
+          "type": "string"
+        }
+      },
+      "required": [
+        "criterion_id",
+        "linked_learning_intention",
+        "observable_student_action",
+        "scope",
+        "conditions",
+        "quality_or_completion_rule",
+        "evidence_basis"
+      ],
+      "title": "Criterion",
+      "type": "object"
+    },
+    "GovernanceState": {
+      "additionalProperties": false,
+      "properties": {
+        "model_calls": {
+          "const": 0,
+          "default": 0,
+          "title": "Model Calls",
+          "type": "integer"
+        },
+        "official_text_confirmed": {
+          "const": false,
+          "default": false,
+          "title": "Official Text Confirmed",
+          "type": "boolean"
+        },
+        "pedagogy_eligible": {
+          "const": false,
+          "default": false,
+          "title": "Pedagogy Eligible",
+          "type": "boolean"
+        },
+        "published": {
+          "const": false,
+          "default": false,
+          "title": "Published",
+          "type": "boolean"
+        },
+        "review_basis": {
+          "const": "PINNED_HISTORICAL_HUMAN_CANONICAL_DECISIONS",
+          "default": "PINNED_HISTORICAL_HUMAN_CANONICAL_DECISIONS",
+          "title": "Review Basis",
+          "type": "string"
+        },
+        "spec_human_approved": {
+          "const": false,
+          "default": false,
+          "title": "Spec Human Approved",
+          "type": "boolean"
+        },
+        "state": {
+          "const": "QUALIFIED_REVIEWABLE_EVIDENCE",
+          "default": "QUALIFIED_REVIEWABLE_EVIDENCE",
+          "title": "State",
+          "type": "string"
+        },
+        "trusted_snapshot_backed": {
+          "const": false,
+          "default": false,
+          "title": "Trusted Snapshot Backed",
+          "type": "boolean"
+        },
+        "uploaded_source_human_approved": {
+          "const": false,
+          "default": false,
+          "title": "Uploaded Source Human Approved",
+          "type": "boolean"
+        }
+      },
+      "title": "GovernanceState",
+      "type": "object"
+    },
+    "GovernedLearningSpecification": {
+      "additionalProperties": false,
+      "properties": {
+        "assessment_evidence": {
+          "$ref": "#/$defs/UnavailableElement"
+        },
+        "canonical_semantics": {
+          "items": {
+            "$ref": "#/$defs/CanonicalSemantic"
+          },
+          "title": "Canonical Semantics",
+          "type": "array"
+        },
+        "concept_skill_task_relations": {
+          "$ref": "#/$defs/UnavailableElement"
+        },
+        "conceptual_knowledge": {
+          "$ref": "#/$defs/UnavailableElement"
+        },
+        "construction_version": {
+          "const": "governed-learning-construction/1",
+          "default": "governed-learning-construction/1",
+          "title": "Construction Version",
+          "type": "string"
+        },
+        "curriculum_scope": {
+          "$ref": "#/$defs/SelectedCurriculumTarget"
+        },
+        "eligibility_hash": {
+          "title": "Eligibility Hash",
+          "type": "string"
+        },
+        "evidence": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Evidence",
+          "type": "object"
+        },
+        "governance_state": {
+          "$ref": "#/$defs/GovernanceState"
+        },
+        "identity": {
+          "title": "Identity",
+          "type": "string"
+        },
+        "known_misconceptions": {
+          "$ref": "#/$defs/UnavailableElement"
+        },
+        "learning_intentions": {
+          "items": {
+            "$ref": "#/$defs/LearningIntention"
+          },
+          "title": "Learning Intentions",
+          "type": "array"
+        },
+        "learning_objectives": {
+          "items": {
+            "$ref": "#/$defs/SourceObjective"
+          },
+          "title": "Learning Objectives",
+          "type": "array"
+        },
+        "policy_sha256": {
+          "title": "Policy Sha256",
+          "type": "string"
+        },
+        "policy_version": {
+          "title": "Policy Version",
+          "type": "string"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/UnavailableElement"
+        },
+        "schema_version": {
+          "const": "governed-learning-specification/1",
+          "default": "governed-learning-specification/1",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "source_package_hash": {
+          "title": "Source Package Hash",
+          "type": "string"
+        },
+        "success_criteria": {
+          "$ref": "#/$defs/UnavailableElement"
+        },
+        "task_capabilities": {
+          "items": {
+            "$ref": "#/$defs/TaskCapability"
+          },
+          "title": "Task Capabilities",
+          "type": "array"
+        },
+        "warnings": {
+          "items": {
+            "$ref": "#/$defs/Warning"
+          },
+          "title": "Warnings",
+          "type": "array"
+        }
+      },
+      "required": [
+        "identity",
+        "source_package_hash",
+        "eligibility_hash",
+        "policy_version",
+        "policy_sha256",
+        "curriculum_scope",
+        "learning_objectives",
+        "canonical_semantics",
+        "learning_intentions",
+        "task_capabilities",
+        "success_criteria",
+        "prerequisites",
+        "known_misconceptions",
+        "conceptual_knowledge",
+        "concept_skill_task_relations",
+        "assessment_evidence",
+        "warnings",
+        "evidence",
+        "governance_state"
+      ],
+      "title": "GovernedLearningSpecification",
+      "type": "object"
+    },
+    "LearningIntention": {
+      "additionalProperties": false,
+      "properties": {
+        "canonical_id": {
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "intention_id": {
+          "title": "Intention Id",
+          "type": "string"
+        },
+        "kind": {
+          "const": "capability",
+          "default": "capability",
+          "title": "Kind",
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "statement": {
+          "title": "Statement",
+          "type": "string"
+        }
+      },
+      "required": [
+        "intention_id",
+        "source_id",
+        "canonical_id",
+        "statement",
+        "provenance"
+      ],
+      "title": "LearningIntention",
+      "type": "object"
+    },
+    "Provenance": {
+      "additionalProperties": false,
+      "properties": {
+        "classifications": {
+          "items": {
+            "enum": [
+              "SOURCE_DERIVED",
+              "CANONICAL_DERIVED",
+              "DETERMINISTIC_TRANSFORMATION",
+              "MODEL_PROPOSED",
+              "HUMAN_REVIEWED",
+              "TRUSTED_SNAPSHOT"
+            ],
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Classifications",
+          "type": "array"
+        },
+        "evidence_refs": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Evidence Refs",
+          "type": "array"
+        },
+        "rule": {
+          "title": "Rule",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Source Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "classifications",
+        "evidence_refs",
+        "source_ids",
+        "rule"
+      ],
+      "title": "Provenance",
+      "type": "object"
+    },
+    "SelectedCurriculumTarget": {
+      "additionalProperties": false,
+      "properties": {
+        "academically_approved": {
+          "const": false,
+          "default": false,
+          "title": "Academically Approved",
+          "type": "boolean"
+        },
+        "document_id": {
+          "title": "Document Id",
+          "type": "string"
+        },
+        "objective_codes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Objective Codes",
+          "type": "array"
+        },
+        "parsed_sha256": {
+          "title": "Parsed Sha256",
+          "type": "string"
+        },
+        "profile": {
+          "title": "Profile",
+          "type": "string"
+        },
+        "run_id": {
+          "title": "Run Id",
+          "type": "string"
+        },
+        "run_sha256": {
+          "title": "Run Sha256",
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "selected-curriculum-target/2",
+          "default": "selected-curriculum-target/2",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "source_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Source Ids",
+          "type": "array"
+        },
+        "source_sha256": {
+          "title": "Source Sha256",
+          "type": "string"
+        },
+        "specification": {
+          "default": "4MA1",
+          "title": "Specification",
+          "type": "string"
+        },
+        "subtopic_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Subtopic Code"
+        },
+        "subtopic_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Subtopic Name"
+        },
+        "target_id": {
+          "title": "Target Id",
+          "type": "string"
+        },
+        "tier": {
+          "title": "Tier",
+          "type": "string"
+        },
+        "topic_code": {
+          "title": "Topic Code",
+          "type": "string"
+        },
+        "topic_name": {
+          "title": "Topic Name",
+          "type": "string"
+        },
+        "tree_sha256": {
+          "title": "Tree Sha256",
+          "type": "string"
+        },
+        "validation_sha256": {
+          "title": "Validation Sha256",
+          "type": "string"
+        },
+        "validation_state": {
+          "title": "Validation State",
+          "type": "string"
+        }
+      },
+      "required": [
+        "target_id",
+        "document_id",
+        "source_sha256",
+        "run_id",
+        "parsed_sha256",
+        "validation_sha256",
+        "tree_sha256",
+        "run_sha256",
+        "profile",
+        "tier",
+        "topic_code",
+        "topic_name",
+        "subtopic_code",
+        "subtopic_name",
+        "objective_codes",
+        "source_ids",
+        "validation_state"
+      ],
+      "title": "SelectedCurriculumTarget",
+      "type": "object"
+    },
+    "SourceObjective": {
+      "additionalProperties": false,
+      "properties": {
+        "objective_code": {
+          "title": "Objective Code",
+          "type": "string"
+        },
+        "official_text": {
+          "title": "Official Text",
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "subtopic_code": {
+          "title": "Subtopic Code",
+          "type": "string"
+        },
+        "subtopic_notes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Subtopic Notes",
+          "type": "array"
+        },
+        "tier": {
+          "title": "Tier",
+          "type": "string"
+        },
+        "topic_code": {
+          "title": "Topic Code",
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_id",
+        "official_text",
+        "tier",
+        "topic_code",
+        "subtopic_code",
+        "objective_code",
+        "subtopic_notes",
+        "provenance"
+      ],
+      "title": "SourceObjective",
+      "type": "object"
+    },
+    "TaskCapability": {
+      "additionalProperties": false,
+      "properties": {
+        "action_meaning": {
+          "title": "Action Meaning",
+          "type": "string"
+        },
+        "canonical_id": {
+          "title": "Canonical Id",
+          "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "task_form_state": {
+          "const": "TASK_FORM_EVIDENCE_UNAVAILABLE",
+          "default": "TASK_FORM_EVIDENCE_UNAVAILABLE",
+          "title": "Task Form State",
+          "type": "string"
+        },
+        "task_forms": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Task Forms",
+          "type": "array"
+        }
+      },
+      "required": [
+        "source_id",
+        "canonical_id",
+        "action_meaning",
+        "task_forms",
+        "provenance"
+      ],
+      "title": "TaskCapability",
+      "type": "object"
+    },
+    "UnavailableElement": {
+      "additionalProperties": false,
+      "properties": {
+        "blocks_learning_intention_construction": {
+          "const": false,
+          "default": false,
+          "title": "Blocks Learning Intention Construction",
+          "type": "boolean"
+        },
+        "claims": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Claims",
+          "type": "array"
+        },
+        "provenance": {
+          "$ref": "#/$defs/Provenance"
+        },
+        "reason_code": {
+          "title": "Reason Code",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "MISSING",
+            "REVIEW_REQUIRED",
+            "MODEL_AUTHORING_REQUIRED"
+          ],
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "reason_code",
+        "claims",
+        "provenance"
+      ],
+      "title": "UnavailableElement",
+      "type": "object"
+    },
+    "Warning": {
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "title": "Code",
+          "type": "string"
+        },
+        "message": {
+          "title": "Message",
+          "type": "string"
+        },
+        "page": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Page"
+        }
+      },
+      "required": [
+        "code",
+        "message"
+      ],
+      "title": "Warning",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "activity_scope": {
+      "items": {
+        "$ref": "#/$defs/Activity"
+      },
+      "minItems": 1,
+      "title": "Activity Scope",
+      "type": "array"
+    },
+    "brief": {
+      "$ref": "#/$defs/Brief"
+    },
+    "check_alignment": {
+      "items": {
+        "$ref": "#/$defs/Check"
+      },
+      "minItems": 1,
+      "title": "Check Alignment",
+      "type": "array"
+    },
+    "pedagogical_adapter": {
+      "$ref": "#/$defs/Adapter"
+    },
+    "schema_version": {
+      "const": "pedagogical-evidence-proposal/1",
+      "default": "pedagogical-evidence-proposal/1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "source_wording": {
+      "title": "Source Wording",
+      "type": "string"
+    },
+    "status": {
+      "const": "PROPOSED",
+      "default": "PROPOSED",
+      "title": "Status",
+      "type": "string"
+    },
+    "success_criteria": {
+      "items": {
+        "$ref": "#/$defs/Criterion"
+      },
+      "minItems": 1,
+      "title": "Success Criteria",
+      "type": "array"
+    },
+    "tier": {
+      "title": "Tier",
+      "type": "string"
+    }
+  },
+  "required": [
+    "brief",
+    "source_id",
+    "tier",
+    "source_wording",
+    "success_criteria",
+    "activity_scope",
+    "check_alignment",
+    "pedagogical_adapter"
+  ],
+  "title": "Proposal",
+  "type": "object"
+}

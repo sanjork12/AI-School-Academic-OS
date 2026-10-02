@@ -1,0 +1,125 @@
+{
+  "baseline": {
+    "active_reference_version": "v1.15",
+    "manifest_path": "output/reference_freeze_v1_15/reference_manifest.json",
+    "manifest_sha256": "75db2dd02b5dbe80837a4b639d3e1c4e50c166bac8e9baa4b5e9c6328e23f187",
+    "protected_files": 2049
+  },
+  "baseline_verification": {
+    "errors": [],
+    "manifest_sha256": "75db2dd02b5dbe80837a4b639d3e1c4e50c166bac8e9baa4b5e9c6328e23f187",
+    "reference_version": "v1.15",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "exam_generated": false,
+  "full_lesson_generated": false,
+  "human_approval_created": false,
+  "integrity": {
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1915,
+    "legacy_hashes": {
+      "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+      "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+      "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+    },
+    "model_calls": 0,
+    "numerical_behavior_sources_unchanged": true,
+    "review_and_credentials_unchanged": true,
+    "standard_deviation_unchanged": true,
+    "trusted_state_unchanged": true
+  },
+  "limitations": [
+    "Current mapping supports EDX-4MA1-F-2.8-A Foundation only.",
+    "Bounded one-item symbol interpretation and selection; no unrestricted prose.",
+    "Full lesson remains BLOCKED: required scope_framing contract unavailable.",
+    "Live role qualification remains unperformed."
+  ],
+  "live_qualification_performed": false,
+  "milestone": "P6A.7C",
+  "model_api_calls": 0,
+  "offline_acceptance": {
+    "integrity": {
+      "historical_artifacts_unchanged": true,
+      "historical_files_checked": 1915,
+      "legacy_hashes": {
+        "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+        "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+        "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+      },
+      "model_calls": 0,
+      "numerical_behavior_sources_unchanged": true,
+      "review_and_credentials_unchanged": true,
+      "standard_deviation_unchanged": true,
+      "trusted_state_unchanged": true
+    },
+    "model_calls": 0,
+    "negative_candidates": 25,
+    "offline_only": true,
+    "overall_authoring": "BLOCKED",
+    "positive_candidates": 6,
+    "replay_passes": 2,
+    "role_statuses": {
+      "CONCEPT_CHECK": "ELIGIBLE_WITH_WARNINGS",
+      "REPRESENTATION": "ELIGIBLE_WITH_WARNINGS"
+    },
+    "status": "PASS"
+  },
+  "slides_rendered": false,
+  "status": "PASS",
+  "test_results": {
+    "backend-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_generic_role_authoring",
+        "tests_p0.test_approved_pedagogical_consumption",
+        "tests_p0.test_pedagogy_evidence",
+        "tests_p0.test_governed_pedagogy",
+        "tests_p0.test_governed_learning",
+        "tests_p0.test_pedagogical_specification",
+        "tests_p0.test_pedagogical_validation",
+        "tests_p0.test_lesson_profiles",
+        "tests_p0.test_syllabus_ingestion",
+        "tests_p0.test_curriculum_capability"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 331
+    },
+    "compatibility-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_ai_authoring",
+        "tests_p0.test_candidate_contract",
+        "tests_p0.test_derivation_provenance",
+        "tests_p0.test_provenance_closure",
+        "tests_p0.test_offline_candidate_replay",
+        "tests_p0.test_sl11_authoring",
+        "tests_p0.test_controlled_inputs",
+        "tests_p0.test_expression_semantics"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 161
+    },
+    "postfreeze-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_reference_freeze",
+        "tests_p0.test_reference_revision",
+        "tests_p0.test_ai_qualification"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 83
+    }
+  },
+  "total_regression_tests": 575
+}

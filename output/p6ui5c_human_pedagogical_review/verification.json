@@ -1,0 +1,11 @@
+{
+  "approved_pack_count": 1,
+  "attempt02_revise_only": true,
+  "exact_proposal_bytes_unchanged": true,
+  "independent_pack_validation": true,
+  "missing_authority_rejected": true,
+  "persisted_pack_replay": true,
+  "review_idempotent": true,
+  "separate_instance_replay": true,
+  "tamper_rejected": true
+}

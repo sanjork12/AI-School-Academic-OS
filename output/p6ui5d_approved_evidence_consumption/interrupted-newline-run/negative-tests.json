@@ -1,0 +1,119 @@
+{
+  "activity-constraint": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "adapter": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "another-proposal": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "check-alignment": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "component-rejected": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "component-revise": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "cross-target-reuse": {
+    "rejected": true
+  },
+  "forged-pack": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "invented-role-mapping": {
+    "rejected": true
+  },
+  "pack-validation-bypass": {
+    "rejected": true
+  },
+  "review-hash": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "signature-forged": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "spec-warning-removed": {
+    "rejected": true
+  },
+  "stale-learning-hash": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "success-criterion": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "unsupported-family": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "warning-removed": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "wrong-target": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  },
+  "wrong-tier": {
+    "reasons": [
+      "LEARNING_EVIDENCE_INVALID"
+    ],
+    "rejected": true,
+    "status": "BLOCKED"
+  }
+}

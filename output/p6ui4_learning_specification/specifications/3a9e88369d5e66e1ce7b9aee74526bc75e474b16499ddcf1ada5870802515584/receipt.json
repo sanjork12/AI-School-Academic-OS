@@ -1,0 +1,13 @@
+{
+  "artifacts": {
+    "construction-input": "83058211fc093aaaf91339836506490ecfdfd3d6b4dd7db15ed5790e22e5d623",
+    "eligibility": "e33edcb26a1eb4f58c0655ad6729322c42ee770ba93cc9a90a150c095de4c677",
+    "learning-specification": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584",
+    "validation": "7941c4d8cbd367d99b09ed6957b0887df4cf241c6fafd9430a44d93f6877c324"
+  },
+  "created_at": "2026-10-02T08:42:35.930824+00:00",
+  "selected_target_id": "8a5f64395ed7eeb0d007e5f58da71299887b0f5f15d85528fdb9b6720e98d0e5",
+  "semantic_sha256": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584",
+  "source_package_hash": "83058211fc093aaaf91339836506490ecfdfd3d6b4dd7db15ed5790e22e5d623",
+  "spec_id": "3a9e88369d5e66e1ce7b9aee74526bc75e474b16499ddcf1ada5870802515584"
+}

@@ -1,0 +1,177 @@
+{
+  "version": "legacy-role-evidence/1",
+  "sources": {
+    "academic_os/ai_authoring/role_authoring.py": "f84135658035b996deae190d16daba361a63ab20d67e96b3869c741d462c9582",
+    "academic_os/ai_authoring/roles.py": "531785c71ba80a2b77a7e87d696a8ad67e5f3ca18c0fe397360529f9356e21ac",
+    "academic_os/lesson_profile_service.py": "84ad74aeb8009cf8fb87fd19498a083e70567b64350d09175aca9382d60c310c",
+    "academic_os/lesson_profiles.py": "fb06e995caea89c180eb3d942f0359f09f95a23b73d4e3aa8d2866ff2f267766",
+    "academic_os/pedagogical_core.py": "2267fda811983de176a8fbab02ae5ecd3e7dfc1b080059e45cd6ec508a990eaf",
+    "academic_os/pedagogical_models.py": "892766b65fed12c47d9a87dbb096dc28fd470dfab2fcca189cb43eb585cada03",
+    "academic_os/pedagogical_service.py": "5d8ac45478dd6a62bc5354b573f2460af6e0c01347c51596fa154c13858caa2a",
+    "academic_os/pedagogical_validation.py": "1056e69e9315ddb6d17f358ee728e4d43820964dda31b5c325873243da3d536c",
+    "academic_os/profiled_content.py": "3af6db7c70689ba85f08cec6dafa0dfb129341e6a904c4b3f087dd9bb11df5ec",
+    "academic_os/profiled_pedagogy.py": "05df42b9d1546be18b1a816719aaaff4d8c46275343deed9f4be517845216eda"
+  },
+  "roles": [
+    {
+      "role_id": "SL-01",
+      "kind": "orientation",
+      "families": [
+        "framing"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-02",
+      "kind": "concept_explanation",
+      "families": [
+        "concept"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-03",
+      "kind": "concept_visual",
+      "families": [
+        "concept"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-04",
+      "kind": "early_concept_retrieval",
+      "families": [
+        "concept",
+        "assessment"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-05",
+      "kind": "calculation_method",
+      "families": [
+        "calculation"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-06",
+      "kind": "mini_worked_example",
+      "families": [
+        "calculation"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-07",
+      "kind": "summary_method",
+      "families": [
+        "calculation",
+        "task"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-08",
+      "kind": "full_worked_examples",
+      "families": [
+        "calculation",
+        "assessment"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-09",
+      "kind": "full_worked_examples",
+      "families": [
+        "calculation",
+        "assessment"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-10",
+      "kind": "guided_practice",
+      "families": [
+        "calculation",
+        "task"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-11",
+      "kind": "guided_practice",
+      "families": [
+        "calculation",
+        "task"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-12",
+      "kind": "independent_practice",
+      "families": [
+        "calculation",
+        "task"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-13",
+      "kind": "concept_check",
+      "families": [
+        "concept",
+        "assessment"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-14",
+      "kind": "calculation_check",
+      "families": [
+        "calculation",
+        "assessment"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    },
+    {
+      "role_id": "SL-15",
+      "kind": "exit_check",
+      "families": [
+        "assessment",
+        "framing"
+      ],
+      "legacy_required_in_standard_profile": true,
+      "generic_mandatory": false,
+      "source": "academic_os/profiled_pedagogy.py"
+    }
+  ]
+}

@@ -113,16 +113,22 @@ class IngestionRun(DTO):
     ended_at:str|None=None
 
 class SelectedCurriculumTarget(DTO):
+    schema_version:Literal['selected-curriculum-target/2']='selected-curriculum-target/2'
     target_id:str
     document_id:str
     source_sha256:str
     run_id:str
     parsed_sha256:str
+    validation_sha256:str
+    tree_sha256:str
+    run_sha256:str
     profile:str
     specification:str='4MA1'
     tier:str
     topic_code:str
+    topic_name:str
     subtopic_code:str|None
+    subtopic_name:str|None
     objective_codes:list[str]
     source_ids:list[str]
     validation_state:str

@@ -1,0 +1,16 @@
+{
+  "total": 233,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "modules": [
+    "tests_p0.test_pedagogy_evidence",
+    "tests_p0.test_governed_pedagogy",
+    "tests_p0.test_governed_learning",
+    "tests_p0.test_pedagogical_specification",
+    "tests_p0.test_pedagogical_validation",
+    "tests_p0.test_lesson_profiles"
+  ],
+  "model_calls": 0
+}

@@ -1,0 +1,46 @@
+{
+  "active_baseline": {
+    "active_reference_version": "v1.13",
+    "manifest_path": "output/reference_freeze_v1_13/reference_manifest.json",
+    "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438"
+  },
+  "attempt02_disposition": "REVISE",
+  "attempt02_pack_created": false,
+  "evidence_pack_identity": "46e11a1b1a56b12fefc692a8d2a12af005235f2db0b223bca346a7033163fa17",
+  "evidence_pack_sha256": "828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+  "integrity": {
+    "baseline": {
+      "errors": [],
+      "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438",
+      "reference_version": "v1.13",
+      "trust_authority": false,
+      "valid": true,
+      "verification_scope": "current_conformance"
+    },
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1853,
+    "protected_implementation_changed": false,
+    "state_files_checked": 71,
+    "trusted_state_unchanged": true
+  },
+  "lesson_authoring_after": "BLOCKED",
+  "lesson_authoring_before": "BLOCKED",
+  "model_calls": 0,
+  "new_baseline_created": false,
+  "pack_validation": {
+    "domain": "HUMAN_REVIEW",
+    "evidence_identity": "46e11a1b1a56b12fefc692a8d2a12af005235f2db0b223bca346a7033163fa17",
+    "trusted_state_changed": false,
+    "valid": true
+  },
+  "pedagogical_eligibility_after": "REVIEW_REQUIRED",
+  "pedagogical_eligibility_before": "REVIEW_REQUIRED",
+  "pedagogical_specification_created": false,
+  "provider_api_calls": 0,
+  "review_semantic_hash": "f82660fd73cbd17b68182e34dd8fe17ced3a57958d78d20e6f2855e0ee723f8f",
+  "review_valid": true,
+  "reviewed_proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+  "scope": "Real human decision recording and approved evidence pack; downstream frozen gate remains closed",
+  "verdict": "PASS",
+  "warnings_preserved": 12
+}
