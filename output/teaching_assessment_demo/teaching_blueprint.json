@@ -1,0 +1,1028 @@
+{
+  "unit": "Statistics: Exploring and Summarising Data",
+  "sections": [
+    {
+      "lesson_section": "Purpose and objectives",
+      "slide_ids": [
+        1,
+        2,
+        3
+      ],
+      "learning_objectives": [
+        "Purpose and structure of the Pearson Large Data Set",
+        "Draw qualified contextual conclusions from data"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "GROUP-LDS-PURPOSE"
+      ],
+      "key_concepts": [
+        "Exploring and summarising data",
+        "Learning objectives",
+        "Statistics within 9MA0"
+      ],
+      "worked_examples": [],
+      "student_checks": [
+        "CHECK-01",
+        "CHECK-02",
+        "CHECK-03"
+      ],
+      "common_mistakes": [
+        "Claiming a sample proves a population conclusion"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Data types",
+      "slide_ids": [
+        4,
+        5
+      ],
+      "learning_objectives": [
+        "Classify qualitative, discrete and continuous data",
+        "Interpret grouped and ungrouped data",
+        "Interpret variables and units in context"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-TYPE-CLASSIFY",
+        "CAN-STAT-VARIABLE-INTERPRET"
+      ],
+      "key_concepts": [
+        "Data types in context",
+        "Grouping measurements"
+      ],
+      "worked_examples": [
+        "A"
+      ],
+      "student_checks": [
+        "CHECK-04",
+        "CHECK-05"
+      ],
+      "common_mistakes": [
+        "Confusing recorded precision with the underlying variable"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Measures of location",
+      "slide_ids": [
+        6,
+        7,
+        8
+      ],
+      "learning_objectives": [
+        "Interpret grouped and ungrouped data",
+        "Calculate and interpret a mean",
+        "Calculate and interpret a median",
+        "Identify a mode or modal class",
+        "Determine and interpret quartiles and percentiles",
+        "Select an appropriate measure of location"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-LOCATION-SELECT",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-MEDIAN-CALCULATE",
+        "CAN-STAT-MODE-IDENTIFY",
+        "CAN-STAT-QUANTILE-DETERMINE"
+      ],
+      "key_concepts": [
+        "Mean, median and a long delay",
+        "Frequency summaries",
+        "Quartiles and percentiles"
+      ],
+      "worked_examples": [
+        "B"
+      ],
+      "student_checks": [
+        "CHECK-06",
+        "CHECK-07",
+        "CHECK-08"
+      ],
+      "common_mistakes": [
+        "Treating grouped estimates as exact"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Measures of spread",
+      "slide_ids": [
+        9,
+        10,
+        11
+      ],
+      "learning_objectives": [
+        "Determine and interpret quartiles and percentiles",
+        "Calculate and interpret range",
+        "Calculate and interpret interquartile range",
+        "Calculate and interpret descriptive variance",
+        "Calculate descriptive standard deviation",
+        "Interpret standard deviation in context",
+        "Compare distributions using location and spread"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-IQR-CALCULATE",
+        "CAN-STAT-QUANTILE-DETERMINE",
+        "CAN-STAT-RANGE-CALCULATE",
+        "CAN-STAT-SD-CALCULATE",
+        "CAN-STAT-SD-INTERPRET",
+        "CAN-STAT-VARIANCE-INTERPRET"
+      ],
+      "key_concepts": [
+        "Range and the middle half",
+        "Variance and standard deviation",
+        "Interpreting standard deviation"
+      ],
+      "worked_examples": [
+        "C",
+        "E"
+      ],
+      "student_checks": [
+        "CHECK-09",
+        "CHECK-10",
+        "CHECK-11"
+      ],
+      "common_mistakes": [
+        "Confusing variance units and SD units"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Comparison and outliers",
+      "slide_ids": [
+        12,
+        13,
+        14
+      ],
+      "learning_objectives": [
+        "Select an appropriate measure of location",
+        "Compare distributions using location and spread",
+        "Identify and interpret unusual observations",
+        "Evaluate data limitations and cleaning decisions",
+        "Draw qualified contextual conclusions from data"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-LOCATION-SELECT",
+        "CAN-STAT-OUTLIER-INTERPRET"
+      ],
+      "key_concepts": [
+        "Comparing two distributions",
+        "A comparison needs a context",
+        "Outliers and choice of summary"
+      ],
+      "worked_examples": [
+        "D",
+        "J"
+      ],
+      "student_checks": [
+        "CHECK-12",
+        "CHECK-13",
+        "CHECK-14"
+      ],
+      "common_mistakes": [
+        "Deleting genuine extreme values"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Large Data Set",
+      "slide_ids": [
+        15,
+        16,
+        17
+      ],
+      "learning_objectives": [
+        "Interpret variables and units in context",
+        "Purpose and structure of the Pearson Large Data Set",
+        "Evaluate data limitations and cleaning decisions",
+        "Draw qualified contextual conclusions from data"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-VARIABLE-INTERPRET",
+        "GROUP-LDS-PURPOSE"
+      ],
+      "key_concepts": [
+        "The Pearson Large Data Set",
+        "Variables, units and observations",
+        "Missing, trace and unusual records"
+      ],
+      "worked_examples": [],
+      "student_checks": [
+        "CHECK-15",
+        "CHECK-16",
+        "CHECK-17"
+      ],
+      "common_mistakes": [
+        "Treating missing values as zero"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Applied worked examples",
+      "slide_ids": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "learning_objectives": [
+        "Interpret grouped and ungrouped data",
+        "Calculate and interpret a mean",
+        "Determine and interpret quartiles and percentiles",
+        "Calculate and interpret descriptive variance",
+        "Calculate descriptive standard deviation",
+        "Compare distributions using location and spread",
+        "Evaluate data limitations and cleaning decisions",
+        "Draw qualified contextual conclusions from data"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-QUANTILE-DETERMINE",
+        "CAN-STAT-SD-CALCULATE",
+        "CAN-STAT-VARIANCE-INTERPRET"
+      ],
+      "key_concepts": [
+        "Grouped estimates in an application",
+        "SD from summary statistics",
+        "Weather analysis with a cleaning rule",
+        "Evidence behind a weather comparison"
+      ],
+      "worked_examples": [
+        "G",
+        "H",
+        "F",
+        "I"
+      ],
+      "student_checks": [
+        "CHECK-18",
+        "CHECK-19",
+        "CHECK-20",
+        "CHECK-21"
+      ],
+      "common_mistakes": [
+        "Generalising short weather samples to climate"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    },
+    {
+      "lesson_section": "Review and exam strategy",
+      "slide_ids": [
+        22,
+        23,
+        24
+      ],
+      "learning_objectives": [
+        "Interpret grouped and ungrouped data",
+        "Identify a mode or modal class",
+        "Calculate descriptive standard deviation",
+        "Interpret standard deviation in context",
+        "Compare distributions using location and spread",
+        "Identify and interpret unusual observations",
+        "Purpose and structure of the Pearson Large Data Set",
+        "Evaluate data limitations and cleaning decisions",
+        "Draw qualified contextual conclusions from data"
+      ],
+      "canonical_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-MODE-IDENTIFY",
+        "CAN-STAT-OUTLIER-INTERPRET",
+        "CAN-STAT-SD-CALCULATE",
+        "CAN-STAT-SD-INTERPRET",
+        "GROUP-LDS-PURPOSE"
+      ],
+      "key_concepts": [
+        "Common mistakes",
+        "A written statistical argument",
+        "Retrieval and next steps"
+      ],
+      "worked_examples": [],
+      "student_checks": [
+        "CHECK-22",
+        "CHECK-23",
+        "CHECK-24"
+      ],
+      "common_mistakes": [
+        "Giving a number without interpretation"
+      ],
+      "exam_focus": "Show a valid method, use units and qualify the contextual conclusion."
+    }
+  ],
+  "slides": [
+    {
+      "slide_id": 1,
+      "title": "Exploring and summarising data",
+      "competency_ids": [],
+      "body": [
+        "Pearson Edexcel A Level Mathematics (9MA0)",
+        "Statistics / Applied Mathematics",
+        "Teacher-generated teaching and practice material",
+        "Not official Pearson material"
+      ],
+      "student_check": {
+        "practice_id": "CHECK-01",
+        "prompt": "What makes a statistical summary useful?",
+        "answer": "It describes a defined dataset in its context."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Unit plan: two 55-minute teaching lessons, then a separate 55-minute assessment. Calculators needed. Slides 1–14 in lesson 1, 15–24 in lesson 2. All numeric teaching datasets are invented.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 2,
+      "title": "Learning objectives",
+      "competency_ids": [],
+      "body": [
+        "Choose summaries that answer a contextual question.",
+        "Calculate location and variation, including grouped estimates.",
+        "Compare distributions and explain limitations.",
+        "Interpret weather records without overstating conclusions."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-02",
+        "prompt": "Which matters more: a correct number or a justified conclusion?",
+        "answer": "Both: the method must be correct and the conclusion supported."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 3,
+      "title": "Statistics within 9MA0",
+      "competency_ids": [
+        "GROUP-LDS-PURPOSE",
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "body": [
+        "This unit develops data interpretation for Statistics.",
+        "The wider course also includes probability and inference.",
+        "Our focus: describing observations before making claims."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-03",
+        "prompt": "Does a difference between two sample means prove a population difference?",
+        "answer": "No. Sampling and variability matter."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Qualification context: https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/mathematics-2017.html. LDS teaching role: https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/Teaching%20and%20learning%20materials/gce-maths-assessment-guide.pdf p9. This unit is a teacher-selected subset, not a complete specification coverage claim.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 4,
+      "title": "Data types in context",
+      "competency_ids": [
+        "CAN-STAT-TYPE-CLASSIFY",
+        "CAN-STAT-VARIABLE-INTERPRET"
+      ],
+      "body": [
+        "Qualitative: labels or categories.",
+        "Discrete quantitative: counts or separate possible values.",
+        "Continuous quantitative: measurements on an interval."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-04",
+        "prompt": "A temperature recorded to 0.1 °C: discrete or continuous?",
+        "answer": "Underlying temperature is continuous. Recording precision does not change that."
+      },
+      "worked_example_id": "A",
+      "table": [
+        [
+          "Variable",
+          "Classification"
+        ],
+        [
+          "Transport mode",
+          "Qualitative"
+        ],
+        [
+          "Number of delays",
+          "Quantitative discrete"
+        ],
+        [
+          "Delay duration (minutes)",
+          "Quantitative continuous"
+        ]
+      ],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 5,
+      "title": "Grouping measurements",
+      "competency_ids": [
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-VARIABLE-INTERPRET"
+      ],
+      "body": [
+        "Grouping makes patterns easier to see.",
+        "Exact values within each class are lost.",
+        "Use midpoints only when an estimate is appropriate."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-05",
+        "prompt": "Can the exact mean be recovered from this table?",
+        "answer": "No. Different within-class observations can have the same frequencies."
+      },
+      "worked_example_id": null,
+      "table": [
+        [
+          "Time t (seconds)",
+          "Frequency",
+          "Midpoint"
+        ],
+        [
+          "0 ≤ t < 10",
+          "4",
+          "5"
+        ],
+        [
+          "10 ≤ t < 20",
+          "8",
+          "15"
+        ],
+        [
+          "20 ≤ t < 30",
+          "4",
+          "25"
+        ]
+      ],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 6,
+      "title": "Mean, median and a long delay",
+      "competency_ids": [
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-MEDIAN-CALCULATE",
+        "CAN-STAT-LOCATION-SELECT"
+      ],
+      "body": [
+        "Waits (minutes): 3, 5, 6, 7, 9, 12, 28",
+        "Mean = 70 ÷ 7 = 10 minutes",
+        "Median = 7 minutes",
+        "The long wait pulls the mean above the median."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-06",
+        "prompt": "If 28 becomes 42, which summary stays fixed?",
+        "answer": "Median stays 7; mean becomes 84/7 = 12 minutes."
+      },
+      "worked_example_id": "B",
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Original worked example B. Sort first. Interpret mean as total waiting time shared equally, not the most common wait. Median is resistant to the extreme observation.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 7,
+      "title": "Frequency summaries",
+      "competency_ids": [
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-MODE-IDENTIFY",
+        "CAN-STAT-GROUPED-INTERPRET"
+      ],
+      "body": [
+        "Estimated mean = Σfm / Σf",
+        "Using slide 5: (4×5 + 8×15 + 4×25) / 16 = 15 s",
+        "Modal class: 10 ≤ t < 20 seconds",
+        "A modal class is an interval, not an exact mode."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-07",
+        "prompt": "For 2, 2, 3, 4, what is the mode?",
+        "answer": "2. A raw mode is the most frequent value."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 8,
+      "title": "Quartiles and percentiles",
+      "competency_ids": [
+        "CAN-STAT-QUANTILE-DETERMINE",
+        "CAN-STAT-GROUPED-INTERPRET"
+      ],
+      "body": [
+        "A percentile locates a point in an ordered distribution.",
+        "Grouped estimate: L + [(pn − F) / f] × w",
+        "L: lower boundary; F: cumulative frequency before class",
+        "f: class frequency; w: width; p: desired fraction"
+      ],
+      "student_check": {
+        "practice_id": "CHECK-08",
+        "prompt": "Using slide 5, estimate the 75th percentile with p = 0.75.",
+        "answer": "Position 12: 10 + ((12−4)/8)×10 = 20 seconds."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Assume observations spread uniformly within the relevant class. About 75% are at or below the 75th percentile. For raw quartiles use the convention stated in the question; software conventions differ. This interpolation is teacher-selected practice.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 9,
+      "title": "Range and the middle half",
+      "competency_ids": [
+        "CAN-STAT-RANGE-CALCULATE",
+        "CAN-STAT-IQR-CALCULATE",
+        "CAN-STAT-QUANTILE-DETERMINE"
+      ],
+      "body": [
+        "Ordered minutes: 2, 4, 5, 7, 8, 10, 11, 13",
+        "Use medians of the two halves in this example.",
+        "Q1 = 4.5; Q3 = 10.5; IQR = 6 minutes",
+        "Range = 13 − 2 = 11 minutes"
+      ],
+      "student_check": {
+        "practice_id": "CHECK-09",
+        "prompt": "If 13 becomes 30, what happens to range and IQR?",
+        "answer": "Range becomes 28; IQR stays 6 for this dataset."
+      },
+      "worked_example_id": "C",
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Example C: lower half 2,4,5,7; upper half 8,10,11,13. IQR describes the spread of the central half and is less sensitive to extremes.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 10,
+      "title": "Variance and standard deviation",
+      "competency_ids": [
+        "CAN-STAT-VARIANCE-INTERPRET",
+        "CAN-STAT-SD-CALCULATE"
+      ],
+      "body": [
+        "Variance = Σ(x − mean)² / n = Σx²/n − mean²",
+        "Standard deviation σ = √variance",
+        "Use divisor n to describe the observed dataset.",
+        "Variance uses squared units; SD uses original units."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-10",
+        "prompt": "For values 2, 4, 6 cm, find variance and SD.",
+        "answer": "Mean 4; variance 8/3 cm²; SD ≈ 1.63 cm."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Use calculator population SD (often σx), not sample estimate sx, for these tasks. Variance averages squared deviations. SD is their root mean square, not a maximum distance. No normal model is assumed.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 11,
+      "title": "Interpreting standard deviation",
+      "competency_ids": [
+        "CAN-STAT-SD-INTERPRET",
+        "CAN-STAT-DISTRIBUTION-COMPARE"
+      ],
+      "body": [
+        "Two fillers both average 200 ml.",
+        "Filler A: SD 2 ml. Filler B: SD 7 ml.",
+        "A has less variation around its mean.",
+        "Neither SD guarantees a limit for every fill."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-11",
+        "prompt": "Does B necessarily have a lower mean?",
+        "answer": "No. Both means are 200 ml."
+      },
+      "worked_example_id": "E",
+      "table": [],
+      "chart": {
+        "categories": [
+          "Filler A",
+          "Filler B"
+        ],
+        "series": [
+          {
+            "name": "SD (ml)",
+            "values": [
+              2,
+              7
+            ]
+          }
+        ]
+      },
+      "speaker_notes": "Example E. Chart compares standard deviations, not individual fills. No claim about defect rates follows without a distribution and specification limits.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 12,
+      "title": "Comparing two distributions",
+      "competency_ids": [
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "body": [
+        "Compare location AND variation in the same units.",
+        "Service A is typically faster by its median.",
+        "Service B has less variation in its central half."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-12",
+        "prompt": "Which service would you choose, and what is the trade-off?",
+        "answer": "A for lower typical time; B for greater central consistency. Explain the priority."
+      },
+      "worked_example_id": "D",
+      "table": [
+        [
+          "Delivery time",
+          "Median (min)",
+          "IQR (min)"
+        ],
+        [
+          "Service A",
+          "18",
+          "8"
+        ],
+        [
+          "Service B",
+          "22",
+          "3"
+        ]
+      ],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 13,
+      "title": "A comparison needs a context",
+      "competency_ids": [
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-LIMITATIONS-EVALUATE"
+      ],
+      "body": [
+        "“A is better” leaves the criterion undefined.",
+        "“A has a lower median delivery time” names it.",
+        "Comparable routes, dates and sample sizes matter.",
+        "Summary statistics alone do not show every value."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-13",
+        "prompt": "Can a lower median guarantee every delivery is faster?",
+        "answer": "No. The distributions can overlap."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Ask students to improve an unsupported claim. Discuss observational comparison, representativeness and missing extremes without introducing formal hypothesis testing.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 14,
+      "title": "Outliers and choice of summary",
+      "competency_ids": [
+        "CAN-STAT-OUTLIER-INTERPRET",
+        "CAN-STAT-LOCATION-SELECT"
+      ],
+      "body": [
+        "For this rule: below Q1 − 1.5 IQR or above Q3 + 1.5 IQR.",
+        "If Q1 = 8 and Q3 = 14, fences are −1 and 23.",
+        "A value of 25 is flagged for investigation.",
+        "Median and IQR resist extreme values better than mean and SD."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-14",
+        "prompt": "Should a flagged value always be deleted?",
+        "answer": "No. A genuine unusual observation is evidence, not automatically an error."
+      },
+      "worked_example_id": "J",
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Do not imply this rule is the only possible definition. Follow the rule given in an assessment. Check data provenance and measurement errors before exclusion.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 15,
+      "title": "The Pearson Large Data Set",
+      "competency_ids": [
+        "GROUP-LDS-PURPOSE",
+        "CAN-STAT-LIMITATIONS-EVALUATE"
+      ],
+      "body": [
+        "Met Office weather observations for eight stations.",
+        "May to October in 1987 and 2015.",
+        "UK: Camborne, Heathrow, Hurn, Leeming, Leuchars.",
+        "Overseas: Beijing, Jacksonville, Perth."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-15",
+        "prompt": "Why are these observations not a random sample of every day worldwide?",
+        "answer": "They cover selected places, months and years."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "OFFICIAL-SOURCE-DERIVED FACTS, paraphrased: https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/Teaching%20and%20learning%20materials/gce-maths-assessment-guide.pdf p9. Students should work with real data, clean it and calculate summaries. No official numerical observations are reproduced in this pack.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 16,
+      "title": "Variables, units and observations",
+      "competency_ids": [
+        "CAN-STAT-VARIABLE-INTERPRET",
+        "GROUP-LDS-PURPOSE"
+      ],
+      "body": [
+        "One row relates to a particular station and day.",
+        "Check the workbook column heading and unit.",
+        "Availability of variables differs between locations."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-16",
+        "prompt": "Would a rainfall mean in mm be comparable with a windspeed mean in knots?",
+        "answer": "No. They measure different quantities."
+      },
+      "worked_example_id": null,
+      "table": [
+        [
+          "Weather quantity",
+          "Unit to check"
+        ],
+        [
+          "Daily mean air temperature",
+          "°C"
+        ],
+        [
+          "Daily total rainfall",
+          "mm"
+        ],
+        [
+          "Daily mean windspeed",
+          "knots"
+        ]
+      ],
+      "chart": null,
+      "speaker_notes": "Context: https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/Teaching%20and%20learning%20materials/gce-maths-assessment-guide.pdf p9. Units and interpretation are teacher explanations. Consult the real workbook before analysing a column. Do not assume every overseas station has every UK variable.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 17,
+      "title": "Missing, trace and unusual records",
+      "competency_ids": [
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "body": [
+        "Missing values need a documented policy; missing is not zero.",
+        "For rainfall, “tr” represents a very small recorded amount.",
+        "A trace convention is an approximation, not a missing value.",
+        "Check season, station and units before comparing."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-17",
+        "prompt": "What should a report state after excluding a missing record?",
+        "answer": "The number of valid records, exclusion rule and possible bias."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Pearson 2023 examiner report Q3 discusses trace rainfall below 0.05 mm and the May–October limitation: https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-pef-20230817.pdf. For our invented example F and Q7 explicitly use 0 for trace. Other defensible approximations may be discussed when no rule is specified.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 18,
+      "title": "Grouped estimates in an application",
+      "competency_ids": [
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-QUANTILE-DETERMINE",
+        "CAN-STAT-GROUPED-INTERPRET"
+      ],
+      "body": [
+        "A queue study records 20 waiting times.",
+        "Estimated mean = (6×5 + 10×15 + 4×25)/20 = 14 min",
+        "Estimated median = 10 + [(10−6)/10]×10 = 14 min",
+        "Both estimates assume representative within-class values."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-18",
+        "prompt": "Estimate the 75th percentile using position 15.",
+        "answer": "10 + ((15−6)/10)×10 = 19 minutes."
+      },
+      "worked_example_id": "G",
+      "table": [
+        [
+          "Wait (min)",
+          "Frequency"
+        ],
+        [
+          "0 ≤ t < 10",
+          "6"
+        ],
+        [
+          "10 ≤ t < 20",
+          "10"
+        ],
+        [
+          "20 ≤ t < 30",
+          "4"
+        ]
+      ],
+      "chart": null,
+      "speaker_notes": "Example G. The same estimated mean and median here does not prove symmetry. Percentile interpolation assumes uniform within-class distribution.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 19,
+      "title": "SD from summary statistics",
+      "competency_ids": [
+        "CAN-STAT-SD-CALCULATE",
+        "CAN-STAT-VARIANCE-INTERPRET",
+        "CAN-STAT-MEAN-CALCULATE"
+      ],
+      "body": [
+        "For six journey times: Σx = 90, Σx² = 1416",
+        "Mean = 90/6 = 15 minutes",
+        "Variance = 1416/6 − 15² = 11 min²",
+        "SD = √11 ≈ 3.32 minutes"
+      ],
+      "student_check": {
+        "practice_id": "CHECK-19",
+        "prompt": "If all times increase by 4 minutes, how do mean and SD change?",
+        "answer": "Mean becomes 19 minutes. SD is unchanged."
+      },
+      "worked_example_id": "H",
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Example H. Keep unrounded mean in the calculation. Calculator σx describes these observations. Translation moves every value and the mean equally, so deviations are unchanged.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 20,
+      "title": "Weather analysis with a cleaning rule",
+      "competency_ids": [
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "body": [
+        "ILLUSTRATIVE DATA: invented weather observations",
+        "Rainfall (mm): 0, 2.4, tr, 0.6, missing",
+        "Use tr = 0 and exclude the missing entry.",
+        "Mean over four recorded days = 3.0/4 = 0.75 mm"
+      ],
+      "student_check": {
+        "practice_id": "CHECK-20",
+        "prompt": "Why would dividing by five be misleading?",
+        "answer": "It would treat the missing observation as zero rain."
+      },
+      "worked_example_id": "F",
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Example F. This is not Pearson LDS data. The trace substitution slightly understates the mean if trace is positive. State the retained sample size and do not generalise from four days to climate.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 21,
+      "title": "Evidence behind a weather comparison",
+      "competency_ids": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-LIMITATIONS-EVALUATE"
+      ],
+      "body": [
+        "ILLUSTRATIVE DATA: invented station summaries",
+        "P: mean 0.75 mm; Q: mean 1.10 mm for recorded days",
+        "Q has higher mean rainfall in these records.",
+        "Different months or missing days could affect the comparison."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-21",
+        "prompt": "What further evidence would support a broader comparison?",
+        "answer": "Comparable longer periods, missing-data checks and measures of spread."
+      },
+      "worked_example_id": "I",
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Example I continues F. Q is a hypothetical summary, not an official station. Challenge “Q has a wetter climate” because the scope of the evidence is limited.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 22,
+      "title": "Common mistakes",
+      "competency_ids": [
+        "CAN-STAT-SD-CALCULATE",
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-LIMITATIONS-EVALUATE"
+      ],
+      "body": [
+        "Dividing by number of classes instead of total frequency.",
+        "Using a rounded mean inside the variance calculation.",
+        "Reporting SD in squared units.",
+        "Treating missing rainfall as an observed zero."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-22",
+        "prompt": "A student calculates √(Σx²/n) − mean. What is wrong?",
+        "answer": "The mean must be squared and subtracted inside the square root."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 23,
+      "title": "A written statistical argument",
+      "competency_ids": [
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "body": [
+        "Name the variable and units.",
+        "Show the chosen method and retain working precision.",
+        "Support a contextual comparison with numerical evidence.",
+        "Limit the claim to what the data can justify."
+      ],
+      "student_check": {
+        "practice_id": "CHECK-23",
+        "prompt": "Improve “The second set is more spread out.”",
+        "answer": "Name the variable and set, state the larger IQR or SD, and interpret variation."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    },
+    {
+      "slide_id": 24,
+      "title": "Retrieval and next steps",
+      "competency_ids": [
+        "CAN-STAT-MODE-IDENTIFY",
+        "CAN-STAT-SD-INTERPRET",
+        "CAN-STAT-OUTLIER-INTERPRET",
+        "GROUP-LDS-PURPOSE"
+      ],
+      "body": [
+        "Which summary resists one extremely large value?",
+        "What is the mode of 1, 2, 2, 5?",
+        "Does a small SD mean a small mean?",
+        "What months and years appear in the Pearson LDS?"
+      ],
+      "student_check": {
+        "practice_id": "CHECK-24",
+        "prompt": "Explain one reason an illustrative weather exercise cannot replace working with the official LDS.",
+        "answer": "It does not expose the full real dataset, coding, variation and contextual details."
+      },
+      "worked_example_id": null,
+      "table": [],
+      "chart": null,
+      "speaker_notes": "Retrieval answers: median; 2; no; May–October 1987 and 2015. Homework: obtain the official workbook via Pearson course materials, inspect its guidance, choose a UK station and a month, identify units and missing codes. Calculate summaries with a documented cleaning policy. Do not label our invented observations as official data.",
+      "provenance": "teacher_generated",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations."
+    }
+  ],
+  "lesson_timing": "Two 55-minute lessons, then a separate 55-minute assessment."
+}

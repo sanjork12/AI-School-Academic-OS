@@ -1,0 +1,12 @@
+{
+  "model_scaffold_count": 0,
+  "profile": "standard-lesson",
+  "role_ref": "profiled-sd-standard-lesson-SL-11",
+  "semantic_role": "guided_practice",
+  "solution_visibility": "teacher_sidecar_only",
+  "support_mode": "guided",
+  "support_model": "single_formula_hint",
+  "support_owner": "application",
+  "topic": "standard-deviation",
+  "version": "sl11-single-formula-hint/1"
+}

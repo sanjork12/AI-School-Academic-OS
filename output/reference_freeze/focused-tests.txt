@@ -1,0 +1,45 @@
+test_01_architecture_exists (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_01_architecture_exists) ... ok
+test_02_schema_valid (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_02_schema_valid) ... ok
+test_03_pre_ai_identity (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_03_pre_ai_identity) ... ok
+test_04_q2_id (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_04_q2_id) ... ok
+test_05_q3_id (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_05_q3_id) ... ok
+test_06_current_snapshots (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_06_current_snapshots) ... ok
+test_07_teacher (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_07_teacher) ... ok
+test_08_assessment (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_08_assessment) ... ok
+test_09_learning (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_09_learning) ... ok
+test_10_pedagogy (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_10_pedagogy) ... ok
+test_11_pedagogical_validation (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_11_pedagogical_validation) ... ok
+test_12_authored (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_12_authored) ... ok
+test_13_authored_validation (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_13_authored_validation) ... ok
+test_14_profile (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_14_profile) ... ok
+test_15_profiled_pedagogy (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_15_profiled_pedagogy) ... ok
+test_16_profiled_authored (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_16_profiled_authored) ... ok
+test_17_profiled_validation (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_17_profiled_validation) ... ok
+test_18_focused (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_18_focused) ... ok
+test_19_standard (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_19_standard) ... ok
+test_20_focused_duration (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_20_focused_duration) ... ok
+test_21_standard_duration (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_21_standard_duration) ... ok
+test_22_same_scope (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_22_same_scope) ... ok
+test_23_focused_ppt (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_23_focused_ppt) ... ok
+test_24_standard_ppt (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_24_standard_ppt) ... ok
+test_25_ppt_hashes (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_25_ppt_hashes) ... ok
+test_26_no_gold_import (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_26_no_gold_import) ... ok
+test_27_not_runtime_authority (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_27_not_runtime_authority) ... ok
+test_28_db_hash (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_28_db_hash) ... ok
+test_29_reviews (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_29_reviews) ... ok
+test_30_governance (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_30_governance) ... ok
+test_31_snapshots (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_31_snapshots) ... ok
+test_32_snapshot_rows (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_32_snapshot_rows) ... ok
+test_33_all_decisions_requests (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_33_all_decisions_requests) ... ok
+test_34_frozen_hashes (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_34_frozen_hashes) ... ok
+test_35_no_production_dependency_change (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_35_no_production_dependency_change) ... ok
+test_36_actual_gold_inventory (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_36_actual_gold_inventory) ... ok
+test_37_versions_observed (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_37_versions_observed) ... ok
+test_38_three_learning_requirements (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_38_three_learning_requirements) ... ok
+test_39_two_examples (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_39_two_examples) ... ok
+test_40_live_generation_without_gold_or_manifest (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_40_live_generation_without_gold_or_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 26.097s
+
+OK

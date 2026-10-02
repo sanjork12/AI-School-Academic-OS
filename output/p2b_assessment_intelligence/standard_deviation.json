@@ -1,0 +1,174 @@
+{
+  "artifact_kind": "assessment_intelligence_read_model",
+  "assessment_focus": {
+    "capabilities": [
+      {
+        "concept_refs": [
+          "concept-standard-deviation"
+        ],
+        "description": "Calculate the standard deviation of a distribution.",
+        "name": "Calculate standard deviation",
+        "ref": "capability-standard-deviation-calculate",
+        "task_forms": [
+          {
+            "description": "The requested calculation uses supplied summary statistics.",
+            "name": "From summary statistics",
+            "ref": "task-form-summary-statistics"
+          }
+        ]
+      }
+    ],
+    "concepts": [
+      {
+        "description": "A measure of dispersion about the mean in the units of the observations.",
+        "name": "Standard deviation",
+        "ref": "concept-standard-deviation"
+      }
+    ]
+  },
+  "curriculum": {
+    "references": [
+      {
+        "association_note": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+        "association_status": "candidate",
+        "section": "Statistics section 2.3, printed page 31",
+        "wording": "Be able to calculate standard deviation, including from summary statistics."
+      }
+    ]
+  },
+  "evidence_summary": {
+    "distinct_question_wording": true,
+    "reviewed_example_count": 2,
+    "shared_capability": true,
+    "shared_task_form": true
+  },
+  "identity": {
+    "title": "Standard deviation",
+    "view_key": "standard-deviation",
+    "view_type": "assessment_intelligence"
+  },
+  "limitations": [
+    {
+      "code": "insufficient_evidence_for_frequency",
+      "message": "The 2 reviewed examples do not establish assessment frequency."
+    },
+    {
+      "code": "insufficient_evidence_for_typical_marks",
+      "message": "These reviewed examples do not establish a typical mark allocation."
+    },
+    {
+      "code": "difficulty_not_calibrated",
+      "message": "No calibrated difficulty evidence is available."
+    },
+    {
+      "code": "no_exam_prediction",
+      "message": "Reviewed historical evidence does not support prediction of future exam appearance."
+    },
+    {
+      "code": "no_student_error_evidence",
+      "message": "No student response evidence supports common-mistake claims."
+    },
+    {
+      "code": "no_context_classification",
+      "message": "Question wording comparison does not establish a context taxonomy."
+    }
+  ],
+  "observed_patterns": [
+    {
+      "epistemic_level": "derived_observation",
+      "evidence_count": 2,
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "statement": "All 2 reviewed examples assess \"Calculate standard deviation\".",
+      "type": "shared_capability"
+    },
+    {
+      "epistemic_level": "derived_observation",
+      "evidence_count": 2,
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "statement": "All 2 reviewed examples use the task form \"From summary statistics\".",
+      "type": "shared_task_form"
+    },
+    {
+      "epistemic_level": "derived_observation",
+      "evidence_count": 2,
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "statement": "The reviewed examples have different question wording; no context classification is inferred.",
+      "type": "distinct_question_wording"
+    },
+    {
+      "epistemic_level": "derived_observation",
+      "evidence_count": 2,
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "statement": "All 2 reviewed examples carry 2 marks.",
+      "type": "shared_marks"
+    }
+  ],
+  "reviewed_examples": [
+    {
+      "assessment_label": "June 2025 9MA0/31 Q2",
+      "capability_ref": "capability-standard-deviation-calculate",
+      "epistemic_level": "observed_evidence",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q2(b)",
+      "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+      "reading_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+      ],
+      "ref": "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b",
+      "session": "June",
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "year": 2025
+    },
+    {
+      "assessment_label": "June 2023 9MA0/31 Q3",
+      "capability_ref": "capability-standard-deviation-calculate",
+      "epistemic_level": "observed_evidence",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q3(b)(ii)",
+      "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+      "reading_notes": [
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "ref": "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+      "session": "June",
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "year": 2023
+    }
+  ],
+  "schema_version": "assessment-intelligence/1",
+  "trust_summary": {
+    "analytics_enabled": false,
+    "upstream": {
+      "assessment_evidence_reviewed": true,
+      "canonical_knowledge_approved": true,
+      "curriculum_association_confirmed": false,
+      "curriculum_verified": true,
+      "reviewed_example_count": 2,
+      "scope_note": "Reviewed examples only; no frequency, difficulty or trend inference. Curriculum verification refers to located wording, not confirmed scope equivalence.",
+      "source_count": 5,
+      "validity_notice": "Checked for this read only. A saved product view is not a trusted snapshot; refresh through the product service before use."
+    },
+    "upstream_teacher_view_validated": true
+  },
+  "upstream_schema_version": "teacher-topic/2"
+}

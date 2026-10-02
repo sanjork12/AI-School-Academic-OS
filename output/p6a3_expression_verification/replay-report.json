@@ -1,0 +1,1077 @@
+{
+  "candidate_count": 10,
+  "expression_checks_performed": 40,
+  "expression_semantics_invalid_count": 0,
+  "expression_semantics_valid_count": 10,
+  "implementation_version": "sl10-expression/1",
+  "model_provider_calls": 0,
+  "original_results_rewritten": false,
+  "parser_failure_count": 0,
+  "per_attempt": [
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-01",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "70289e1ba51a6ee496ca440907273024a0ed8b22f4babfc30d186bdd552792b6",
+      "candidate_content_sha256": "a1c22ca257953d784d6804cc9cd2799b656de371a593b21725220e91323d6faa",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "380"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "95/2",
+            "comparison": "exact_rational",
+            "evaluated_value": "95/2",
+            "expression": "380 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "52"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "13/2",
+            "comparison": "exact_rational",
+            "evaluated_value": "13/2",
+            "expression": "52 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "52"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "8"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "169/4",
+            "comparison": "exact_rational",
+            "evaluated_value": "169/4",
+            "expression": "(52 / 8)²",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "left": {
+                  "op": "constant",
+                  "value": "95"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "2"
+                }
+              },
+              "op": "subtract",
+              "right": {
+                "left": {
+                  "op": "constant",
+                  "value": "169"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "4"
+                }
+              }
+            },
+            "claimed_value": "21/4",
+            "comparison": "exact_rational",
+            "evaluated_value": "21/4",
+            "expression": "95/2 - 169/4",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-02",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "ec258108746ce1a325b4a8530368852179cee85db157d6c8cfecdef8f478d55d",
+      "candidate_content_sha256": "d927acce65bead6abfd21bbd94f8a293589730d0f503dac3ff0afc4b0cbcf517",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "55"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "5"
+              }
+            },
+            "claimed_value": "11",
+            "comparison": "exact_rational",
+            "evaluated_value": "11",
+            "expression": "55 / 5",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "15"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "5"
+              }
+            },
+            "claimed_value": "3",
+            "comparison": "exact_rational",
+            "evaluated_value": "3",
+            "expression": "15 / 5",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "15"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "5"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "9",
+            "comparison": "exact_rational",
+            "evaluated_value": "9",
+            "expression": "(15 / 5)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "11"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "9"
+              }
+            },
+            "claimed_value": "2",
+            "comparison": "exact_rational",
+            "evaluated_value": "2",
+            "expression": "11 - 9",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-03",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "3ad640da5f7484dd8ecd5b10a026af12dbe42b90ad682bbe1b9d8031530e4fdb",
+      "candidate_content_sha256": "686bf458bed21d1db9a4d31caa96e503a6d809e5305e52002336e5232c9137fd",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "272"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "34",
+            "comparison": "exact_rational",
+            "evaluated_value": "34",
+            "expression": "272 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "40"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "5",
+            "comparison": "exact_rational",
+            "evaluated_value": "5",
+            "expression": "40 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "40"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "8"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "25",
+            "comparison": "exact_rational",
+            "evaluated_value": "25",
+            "expression": "(40 / 8)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "34"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "25"
+              }
+            },
+            "claimed_value": "9",
+            "comparison": "exact_rational",
+            "evaluated_value": "9",
+            "expression": "34 - 25",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-04",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "ac61d0dc2cac6b03192acbe78d965ca4c5bc9659a225d20dbe00d7d3c6812b3e",
+      "candidate_content_sha256": "291d0cf5b778b84205509ff1017c89cf9f42491bc720f0c3e0a3abb6a5b1fa2b",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "65"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "5"
+              }
+            },
+            "claimed_value": "13",
+            "comparison": "exact_rational",
+            "evaluated_value": "13",
+            "expression": "65 / 5",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "15"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "5"
+              }
+            },
+            "claimed_value": "3",
+            "comparison": "exact_rational",
+            "evaluated_value": "3",
+            "expression": "15 / 5",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "15"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "5"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "9",
+            "comparison": "exact_rational",
+            "evaluated_value": "9",
+            "expression": "(15 / 5)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "13"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "9"
+              }
+            },
+            "claimed_value": "4",
+            "comparison": "exact_rational",
+            "evaluated_value": "4",
+            "expression": "13 - 9",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-05",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "ea39f7dfc992d2a0feeb3b64e292e741100e783e68615d66f64c2a8a3cfdfa54",
+      "candidate_content_sha256": "c7efce0eb916e5436b9a15e96766e51d1e071c0795c0940c4835116d772070e5",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "116"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "4"
+              }
+            },
+            "claimed_value": "29",
+            "comparison": "exact_rational",
+            "evaluated_value": "29",
+            "expression": "116 / 4",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "20"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "4"
+              }
+            },
+            "claimed_value": "5",
+            "comparison": "exact_rational",
+            "evaluated_value": "5",
+            "expression": "20 / 4",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "20"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "4"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "25",
+            "comparison": "exact_rational",
+            "evaluated_value": "25",
+            "expression": "(20 / 4)²",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "29"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "25"
+              }
+            },
+            "claimed_value": "4",
+            "comparison": "exact_rational",
+            "evaluated_value": "4",
+            "expression": "29 - 25",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-06",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "ebcd7dca313671053ee4f11856e9d49522953e561f4e64de5f5d22370612986f",
+      "candidate_content_sha256": "7663892be2e9a83caa8ee91ecffe457846bfcc734d9bfa96b127e3d52893cddc",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "232"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "29",
+            "comparison": "exact_rational",
+            "evaluated_value": "29",
+            "expression": "232 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "40"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "5",
+            "comparison": "exact_rational",
+            "evaluated_value": "5",
+            "expression": "40 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "40"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "8"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "25",
+            "comparison": "exact_rational",
+            "evaluated_value": "25",
+            "expression": "(40 / 8)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "29"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "25"
+              }
+            },
+            "claimed_value": "4",
+            "comparison": "exact_rational",
+            "evaluated_value": "4",
+            "expression": "29 - 25",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-07",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "c1188b5e58d597e2314ecf8c21a4b0153c2a2553dfd87a361d2298e368263a24",
+      "candidate_content_sha256": "8270533583e3dae26040c02aeb9780673052f88fcaad8e87a38ce1b477a74290",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "236"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "59/2",
+            "comparison": "exact_rational",
+            "evaluated_value": "59/2",
+            "expression": "236 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "40"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "5",
+            "comparison": "exact_rational",
+            "evaluated_value": "5",
+            "expression": "40 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "40"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "8"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "25",
+            "comparison": "exact_rational",
+            "evaluated_value": "25",
+            "expression": "(40 / 8)²",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "left": {
+                  "op": "constant",
+                  "value": "59"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "2"
+                }
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "25"
+              }
+            },
+            "claimed_value": "9/2",
+            "comparison": "exact_rational",
+            "evaluated_value": "9/2",
+            "expression": "59/2 - 25",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-08",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "7e49154303a27e548ccb722297c5e5b37bc458910772e5c1059a045f1292a2ff",
+      "candidate_content_sha256": "cd59a29af0c9a004343c17412a43bc280c1444ffb5289012da8fdb15bf4fbd57",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "292"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "73/2",
+            "comparison": "exact_rational",
+            "evaluated_value": "73/2",
+            "expression": "292 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "44"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "11/2",
+            "comparison": "exact_rational",
+            "evaluated_value": "11/2",
+            "expression": "44 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "44"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "8"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "121/4",
+            "comparison": "exact_rational",
+            "evaluated_value": "121/4",
+            "expression": "(44 / 8)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "left": {
+                  "op": "constant",
+                  "value": "73"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "2"
+                }
+              },
+              "op": "subtract",
+              "right": {
+                "left": {
+                  "op": "constant",
+                  "value": "121"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "4"
+                }
+              }
+            },
+            "claimed_value": "25/4",
+            "comparison": "exact_rational",
+            "evaluated_value": "25/4",
+            "expression": "73/2 - 121/4",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-09",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "e9503c2e4ed89f1f68789567caf4c06f66c105ae27eff97eeebc2840dc3d98a3",
+      "candidate_content_sha256": "2d8e08d58a8a44e102ed2ab6199e875535597ace1c943eaf8ac2e0eb111b5a69",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "55"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "5"
+              }
+            },
+            "claimed_value": "11",
+            "comparison": "exact_rational",
+            "evaluated_value": "11",
+            "expression": "55 / 5",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "15"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "5"
+              }
+            },
+            "claimed_value": "3",
+            "comparison": "exact_rational",
+            "evaluated_value": "3",
+            "expression": "15 / 5",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "15"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "5"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "9",
+            "comparison": "exact_rational",
+            "evaluated_value": "9",
+            "expression": "(15 / 5)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "11"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "9"
+              }
+            },
+            "claimed_value": "2",
+            "comparison": "exact_rational",
+            "evaluated_value": "2",
+            "expression": "11 - 9",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    },
+    {
+      "academic_approval": false,
+      "accepted_by_p6a2": true,
+      "attempt_id": "attempt-10",
+      "brief_sha256": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+      "candidate_artifact_sha256": "35c124792bad8c9217e3c0f113add7f471f185d8fb378e4829ab233c748a66f5",
+      "candidate_content_sha256": "6cb0e92959a205b4faf7336727ef88f284b80403b7a98da052f08323fce47469",
+      "category": "VERIFIED",
+      "expression_semantics": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "232"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "29",
+            "comparison": "exact_rational",
+            "evaluated_value": "29",
+            "expression": "232 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "40"
+              },
+              "op": "divide",
+              "right": {
+                "op": "constant",
+                "value": "8"
+              }
+            },
+            "claimed_value": "5",
+            "comparison": "exact_rational",
+            "evaluated_value": "5",
+            "expression": "40 / 8",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "op": "constant",
+                  "value": "40"
+                },
+                "op": "divide",
+                "right": {
+                  "op": "constant",
+                  "value": "8"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "25",
+            "comparison": "exact_rational",
+            "evaluated_value": "25",
+            "expression": "(40 / 8)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "op": "constant",
+                "value": "29"
+              },
+              "op": "subtract",
+              "right": {
+                "op": "constant",
+                "value": "25"
+              }
+            },
+            "claimed_value": "4",
+            "comparison": "exact_rational",
+            "evaluated_value": "4",
+            "expression": "29 - 25",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "renderer_readiness": false
+    }
+  ],
+  "replay_mode": "offline",
+  "scope": "Offline expression/value and recomputed-input consistency only; no current academic trust, publication or rendering authority.",
+  "source_artifact_hashes": {
+    "attempt-01/ai-candidate-06f8f17a51eb45a4b459e86904caf5f5.json": "70289e1ba51a6ee496ca440907273024a0ed8b22f4babfc30d186bdd552792b6",
+    "attempt-01/attempt.json": "b99f195668653b68a8a25261dd67f011ab821f1926374f4fe51328302dcbb005",
+    "attempt-01/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-01/provider_observation.json": "567633f2a6e8769aa0b8c7412c4c187c18f2d17c14d8fd7dd92f3743323dd25f",
+    "attempt-01/raw_candidate.json": "b4ba69c49eda7b8028455ea9776206e1c702cb34a007fc9515d12f1b571e5de6",
+    "attempt-01/started.json": "97d8136a1b11533f6cb2f19fc828b4b2e32e52d511d853e4f9b8dd08044d08ed",
+    "attempt-01/validation.json": "d51b5323c088337c755361a50ec2c6f71b7b16c632f95731090a951e940e5814",
+    "attempt-02/ai-candidate-5ae7a8e2585449dfa03568d2a0ed01fd.json": "ec258108746ce1a325b4a8530368852179cee85db157d6c8cfecdef8f478d55d",
+    "attempt-02/attempt.json": "b0203b6e42085ea80298f216778a0ef594d2c4d5e35113c1df5cf9e998c1f46b",
+    "attempt-02/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-02/provider_observation.json": "57e1bb1220e3155a642d5f726654004f548a816efa4b7b76e3333c6eb0de18c2",
+    "attempt-02/raw_candidate.json": "52642b00ff94870b7893cb633599f76b3d7943bc85bc87779a8c61ef08be7f09",
+    "attempt-02/started.json": "0da93e6a22626fd525a02db1c1ccf1c4d9bff90b1f7dc79d918f4d68e87816ed",
+    "attempt-02/validation.json": "49fb18bfb2704ce77c664df1612cea3079c50161707bb0ebe4a7aa1558d52012",
+    "attempt-03/ai-candidate-058f4c14afb4455498ba57787e86b345.json": "3ad640da5f7484dd8ecd5b10a026af12dbe42b90ad682bbe1b9d8031530e4fdb",
+    "attempt-03/attempt.json": "0721412d136c3501ffcd4172bcee8b02d51c484822a33646db274fb6a93aa4da",
+    "attempt-03/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-03/provider_observation.json": "7d88676c0ad6a14097b1925de1f38e0152aab527ed0951267ddd6614f68b36d5",
+    "attempt-03/raw_candidate.json": "c499cf160cd14d30b90f829a588099471099915da2b0f163ac7a645eb1bc04b2",
+    "attempt-03/started.json": "cf01547d80dec51d9a2cbea3762476ed1f83e0aa003e8a8bb77aa5eb1f8ae47a",
+    "attempt-03/validation.json": "4a73599b3eed4dd7a3fa4736fb0e11aedf808909d63141814adf8efd1e330d80",
+    "attempt-04/ai-candidate-db4339d35ef64aedadb4e2f9067f4c8c.json": "ac61d0dc2cac6b03192acbe78d965ca4c5bc9659a225d20dbe00d7d3c6812b3e",
+    "attempt-04/attempt.json": "ad592c52b5fda40ebac588baf608c8fb4d88335800417d3e7812a5e3dc0b1905",
+    "attempt-04/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-04/provider_observation.json": "922aa48a74135f9884c00c9233b2a13c93836f8765585f590ac265482418482e",
+    "attempt-04/raw_candidate.json": "d986449c1b15df6eee210bd94666644b6643e00907cf416b47dd3b58aa6406d6",
+    "attempt-04/started.json": "c0a034a2e1984611cc3018180e04be57613edce95cacc73c279c02a2a70e6a0c",
+    "attempt-04/validation.json": "c89767492c66e8a7c1c61fa0f2c61842e968dc794fbd780982a8a3ae8f08b651",
+    "attempt-05/ai-candidate-74fd8956915449b4b9000bac84bd681d.json": "ea39f7dfc992d2a0feeb3b64e292e741100e783e68615d66f64c2a8a3cfdfa54",
+    "attempt-05/attempt.json": "56bda6589f960d9e4a6c316586527f648ca9fa107b8df33858b483ef7e96cc89",
+    "attempt-05/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-05/provider_observation.json": "888b59618afa181c60e926b004cf97d6ffd75562aa6095a8d52351cb9eed683a",
+    "attempt-05/raw_candidate.json": "cda902a8e5c676ba865366a549886c51db89ce36b7972c4ef251e4569ff30a55",
+    "attempt-05/started.json": "0412145eaad01060774e653a2c496269dacb0896e06733a18190a4737a5c7dc9",
+    "attempt-05/validation.json": "9442344e52893f06c073bf0201a3a7206b865749c519ddc2985db8f1cb01a27b",
+    "attempt-06/ai-candidate-39b0a9115d1e4ed7a11721e525fd39f6.json": "ebcd7dca313671053ee4f11856e9d49522953e561f4e64de5f5d22370612986f",
+    "attempt-06/attempt.json": "0b009bda66cc1fc5ea9a252b2c8d548f577b7010fff9206ed3d7e5eb38591281",
+    "attempt-06/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-06/provider_observation.json": "878a95baff92c3c3bf85942e040b47373e116616d856c37afae206f0f20889ba",
+    "attempt-06/raw_candidate.json": "af49c0152599ba0cc05fb66435647c307fdbcdc01aa376269f7c7f05365f88c4",
+    "attempt-06/started.json": "6915ac9683ebf5a0d843a164785418f1e6c1a0a671025e817723203e2ddb860f",
+    "attempt-06/validation.json": "ba5526a75e6af8bc268a2feaceca885c8ecbf437c051838a63bb32f8a01586c9",
+    "attempt-07/ai-candidate-1476c627736d4d1a98b326d86949434d.json": "c1188b5e58d597e2314ecf8c21a4b0153c2a2553dfd87a361d2298e368263a24",
+    "attempt-07/attempt.json": "b4159b708f8fd1d047e89dd5098c533a38d87177889d64c7ecf05ca68adbceb4",
+    "attempt-07/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-07/provider_observation.json": "6e9398065a34e62d888fef9bbdde1c10e552a887ed4ec3681f9ec375af75e679",
+    "attempt-07/raw_candidate.json": "c5556734b1e8caf9c9e9b79491e34dd7ac0a0955b7f511e30c5a235b128ac328",
+    "attempt-07/started.json": "9c1f6ac626f00e1f3f8dd821fe66a0b000f9f1e6344849341adf6fbc204942ef",
+    "attempt-07/validation.json": "56a3981ec3e4eb3f981ac45295fd052a27bf970059263f9baf353bc64060c8d2",
+    "attempt-08/ai-candidate-501412132f5248f8b1307cde48b28128.json": "7e49154303a27e548ccb722297c5e5b37bc458910772e5c1059a045f1292a2ff",
+    "attempt-08/attempt.json": "30e556e2aaef361fb0a1916c450efdd667d5674eadf8e96084054e945d970e9d",
+    "attempt-08/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-08/provider_observation.json": "3d90e6a09cd0d1ba35753a1d58843fa907f2ad69a3c07ef7c989ee9585075566",
+    "attempt-08/raw_candidate.json": "13fc98aade6e25393fe2152a66efbdf77721c19c51dac75d4770233aef5b7b0e",
+    "attempt-08/started.json": "cc095063f877d480ace4934feeab8530e10e8ba717810d1dde755219e1c7fb9d",
+    "attempt-08/validation.json": "6a763786e9ffef623f0eafec0f2ab80fa6418700f0aa5d3c135f5779fb2ba0d6",
+    "attempt-09/ai-candidate-f931a3d4fe0a490ca115aec064ba860f.json": "e9503c2e4ed89f1f68789567caf4c06f66c105ae27eff97eeebc2840dc3d98a3",
+    "attempt-09/attempt.json": "979e38dfd9adee3bb32e705641d74eb4068a763b6b4d6b84859b5225e0f8cad9",
+    "attempt-09/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-09/provider_observation.json": "4b2950b071706918fe88ececaa5f8c022a677ba9f0e0f766ae9e149c23d00f9a",
+    "attempt-09/raw_candidate.json": "52642b00ff94870b7893cb633599f76b3d7943bc85bc87779a8c61ef08be7f09",
+    "attempt-09/started.json": "d458c30776c61b1bb1e785dcf95c6dde5ab41a63440f6b88e2f971ecfd4c4393",
+    "attempt-09/validation.json": "33f8d90fad4a6c35d009cf487cd4644632a35e8670bbc71e08819138875c5a72",
+    "attempt-10/ai-candidate-7a156ff4181a4ac4bf2fa4e015d741b8.json": "35c124792bad8c9217e3c0f113add7f471f185d8fb378e4829ab233c748a66f5",
+    "attempt-10/attempt.json": "e65cfd6c3c367da12629d8e91324d55d056f61df4bb59f0c3fde8c6074ac2abe",
+    "attempt-10/brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "attempt-10/provider_observation.json": "7fedc68736424dba5be29deeef7e72910ba21b0f71f1f0b7099bf3abaa18ba58",
+    "attempt-10/raw_candidate.json": "af49c0152599ba0cc05fb66435647c307fdbcdc01aa376269f7c7f05365f88c4",
+    "attempt-10/started.json": "474bb2627fb437e41d9dbd0f3b0165e916195b74c8311ff3696a6015424edf47",
+    "attempt-10/validation.json": "94566c222047a9ab8afd351438c6d002474991cf318b0f06d942e4d152308a19",
+    "brief.json": "5539046777d74f74106c8cff9418bea9554b1c55812eca9b06902d2e6c309cbc",
+    "completion.json": "f6e88bef3bf3b76cd1cce83769b0bbfe7a1a3180782f2c0237784304c1dbe71e",
+    "reports/report-23011d76672f1836b0b24c177f98b122fa6469982aaa221170501dc89caeff95.json": "23011d76672f1836b0b24c177f98b122fa6469982aaa221170501dc89caeff95",
+    "run.json": "1bc74ceec611e101cefa3f1a9dfaf9006d94a1540ea5dfdff59ec03940459183"
+  },
+  "source_run_id": "run-46ccbed1b3874c04a226469477e4ea29",
+  "unsupported_expression_count": 0
+}

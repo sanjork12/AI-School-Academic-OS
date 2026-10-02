@@ -1,0 +1,177 @@
+{
+  "authored_content_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+  "schema_version": "presentation-teacher-solutions/1",
+  "solutions": {
+    "authored-sd-v1-calculation-check-solution": {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [],
+      "display_answer": "3.16",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "10"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-calculation-check-question",
+      "key_semantic_elements": [],
+      "mean": "15",
+      "method_steps": [
+        "mean = 300/20 = 15",
+        "population variance = 235 - (15)^2 = 10",
+        "population SD = sqrt(10)",
+        "Display to 2 decimal places: 3.16"
+      ],
+      "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-calculation-check-solution",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "variance": "10",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    "authored-sd-v1-concept-check-solution": {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "constraint_level": "flexible",
+      "covers_learning_requirement_refs": [],
+      "display_answer": null,
+      "exact_answer": null,
+      "exact_string_matching_required": false,
+      "expected_meaning": "It measures how spread out the observations are around the mean.",
+      "instructional_slot_refs": [],
+      "item_ref": "authored-sd-v1-concept-check-question",
+      "key_semantic_elements": [
+        "spread or dispersion",
+        "around the mean"
+      ],
+      "mean": null,
+      "method_steps": [],
+      "numeric_answer": null,
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-concept-check-solution",
+      "teaching_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "variance": null,
+      "verification": null
+    },
+    "authored-sd-v1-practice-1-solution": {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "display_answer": "2.00",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "4"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-practice-1-question",
+      "key_semantic_elements": [],
+      "mean": "7",
+      "method_steps": [
+        "mean = 70/10 = 7",
+        "population variance = 53 - (7)^2 = 4",
+        "population SD = sqrt(4)",
+        "Display to 2 decimal places: 2.00"
+      ],
+      "numeric_answer": "2",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-practice-1-solution",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "variance": "4",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    "authored-sd-v1-practice-2-solution": {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "display_answer": "2.45",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "6"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-practice-2-question",
+      "key_semantic_elements": [],
+      "mean": "12",
+      "method_steps": [
+        "mean = 96/8 = 12",
+        "population variance = 150 - (12)^2 = 6",
+        "population SD = sqrt(6)",
+        "Display to 2 decimal places: 2.45"
+      ],
+      "numeric_answer": "2.4494897427831780981972840747058913919659474806567",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-practice-2-solution",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "variance": "6",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    }
+  }
+}

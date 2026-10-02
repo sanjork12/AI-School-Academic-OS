@@ -1,0 +1,8 @@
+{
+ "purpose": "Human acceptance oracle only; production rules do not read this file",
+ "a": {"action":"create_candidate", "competency":"Prepare data for statistical analysis"},
+ "b-i": {"action":"reuse_existing", "id":"CAN-STAT-MEAN-CALC", "task":"TC-SUMMARY-STATISTICS"},
+ "b-ii": {"action":"reuse_existing", "id":"CAN-STAT-SD-CALC", "task":"TC-SUMMARY-STATISTICS"},
+ "c-i": {"action":"create_candidate", "competency":"Assess whether data are representative"},
+ "c-ii": {"action":"unresolved", "id":null}
+}

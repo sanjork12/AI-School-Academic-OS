@@ -1,0 +1,69 @@
+Qu 3 Scheme Marks AO 
+(a) Need to replace tr with a numerical value  M1 1.2 
+ Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value 
+„  0.05 A1 1.1b 
+  (2)  
+(b)(i)  
+389.3 ~ 390.8
+184x =
+ = 2.119…                  awrt    2.12    allow  
+195
+92   or 
+11
+922  B1 1.1b 
+(ii) 
+ 
+2(awrt)4336 ""184 x =−
+  or allow 
+22 (awrt)4336 ""184 x =− or   awrt  19.1 
+                               = 4.367…                                   awrt    4.37 
+M1 
+ 
+A1 
+1.1b 
+ 
+1.1b 
+  (3)  
+    
+(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b 
+    
+(ii) e.g.  Winter months are missing when we’d expect more rain 
+                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 
+  (2)  
+    
+  ( 7 marks) 
+ Notes 
+(a) M1    for recognising that tr must be replaced (oe) with a numerical value 
+      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) 
+or  must remove outliers or fill gaps in table or make widths the same or need to find mid-points 
+ A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] 
+      (these give 
+x = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       
+  
+(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for 
+390
+184  
+(ii) M1  for a correct expression for standard deviation or variance.  Allow 
+2x = awrt 4336 
+             Ignore their label   or  2  Can ft their mean 
+  
+ A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] 
+  
+SC Using n = 155  Allow M1 for expression 
+2(awrt)4336[ ] " " 21.64...155 x = − =  or 4.65… 
+  
+ Part (c) can effectively be marked together. 
+(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  
+       whole year).   
+      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            
+  
+(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  
+                                                                                                                          “underestimate”(oe) 
+      We are looking for all 3 of these ideas here: 
+      1.   A statement or implication that missing data is from winter or different months. 
+      2.   A suggestion about the rainfall in these months (probably more rain). 
+      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  
+            an underestimate or the (actual) mean will be higher. 
+SC If you see  “Leeming or N or NE has less rain in winter months” – please send to review 
+  
+PMT

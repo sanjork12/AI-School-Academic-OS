@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+          "EV-MS-MAP-Q2-c-VARIATION-INTERPRET"
+        ],
+        "focus_concept_ids": [
+          "CON-STAT-SD",
+          "CON-STAT-SPREAD"
+        ],
+        "mapping_id": "MAP-Q2-c-VARIATION-INTERPRET",
+        "mapping_method": "rule",
+        "part_id": "Q2-c",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/VARIATION-INTERPRET matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association. Q2(c) question-specific mark-scheme reasoning uses larger SD, greater spread and more extreme values to support the possibility of faster times and Coach B; this does not establish a universal canonical dependency on Extreme values, or guarantee individual extremes.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed",
+        "semantics": {
+          "concept_link_ids": [
+            "LINK-VARIATION-INTERPRET-SD",
+            "LINK-VARIATION-INTERPRET-SPREAD"
+          ],
+          "parsed_part_id": "PARSED-Q2-c",
+          "role": "primary",
+          "task_condition_ids": [
+            "TC-COMPARE-VARIATION-SD"
+          ]
+        }
+      }
+    }
+  ],
+  "expected_heads": {
+    "part_mapping:MAP-Q2-c-VARIATION-INTERPRET": "eb5758cd6d9d9ae787ddbd399cd608ed76235a7d5399cb107a465c020e23e7d2"
+  }
+}

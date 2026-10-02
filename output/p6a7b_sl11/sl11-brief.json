@@ -1,0 +1,44 @@
+{
+  "acceptance_policy": "sl11-numerical-provenance-required/1",
+  "allowed_question_templates": [
+    "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+    "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+  ],
+  "controlled_case": null,
+  "controlled_case_sha256": null,
+  "controlled_mode": null,
+  "formula_hint": {
+    "formula_ref": "authored-sd-v1-summary-formula",
+    "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+    "identity": "sl11-application-formula-hint/1",
+    "owner": "application",
+    "source_field": "scaffolding/0",
+    "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+    "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+    "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+  },
+  "formula_hint_sha256": "e50bd88db0d5a2c6db786eec650980b1b123556a111e66d5d92b6ea9ef3c6638",
+  "identity": "standard-deviation-standard-lesson-SL-11/1",
+  "learning_targets": [
+    "Student should be able to: Calculate the standard deviation of a distribution.",
+    "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+  ],
+  "mathematical_policy": "sl10-provenance-required/1",
+  "profile": "standard-lesson",
+  "required_output": [
+    "Return ProviderContent for ai-author-candidate/2. scaffold_steps must be an empty list. Do not author a hint or any scaffold.",
+    "Choose one allowed question_template verbatim. Keep all answers in proposed_solution; no student-visible solution.",
+    "Use feasible population summary statistics; n is an integer, sums and values are exact scalar numeric strings.",
+    "Use symbolic expressions: first_term=sum_x2 / n; second_term=(sum_x / n)^2; mean=sum_x / n; variance=first term - second term or sum_x2 / n - (sum_x / n)^2.",
+    "Solution inputs must equal proposed inputs. Provide exact_radicand, finite numeric_answer within 1e-40, and display_answer to two decimals ROUND_HALF_UP.",
+    "No new scope, sample SD, difficulty, prerequisite, common-mistake, exam prediction, memorisation, calculator or approval claims.",
+    "Propose one original feasible set of summary statistics."
+  ],
+  "role_ref": "profiled-sd-standard-lesson-SL-11",
+  "schema_version": "numerical-role-authoring-brief/1",
+  "semantic_role": "guided_practice",
+  "support_policy": "sl11-single-formula-hint/1",
+  "support_policy_sha256": "738f27053449a36e83d8f3a89486f12d01288924c1433b21ff5a2055d7507b92",
+  "task_form": "From summary statistics",
+  "topic": "standard-deviation"
+}

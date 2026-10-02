@@ -1,0 +1,265 @@
+{
+  "boundary_compliance": {
+    "valid": true
+  },
+  "content_completeness": {
+    "valid": true
+  },
+  "coverage_matrix": [
+    {
+      "evidence_refs": [
+        "authored-sd-v1-concept",
+        "authored-sd-v1-concept-check-block",
+        "authored-sd-v1-visual"
+      ],
+      "kind": "learning_requirement",
+      "requirement_ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+      "semantic_role": "conceptual_understanding",
+      "status": "covered"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-method",
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-v1-worked-block"
+      ],
+      "kind": "learning_requirement",
+      "requirement_ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "semantic_role": "capability",
+      "status": "covered"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-v1-summary-method",
+        "authored-sd-v1-worked-block"
+      ],
+      "kind": "learning_requirement",
+      "requirement_ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+      "semantic_role": "capability_under_task_form",
+      "status": "covered"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-calculation-check-question",
+        "authored-sd-v1-concept-check-question",
+        "authored-sd-v1-practice-1-question",
+        "authored-sd-v1-practice-2-question"
+      ],
+      "kind": "coverage_requirement",
+      "requirement_ref": "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+      "semantic_role": "assessment_alignment",
+      "status": "satisfied"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-worked-question"
+      ],
+      "kind": "coverage_requirement",
+      "requirement_ref": "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c",
+      "semantic_role": "teaching_assessment_connection",
+      "status": "satisfied"
+    }
+  ],
+  "coverage_requirement_validation": {
+    "valid": true
+  },
+  "identity": {
+    "awarding_body": "Pearson Edexcel",
+    "curriculum_section": "Statistics",
+    "qualification": "A Level Mathematics",
+    "specification_code": "9MA0",
+    "subject": "Mathematics",
+    "title": "Standard deviation",
+    "view_key": "standard-deviation",
+    "view_type": "authored_content_validation"
+  },
+  "input_contracts": {
+    "authored-teaching-content/1": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+    "learning-specification/1": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "pedagogical-specification/1": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "pedagogical-validation/1": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "learning_alignment": {
+    "valid": true
+  },
+  "mathematical_integrity": {
+    "valid": true
+  },
+  "reference_integrity": {
+    "valid": true
+  },
+  "renderer_readiness": {
+    "blocking_codes": [],
+    "ready_for_rendering": true
+  },
+  "schema_version": "authored-content-validation/1",
+  "slot_population": [
+    {
+      "evidence_refs": [
+        "authored-sd-v1-calculation-check-block"
+      ],
+      "populated": true,
+      "semantic_role": "learning_check_slot",
+      "slot_ref": "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-method"
+      ],
+      "populated": true,
+      "semantic_role": "calculation_method_slot",
+      "slot_ref": "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-worked-block"
+      ],
+      "populated": true,
+      "semantic_role": "worked_example_slot",
+      "slot_ref": "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+    },
+    {
+      "evidence_refs": [
+        "authored-sd-v1-summary-method"
+      ],
+      "populated": true,
+      "semantic_role": "task_input_slot",
+      "slot_ref": "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+    }
+  ],
+  "trust_summary": {
+    "academic_approval": false,
+    "pedagogical_quality_assessed": false,
+    "rendered_artifact_created": false,
+    "student_mastery_assessed": false,
+    "trust_basis": "Caller must use the live service for current trust; pure diagnostics do not authenticate JSON.",
+    "trusted_snapshot": false,
+    "upstream_authoring_ready": true,
+    "validation_profile": "standard-deviation/v1"
+  },
+  "verification_summary": {
+    "authored-sd-v1-calculation-check-question": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-v1-deviation-formula": {
+      "checks": {
+        "display_matches_expression": true,
+        "population_identity_dataset_0": true,
+        "population_identity_dataset_1": true,
+        "population_identity_dataset_2": true,
+        "population_identity_dataset_3": true,
+        "population_identity_dataset_4": true,
+        "population_identity_dataset_5": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-v1-practice-1-question": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-v1-practice-2-question": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-v1-summary-formula": {
+      "checks": {
+        "display_matches_expression": true,
+        "population_identity_dataset_0": true,
+        "population_identity_dataset_1": true,
+        "population_identity_dataset_2": true,
+        "population_identity_dataset_3": true,
+        "population_identity_dataset_4": true,
+        "population_identity_dataset_5": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-v1-visual": {
+      "checks": {
+        "A_mean": true,
+        "A_sd": true,
+        "A_variance": true,
+        "B_mean": true,
+        "B_sd": true,
+        "B_variance": true,
+        "brief_matches_claims": true,
+        "same_mean": true,
+        "sd_order": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-v1-worked-question": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    }
+  },
+  "violations": [],
+  "warnings": [
+    {
+      "code": "bounded_semantic_rules",
+      "message": "Standard deviation v1 uses structured targets and concept-answer semantic elements plus bounded prose rules. Frozen P4A concept explanations lack structured semantic-element fields. This is not arbitrary-language semantic proof.",
+      "ref": "validation_profile",
+      "severity": "WARNING"
+    },
+    {
+      "code": "limited_math_scope",
+      "message": "Shared P4A exact rational feasibility, 50-digit square roots and ROUND_HALF_UP 2dp apply; formula checks use deterministic datasets, not symbolic proof or constrained moment solving.",
+      "ref": "mathematical_integrity",
+      "severity": "WARNING"
+    },
+    {
+      "code": "not_quality_or_plagiarism_review",
+      "message": "No pedagogical quality scoring, student grading, copyright similarity detection or academic approval is performed.",
+      "ref": "trust_summary",
+      "severity": "WARNING"
+    }
+  ]
+}

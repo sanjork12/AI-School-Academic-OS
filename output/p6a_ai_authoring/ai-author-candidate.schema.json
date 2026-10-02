@@ -1,0 +1,270 @@
+{
+  "$defs": {
+    "Inputs": {
+      "additionalProperties": false,
+      "properties": {
+        "n": {
+          "title": "N",
+          "type": "integer"
+        },
+        "sum_x": {
+          "title": "Sum X",
+          "type": "string"
+        },
+        "sum_x2": {
+          "title": "Sum X2",
+          "type": "string"
+        }
+      },
+      "required": [
+        "n",
+        "sum_x",
+        "sum_x2"
+      ],
+      "title": "Inputs",
+      "type": "object"
+    },
+    "Metadata": {
+      "additionalProperties": false,
+      "properties": {
+        "cost": {
+          "const": "not_computed",
+          "default": "not_computed",
+          "title": "Cost",
+          "type": "string"
+        },
+        "input_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Input Tokens"
+        },
+        "latency_seconds": {
+          "minimum": 0,
+          "title": "Latency Seconds",
+          "type": "number"
+        },
+        "model": {
+          "title": "Model",
+          "type": "string"
+        },
+        "output_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Output Tokens"
+        },
+        "provider": {
+          "title": "Provider",
+          "type": "string"
+        },
+        "total_tokens": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Total Tokens"
+        }
+      },
+      "required": [
+        "provider",
+        "model",
+        "latency_seconds"
+      ],
+      "title": "Metadata",
+      "type": "object"
+    },
+    "ProposedSolution": {
+      "additionalProperties": false,
+      "properties": {
+        "display_answer": {
+          "title": "Display Answer",
+          "type": "string"
+        },
+        "exact_radicand": {
+          "title": "Exact Radicand",
+          "type": "string"
+        },
+        "first_term": {
+          "title": "First Term",
+          "type": "string"
+        },
+        "inputs": {
+          "$ref": "#/$defs/Inputs"
+        },
+        "mean": {
+          "title": "Mean",
+          "type": "string"
+        },
+        "numeric_answer": {
+          "title": "Numeric Answer",
+          "type": "string"
+        },
+        "second_term": {
+          "title": "Second Term",
+          "type": "string"
+        },
+        "variance": {
+          "title": "Variance",
+          "type": "string"
+        }
+      },
+      "required": [
+        "inputs",
+        "first_term",
+        "second_term",
+        "mean",
+        "variance",
+        "exact_radicand",
+        "numeric_answer",
+        "display_answer"
+      ],
+      "title": "ProposedSolution",
+      "type": "object"
+    },
+    "ProviderContent": {
+      "additionalProperties": false,
+      "properties": {
+        "proposed_math_inputs": {
+          "$ref": "#/$defs/Inputs"
+        },
+        "proposed_solution": {
+          "$ref": "#/$defs/ProposedSolution"
+        },
+        "question_template": {
+          "title": "Question Template",
+          "type": "string"
+        },
+        "scaffold_steps": {
+          "items": {
+            "$ref": "#/$defs/Scaffold"
+          },
+          "title": "Scaffold Steps",
+          "type": "array"
+        }
+      },
+      "required": [
+        "question_template",
+        "proposed_math_inputs",
+        "scaffold_steps",
+        "proposed_solution"
+      ],
+      "title": "ProviderContent",
+      "type": "object"
+    },
+    "Scaffold": {
+      "additionalProperties": false,
+      "properties": {
+        "instruction": {
+          "title": "Instruction",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "compute_first_term",
+            "compute_second_term",
+            "subtract_variance_terms",
+            "square_root"
+          ],
+          "title": "Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "instruction"
+      ],
+      "title": "Scaffold",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "brief_ref": {
+      "title": "Brief Ref",
+      "type": "string"
+    },
+    "brief_sha256": {
+      "title": "Brief Sha256",
+      "type": "string"
+    },
+    "candidate_id": {
+      "pattern": "^ai-candidate-[0-9a-f]{32}$",
+      "title": "Candidate Id",
+      "type": "string"
+    },
+    "content": {
+      "$ref": "#/$defs/ProviderContent"
+    },
+    "content_origin": {
+      "const": "ai_generated_candidate",
+      "default": "ai_generated_candidate",
+      "title": "Content Origin",
+      "type": "string"
+    },
+    "current_inputs_sha256": {
+      "title": "Current Inputs Sha256",
+      "type": "string"
+    },
+    "learning_requirement_refs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Learning Requirement Refs",
+      "type": "array"
+    },
+    "model_metadata": {
+      "$ref": "#/$defs/Metadata"
+    },
+    "role_ref": {
+      "title": "Role Ref",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "ai-author-candidate/1",
+      "default": "ai-author-candidate/1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "task_form_refs": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Task Form Refs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "brief_ref",
+    "brief_sha256",
+    "current_inputs_sha256",
+    "role_ref",
+    "learning_requirement_refs",
+    "task_form_refs",
+    "content",
+    "model_metadata"
+  ],
+  "title": "Candidate",
+  "type": "object"
+}

@@ -1,0 +1,333 @@
+{
+  "status": "Performance fix implemented; focused regressions pass; full suite retains three source-freeze failures and one historical missing-PPTX error",
+  "production_files_changed": [
+    "academic_os/sources.py"
+  ],
+  "supporting_files": [
+    "tests_p0/test_source_cache.py",
+    "tests_p0/test_source_cache_integration.py",
+    "docs/P6A1A_TRUSTED_READ_PERFORMANCE.md"
+  ],
+  "cache": {
+    "scope": "process-local deterministic computation only",
+    "reader_entry_limit": 8,
+    "page_text_entry_limit": 128,
+    "strict_rss_byte_limit": false,
+    "concurrency": "RLock serializes reader use and cache mutation",
+    "key": [
+      "current file SHA-256",
+      "running pypdf version",
+      "reader policy",
+      "page index",
+      "extraction method",
+      "immutable extraction options"
+    ],
+    "persistent_receipts": false,
+    "trust_decisions_cached": false
+  },
+  "prior_diagnosis_baseline": {
+    "source": "preceding read-only diagnosis, not a new uncached run in this implementation turn",
+    "seconds": 108.2,
+    "product_reads": 80,
+    "snapshot_checks": 160,
+    "integrity_checks": 240,
+    "reader_constructions": 880,
+    "page_extractions": 880,
+    "distinct_pages": 5
+  },
+  "instrumented_after": [
+    {
+      "mode": "cold",
+      "seconds": 9.733563500005403,
+      "counts": {
+        "snapshots": 160,
+        "direct_integrity": 160,
+        "governance_integrity": 80,
+        "readers": 5,
+        "extractions": 5
+      }
+    },
+    {
+      "mode": "warm",
+      "seconds": 13.83153919999313,
+      "counts": {
+        "snapshots": 160,
+        "direct_integrity": 160,
+        "governance_integrity": 80,
+        "readers": 0,
+        "extractions": 0
+      }
+    }
+  ],
+  "timing_after_tests": {
+    "measurements": [
+      {
+        "mode": "cold",
+        "seconds": 6.278626300001633
+      },
+      {
+        "mode": "warm",
+        "seconds": 5.9667177999945125
+      }
+    ],
+    "dry_run": {
+      "exit_code": 0,
+      "seconds": 7.003320300005726,
+      "stderr": "",
+      "output": {
+        "attempt_count": 10,
+        "brief": {
+          "allowed_question_templates": [
+            "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+            "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+          ],
+          "allowed_scaffolds": {
+            "compute_first_term": [
+              "Calculate Σx² / n.",
+              "Divide the sum of squares by the number of observations."
+            ],
+            "compute_second_term": [
+              "Calculate (Σx / n)².",
+              "Divide the sum by the number of observations, then square the result."
+            ],
+            "square_root": [
+              "Take the square root.",
+              "Take the square root of the variance."
+            ],
+            "subtract_variance_terms": [
+              "Subtract the second result from the first.",
+              "Find the difference: first term minus second term."
+            ]
+          },
+          "content_origin_policy": "ai_generated_candidate",
+          "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+          "forbidden_content": [
+            "new learning requirements, concepts, competencies or task forms",
+            "sample standard deviation or n - 1",
+            "population/sample comparison",
+            "difficulty, common-mistake or prerequisite claims",
+            "frequency, typical marks or exam predictions",
+            "formula memorisation",
+            "calculator models or button sequences",
+            "Pearson copying or official endorsement",
+            "approval, verification, safety, trust or readiness declarations"
+          ],
+          "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+          "identity": "standard-deviation-standard-lesson-SL-10/1",
+          "learning_targets": [
+            "Student should be able to: Calculate the standard deviation of a distribution.",
+            "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+          ],
+          "profile_context": "Standard lesson, guided calculation practice",
+          "required_output": [
+            "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+            "Choose one permitted question template verbatim, preserving its placeholders.",
+            "Four ordered scaffold types, with one permitted instruction for each.",
+            "Separate solution with identical inputs; exact rational intermediate results; numeric SD to 45 decimal digits when irrational; display to 2 decimal places."
+          ],
+          "role": "Guided practice 1",
+          "schema_version": "authoring-brief/1",
+          "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+          "support_mode": "guided",
+          "task_form": "From summary statistics"
+        },
+        "brief_hash": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "live_api_will_be_called": false,
+        "model": "not_configured_in_environment",
+        "note": "Live provider also uses the existing dotenv convention; configure the model in the environment for an exact dry-run model display.",
+        "output_location": "D:\\AI-School-Academic-OS\\output\\p6a1_live_qualification",
+        "slot": "profiled-sd-standard-lesson-SL-10",
+        "stress_cases": [],
+        "would_call_with_live_flag": 10
+      }
+    },
+    "note": "After both test processes completed; no wall-clock acceptance threshold."
+  },
+  "tests": {
+    "focused": {
+      "total": 181,
+      "passed": 181,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 195.9718423999875
+    },
+    "full": {
+      "total": 1075,
+      "passed": 1071,
+      "failed": 3,
+      "errors": 1,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "seconds": 258.89858079999976,
+      "error_details": [
+        {
+          "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+          "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+        }
+      ],
+      "failure_details": [
+        {
+          "test": "test_27_preserved_foundation (tests_p0.test_profile_presentation.ProfilePresentationTests.test_27_preserved_foundation)",
+          "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\tests_p0\\test_profile_presentation.py\", line 192, in test_27_preserved_foundation\n    for path,digest in before['files'].items():self.assertEqual(hashlib.sha256(Path(path).read_bytes()).hexdigest(),digest,path)\n                                               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8' != 'ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e'\n- f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8\n+ ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e\n : academic_os\\sources.py\n"
+        },
+        {
+          "test": "test_34_frozen_hashes (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_34_frozen_hashes)",
+          "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\tests_p0\\test_reference_freeze.py\", line 55, in test_34_frozen_hashes\n    for p,h in self.before['files'].items():self.assertEqual(sha(p),h,p)\n                                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAssertionError: 'f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8' != 'ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e'\n- f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8\n+ ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e\n : academic_os\\sources.py\n"
+        },
+        {
+          "test": "test_35_no_production_dependency_change (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_35_no_production_dependency_change)",
+          "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\tests_p0\\test_reference_freeze.py\", line 58, in test_35_no_production_dependency_change\n    if p.suffix in ('.py','.mjs'):self.assertEqual(sha(p),self.before['files'][str(p)])\n                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8' != 'ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e'\n- f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8\n+ ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e\n\n"
+        }
+      ]
+    },
+    "new_cache_tests": {
+      "total": 18,
+      "passed": 18,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "trust_regressions": [
+    "fresh byte hash despite warm cache",
+    "same path/size/restored mtime mutation",
+    "missing source",
+    "locator text/digest/version/anchor/page changes",
+    "parser/options isolation",
+    "concurrent single extraction",
+    "LRU eviction",
+    "failed extraction not cached",
+    "parse exactly hashed byte buffer",
+    "JSON and AI candidate rejection",
+    "revocation",
+    "superseding review",
+    "dependency version change",
+    "existing snapshot block",
+    "Q3 deferred dependency change",
+    "Q3 governance reopen",
+    "cold/warm equivalent semantics",
+    "160 snapshot and 240 integrity checks retained per input read"
+  ],
+  "database": {
+    "before": {
+      "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+      "tables": {
+        "versions": {
+          "count": 116,
+          "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+        },
+        "heads": {
+          "count": 95,
+          "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+        },
+        "reviews": {
+          "count": 83,
+          "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+        },
+        "review_heads": {
+          "count": 83,
+          "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+        },
+        "requests": {
+          "count": 101,
+          "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+        },
+        "snapshots": {
+          "count": 2,
+          "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+        },
+        "snapshot_members": {
+          "count": 97,
+          "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+        },
+        "snapshot_blocks": {
+          "count": 0,
+          "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    },
+    "after": {
+      "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+      "tables": {
+        "versions": {
+          "count": 116,
+          "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+        },
+        "heads": {
+          "count": 95,
+          "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+        },
+        "reviews": {
+          "count": 83,
+          "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+        },
+        "review_heads": {
+          "count": 83,
+          "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+        },
+        "requests": {
+          "count": 101,
+          "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+        },
+        "snapshots": {
+          "count": 2,
+          "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+        },
+        "snapshot_members": {
+          "count": 97,
+          "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+        },
+        "snapshot_blocks": {
+          "count": 0,
+          "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    },
+    "unchanged": true,
+    "review_actions_before_and_after": {
+      "approve": 57,
+      "verify": 26
+    },
+    "governance_records_before_and_after": 1,
+    "snapshot_count_before_and_after": 2
+  },
+  "protected_snapshots": {
+    "before": {
+      "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": true,
+      "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": true
+    },
+    "after": {
+      "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": true,
+      "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": true
+    },
+    "republished": false
+  },
+  "frozen_artifact_integrity": {
+    "inventory": "before.json files",
+    "checked_existing_output_files": 848,
+    "changed_or_missing": [],
+    "new_outputs_outside_acceptance_directory": [],
+    "coverage": "All pre-existing output files, including reference freeze, P5D PPTX and P6A/P6A.1 artifacts"
+  },
+  "live_qualification": {
+    "run": false,
+    "api_calls": 0,
+    "paid_calls": 0,
+    "engineering_freeze_inventory_matches": false,
+    "mismatches": [
+      "academic_os\\sources.py"
+    ],
+    "preflight_would_block": true,
+    "note": "Old source pins preserved; a separately reviewed engineering baseline transition is required before live qualification."
+  },
+  "limitations": [
+    "Upstream fan-out remains 80 product reads per input read.",
+    "Cache limits count entries rather than strict resident bytes.",
+    "Cold process restarts or LRU eviction recompute extraction.",
+    "Timings are informational; instrumented measurements overlapped focused regression work.",
+    "Full suite is not green: three intentional-code-change freeze assertions and one pre-existing missing PPTX error.",
+    "No production authentication or persistent integrity receipt introduced."
+  ]
+}

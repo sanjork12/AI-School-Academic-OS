@@ -1,0 +1,50 @@
+test_01_contract_versions (tests_p0.test_learning_specification.LearningSpecificationTests.test_01_contract_versions) ... ok
+test_02_reject_teacher_version (tests_p0.test_learning_specification.LearningSpecificationTests.test_02_reject_teacher_version) ... ok
+test_03_reject_assessment_version (tests_p0.test_learning_specification.LearningSpecificationTests.test_03_reject_assessment_version) ... ok
+test_04_no_upstream_mutation (tests_p0.test_learning_specification.LearningSpecificationTests.test_04_no_upstream_mutation) ... ok
+test_05_identity_and_course (tests_p0.test_learning_specification.LearningSpecificationTests.test_05_identity_and_course) ... ok
+test_06_gold_learning_meaning (tests_p0.test_learning_specification.LearningSpecificationTests.test_06_gold_learning_meaning) ... ok
+test_07_conceptual_basis (tests_p0.test_learning_specification.LearningSpecificationTests.test_07_conceptual_basis) ... ok
+test_08_task_evidence_both_examples (tests_p0.test_learning_specification.LearningSpecificationTests.test_08_task_evidence_both_examples) ... ok
+test_09_gold_coverage (tests_p0.test_learning_specification.LearningSpecificationTests.test_09_gold_coverage) ... ok
+test_10_ten_boundaries (tests_p0.test_learning_specification.LearningSpecificationTests.test_10_ten_boundaries) ... ok
+test_11_boundary_traceability (tests_p0.test_learning_specification.LearningSpecificationTests.test_11_boundary_traceability) ... ok
+test_12_no_added_notation_or_method (tests_p0.test_learning_specification.LearningSpecificationTests.test_12_no_added_notation_or_method) ... ok
+test_13_no_pedagogical_or_analytic_fields (tests_p0.test_learning_specification.LearningSpecificationTests.test_13_no_pedagogical_or_analytic_fields) ... ok
+test_14_classifications (tests_p0.test_learning_specification.LearningSpecificationTests.test_14_classifications) ... ok
+test_15_all_refs_resolve (tests_p0.test_learning_specification.LearningSpecificationTests.test_15_all_refs_resolve) ... ok
+test_16_production_never_reads_oracle (tests_p0.test_learning_specification.LearningSpecificationTests.test_16_production_never_reads_oracle) ... ok
+test_17_semantic_roles_generalise (tests_p0.test_learning_specification.LearningSpecificationTests.test_17_semantic_roles_generalise) ... ok
+test_18_unassessed_task_not_requirement (tests_p0.test_learning_specification.LearningSpecificationTests.test_18_unassessed_task_not_requirement) ... ok
+test_19_missing_evidence_no_task_or_connection (tests_p0.test_learning_specification.LearningSpecificationTests.test_19_missing_evidence_no_task_or_connection) ... ok
+test_20_extra_concept_derived_from_role (tests_p0.test_learning_specification.LearningSpecificationTests.test_20_extra_concept_derived_from_role) ... ok
+test_21_ids_stable_when_display_changes (tests_p0.test_learning_specification.LearningSpecificationTests.test_21_ids_stable_when_display_changes) ... ok
+test_22_evidence_wording_never_creates_requirement (tests_p0.test_learning_specification.LearningSpecificationTests.test_22_evidence_wording_never_creates_requirement) ... ok
+test_23_repeat_deterministic (tests_p0.test_learning_specification.LearningSpecificationTests.test_23_repeat_deterministic) ... ok
+test_24_evidence_order_deterministic (tests_p0.test_learning_specification.LearningSpecificationTests.test_24_evidence_order_deterministic) ... ok
+test_25_snapshots_order_deterministic (tests_p0.test_learning_specification.LearningSpecificationTests.test_25_snapshots_order_deterministic) ... ok
+test_26_frozen_upstream_artifacts (tests_p0.test_learning_specification.LearningSpecificationTests.test_26_frozen_upstream_artifacts) ... ok
+test_27_inconsistent_contracts_rejected (tests_p0.test_learning_specification.LearningSpecificationTests.test_27_inconsistent_contracts_rejected) ... ok
+test_28_manipulated_assessment_limitation_rejected (tests_p0.test_learning_specification.LearningSpecificationTests.test_28_manipulated_assessment_limitation_rejected) ... ok
+test_29_no_canonical_ids_in_normal_view (tests_p0.test_learning_specification.LearningSpecificationTests.test_29_no_canonical_ids_in_normal_view) ... ok
+test_30_provenance_chain (tests_p0.test_learning_specification.LearningSpecificationTests.test_30_provenance_chain) ... ok
+test_31_trust_and_curriculum_preserved (tests_p0.test_learning_specification.LearningSpecificationTests.test_31_trust_and_curriculum_preserved) ... ok
+test_32_pending_unresolved_absent (tests_p0.test_learning_specification.LearningSpecificationTests.test_32_pending_unresolved_absent) ... ok
+test_33_source_notes_preserved (tests_p0.test_learning_specification.LearningSpecificationTests.test_33_source_notes_preserved) ... ok
+test_34_real_db_unchanged (tests_p0.test_learning_specification.LearningSpecificationTests.test_34_real_db_unchanged) ... ok
+test_35_no_raw_bypass (tests_p0.test_learning_specification.LearningSpecificationTests.test_35_no_raw_bypass) ... ok
+test_36_cli (tests_p0.test_learning_specification.LearningSpecificationTests.test_36_cli) ... ok
+test_37_rendering (tests_p0.test_learning_specification.LearningSpecificationTests.test_37_rendering) ... ok
+test_38_cli_never_opens_write_store (tests_p0.test_learning_specification.LearningSpecificationTests.test_38_cli_never_opens_write_store) ... ok
+test_39_next_read_revocation_blocks (tests_p0.test_learning_specification.LearningSpecificationTests.test_39_next_read_revocation_blocks) ... ok
+test_40_saved_json_is_not_authority (tests_p0.test_learning_specification.LearningSpecificationTests.test_40_saved_json_is_not_authority) ... ok
+test_41_unique_refs (tests_p0.test_learning_specification.LearningSpecificationTests.test_41_unique_refs) ... ok
+test_42_coverage_reference_validation (tests_p0.test_learning_specification.LearningSpecificationTests.test_42_coverage_reference_validation) ... ok
+test_43_evidence_reference_validation (tests_p0.test_learning_specification.LearningSpecificationTests.test_43_evidence_reference_validation) ... ok
+test_44_two_reads_must_have_same_provenance (tests_p0.test_learning_specification.LearningSpecificationTests.test_44_two_reads_must_have_same_provenance) ... ok
+test_45_no_snapshot_cache (tests_p0.test_learning_specification.LearningSpecificationTests.test_45_no_snapshot_cache) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 11.700s
+
+OK

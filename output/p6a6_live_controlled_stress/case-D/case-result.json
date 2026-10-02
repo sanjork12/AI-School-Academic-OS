@@ -1,0 +1,746 @@
+{
+  "attempt": {
+    "acceptance_policy": "sl10-provenance-required/1",
+    "accepted": true,
+    "artifact_hashes": {
+      "ai-candidate-2de249f46eea43999bc01c856434c1cf.json": "b2f9ddf6563fea4cfdde2ea977953576e8415e06e9e2e2a332dd8a040a92e2e0",
+      "brief.json": "4d99e643c201a72b78de759107643d0806c4058bffd23406e4e815023c3fe66b",
+      "provider_observation.json": "cc411bd1b67ee1cdb74763db66b764007b3ebfae2e6447e8a1767a96a1d43dc0",
+      "raw_candidate.json": "7de67f9201ebe906a4790cac72b056f7281e7e4e6dafc5f0707f2e245b777ca4",
+      "started.json": "7cd9a4e59cb54b2b6d61467a53807409589a54ae32ca8a3768018cfff8b48931",
+      "validation.json": "80b9c42bc75c0ba128c97dcca9e34f8b435a6db3bfe99ff447bebbacd7a1bc61"
+    },
+    "attempt_id": "attempt-01",
+    "blocked": null,
+    "boundary_valid": true,
+    "brief_hash": "4d99e643c201a72b78de759107643d0806c4058bffd23406e4e815023c3fe66b",
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/4",
+    "candidate_artifact_ref": "ai-candidate-2de249f46eea43999bc01c856434c1cf.json",
+    "candidate_id": "ai-candidate-2de249f46eea43999bc01c856434c1cf",
+    "case_id": null,
+    "completed_at": "2026-10-01T19:15:11.822136+00:00",
+    "composition_valid": true,
+    "content_complete": true,
+    "controlled_case": {
+      "controlled_case_id": "D",
+      "inputs": {
+        "n": 3,
+        "sum_x": "4",
+        "sum_x2": "6"
+      }
+    },
+    "controlled_case_sha256": "5b7c9913e348b85064050da329a5974a62117a0efd50c0dd404fd174a49ec143",
+    "controlled_input_binding_reason": "controlled_inputs_match",
+    "controlled_input_binding_status": "PASSED",
+    "controlled_input_binding_valid": true,
+    "controlled_mode": "sl10-controlled-input/1",
+    "derivation_provenance_status": "PASSED",
+    "derivation_provenance_valid": true,
+    "expected_guardrail": null,
+    "expression_semantics_valid": true,
+    "forbidden_behavior_observed": null,
+    "latency_ms": 8139.868300000671,
+    "math_valid": true,
+    "model_identifier": "gpt-5.6-sol",
+    "numeric_encoding_valid": true,
+    "observed_configuration": {
+      "max_output_tokens": 3000,
+      "model": "gpt-5.6-sol",
+      "store": false,
+      "structured_output_mode": "responses.parse"
+    },
+    "operational_error": null,
+    "outcome": "candidate_accepted",
+    "provider_call_completed": true,
+    "provider_calls": 1,
+    "provider_request_id": "req_ae2d0f52528b434f84a7d09e5a5e1d64",
+    "returned_inputs": {
+      "n": 3,
+      "sum_x": "4",
+      "sum_x2": "6"
+    },
+    "scaffold_valid": true,
+    "schema_valid": true,
+    "scope_valid": true,
+    "solution_valid": true,
+    "started_at": "2026-10-01T19:14:54.422105+00:00",
+    "usage": {
+      "input_tokens": 1388,
+      "output_tokens": 615,
+      "total_tokens": 2003
+    },
+    "violations": [],
+    "warnings": [
+      "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+      "Only the controlled SL-10 expression grammar is verified; no general symbolic proof or production rendering."
+    ]
+  },
+  "brief": {
+    "allowed_question_templates": [
+      "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+    ],
+    "allowed_scaffolds": {
+      "compute_first_term": [
+        "Calculate Σx² / n.",
+        "Divide the sum of squares by the number of observations."
+      ],
+      "compute_second_term": [
+        "Calculate (Σx / n)².",
+        "Divide the sum by the number of observations, then square the result."
+      ],
+      "square_root": [
+        "Take the square root.",
+        "Take the square root of the variance."
+      ],
+      "subtract_variance_terms": [
+        "Subtract the second result from the first.",
+        "Find the difference: first term minus second term."
+      ]
+    },
+    "content_origin_policy": "ai_generated_candidate",
+    "controlled_case": {
+      "controlled_case_id": "D",
+      "inputs": {
+        "n": 3,
+        "sum_x": "4",
+        "sum_x2": "6"
+      }
+    },
+    "controlled_case_sha256": "5b7c9913e348b85064050da329a5974a62117a0efd50c0dd404fd174a49ec143",
+    "controlled_mode": "sl10-controlled-input/1",
+    "copyright_policy": "Use the supplied numerical case and permitted template. Do not claim copied or official Pearson material.",
+    "forbidden_content": [
+      "new learning requirements, concepts, competencies or task forms",
+      "sample standard deviation or n - 1",
+      "population/sample comparison",
+      "difficulty, common-mistake or prerequisite claims",
+      "frequency, typical marks or exam predictions",
+      "formula memorisation",
+      "calculator models or button sequences",
+      "Pearson copying or official endorsement",
+      "approval, verification, safety, trust or readiness declarations"
+    ],
+    "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+    "generation_policy": "sl10-provenance-required/1",
+    "identity": "standard-deviation-standard-lesson-SL-10/4",
+    "learning_targets": [
+      "Student should be able to: Calculate the standard deviation of a distribution.",
+      "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+    ],
+    "profile_context": "Standard lesson, guided calculation practice",
+    "required_output": [
+      "Use exactly the application-owned controlled_case.inputs: n=3, sum_x=4, sum_x2=6. Do not select or replace inputs. Preserve identical input copies in the solution. Exact rational-equivalent sum encodings are permitted; n must be the same integer.",
+      "Choose one permitted question template verbatim, preserving its placeholders.",
+      "Four ordered scaffold types, with one permitted instruction for each.",
+      "Separate solution with identical inputs. first_term, second_term, mean and variance each require expression and value. Preserve operand identity: first_term expression must be sum_x2 / n; second_term must be (sum_x / n)^2; mean must be sum_x / n; variance must be first term - second term or sum_x2 / n - (sum_x / n)^2. Use symbolic quantities, not literal substitutions such as 55/5 or 11 - 9. Existing aliases Σx and Σx², ÷, ², whitespace and redundant parentheses are allowed. No equations, equality chains, extra operators or self-reference shortcuts. Value and exact_radicand must be scalar integer, decimal or simple rational strings only. numeric_answer must be a finite decimal within 1e-40 of computed SD; display_answer is exactly two decimals, ROUND_HALF_UP. Provenance is independent of numeric semantics and does not grant academic approval or renderer readiness."
+    ],
+    "role": "Guided practice 1",
+    "schema_version": "authoring-brief/4",
+    "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+    "support_mode": "guided",
+    "task_form": "From summary statistics"
+  },
+  "brief_hash": "4d99e643c201a72b78de759107643d0806c4058bffd23406e4e815023c3fe66b",
+  "case_hash": "5b7c9913e348b85064050da329a5974a62117a0efd50c0dd404fd174a49ec143",
+  "case_id": "D",
+  "expected": {
+    "first_term": "2",
+    "mean": "4/3",
+    "second_term": "16/9",
+    "variance": "2/9"
+  },
+  "expected_display": "0.47",
+  "expected_numeric_answer": "0.47140452079103168293389624140323269285655729179231",
+  "expression_verification": {
+    "checks": {
+      "first_term": {
+        "ast": {
+          "left": {
+            "name": "sum_x2",
+            "op": "variable"
+          },
+          "op": "divide",
+          "right": {
+            "name": "n",
+            "op": "variable"
+          }
+        },
+        "claimed_value": "2",
+        "comparison": "exact_rational",
+        "evaluated_value": "2",
+        "expression": "sum_x2 / n",
+        "reason": null,
+        "valid": true
+      },
+      "mean": {
+        "ast": {
+          "left": {
+            "name": "sum_x",
+            "op": "variable"
+          },
+          "op": "divide",
+          "right": {
+            "name": "n",
+            "op": "variable"
+          }
+        },
+        "claimed_value": "4/3",
+        "comparison": "exact_rational",
+        "evaluated_value": "4/3",
+        "expression": "sum_x / n",
+        "reason": null,
+        "valid": true
+      },
+      "second_term": {
+        "ast": {
+          "arg": {
+            "left": {
+              "name": "sum_x",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "op": "square"
+        },
+        "claimed_value": "16/9",
+        "comparison": "exact_rational",
+        "evaluated_value": "16/9",
+        "expression": "(sum_x / n)^2",
+        "reason": null,
+        "valid": true
+      },
+      "variance": {
+        "ast": {
+          "left": {
+            "left": {
+              "name": "sum_x2",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "op": "subtract",
+          "right": {
+            "arg": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "op": "square"
+          }
+        },
+        "claimed_value": "2/9",
+        "comparison": "exact_rational",
+        "evaluated_value": "2/9",
+        "expression": "sum_x2 / n - (sum_x / n)^2",
+        "reason": null,
+        "valid": true
+      }
+    },
+    "expression_semantics_valid": true,
+    "verifier_version": "sl10-expression/1"
+  },
+  "expressions": {
+    "first_term": "sum_x2 / n",
+    "mean": "sum_x / n",
+    "second_term": "(sum_x / n)^2",
+    "variance": "sum_x2 / n - (sum_x / n)^2"
+  },
+  "numeric_verification": {
+    "checks": {
+      "exact_answer_recomputed": true,
+      "mean_recomputed": true,
+      "method_steps_recomputed": true,
+      "numeric_answer_recomputed": true,
+      "rounding_recomputed": true,
+      "summaries_feasible": true,
+      "variance_recomputed": true
+    },
+    "errors": [],
+    "status": "verified"
+  },
+  "numerical_solution": {
+    "display_answer": "0.47",
+    "exact_radicand": "2/9",
+    "first_term": {
+      "expression": "sum_x2 / n",
+      "value": "2"
+    },
+    "inputs": {
+      "n": 3,
+      "sum_x": "4",
+      "sum_x2": "6"
+    },
+    "mean": {
+      "expression": "sum_x / n",
+      "value": "4/3"
+    },
+    "numeric_answer": "0.47140452079103168293389624140323269285655729179232",
+    "second_term": {
+      "expression": "(sum_x / n)^2",
+      "value": "16/9"
+    },
+    "variance": {
+      "expression": "sum_x2 / n - (sum_x / n)^2",
+      "value": "2/9"
+    }
+  },
+  "outcome": "candidate_accepted",
+  "preflight_plan": {
+    "acceptance_policy": "sl10-provenance-required/1",
+    "attempt_count": 1,
+    "baseline_note": "The active engineering revision is explicitly selected; earlier baseline evidence remains immutable.",
+    "brief": {
+      "allowed_question_templates": [
+        "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+      ],
+      "allowed_scaffolds": {
+        "compute_first_term": [
+          "Calculate Σx² / n.",
+          "Divide the sum of squares by the number of observations."
+        ],
+        "compute_second_term": [
+          "Calculate (Σx / n)².",
+          "Divide the sum by the number of observations, then square the result."
+        ],
+        "square_root": [
+          "Take the square root.",
+          "Take the square root of the variance."
+        ],
+        "subtract_variance_terms": [
+          "Subtract the second result from the first.",
+          "Find the difference: first term minus second term."
+        ]
+      },
+      "content_origin_policy": "ai_generated_candidate",
+      "controlled_case": {
+        "controlled_case_id": "D",
+        "inputs": {
+          "n": 3,
+          "sum_x": "4",
+          "sum_x2": "6"
+        }
+      },
+      "controlled_case_sha256": "5b7c9913e348b85064050da329a5974a62117a0efd50c0dd404fd174a49ec143",
+      "controlled_mode": "sl10-controlled-input/1",
+      "copyright_policy": "Use the supplied numerical case and permitted template. Do not claim copied or official Pearson material.",
+      "forbidden_content": [
+        "new learning requirements, concepts, competencies or task forms",
+        "sample standard deviation or n - 1",
+        "population/sample comparison",
+        "difficulty, common-mistake or prerequisite claims",
+        "frequency, typical marks or exam predictions",
+        "formula memorisation",
+        "calculator models or button sequences",
+        "Pearson copying or official endorsement",
+        "approval, verification, safety, trust or readiness declarations"
+      ],
+      "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+      "generation_policy": "sl10-provenance-required/1",
+      "identity": "standard-deviation-standard-lesson-SL-10/4",
+      "learning_targets": [
+        "Student should be able to: Calculate the standard deviation of a distribution.",
+        "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+      ],
+      "profile_context": "Standard lesson, guided calculation practice",
+      "required_output": [
+        "Use exactly the application-owned controlled_case.inputs: n=3, sum_x=4, sum_x2=6. Do not select or replace inputs. Preserve identical input copies in the solution. Exact rational-equivalent sum encodings are permitted; n must be the same integer.",
+        "Choose one permitted question template verbatim, preserving its placeholders.",
+        "Four ordered scaffold types, with one permitted instruction for each.",
+        "Separate solution with identical inputs. first_term, second_term, mean and variance each require expression and value. Preserve operand identity: first_term expression must be sum_x2 / n; second_term must be (sum_x / n)^2; mean must be sum_x / n; variance must be first term - second term or sum_x2 / n - (sum_x / n)^2. Use symbolic quantities, not literal substitutions such as 55/5 or 11 - 9. Existing aliases Σx and Σx², ÷, ², whitespace and redundant parentheses are allowed. No equations, equality chains, extra operators or self-reference shortcuts. Value and exact_radicand must be scalar integer, decimal or simple rational strings only. numeric_answer must be a finite decimal within 1e-40 of computed SD; display_answer is exactly two decimals, ROUND_HALF_UP. Provenance is independent of numeric semantics and does not grant academic approval or renderer readiness."
+      ],
+      "role": "Guided practice 1",
+      "schema_version": "authoring-brief/4",
+      "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+      "support_mode": "guided",
+      "task_form": "From summary statistics"
+    },
+    "brief_hash": "4d99e643c201a72b78de759107643d0806c4058bffd23406e4e815023c3fe66b",
+    "candidate_contract_version": "ai-author-candidate/2",
+    "configuration_note": "Model resolved through the same environment/dotenv function as the live adapter. No credential validation or provider request was performed.",
+    "derivation_provenance_verified": false,
+    "engineering_baseline": {
+      "errors": [],
+      "manifest_sha256": "f1a7de965222282fe7f98b8da7994f942f9e99e6ab076f6a8d90a313e0e2178a",
+      "reference_version": "v1.6",
+      "trust_authority": false,
+      "valid": true,
+      "verification_scope": "current_conformance"
+    },
+    "engineering_baseline_version": "v1.6",
+    "expression_semantics_verified": false,
+    "expression_verification_required": true,
+    "gates": {
+      "authoring_brief_and_p5c": "passed",
+      "current_trusted_input_read": "passed",
+      "engineering_conformance": "passed"
+    },
+    "live_api_will_be_called": false,
+    "model": "gpt-5.6-sol",
+    "model_qualified": null,
+    "output_location": "output\\p6a6_live_controlled_stress\\case-D",
+    "preflight_status": "passed",
+    "profile": "standard-lesson",
+    "provenance_verification_required": true,
+    "provenance_verifier": "sl10-derivation-provenance/1",
+    "provider": "openai",
+    "renderer_readiness": false,
+    "repair_policy": "none",
+    "retry_policy": "none",
+    "role": "profiled-sd-standard-lesson-SL-10",
+    "slot": "profiled-sd-standard-lesson-SL-10",
+    "stress_attempted": 0,
+    "stress_cases": [],
+    "topic": "standard-deviation"
+  },
+  "provenance": {
+    "checks": {
+      "first_term": {
+        "ast": {
+          "left": {
+            "name": "sum_x2",
+            "op": "variable"
+          },
+          "op": "divide",
+          "right": {
+            "name": "n",
+            "op": "variable"
+          }
+        },
+        "evidence_mode": "current",
+        "expected_dependency_structure": [
+          {
+            "left": {
+              "name": "sum_x2",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          }
+        ],
+        "expected_semantic_role": "first_term",
+        "expected_value": "2",
+        "expression": "sum_x2 / n",
+        "expression_semantics_valid": true,
+        "field": "proposed_solution.first_term",
+        "policy": "sl10-provenance-required/1",
+        "reason": "provenance_verified",
+        "resolved_symbolic_sources": [
+          {
+            "ast_path": "$.left",
+            "dependencies": [
+              "proposed_math_inputs.sum_x2"
+            ],
+            "name": "sum_x2",
+            "value": "6"
+          },
+          {
+            "ast_path": "$.right",
+            "dependencies": [
+              "proposed_math_inputs.n"
+            ],
+            "name": "n",
+            "value": "3"
+          }
+        ],
+        "status": "PASSED",
+        "valid": true,
+        "verifier_version": "sl10-derivation-provenance/1"
+      },
+      "mean": {
+        "ast": {
+          "left": {
+            "name": "sum_x",
+            "op": "variable"
+          },
+          "op": "divide",
+          "right": {
+            "name": "n",
+            "op": "variable"
+          }
+        },
+        "evidence_mode": "current",
+        "expected_dependency_structure": [
+          {
+            "left": {
+              "name": "sum_x",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          }
+        ],
+        "expected_semantic_role": "mean",
+        "expected_value": "4/3",
+        "expression": "sum_x / n",
+        "expression_semantics_valid": true,
+        "field": "proposed_solution.mean",
+        "policy": "sl10-provenance-required/1",
+        "reason": "provenance_verified",
+        "resolved_symbolic_sources": [
+          {
+            "ast_path": "$.left",
+            "dependencies": [
+              "proposed_math_inputs.sum_x"
+            ],
+            "name": "sum_x",
+            "value": "4"
+          },
+          {
+            "ast_path": "$.right",
+            "dependencies": [
+              "proposed_math_inputs.n"
+            ],
+            "name": "n",
+            "value": "3"
+          }
+        ],
+        "status": "PASSED",
+        "valid": true,
+        "verifier_version": "sl10-derivation-provenance/1"
+      },
+      "second_term": {
+        "ast": {
+          "arg": {
+            "left": {
+              "name": "sum_x",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "op": "square"
+        },
+        "evidence_mode": "current",
+        "expected_dependency_structure": [
+          {
+            "arg": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "op": "square"
+          }
+        ],
+        "expected_semantic_role": "second_term",
+        "expected_value": "16/9",
+        "expression": "(sum_x / n)^2",
+        "expression_semantics_valid": true,
+        "field": "proposed_solution.second_term",
+        "policy": "sl10-provenance-required/1",
+        "reason": "provenance_verified",
+        "resolved_symbolic_sources": [
+          {
+            "ast_path": "$.arg.left",
+            "dependencies": [
+              "proposed_math_inputs.sum_x"
+            ],
+            "name": "sum_x",
+            "value": "4"
+          },
+          {
+            "ast_path": "$.arg.right",
+            "dependencies": [
+              "proposed_math_inputs.n"
+            ],
+            "name": "n",
+            "value": "3"
+          }
+        ],
+        "status": "PASSED",
+        "valid": true,
+        "verifier_version": "sl10-derivation-provenance/1"
+      },
+      "variance": {
+        "ast": {
+          "left": {
+            "left": {
+              "name": "sum_x2",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "op": "subtract",
+          "right": {
+            "arg": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "op": "square"
+          }
+        },
+        "evidence_mode": "current",
+        "expected_dependency_structure": [
+          {
+            "left": {
+              "name": "first_term",
+              "op": "variable"
+            },
+            "op": "subtract",
+            "right": {
+              "name": "second_term",
+              "op": "variable"
+            }
+          },
+          {
+            "left": {
+              "left": {
+                "name": "sum_x2",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "op": "subtract",
+            "right": {
+              "arg": {
+                "left": {
+                  "name": "sum_x",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              },
+              "op": "square"
+            }
+          }
+        ],
+        "expected_semantic_role": "variance",
+        "expected_value": "2/9",
+        "expression": "sum_x2 / n - (sum_x / n)^2",
+        "expression_semantics_valid": true,
+        "field": "proposed_solution.variance",
+        "policy": "sl10-provenance-required/1",
+        "reason": "provenance_verified",
+        "resolved_symbolic_sources": [
+          {
+            "ast_path": "$.left.left",
+            "dependencies": [
+              "proposed_math_inputs.sum_x2"
+            ],
+            "name": "sum_x2",
+            "value": "6"
+          },
+          {
+            "ast_path": "$.left.right",
+            "dependencies": [
+              "proposed_math_inputs.n"
+            ],
+            "name": "n",
+            "value": "3"
+          },
+          {
+            "ast_path": "$.right.arg.left",
+            "dependencies": [
+              "proposed_math_inputs.sum_x"
+            ],
+            "name": "sum_x",
+            "value": "4"
+          },
+          {
+            "ast_path": "$.right.arg.right",
+            "dependencies": [
+              "proposed_math_inputs.n"
+            ],
+            "name": "n",
+            "value": "3"
+          }
+        ],
+        "status": "PASSED",
+        "valid": true,
+        "verifier_version": "sl10-derivation-provenance/1"
+      }
+    },
+    "dependency_map": {
+      "first_term": [
+        "sum_x2",
+        "n"
+      ],
+      "n": [
+        "proposed_math_inputs.n"
+      ],
+      "radicand": [
+        "first_term",
+        "second_term"
+      ],
+      "second_term": [
+        "sum_x",
+        "n"
+      ],
+      "sum_x": [
+        "proposed_math_inputs.sum_x"
+      ],
+      "sum_x2": [
+        "proposed_math_inputs.sum_x2"
+      ]
+    },
+    "derivation_provenance_valid": true,
+    "policy": "sl10-provenance-required/1",
+    "scope": "Four intermediate derivations only; no candidate square-root expression, pedagogy or academic approval.",
+    "status": "PASSED",
+    "verifier_version": "sl10-derivation-provenance/1"
+  },
+  "provider_request_id": "req_ae2d0f52528b434f84a7d09e5a5e1d64",
+  "report_path": "output/p6a6_live_controlled_stress/case-D/run-95ad0ee8cd0f43b6b96e92990c004b98/reports/report-25d439f7d7bbf9db8ff13d68c470832696391e455ff8f8b9d0d4bbd1c2130663.json",
+  "report_sha256": "25d439f7d7bbf9db8ff13d68c470832696391e455ff8f8b9d0d4bbd1c2130663",
+  "required_inputs": {
+    "n": 3,
+    "sum_x": "4",
+    "sum_x2": "6"
+  },
+  "returned_inputs": {
+    "n": 3,
+    "sum_x": "4",
+    "sum_x2": "6"
+  },
+  "root_causes": [],
+  "run_id": "run-95ad0ee8cd0f43b6b96e92990c004b98",
+  "run_path": "output/p6a6_live_controlled_stress/case-D/run-95ad0ee8cd0f43b6b96e92990c004b98"
+}

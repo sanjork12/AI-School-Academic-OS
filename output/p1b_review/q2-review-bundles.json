@@ -1,0 +1,2139 @@
+[
+  {
+    "bundle_id": "BUNDLE-Q2-A",
+    "subject": "Q2(a) Academic Interpretation",
+    "participation": "required in Q2-CORE",
+    "question_preview": "Calculate the mean of the best times for the runners trained by coach A",
+    "concepts": [
+      "Mean"
+    ],
+    "competency": "Calculate the mean",
+    "role": "primary",
+    "task_conditions": [
+      "From summary statistics"
+    ],
+    "interpretation_notes": "Candidate rule 9ma0-2025-q2/1/MEAN-CALC matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+    "parse_warnings": [
+      "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+    ],
+    "parsed_ranges": [
+      {
+        "role": "shared_stem",
+        "locator_id": "QP-Q2",
+        "start": 202,
+        "end": 487
+      },
+      {
+        "role": "prompt",
+        "locator_id": "QP-Q2-a",
+        "start": 491,
+        "end": 565
+      },
+      {
+        "role": "mark_scheme",
+        "locator_id": "MS-Q2-a",
+        "start": 31,
+        "end": 84
+      },
+      {
+        "role": "mark_scheme_notes",
+        "locator_id": "MS-Q2-a",
+        "start": 407,
+        "end": 1830
+      }
+    ],
+    "required_objects": [
+      {
+        "key": "competency:CAN-STAT-MEAN-CALC",
+        "kind": "competency",
+        "label": "Calculate the mean",
+        "version": "32cb77c3f694a2fcb4c0b1f1ba0e2460b5321b43407feb22019d7f3496cf9d50",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-MEAN",
+        "kind": "concept",
+        "label": "Mean",
+        "version": "0d132a26a31f7944f289f1ffc54f92c21e25b55b0ee1069cbcca74d6ed14118b",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-MEAN-CALC-MEAN",
+        "kind": "concept_link",
+        "label": "LINK-MEAN-CALC-MEAN",
+        "version": "9ad54d9bebee6c80b6f5db2b0b5872d6b409a5c6b5dbb0fbf4f4d859580dddd1",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "condition:COND-SUMMARY",
+        "kind": "condition",
+        "label": "Coach A: n=120, sum x=6612, sum x squared=364902; x is best 400 m time in seconds. Formula glyphs in extracted PDF text are imperfect; check the original page.",
+        "version": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "context:CTX-9MA0",
+        "kind": "context",
+        "label": "CTX-9MA0",
+        "version": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-MS-MAP-Q2-a-MEAN-CALC",
+        "kind": "evidence",
+        "label": "EV-MS-MAP-Q2-a-MEAN-CALC",
+        "version": "bb1a776885a5c6eb909b117cce9a6f64bd1519331d59cf342744da8819c10da8",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-QP-MAP-Q2-a-MEAN-CALC",
+        "kind": "evidence",
+        "label": "EV-QP-MAP-Q2-a-MEAN-CALC",
+        "version": "2905fc39056395c8b29923706665a509611c9ab084724fb3097525c993ea9340",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:MS-Q2-a",
+        "kind": "locator",
+        "label": "Q2(a) scoring and notes",
+        "version": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2",
+        "kind": "locator",
+        "label": "Question 2",
+        "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2-a",
+        "kind": "locator",
+        "label": "Q2(a)",
+        "version": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:SPEC-2.3",
+        "kind": "locator",
+        "label": "Statistics section 2.3, printed page 31",
+        "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "parsed_part:PARSED-Q2-a",
+        "kind": "parsed_part",
+        "label": "PARSED-Q2-a",
+        "version": "897f2b13bd0768566397da097746aa9126ab31fd67f4e7b2667ef3aba3bf5e76",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "part_mapping:MAP-Q2-a-MEAN-CALC",
+        "kind": "part_mapping",
+        "label": "MAP-Q2-a-MEAN-CALC",
+        "version": "61684bc12851806532dbc5c77c4d8bcdf2a3083a457cfaa03acec82e1f29b2a4",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question:Q2",
+        "kind": "question",
+        "label": "June 2025 9MA0/31 Q2",
+        "version": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question_part:Q2-a",
+        "kind": "question_part",
+        "label": "Q2(a)",
+        "version": "a6d579b250fca976f873e6cf973a86dc9f0ed270af8a73e02475fb863c3d7356",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "scope:SCOPE-STAT-2.3",
+        "kind": "scope",
+        "label": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+        "version": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:MS",
+        "kind": "source",
+        "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:QP",
+        "kind": "source",
+        "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:SPEC",
+        "kind": "source",
+        "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "task_condition:TC-SUMMARY-STATISTICS",
+        "kind": "task_condition",
+        "label": "From summary statistics",
+        "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8",
+        "state": "pending",
+        "decision_id": null
+      }
+    ],
+    "optional_candidate_objects": [],
+    "sources": [
+      {
+        "bundle_id": "SOURCE-Q2-MS",
+        "subject": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "source": {
+          "key": "source:MS",
+          "kind": "source",
+          "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+          "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_mark_scheme",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Summer 2025",
+          "identity_basis": "Cover identifies Summer 2025, Mathematics (9MA0), Paper 31 Statistics. Operator must check authenticity/edition.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-MS.pdf",
+          "content_digest": "e90d722e74e3af32d6c389cb1b90b6d29b3acabfce5d5ddee5036fbb053dc449"
+        },
+        "locators": [
+          {
+            "key": "locator:MS-Q2-a",
+            "kind": "locator",
+            "label": "Q2(a) scoring and notes",
+            "version": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 7,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+            "region": [
+              0.05,
+              0.02,
+              0.91,
+              0.82
+            ],
+            "expected_content": "Mean 55.1 seconds, B1.",
+            "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-QP",
+        "subject": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "source": {
+          "key": "source:QP",
+          "kind": "source",
+          "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+          "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_past_paper",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "19 June 2025, P75695A",
+          "identity_basis": "Cover identifies 9MA0/31, Thursday 19 June 2025 and P75695A. Identity is a candidate assertion until local operator verification.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-QP.pdf",
+          "content_digest": "ab9ba2534ad3547f74b55863df74b7dd9f8cad27e050c8562b923148069fd5a9"
+        },
+        "locators": [
+          {
+            "key": "locator:QP-Q2",
+            "kind": "locator",
+            "label": "Question 2",
+            "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.05,
+              0.06,
+              0.89,
+              0.4
+            ],
+            "expected_content": "Athletics coaches, 400 m best times; summary statistics and comparison.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          },
+          {
+            "key": "locator:QP-Q2-a",
+            "kind": "locator",
+            "label": "Q2(a)",
+            "version": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.07,
+              0.12,
+              0.85,
+              0.31
+            ],
+            "expected_content": "Calculate mean; 1 mark.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-SPEC",
+        "subject": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "source": {
+          "key": "source:SPEC",
+          "kind": "source",
+          "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+          "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_syllabus",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Issue 4, February 2020; first teaching September 2017",
+          "identity_basis": "Cover identifies 9MA0 and Issue 4; printed page 31 identifies February 2020.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-Specification-Issue4.pdf",
+          "content_digest": "b008c50064090bab5c3e26e1f3c97778d21b492d5b839219f73eca11828ecef8"
+        },
+        "locators": [
+          {
+            "key": "locator:SPEC-2.3",
+            "kind": "locator",
+            "label": "Statistics section 2.3, printed page 31",
+            "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 35,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-Specification-Issue4.pdf#page=35",
+            "region": [
+              0.3,
+              0.49,
+              0.62,
+              0.43
+            ],
+            "expected_content": "Location and variation, including standard deviation from summary statistics. Candidate scope association; no invented official objective ID.",
+            "source_version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+          }
+        ]
+      }
+    ],
+    "evidence_refs": [
+      "EV-QP-MAP-Q2-a-MEAN-CALC",
+      "EV-MS-MAP-Q2-a-MEAN-CALC"
+    ],
+    "parsed_part_ref": "parsed_part:PARSED-Q2-a",
+    "evidence": [
+      {
+        "evidence_id": "EV-QP-MAP-Q2-a-MEAN-CALC",
+        "source_locator_ids": [
+          "QP-Q2-a"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      },
+      {
+        "evidence_id": "EV-MS-MAP-Q2-a-MEAN-CALC",
+        "source_locator_ids": [
+          "MS-Q2-a"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      }
+    ],
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false,
+    "blockers": [
+      "competency:CAN-STAT-MEAN-CALC: pending; requires approve",
+      "concept:CON-STAT-MEAN: pending; requires approve",
+      "concept_link:LINK-MEAN-CALC-MEAN: pending; requires approve",
+      "condition:COND-SUMMARY: pending; requires approve",
+      "context:CTX-9MA0: pending; requires approve",
+      "evidence:EV-MS-MAP-Q2-a-MEAN-CALC: pending; requires approve",
+      "evidence:EV-QP-MAP-Q2-a-MEAN-CALC: pending; requires approve",
+      "locator:MS-Q2-a: pending; requires verify",
+      "locator:QP-Q2: pending; requires verify",
+      "locator:QP-Q2-a: pending; requires verify",
+      "locator:SPEC-2.3: pending; requires verify",
+      "parsed_part:PARSED-Q2-a: pending; requires approve",
+      "part_mapping:MAP-Q2-a-MEAN-CALC: pending; requires approve",
+      "question:Q2: pending; requires approve",
+      "question_part:Q2-a: pending; requires approve",
+      "scope:SCOPE-STAT-2.3: pending; requires approve",
+      "source:MS: pending; requires verify",
+      "source:QP: pending; requires verify",
+      "source:SPEC: pending; requires verify",
+      "task_condition:TC-SUMMARY-STATISTICS: pending; requires approve"
+    ],
+    "stale_objects": [],
+    "decision_scope": {
+      "approve": [
+        "competency:CAN-STAT-MEAN-CALC",
+        "concept:CON-STAT-MEAN",
+        "concept_link:LINK-MEAN-CALC-MEAN",
+        "condition:COND-SUMMARY",
+        "context:CTX-9MA0",
+        "evidence:EV-MS-MAP-Q2-a-MEAN-CALC",
+        "evidence:EV-QP-MAP-Q2-a-MEAN-CALC",
+        "parsed_part:PARSED-Q2-a",
+        "part_mapping:MAP-Q2-a-MEAN-CALC",
+        "question:Q2",
+        "question_part:Q2-a",
+        "scope:SCOPE-STAT-2.3",
+        "task_condition:TC-SUMMARY-STATISTICS"
+      ],
+      "reject": [
+        "part_mapping:MAP-Q2-a-MEAN-CALC"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "BUNDLE-Q2-A",
+      "definition_version": "2a49ddcbd592e6b909fa6867ab94bcebb49e546138c89c0c7aa2b058d220ea99",
+      "versions": {
+        "competency:CAN-STAT-MEAN-CALC": "32cb77c3f694a2fcb4c0b1f1ba0e2460b5321b43407feb22019d7f3496cf9d50",
+        "concept:CON-STAT-MEAN": "0d132a26a31f7944f289f1ffc54f92c21e25b55b0ee1069cbcca74d6ed14118b",
+        "concept_link:LINK-MEAN-CALC-MEAN": "9ad54d9bebee6c80b6f5db2b0b5872d6b409a5c6b5dbb0fbf4f4d859580dddd1",
+        "condition:COND-SUMMARY": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "context:CTX-9MA0": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "evidence:EV-MS-MAP-Q2-a-MEAN-CALC": "bb1a776885a5c6eb909b117cce9a6f64bd1519331d59cf342744da8819c10da8",
+        "evidence:EV-QP-MAP-Q2-a-MEAN-CALC": "2905fc39056395c8b29923706665a509611c9ab084724fb3097525c993ea9340",
+        "locator:MS-Q2-a": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+        "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "locator:QP-Q2-a": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+        "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "parsed_part:PARSED-Q2-a": "897f2b13bd0768566397da097746aa9126ab31fd67f4e7b2667ef3aba3bf5e76",
+        "part_mapping:MAP-Q2-a-MEAN-CALC": "61684bc12851806532dbc5c77c4d8bcdf2a3083a457cfaa03acec82e1f29b2a4",
+        "question:Q2": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "question_part:Q2-a": "a6d579b250fca976f873e6cf973a86dc9f0ed270af8a73e02475fb863c3d7356",
+        "scope:SCOPE-STAT-2.3": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+        "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "task_condition:TC-SUMMARY-STATISTICS": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8"
+      },
+      "review_heads": {
+        "competency:CAN-STAT-MEAN-CALC": null,
+        "concept:CON-STAT-MEAN": null,
+        "concept_link:LINK-MEAN-CALC-MEAN": null,
+        "condition:COND-SUMMARY": null,
+        "context:CTX-9MA0": null,
+        "evidence:EV-MS-MAP-Q2-a-MEAN-CALC": null,
+        "evidence:EV-QP-MAP-Q2-a-MEAN-CALC": null,
+        "locator:MS-Q2-a": null,
+        "locator:QP-Q2": null,
+        "locator:QP-Q2-a": null,
+        "locator:SPEC-2.3": null,
+        "parsed_part:PARSED-Q2-a": null,
+        "part_mapping:MAP-Q2-a-MEAN-CALC": null,
+        "question:Q2": null,
+        "question_part:Q2-a": null,
+        "scope:SCOPE-STAT-2.3": null,
+        "source:MS": null,
+        "source:QP": null,
+        "source:SPEC": null,
+        "task_condition:TC-SUMMARY-STATISTICS": null
+      },
+      "token": "52e607e3e226011f0aadda9f50312fb74e7449a9f1f1d97b03a8e760a491c536"
+    },
+    "notice": "Inspection only. No recommended or automatic decision. Modify uses Service.stage; reject affects interpretation roots only."
+  },
+  {
+    "bundle_id": "BUNDLE-Q2-B",
+    "subject": "Q2(b) Academic Interpretation",
+    "participation": "required in Q2-CORE",
+    "question_preview": "Calculate the standard deviation of the best times for the runners trained by coach A",
+    "concepts": [
+      "Standard deviation"
+    ],
+    "competency": "Calculate standard deviation",
+    "role": "primary",
+    "task_conditions": [
+      "From summary statistics"
+    ],
+    "interpretation_notes": "Candidate rule 9ma0-2025-q2/1/SD-CALC matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+    "parse_warnings": [
+      "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+    ],
+    "parsed_ranges": [
+      {
+        "role": "shared_stem",
+        "locator_id": "QP-Q2",
+        "start": 202,
+        "end": 487
+      },
+      {
+        "role": "prompt",
+        "locator_id": "QP-Q2-b",
+        "start": 574,
+        "end": 662
+      },
+      {
+        "role": "mark_scheme",
+        "locator_id": "MS-Q2-b",
+        "start": 88,
+        "end": 251
+      },
+      {
+        "role": "mark_scheme_notes",
+        "locator_id": "MS-Q2-b",
+        "start": 407,
+        "end": 1830
+      }
+    ],
+    "required_objects": [
+      {
+        "key": "competency:CAN-STAT-SD-CALC",
+        "kind": "competency",
+        "label": "Calculate standard deviation",
+        "version": "1ef9ddf75fac8db4f8b68d85dbe3ba216f55014c6c745a9dcfe08dbd4f1f917c",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-SD",
+        "kind": "concept",
+        "label": "Standard deviation",
+        "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-SD-CALC-SD",
+        "kind": "concept_link",
+        "label": "LINK-SD-CALC-SD",
+        "version": "5b061beefd0826b27df8e56c0e0893045b63a2aed373773de3929de48886caec",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "condition:COND-SUMMARY",
+        "kind": "condition",
+        "label": "Coach A: n=120, sum x=6612, sum x squared=364902; x is best 400 m time in seconds. Formula glyphs in extracted PDF text are imperfect; check the original page.",
+        "version": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "context:CTX-9MA0",
+        "kind": "context",
+        "label": "CTX-9MA0",
+        "version": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-MS-MAP-Q2-b-SD-CALC",
+        "kind": "evidence",
+        "label": "EV-MS-MAP-Q2-b-SD-CALC",
+        "version": "dfff5e2b790c1acc84f658f08a8d79a1d8f7bcd8dea8a7c6265899a83f8c6b58",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-QP-MAP-Q2-b-SD-CALC",
+        "kind": "evidence",
+        "label": "EV-QP-MAP-Q2-b-SD-CALC",
+        "version": "e84de86b0c029b39b30b02b2c21d4b089625f5ba88506655491fb30fbdb713be",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:MS-Q2-b",
+        "kind": "locator",
+        "label": "Q2(b) scoring and notes",
+        "version": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2",
+        "kind": "locator",
+        "label": "Question 2",
+        "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2-b",
+        "kind": "locator",
+        "label": "Q2(b)",
+        "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:SPEC-2.3",
+        "kind": "locator",
+        "label": "Statistics section 2.3, printed page 31",
+        "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "parsed_part:PARSED-Q2-b",
+        "kind": "parsed_part",
+        "label": "PARSED-Q2-b",
+        "version": "070f5dd935d1850d22b7d64a11d263bb547debad5e5b1bbbbcbaa80cb75a1483",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "part_mapping:MAP-Q2-b-SD-CALC",
+        "kind": "part_mapping",
+        "label": "MAP-Q2-b-SD-CALC",
+        "version": "0de79423a998d3305718687181d855fc01d7b8b02572100cea097f6652457a62",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question:Q2",
+        "kind": "question",
+        "label": "June 2025 9MA0/31 Q2",
+        "version": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question_part:Q2-b",
+        "kind": "question_part",
+        "label": "Q2(b)",
+        "version": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "scope:SCOPE-STAT-2.3",
+        "kind": "scope",
+        "label": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+        "version": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:MS",
+        "kind": "source",
+        "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:QP",
+        "kind": "source",
+        "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:SPEC",
+        "kind": "source",
+        "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "task_condition:TC-SUMMARY-STATISTICS",
+        "kind": "task_condition",
+        "label": "From summary statistics",
+        "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8",
+        "state": "pending",
+        "decision_id": null
+      }
+    ],
+    "optional_candidate_objects": [],
+    "sources": [
+      {
+        "bundle_id": "SOURCE-Q2-MS",
+        "subject": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "source": {
+          "key": "source:MS",
+          "kind": "source",
+          "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+          "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_mark_scheme",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Summer 2025",
+          "identity_basis": "Cover identifies Summer 2025, Mathematics (9MA0), Paper 31 Statistics. Operator must check authenticity/edition.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-MS.pdf",
+          "content_digest": "e90d722e74e3af32d6c389cb1b90b6d29b3acabfce5d5ddee5036fbb053dc449"
+        },
+        "locators": [
+          {
+            "key": "locator:MS-Q2-b",
+            "kind": "locator",
+            "label": "Q2(b) scoring and notes",
+            "version": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 7,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+            "region": [
+              0.05,
+              0.02,
+              0.91,
+              0.82
+            ],
+            "expected_content": "SD 2.2 seconds; method and accuracy. Scheme also accepts sample SD about 2.21.",
+            "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-QP",
+        "subject": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "source": {
+          "key": "source:QP",
+          "kind": "source",
+          "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+          "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_past_paper",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "19 June 2025, P75695A",
+          "identity_basis": "Cover identifies 9MA0/31, Thursday 19 June 2025 and P75695A. Identity is a candidate assertion until local operator verification.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-QP.pdf",
+          "content_digest": "ab9ba2534ad3547f74b55863df74b7dd9f8cad27e050c8562b923148069fd5a9"
+        },
+        "locators": [
+          {
+            "key": "locator:QP-Q2",
+            "kind": "locator",
+            "label": "Question 2",
+            "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.05,
+              0.06,
+              0.89,
+              0.4
+            ],
+            "expected_content": "Athletics coaches, 400 m best times; summary statistics and comparison.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          },
+          {
+            "key": "locator:QP-Q2-b",
+            "kind": "locator",
+            "label": "Q2(b)",
+            "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.07,
+              0.12,
+              0.85,
+              0.31
+            ],
+            "expected_content": "Calculate standard deviation; 2 marks.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-SPEC",
+        "subject": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "source": {
+          "key": "source:SPEC",
+          "kind": "source",
+          "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+          "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_syllabus",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Issue 4, February 2020; first teaching September 2017",
+          "identity_basis": "Cover identifies 9MA0 and Issue 4; printed page 31 identifies February 2020.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-Specification-Issue4.pdf",
+          "content_digest": "b008c50064090bab5c3e26e1f3c97778d21b492d5b839219f73eca11828ecef8"
+        },
+        "locators": [
+          {
+            "key": "locator:SPEC-2.3",
+            "kind": "locator",
+            "label": "Statistics section 2.3, printed page 31",
+            "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 35,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-Specification-Issue4.pdf#page=35",
+            "region": [
+              0.3,
+              0.49,
+              0.62,
+              0.43
+            ],
+            "expected_content": "Location and variation, including standard deviation from summary statistics. Candidate scope association; no invented official objective ID.",
+            "source_version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+          }
+        ]
+      }
+    ],
+    "evidence_refs": [
+      "EV-QP-MAP-Q2-b-SD-CALC",
+      "EV-MS-MAP-Q2-b-SD-CALC"
+    ],
+    "parsed_part_ref": "parsed_part:PARSED-Q2-b",
+    "evidence": [
+      {
+        "evidence_id": "EV-QP-MAP-Q2-b-SD-CALC",
+        "source_locator_ids": [
+          "QP-Q2-b"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      },
+      {
+        "evidence_id": "EV-MS-MAP-Q2-b-SD-CALC",
+        "source_locator_ids": [
+          "MS-Q2-b"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      }
+    ],
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false,
+    "blockers": [
+      "competency:CAN-STAT-SD-CALC: pending; requires approve",
+      "concept:CON-STAT-SD: pending; requires approve",
+      "concept_link:LINK-SD-CALC-SD: pending; requires approve",
+      "condition:COND-SUMMARY: pending; requires approve",
+      "context:CTX-9MA0: pending; requires approve",
+      "evidence:EV-MS-MAP-Q2-b-SD-CALC: pending; requires approve",
+      "evidence:EV-QP-MAP-Q2-b-SD-CALC: pending; requires approve",
+      "locator:MS-Q2-b: pending; requires verify",
+      "locator:QP-Q2: pending; requires verify",
+      "locator:QP-Q2-b: pending; requires verify",
+      "locator:SPEC-2.3: pending; requires verify",
+      "parsed_part:PARSED-Q2-b: pending; requires approve",
+      "part_mapping:MAP-Q2-b-SD-CALC: pending; requires approve",
+      "question:Q2: pending; requires approve",
+      "question_part:Q2-b: pending; requires approve",
+      "scope:SCOPE-STAT-2.3: pending; requires approve",
+      "source:MS: pending; requires verify",
+      "source:QP: pending; requires verify",
+      "source:SPEC: pending; requires verify",
+      "task_condition:TC-SUMMARY-STATISTICS: pending; requires approve"
+    ],
+    "stale_objects": [],
+    "decision_scope": {
+      "approve": [
+        "competency:CAN-STAT-SD-CALC",
+        "concept:CON-STAT-SD",
+        "concept_link:LINK-SD-CALC-SD",
+        "condition:COND-SUMMARY",
+        "context:CTX-9MA0",
+        "evidence:EV-MS-MAP-Q2-b-SD-CALC",
+        "evidence:EV-QP-MAP-Q2-b-SD-CALC",
+        "parsed_part:PARSED-Q2-b",
+        "part_mapping:MAP-Q2-b-SD-CALC",
+        "question:Q2",
+        "question_part:Q2-b",
+        "scope:SCOPE-STAT-2.3",
+        "task_condition:TC-SUMMARY-STATISTICS"
+      ],
+      "reject": [
+        "part_mapping:MAP-Q2-b-SD-CALC"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "BUNDLE-Q2-B",
+      "definition_version": "948c008b085315b8858223c0b1400384987d99a1d885fa1de0c6e8a0da91e97e",
+      "versions": {
+        "competency:CAN-STAT-SD-CALC": "1ef9ddf75fac8db4f8b68d85dbe3ba216f55014c6c745a9dcfe08dbd4f1f917c",
+        "concept:CON-STAT-SD": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+        "concept_link:LINK-SD-CALC-SD": "5b061beefd0826b27df8e56c0e0893045b63a2aed373773de3929de48886caec",
+        "condition:COND-SUMMARY": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "context:CTX-9MA0": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "evidence:EV-MS-MAP-Q2-b-SD-CALC": "dfff5e2b790c1acc84f658f08a8d79a1d8f7bcd8dea8a7c6265899a83f8c6b58",
+        "evidence:EV-QP-MAP-Q2-b-SD-CALC": "e84de86b0c029b39b30b02b2c21d4b089625f5ba88506655491fb30fbdb713be",
+        "locator:MS-Q2-b": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+        "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "locator:QP-Q2-b": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "parsed_part:PARSED-Q2-b": "070f5dd935d1850d22b7d64a11d263bb547debad5e5b1bbbbcbaa80cb75a1483",
+        "part_mapping:MAP-Q2-b-SD-CALC": "0de79423a998d3305718687181d855fc01d7b8b02572100cea097f6652457a62",
+        "question:Q2": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "question_part:Q2-b": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+        "scope:SCOPE-STAT-2.3": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+        "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "task_condition:TC-SUMMARY-STATISTICS": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8"
+      },
+      "review_heads": {
+        "competency:CAN-STAT-SD-CALC": null,
+        "concept:CON-STAT-SD": null,
+        "concept_link:LINK-SD-CALC-SD": null,
+        "condition:COND-SUMMARY": null,
+        "context:CTX-9MA0": null,
+        "evidence:EV-MS-MAP-Q2-b-SD-CALC": null,
+        "evidence:EV-QP-MAP-Q2-b-SD-CALC": null,
+        "locator:MS-Q2-b": null,
+        "locator:QP-Q2": null,
+        "locator:QP-Q2-b": null,
+        "locator:SPEC-2.3": null,
+        "parsed_part:PARSED-Q2-b": null,
+        "part_mapping:MAP-Q2-b-SD-CALC": null,
+        "question:Q2": null,
+        "question_part:Q2-b": null,
+        "scope:SCOPE-STAT-2.3": null,
+        "source:MS": null,
+        "source:QP": null,
+        "source:SPEC": null,
+        "task_condition:TC-SUMMARY-STATISTICS": null
+      },
+      "token": "caad7a826988ee7a9398b51503e7f4d118748cbf020b0279c4df0b1df24d5eb4"
+    },
+    "notice": "Inspection only. No recommended or automatic decision. Modify uses Service.stage; reject affects interpretation roots only."
+  },
+  {
+    "bundle_id": "BUNDLE-Q2-C-PRIMARY",
+    "subject": "Q2(c) Primary Academic Interpretation",
+    "participation": "required in Q2-CORE",
+    "question_preview": "State, giving a reason, which coach is more likely to have trained the winner .",
+    "concepts": [
+      "Standard deviation",
+      "Variation / spread",
+      "Extreme values"
+    ],
+    "competency": "Interpret measures of variation",
+    "role": "primary",
+    "task_conditions": [
+      "Compare variation using standard deviation"
+    ],
+    "interpretation_notes": "Candidate rule 9ma0-2025-q2/1/VARIATION-INTERPRET matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+    "parse_warnings": [
+      "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+      "Scheme (c) depends on (b); larger SD alone does not guarantee faster individual times."
+    ],
+    "parsed_ranges": [
+      {
+        "role": "shared_stem",
+        "locator_id": "QP-Q2",
+        "start": 202,
+        "end": 487
+      },
+      {
+        "role": "prompt",
+        "locator_id": "QP-Q2-c",
+        "start": 925,
+        "end": 1007
+      },
+      {
+        "role": "mark_scheme",
+        "locator_id": "MS-Q2-c",
+        "start": 255,
+        "end": 396
+      },
+      {
+        "role": "mark_scheme_notes",
+        "locator_id": "MS-Q2-c",
+        "start": 407,
+        "end": 1830
+      },
+      {
+        "role": "comparison_context",
+        "locator_id": "QP-Q2",
+        "start": 666,
+        "end": 921
+      }
+    ],
+    "required_objects": [
+      {
+        "key": "competency:CAN-STAT-VARIATION-INTERPRET",
+        "kind": "competency",
+        "label": "Interpret measures of variation",
+        "version": "c09a54421dddfd8d4c08487c3cda694f5bfc002ad99451bb8e1b6f614a3438f9",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-EXTREMES",
+        "kind": "concept",
+        "label": "Extreme values",
+        "version": "7522db05f403a4cf789051e7ee1798108daa14e5d9c0bcd9808576cd15af421a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-SD",
+        "kind": "concept",
+        "label": "Standard deviation",
+        "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-SPREAD",
+        "kind": "concept",
+        "label": "Variation / spread",
+        "version": "c10c45bf418556605b29135c9e3449253eebe48e12d70b1e2fa1f602786313b2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-VARIATION-INTERPRET-EXTREMES",
+        "kind": "concept_link",
+        "label": "LINK-VARIATION-INTERPRET-EXTREMES",
+        "version": "51d1322a429cb94177b493cc65f63f216c71d95d73cce2c4bb47c12ddfd440fb",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-VARIATION-INTERPRET-SD",
+        "kind": "concept_link",
+        "label": "LINK-VARIATION-INTERPRET-SD",
+        "version": "5c83d9b7d882a695819dd4fcaed11f895d7b834539c41400abf8245062b0a702",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-VARIATION-INTERPRET-SPREAD",
+        "kind": "concept_link",
+        "label": "LINK-VARIATION-INTERPRET-SPREAD",
+        "version": "cc7e1da3336c30628eead6b7b6d8e472820ce3fa4d3131ba9c9690972b1056b0",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "condition:COND-COMPARE",
+        "kind": "condition",
+        "label": "Coach B: n=100, mean 55.1 seconds and SD 3.6 seconds. Equal numbers of the fastest runners from each coach compete. Mark scheme (c) uses result (b); larger SD alone is not a mathematical guarantee about extremes.",
+        "version": "c0c84f340f223ab0907f6a6d0d663dca2d42ccbd3f24ab9c3e4a22927df1e52a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "condition:COND-SUMMARY",
+        "kind": "condition",
+        "label": "Coach A: n=120, sum x=6612, sum x squared=364902; x is best 400 m time in seconds. Formula glyphs in extracted PDF text are imperfect; check the original page.",
+        "version": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "context:CTX-9MA0",
+        "kind": "context",
+        "label": "CTX-9MA0",
+        "version": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET",
+        "kind": "evidence",
+        "label": "EV-MS-MAP-Q2-c-VARIATION-INTERPRET",
+        "version": "3d6f4c5343b4786f7cfba0a8db09964275dcdba64fae83a7de19b1f5f857118d",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+        "kind": "evidence",
+        "label": "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+        "version": "1ad03f751367a79b87fb5721db549376133b98cb7e983055e56d199e0733cdf0",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:MS-Q2-c",
+        "kind": "locator",
+        "label": "Q2(c) scoring and notes",
+        "version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2",
+        "kind": "locator",
+        "label": "Question 2",
+        "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2-b",
+        "kind": "locator",
+        "label": "Q2(b)",
+        "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2-c",
+        "kind": "locator",
+        "label": "Q2(c)",
+        "version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:SPEC-2.3",
+        "kind": "locator",
+        "label": "Statistics section 2.3, printed page 31",
+        "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "parsed_part:PARSED-Q2-c",
+        "kind": "parsed_part",
+        "label": "PARSED-Q2-c",
+        "version": "11dc6015c4ec9e2480aecf50ae7efe81644b173a30581493ef193f226e5434b9",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "part_mapping:MAP-Q2-c-VARIATION-INTERPRET",
+        "kind": "part_mapping",
+        "label": "MAP-Q2-c-VARIATION-INTERPRET",
+        "version": "eb5758cd6d9d9ae787ddbd399cd608ed76235a7d5399cb107a465c020e23e7d2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question:Q2",
+        "kind": "question",
+        "label": "June 2025 9MA0/31 Q2",
+        "version": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question_part:Q2-b",
+        "kind": "question_part",
+        "label": "Q2(b)",
+        "version": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question_part:Q2-c",
+        "kind": "question_part",
+        "label": "Q2(c)",
+        "version": "b34d877b0c76e72b4897a48fcb57fd131d305574a1732f6438076fdfc2bfa110",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "scope:SCOPE-STAT-2.3",
+        "kind": "scope",
+        "label": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+        "version": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:MS",
+        "kind": "source",
+        "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:QP",
+        "kind": "source",
+        "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:SPEC",
+        "kind": "source",
+        "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "task_condition:TC-COMPARE-VARIATION-SD",
+        "kind": "task_condition",
+        "label": "Compare variation using standard deviation",
+        "version": "59eefc472e99dd41a744def1e922228522742a32dc38765159df0ceda6172754",
+        "state": "pending",
+        "decision_id": null
+      }
+    ],
+    "optional_candidate_objects": [
+      {
+        "key": "competency:CAN-STAT-CONTEXT-INFER",
+        "kind": "competency",
+        "label": "Make contextual inferences using statistical evidence",
+        "version": "1b1b2be89736097eb63ea12e60d0e1b9c33cd47fad638e4ce7d01953d6b99056",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-CONTEXT-INFER-EXTREMES",
+        "kind": "concept_link",
+        "label": "LINK-CONTEXT-INFER-EXTREMES",
+        "version": "e990dbb83c73c3e4cebb8efadf37ff47706956d71fa01ef6600df423d9578d57",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-CONTEXT-INFER-SD",
+        "kind": "concept_link",
+        "label": "LINK-CONTEXT-INFER-SD",
+        "version": "b0b0eaf196f0c109273d46fed207f02a90660cfb2a05ee585f324f420bcad044",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-CONTEXT-INFER-SPREAD",
+        "kind": "concept_link",
+        "label": "LINK-CONTEXT-INFER-SPREAD",
+        "version": "b31a14c5c925eedcc3490212bdfdac7f5a1533ea1424e3f8aa9aaf78e6de7f82",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "kind": "evidence",
+        "label": "EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "version": "b453031aaabb3902a610f679c540a2c0dccb6798a0637eda59d7c45c49c92478",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "kind": "evidence",
+        "label": "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "version": "e260a097a04c693f3886d23c316e124924c0eb1f8110c1375e9e2458f3838c67",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "part_mapping:MAP-Q2-c-CONTEXT-INFER",
+        "kind": "part_mapping",
+        "label": "MAP-Q2-c-CONTEXT-INFER",
+        "version": "75866de0464f4866c0a87ba1b801897c5242f2791359cd019c75ab623ea3334b",
+        "state": "pending",
+        "decision_id": null
+      }
+    ],
+    "sources": [
+      {
+        "bundle_id": "SOURCE-Q2-MS",
+        "subject": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "source": {
+          "key": "source:MS",
+          "kind": "source",
+          "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+          "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_mark_scheme",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Summer 2025",
+          "identity_basis": "Cover identifies Summer 2025, Mathematics (9MA0), Paper 31 Statistics. Operator must check authenticity/edition.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-MS.pdf",
+          "content_digest": "e90d722e74e3af32d6c389cb1b90b6d29b3acabfce5d5ddee5036fbb053dc449"
+        },
+        "locators": [
+          {
+            "key": "locator:MS-Q2-c",
+            "kind": "locator",
+            "label": "Q2(c) scoring and notes",
+            "version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 7,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+            "region": [
+              0.05,
+              0.02,
+              0.91,
+              0.82
+            ],
+            "expected_content": "Coach B, using greater SD and the likelihood of more extreme faster times. Conditional follow-through notes refer to answer (b). This contextual inference is not a universal implication of SD alone.",
+            "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-QP",
+        "subject": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "source": {
+          "key": "source:QP",
+          "kind": "source",
+          "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+          "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_past_paper",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "19 June 2025, P75695A",
+          "identity_basis": "Cover identifies 9MA0/31, Thursday 19 June 2025 and P75695A. Identity is a candidate assertion until local operator verification.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-QP.pdf",
+          "content_digest": "ab9ba2534ad3547f74b55863df74b7dd9f8cad27e050c8562b923148069fd5a9"
+        },
+        "locators": [
+          {
+            "key": "locator:QP-Q2",
+            "kind": "locator",
+            "label": "Question 2",
+            "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.05,
+              0.06,
+              0.89,
+              0.4
+            ],
+            "expected_content": "Athletics coaches, 400 m best times; summary statistics and comparison.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          },
+          {
+            "key": "locator:QP-Q2-b",
+            "kind": "locator",
+            "label": "Q2(b)",
+            "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.07,
+              0.12,
+              0.85,
+              0.31
+            ],
+            "expected_content": "Calculate standard deviation; 2 marks.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          },
+          {
+            "key": "locator:QP-Q2-c",
+            "kind": "locator",
+            "label": "Q2(c)",
+            "version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.07,
+              0.12,
+              0.85,
+              0.31
+            ],
+            "expected_content": "Infer which coach is more likely to have trained the winner; 2 marks.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-SPEC",
+        "subject": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "source": {
+          "key": "source:SPEC",
+          "kind": "source",
+          "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+          "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_syllabus",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Issue 4, February 2020; first teaching September 2017",
+          "identity_basis": "Cover identifies 9MA0 and Issue 4; printed page 31 identifies February 2020.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-Specification-Issue4.pdf",
+          "content_digest": "b008c50064090bab5c3e26e1f3c97778d21b492d5b839219f73eca11828ecef8"
+        },
+        "locators": [
+          {
+            "key": "locator:SPEC-2.3",
+            "kind": "locator",
+            "label": "Statistics section 2.3, printed page 31",
+            "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 35,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-Specification-Issue4.pdf#page=35",
+            "region": [
+              0.3,
+              0.49,
+              0.62,
+              0.43
+            ],
+            "expected_content": "Location and variation, including standard deviation from summary statistics. Candidate scope association; no invented official objective ID.",
+            "source_version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+          }
+        ]
+      }
+    ],
+    "evidence_refs": [
+      "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+      "EV-MS-MAP-Q2-c-VARIATION-INTERPRET"
+    ],
+    "parsed_part_ref": "parsed_part:PARSED-Q2-c",
+    "evidence": [
+      {
+        "evidence_id": "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+        "source_locator_ids": [
+          "QP-Q2-c"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      },
+      {
+        "evidence_id": "EV-MS-MAP-Q2-c-VARIATION-INTERPRET",
+        "source_locator_ids": [
+          "MS-Q2-c"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      }
+    ],
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false,
+    "blockers": [
+      "competency:CAN-STAT-VARIATION-INTERPRET: pending; requires approve",
+      "concept:CON-STAT-EXTREMES: pending; requires approve",
+      "concept:CON-STAT-SD: pending; requires approve",
+      "concept:CON-STAT-SPREAD: pending; requires approve",
+      "concept_link:LINK-VARIATION-INTERPRET-EXTREMES: pending; requires approve",
+      "concept_link:LINK-VARIATION-INTERPRET-SD: pending; requires approve",
+      "concept_link:LINK-VARIATION-INTERPRET-SPREAD: pending; requires approve",
+      "condition:COND-COMPARE: pending; requires approve",
+      "condition:COND-SUMMARY: pending; requires approve",
+      "context:CTX-9MA0: pending; requires approve",
+      "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET: pending; requires approve",
+      "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET: pending; requires approve",
+      "locator:MS-Q2-c: pending; requires verify",
+      "locator:QP-Q2: pending; requires verify",
+      "locator:QP-Q2-b: pending; requires verify",
+      "locator:QP-Q2-c: pending; requires verify",
+      "locator:SPEC-2.3: pending; requires verify",
+      "parsed_part:PARSED-Q2-c: pending; requires approve",
+      "part_mapping:MAP-Q2-c-VARIATION-INTERPRET: pending; requires approve",
+      "question:Q2: pending; requires approve",
+      "question_part:Q2-b: pending; requires approve",
+      "question_part:Q2-c: pending; requires approve",
+      "scope:SCOPE-STAT-2.3: pending; requires approve",
+      "source:MS: pending; requires verify",
+      "source:QP: pending; requires verify",
+      "source:SPEC: pending; requires verify",
+      "task_condition:TC-COMPARE-VARIATION-SD: pending; requires approve"
+    ],
+    "stale_objects": [],
+    "decision_scope": {
+      "approve": [
+        "competency:CAN-STAT-VARIATION-INTERPRET",
+        "concept:CON-STAT-EXTREMES",
+        "concept:CON-STAT-SD",
+        "concept:CON-STAT-SPREAD",
+        "concept_link:LINK-VARIATION-INTERPRET-EXTREMES",
+        "concept_link:LINK-VARIATION-INTERPRET-SD",
+        "concept_link:LINK-VARIATION-INTERPRET-SPREAD",
+        "condition:COND-COMPARE",
+        "condition:COND-SUMMARY",
+        "context:CTX-9MA0",
+        "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET",
+        "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+        "parsed_part:PARSED-Q2-c",
+        "part_mapping:MAP-Q2-c-VARIATION-INTERPRET",
+        "question:Q2",
+        "question_part:Q2-b",
+        "question_part:Q2-c",
+        "scope:SCOPE-STAT-2.3",
+        "task_condition:TC-COMPARE-VARIATION-SD"
+      ],
+      "reject": [
+        "part_mapping:MAP-Q2-c-VARIATION-INTERPRET"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "BUNDLE-Q2-C-PRIMARY",
+      "definition_version": "3dc56de3da40b7125fb501d2409617a45c665653efadc9366dc6807844c83f23",
+      "versions": {
+        "competency:CAN-STAT-VARIATION-INTERPRET": "c09a54421dddfd8d4c08487c3cda694f5bfc002ad99451bb8e1b6f614a3438f9",
+        "concept:CON-STAT-EXTREMES": "7522db05f403a4cf789051e7ee1798108daa14e5d9c0bcd9808576cd15af421a",
+        "concept:CON-STAT-SD": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+        "concept:CON-STAT-SPREAD": "c10c45bf418556605b29135c9e3449253eebe48e12d70b1e2fa1f602786313b2",
+        "concept_link:LINK-VARIATION-INTERPRET-EXTREMES": "51d1322a429cb94177b493cc65f63f216c71d95d73cce2c4bb47c12ddfd440fb",
+        "concept_link:LINK-VARIATION-INTERPRET-SD": "5c83d9b7d882a695819dd4fcaed11f895d7b834539c41400abf8245062b0a702",
+        "concept_link:LINK-VARIATION-INTERPRET-SPREAD": "cc7e1da3336c30628eead6b7b6d8e472820ce3fa4d3131ba9c9690972b1056b0",
+        "condition:COND-COMPARE": "c0c84f340f223ab0907f6a6d0d663dca2d42ccbd3f24ab9c3e4a22927df1e52a",
+        "condition:COND-SUMMARY": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "context:CTX-9MA0": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET": "3d6f4c5343b4786f7cfba0a8db09964275dcdba64fae83a7de19b1f5f857118d",
+        "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET": "1ad03f751367a79b87fb5721db549376133b98cb7e983055e56d199e0733cdf0",
+        "locator:MS-Q2-c": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+        "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "locator:QP-Q2-b": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "locator:QP-Q2-c": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+        "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "parsed_part:PARSED-Q2-c": "11dc6015c4ec9e2480aecf50ae7efe81644b173a30581493ef193f226e5434b9",
+        "part_mapping:MAP-Q2-c-VARIATION-INTERPRET": "eb5758cd6d9d9ae787ddbd399cd608ed76235a7d5399cb107a465c020e23e7d2",
+        "question:Q2": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "question_part:Q2-b": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+        "question_part:Q2-c": "b34d877b0c76e72b4897a48fcb57fd131d305574a1732f6438076fdfc2bfa110",
+        "scope:SCOPE-STAT-2.3": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+        "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "task_condition:TC-COMPARE-VARIATION-SD": "59eefc472e99dd41a744def1e922228522742a32dc38765159df0ceda6172754"
+      },
+      "review_heads": {
+        "competency:CAN-STAT-VARIATION-INTERPRET": null,
+        "concept:CON-STAT-EXTREMES": null,
+        "concept:CON-STAT-SD": null,
+        "concept:CON-STAT-SPREAD": null,
+        "concept_link:LINK-VARIATION-INTERPRET-EXTREMES": null,
+        "concept_link:LINK-VARIATION-INTERPRET-SD": null,
+        "concept_link:LINK-VARIATION-INTERPRET-SPREAD": null,
+        "condition:COND-COMPARE": null,
+        "condition:COND-SUMMARY": null,
+        "context:CTX-9MA0": null,
+        "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET": null,
+        "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET": null,
+        "locator:MS-Q2-c": null,
+        "locator:QP-Q2": null,
+        "locator:QP-Q2-b": null,
+        "locator:QP-Q2-c": null,
+        "locator:SPEC-2.3": null,
+        "parsed_part:PARSED-Q2-c": null,
+        "part_mapping:MAP-Q2-c-VARIATION-INTERPRET": null,
+        "question:Q2": null,
+        "question_part:Q2-b": null,
+        "question_part:Q2-c": null,
+        "scope:SCOPE-STAT-2.3": null,
+        "source:MS": null,
+        "source:QP": null,
+        "source:SPEC": null,
+        "task_condition:TC-COMPARE-VARIATION-SD": null
+      },
+      "token": "ec74ea8b7f2900f7f583a0176427567792974dcf46f0eb4a69b24dc7bc7fb67b"
+    },
+    "notice": "Inspection only. No recommended or automatic decision. Modify uses Service.stage; reject affects interpretation roots only."
+  },
+  {
+    "bundle_id": "BUNDLE-Q2-C-SECONDARY-CANDIDATE",
+    "subject": "Q2(c) Secondary Candidate Interpretation",
+    "participation": "optional in Q2-CORE; required in Q2-WITH-SECONDARY",
+    "question_preview": "State, giving a reason, which coach is more likely to have trained the winner .",
+    "concepts": [
+      "Standard deviation",
+      "Variation / spread",
+      "Extreme values"
+    ],
+    "competency": "Make contextual inferences using statistical evidence",
+    "role": "secondary",
+    "task_conditions": [
+      "Compare variation using standard deviation"
+    ],
+    "interpretation_notes": "Candidate rule 9ma0-2025-q2/1/CONTEXT-INFER matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Exact syllabus association remains unresolved and is not asserted.",
+    "parse_warnings": [
+      "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+      "Scheme (c) depends on (b); larger SD alone does not guarantee faster individual times."
+    ],
+    "parsed_ranges": [
+      {
+        "role": "shared_stem",
+        "locator_id": "QP-Q2",
+        "start": 202,
+        "end": 487
+      },
+      {
+        "role": "prompt",
+        "locator_id": "QP-Q2-c",
+        "start": 925,
+        "end": 1007
+      },
+      {
+        "role": "mark_scheme",
+        "locator_id": "MS-Q2-c",
+        "start": 255,
+        "end": 396
+      },
+      {
+        "role": "mark_scheme_notes",
+        "locator_id": "MS-Q2-c",
+        "start": 407,
+        "end": 1830
+      },
+      {
+        "role": "comparison_context",
+        "locator_id": "QP-Q2",
+        "start": 666,
+        "end": 921
+      }
+    ],
+    "required_objects": [
+      {
+        "key": "competency:CAN-STAT-CONTEXT-INFER",
+        "kind": "competency",
+        "label": "Make contextual inferences using statistical evidence",
+        "version": "1b1b2be89736097eb63ea12e60d0e1b9c33cd47fad638e4ce7d01953d6b99056",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-EXTREMES",
+        "kind": "concept",
+        "label": "Extreme values",
+        "version": "7522db05f403a4cf789051e7ee1798108daa14e5d9c0bcd9808576cd15af421a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-SD",
+        "kind": "concept",
+        "label": "Standard deviation",
+        "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept:CON-STAT-SPREAD",
+        "kind": "concept",
+        "label": "Variation / spread",
+        "version": "c10c45bf418556605b29135c9e3449253eebe48e12d70b1e2fa1f602786313b2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-CONTEXT-INFER-EXTREMES",
+        "kind": "concept_link",
+        "label": "LINK-CONTEXT-INFER-EXTREMES",
+        "version": "e990dbb83c73c3e4cebb8efadf37ff47706956d71fa01ef6600df423d9578d57",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-CONTEXT-INFER-SD",
+        "kind": "concept_link",
+        "label": "LINK-CONTEXT-INFER-SD",
+        "version": "b0b0eaf196f0c109273d46fed207f02a90660cfb2a05ee585f324f420bcad044",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "concept_link:LINK-CONTEXT-INFER-SPREAD",
+        "kind": "concept_link",
+        "label": "LINK-CONTEXT-INFER-SPREAD",
+        "version": "b31a14c5c925eedcc3490212bdfdac7f5a1533ea1424e3f8aa9aaf78e6de7f82",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "condition:COND-COMPARE",
+        "kind": "condition",
+        "label": "Coach B: n=100, mean 55.1 seconds and SD 3.6 seconds. Equal numbers of the fastest runners from each coach compete. Mark scheme (c) uses result (b); larger SD alone is not a mathematical guarantee about extremes.",
+        "version": "c0c84f340f223ab0907f6a6d0d663dca2d42ccbd3f24ab9c3e4a22927df1e52a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "condition:COND-SUMMARY",
+        "kind": "condition",
+        "label": "Coach A: n=120, sum x=6612, sum x squared=364902; x is best 400 m time in seconds. Formula glyphs in extracted PDF text are imperfect; check the original page.",
+        "version": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "context:CTX-9MA0",
+        "kind": "context",
+        "label": "CTX-9MA0",
+        "version": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "kind": "evidence",
+        "label": "EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "version": "b453031aaabb3902a610f679c540a2c0dccb6798a0637eda59d7c45c49c92478",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "kind": "evidence",
+        "label": "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "version": "e260a097a04c693f3886d23c316e124924c0eb1f8110c1375e9e2458f3838c67",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:MS-Q2-c",
+        "kind": "locator",
+        "label": "Q2(c) scoring and notes",
+        "version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2",
+        "kind": "locator",
+        "label": "Question 2",
+        "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2-b",
+        "kind": "locator",
+        "label": "Q2(b)",
+        "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:QP-Q2-c",
+        "kind": "locator",
+        "label": "Q2(c)",
+        "version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "locator:SPEC-2.3",
+        "kind": "locator",
+        "label": "Statistics section 2.3, printed page 31",
+        "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "parsed_part:PARSED-Q2-c",
+        "kind": "parsed_part",
+        "label": "PARSED-Q2-c",
+        "version": "11dc6015c4ec9e2480aecf50ae7efe81644b173a30581493ef193f226e5434b9",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "part_mapping:MAP-Q2-c-CONTEXT-INFER",
+        "kind": "part_mapping",
+        "label": "MAP-Q2-c-CONTEXT-INFER",
+        "version": "75866de0464f4866c0a87ba1b801897c5242f2791359cd019c75ab623ea3334b",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question:Q2",
+        "kind": "question",
+        "label": "June 2025 9MA0/31 Q2",
+        "version": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question_part:Q2-b",
+        "kind": "question_part",
+        "label": "Q2(b)",
+        "version": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "question_part:Q2-c",
+        "kind": "question_part",
+        "label": "Q2(c)",
+        "version": "b34d877b0c76e72b4897a48fcb57fd131d305574a1732f6438076fdfc2bfa110",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:MS",
+        "kind": "source",
+        "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:QP",
+        "kind": "source",
+        "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "source:SPEC",
+        "kind": "source",
+        "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "state": "pending",
+        "decision_id": null
+      },
+      {
+        "key": "task_condition:TC-COMPARE-VARIATION-SD",
+        "kind": "task_condition",
+        "label": "Compare variation using standard deviation",
+        "version": "59eefc472e99dd41a744def1e922228522742a32dc38765159df0ceda6172754",
+        "state": "pending",
+        "decision_id": null
+      }
+    ],
+    "optional_candidate_objects": [],
+    "sources": [
+      {
+        "bundle_id": "SOURCE-Q2-MS",
+        "subject": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+        "source": {
+          "key": "source:MS",
+          "kind": "source",
+          "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+          "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_mark_scheme",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Summer 2025",
+          "identity_basis": "Cover identifies Summer 2025, Mathematics (9MA0), Paper 31 Statistics. Operator must check authenticity/edition.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-MS.pdf",
+          "content_digest": "e90d722e74e3af32d6c389cb1b90b6d29b3acabfce5d5ddee5036fbb053dc449"
+        },
+        "locators": [
+          {
+            "key": "locator:MS-Q2-c",
+            "kind": "locator",
+            "label": "Q2(c) scoring and notes",
+            "version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 7,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+            "region": [
+              0.05,
+              0.02,
+              0.91,
+              0.82
+            ],
+            "expected_content": "Coach B, using greater SD and the likelihood of more extreme faster times. Conditional follow-through notes refer to answer (b). This contextual inference is not a universal implication of SD alone.",
+            "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-QP",
+        "subject": "Pearson Edexcel 9MA0/31 Statistics question paper",
+        "source": {
+          "key": "source:QP",
+          "kind": "source",
+          "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+          "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_past_paper",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "19 June 2025, P75695A",
+          "identity_basis": "Cover identifies 9MA0/31, Thursday 19 June 2025 and P75695A. Identity is a candidate assertion until local operator verification.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-QP.pdf",
+          "content_digest": "ab9ba2534ad3547f74b55863df74b7dd9f8cad27e050c8562b923148069fd5a9"
+        },
+        "locators": [
+          {
+            "key": "locator:QP-Q2",
+            "kind": "locator",
+            "label": "Question 2",
+            "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.05,
+              0.06,
+              0.89,
+              0.4
+            ],
+            "expected_content": "Athletics coaches, 400 m best times; summary statistics and comparison.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          },
+          {
+            "key": "locator:QP-Q2-b",
+            "kind": "locator",
+            "label": "Q2(b)",
+            "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.07,
+              0.12,
+              0.85,
+              0.31
+            ],
+            "expected_content": "Calculate standard deviation; 2 marks.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          },
+          {
+            "key": "locator:QP-Q2-c",
+            "kind": "locator",
+            "label": "Q2(c)",
+            "version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 4,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+            "region": [
+              0.07,
+              0.12,
+              0.85,
+              0.31
+            ],
+            "expected_content": "Infer which coach is more likely to have trained the winner; 2 marks.",
+            "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+          }
+        ]
+      },
+      {
+        "bundle_id": "SOURCE-Q2-SPEC",
+        "subject": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+        "source": {
+          "key": "source:SPEC",
+          "kind": "source",
+          "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+          "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+          "state": "pending",
+          "decision_id": null
+        },
+        "metadata": {
+          "source_type": "official_syllabus",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "version_label": "Issue 4, February 2020; first teaching September 2017",
+          "identity_basis": "Cover identifies 9MA0 and Issue 4; printed page 31 identifies February 2020.",
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-Specification-Issue4.pdf",
+          "content_digest": "b008c50064090bab5c3e26e1f3c97778d21b492d5b839219f73eca11828ecef8"
+        },
+        "locators": [
+          {
+            "key": "locator:SPEC-2.3",
+            "kind": "locator",
+            "label": "Statistics section 2.3, printed page 31",
+            "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+            "state": "pending",
+            "decision_id": null,
+            "page_number": 35,
+            "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-Specification-Issue4.pdf#page=35",
+            "region": [
+              0.3,
+              0.49,
+              0.62,
+              0.43
+            ],
+            "expected_content": "Location and variation, including standard deviation from summary statistics. Candidate scope association; no invented official objective ID.",
+            "source_version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+          }
+        ]
+      }
+    ],
+    "evidence_refs": [
+      "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+      "EV-MS-MAP-Q2-c-CONTEXT-INFER"
+    ],
+    "parsed_part_ref": "parsed_part:PARSED-Q2-c",
+    "evidence": [
+      {
+        "evidence_id": "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "source_locator_ids": [
+          "QP-Q2-c"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      },
+      {
+        "evidence_id": "EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "source_locator_ids": [
+          "MS-Q2-c"
+        ],
+        "content_kind": "interpretation",
+        "evidence_role": "supports",
+        "observation_status": "observed"
+      }
+    ],
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false,
+    "blockers": [
+      "competency:CAN-STAT-CONTEXT-INFER: pending; requires approve",
+      "concept:CON-STAT-EXTREMES: pending; requires approve",
+      "concept:CON-STAT-SD: pending; requires approve",
+      "concept:CON-STAT-SPREAD: pending; requires approve",
+      "concept_link:LINK-CONTEXT-INFER-EXTREMES: pending; requires approve",
+      "concept_link:LINK-CONTEXT-INFER-SD: pending; requires approve",
+      "concept_link:LINK-CONTEXT-INFER-SPREAD: pending; requires approve",
+      "condition:COND-COMPARE: pending; requires approve",
+      "condition:COND-SUMMARY: pending; requires approve",
+      "context:CTX-9MA0: pending; requires approve",
+      "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER: pending; requires approve",
+      "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER: pending; requires approve",
+      "locator:MS-Q2-c: pending; requires verify",
+      "locator:QP-Q2: pending; requires verify",
+      "locator:QP-Q2-b: pending; requires verify",
+      "locator:QP-Q2-c: pending; requires verify",
+      "locator:SPEC-2.3: pending; requires verify",
+      "parsed_part:PARSED-Q2-c: pending; requires approve",
+      "part_mapping:MAP-Q2-c-CONTEXT-INFER: pending; requires approve",
+      "question:Q2: pending; requires approve",
+      "question_part:Q2-b: pending; requires approve",
+      "question_part:Q2-c: pending; requires approve",
+      "source:MS: pending; requires verify",
+      "source:QP: pending; requires verify",
+      "source:SPEC: pending; requires verify",
+      "task_condition:TC-COMPARE-VARIATION-SD: pending; requires approve"
+    ],
+    "stale_objects": [],
+    "decision_scope": {
+      "approve": [
+        "competency:CAN-STAT-CONTEXT-INFER",
+        "concept:CON-STAT-EXTREMES",
+        "concept:CON-STAT-SD",
+        "concept:CON-STAT-SPREAD",
+        "concept_link:LINK-CONTEXT-INFER-EXTREMES",
+        "concept_link:LINK-CONTEXT-INFER-SD",
+        "concept_link:LINK-CONTEXT-INFER-SPREAD",
+        "condition:COND-COMPARE",
+        "condition:COND-SUMMARY",
+        "context:CTX-9MA0",
+        "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "parsed_part:PARSED-Q2-c",
+        "part_mapping:MAP-Q2-c-CONTEXT-INFER",
+        "question:Q2",
+        "question_part:Q2-b",
+        "question_part:Q2-c",
+        "task_condition:TC-COMPARE-VARIATION-SD"
+      ],
+      "reject": [
+        "part_mapping:MAP-Q2-c-CONTEXT-INFER"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "BUNDLE-Q2-C-SECONDARY-CANDIDATE",
+      "definition_version": "639b35d8882d053cd5a4137244a5cfc57fbc0b9dbc007ca5e8d671c1b1fbb2ec",
+      "versions": {
+        "competency:CAN-STAT-CONTEXT-INFER": "1b1b2be89736097eb63ea12e60d0e1b9c33cd47fad638e4ce7d01953d6b99056",
+        "concept:CON-STAT-EXTREMES": "7522db05f403a4cf789051e7ee1798108daa14e5d9c0bcd9808576cd15af421a",
+        "concept:CON-STAT-SD": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+        "concept:CON-STAT-SPREAD": "c10c45bf418556605b29135c9e3449253eebe48e12d70b1e2fa1f602786313b2",
+        "concept_link:LINK-CONTEXT-INFER-EXTREMES": "e990dbb83c73c3e4cebb8efadf37ff47706956d71fa01ef6600df423d9578d57",
+        "concept_link:LINK-CONTEXT-INFER-SD": "b0b0eaf196f0c109273d46fed207f02a90660cfb2a05ee585f324f420bcad044",
+        "concept_link:LINK-CONTEXT-INFER-SPREAD": "b31a14c5c925eedcc3490212bdfdac7f5a1533ea1424e3f8aa9aaf78e6de7f82",
+        "condition:COND-COMPARE": "c0c84f340f223ab0907f6a6d0d663dca2d42ccbd3f24ab9c3e4a22927df1e52a",
+        "condition:COND-SUMMARY": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+        "context:CTX-9MA0": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+        "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER": "b453031aaabb3902a610f679c540a2c0dccb6798a0637eda59d7c45c49c92478",
+        "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER": "e260a097a04c693f3886d23c316e124924c0eb1f8110c1375e9e2458f3838c67",
+        "locator:MS-Q2-c": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+        "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "locator:QP-Q2-b": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "locator:QP-Q2-c": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+        "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "parsed_part:PARSED-Q2-c": "11dc6015c4ec9e2480aecf50ae7efe81644b173a30581493ef193f226e5434b9",
+        "part_mapping:MAP-Q2-c-CONTEXT-INFER": "75866de0464f4866c0a87ba1b801897c5242f2791359cd019c75ab623ea3334b",
+        "question:Q2": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+        "question_part:Q2-b": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+        "question_part:Q2-c": "b34d877b0c76e72b4897a48fcb57fd131d305574a1732f6438076fdfc2bfa110",
+        "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+        "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+        "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+        "task_condition:TC-COMPARE-VARIATION-SD": "59eefc472e99dd41a744def1e922228522742a32dc38765159df0ceda6172754"
+      },
+      "review_heads": {
+        "competency:CAN-STAT-CONTEXT-INFER": null,
+        "concept:CON-STAT-EXTREMES": null,
+        "concept:CON-STAT-SD": null,
+        "concept:CON-STAT-SPREAD": null,
+        "concept_link:LINK-CONTEXT-INFER-EXTREMES": null,
+        "concept_link:LINK-CONTEXT-INFER-SD": null,
+        "concept_link:LINK-CONTEXT-INFER-SPREAD": null,
+        "condition:COND-COMPARE": null,
+        "condition:COND-SUMMARY": null,
+        "context:CTX-9MA0": null,
+        "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER": null,
+        "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER": null,
+        "locator:MS-Q2-c": null,
+        "locator:QP-Q2": null,
+        "locator:QP-Q2-b": null,
+        "locator:QP-Q2-c": null,
+        "locator:SPEC-2.3": null,
+        "parsed_part:PARSED-Q2-c": null,
+        "part_mapping:MAP-Q2-c-CONTEXT-INFER": null,
+        "question:Q2": null,
+        "question_part:Q2-b": null,
+        "question_part:Q2-c": null,
+        "source:MS": null,
+        "source:QP": null,
+        "source:SPEC": null,
+        "task_condition:TC-COMPARE-VARIATION-SD": null
+      },
+      "token": "784237e5af1fdb76f6c767e34aaaf54ccd7c076cc2028357697a7368f0079d68"
+    },
+    "notice": "Inspection only. No recommended or automatic decision. Modify uses Service.stage; reject affects interpretation roots only."
+  }
+]

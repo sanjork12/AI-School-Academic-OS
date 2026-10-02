@@ -1,0 +1,703 @@
+{
+  "academic_scope_validation": {
+    "valid": true
+  },
+  "boundary_compliance": {
+    "valid": true
+  },
+  "composite_role_validation": {
+    "valid": true
+  },
+  "coverage_matrix": [
+    {
+      "actual_valid_content_count": 0,
+      "content_refs": [],
+      "coverage_requirement_refs": [],
+      "decision": "framing",
+      "framing": true,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 0,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-01",
+      "role_key": "SL-01",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 0
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-concept"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-02",
+      "role_key": "SL-02",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-visual"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-03",
+      "role_key": "SL-03",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-p5b-v1-early_concept_retrieval-1"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-04",
+      "role_key": "SL-04",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-method"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-05",
+      "role_key": "SL-05",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-p5b-v1-mini_worked_example-1"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-06",
+      "role_key": "SL-06",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-summary-method"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-07",
+      "role_key": "SL-07",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-worked-block"
+      ],
+      "coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-08",
+      "role_key": "SL-08",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-p5b-v1-full_worked_examples-2"
+      ],
+      "coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-09",
+      "role_key": "SL-09",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-p5b-v1-guided_practice-1"
+      ],
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-10",
+      "role_key": "SL-10",
+      "status": "populated",
+      "support_mode": "guided",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-p5b-v1-guided_practice-2"
+      ],
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-11",
+      "role_key": "SL-11",
+      "status": "populated",
+      "support_mode": "guided",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 3,
+      "content_refs": [
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-p5b-v1-independent_practice-3"
+      ],
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 2,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-12",
+      "role_key": "SL-12",
+      "status": "populated",
+      "support_mode": "independent",
+      "target_attainment": true,
+      "target_requirement": 3
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-concept-check-block"
+      ],
+      "coverage_requirement_refs": [],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-13",
+      "role_key": "SL-13",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-v1-calculation-check-block"
+      ],
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "decision": "reuse",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-14",
+      "role_key": "SL-14",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    },
+    {
+      "actual_valid_content_count": 1,
+      "content_refs": [
+        "authored-sd-p5b-v1-exit_check-1"
+      ],
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "decision": "author_new",
+      "framing": false,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "minimum_compliance": true,
+      "minimum_requirement": 1,
+      "profiled_role_ref": "profiled-sd-standard-lesson-SL-15",
+      "role_key": "SL-15",
+      "status": "populated",
+      "support_mode": "not_applicable",
+      "target_attainment": true,
+      "target_requirement": 1
+    }
+  ],
+  "coverage_requirement_coverage": {
+    "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862": [
+      "profiled-sd-standard-lesson-SL-10",
+      "profiled-sd-standard-lesson-SL-11",
+      "profiled-sd-standard-lesson-SL-12",
+      "profiled-sd-standard-lesson-SL-14",
+      "profiled-sd-standard-lesson-SL-15"
+    ],
+    "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c": [
+      "profiled-sd-standard-lesson-SL-08",
+      "profiled-sd-standard-lesson-SL-09"
+    ]
+  },
+  "density_summary": [
+    {
+      "actual_valid_content_count": 1,
+      "kind": "concept_explanation",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "concept_visual",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "early_concept_retrieval",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "calculation_method",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "mini_worked_example",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "summary_method",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 2,
+      "kind": "full_worked_examples",
+      "minimum": 2,
+      "minimum_compliance": true,
+      "target": 2,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 2,
+      "kind": "guided_practice",
+      "minimum": 2,
+      "minimum_compliance": true,
+      "target": 2,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 3,
+      "kind": "independent_practice",
+      "minimum": 2,
+      "minimum_compliance": true,
+      "target": 3,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "concept_check",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "calculation_check",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    },
+    {
+      "actual_valid_content_count": 1,
+      "kind": "exit_check",
+      "minimum": 1,
+      "minimum_compliance": true,
+      "target": 1,
+      "target_attainment": true
+    }
+  ],
+  "density_validation": {
+    "minimum_compliance": true,
+    "policy": "minimum_required_target_preferred",
+    "target_attainment": true,
+    "valid": true
+  },
+  "identity": {
+    "profile_key": "standard-lesson",
+    "topic_key": "standard-deviation"
+  },
+  "input_contracts": {
+    "authored-content-validation/1": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804",
+    "authored-teaching-content/1": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+    "learning-specification/1": "b52a2c57a909a6bcb0bc7cce3b58a70cd0042a90e38af6564fa7ea3bb55fe60a",
+    "lesson-profile/1": "851d84206f1bc787ffab3a0335188784edf07275ebdbebe374bb4d3fa6a040c8",
+    "pedagogical-specification/1": "763e5359644ffc958a7caa7fca2d3803a7c65afc10575d54d21fafd3319969be",
+    "profiled-authored-teaching-content/1": "cb06970e0df300391e2f3d1e9b40a5c08b9e35e4d704b5328f1b7f3851e200d9",
+    "profiled-pedagogical-specification/1": "cbd464e4b7a11e44030d3e3fc910b9c3556482699fc6d1f9957001fdf9af9458"
+  },
+  "learning_requirement_coverage": [
+    {
+      "assessment_check_coverage": [
+        "profiled-sd-standard-lesson-SL-04",
+        "profiled-sd-standard-lesson-SL-13",
+        "profiled-sd-standard-lesson-SL-15"
+      ],
+      "learning_requirement_ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+      "new_content_refs": [
+        "authored-sd-p5b-v1-early_concept_retrieval-1",
+        "authored-sd-p5b-v1-exit_check-1"
+      ],
+      "reused_content_refs": [
+        "authored-sd-v1-concept",
+        "authored-sd-v1-concept-check-block",
+        "authored-sd-v1-visual"
+      ],
+      "teaching_coverage": [
+        "profiled-sd-standard-lesson-SL-02",
+        "profiled-sd-standard-lesson-SL-03"
+      ]
+    },
+    {
+      "assessment_check_coverage": [
+        "profiled-sd-standard-lesson-SL-14",
+        "profiled-sd-standard-lesson-SL-15"
+      ],
+      "learning_requirement_ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "new_content_refs": [
+        "authored-sd-p5b-v1-exit_check-1",
+        "authored-sd-p5b-v1-full_worked_examples-2",
+        "authored-sd-p5b-v1-guided_practice-1",
+        "authored-sd-p5b-v1-guided_practice-2",
+        "authored-sd-p5b-v1-independent_practice-3",
+        "authored-sd-p5b-v1-mini_worked_example-1"
+      ],
+      "reused_content_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-method",
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-v1-worked-block"
+      ],
+      "teaching_coverage": [
+        "profiled-sd-standard-lesson-SL-05",
+        "profiled-sd-standard-lesson-SL-06",
+        "profiled-sd-standard-lesson-SL-08",
+        "profiled-sd-standard-lesson-SL-09",
+        "profiled-sd-standard-lesson-SL-10",
+        "profiled-sd-standard-lesson-SL-11",
+        "profiled-sd-standard-lesson-SL-12"
+      ]
+    },
+    {
+      "assessment_check_coverage": [
+        "profiled-sd-standard-lesson-SL-14",
+        "profiled-sd-standard-lesson-SL-15"
+      ],
+      "learning_requirement_ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+      "new_content_refs": [
+        "authored-sd-p5b-v1-exit_check-1",
+        "authored-sd-p5b-v1-full_worked_examples-2",
+        "authored-sd-p5b-v1-guided_practice-1",
+        "authored-sd-p5b-v1-guided_practice-2",
+        "authored-sd-p5b-v1-independent_practice-3"
+      ],
+      "reused_content_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-v1-summary-method",
+        "authored-sd-v1-worked-block"
+      ],
+      "teaching_coverage": [
+        "profiled-sd-standard-lesson-SL-07",
+        "profiled-sd-standard-lesson-SL-08",
+        "profiled-sd-standard-lesson-SL-09",
+        "profiled-sd-standard-lesson-SL-10",
+        "profiled-sd-standard-lesson-SL-11",
+        "profiled-sd-standard-lesson-SL-12"
+      ]
+    }
+  ],
+  "lesson_profile": "standard-lesson",
+  "mathematical_verification": {
+    "authored-sd-p5b-v1-early_concept_retrieval-1": {
+      "checks": {
+        "concept_response_separate": true,
+        "no_numeric_answer": true,
+        "separate_solution_identity": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-p5b-v1-exit_check-1": {
+      "checks": {
+        "concept_response_separate": true,
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "separate_solution_identity": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-p5b-v1-full_worked_examples-2": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "separate_solution_identity": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-p5b-v1-guided_practice-1": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "separate_solution_identity": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-p5b-v1-guided_practice-2": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "separate_solution_identity": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-p5b-v1-independent_practice-3": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "question_values_match": true,
+        "rounding_recomputed": true,
+        "separate_solution_identity": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "authored-sd-p5b-v1-mini_worked_example-1": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "raw_deviations": true,
+        "raw_instructional_only": true,
+        "raw_mean_variance": true,
+        "raw_prompt_values": true,
+        "raw_squared_deviations": true,
+        "rounding_recomputed": true,
+        "separate_solution_identity": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    }
+  },
+  "new_content_integrity": {
+    "valid": true
+  },
+  "profile_structure": {
+    "valid": true
+  },
+  "renderer_readiness": {
+    "blocking_codes": [],
+    "ready_for_rendering": true,
+    "target_attainment": true
+  },
+  "reuse_integrity": {
+    "valid": true
+  },
+  "role_population": {
+    "populated": 15,
+    "required": 15,
+    "valid": true
+  },
+  "schema_version": "profiled-content-validation/1",
+  "trust_summary": {
+    "academic_approval": false,
+    "current_service_required": true,
+    "limitations": [
+      "Renderer eligibility for composition only; no PPTX generated or publication approved.",
+      "Duration is planning guidance, not guaranteed classroom runtime.",
+      "Language integrity is bounded to the current deterministic provider, not arbitrary semantic or student-response grading."
+    ],
+    "quality_score_provided": false,
+    "student_mastery_claimed": false,
+    "target_policy": "Current lesson-profile/1 has no mandatory-target flag. Minima (including min=target) are hard requirements; larger targets are preferred. Unknown profile schema/policy is rejected."
+  },
+  "unresolved_roles": [],
+  "unresolved_validation": {
+    "valid": true
+  },
+  "violations": [],
+  "warnings": [
+    {
+      "code": "bounded_validation",
+      "dimension": "profile_structure",
+      "message": "Composition eligibility is not proof of pedagogical effectiveness or classroom duration",
+      "ref": "package",
+      "severity": "WARNING"
+    }
+  ]
+}

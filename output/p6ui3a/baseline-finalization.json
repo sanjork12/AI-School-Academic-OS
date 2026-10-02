@@ -1,0 +1,22 @@
+{
+  "active_reference_version": "v1.9",
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1568,
+    "manifests_through_v1_8_unchanged": true,
+    "model_api_calls": 0,
+    "trusted_state_unchanged": true
+  },
+  "manifest_path": "output/reference_freeze_v1_9/reference_manifest.json",
+  "manifest_sha256": "558b6e66473657242d5f978d98a5a5ceb1bf8395116ef3951c3493eedc1aa7cb",
+  "protected_files": 1691,
+  "verification": {
+    "errors": [],
+    "manifest_sha256": "558b6e66473657242d5f978d98a5a5ceb1bf8395116ef3951c3493eedc1aa7cb",
+    "reference_version": "v1.9",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  }
+}

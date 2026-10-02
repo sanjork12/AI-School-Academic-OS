@@ -1,0 +1,129 @@
+{
+  "$defs": {
+    "Inputs": {
+      "additionalProperties": false,
+      "properties": {
+        "n": {
+          "title": "N",
+          "type": "integer"
+        },
+        "sum_x": {
+          "title": "Sum X",
+          "type": "string"
+        },
+        "sum_x2": {
+          "title": "Sum X2",
+          "type": "string"
+        }
+      },
+      "required": [
+        "n",
+        "sum_x",
+        "sum_x2"
+      ],
+      "title": "Inputs",
+      "type": "object"
+    },
+    "ProposedSolution": {
+      "additionalProperties": false,
+      "properties": {
+        "display_answer": {
+          "title": "Display Answer",
+          "type": "string"
+        },
+        "exact_radicand": {
+          "title": "Exact Radicand",
+          "type": "string"
+        },
+        "first_term": {
+          "title": "First Term",
+          "type": "string"
+        },
+        "inputs": {
+          "$ref": "#/$defs/Inputs"
+        },
+        "mean": {
+          "title": "Mean",
+          "type": "string"
+        },
+        "numeric_answer": {
+          "title": "Numeric Answer",
+          "type": "string"
+        },
+        "second_term": {
+          "title": "Second Term",
+          "type": "string"
+        },
+        "variance": {
+          "title": "Variance",
+          "type": "string"
+        }
+      },
+      "required": [
+        "inputs",
+        "first_term",
+        "second_term",
+        "mean",
+        "variance",
+        "exact_radicand",
+        "numeric_answer",
+        "display_answer"
+      ],
+      "title": "ProposedSolution",
+      "type": "object"
+    },
+    "Scaffold": {
+      "additionalProperties": false,
+      "properties": {
+        "instruction": {
+          "title": "Instruction",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "compute_first_term",
+            "compute_second_term",
+            "subtract_variance_terms",
+            "square_root"
+          ],
+          "title": "Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "instruction"
+      ],
+      "title": "Scaffold",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "proposed_math_inputs": {
+      "$ref": "#/$defs/Inputs"
+    },
+    "proposed_solution": {
+      "$ref": "#/$defs/ProposedSolution"
+    },
+    "question_template": {
+      "title": "Question Template",
+      "type": "string"
+    },
+    "scaffold_steps": {
+      "items": {
+        "$ref": "#/$defs/Scaffold"
+      },
+      "title": "Scaffold Steps",
+      "type": "array"
+    }
+  },
+  "required": [
+    "question_template",
+    "proposed_math_inputs",
+    "scaffold_steps",
+    "proposed_solution"
+  ],
+  "title": "ProviderContent",
+  "type": "object"
+}

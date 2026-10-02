@@ -1,0 +1,38 @@
+{
+  "status": "implemented_offline_verified_with_known_historical_missing_pptx_error",
+  "reference_version": "v1.2",
+  "manifest": {
+    "path": "output/reference_freeze_v1_2/reference_manifest.json",
+    "sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d"
+  },
+  "baseline_checks": [
+    {
+      "reference_version": "v1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.2",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "current_conformance"
+    }
+  ],
+  "task_acceptance": {
+    "path": "output/p6a1c_candidate_contract/acceptance.json",
+    "sha256": "c89360c31597180c915f5b1d6a30d2aad69b24b25d0941bf3627f96fb1d68d83"
+  }
+}

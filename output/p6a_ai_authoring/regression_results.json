@@ -1,0 +1,29 @@
+{
+  "format": "p6a-observed-regression-results/1",
+  "baseline": {
+    "command": "python -m unittest tests_p0.test_reference_freeze tests_p0.test_profiled_validation -q",
+    "total": 90,
+    "passed": 90,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 88.065
+  },
+  "post_change": {
+    "command": "python -m unittest tests_p0.test_reference_freeze tests_p0.test_profiled_validation tests_p0.test_profiled_content tests_p0.test_profile_presentation -q",
+    "total": 165,
+    "passed": 165,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 374.061
+  },
+  "sdk_schema_check": {
+    "runtime": ".venv/Scripts/python.exe",
+    "openai_version": "3.14.1",
+    "structured_parse_available": true,
+    "strict_provider_schema_compiled": true,
+    "network_called": false
+  },
+  "full_suite": "not rerun in P6A; see unchanged freeze receipt for the historical missing PPTX error"
+}

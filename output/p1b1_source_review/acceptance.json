@@ -1,0 +1,122 @@
+{
+  "task": "P1B.1 SOURCE VERIFICATION OPERATOR WORKFLOW",
+  "result": "P1B.1 SOURCE VERIFICATION WORKFLOW PASSED",
+  "changed_files": [
+    "academic_os/source_bundles.py",
+    "academic_os/service.py",
+    "academic_os/cli.py",
+    "academic_os/review_rendering.py",
+    "tests_p0/test_source_bundles.py",
+    "scripts/demo_p1b1_temporary.py",
+    "docs/P1B_HUMAN_REVIEW_AND_PUBLICATION.md"
+  ],
+  "changed_file_sha256": {
+    "academic_os/source_bundles.py": "881924e8f31883f2718f8409b62b7c9578228e7c020881040117310fb3201c2d",
+    "academic_os/service.py": "05ed96191a5515e17247c20be4e555a7e81e80fa4476214bc8b79e44393b4ed7",
+    "academic_os/cli.py": "da38d1de51fa72eb6c53b1324dcbe034d0a3d8d9e3dc64d129bb877c33964e2f",
+    "academic_os/review_rendering.py": "33592da29a36f9778f8657ccd4caa58c0ed7b5c2c757b3b728048af91cd0723f",
+    "tests_p0/test_source_bundles.py": "49bb1662f2661e1f54bd527bb2512a0c02f16bef2abb3e09d719d4c47442fb4c",
+    "scripts/demo_p1b1_temporary.py": "1a0203a654bfef1ffe12c5dc79c15086b90ad26200be9dcbcd66ae75268a4f17",
+    "docs/P1B_HUMAN_REVIEW_AND_PUBLICATION.md": "88b418b6be9ed8fc37723e659fba5f0306249935b94a2546999e111d65495a23"
+  },
+  "source_bundles": {
+    "SOURCE-BUNDLE-MS-Q2": [
+      "locator:MS-Q2-a",
+      "locator:MS-Q2-b",
+      "locator:MS-Q2-c",
+      "source:MS"
+    ],
+    "SOURCE-BUNDLE-QP-Q2": [
+      "locator:QP-Q2",
+      "locator:QP-Q2-a",
+      "locator:QP-Q2-b",
+      "locator:QP-Q2-c",
+      "source:QP"
+    ],
+    "SOURCE-BUNDLE-SPEC-2.3": [
+      "locator:SPEC-2.3",
+      "source:SPEC"
+    ]
+  },
+  "design": "P1B guard and immutable version/decision-head ticket; P0 Service.review under one IMMEDIATE transaction and child SAVEPOINTs. No new trust store or schema migration.",
+  "reject_scope": "Source and all included locators. Existing valid verify decisions are reused.",
+  "trust_boundary": "Local OS operator and SQLite ownership; tickets are concurrency evidence, not authentication.",
+  "tests": {
+    "total": 277,
+    "passed": 276,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0,
+    "failure_details": [],
+    "error_details": [
+      {
+        "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+        "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+      }
+    ]
+  },
+  "new_source_tests_passed": 25,
+  "existing_regression": {
+    "total": 252,
+    "passed": 251,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0
+  },
+  "real_database": {
+    "real_before": {
+      "sha256": "fa950352ac39cb896fdd78ee3fabbac0d9dc7a825b0dc98a9be2a81601257eb8",
+      "tables": {
+        "schema_migrations": 1,
+        "versions": 72,
+        "heads": 52,
+        "requests": 3,
+        "reviews": 0,
+        "review_heads": 0,
+        "snapshots": 0,
+        "snapshot_members": 0,
+        "snapshot_blocks": 0
+      }
+    },
+    "real_after": {
+      "sha256": "fa950352ac39cb896fdd78ee3fabbac0d9dc7a825b0dc98a9be2a81601257eb8",
+      "tables": {
+        "schema_migrations": 1,
+        "versions": 72,
+        "heads": 52,
+        "requests": 3,
+        "reviews": 0,
+        "review_heads": 0,
+        "snapshots": 0,
+        "snapshot_members": 0,
+        "snapshot_blocks": 0
+      }
+    },
+    "byte_for_byte_unchanged": true,
+    "historical": {
+      "entries": 68,
+      "missing": [],
+      "changed": []
+    },
+    "pinned": {
+      "entries": 61,
+      "missing": [
+        "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+      ],
+      "changed": []
+    }
+  },
+  "real_state": {
+    "schema_valid": true,
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false
+  },
+  "real_integrity": "Three source bundles consistent, all awaiting explicit human verification; no real decisions executed.",
+  "known_preexisting_error": "Missing protected AI_Academic_Operating_System_Brainstorm_CN.pptx; original pinned hash preserved, no skips or substitutions.",
+  "reproduction": [
+    "python -X utf8 scripts/demo_p1b1_temporary.py",
+    "python -X utf8 -m unittest tests_p0.test_source_bundles -v",
+    "python -X utf8 -m unittest discover -p test_*.py"
+  ]
+}

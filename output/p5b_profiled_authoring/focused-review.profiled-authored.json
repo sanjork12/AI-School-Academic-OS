@@ -1,0 +1,1228 @@
+{
+  "academic_scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+  "authoring_provider": "standard-deviation-profile-density/1",
+  "content_boundaries": [
+    "Instructional formulas are supplied for teaching; formula memorisation is not required.",
+    "No specific calculator or manual-only method is required.",
+    "No calibrated difficulty, exam frequency, typical marks, common student mistakes or future-exam prediction is claimed.",
+    "No new Learning Requirements or prerequisite requirements are introduced.",
+    "This package uses population-style calculations; population-versus-sample comparison is outside this Learning Specification.",
+    "Only the supported summary-statistics assessment task form is authored; no additional task form is made a required target.",
+    "Two decimal places with ROUND_HALF_UP is this package's display choice, not a universal exam requirement.",
+    "Input notation is newly authored instructional support, not a repair of uncertain source glyphs.",
+    "Examples and numerical checks are original authored items, not Pearson questions or historical exam appearances.",
+    "Slot population records supplied content only; downstream content validation is still required."
+  ],
+  "content_complete": true,
+  "coverage_requirement_refs": [
+    "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+    "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+  ],
+  "evidence_boundaries": [
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_frequency",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+      ],
+      "statement": "The 2 reviewed examples do not establish assessment frequency."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_typical_marks",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+      ],
+      "statement": "These reviewed examples do not establish a typical mark allocation."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "difficulty_not_calibrated",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+      ],
+      "statement": "No calibrated difficulty evidence is available."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_exam_prediction",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_exam_prediction"
+      ],
+      "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_student_error_evidence",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_student_error_evidence"
+      ],
+      "statement": "No student response evidence supports common-mistake claims."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "prerequisites_not_modelled",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "teaching_sequence_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Teaching sequence has not yet been established by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "calculator_method_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "A required calculator or manual method has not been established."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "formula_memorisation_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "unsupported_task_forms_excluded",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+    }
+  ],
+  "framing": {},
+  "learning_requirement_refs": [
+    "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+    "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+    "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+  ],
+  "mathematical_verification": {},
+  "minimum_density_met": true,
+  "new_content": [],
+  "new_solutions": [],
+  "profile_key": "focused-review",
+  "ready_for_p5c": true,
+  "ready_for_rendering": false,
+  "reused_content": [
+    {
+      "content_sha256": "4bac9b8d8b49c6b0f4aad8e832befe1ee53b214d490e16c83d9c040a9deae16a",
+      "dependency_hashes": {
+        "authored-sd-v1-calculation-check-question": "3b1c457eac246a2e1601bae34dc76ab6c518ccbcc8bb7632e6220d0cb134e94c",
+        "authored-sd-v1-calculation-check-solution": "71960e2df1016bc160d36ebdde4d5d414c9e79afd0b9bd81b1a49c4c6f649b18"
+      },
+      "ref": "authored-sd-v1-calculation-check-block",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "c123d191f7ed1e8a97e3e1d62375d29ef2a819a5304022aa804b27407ac66edb",
+      "dependency_hashes": {},
+      "ref": "authored-sd-v1-concept",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "a1b9f0e5cc4710e0f32537f5bb599a19ac6a843d55ac200748f47c7a78fbfabd",
+      "dependency_hashes": {
+        "authored-sd-v1-concept-check-question": "a8f47fbde7105d466041deddde495656819f206eb3c5a23cd03c7f82991be01b",
+        "authored-sd-v1-concept-check-solution": "d6f31b7975838cd021005d7532081135242ed2a0f8af1ed09d5dbdc51961b13e"
+      },
+      "ref": "authored-sd-v1-concept-check-block",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "ffcd394b098f1f4147742f8971fd4e25d630ff6a8bb06190b999cf03c73ec25a",
+      "dependency_hashes": {
+        "authored-sd-v1-deviation-formula": "2663641679aded7e150f017af4449cc517831c075ec8e2f69da65b668d98fa27"
+      },
+      "ref": "authored-sd-v1-method",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "251966b81787b85cc9a7f77142014622e49b9022fcd8bdcf516c823d1083f10a",
+      "dependency_hashes": {
+        "authored-sd-v1-practice-1-question": "841535d186186d1d8624a547980b2227622f16a885f0a098936c6cfafabb5530",
+        "authored-sd-v1-practice-1-solution": "da588238162b413170e775f2d8640a5b19ed286927fbabad52a060e511e80ee5"
+      },
+      "ref": "authored-sd-v1-practice-1-block",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "c529fa4f3d9a48bc3eeb884e88ee603eb4a84ac0b836fb5e5b876e1b9f853af9",
+      "dependency_hashes": {
+        "authored-sd-v1-practice-2-question": "33e0e317943a872b90071a54289ef33f24b868db3132ffd26f95995bac9e5467",
+        "authored-sd-v1-practice-2-solution": "a4da18d64102914aed5a22a6e1041615e53051a97856174ffd83d57c9455133d"
+      },
+      "ref": "authored-sd-v1-practice-2-block",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "e5b03709346f941da35e62a89752b9968994941a3db8d385279db955339c5b89",
+      "dependency_hashes": {
+        "authored-sd-v1-summary-formula": "ef6a7fdaca19273fa5a1eaa572bcf7eb83755930ba584454901d2cf660dcc0b7"
+      },
+      "ref": "authored-sd-v1-summary-method",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "822ab7241df43d3bd724c11197db7820b8f46b575861b9dbef21461667be0c0a",
+      "dependency_hashes": {},
+      "ref": "authored-sd-v1-visual",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "content_sha256": "c1aeebbd6bfc38265fb0aff9c9a93f4094e2c295b00892d3f764c286cf798517",
+      "dependency_hashes": {
+        "authored-sd-v1-worked-question": "94ad8a62b4717a4639e726e2e0cb7001acd542574276937b20dfcc45b1b5b0c4",
+        "authored-sd-v1-worked-solution": "c9f538882083743fe50d0a1f075b0f4a3f8bd4d39e5c190d7df82955a0d29048"
+      },
+      "ref": "authored-sd-v1-worked-block",
+      "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+      "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    }
+  ],
+  "role_decisions": [
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-concept"
+      ],
+      "role_key": "FR-01",
+      "role_ref": "profiled-sd-focused-review-FR-01",
+      "solution_refs": [],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-visual"
+      ],
+      "role_key": "FR-02",
+      "role_ref": "profiled-sd-focused-review-FR-02",
+      "solution_refs": [],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-method"
+      ],
+      "role_key": "FR-03",
+      "role_ref": "profiled-sd-focused-review-FR-03",
+      "solution_refs": [],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-summary-method"
+      ],
+      "role_key": "FR-04",
+      "role_ref": "profiled-sd-focused-review-FR-04",
+      "solution_refs": [],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-worked-block"
+      ],
+      "role_key": "FR-05",
+      "role_ref": "profiled-sd-focused-review-FR-05",
+      "solution_refs": [
+        "authored-sd-v1-worked-solution"
+      ],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-practice-1-block"
+      ],
+      "role_key": "FR-06",
+      "role_ref": "profiled-sd-focused-review-FR-06",
+      "solution_refs": [
+        "authored-sd-v1-practice-1-solution"
+      ],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-practice-2-block"
+      ],
+      "role_key": "FR-07",
+      "role_ref": "profiled-sd-focused-review-FR-07",
+      "solution_refs": [
+        "authored-sd-v1-practice-2-solution"
+      ],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-concept-check-block"
+      ],
+      "role_key": "FR-08",
+      "role_ref": "profiled-sd-focused-review-FR-08",
+      "solution_refs": [
+        "authored-sd-v1-concept-check-solution"
+      ],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    },
+    {
+      "compatibility": {
+        "authored-sd-v1-calculation-check-block": {
+          "base_lineage": true,
+          "content_type": true,
+          "current_p4b_validation": true,
+          "distinct_density_instance": true,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": true,
+          "task_form": true
+        },
+        "authored-sd-v1-concept": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-concept-check-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-practice-1-block": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-practice-2-block": {
+          "base_lineage": true,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": true,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-summary-method": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        },
+        "authored-sd-v1-visual": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": false
+        },
+        "authored-sd-v1-worked-block": {
+          "base_lineage": false,
+          "content_type": false,
+          "current_p4b_validation": true,
+          "distinct_density_instance": false,
+          "evidence_boundaries": true,
+          "learning_requirements": false,
+          "semantic_role": false,
+          "task_form": true
+        }
+      },
+      "decision": "reuse",
+      "minimum_items": 1,
+      "minimum_met": true,
+      "new_content_refs": [],
+      "reason": "All required compatibility dimensions passed for existing validated objects.",
+      "reused_content_refs": [
+        "authored-sd-v1-calculation-check-block"
+      ],
+      "role_key": "FR-09",
+      "role_ref": "profiled-sd-focused-review-FR-09",
+      "solution_refs": [
+        "authored-sd-v1-calculation-check-solution"
+      ],
+      "supplied_items": 1,
+      "target_items": 1,
+      "target_met": true
+    }
+  ],
+  "schema_version": "profiled-authored-teaching-content/1",
+  "source_authored_content": {
+    "ref": "standard-deviation",
+    "schema_version": "authored-teaching-content/1",
+    "sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a"
+  },
+  "source_authored_validation": {
+    "ref": "standard-deviation",
+    "schema_version": "authored-content-validation/1",
+    "sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+  },
+  "source_profiled_pedagogy": {
+    "ref": "profiled-standard-deviation-focused-review",
+    "schema_version": "profiled-pedagogical-specification/1",
+    "sha256": "88da72064095578b6f2afd73c02f96ba7ce3b6271e5cae155a59569d94645aa3"
+  },
+  "status": "candidate_pending_p5c",
+  "target_density_met": true,
+  "unresolved_role_refs": []
+}

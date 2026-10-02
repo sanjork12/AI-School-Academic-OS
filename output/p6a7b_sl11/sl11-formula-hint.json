@@ -1,0 +1,10 @@
+{
+  "formula_ref": "authored-sd-v1-summary-formula",
+  "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+  "identity": "sl11-application-formula-hint/1",
+  "owner": "application",
+  "source_field": "scaffolding/0",
+  "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+  "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+  "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+}

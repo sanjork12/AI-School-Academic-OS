@@ -1,0 +1,494 @@
+{
+  "profile_key": "standard-lesson",
+  "schema_version": "presentation-teacher-solutions/2",
+  "solutions": {
+    "authored-sd-p5b-v1-early_concept_retrieval-1-solution": {
+      "item_ref": "authored-sd-p5b-v1-early_concept_retrieval-1",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-04"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": null,
+        "exact_answer": null,
+        "exact_string_matching_required": false,
+        "expected_meaning": "The more dispersed dataset has the larger standard deviation.",
+        "item_ref": "authored-sd-p5b-v1-early_concept_retrieval-1",
+        "key_semantic_elements": [
+          "more spread or dispersion",
+          "larger standard deviation"
+        ],
+        "mean": null,
+        "method_steps": [],
+        "numeric_answer": null,
+        "ref": "authored-sd-p5b-v1-early_concept_retrieval-1-solution",
+        "squared_deviations": [],
+        "variance": null
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-p5b-v1-exit_check-1-solution": {
+      "item_ref": "authored-sd-p5b-v1-exit_check-1",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-15"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": "It measures the spread of observations around the mean.",
+        "item_ref": "authored-sd-p5b-v1-exit_check-1",
+        "key_semantic_elements": [
+          "spread or dispersion",
+          "around the mean"
+        ],
+        "mean": "5",
+        "method_steps": [
+          "mean = 20/4 = 5",
+          "population variance = 29 - (5)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-exit_check-1-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-p5b-v1-full_worked_examples-2-solution": {
+      "item_ref": "authored-sd-p5b-v1-full_worked_examples-2",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-09"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-full_worked_examples-2",
+        "key_semantic_elements": [],
+        "mean": "8",
+        "method_steps": [
+          "mean = 96/12 = 8",
+          "population variance = 68 - (8)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-full_worked_examples-2-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      "visibility": "student_worked_example"
+    },
+    "authored-sd-p5b-v1-guided_practice-1-solution": {
+      "item_ref": "authored-sd-p5b-v1-guided_practice-1",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-10"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-guided_practice-1",
+        "key_semantic_elements": [],
+        "mean": "5",
+        "method_steps": [
+          "mean = 30/6 = 5",
+          "population variance = 29 - (5)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-guided_practice-1-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-p5b-v1-guided_practice-2-solution": {
+      "item_ref": "authored-sd-p5b-v1-guided_practice-2",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-11"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "1.41",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "2"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-guided_practice-2",
+        "key_semantic_elements": [],
+        "mean": "6",
+        "method_steps": [
+          "mean = 30/5 = 6",
+          "population variance = 38 - (6)^2 = 2",
+          "population SD = sqrt(2)",
+          "Display to 2 decimal places: 1.41"
+        ],
+        "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+        "ref": "authored-sd-p5b-v1-guided_practice-2-solution",
+        "squared_deviations": [],
+        "variance": "2"
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-p5b-v1-independent_practice-3-solution": {
+      "item_ref": "authored-sd-p5b-v1-independent_practice-3",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-12"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-independent_practice-3",
+        "key_semantic_elements": [],
+        "mean": "10",
+        "method_steps": [
+          "mean = 160/16 = 10",
+          "population variance = 104 - (10)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-independent_practice-3-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-p5b-v1-mini_worked_example-1-solution": {
+      "item_ref": "authored-sd-p5b-v1-mini_worked_example-1",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-06"
+      ],
+      "solution": {
+        "content_origin": "authored_instructional_content",
+        "deviations": [
+          "-2",
+          "0",
+          "0",
+          "2"
+        ],
+        "display_answer": "1.41",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "2"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-mini_worked_example-1",
+        "key_semantic_elements": [],
+        "mean": "4",
+        "method_steps": [
+          "mean = 16/4 = 4",
+          "population variance = 18 - (4)^2 = 2",
+          "population SD = sqrt(2)",
+          "Display to 2 decimal places: 1.41"
+        ],
+        "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+        "ref": "authored-sd-p5b-v1-mini_worked_example-1-solution",
+        "squared_deviations": [
+          "4",
+          "0",
+          "0",
+          "4"
+        ],
+        "variance": "2"
+      },
+      "visibility": "student_worked_example"
+    },
+    "authored-sd-v1-calculation-check-solution": {
+      "item_ref": "authored-sd-v1-calculation-check-question",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-14"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "constraint_level": "required",
+        "covers_learning_requirement_refs": [],
+        "display_answer": "3.16",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "10"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+        ],
+        "item_ref": "authored-sd-v1-calculation-check-question",
+        "key_semantic_elements": [],
+        "mean": "15",
+        "method_steps": [
+          "mean = 300/20 = 15",
+          "population variance = 235 - (15)^2 = 10",
+          "population SD = sqrt(10)",
+          "Display to 2 decimal places: 3.16"
+        ],
+        "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-calculation-check-solution",
+        "teaching_block_refs": [
+          "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+        ],
+        "variance": "10",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-concept-check-solution": {
+      "item_ref": "authored-sd-v1-concept-check-question",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-13"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+        ],
+        "constraint_level": "flexible",
+        "covers_learning_requirement_refs": [],
+        "display_answer": null,
+        "exact_answer": null,
+        "exact_string_matching_required": false,
+        "expected_meaning": "It measures how spread out the observations are around the mean.",
+        "instructional_slot_refs": [],
+        "item_ref": "authored-sd-v1-concept-check-question",
+        "key_semantic_elements": [
+          "spread or dispersion",
+          "around the mean"
+        ],
+        "mean": null,
+        "method_steps": [],
+        "numeric_answer": null,
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-concept-check-solution",
+        "teaching_block_refs": [
+          "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+        ],
+        "variance": null,
+        "verification": null
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-practice-1-solution": {
+      "item_ref": "authored-sd-v1-practice-1-question",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-12"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "constraint_level": "recommended",
+        "covers_learning_requirement_refs": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+        ],
+        "item_ref": "authored-sd-v1-practice-1-question",
+        "key_semantic_elements": [],
+        "mean": "7",
+        "method_steps": [
+          "mean = 70/10 = 7",
+          "population variance = 53 - (7)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-practice-1-solution",
+        "teaching_block_refs": [
+          "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+        ],
+        "variance": "4",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-practice-2-solution": {
+      "item_ref": "authored-sd-v1-practice-2-question",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-12"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "constraint_level": "recommended",
+        "covers_learning_requirement_refs": [],
+        "display_answer": "2.45",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "6"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+        ],
+        "item_ref": "authored-sd-v1-practice-2-question",
+        "key_semantic_elements": [],
+        "mean": "12",
+        "method_steps": [
+          "mean = 96/8 = 12",
+          "population variance = 150 - (12)^2 = 6",
+          "population SD = sqrt(6)",
+          "Display to 2 decimal places: 2.45"
+        ],
+        "numeric_answer": "2.4494897427831780981972840747058913919659474806567",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-practice-2-solution",
+        "teaching_block_refs": [
+          "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+        ],
+        "variance": "6",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-worked-solution": {
+      "item_ref": "authored-sd-v1-worked-question",
+      "profile_role_refs": [
+        "profiled-sd-standard-lesson-SL-08"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [],
+        "constraint_level": "required",
+        "covers_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "display_answer": "3.16",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "10"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+        ],
+        "item_ref": "authored-sd-v1-worked-question",
+        "key_semantic_elements": [],
+        "mean": "10",
+        "method_steps": [
+          "mean = 50/5 = 10",
+          "population variance = 110 - (10)^2 = 10",
+          "population SD = sqrt(10)",
+          "Display to 2 decimal places: 3.16"
+        ],
+        "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-worked-solution",
+        "teaching_block_refs": [
+          "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+        ],
+        "variance": "10",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "student_worked_example"
+    }
+  },
+  "source_validation": {
+    "authored_content_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+    "content_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804",
+    "learning_specification_sha256": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "lesson_profile_sha256": "851d84206f1bc787ffab3a0335188784edf07275ebdbebe374bb4d3fa6a040c8",
+    "profiled_content_sha256": "cb06970e0df300391e2f3d1e9b40a5c08b9e35e4d704b5328f1b7f3851e200d9",
+    "profiled_pedagogy_sha256": "cbd464e4b7a11e44030d3e3fc910b9c3556482699fc6d1f9957001fdf9af9458",
+    "profiled_validation_sha256": "2119fef0052da9832c32c2c4c63fae8a815a15e3faf0713210bc166b26984146"
+  }
+}

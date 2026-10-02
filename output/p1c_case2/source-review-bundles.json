@@ -1,0 +1,689 @@
+[
+  {
+    "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+    "subject": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+    "source": {
+      "key": "source:MS",
+      "kind": "source",
+      "label": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+      "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+      "state": "verify",
+      "decision_id": "source-bundle-object-600c6644e6a7eadbd09261f86e8cf13b8b38dcff63fdba6231aa302f08955b2a"
+    },
+    "metadata": {
+      "source_type": "official_mark_scheme",
+      "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+      "version_label": "Summer 2025",
+      "identity_basis": "Cover identifies Summer 2025, Mathematics (9MA0), Paper 31 Statistics. Operator must check authenticity/edition.",
+      "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-MS.pdf",
+      "content_digest": "e90d722e74e3af32d6c389cb1b90b6d29b3acabfce5d5ddee5036fbb053dc449"
+    },
+    "locators": [
+      {
+        "key": "locator:MS-Q2-a",
+        "kind": "locator",
+        "label": "Q2(a) scoring and notes",
+        "version": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+        "state": "verify",
+        "decision_id": "source-bundle-object-0721d736e22215e4e0b1fe9939890ea8e49b1d259e2ecfcd0da13a202068fbfe",
+        "page_number": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+        "region": [
+          0.05,
+          0.02,
+          0.91,
+          0.82
+        ],
+        "expected_content": "Mean 55.1 seconds, B1.",
+        "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+      },
+      {
+        "key": "locator:MS-Q2-b",
+        "kind": "locator",
+        "label": "Q2(b) scoring and notes",
+        "version": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+        "state": "verify",
+        "decision_id": "source-bundle-object-dd5885c8b64b50bdb4a488c43beb54a5b4cb7c3a38c2b2c044996ac086322e71",
+        "page_number": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+        "region": [
+          0.05,
+          0.02,
+          0.91,
+          0.82
+        ],
+        "expected_content": "SD 2.2 seconds; method and accuracy. Scheme also accepts sample SD about 2.21.",
+        "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+      },
+      {
+        "key": "locator:MS-Q2-c",
+        "kind": "locator",
+        "label": "Q2(c) scoring and notes",
+        "version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+        "state": "verify",
+        "decision_id": "source-bundle-object-18d7da0dd09158ce02bc60d8d45fdbdb0fad63ce27b78736b23a3b889c6d2383",
+        "page_number": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+        "region": [
+          0.05,
+          0.02,
+          0.91,
+          0.82
+        ],
+        "expected_content": "Coach B, using greater SD and the likelihood of more extreme faster times. Conditional follow-through notes refer to answer (b). This contextual inference is not a universal implication of SD alone.",
+        "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+      }
+    ],
+    "integrity_errors": [],
+    "source_verified": true,
+    "stale_objects": [],
+    "decision_scope": {
+      "verify": [
+        "locator:MS-Q2-a",
+        "locator:MS-Q2-b",
+        "locator:MS-Q2-c",
+        "source:MS"
+      ],
+      "reject": [
+        "locator:MS-Q2-a",
+        "locator:MS-Q2-b",
+        "locator:MS-Q2-c",
+        "source:MS"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+      "definition_version": "028548fa4f716b23ef0eed873c7cb916146ac2546364fa96db081241c19e1f50",
+      "versions": {
+        "locator:MS-Q2-a": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+        "locator:MS-Q2-b": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+        "locator:MS-Q2-c": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+        "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+      },
+      "review_heads": {
+        "locator:MS-Q2-a": "source-bundle-object-0721d736e22215e4e0b1fe9939890ea8e49b1d259e2ecfcd0da13a202068fbfe",
+        "locator:MS-Q2-b": "source-bundle-object-dd5885c8b64b50bdb4a488c43beb54a5b4cb7c3a38c2b2c044996ac086322e71",
+        "locator:MS-Q2-c": "source-bundle-object-18d7da0dd09158ce02bc60d8d45fdbdb0fad63ce27b78736b23a3b889c6d2383",
+        "source:MS": "source-bundle-object-600c6644e6a7eadbd09261f86e8cf13b8b38dcff63fdba6231aa302f08955b2a"
+      },
+      "token": "b7af87428a62b5ab4aeab07d21ae71329edf032d5ed00c8bdcd5fd6616b204dd"
+    },
+    "notice": "Source verification does not approve academic interpretation."
+  },
+  {
+    "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+    "subject": "Pearson Edexcel 9MA0/31 Statistics question paper",
+    "source": {
+      "key": "source:QP",
+      "kind": "source",
+      "label": "Pearson Edexcel 9MA0/31 Statistics question paper",
+      "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+      "state": "verify",
+      "decision_id": "source-bundle-object-9a288a9e96f05290ede7cb8a633368904470fa4987177c133e8fc59a5e1b1502"
+    },
+    "metadata": {
+      "source_type": "official_past_paper",
+      "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+      "version_label": "19 June 2025, P75695A",
+      "identity_basis": "Cover identifies 9MA0/31, Thursday 19 June 2025 and P75695A. Identity is a candidate assertion until local operator verification.",
+      "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-QP.pdf",
+      "content_digest": "ab9ba2534ad3547f74b55863df74b7dd9f8cad27e050c8562b923148069fd5a9"
+    },
+    "locators": [
+      {
+        "key": "locator:QP-Q2",
+        "kind": "locator",
+        "label": "Question 2",
+        "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "state": "verify",
+        "decision_id": "source-bundle-object-5e5d4660470b3458b3364aae1296a8be51daa7a573bce58f8b2114277f9e7289",
+        "page_number": 4,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+        "region": [
+          0.05,
+          0.06,
+          0.89,
+          0.4
+        ],
+        "expected_content": "Athletics coaches, 400 m best times; summary statistics and comparison.",
+        "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+      },
+      {
+        "key": "locator:QP-Q2-a",
+        "kind": "locator",
+        "label": "Q2(a)",
+        "version": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+        "state": "verify",
+        "decision_id": "source-bundle-object-2aca3df86b4f6b36f2f8c5d38954df43b1c0082390962b0ceff661978127790d",
+        "page_number": 4,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+        "region": [
+          0.07,
+          0.12,
+          0.85,
+          0.31
+        ],
+        "expected_content": "Calculate mean; 1 mark.",
+        "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+      },
+      {
+        "key": "locator:QP-Q2-b",
+        "kind": "locator",
+        "label": "Q2(b)",
+        "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "state": "verify",
+        "decision_id": "source-bundle-object-3495b476f12e6908c9277b73777e2a0e1fdb6ec3a4c2ff2ba7abc915ead39763",
+        "page_number": 4,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+        "region": [
+          0.07,
+          0.12,
+          0.85,
+          0.31
+        ],
+        "expected_content": "Calculate standard deviation; 2 marks.",
+        "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+      },
+      {
+        "key": "locator:QP-Q2-c",
+        "kind": "locator",
+        "label": "Q2(c)",
+        "version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+        "state": "verify",
+        "decision_id": "source-bundle-object-0055139284d0e59ab2bae33781c05f8bf7d13f0b557dd0c9b630a0d60e210eee",
+        "page_number": 4,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+        "region": [
+          0.07,
+          0.12,
+          0.85,
+          0.31
+        ],
+        "expected_content": "Infer which coach is more likely to have trained the winner; 2 marks.",
+        "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+      }
+    ],
+    "integrity_errors": [],
+    "source_verified": true,
+    "stale_objects": [],
+    "decision_scope": {
+      "verify": [
+        "locator:QP-Q2",
+        "locator:QP-Q2-a",
+        "locator:QP-Q2-b",
+        "locator:QP-Q2-c",
+        "source:QP"
+      ],
+      "reject": [
+        "locator:QP-Q2",
+        "locator:QP-Q2-a",
+        "locator:QP-Q2-b",
+        "locator:QP-Q2-c",
+        "source:QP"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+      "definition_version": "6af57eb9999917c265e2eefb3e8d3eadfd44d5a0fe47ca7484dea1938e758754",
+      "versions": {
+        "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+        "locator:QP-Q2-a": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+        "locator:QP-Q2-b": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+        "locator:QP-Q2-c": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+        "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+      },
+      "review_heads": {
+        "locator:QP-Q2": "source-bundle-object-5e5d4660470b3458b3364aae1296a8be51daa7a573bce58f8b2114277f9e7289",
+        "locator:QP-Q2-a": "source-bundle-object-2aca3df86b4f6b36f2f8c5d38954df43b1c0082390962b0ceff661978127790d",
+        "locator:QP-Q2-b": "source-bundle-object-3495b476f12e6908c9277b73777e2a0e1fdb6ec3a4c2ff2ba7abc915ead39763",
+        "locator:QP-Q2-c": "source-bundle-object-0055139284d0e59ab2bae33781c05f8bf7d13f0b557dd0c9b630a0d60e210eee",
+        "source:QP": "source-bundle-object-9a288a9e96f05290ede7cb8a633368904470fa4987177c133e8fc59a5e1b1502"
+      },
+      "token": "7a1b7795aa10cb4f00846a378f323f243104d5f3cdc3a62a7375077db95186a4"
+    },
+    "notice": "Source verification does not approve academic interpretation."
+  },
+  {
+    "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+    "subject": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+    "source": {
+      "key": "source:SPEC",
+      "kind": "source",
+      "label": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+      "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+      "state": "verify",
+      "decision_id": "source-bundle-object-7800147423d39bbbd0d7932c6dec1b053724aa2a1032eadc3f429836625e1d80"
+    },
+    "metadata": {
+      "source_type": "official_syllabus",
+      "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+      "version_label": "Issue 4, February 2020; first teaching September 2017",
+      "identity_basis": "Cover identifies 9MA0 and Issue 4; printed page 31 identifies February 2020.",
+      "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-Specification-Issue4.pdf",
+      "content_digest": "b008c50064090bab5c3e26e1f3c97778d21b492d5b839219f73eca11828ecef8"
+    },
+    "locators": [
+      {
+        "key": "locator:SPEC-2.3",
+        "kind": "locator",
+        "label": "Statistics section 2.3, printed page 31",
+        "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "state": "verify",
+        "decision_id": "source-bundle-object-c2b6f5b4d40958d4a830ab5994abe7f264fd67c15c0c4880fc0e2bb6c94f451a",
+        "page_number": 35,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-Specification-Issue4.pdf#page=35",
+        "region": [
+          0.3,
+          0.49,
+          0.62,
+          0.43
+        ],
+        "expected_content": "Location and variation, including standard deviation from summary statistics. Candidate scope association; no invented official objective ID.",
+        "source_version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+      }
+    ],
+    "integrity_errors": [],
+    "source_verified": true,
+    "stale_objects": [],
+    "decision_scope": {
+      "verify": [
+        "locator:SPEC-2.3",
+        "source:SPEC"
+      ],
+      "reject": [
+        "locator:SPEC-2.3",
+        "source:SPEC"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+      "definition_version": "b3afc6ad7fe73b80748514ee5db08ffd585ebfd56076c1f6a1fc1a1fd5fe3d5f",
+      "versions": {
+        "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+        "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+      },
+      "review_heads": {
+        "locator:SPEC-2.3": "source-bundle-object-c2b6f5b4d40958d4a830ab5994abe7f264fd67c15c0c4880fc0e2bb6c94f451a",
+        "source:SPEC": "source-bundle-object-7800147423d39bbbd0d7932c6dec1b053724aa2a1032eadc3f429836625e1d80"
+      },
+      "token": "1ec26cba9afeed029c3fa3bce215917a78c860f4ff7b97e8adfc977e30a4d51a"
+    },
+    "notice": "Source verification does not approve academic interpretation."
+  },
+  {
+    "bundle_id": "SOURCE-BUNDLE-QP-Q3-2023",
+    "subject": "Pearson Edexcel 9MA0/31 Statistics QP-2023",
+    "source": {
+      "key": "source:QP-2023",
+      "kind": "source",
+      "label": "Pearson Edexcel 9MA0/31 Statistics QP-2023",
+      "version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+      "state": "pending",
+      "decision_id": null
+    },
+    "metadata": {
+      "source_type": "official_past_paper",
+      "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+      "version_label": "20 June 2023; P72819A",
+      "identity_basis": "Cover text: 20 June 2023, 9MA0/31, P72819A. Local supplied PDF carries PMT branding; authenticity/edition awaits operator verification.",
+      "artifact_reference": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 QP (Stats) (1).pdf",
+      "content_digest": "4b5e3dc04ba1951026605f495a4127f4afbdc3746c03f4be366b3e1f8d7e5c64"
+    },
+    "locators": [
+      {
+        "key": "locator:QP-2023-Q3-a",
+        "kind": "locator",
+        "label": "Q3 a",
+        "version": "e98ca6826f77b0d34c3d2645129c1be2befada37afe099fa6eadd07e3df7ff41",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.12,
+          0.255,
+          0.76,
+          0.065
+        ],
+        "expected_content": "(a) Explain how the data will need to be cleaned before Ben can start to calculate statistics such as the mean and standard deviation.",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-b",
+        "kind": "locator",
+        "label": "Q3 b",
+        "version": "cf1c4f415e7be2ead9902c2ccb6bf6fa6e91ec07c8d9f462d6773e4ee6ac5241",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "Exact source page and bounded parsed spans for Q3 b; interpretation is a separate pending proposal.",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-b-i",
+        "kind": "locator",
+        "label": "Q3 b-i",
+        "version": "5575a7a5ec9e1d1eb8b9f60efdc34299c5ccb1213e26dd148b797009250c566c",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.15,
+          0.365,
+          0.7,
+          0.04
+        ],
+        "expected_content": "(i) the mean Daily Total Rainfall,",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-b-ii",
+        "kind": "locator",
+        "label": "Q3 b-ii",
+        "version": "2bd3e2a4c2d058b0452e70819da77e04337c3b4c164ee723c3bb888ff6d0e021",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.15,
+          0.398,
+          0.74,
+          0.037
+        ],
+        "expected_content": "(ii) the standard deviation of the Daily Total Rainfall.",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-c",
+        "kind": "locator",
+        "label": "Q3 c",
+        "version": "0f978102f06be1d7d4c1e7c11b56d99542eb02df0440d45379f26b1d625d42d3",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "Exact source page and bounded parsed spans for Q3 c; interpretation is a separate pending proposal.",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-c-i",
+        "kind": "locator",
+        "label": "Q3 c-i",
+        "version": "8c19d34959be6af3b2608f43e7d2a8c8379b5777ab9f01c41e651fa979d4e719",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.15,
+          0.504,
+          0.76,
+          0.034
+        ],
+        "expected_content": "(i) give a reason why these data would not be suitable,",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-c-ii",
+        "kind": "locator",
+        "label": "Q3 c-ii",
+        "version": "413e8f3dd54abcb82b7db4761648a27ad1a5487464862f1df6ec1cbff376f4aa",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.15,
+          0.529,
+          0.76,
+          0.055
+        ],
+        "expected_content": "(ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ from the actual annual mean Daily Total Rainfall in Leeming for 1987",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      {
+        "key": "locator:QP-2023-Q3-whole",
+        "kind": "locator",
+        "label": "Q3 whole",
+        "version": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "Exact source page and bounded parsed spans for Q3 whole; interpretation is a separate pending proposal.",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      }
+    ],
+    "integrity_errors": [],
+    "source_verified": false,
+    "stale_objects": [],
+    "decision_scope": {
+      "verify": [
+        "locator:QP-2023-Q3-a",
+        "locator:QP-2023-Q3-b",
+        "locator:QP-2023-Q3-b-i",
+        "locator:QP-2023-Q3-b-ii",
+        "locator:QP-2023-Q3-c",
+        "locator:QP-2023-Q3-c-i",
+        "locator:QP-2023-Q3-c-ii",
+        "locator:QP-2023-Q3-whole",
+        "source:QP-2023"
+      ],
+      "reject": [
+        "locator:QP-2023-Q3-a",
+        "locator:QP-2023-Q3-b",
+        "locator:QP-2023-Q3-b-i",
+        "locator:QP-2023-Q3-b-ii",
+        "locator:QP-2023-Q3-c",
+        "locator:QP-2023-Q3-c-i",
+        "locator:QP-2023-Q3-c-ii",
+        "locator:QP-2023-Q3-whole",
+        "source:QP-2023"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "SOURCE-BUNDLE-QP-Q3-2023",
+      "definition_version": "5410b45cd4e118fb22b4ac4de311be5c9aa615b2ee2a13d8217ff51817a34568",
+      "versions": {
+        "locator:QP-2023-Q3-a": "e98ca6826f77b0d34c3d2645129c1be2befada37afe099fa6eadd07e3df7ff41",
+        "locator:QP-2023-Q3-b": "cf1c4f415e7be2ead9902c2ccb6bf6fa6e91ec07c8d9f462d6773e4ee6ac5241",
+        "locator:QP-2023-Q3-b-i": "5575a7a5ec9e1d1eb8b9f60efdc34299c5ccb1213e26dd148b797009250c566c",
+        "locator:QP-2023-Q3-b-ii": "2bd3e2a4c2d058b0452e70819da77e04337c3b4c164ee723c3bb888ff6d0e021",
+        "locator:QP-2023-Q3-c": "0f978102f06be1d7d4c1e7c11b56d99542eb02df0440d45379f26b1d625d42d3",
+        "locator:QP-2023-Q3-c-i": "8c19d34959be6af3b2608f43e7d2a8c8379b5777ab9f01c41e651fa979d4e719",
+        "locator:QP-2023-Q3-c-ii": "413e8f3dd54abcb82b7db4761648a27ad1a5487464862f1df6ec1cbff376f4aa",
+        "locator:QP-2023-Q3-whole": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+        "source:QP-2023": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+      },
+      "review_heads": {
+        "locator:QP-2023-Q3-a": null,
+        "locator:QP-2023-Q3-b": null,
+        "locator:QP-2023-Q3-b-i": null,
+        "locator:QP-2023-Q3-b-ii": null,
+        "locator:QP-2023-Q3-c": null,
+        "locator:QP-2023-Q3-c-i": null,
+        "locator:QP-2023-Q3-c-ii": null,
+        "locator:QP-2023-Q3-whole": null,
+        "source:QP-2023": null
+      },
+      "token": "65605763a54c0350eb25570b8e2598e271630232e129f5473280c14eea677e0e"
+    },
+    "notice": "Source verification does not approve academic interpretation."
+  },
+  {
+    "bundle_id": "SOURCE-BUNDLE-MS-Q3-2023",
+    "subject": "Pearson Edexcel 9MA0/31 Statistics MS-2023",
+    "source": {
+      "key": "source:MS-2023",
+      "kind": "source",
+      "label": "Pearson Edexcel 9MA0/31 Statistics MS-2023",
+      "version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+      "state": "pending",
+      "decision_id": null
+    },
+    "metadata": {
+      "source_type": "official_mark_scheme",
+      "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+      "version_label": "Summer 2023; Paper 31 Statistics",
+      "identity_basis": "Cover text: Summer 2023, 9MA0, Paper 31 Statistics. Local supplied PDF carries PMT branding; authenticity/edition awaits operator verification.",
+      "artifact_reference": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 MS (Stats).pdf",
+      "content_digest": "152b5434487fa2445d1130159feffc05e9883ae7197f75fffe4ceffc785d4823"
+    },
+    "locators": [
+      {
+        "key": "locator:MS-2023-Q3-a",
+        "kind": "locator",
+        "label": "Q3 a",
+        "version": "7971a2a4264f9f22e3a7bbf488074c0eb8ea2fd9e09b1a6e32fe18e059d6f1ec",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 9,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "(a) Need to replace tr with a numerical value M1 1.2 Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value „ 0.05 A1 1.1b (2)",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+      },
+      {
+        "key": "locator:MS-2023-Q3-b-i",
+        "kind": "locator",
+        "label": "Q3 b-i",
+        "version": "f3274d3d5c9c026b38eee854cf501cbf55f9aabc172b69d29f1b41cd8d6d8286",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 9,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "(b)(i) 389.3 ~ 390.8 184x = = 2.119… awrt 2.12 allow 195 92 or 11 922 B1 1.1b",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+      },
+      {
+        "key": "locator:MS-2023-Q3-b-ii",
+        "kind": "locator",
+        "label": "Q3 b-ii",
+        "version": "acff4f99222504d7092234f8c2b11355bfb88ea6b3da4bac2721a25d1f510f9c",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 9,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "(ii)   2(awrt)4336 \"\"184 x =− or allow 22 (awrt)4336 \"\"184 x =− or awrt 19.1 = 4.367… awrt 4.37 M1 A1 1.1b 1.1b (3)",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+      },
+      {
+        "key": "locator:MS-2023-Q3-c-i",
+        "kind": "locator",
+        "label": "Q3 c-i",
+        "version": "51286a61e160eac79317b0189260f2f5cf116335202f20db3e528ef3e668cc1b",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 9,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+      },
+      {
+        "key": "locator:MS-2023-Q3-c-ii",
+        "kind": "locator",
+        "label": "Q3 c-ii",
+        "version": "87c6e314c620946ca7bf0a456986bada1acbefe2c9cee1938ddd798e9f3c668d",
+        "state": "pending",
+        "decision_id": null,
+        "page_number": 9,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ],
+        "expected_content": "(ii) e.g. Winter months are missing when we’d expect more rain so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 (2)",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+      }
+    ],
+    "integrity_errors": [],
+    "source_verified": false,
+    "stale_objects": [],
+    "decision_scope": {
+      "verify": [
+        "locator:MS-2023-Q3-a",
+        "locator:MS-2023-Q3-b-i",
+        "locator:MS-2023-Q3-b-ii",
+        "locator:MS-2023-Q3-c-i",
+        "locator:MS-2023-Q3-c-ii",
+        "source:MS-2023"
+      ],
+      "reject": [
+        "locator:MS-2023-Q3-a",
+        "locator:MS-2023-Q3-b-i",
+        "locator:MS-2023-Q3-b-ii",
+        "locator:MS-2023-Q3-c-i",
+        "locator:MS-2023-Q3-c-ii",
+        "source:MS-2023"
+      ]
+    },
+    "review_ticket": {
+      "bundle_id": "SOURCE-BUNDLE-MS-Q3-2023",
+      "definition_version": "737160b95ff596b9d564bc5f98f2ff6c81f8028e6e40dca6fbddbc1f9e5aabb0",
+      "versions": {
+        "locator:MS-2023-Q3-a": "7971a2a4264f9f22e3a7bbf488074c0eb8ea2fd9e09b1a6e32fe18e059d6f1ec",
+        "locator:MS-2023-Q3-b-i": "f3274d3d5c9c026b38eee854cf501cbf55f9aabc172b69d29f1b41cd8d6d8286",
+        "locator:MS-2023-Q3-b-ii": "acff4f99222504d7092234f8c2b11355bfb88ea6b3da4bac2721a25d1f510f9c",
+        "locator:MS-2023-Q3-c-i": "51286a61e160eac79317b0189260f2f5cf116335202f20db3e528ef3e668cc1b",
+        "locator:MS-2023-Q3-c-ii": "87c6e314c620946ca7bf0a456986bada1acbefe2c9cee1938ddd798e9f3c668d",
+        "source:MS-2023": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+      },
+      "review_heads": {
+        "locator:MS-2023-Q3-a": null,
+        "locator:MS-2023-Q3-b-i": null,
+        "locator:MS-2023-Q3-b-ii": null,
+        "locator:MS-2023-Q3-c-i": null,
+        "locator:MS-2023-Q3-c-ii": null,
+        "source:MS-2023": null
+      },
+      "token": "2b5de5d7b180305352dc7af12750c4c28209cba1961b969a9acf348e90017012"
+    },
+    "notice": "Source verification does not approve academic interpretation."
+  }
+]

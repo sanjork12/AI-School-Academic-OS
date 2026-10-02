@@ -1,0 +1,31 @@
+{
+  "real_database": {
+    "versions": 72,
+    "heads": 52,
+    "reviews": 0,
+    "snapshots": 0
+  },
+  "real_database_file_sha256_before": "fa950352ac39cb896fdd78ee3fabbac0d9dc7a825b0dc98a9be2a81601257eb8",
+  "real_database_file_sha256_after": "fa950352ac39cb896fdd78ee3fabbac0d9dc7a825b0dc98a9be2a81601257eb8",
+  "real_database_tables_unchanged": {
+    "versions": true,
+    "heads": true,
+    "reviews": true,
+    "snapshots": true,
+    "requests": true,
+    "review_heads": true,
+    "snapshot_blocks": true,
+    "snapshot_members": true,
+    "schema_migrations": true
+  },
+  "pinned_manifest_entries": 61,
+  "pinned_manifest_missing": [
+    "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+  ],
+  "pinned_manifest_changed": [],
+  "historical_files_checked": 68,
+  "historical_files_changed": [],
+  "protected_artifact_classification": "Historical protected project presentation; not one of the three registered Q2 PDF sources.",
+  "absence_cause": "Unknown: absent before P1B; no matching copy or deletion/move evidence found in the inspected repository.",
+  "proposed_resolution": "Restore the original historical PPT from a verified backup and match the unchanged pinned SHA-256; do not fabricate or replace the manifest."
+}

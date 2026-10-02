@@ -1,0 +1,78 @@
+{
+  "result": "P1B.2 Q2(c) CONCEPT BOUNDARY CORRECTION PASSED",
+  "changed_files": [
+    "academic_os/examples/q2_semantics.py",
+    "tests_p0/test_q2c_boundary.py",
+    "tests_p0/test_semantics.py",
+    "tests_p0/test_review_bundles.py",
+    "docs/P1B_HUMAN_REVIEW_AND_PUBLICATION.md",
+    "docs/P1A_ACADEMIC_SEMANTIC_MODEL.md"
+  ],
+  "real_database_change": "One immutable primary mapping revision via Service.stage; 72 -> 73 versions, 52 heads retained. No approve/reject/revoke/publish in the real database.",
+  "academic_correction": "Primary canonical concepts: Standard deviation, Variation / spread. Competency and task condition unchanged. Extreme values retained in question-specific reasoning and unchanged secondary candidate. Old primary link preserved outside required closure.",
+  "statuses": {
+    "BUNDLE-Q2-A": "APPROVED",
+    "BUNDLE-Q2-B": "APPROVED",
+    "BUNDLE-Q2-C-PRIMARY": "INCOMPLETE"
+  },
+  "optional_secondary": "pending",
+  "q2_core": {
+    "source_verified": true,
+    "human_approved": false,
+    "publishable": false
+  },
+  "history_preservation": {
+    "preserved_tables": {
+      "reviews": true,
+      "review_heads": true,
+      "snapshots": true,
+      "snapshot_blocks": true,
+      "snapshot_members": true
+    },
+    "all_old_versions_preserved": true,
+    "changed_heads": [
+      "part_mapping:MAP-Q2-c-VARIATION-INTERPRET"
+    ],
+    "review_count_before": 32,
+    "review_count_after": 32,
+    "versions_before": 72,
+    "versions_after": 73,
+    "database_sha256_before": "1c321e4c6a0fe28a9f68402223d63d36db0220bbae49bd72a8a5404c15b94174",
+    "database_sha256_after": "259b4aa6e584fc4a35341c09c9b298be47824f012a36bec3e7dedd14c94f2d5c",
+    "pinned_missing": [
+      "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+    ],
+    "pinned_changed": []
+  },
+  "stale_ticket_test": {
+    "passed": true,
+    "error": "Bundle stale/conflict; inspect again. concept:CON-STAT-EXTREMES versions: expected 7522db05f403a4cf789051e7ee1798108daa14e5d9c0bcd9808576cd15af421a, current None; concept_link:LINK-VARIATION-INTERPRET-EXTREMES versions: expected 51d1322a429cb94177b493cc65f63f216c71d95d73cce2c4bb47c12ddfd440fb, current None; part_mapping:MAP-Q2-c-VARIATION-INTERPRET versions: expected eb5758cd6d9d9ae787ddbd399cd608ed76235a7d5399cb107a465c020e23e7d2, current 6d19c9d282c67b80f01d38ca6dc687151e25fe993107fb55e63552cc190dcf4a",
+    "review_count_before": 32,
+    "review_count_after": 32,
+    "ticket_sha256": "f3875d34807f4b90b08b39e76cb59b0907d85f6f38008139691fe39f83f2c48c"
+  },
+  "tests": {
+    "total": 283,
+    "passed": 282,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0,
+    "failure_details": [],
+    "error_details": [
+      {
+        "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+        "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+      }
+    ]
+  },
+  "passed_by_module": {
+    "test_workflow": 35,
+    "test_q2_parsing": 12,
+    "test_semantics": 32,
+    "test_review_bundles": 41,
+    "test_source_bundles": 25,
+    "test_q2c_boundary": 6
+  },
+  "known_error": "Pre-existing missing protected AI_Academic_Operating_System_Brainstorm_CN.pptx. Test, pinned hash and integrity mechanism were not modified.",
+  "next_operator_step": "Inspect revised BUNDLE-Q2-C-PRIMARY and save a new ticket under a new filename; no automatic approval."
+}

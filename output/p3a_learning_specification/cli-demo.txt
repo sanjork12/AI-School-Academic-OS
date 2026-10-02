@@ -1,0 +1,279 @@
+{
+  "artifact_kind": "learning_specification_read_model",
+  "assessment_evidence": [
+    {
+      "assessment_label": "June 2025 9MA0/31 Q2",
+      "capability_ref": "capability-standard-deviation-calculate",
+      "epistemic_level": "observed_evidence",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q2(b)",
+      "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+      "reading_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+      ],
+      "ref": "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b",
+      "session": "June",
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "year": 2025
+    },
+    {
+      "assessment_label": "June 2023 9MA0/31 Q3",
+      "capability_ref": "capability-standard-deviation-calculate",
+      "epistemic_level": "observed_evidence",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q3(b)(ii)",
+      "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+      "reading_notes": [
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "ref": "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+      "session": "June",
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "year": 2023
+    }
+  ],
+  "conceptual_basis": [
+    {
+      "concept_ref": "concept-standard-deviation",
+      "description": "A measure of dispersion about the mean in the units of the observations.",
+      "name": "Standard deviation"
+    }
+  ],
+  "coverage_requirements": [
+    {
+      "epistemic_class": "evidence_backed_requirement",
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "policy_basis": "learning-specification/1 coverage policy",
+      "ref": "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c",
+      "source_refs": [
+        "capability-standard-deviation-calculate",
+        "task-form-summary-statistics"
+      ],
+      "statement": "Teaching material should provide an assessment connection aligned to the supported capability and task form. Copying a past-paper question is not required.",
+      "type": "teaching_assessment_connection"
+    },
+    {
+      "epistemic_class": "evidence_backed_requirement",
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "policy_basis": "learning-specification/1 coverage policy",
+      "ref": "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+      "source_refs": [
+        "capability-standard-deviation-calculate",
+        "concept-standard-deviation",
+        "task-form-summary-statistics"
+      ],
+      "statement": "Assessment material must declare which included Learning Requirements it assesses; unsupported content must not silently be labelled as covered.",
+      "type": "assessment_alignment"
+    }
+  ],
+  "curriculum": {
+    "references": [
+      {
+        "association_note": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+        "association_status": "candidate",
+        "section": "Statistics section 2.3, printed page 31",
+        "wording": "Be able to calculate standard deviation, including from summary statistics."
+      }
+    ]
+  },
+  "evidence_boundaries": [
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_frequency",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+      ],
+      "statement": "The 2 reviewed examples do not establish assessment frequency."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_typical_marks",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+      ],
+      "statement": "These reviewed examples do not establish a typical mark allocation."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "difficulty_not_calibrated",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+      ],
+      "statement": "No calibrated difficulty evidence is available."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_exam_prediction",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_exam_prediction"
+      ],
+      "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_student_error_evidence",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_student_error_evidence"
+      ],
+      "statement": "No student response evidence supports common-mistake claims."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "prerequisites_not_modelled",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "teaching_sequence_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Teaching sequence has not yet been established by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "calculator_method_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "A required calculator or manual method has not been established."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "formula_memorisation_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "unsupported_task_forms_excluded",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+    }
+  ],
+  "identity": {
+    "awarding_body": "Pearson Edexcel",
+    "curriculum_section": "Statistics",
+    "qualification": "A Level Mathematics",
+    "specification_code": "9MA0",
+    "subject": "Mathematics",
+    "title": "Standard deviation",
+    "view_key": "standard-deviation",
+    "view_type": "learning_specification"
+  },
+  "learning_requirements": [
+    {
+      "epistemic_class": "evidence_backed_requirement",
+      "evidence_refs": [],
+      "ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+      "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+      "source_refs": [
+        "concept-standard-deviation"
+      ],
+      "statement": "Student should understand \"Standard deviation\": A measure of dispersion about the mean in the units of the observations.",
+      "type": "conceptual_understanding"
+    },
+    {
+      "epistemic_class": "evidence_backed_requirement",
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+      "source_refs": [
+        "capability-standard-deviation-calculate"
+      ],
+      "statement": "Student should be able to: Calculate the standard deviation of a distribution.",
+      "type": "capability"
+    },
+    {
+      "epistemic_class": "evidence_backed_requirement",
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+      "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+      "source_refs": [
+        "capability-standard-deviation-calculate",
+        "task-form-summary-statistics"
+      ],
+      "statement": "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics.",
+      "type": "capability_under_task_form"
+    }
+  ],
+  "schema_version": "learning-specification/1",
+  "source_contracts": [
+    "teacher-topic/2",
+    "assessment-intelligence/1"
+  ],
+  "trust_summary": {
+    "analytics_enabled": false,
+    "upstream": {
+      "assessment_evidence_reviewed": true,
+      "canonical_knowledge_approved": true,
+      "curriculum_association_confirmed": false,
+      "curriculum_verified": true,
+      "reviewed_example_count": 2,
+      "scope_note": "Reviewed examples only; no frequency, difficulty or trend inference. Curriculum verification refers to located wording, not confirmed scope equivalence.",
+      "source_count": 5,
+      "validity_notice": "Checked for this read only. A saved product view is not a trusted snapshot; refresh through the product service before use."
+    },
+    "upstream_teacher_view_validated": true
+  }
+}

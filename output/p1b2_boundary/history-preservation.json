@@ -1,0 +1,23 @@
+{
+  "preserved_tables": {
+    "reviews": true,
+    "review_heads": true,
+    "snapshots": true,
+    "snapshot_blocks": true,
+    "snapshot_members": true
+  },
+  "all_old_versions_preserved": true,
+  "changed_heads": [
+    "part_mapping:MAP-Q2-c-VARIATION-INTERPRET"
+  ],
+  "review_count_before": 32,
+  "review_count_after": 32,
+  "versions_before": 72,
+  "versions_after": 73,
+  "database_sha256_before": "1c321e4c6a0fe28a9f68402223d63d36db0220bbae49bd72a8a5404c15b94174",
+  "database_sha256_after": "259b4aa6e584fc4a35341c09c9b298be47824f012a36bec3e7dedd14c94f2d5c",
+  "pinned_missing": [
+    "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+  ],
+  "pinned_changed": []
+}

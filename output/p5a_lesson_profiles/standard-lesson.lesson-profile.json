@@ -1,0 +1,158 @@
+{
+  "academic_scope_policy": "preserve_learning_specification",
+  "assessment_policy": {
+    "exit_check_required": true,
+    "only_existing_learning_requirements": true
+  },
+  "configuration_basis": "user_specified_gold_product_configuration",
+  "density_policy": {
+    "calculation_check": {
+      "minimum": 1,
+      "target": 1
+    },
+    "calculation_method": {
+      "minimum": 1,
+      "target": 1
+    },
+    "concept_check": {
+      "minimum": 1,
+      "target": 1
+    },
+    "concept_explanation": {
+      "minimum": 1,
+      "target": 1
+    },
+    "concept_visual": {
+      "minimum": 1,
+      "target": 1
+    },
+    "early_concept_retrieval": {
+      "minimum": 1,
+      "target": 1
+    },
+    "exit_check": {
+      "minimum": 1,
+      "target": 1
+    },
+    "full_worked_examples": {
+      "minimum": 2,
+      "target": 2
+    },
+    "guided_practice": {
+      "minimum": 2,
+      "target": 2
+    },
+    "independent_practice": {
+      "minimum": 2,
+      "target": 3
+    },
+    "mini_worked_example": {
+      "minimum": 1,
+      "target": 1
+    },
+    "summary_method": {
+      "minimum": 1,
+      "target": 1
+    }
+  },
+  "difficulty_policy": "not_asserted",
+  "duration": {
+    "acceptable_range_minutes": {
+      "max": 60,
+      "min": 50
+    },
+    "interpretation": "planning_target_not_runtime_guarantee",
+    "target_minutes": 60
+  },
+  "identity": {
+    "profile_key": "standard-lesson",
+    "profile_type": "lesson_purpose_density",
+    "title": "Standard Lesson"
+  },
+  "learner_history_policy": "not_asserted",
+  "practice_policy": {
+    "learner_ability_not_inferred": true,
+    "support_is_not_difficulty": true,
+    "support_modes": [
+      "guided",
+      "independent"
+    ]
+  },
+  "prerequisite_policy": "not_asserted",
+  "purpose": "Provide fuller development, modelling, supported application, independent practice and consolidation of the same Learning Requirements.",
+  "renderer_policy": {
+    "content_then_manifest_then_rendering": true,
+    "duration_to_slide_count": "prohibited"
+  },
+  "schema_version": "lesson-profile/1",
+  "time_plan": {
+    "interpretation": "suggestions_not_additive_schedule",
+    "phases": [
+      {
+        "key": "orientation",
+        "suggested_range_minutes": {
+          "max": 5,
+          "min": 3
+        },
+        "title": "Orientation"
+      },
+      {
+        "key": "concept_development",
+        "suggested_range_minutes": {
+          "max": 10,
+          "min": 8
+        },
+        "title": "Concept development"
+      },
+      {
+        "key": "calculation_development",
+        "suggested_range_minutes": {
+          "max": 10,
+          "min": 8
+        },
+        "title": "Calculation development"
+      },
+      {
+        "key": "summary_method",
+        "suggested_range_minutes": {
+          "max": 10,
+          "min": 8
+        },
+        "title": "Summary-statistics method / modelling"
+      },
+      {
+        "key": "worked_examples",
+        "suggested_range_minutes": {
+          "max": 10,
+          "min": 8
+        },
+        "title": "Worked examples"
+      },
+      {
+        "key": "guided_practice",
+        "suggested_range_minutes": {
+          "max": 10,
+          "min": 8
+        },
+        "title": "Guided practice"
+      },
+      {
+        "key": "independent_practice",
+        "suggested_range_minutes": {
+          "max": 10,
+          "min": 8
+        },
+        "title": "Independent practice"
+      },
+      {
+        "key": "checks_closure",
+        "suggested_range_minutes": {
+          "max": 7,
+          "min": 5
+        },
+        "title": "Checks + closure"
+      }
+    ],
+    "sequence_basis": "chosen_pedagogical_design_not_trusted_academic_sequence"
+  }
+}

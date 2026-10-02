@@ -1,0 +1,99 @@
+{
+  "checked_existing_files": 1132,
+  "deltas": [
+    {
+      "path": "academic_os/ai_authoring/brief.py",
+      "before": "9dbbabbb05cbdd87bca40249f5bd55984aadd096d9ff3fb2c78ef798bc0810a5",
+      "after": "44cc297c17f4a4af413084fbbc06dd1522f270785b095ac09e4f6ed175d6a9e6"
+    },
+    {
+      "path": "academic_os/ai_authoring/models.py",
+      "before": "b1f08b01cbc38fbc5522b79f24b4bc28023b167c42801a362d12f96960c4b26e",
+      "after": "fe70adaccb9d1b0b1934fba8aa18e08089e417d6a5febae0bc307d36c96e7ac1"
+    },
+    {
+      "path": "academic_os/ai_authoring/service.py",
+      "before": "65869dc562418341d865ff10cf3e6747653628676c785b1d0032863640bb39f1",
+      "after": "9c44dfadf10a25638f47a091b72bca52e81babcb6a43b90daea808e4414f3bdf"
+    },
+    {
+      "path": "academic_os/ai_authoring/validation.py",
+      "before": "6cb0b9b07b2b09cdad0f812aa22755f5c5059171146aded9932e2aa16e517736",
+      "after": "db2592eee1c56f268601913a385eec80dda30fa2a64da3acd9f9e70ea02c0110"
+    },
+    {
+      "path": "academic_os/ai_qualification/reference_baseline.py",
+      "before": "f2ecc7e61a4e7818218b36c703c62685cbf8dc16843970c18017586a486061da",
+      "after": "541f58328cd2887cceab16c814bd93c90960db5b147a012889cc84c0d1b2951f"
+    },
+    {
+      "path": "academic_os/ai_qualification/runner.py",
+      "before": "8edaf255752634563daf1e22277656cbd37685cd8a1521b62549cf76c6245c24",
+      "after": "ba74b1812e25bb5ab920cbd6cc1e552d10f7d841a97bb5cee7ba847b6552761c"
+    },
+    {
+      "path": "academic_os/ai_qualification/stress.py",
+      "before": "627bdea9780e3e038f37302ee768358b7779c6b5b6d1fa2876b0d03093a0feb9",
+      "after": "feb4eed2967e4f135d23dd5df0795a446db7e876fe49da81f478838216a88d54"
+    },
+    {
+      "path": "output/reference_freeze_active.json",
+      "before": "bf9fc31ea2b90664495026a8c88ff8d2aaf474bf698c1029f02e4b0131188f2c",
+      "after": "edc56d8420b288b08ca4c1c64977376c54f603f3cecf6b25045575129a023bc4"
+    },
+    {
+      "path": "tests_p0/test_ai_authoring.py",
+      "before": "b50f1f09acc758423e4be208c72fa86794856c8eb6ca679c115e53757493602f",
+      "after": "17594976a9e1b8c5fa856646979bcc56e7d23dff82aead10730ffe08260fe306"
+    },
+    {
+      "path": "tests_p0/test_ai_qualification.py",
+      "before": "650e2fb5d47c5cfe2bc2e00c6cef762abd1af1033fefb65ad269e15744df1b40",
+      "after": "d7107d4f5dd2d740a3cf124e23b8cc7d15b3e60f395bd568cd43f9d3aebccf44"
+    },
+    {
+      "path": "tests_p0/test_profile_presentation.py",
+      "before": "8341c2c4c532a6baede339ce368ae4c031b61b1adabd69c56841249737079eab",
+      "after": "ea5143914a7f79e42c9cacd65e838b6173346a2e6f2fe4d81a1b75a728d9f140"
+    },
+    {
+      "path": "tests_p0/test_reference_freeze.py",
+      "before": "fa77a4781f65503cbf4f5eb263ef4259cf68c598400bf4cd9969b6bac2d87e8a",
+      "after": "1b79abf6abaab04b0b36dfb499204670ca0d5036400874517f465509978b8d78"
+    },
+    {
+      "path": "tests_p0/test_reference_revision.py",
+      "before": "1c195ef2fea9ee7f8b323df54e7190461226044c58938c08dc2ce731169eb6fa",
+      "after": "86d2a175776740b9c7bb6e4fbb43c0fbb50811589d597c29c23f0a39c30a4a72"
+    }
+  ],
+  "unexpected_deltas": [],
+  "database_unchanged": true,
+  "historical_run_unchanged": true,
+  "baseline_checks": [
+    {
+      "reference_version": "v1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.2",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "current_conformance"
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "result": "P1C CANONICAL KNOWLEDGE REUSE + EXPANSION PASSED",
+  "changed_files": [
+    "academic_os/q3_parsing.py",
+    "academic_os/canonical_proposals.py",
+    "academic_os/q3_pipeline.py",
+    "academic_os/proposal_review.py",
+    "academic_os/models.py",
+    "academic_os/core.py",
+    "academic_os/compatibility.py",
+    "academic_os/service.py",
+    "academic_os/cli.py",
+    "academic_os/review_bundles.py",
+    "academic_os/source_bundles.py",
+    "academic_os/publication.py",
+    "academic_os/review_rendering.py",
+    "tests_p0/test_canonical_reuse.py",
+    "tests_p0/fixtures/q2_gold_standard.json",
+    "tests_p0/fixtures/q3_gold_standard.json",
+    "docs/P1C_CANONICAL_REUSE.md"
+  ],
+  "source_registration": [
+    {
+      "original_path": "C:\\Users\\Administrator\\Downloads\\June 2023 QP (Stats) (1).pdf",
+      "registered_path": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 QP (Stats) (1).pdf",
+      "sha256": "4b5e3dc04ba1951026605f495a4127f4afbdc3746c03f4be366b3e1f8d7e5c64",
+      "copy_byte_identical": true,
+      "verification": "pending"
+    },
+    {
+      "original_path": "C:\\Users\\Administrator\\Downloads\\June 2023 MS (Stats).pdf",
+      "registered_path": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 MS (Stats).pdf",
+      "sha256": "152b5434487fa2445d1130159feffc05e9883ae7197f75fffe4ceffc785d4823",
+      "copy_byte_identical": true,
+      "verification": "pending"
+    }
+  ],
+  "parse": {
+    "QP_page": 8,
+    "MS_page": 9,
+    "assessable_parts": [
+      "a",
+      "b-i",
+      "b-ii",
+      "c-i",
+      "c-ii"
+    ],
+    "marks": [
+      2,
+      1,
+      2,
+      1,
+      1
+    ],
+    "locators": 13,
+    "glyph_warning_preserved": true
+  },
+  "proposal_results": [
+    {
+      "bundle_id": "BUNDLE-Q3-2023-A",
+      "candidate_action": "create_candidate",
+      "competency": "Prepare data for statistical analysis",
+      "concepts": [
+        "Data cleaning / data preparation"
+      ],
+      "task_conditions": [
+        "Handle special/non-numeric values before calculating summary statistics"
+      ],
+      "human_approved": false,
+      "source_verified": false,
+      "publishable": false
+    },
+    {
+      "bundle_id": "BUNDLE-Q3-2023-B-I",
+      "candidate_action": "reuse_existing",
+      "competency": "Calculate the mean",
+      "concepts": [
+        "Mean"
+      ],
+      "task_conditions": [
+        "From summary statistics"
+      ],
+      "human_approved": false,
+      "source_verified": false,
+      "publishable": false
+    },
+    {
+      "bundle_id": "BUNDLE-Q3-2023-B-II",
+      "candidate_action": "reuse_existing",
+      "competency": "Calculate standard deviation",
+      "concepts": [
+        "Standard deviation"
+      ],
+      "task_conditions": [
+        "From summary statistics"
+      ],
+      "human_approved": false,
+      "source_verified": false,
+      "publishable": false
+    },
+    {
+      "bundle_id": "BUNDLE-Q3-2023-C-I",
+      "candidate_action": "create_candidate",
+      "competency": "Assess whether data are representative",
+      "concepts": [
+        "Representativeness"
+      ],
+      "task_conditions": [
+        "Compare dataset coverage with the target population/time period"
+      ],
+      "human_approved": false,
+      "source_verified": false,
+      "publishable": false
+    },
+    {
+      "bundle_id": "BUNDLE-Q3-2023-C-II",
+      "candidate_action": "unresolved",
+      "competency": "UNRESOLVED — no canonical competency asserted",
+      "concepts": [],
+      "task_conditions": [],
+      "human_approved": false,
+      "source_verified": false,
+      "publishable": false
+    }
+  ],
+  "generation_design": "Generic source-text rules followed by trusted immutable registry lookup. No question/year/answer/fixture branches; independent acceptance oracles. Pending matching identities are not trusted.",
+  "dataset_boundary": "Question-specific condition/scope and exact parsed scoring notes; generic canonical identity and explicit partial evidence scope.",
+  "q2_gold_standard_passed": true,
+  "q2_snapshot_id": "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+  "q2_snapshot_usable": true,
+  "q2_versions_and_decisions_unchanged": true,
+  "q2_snapshot_bytes_unchanged": true,
+  "q3_status": {
+    "schema_valid": true,
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false
+  },
+  "counts_before": {
+    "versions": 73,
+    "heads": 52,
+    "reviews": 43,
+    "review_heads": 43,
+    "requests": 53,
+    "snapshots": 1,
+    "snapshot_members": 43,
+    "snapshot_blocks": 0
+  },
+  "counts_after": {
+    "versions": 116,
+    "heads": 95,
+    "reviews": 43,
+    "review_heads": 43,
+    "requests": 54,
+    "snapshots": 1,
+    "snapshot_members": 43,
+    "snapshot_blocks": 0
+  },
+  "added_objects_by_kind": {
+    "source": 2,
+    "locator": 13,
+    "question": 1,
+    "question_part": 7,
+    "condition": 1,
+    "scope": 1,
+    "parsed_part": 5,
+    "competency": 2,
+    "concept": 2,
+    "task_condition": 2,
+    "concept_link": 2,
+    "proposal": 5
+  },
+  "count_explanation": "43 new immutable candidate versions and heads; one stage idempotency receipt. Zero human decisions or snapshots added. No existing record replaced.",
+  "tests": {
+    "total": 327,
+    "passed": 326,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0,
+    "failure_details": [],
+    "error_details": [
+      {
+        "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+        "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+      }
+    ]
+  },
+  "passed_by_module": {
+    "test_canonical_reuse": 44,
+    "test_workflow": 35,
+    "test_q2_parsing": 12,
+    "test_q2c_boundary": 6,
+    "test_semantics": 32,
+    "test_review_bundles": 41,
+    "test_source_bundles": 25
+  },
+  "protected_integrity": {
+    "entries": 61,
+    "missing": [
+      "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+    ],
+    "changed": []
+  },
+  "architectural_issues": [
+    "Scoped legacy validator required unrelated locator-associated question/part records. Adapter now validates original full associations before projecting scoped metadata; immutable records untouched.",
+    "P0 resource-dependent conditions unsupported; dataset claims retained in existing scope rather than adding dataset ingestion.",
+    "Bounded linguistic vocabulary and name normalization, not general semantic equivalence; uncertain interpretations remain unresolved."
+  ],
+  "trust_boundary": "Local OS operator and SQLite ownership, unchanged. No real verify/approve/reject/revoke/publish performed.",
+  "publication_policy": "All five Q3 proposals required. Unresolved c(ii) requires explicit versioned human resolution and review; it is not silently excluded."
+}

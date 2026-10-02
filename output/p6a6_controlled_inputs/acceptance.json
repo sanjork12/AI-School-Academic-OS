@@ -1,0 +1,89 @@
+{
+  "academic_approval": false,
+  "baseline": {
+    "active_reference_version": "v1.6",
+    "manifest_path": "output/reference_freeze_v1_6/reference_manifest.json",
+    "manifest_sha256": "f1a7de965222282fe7f98b8da7994f942f9e99e6ab076f6a8d90a313e0e2178a",
+    "protected_files": 1578
+  },
+  "candidate_contract": "ai-author-candidate/2",
+  "controlled_mode": "sl10-controlled-input/1",
+  "current_conformance": {
+    "errors": [],
+    "manifest_sha256": "f1a7de965222282fe7f98b8da7994f942f9e99e6ab076f6a8d90a313e0e2178a",
+    "reference_version": "v1.6",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+  "evidence_sha256": "ae6e75f99904ecd7c41f2cec9b278e8eb33820c1f393c142fef378d056efb016",
+  "files_added": [
+    "academic_os/ai_authoring/controlled.py",
+    "academic_os/ai_qualification/controlled_replay.py",
+    "tests_p0/test_controlled_inputs.py",
+    "tests_p0/controlled_acceptance.py",
+    "tests_p0/controlled_baseline.py",
+    "docs/P6A6_CONTROLLED_INPUT_STRESS.md"
+  ],
+  "files_modified": [
+    "academic_os/ai_authoring/brief.py",
+    "academic_os/ai_authoring/service.py",
+    "academic_os/ai_authoring/validation.py",
+    "academic_os/ai_qualification/models.py",
+    "academic_os/ai_qualification/runner.py",
+    "academic_os/ai_qualification/reporting.py",
+    "academic_os/ai_qualification/preflight.py",
+    "academic_os/ai_qualification/__main__.py",
+    "academic_os/ai_qualification/reference_baseline.py",
+    "tests_p0/test_reference_revision.py",
+    "output/reference_freeze_active.json"
+  ],
+  "focused": {
+    "errors": 0,
+    "failures": 0,
+    "module_counts": {
+      "tests_p0.test_ai_authoring": 42,
+      "tests_p0.test_ai_qualification": 28,
+      "tests_p0.test_candidate_contract": 17,
+      "tests_p0.test_controlled_inputs": 34,
+      "tests_p0.test_derivation_provenance": 20,
+      "tests_p0.test_direct_v2_preflight": 18,
+      "tests_p0.test_expression_semantics": 18,
+      "tests_p0.test_offline_candidate_replay": 10,
+      "tests_p0.test_provenance_closure": 7
+    },
+    "passed": 194,
+    "total": 194
+  },
+  "full": {
+    "error_details": [
+      {
+        "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+        "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+      }
+    ],
+    "errors": 1,
+    "failures": 0,
+    "passed": 1211,
+    "total": 1212
+  },
+  "historical_artifacts_unchanged": true,
+  "historical_files_verified": 1463,
+  "known_unrelated_full_suite_error": true,
+  "live_stress_experiment_started": false,
+  "milestone": "P6A.6b",
+  "model_api_calls": 0,
+  "postfreeze": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 117,
+    "total": 117
+  },
+  "provenance_policy": "sl10-provenance-required/1",
+  "renderer_readiness": false,
+  "schema_hashes_unchanged": true,
+  "scope": "offline controlled-input infrastructure",
+  "trusted_state_unchanged": true,
+  "verdict": "PASS"
+}

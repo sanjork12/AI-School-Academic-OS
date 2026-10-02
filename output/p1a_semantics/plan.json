@@ -1,0 +1,543 @@
+{
+  "items": [
+    {
+      "kind": "concept",
+      "payload": {
+        "concept_id": "CON-STAT-MEAN",
+        "subject_domain": "Statistics",
+        "name": "Mean",
+        "description": "The arithmetic average of observations.",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:SPEC-2.3"
+          ]
+        }
+      }
+    },
+    {
+      "kind": "concept",
+      "payload": {
+        "concept_id": "CON-STAT-SD",
+        "subject_domain": "Statistics",
+        "name": "Standard deviation",
+        "description": "A measure of dispersion about the mean in the units of the observations.",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:SPEC-2.3"
+          ]
+        }
+      }
+    },
+    {
+      "kind": "concept",
+      "payload": {
+        "concept_id": "CON-STAT-SPREAD",
+        "subject_domain": "Statistics",
+        "name": "Variation / spread",
+        "description": "The dispersion of values within a distribution.",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:SPEC-2.3"
+          ]
+        }
+      }
+    },
+    {
+      "kind": "concept",
+      "payload": {
+        "concept_id": "CON-STAT-EXTREMES",
+        "subject_domain": "Statistics",
+        "name": "Extreme values",
+        "description": "Values toward the ends of a distribution.",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-Q2-c"
+          ]
+        }
+      }
+    },
+    {
+      "judgment_refs": [],
+      "kind": "competency",
+      "payload": {
+        "action_classification": null,
+        "canonical_id": "CAN-STAT-MEAN-CALC",
+        "description": "Calculate the arithmetic mean of observations.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-a"
+          ],
+          "synthetic_notice": null
+        },
+        "registry_decision_id": null,
+        "skill_name": "Calculate the mean",
+        "status": "draft",
+        "subject_domain": "Statistics"
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-MEAN-CALC-MEAN",
+        "canonical_id": "CAN-STAT-MEAN-CALC",
+        "concept_id": "CON-STAT-MEAN",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-a"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "judgment_refs": [],
+      "kind": "competency",
+      "payload": {
+        "action_classification": null,
+        "canonical_id": "CAN-STAT-SD-CALC",
+        "description": "Calculate the standard deviation of a distribution.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-b"
+          ],
+          "synthetic_notice": null
+        },
+        "registry_decision_id": null,
+        "skill_name": "Calculate standard deviation",
+        "status": "draft",
+        "subject_domain": "Statistics"
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-SD-CALC-SD",
+        "canonical_id": "CAN-STAT-SD-CALC",
+        "concept_id": "CON-STAT-SD",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-b"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "judgment_refs": [],
+      "kind": "competency",
+      "payload": {
+        "action_classification": null,
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "description": "Interpret measures of dispersion and their implications without claiming guarantees about individual extremes.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "registry_decision_id": null,
+        "skill_name": "Interpret measures of variation",
+        "status": "draft",
+        "subject_domain": "Statistics"
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-VARIATION-INTERPRET-SD",
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "concept_id": "CON-STAT-SD",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-VARIATION-INTERPRET-SPREAD",
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "concept_id": "CON-STAT-SPREAD",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-VARIATION-INTERPRET-EXTREMES",
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "concept_id": "CON-STAT-EXTREMES",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "judgment_refs": [],
+      "kind": "competency",
+      "payload": {
+        "action_classification": null,
+        "canonical_id": "CAN-STAT-CONTEXT-INFER",
+        "description": "Use statistical evidence to draw qualified contextual inferences.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "registry_decision_id": null,
+        "skill_name": "Make contextual inferences using statistical evidence",
+        "status": "draft",
+        "subject_domain": "Statistics"
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-CONTEXT-INFER-SD",
+        "canonical_id": "CAN-STAT-CONTEXT-INFER",
+        "concept_id": "CON-STAT-SD",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-CONTEXT-INFER-SPREAD",
+        "canonical_id": "CAN-STAT-CONTEXT-INFER",
+        "concept_id": "CON-STAT-SPREAD",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "link_id": "LINK-CONTEXT-INFER-EXTREMES",
+        "canonical_id": "CAN-STAT-CONTEXT-INFER",
+        "concept_id": "CON-STAT-EXTREMES",
+        "rationale": "P1A human-defined acceptance fixture: the capability applies this concept; academic review remains required.",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:SPEC-2.3",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        }
+      }
+    },
+    {
+      "kind": "task_condition",
+      "payload": {
+        "condition_id": "TC-SUMMARY-STATISTICS",
+        "name": "From summary statistics",
+        "kind": "input_form",
+        "description": "The requested calculation uses supplied summary statistics.",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-Q2"
+          ]
+        }
+      }
+    },
+    {
+      "kind": "task_condition",
+      "payload": {
+        "condition_id": "TC-COMPARE-VARIATION-SD",
+        "name": "Compare variation using standard deviation",
+        "kind": "comparison_form",
+        "description": "Compare two groups or distributions using standard deviation in a contextual decision.",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-Q2"
+          ]
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-a",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-MEAN-CALC",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-a-MEAN-CALC",
+          "EV-MS-MAP-Q2-a-MEAN-CALC"
+        ],
+        "focus_concept_ids": [
+          "CON-STAT-MEAN"
+        ],
+        "mapping_id": "MAP-Q2-a-MEAN-CALC",
+        "mapping_method": "rule",
+        "part_id": "Q2-a",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-a",
+            "locator:MS-Q2-a"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/MEAN-CALC matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed",
+        "semantics": {
+          "role": "primary",
+          "parsed_part_id": "PARSED-Q2-a",
+          "concept_link_ids": [
+            "LINK-MEAN-CALC-MEAN"
+          ],
+          "task_condition_ids": [
+            "TC-SUMMARY-STATISTICS"
+          ]
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-b",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-SD-CALC",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-b-SD-CALC",
+          "EV-MS-MAP-Q2-b-SD-CALC"
+        ],
+        "focus_concept_ids": [
+          "CON-STAT-SD"
+        ],
+        "mapping_id": "MAP-Q2-b-SD-CALC",
+        "mapping_method": "rule",
+        "part_id": "Q2-b",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-b",
+            "locator:MS-Q2-b"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/SD-CALC matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed",
+        "semantics": {
+          "role": "primary",
+          "parsed_part_id": "PARSED-Q2-b",
+          "concept_link_ids": [
+            "LINK-SD-CALC-SD"
+          ],
+          "task_condition_ids": [
+            "TC-SUMMARY-STATISTICS"
+          ]
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+          "EV-MS-MAP-Q2-c-VARIATION-INTERPRET"
+        ],
+        "focus_concept_ids": [
+          "CON-STAT-SD",
+          "CON-STAT-SPREAD",
+          "CON-STAT-EXTREMES"
+        ],
+        "mapping_id": "MAP-Q2-c-VARIATION-INTERPRET",
+        "mapping_method": "rule",
+        "part_id": "Q2-c",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/VARIATION-INTERPRET matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed",
+        "semantics": {
+          "role": "primary",
+          "parsed_part_id": "PARSED-Q2-c",
+          "concept_link_ids": [
+            "LINK-VARIATION-INTERPRET-SD",
+            "LINK-VARIATION-INTERPRET-SPREAD",
+            "LINK-VARIATION-INTERPRET-EXTREMES"
+          ],
+          "task_condition_ids": [
+            "TC-COMPARE-VARIATION-SD"
+          ]
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-CONTEXT-INFER",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+          "EV-MS-MAP-Q2-c-CONTEXT-INFER"
+        ],
+        "focus_concept_ids": [
+          "CON-STAT-SD",
+          "CON-STAT-SPREAD",
+          "CON-STAT-EXTREMES"
+        ],
+        "mapping_id": "MAP-Q2-c-CONTEXT-INFER",
+        "mapping_method": "rule",
+        "part_id": "Q2-c",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/CONTEXT-INFER matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Exact syllabus association remains unresolved and is not asserted.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed",
+        "semantics": {
+          "role": "secondary",
+          "parsed_part_id": "PARSED-Q2-c",
+          "concept_link_ids": [
+            "LINK-CONTEXT-INFER-SD",
+            "LINK-CONTEXT-INFER-SPREAD",
+            "LINK-CONTEXT-INFER-EXTREMES"
+          ],
+          "task_condition_ids": [
+            "TC-COMPARE-VARIATION-SD"
+          ]
+        }
+      }
+    }
+  ],
+  "expected_heads": {
+    "concept:CON-STAT-MEAN": null,
+    "concept:CON-STAT-SD": null,
+    "concept:CON-STAT-SPREAD": null,
+    "concept:CON-STAT-EXTREMES": null,
+    "competency:CAN-STAT-MEAN-CALC": "0f5cc29845214799259785bc2244f0397085c4a5cbdc89577f41169536c19037",
+    "concept_link:LINK-MEAN-CALC-MEAN": null,
+    "competency:CAN-STAT-SD-CALC": "a9546d71fffa7f25b9ae06ac04ba83b769e25ec0fdab05e49e01c804591adc3f",
+    "concept_link:LINK-SD-CALC-SD": null,
+    "competency:CAN-STAT-VARIATION-INTERPRET": "d8c976f55c72de5ad22333a3caf587731281d23acce5ca81d6828696bfc59a7d",
+    "concept_link:LINK-VARIATION-INTERPRET-SD": null,
+    "concept_link:LINK-VARIATION-INTERPRET-SPREAD": null,
+    "concept_link:LINK-VARIATION-INTERPRET-EXTREMES": null,
+    "competency:CAN-STAT-CONTEXT-INFER": "259100ff9a78b246e79b9f9ad01ff33afd6d2bfaca8c64cb1c74c8f7e6f3979a",
+    "concept_link:LINK-CONTEXT-INFER-SD": null,
+    "concept_link:LINK-CONTEXT-INFER-SPREAD": null,
+    "concept_link:LINK-CONTEXT-INFER-EXTREMES": null,
+    "task_condition:TC-SUMMARY-STATISTICS": null,
+    "task_condition:TC-COMPARE-VARIATION-SD": null,
+    "part_mapping:MAP-Q2-a-MEAN-CALC": "f97c9242945a56a14b85989e534491d1d6271d8e895624f51f9e22158f89d760",
+    "part_mapping:MAP-Q2-b-SD-CALC": "bf4a3ed3ba9ce4ea3902b40b1f7e0a1b577fc04cd08491dd1c72bdd539018972",
+    "part_mapping:MAP-Q2-c-VARIATION-INTERPRET": "39170a8aee6e9411280061df97a5be40381c6ea073eff9aeda5845c176993087",
+    "part_mapping:MAP-Q2-c-CONTEXT-INFER": "af91469aed4a2af7d0ad4814e6e6fa929281f94b8325804d041fd54e3ce30765"
+  }
+}

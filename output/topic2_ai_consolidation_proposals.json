@@ -1,0 +1,80 @@
+{
+  "model": "gpt-5.6-luna",
+  "candidate_count": 7,
+  "proposal_count": 6,
+  "proposals": [
+    {
+      "source_canonical_ids": [
+        "CAN-ALG-INEQ-SYMBOLS"
+      ],
+      "recommended_canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "action": "keep_separate",
+      "skill_name": "Understand and use inequality symbols",
+      "description": "Understand and use the symbols >, <, ≥ and ≤.",
+      "confidence": 0.98,
+      "reasoning": "This is a notation skill involving the meaning and use of inequality symbols. It is distinct from applying those symbols to solve inequalities, represent solution sets, or interpret graphs.",
+      "review_status": "pending"
+    },
+    {
+      "source_canonical_ids": [
+        "CAN-ALG-INEQ-INTERVAL-NUMBERLINE"
+      ],
+      "recommended_canonical_id": "CAN-ALG-INEQ-INTERVAL-NUMBERLINE",
+      "action": "keep_separate",
+      "skill_name": "Use open and closed interval conventions on number lines",
+      "description": "Understand and use open and closed interval conventions when representing solution sets on number lines.",
+      "confidence": 0.95,
+      "reasoning": "This concerns the graphical convention for endpoint inclusion on number lines. Although related to inequality notation and solution representation, it is a distinct representational convention rather than the skill of solving an inequality or graphing it on Cartesian axes.",
+      "review_status": "pending"
+    },
+    {
+      "source_canonical_ids": [
+        "CAN-ALG-INEQ-LINEAR-SOLVE-NUMBERLINE"
+      ],
+      "recommended_canonical_id": "CAN-ALG-INEQ-LINEAR-SOLVE-NUMBERLINE",
+      "action": "keep_separate",
+      "skill_name": "Solve and represent simple linear inequalities in one variable",
+      "description": "Solve simple linear inequalities in one variable and represent their solution sets on a number line.",
+      "confidence": 0.93,
+      "reasoning": "This competency involves carrying out the algebraic procedure for solving linear inequalities and expressing the resulting one-dimensional solution set. It is distinct from Cartesian graphing and from interpreting regions defined by inequalities.",
+      "review_status": "pending"
+    },
+    {
+      "source_canonical_ids": [
+        "CAN-ALG-INEQ-LINEAR-CARTESIAN-REPRESENT"
+      ],
+      "recommended_canonical_id": "CAN-ALG-INEQ-LINEAR-CARTESIAN-REPRESENT",
+      "action": "keep_separate",
+      "skill_name": "Represent simple linear inequalities on Cartesian graphs",
+      "description": "Represent simple linear inequalities on rectangular Cartesian graphs.",
+      "confidence": 0.97,
+      "reasoning": "This is a graph-construction skill involving the boundary and associated graphical representation of a linear inequality on Cartesian axes. It is different from solving a one-variable inequality on a number line and from identifying or interpreting an already defined region.",
+      "review_status": "pending"
+    },
+    {
+      "source_canonical_ids": [
+        "CAN-ALG-INEQ-REGION-IDENTIFY",
+        "CAN-ALG-INEQ-HARDER-REGIONS"
+      ],
+      "recommended_canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "action": "merge",
+      "skill_name": "Identify regions defined by linear inequalities",
+      "description": "Identify or interpret regions on Cartesian graphs that are defined by linear inequalities.",
+      "confidence": 0.99,
+      "reasoning": "Both candidates concern identifying regions defined by linear inequalities on Cartesian graphs. The word 'harder' describes difficulty or scope only and does not change the underlying competency, so it should be represented as metadata rather than as a separate canonical skill.",
+      "review_status": "pending"
+    },
+    {
+      "source_canonical_ids": [
+        "CAN-ALG-INEQ-QUADRATIC-SOLVE-NUMBERLINE"
+      ],
+      "recommended_canonical_id": "CAN-ALG-INEQ-QUADRATIC-SOLVE-NUMBERLINE",
+      "action": "keep_separate",
+      "skill_name": "Solve and represent quadratic inequalities in one variable",
+      "description": "Solve quadratic inequalities in one variable and represent their solution sets on a number line.",
+      "confidence": 0.94,
+      "reasoning": "Quadratic inequality solving requires procedures such as analysing the sign of a quadratic across critical values, which is substantively different from solving linear inequalities. The shared use of a number line does not make the mathematical competency identical.",
+      "review_status": "pending"
+    }
+  ]
+}

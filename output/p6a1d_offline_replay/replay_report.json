@@ -1,0 +1,3730 @@
+{
+  "accepted": 10,
+  "automatic_repair": 0,
+  "baseline_checks": [
+    {
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "reference_version": "v1.1",
+      "trust_authority": false,
+      "valid": true,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "reference_version": "v1.2",
+      "trust_authority": false,
+      "valid": true,
+      "verification_scope": "current_conformance"
+    }
+  ],
+  "checked_files": 1152,
+  "counts_after": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "counts_before": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "database_after": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "database_before": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "existing_files_hash_and_mtime_unchanged": true,
+  "inconclusive": 0,
+  "limitations": [
+    "Expression semantics are not validated; 30/4 = 999 with correct scalar may pass. No renderer readiness.",
+    "Explicit rebinding to the current brief/input digest is test setup, not evidence the historical model emitted v2.",
+    "Replay cannot predict future v2 model compliance, diversity, pedagogy or live acceptance rate."
+  ],
+  "original_candidate_count": 10,
+  "per_attempt": [
+    {
+      "attempt_id": "attempt-01",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "3.769E-46",
+        "preserved_numeric_answer": "1.414213562373095048801688724209698078569671875",
+        "recomputed_first_term": "11",
+        "recomputed_mean": "3",
+        "recomputed_sd": "1.4142135623730950488016887242096980785696718753769",
+        "recomputed_second_term": "9",
+        "recomputed_variance": "2",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "7bebaa35858325eb7c327c4fb3ad35ccce723b15cd94a3c043415dddd6d59196",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "55/5 = 11",
+              "value": "11"
+            },
+            "original": "55/5 = 11"
+          },
+          "mean": {
+            "new": {
+              "expression": "15/5 = 3",
+              "value": "3"
+            },
+            "original": "15/5 = 3"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(15/5)² = 9",
+              "value": "9"
+            },
+            "original": "(15/5)² = 9"
+          },
+          "variance": {
+            "new": {
+              "expression": "11 - 9 = 2",
+              "value": "2"
+            },
+            "original": "11 - 9 = 2"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-01",
+        "source_candidate_hash": "7bebaa35858325eb7c327c4fb3ad35ccce723b15cd94a3c043415dddd6d59196",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-01/ai-candidate-07267c4b2e8d4236bdf631440f260086.json",
+        "source_raw_response_sha256": "a8b5b48756f488cb16c869bd1fa2d2f272926676e0fa10ce775775404df783b6",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "0e4b8d5765c7ae52605e1a77021eb3f78a8bd3394879b35d7c464bcacb5e63f0"
+    },
+    {
+      "attempt_id": "attempt-02",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "1.942E-46",
+        "preserved_numeric_answer": "1.118033988749894848204586834365638117720309180",
+        "recomputed_first_term": "15/2",
+        "recomputed_mean": "5/2",
+        "recomputed_sd": "1.1180339887498948482045868343656381177203091798058",
+        "recomputed_second_term": "25/4",
+        "recomputed_variance": "5/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "6a235a52d18c6a66357b3eefbcdd3522eb04b41d484a2026bf962d163eabc906",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "30/4 = 15/2",
+              "value": "15/2"
+            },
+            "original": "30/4 = 15/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "10/4 = 5/2",
+              "value": "5/2"
+            },
+            "original": "10/4 = 5/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(10/4)^2 = (5/2)^2 = 25/4",
+              "value": "25/4"
+            },
+            "original": "(10/4)^2 = (5/2)^2 = 25/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "15/2 - 25/4 = 5/4",
+              "value": "5/4"
+            },
+            "original": "15/2 - 25/4 = 5/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-02",
+        "source_candidate_hash": "6a235a52d18c6a66357b3eefbcdd3522eb04b41d484a2026bf962d163eabc906",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-02/ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375.json",
+        "source_raw_response_sha256": "4b9d60dc58813ff3c77eb47a43e68d044259c81ecfa4f876c7586dee356a7ab5",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "f2e3c196582ddf14a04898a2e100b8bd386b9e99fea92f372c7a74cf74e43daf"
+    },
+    {
+      "attempt_id": "attempt-03",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "1.942E-46",
+        "preserved_numeric_answer": "1.118033988749894848204586834365638117720309180",
+        "recomputed_first_term": "15/2",
+        "recomputed_mean": "5/2",
+        "recomputed_sd": "1.1180339887498948482045868343656381177203091798058",
+        "recomputed_second_term": "25/4",
+        "recomputed_variance": "5/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-f200551ddb704134ad745df09bce4dd8",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-f200551ddb704134ad745df09bce4dd8",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "ddc3fcecb2aa5f716478d801a1888481c24a1d02028f03455f795a80f5cf585c",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "30/4 = 15/2",
+              "value": "15/2"
+            },
+            "original": "30/4 = 15/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "10/4 = 5/2",
+              "value": "5/2"
+            },
+            "original": "10/4 = 5/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(10/4)^2 = (5/2)^2 = 25/4",
+              "value": "25/4"
+            },
+            "original": "(10/4)^2 = (5/2)^2 = 25/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "15/2 - 25/4 = 5/4",
+              "value": "5/4"
+            },
+            "original": "15/2 - 25/4 = 5/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-03",
+        "source_candidate_hash": "ddc3fcecb2aa5f716478d801a1888481c24a1d02028f03455f795a80f5cf585c",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-03/ai-candidate-f200551ddb704134ad745df09bce4dd8.json",
+        "source_raw_response_sha256": "4b9d60dc58813ff3c77eb47a43e68d044259c81ecfa4f876c7586dee356a7ab5",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "a872ccad0999f718fdf16cfcffb66b4c5302e58c94de4dca86a7cd5634f34547"
+    },
+    {
+      "attempt_id": "attempt-04",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "1.942E-46",
+        "preserved_numeric_answer": "1.118033988749894848204586834365638117720309180",
+        "recomputed_first_term": "15/2",
+        "recomputed_mean": "5/2",
+        "recomputed_sd": "1.1180339887498948482045868343656381177203091798058",
+        "recomputed_second_term": "25/4",
+        "recomputed_variance": "5/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-b81107c637df436cbce4481a1fbf751c",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-b81107c637df436cbce4481a1fbf751c",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "11e7842281d4ff3182ba703d5dc937f41ef3150c256723f17f530e0c6b199091",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "30 / 4 = 15/2",
+              "value": "15/2"
+            },
+            "original": "30 / 4 = 15/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "10 / 4 = 5/2",
+              "value": "5/2"
+            },
+            "original": "10 / 4 = 5/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(10 / 4)² = (5/2)² = 25/4",
+              "value": "25/4"
+            },
+            "original": "(10 / 4)² = (5/2)² = 25/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "15/2 - 25/4 = 5/4",
+              "value": "5/4"
+            },
+            "original": "15/2 - 25/4 = 5/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-04",
+        "source_candidate_hash": "11e7842281d4ff3182ba703d5dc937f41ef3150c256723f17f530e0c6b199091",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-04/ai-candidate-b81107c637df436cbce4481a1fbf751c.json",
+        "source_raw_response_sha256": "4268240c4ff02957dedbdf2c9a89f1516e4f0699e9758616b994df5e90ca518c",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "82c538fe3b97c5c283b99ef9b7b71e48dfd88e36f9f3b929a9e3f32a0d31a0da"
+    },
+    {
+      "attempt_id": "attempt-05",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "1.942E-46",
+        "preserved_numeric_answer": "1.118033988749894848204586834365638117720309180",
+        "recomputed_first_term": "15/2",
+        "recomputed_mean": "5/2",
+        "recomputed_sd": "1.1180339887498948482045868343656381177203091798058",
+        "recomputed_second_term": "25/4",
+        "recomputed_variance": "5/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-7b7db12ee377469db93066cf5f5c2d47",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-7b7db12ee377469db93066cf5f5c2d47",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "1bbf99c0ae5e800c9c1bc1437aac2952c134384ed6f9894b7852bb05350bda8c",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "30/4 = 15/2",
+              "value": "15/2"
+            },
+            "original": "30/4 = 15/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "10/4 = 5/2",
+              "value": "5/2"
+            },
+            "original": "10/4 = 5/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(10/4)^2 = (5/2)^2 = 25/4",
+              "value": "25/4"
+            },
+            "original": "(10/4)^2 = (5/2)^2 = 25/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "15/2 - 25/4 = 30/4 - 25/4 = 5/4",
+              "value": "5/4"
+            },
+            "original": "15/2 - 25/4 = 30/4 - 25/4 = 5/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-05",
+        "source_candidate_hash": "1bbf99c0ae5e800c9c1bc1437aac2952c134384ed6f9894b7852bb05350bda8c",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-05/ai-candidate-7b7db12ee377469db93066cf5f5c2d47.json",
+        "source_raw_response_sha256": "c7c82a47da8f74a47ae2bb3572cf10f6bfd48dfb06cc9ccdd18e2c2c461fd877",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "1fce65f6a5245e63843ffc8cc2de6a6cb4da7def6f9a8f3366ee76dae91eefa3"
+    },
+    {
+      "attempt_id": "attempt-06",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "3.769E-46",
+        "preserved_numeric_answer": "1.414213562373095048801688724209698078569671875",
+        "recomputed_first_term": "11",
+        "recomputed_mean": "3",
+        "recomputed_sd": "1.4142135623730950488016887242096980785696718753769",
+        "recomputed_second_term": "9",
+        "recomputed_variance": "2",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-7a98b99ef70445ef8ee77bee900fc64c",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-7a98b99ef70445ef8ee77bee900fc64c",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "42ca08ae6034a22d879de0cfe9a49a700768eca0ac67a958d1a30f7626d659af",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "55/5 = 11",
+              "value": "11"
+            },
+            "original": "55/5 = 11"
+          },
+          "mean": {
+            "new": {
+              "expression": "15/5 = 3",
+              "value": "3"
+            },
+            "original": "15/5 = 3"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(15/5)² = 9",
+              "value": "9"
+            },
+            "original": "(15/5)² = 9"
+          },
+          "variance": {
+            "new": {
+              "expression": "11 - 9 = 2",
+              "value": "2"
+            },
+            "original": "11 - 9 = 2"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-06",
+        "source_candidate_hash": "42ca08ae6034a22d879de0cfe9a49a700768eca0ac67a958d1a30f7626d659af",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-06/ai-candidate-7a98b99ef70445ef8ee77bee900fc64c.json",
+        "source_raw_response_sha256": "a8b5b48756f488cb16c869bd1fa2d2f272926676e0fa10ce775775404df783b6",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "2eaa6923a592c3208784ae7192f3f5f0c3187e8855cfe99bad397dc236cef4db"
+    },
+    {
+      "attempt_id": "attempt-07",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "3.769E-46",
+        "preserved_numeric_answer": "1.414213562373095048801688724209698078569671875",
+        "recomputed_first_term": "11",
+        "recomputed_mean": "3",
+        "recomputed_sd": "1.4142135623730950488016887242096980785696718753769",
+        "recomputed_second_term": "9",
+        "recomputed_variance": "2",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-261f2129a2a24a7c96d2dddf9cf14ae3",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-261f2129a2a24a7c96d2dddf9cf14ae3",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "7981a5a2f9eea00426ef8c24bfbf7646cd1f13cd08de45ac430c5d07def2279a",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "55/5 = 11",
+              "value": "11"
+            },
+            "original": "55/5 = 11"
+          },
+          "mean": {
+            "new": {
+              "expression": "15/5 = 3",
+              "value": "3"
+            },
+            "original": "15/5 = 3"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(15/5)^2 = 9",
+              "value": "9"
+            },
+            "original": "(15/5)^2 = 9"
+          },
+          "variance": {
+            "new": {
+              "expression": "11 - 9 = 2",
+              "value": "2"
+            },
+            "original": "11 - 9 = 2"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-07",
+        "source_candidate_hash": "7981a5a2f9eea00426ef8c24bfbf7646cd1f13cd08de45ac430c5d07def2279a",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-07/ai-candidate-261f2129a2a24a7c96d2dddf9cf14ae3.json",
+        "source_raw_response_sha256": "b1e561fcb83cb917a7156842e63b676dbfe1da212778fb1b93393001138268fe",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "b51106b988559acdb2c81a73ce59d39fe3f7550f1c6e926a5bb4231dafe708dc"
+    },
+    {
+      "attempt_id": "attempt-08",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "8.6E-48",
+        "preserved_numeric_answer": "2.872281323269014329925305734109464659110132229",
+        "recomputed_first_term": "101/2",
+        "recomputed_mean": "13/2",
+        "recomputed_sd": "2.8722813232690143299253057341094646591101322289914",
+        "recomputed_second_term": "169/4",
+        "recomputed_variance": "33/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-a69fec9b45e04153a527a2fc1a06d922",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-a69fec9b45e04153a527a2fc1a06d922",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "c95ea206bf48ed3d41e1f71af00879b8971061dede934cb0308b0ba2589d5ed3",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "404/8 = 101/2",
+              "value": "101/2"
+            },
+            "original": "404/8 = 101/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "52/8 = 13/2",
+              "value": "13/2"
+            },
+            "original": "52/8 = 13/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(52/8)² = 169/4",
+              "value": "169/4"
+            },
+            "original": "(52/8)² = 169/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "101/2 - 169/4 = 33/4",
+              "value": "33/4"
+            },
+            "original": "101/2 - 169/4 = 33/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-08",
+        "source_candidate_hash": "c95ea206bf48ed3d41e1f71af00879b8971061dede934cb0308b0ba2589d5ed3",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-08/ai-candidate-a69fec9b45e04153a527a2fc1a06d922.json",
+        "source_raw_response_sha256": "b6b4e6b0ad522f134438e915c178984fa43ac328214d59435fcbb27e31fce78c",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "653c9daf915239b9880398a5ec1463c06aa19b954d369e06ce69dcc2b4ddbb67"
+    },
+    {
+      "attempt_id": "attempt-09",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "3.840E-46",
+        "preserved_numeric_answer": "2.291287847477920003294023596864004244492228288",
+        "recomputed_first_term": "51/2",
+        "recomputed_mean": "9/2",
+        "recomputed_sd": "2.2912878474779200032940235968640042444922282883840",
+        "recomputed_second_term": "81/4",
+        "recomputed_variance": "21/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-cb0170eebdf145078248d6de778d0634",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-cb0170eebdf145078248d6de778d0634",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "cbd62f5e72a351ae8c06ec3e33ba41451421def008d1d9e645179181053bc2d7",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "204/8 = 51/2",
+              "value": "51/2"
+            },
+            "original": "204/8 = 51/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "36/8 = 9/2",
+              "value": "9/2"
+            },
+            "original": "36/8 = 9/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(36/8)^2 = (9/2)^2 = 81/4",
+              "value": "81/4"
+            },
+            "original": "(36/8)^2 = (9/2)^2 = 81/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "51/2 - 81/4 = 21/4",
+              "value": "21/4"
+            },
+            "original": "51/2 - 81/4 = 21/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-09",
+        "source_candidate_hash": "cbd62f5e72a351ae8c06ec3e33ba41451421def008d1d9e645179181053bc2d7",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-09/ai-candidate-cb0170eebdf145078248d6de778d0634.json",
+        "source_raw_response_sha256": "968744b16f79e1078427c812f688bef454830dcb82c69e3e5b21447b91095680",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "c057b55ac5b49de3d7cc011fab30c6dc5e909c147829e16037d656d2cbc3acf1"
+    },
+    {
+      "attempt_id": "attempt-10",
+      "category": "REPLAY_ACCEPTED",
+      "composition_status": "PASSED",
+      "evidence_classification": "mathematically_valid",
+      "math_status": "PASSED",
+      "mathematical_evidence": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "numeric_absolute_error": "1.942E-46",
+        "preserved_numeric_answer": "1.118033988749894848204586834365638117720309180",
+        "recomputed_first_term": "15/2",
+        "recomputed_mean": "5/2",
+        "recomputed_sd": "1.1180339887498948482045868343656381177203091798058",
+        "recomputed_second_term": "25/4",
+        "recomputed_variance": "5/4",
+        "tolerance": "1e-40"
+      },
+      "new_result": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-4527d3775d7d4a98894bedbdc8240aac",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "old_result": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+        "candidate_id": "ai-candidate-4527d3775d7d4a98894bedbdc8240aac",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {},
+        "violations": [
+          "composition_valid",
+          "current_input_or_math_invalid",
+          "math_valid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+        ]
+      },
+      "old_scalar_guard_rejections": [
+        "first_term",
+        "second_term",
+        "mean",
+        "variance"
+      ],
+      "original_candidate_hash": "89f21cb599eddc6e527f26473f54956ad8ffb37c765cab28f7db7708bf207e58",
+      "original_under_v2": {
+        "accepted": false,
+        "binding_valid": false,
+        "boundary_valid": false,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "unparsed",
+        "composition_valid": false,
+        "content_complete": false,
+        "math_valid": false,
+        "origin_valid": false,
+        "scaffold_valid": false,
+        "schema_valid": false,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": false,
+        "separation_valid": false,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "candidate_contract_version_unsupported"
+            }
+          ],
+          "primary_failure": {
+            "code": "candidate_contract_version_unsupported"
+          },
+          "stage_status": {
+            "binding_valid": "NOT_EVALUATED",
+            "boundary_valid": "NOT_EVALUATED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "NOT_EVALUATED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "NOT_EVALUATED",
+            "origin_valid": "NOT_EVALUATED",
+            "scaffold_valid": "NOT_EVALUATED",
+            "schema_valid": "FAILED",
+            "scope_valid": "NOT_EVALUATED",
+            "separation_valid": "NOT_EVALUATED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "candidate_contract_version_unsupported"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      },
+      "primary_validation_status": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "provenance": {
+        "automatic_repair": false,
+        "binding_mappings": {
+          "brief_ref": {
+            "new": "standard-deviation-standard-lesson-SL-10/2",
+            "old": "standard-deviation-standard-lesson-SL-10/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "brief_sha256": {
+            "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+            "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "current_inputs_sha256": {
+            "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "learning_requirement_refs": {
+            "new": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "old": [
+              "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+              "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "schema_version": {
+            "new": "ai-author-candidate/2",
+            "old": "ai-author-candidate/1",
+            "reason": "Explicit current replay binding; not a historical model claim"
+          },
+          "task_form_refs": {
+            "new": [
+              "task-form-summary-statistics"
+            ],
+            "old": [
+              "task-form-summary-statistics"
+            ],
+            "reason": "Explicit current replay binding; not a historical model claim"
+          }
+        },
+        "contract_version_new": "ai-author-candidate/2",
+        "contract_version_old": "ai-author-candidate/1",
+        "intermediate_mappings": {
+          "first_term": {
+            "new": {
+              "expression": "30 / 4 = 15/2",
+              "value": "15/2"
+            },
+            "original": "30 / 4 = 15/2"
+          },
+          "mean": {
+            "new": {
+              "expression": "10 / 4 = 5/2",
+              "value": "5/2"
+            },
+            "original": "10 / 4 = 5/2"
+          },
+          "second_term": {
+            "new": {
+              "expression": "(10 / 4)^2 = (5/2)^2 = 25/4",
+              "value": "25/4"
+            },
+            "original": "(10 / 4)^2 = (5/2)^2 = 25/4"
+          },
+          "variance": {
+            "new": {
+              "expression": "15/2 - 25/4 = 5/4",
+              "value": "5/4"
+            },
+            "original": "15/2 - 25/4 = 5/4"
+          }
+        },
+        "lost_fields": [],
+        "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+        "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+        "source_attempt_id": "attempt-10",
+        "source_candidate_hash": "89f21cb599eddc6e527f26473f54956ad8ffb37c765cab28f7db7708bf207e58",
+        "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-10/ai-candidate-4527d3775d7d4a98894bedbdc8240aac.json",
+        "source_raw_response_sha256": "2628bc6143b49b05bc614f4036728d8fbbaa1de1c6d52c82559bed25d95587a1",
+        "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+        "transformation_kind": "explicit_offline_contract_fixture"
+      },
+      "solution_status": "PASSED",
+      "v2_replay_fixture_hash": "ed1af67b6d380441318b41fb4f272e314e3ce0948ceeba76b32e381617e89ff2"
+    }
+  ],
+  "probe_results": [
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "numeric_encoding"
+        ],
+        "failure_class": "numeric_encoding_invalid",
+        "field": "first_term.value",
+        "not_evaluated": [
+          "math_valid",
+          "solution_valid",
+          "composition_valid"
+        ],
+        "validator_code": "numeric_encoding_invalid"
+      },
+      "expected_accepted": false,
+      "name": "grammar-0",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "numeric_encoding_invalid",
+              "field": "first_term.value"
+            }
+          ],
+          "primary_failure": {
+            "code": "numeric_encoding_invalid",
+            "field": "first_term.value"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "FAILED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "numeric_encoding_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "numeric_encoding"
+        ],
+        "failure_class": "numeric_encoding_invalid",
+        "field": "first_term.value",
+        "not_evaluated": [
+          "math_valid",
+          "solution_valid",
+          "composition_valid"
+        ],
+        "validator_code": "numeric_encoding_invalid"
+      },
+      "expected_accepted": false,
+      "name": "grammar-1",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "numeric_encoding_invalid",
+              "field": "first_term.value"
+            }
+          ],
+          "primary_failure": {
+            "code": "numeric_encoding_invalid",
+            "field": "first_term.value"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "FAILED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "numeric_encoding_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "numeric_encoding"
+        ],
+        "failure_class": "numeric_encoding_invalid",
+        "field": "first_term.value",
+        "not_evaluated": [
+          "math_valid",
+          "solution_valid",
+          "composition_valid"
+        ],
+        "validator_code": "numeric_encoding_invalid"
+      },
+      "expected_accepted": false,
+      "name": "grammar-2",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "numeric_encoding_invalid",
+              "field": "first_term.value"
+            }
+          ],
+          "primary_failure": {
+            "code": "numeric_encoding_invalid",
+            "field": "first_term.value"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "FAILED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "numeric_encoding_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "numeric_encoding"
+        ],
+        "failure_class": "numeric_encoding_invalid",
+        "field": "first_term.value",
+        "not_evaluated": [
+          "math_valid",
+          "solution_valid",
+          "composition_valid"
+        ],
+        "validator_code": "numeric_encoding_invalid"
+      },
+      "expected_accepted": false,
+      "name": "grammar-3",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": false,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "numeric_encoding_invalid",
+              "field": "first_term.value"
+            }
+          ],
+          "primary_failure": {
+            "code": "numeric_encoding_invalid",
+            "field": "first_term.value"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "NOT_EVALUATED",
+            "numeric_encoding": "FAILED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "NOT_EVALUATED"
+          }
+        },
+        "violations": [
+          "numeric_encoding_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "solution_valid"
+        ],
+        "failure_class": "mathematical_value_invalid",
+        "field": "first_term.value",
+        "not_evaluated": [
+          "composition_valid"
+        ],
+        "validator_code": "mathematical_value_invalid"
+      },
+      "expected_accepted": false,
+      "name": "wrong-value",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "mathematical_value_invalid",
+              "field": "first_term.value"
+            }
+          ],
+          "primary_failure": {
+            "code": "mathematical_value_invalid",
+            "field": "first_term.value"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "FAILED"
+          }
+        },
+        "violations": [
+          "mathematical_value_invalid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "solution_valid"
+        ],
+        "failure_class": "mathematical_value_invalid",
+        "field": "variance.value",
+        "not_evaluated": [
+          "composition_valid"
+        ],
+        "validator_code": "mathematical_value_invalid"
+      },
+      "expected_accepted": false,
+      "name": "wrong-variance",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "mathematical_value_invalid",
+              "field": "variance.value"
+            }
+          ],
+          "primary_failure": {
+            "code": "mathematical_value_invalid",
+            "field": "variance.value"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "FAILED"
+          }
+        },
+        "violations": [
+          "mathematical_value_invalid",
+          "solution_valid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "solution_valid"
+        ],
+        "failure_class": "numeric_answer_invalid",
+        "field": "numeric_answer",
+        "not_evaluated": [
+          "composition_valid"
+        ],
+        "validator_code": "solution_verification_invalid"
+      },
+      "expected_accepted": false,
+      "name": "wrong-numeric",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "solution_verification_invalid",
+              "field": "numeric_answer"
+            }
+          ],
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": false,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "failed"
+          },
+          "primary_failure": {
+            "code": "solution_verification_invalid",
+            "field": "numeric_answer"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "FAILED"
+          }
+        },
+        "violations": [
+          "solution_valid",
+          "solution_verification_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "solution_valid"
+        ],
+        "failure_class": "display_answer_invalid",
+        "field": "display_answer",
+        "not_evaluated": [
+          "composition_valid"
+        ],
+        "validator_code": "solution_verification_invalid"
+      },
+      "expected_accepted": false,
+      "name": "wrong-display",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "solution_verification_invalid",
+              "field": "display_answer"
+            }
+          ],
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": false,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "failed"
+          },
+          "primary_failure": {
+            "code": "solution_verification_invalid",
+            "field": "display_answer"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "FAILED"
+          }
+        },
+        "violations": [
+          "solution_valid",
+          "solution_verification_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "solution_valid"
+        ],
+        "failure_class": "input_binding_invalid",
+        "field": "proposed_solution.inputs",
+        "not_evaluated": [
+          "composition_valid"
+        ],
+        "validator_code": "solution_verification_invalid"
+      },
+      "expected_accepted": false,
+      "name": "wrong-input-binding",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "solution_verification_invalid",
+              "field": "proposed_solution.inputs"
+            }
+          ],
+          "primary_failure": {
+            "code": "solution_verification_invalid",
+            "field": "proposed_solution.inputs"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "FAILED"
+          }
+        },
+        "violations": [
+          "solution_valid",
+          "solution_verification_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [
+          "solution_valid"
+        ],
+        "failure_class": "exact_radicand_invalid",
+        "field": "exact_radicand",
+        "not_evaluated": [
+          "composition_valid"
+        ],
+        "validator_code": "solution_verification_invalid"
+      },
+      "expected_accepted": false,
+      "name": "wrong-radicand",
+      "validation": {
+        "accepted": false,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": false,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": false,
+        "verification_summary": {
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "failures": [
+            {
+              "code": "solution_verification_invalid",
+              "field": "exact_radicand"
+            }
+          ],
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": false,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "failed"
+          },
+          "primary_failure": {
+            "code": "solution_verification_invalid",
+            "field": "exact_radicand"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "NOT_EVALUATED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "FAILED"
+          }
+        },
+        "violations": [
+          "solution_valid",
+          "solution_verification_invalid"
+        ],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "expected_accepted": true,
+      "name": "equivalent-rational",
+      "validation": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "expected_accepted": true,
+      "name": "expression-0",
+      "validation": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "expected_accepted": true,
+      "name": "expression-1",
+      "validation": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    },
+    {
+      "diagnostic": {
+        "failed_stages": [],
+        "failure_class": null,
+        "field": null,
+        "not_evaluated": [],
+        "validator_code": null
+      },
+      "expected_accepted": true,
+      "name": "expression-2",
+      "validation": {
+        "accepted": true,
+        "binding_valid": true,
+        "boundary_valid": true,
+        "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+        "candidate_id": "ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375",
+        "composition_valid": true,
+        "content_complete": true,
+        "math_valid": true,
+        "origin_valid": true,
+        "scaffold_valid": true,
+        "schema_valid": true,
+        "schema_version": "ai-candidate-validation/1",
+        "scope_valid": true,
+        "separation_valid": true,
+        "solution_valid": true,
+        "verification_summary": {
+          "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+          "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+          "expression_math_verified": false,
+          "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+          "mathematics": {
+            "checks": {
+              "exact_answer_recomputed": true,
+              "mean_recomputed": true,
+              "method_steps_recomputed": true,
+              "numeric_answer_recomputed": true,
+              "rounding_recomputed": true,
+              "summaries_feasible": true,
+              "variance_recomputed": true
+            },
+            "errors": [],
+            "status": "verified"
+          },
+          "stage_status": {
+            "binding_valid": "PASSED",
+            "boundary_valid": "PASSED",
+            "composition_valid": "PASSED",
+            "content_complete": "PASSED",
+            "math_valid": "PASSED",
+            "numeric_encoding": "PASSED",
+            "origin_valid": "PASSED",
+            "scaffold_valid": "PASSED",
+            "schema_valid": "PASSED",
+            "scope_valid": "PASSED",
+            "separation_valid": "PASSED",
+            "solution_valid": "PASSED"
+          }
+        },
+        "violations": [],
+        "warnings": [
+          "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+          "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+        ]
+      }
+    }
+  ],
+  "provider_calls": 0,
+  "rejected": 0,
+  "replay_candidate_count": 10,
+  "snapshot_status": {
+    "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": "valid_current_trusted_read",
+    "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": "valid_current_trusted_read"
+  },
+  "source_run": "run-3ce33e8d738f42df96182e5ca5409dd9"
+}

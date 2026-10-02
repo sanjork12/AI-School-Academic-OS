@@ -1,0 +1,133 @@
+{
+  "active_reference_version": "v1.5",
+  "live_comparisons": {
+    "all_live_comparisons_equal": true,
+    "assessment_evidence": [
+      {
+        "assessment_label": "June 2025 9MA0/31 Q2",
+        "capability_ref": "capability-standard-deviation-calculate",
+        "epistemic_level": "observed_evidence",
+        "marks": 2,
+        "paper": "9MA0/31",
+        "question_part": "Q2(b)",
+        "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+        "reading_notes": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+        ],
+        "ref": "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2025
+      },
+      {
+        "assessment_label": "June 2023 9MA0/31 Q3",
+        "capability_ref": "capability-standard-deviation-calculate",
+        "epistemic_level": "observed_evidence",
+        "marks": 2,
+        "paper": "9MA0/31",
+        "question_part": "Q3(b)(ii)",
+        "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+        "reading_notes": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ],
+        "ref": "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2023
+      }
+    ],
+    "comparisons": {
+      "academic_scope": true,
+      "focused-review.authored": true,
+      "focused-review.base_authored": true,
+      "focused-review.base_pedagogy": true,
+      "focused-review.base_validation": true,
+      "focused-review.learning": true,
+      "focused-review.pedagogy": true,
+      "focused-review.presentation": true,
+      "focused-review.profile": true,
+      "focused-review.scope_fingerprint": true,
+      "focused-review.solutions": true,
+      "focused-review.validation": true,
+      "standard-lesson.authored": true,
+      "standard-lesson.base_authored": true,
+      "standard-lesson.base_pedagogy": true,
+      "standard-lesson.base_validation": true,
+      "standard-lesson.learning": true,
+      "standard-lesson.pedagogy": true,
+      "standard-lesson.presentation": true,
+      "standard-lesson.profile": true,
+      "standard-lesson.scope_fingerprint": true,
+      "standard-lesson.solutions": true,
+      "standard-lesson.validation": true,
+      "teacher_product": true
+    },
+    "learning_requirements": [
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [],
+        "ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "concept-standard-deviation"
+        ],
+        "statement": "Student should understand \"Standard deviation\": A measure of dispersion about the mean in the units of the observations.",
+        "type": "conceptual_understanding"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution.",
+        "type": "capability"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics.",
+        "type": "capability_under_task_form"
+      }
+    ],
+    "profiles": {
+      "focused-review": {
+        "roles": 9,
+        "substantive_roles": 9,
+        "target_minutes": 25
+      },
+      "standard-lesson": {
+        "roles": 15,
+        "substantive_roles": 14,
+        "target_minutes": 60
+      }
+    },
+    "recomputed_scope_fingerprints": {
+      "focused-review": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+      "standard-lesson": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359"
+    }
+  },
+  "manifest_path": "output/reference_freeze_v1_5/reference_manifest.json",
+  "manifest_sha256": "047c5de7bf01085f7a263b0b91513cc9994d49fdf49c12a36a118284fbfb4472",
+  "protected_files": 1290
+}

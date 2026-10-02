@@ -1,0 +1,25 @@
+{
+  "oracle_kind": "human_acceptance_oracle",
+  "basis": "User-supplied P3A Human Gold Standard; production must not read this file",
+  "learning_requirements": [
+    {"oracle_id": "LR-SD-01", "type": "conceptual_understanding", "source_refs": ["concept-standard-deviation"], "required_meaning": ["Standard deviation", "A measure of dispersion about the mean in the units of the observations."]},
+    {"oracle_id": "LR-SD-02", "type": "capability", "source_refs": ["capability-standard-deviation-calculate"], "required_meaning": ["Calculate the standard deviation of a distribution."]},
+    {"oracle_id": "LR-SD-03", "type": "capability_under_task_form", "source_refs": ["capability-standard-deviation-calculate", "task-form-summary-statistics"], "required_meaning": ["Calculate the standard deviation of a distribution.", "The requested calculation uses supplied summary statistics."], "evidence": [[2025, "Q2(b)"], [2023, "Q3(b)(ii)"]]}
+  ],
+  "coverage_requirements": [
+    {"oracle_id": "CR-SD-01", "type": "teaching_assessment_connection", "required_meaning": ["assessment connection", "supported capability and task form", "Copying a past-paper question is not required"]},
+    {"oracle_id": "CR-SD-02", "type": "assessment_alignment", "required_meaning": ["declare which included Learning Requirements", "unsupported content must not silently be labelled as covered"]}
+  ],
+  "evidence_boundaries": [
+    {"oracle_id": "EB-SD-01", "code": "insufficient_evidence_for_frequency"},
+    {"oracle_id": "EB-SD-02", "code": "insufficient_evidence_for_typical_marks"},
+    {"oracle_id": "EB-SD-03", "code": "difficulty_not_calibrated"},
+    {"oracle_id": "EB-SD-04", "code": "no_exam_prediction"},
+    {"oracle_id": "EB-SD-05", "code": "no_student_error_evidence"},
+    {"oracle_id": "EB-SD-06", "code": "prerequisites_not_modelled"},
+    {"oracle_id": "EB-SD-07", "code": "teaching_sequence_not_established"},
+    {"oracle_id": "EB-SD-08", "code": "calculator_method_not_established"},
+    {"oracle_id": "EB-SD-09", "code": "formula_memorisation_not_established"},
+    {"oracle_id": "EB-SD-10", "code": "unsupported_task_forms_excluded"}
+  ]
+}

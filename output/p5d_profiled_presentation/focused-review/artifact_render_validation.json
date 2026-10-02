@@ -1,0 +1,92 @@
+{
+  "artifact_sha256": "917f3eac313f3f03d9ea2b1f99e9d8180faa60190be446cbe1478c5823e4d8c6",
+  "authored_content_sha256": "9e777dd4dcb4552a826a39277298a453da32643bf0f87ba32d87feefb3600bca",
+  "checks": {
+    "academic_scope_preserved": true,
+    "content_coverage": true,
+    "geometry_and_fonts": true,
+    "question_solution_separation": true,
+    "role_coverage": true,
+    "slide_manifest_consistency": true,
+    "source_text_preservation": true
+  },
+  "content_coverage": {
+    "authored-sd-v1-calculation-check-block": [
+      "focused-review-slide-10"
+    ],
+    "authored-sd-v1-calculation-check-question": [
+      "focused-review-slide-10"
+    ],
+    "authored-sd-v1-calculation-check-solution": [
+      "focused-review-slide-10"
+    ],
+    "authored-sd-v1-concept": [
+      "focused-review-slide-02"
+    ],
+    "authored-sd-v1-concept-check-block": [
+      "focused-review-slide-09"
+    ],
+    "authored-sd-v1-concept-check-question": [
+      "focused-review-slide-09"
+    ],
+    "authored-sd-v1-concept-check-solution": [
+      "focused-review-slide-09"
+    ],
+    "authored-sd-v1-deviation-formula": [
+      "focused-review-slide-04"
+    ],
+    "authored-sd-v1-method": [
+      "focused-review-slide-04"
+    ],
+    "authored-sd-v1-practice-1-block": [
+      "focused-review-slide-07"
+    ],
+    "authored-sd-v1-practice-1-question": [
+      "focused-review-slide-07"
+    ],
+    "authored-sd-v1-practice-1-solution": [
+      "focused-review-slide-07"
+    ],
+    "authored-sd-v1-practice-2-block": [
+      "focused-review-slide-08"
+    ],
+    "authored-sd-v1-practice-2-question": [
+      "focused-review-slide-08"
+    ],
+    "authored-sd-v1-practice-2-solution": [
+      "focused-review-slide-08"
+    ],
+    "authored-sd-v1-summary-formula": [
+      "focused-review-slide-05",
+      "focused-review-slide-06"
+    ],
+    "authored-sd-v1-summary-method": [
+      "focused-review-slide-05"
+    ],
+    "authored-sd-v1-visual": [
+      "focused-review-slide-03"
+    ],
+    "authored-sd-v1-worked-block": [
+      "focused-review-slide-06"
+    ],
+    "authored-sd-v1-worked-question": [
+      "focused-review-slide-06"
+    ],
+    "authored-sd-v1-worked-solution": [
+      "focused-review-slide-06"
+    ]
+  },
+  "learning_requirement_refs": [
+    "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+    "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+    "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+  ],
+  "manifest_sha256": "2235425bacfab1e66032c4dffa0a1cfded72013001bc58d89ea3a4549296f4fa",
+  "schema_version": "artifact-render-validation/1",
+  "slide_count": 11,
+  "valid": true,
+  "violations": [],
+  "warnings": [
+    "Composition and artifact preservation only; no academic approval or guaranteed classroom runtime."
+  ]
+}

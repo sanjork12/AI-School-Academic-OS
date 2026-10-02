@@ -1,0 +1,48 @@
+{
+  "decision_counts": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "exact_original_baseline_equality": true,
+  "state": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  }
+}

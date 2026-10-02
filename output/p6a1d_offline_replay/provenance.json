@@ -1,0 +1,862 @@
+[
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "55/5 = 11",
+          "value": "11"
+        },
+        "original": "55/5 = 11"
+      },
+      "mean": {
+        "new": {
+          "expression": "15/5 = 3",
+          "value": "3"
+        },
+        "original": "15/5 = 3"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(15/5)² = 9",
+          "value": "9"
+        },
+        "original": "(15/5)² = 9"
+      },
+      "variance": {
+        "new": {
+          "expression": "11 - 9 = 2",
+          "value": "2"
+        },
+        "original": "11 - 9 = 2"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-01",
+    "source_candidate_hash": "7bebaa35858325eb7c327c4fb3ad35ccce723b15cd94a3c043415dddd6d59196",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-01/ai-candidate-07267c4b2e8d4236bdf631440f260086.json",
+    "source_raw_response_sha256": "a8b5b48756f488cb16c869bd1fa2d2f272926676e0fa10ce775775404df783b6",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "30/4 = 15/2",
+          "value": "15/2"
+        },
+        "original": "30/4 = 15/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "10/4 = 5/2",
+          "value": "5/2"
+        },
+        "original": "10/4 = 5/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(10/4)^2 = (5/2)^2 = 25/4",
+          "value": "25/4"
+        },
+        "original": "(10/4)^2 = (5/2)^2 = 25/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "15/2 - 25/4 = 5/4",
+          "value": "5/4"
+        },
+        "original": "15/2 - 25/4 = 5/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-02",
+    "source_candidate_hash": "6a235a52d18c6a66357b3eefbcdd3522eb04b41d484a2026bf962d163eabc906",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-02/ai-candidate-adca8eba7e1e4ab8a4c9a00e107f3375.json",
+    "source_raw_response_sha256": "4b9d60dc58813ff3c77eb47a43e68d044259c81ecfa4f876c7586dee356a7ab5",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "30/4 = 15/2",
+          "value": "15/2"
+        },
+        "original": "30/4 = 15/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "10/4 = 5/2",
+          "value": "5/2"
+        },
+        "original": "10/4 = 5/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(10/4)^2 = (5/2)^2 = 25/4",
+          "value": "25/4"
+        },
+        "original": "(10/4)^2 = (5/2)^2 = 25/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "15/2 - 25/4 = 5/4",
+          "value": "5/4"
+        },
+        "original": "15/2 - 25/4 = 5/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-03",
+    "source_candidate_hash": "ddc3fcecb2aa5f716478d801a1888481c24a1d02028f03455f795a80f5cf585c",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-03/ai-candidate-f200551ddb704134ad745df09bce4dd8.json",
+    "source_raw_response_sha256": "4b9d60dc58813ff3c77eb47a43e68d044259c81ecfa4f876c7586dee356a7ab5",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "30 / 4 = 15/2",
+          "value": "15/2"
+        },
+        "original": "30 / 4 = 15/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "10 / 4 = 5/2",
+          "value": "5/2"
+        },
+        "original": "10 / 4 = 5/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(10 / 4)² = (5/2)² = 25/4",
+          "value": "25/4"
+        },
+        "original": "(10 / 4)² = (5/2)² = 25/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "15/2 - 25/4 = 5/4",
+          "value": "5/4"
+        },
+        "original": "15/2 - 25/4 = 5/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-04",
+    "source_candidate_hash": "11e7842281d4ff3182ba703d5dc937f41ef3150c256723f17f530e0c6b199091",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-04/ai-candidate-b81107c637df436cbce4481a1fbf751c.json",
+    "source_raw_response_sha256": "4268240c4ff02957dedbdf2c9a89f1516e4f0699e9758616b994df5e90ca518c",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "30/4 = 15/2",
+          "value": "15/2"
+        },
+        "original": "30/4 = 15/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "10/4 = 5/2",
+          "value": "5/2"
+        },
+        "original": "10/4 = 5/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(10/4)^2 = (5/2)^2 = 25/4",
+          "value": "25/4"
+        },
+        "original": "(10/4)^2 = (5/2)^2 = 25/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "15/2 - 25/4 = 30/4 - 25/4 = 5/4",
+          "value": "5/4"
+        },
+        "original": "15/2 - 25/4 = 30/4 - 25/4 = 5/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-05",
+    "source_candidate_hash": "1bbf99c0ae5e800c9c1bc1437aac2952c134384ed6f9894b7852bb05350bda8c",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-05/ai-candidate-7b7db12ee377469db93066cf5f5c2d47.json",
+    "source_raw_response_sha256": "c7c82a47da8f74a47ae2bb3572cf10f6bfd48dfb06cc9ccdd18e2c2c461fd877",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "55/5 = 11",
+          "value": "11"
+        },
+        "original": "55/5 = 11"
+      },
+      "mean": {
+        "new": {
+          "expression": "15/5 = 3",
+          "value": "3"
+        },
+        "original": "15/5 = 3"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(15/5)² = 9",
+          "value": "9"
+        },
+        "original": "(15/5)² = 9"
+      },
+      "variance": {
+        "new": {
+          "expression": "11 - 9 = 2",
+          "value": "2"
+        },
+        "original": "11 - 9 = 2"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-06",
+    "source_candidate_hash": "42ca08ae6034a22d879de0cfe9a49a700768eca0ac67a958d1a30f7626d659af",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-06/ai-candidate-7a98b99ef70445ef8ee77bee900fc64c.json",
+    "source_raw_response_sha256": "a8b5b48756f488cb16c869bd1fa2d2f272926676e0fa10ce775775404df783b6",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "55/5 = 11",
+          "value": "11"
+        },
+        "original": "55/5 = 11"
+      },
+      "mean": {
+        "new": {
+          "expression": "15/5 = 3",
+          "value": "3"
+        },
+        "original": "15/5 = 3"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(15/5)^2 = 9",
+          "value": "9"
+        },
+        "original": "(15/5)^2 = 9"
+      },
+      "variance": {
+        "new": {
+          "expression": "11 - 9 = 2",
+          "value": "2"
+        },
+        "original": "11 - 9 = 2"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-07",
+    "source_candidate_hash": "7981a5a2f9eea00426ef8c24bfbf7646cd1f13cd08de45ac430c5d07def2279a",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-07/ai-candidate-261f2129a2a24a7c96d2dddf9cf14ae3.json",
+    "source_raw_response_sha256": "b1e561fcb83cb917a7156842e63b676dbfe1da212778fb1b93393001138268fe",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "404/8 = 101/2",
+          "value": "101/2"
+        },
+        "original": "404/8 = 101/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "52/8 = 13/2",
+          "value": "13/2"
+        },
+        "original": "52/8 = 13/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(52/8)² = 169/4",
+          "value": "169/4"
+        },
+        "original": "(52/8)² = 169/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "101/2 - 169/4 = 33/4",
+          "value": "33/4"
+        },
+        "original": "101/2 - 169/4 = 33/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-08",
+    "source_candidate_hash": "c95ea206bf48ed3d41e1f71af00879b8971061dede934cb0308b0ba2589d5ed3",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-08/ai-candidate-a69fec9b45e04153a527a2fc1a06d922.json",
+    "source_raw_response_sha256": "b6b4e6b0ad522f134438e915c178984fa43ac328214d59435fcbb27e31fce78c",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "204/8 = 51/2",
+          "value": "51/2"
+        },
+        "original": "204/8 = 51/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "36/8 = 9/2",
+          "value": "9/2"
+        },
+        "original": "36/8 = 9/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(36/8)^2 = (9/2)^2 = 81/4",
+          "value": "81/4"
+        },
+        "original": "(36/8)^2 = (9/2)^2 = 81/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "51/2 - 81/4 = 21/4",
+          "value": "21/4"
+        },
+        "original": "51/2 - 81/4 = 21/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-09",
+    "source_candidate_hash": "cbd62f5e72a351ae8c06ec3e33ba41451421def008d1d9e645179181053bc2d7",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-09/ai-candidate-cb0170eebdf145078248d6de778d0634.json",
+    "source_raw_response_sha256": "968744b16f79e1078427c812f688bef454830dcb82c69e3e5b21447b91095680",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  },
+  {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "30 / 4 = 15/2",
+          "value": "15/2"
+        },
+        "original": "30 / 4 = 15/2"
+      },
+      "mean": {
+        "new": {
+          "expression": "10 / 4 = 5/2",
+          "value": "5/2"
+        },
+        "original": "10 / 4 = 5/2"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(10 / 4)^2 = (5/2)^2 = 25/4",
+          "value": "25/4"
+        },
+        "original": "(10 / 4)^2 = (5/2)^2 = 25/4"
+      },
+      "variance": {
+        "new": {
+          "expression": "15/2 - 25/4 = 5/4",
+          "value": "5/4"
+        },
+        "original": "15/2 - 25/4 = 5/4"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-10",
+    "source_candidate_hash": "89f21cb599eddc6e527f26473f54956ad8ffb37c765cab28f7db7708bf207e58",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-10/ai-candidate-4527d3775d7d4a98894bedbdc8240aac.json",
+    "source_raw_response_sha256": "2628bc6143b49b05bc614f4036728d8fbbaa1de1c6d52c82559bed25d95587a1",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  }
+]

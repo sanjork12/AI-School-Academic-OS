@@ -1,0 +1,249 @@
+{
+  "total_marks": 48,
+  "duration_minutes": 55,
+  "topic_target_percentages": {
+    "data_types": [
+      10,
+      15
+    ],
+    "location": [
+      20,
+      25
+    ],
+    "spread": [
+      20,
+      25
+    ],
+    "comparison": [
+      20,
+      25
+    ],
+    "lds": [
+      15,
+      20
+    ]
+  },
+  "weighting_notice": "Teacher/demo targets, not official Pearson assessment weightings.",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "marks": 6,
+      "target_competencies": [
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-TYPE-CLASSIFY",
+        "CAN-STAT-VARIABLE-INTERPRET"
+      ],
+      "question_purpose": "Classify variables and explain what grouping loses.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 2,
+      "context": "A college records travel mode, number of bus changes and journey time in minutes for each student. Journey time is rounded to the nearest minute.",
+      "expected_reasoning": {
+        "Q1(a)": [
+          "qualitative travel mode",
+          "quantitative discrete bus changes"
+        ],
+        "Q1(b)": [
+          "quantitative continuous",
+          "distinguishes underlying measurement from rounding"
+        ],
+        "Q1(c)": [
+          "frequency in each interval",
+          "exact individual times lost"
+        ]
+      }
+    },
+    {
+      "question_id": "Q2",
+      "marks": 6,
+      "target_competencies": [
+        "CAN-STAT-LOCATION-SELECT",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-MEDIAN-CALCULATE",
+        "CAN-STAT-OUTLIER-INTERPRET"
+      ],
+      "question_purpose": "Calculate location and choose a robust summary.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 3,
+      "context": "The waiting times, in minutes, of seven customers are shown. Treat them as the complete set of observations.",
+      "expected_reasoning": {
+        "Q2(a)": [
+          "sum 77 divided by 7",
+          "11 minutes"
+        ],
+        "Q2(b)": [
+          "median 8",
+          "correct contextual interpretation"
+        ],
+        "Q2(c)": [
+          "median",
+          "justification referring to 30 minutes and influence on mean"
+        ]
+      }
+    },
+    {
+      "question_id": "Q3",
+      "marks": 5,
+      "target_competencies": [
+        "CAN-STAT-GROUPED-INTERPRET",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-QUANTILE-DETERMINE"
+      ],
+      "question_purpose": "Estimate summaries from grouped data and explain their meaning.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 3,
+      "context": "A technician groups the download times t, in seconds, for 40 files. Use class midpoints for the estimated mean. Use position 0.75n and linear interpolation for the 75th percentile.",
+      "expected_reasoning": {
+        "Q3(a)": [
+          "correct weighted midpoint sum divided by 40",
+          "15 seconds",
+          "midpoint/unknown within-class values explanation"
+        ],
+        "Q3(b)": [
+          "interpolation or correct cumulative-frequency boundary giving 20",
+          "interpretation of 75% in context"
+        ]
+      }
+    },
+    {
+      "question_id": "Q4",
+      "marks": 5,
+      "target_competencies": [
+        "CAN-STAT-IQR-CALCULATE",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-OUTLIER-INTERPRET",
+        "CAN-STAT-QUANTILE-DETERMINE",
+        "CAN-STAT-RANGE-CALCULATE"
+      ],
+      "question_purpose": "Calculate spread and apply an explicitly specified outlier rule.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 3,
+      "context": "Twelve packet delivery times in minutes are ordered below. Define Q1 and Q3 as the medians of the lower six and upper six values. Use the rule: an outlier lies below Q1 - 1.5 IQR or above Q3 + 1.5 IQR.",
+      "expected_reasoning": {
+        "Q4(a)": [
+          "26 minutes"
+        ],
+        "Q4(b)": [
+          "both quartiles correct",
+          "IQR 9 minutes"
+        ],
+        "Q4(c)": [
+          "fence 30 and 31 correctly flagged",
+          "investigate rather than automatically delete"
+        ]
+      }
+    },
+    {
+      "question_id": "Q5",
+      "marks": 4,
+      "target_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-IQR-CALCULATE",
+        "CAN-STAT-MEDIAN-CALCULATE"
+      ],
+      "question_purpose": "Use both location and variation to make a contextual comparison.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 3,
+      "context": "A student samples 30 comparable weekday journeys on each of two routes. The table summarises journey times in minutes.",
+      "expected_reasoning": {
+        "Q5(a)": [
+          "contextual median comparison with values",
+          "contextual IQR comparison with values"
+        ],
+        "Q5(b)": [
+          "summaries do not give all values/extremes",
+          "possible overlap or contextual counterexample"
+        ]
+      }
+    },
+    {
+      "question_id": "Q6",
+      "marks": 8,
+      "target_competencies": [
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-SD-CALCULATE",
+        "CAN-STAT-SD-INTERPRET",
+        "CAN-STAT-VARIANCE-INTERPRET"
+      ],
+      "question_purpose": "Connect summary statistics, variance, standard deviation and units.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 4,
+      "context": "For eight measured fill volumes x in millilitres, n = 8, sum x = 400 and sum x^2 = 20072. Describe these eight observations using divisor n, not n - 1.",
+      "expected_reasoning": {
+        "Q6(a)": [
+          "correct variance expression with divisor 8",
+          "value 9",
+          "squared units ml^2"
+        ],
+        "Q6(b)": [
+          "square root of variance",
+          "3 ml"
+        ],
+        "Q6(c)": [
+          "same mean in context",
+          "second machine less variable with SD evidence",
+          "SD is not a maximum deviation or guarantee"
+        ]
+      }
+    },
+    {
+      "question_id": "Q7",
+      "marks": 9,
+      "target_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-VARIABLE-INTERPRET"
+      ],
+      "question_purpose": "Analyse weather data with an explicit cleaning policy and qualified conclusions.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 5,
+      "context": "ILLUSTRATIVE DATA: these invented values are not Pearson LDS observations. Daily rainfall at fictional Station P over six scheduled days is 0, 1.2, tr, 0, 4.8, missing (mm). Here tr means 0 < rainfall < 0.05 mm. For this calculation replace tr by 0. Station R has a reported mean of 0.8 mm over six complete days in a different month.",
+      "expected_reasoning": {
+        "Q7(a)": [
+          "one day at one station",
+          "rainfall in millimetres"
+        ],
+        "Q7(b)": [
+          "sum 6.0 divided by 5",
+          "1.2 mm",
+          "missing day cannot be treated as zero"
+        ],
+        "Q7(c)": [
+          "limited comparison using means",
+          "very small/short sample",
+          "different months/seasonality",
+          "missing value could bias result"
+        ]
+      }
+    },
+    {
+      "question_id": "Q8",
+      "marks": 5,
+      "target_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE",
+        "CAN-STAT-DISTRIBUTION-COMPARE",
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-OUTLIER-INTERPRET"
+      ],
+      "question_purpose": "Combine an updated mean with an evaluation of an unjustified conclusion.",
+      "question_format": "Original multi-part written practice",
+      "estimated_demand": 5,
+      "context": "In a second delivery study, 10 recorded times have mean 18 minutes. One time is 54 minutes. A comparable service has mean 15 minutes. The analyst proposes removing 54 because it makes the first service look slow.",
+      "expected_reasoning": {
+        "Q8(a)": [
+          "reconstruct total 180 and subtract 54",
+          "remaining mean 14",
+          "correct contextual comparison with 15"
+        ],
+        "Q8(b)": [
+          "valid data-quality reason needed for removal",
+          "qualified conclusion with variation/representativeness limitation"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "pptx": "D:\\AI-School-Academic-OS\\output\\p4c_presentation\\student\\Standard_Deviation.pptx",
+  "manifest": "D:\\AI-School-Academic-OS\\output\\p4c_presentation\\presentation_manifest.json",
+  "validation": "D:\\AI-School-Academic-OS\\output\\p4c_presentation\\artifact_render_validation.json",
+  "reused": true,
+  "valid": true
+}

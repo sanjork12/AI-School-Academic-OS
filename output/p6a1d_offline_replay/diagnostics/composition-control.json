@@ -1,0 +1,81 @@
+{
+  "diagnostic": {
+    "failed_stages": [
+      "composition_valid"
+    ],
+    "failure_class": "composition_invalid",
+    "field": null,
+    "not_evaluated": [],
+    "validator_code": "composition_invalid"
+  },
+  "kind": "isolated_test_only_composition_gate_fault",
+  "production_state_changed": false,
+  "validation": {
+    "accepted": false,
+    "binding_valid": true,
+    "boundary_valid": true,
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+    "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+    "composition_valid": false,
+    "content_complete": true,
+    "math_valid": true,
+    "origin_valid": true,
+    "scaffold_valid": true,
+    "schema_valid": true,
+    "schema_version": "ai-candidate-validation/1",
+    "scope_valid": true,
+    "separation_valid": true,
+    "solution_valid": true,
+    "verification_summary": {
+      "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+      "expression_math_verified": false,
+      "expression_policy": "Untrusted explanation; not evaluated and not production-renderable.",
+      "failures": [
+        {
+          "code": "composition_invalid"
+        },
+        {
+          "code": "composition_invalid"
+        }
+      ],
+      "mathematics": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "primary_failure": {
+        "code": "composition_invalid"
+      },
+      "stage_status": {
+        "binding_valid": "PASSED",
+        "boundary_valid": "PASSED",
+        "composition_valid": "FAILED",
+        "content_complete": "PASSED",
+        "math_valid": "PASSED",
+        "numeric_encoding": "PASSED",
+        "origin_valid": "PASSED",
+        "scaffold_valid": "PASSED",
+        "schema_valid": "PASSED",
+        "scope_valid": "PASSED",
+        "separation_valid": "PASSED",
+        "solution_valid": "PASSED"
+      }
+    },
+    "violations": [
+      "composition_invalid",
+      "composition_valid"
+    ],
+    "warnings": [
+      "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+      "Expressions remain unverified explanatory text; no expression evaluation or production rendering."
+    ]
+  }
+}

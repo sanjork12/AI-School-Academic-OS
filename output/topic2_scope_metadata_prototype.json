@@ -1,0 +1,82 @@
+{
+  "prototype_version": "0.1",
+  "metadata_count": 5,
+  "metadata": [
+    {
+      "official_source_id": "EDX-4MA1-F-2.7-A",
+      "canonical_id": "CAN-ALG-QUAD-FACTOR",
+      "tier_source": "Foundation",
+      "tier_applicability": [
+        "Foundation"
+      ],
+      "scope_description": "Solve quadratic equations by factorisation within the restricted Foundation scope stated in the official objective.",
+      "constraints": [
+        "Limited to x² + bx + c = 0"
+      ],
+      "metadata_method": "human",
+      "review_status": "approved",
+      "difficulty_level": "unspecified"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.7-A",
+      "canonical_id": "CAN-ALG-QUAD-FACTOR",
+      "tier_source": "Higher",
+      "tier_applicability": [
+        "Higher"
+      ],
+      "scope_description": "Solve quadratic equations by factorisation.",
+      "constraints": [],
+      "metadata_method": "human",
+      "review_status": "approved",
+      "difficulty_level": "unspecified"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "tier_source": "Foundation",
+      "tier_applicability": [
+        "Foundation"
+      ],
+      "scope_description": "Identify regions on rectangular Cartesian graphs defined by simple linear inequalities.",
+      "constraints": [
+        "Simple linear inequalities"
+      ],
+      "metadata_method": "human",
+      "review_status": "approved",
+      "difficulty_level": "unspecified"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "tier_source": "Higher",
+      "tier_applicability": [
+        "Higher"
+      ],
+      "scope_description": "Identify harder examples of regions defined by linear inequalities.",
+      "constraints": [
+        "Harder examples"
+      ],
+      "metadata_method": "human",
+      "review_status": "approved",
+      "difficulty_level": "unspecified"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.4-A",
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+      "tier_source": "Foundation",
+      "tier_applicability": [
+        "Foundation",
+        "Higher"
+      ],
+      "scope_description": "Solve linear equations in one unknown, including equations with integer or fractional coefficients and equations where the unknown appears on either or both sides.",
+      "constraints": [
+        "One unknown",
+        "Integer or fractional coefficients",
+        "Unknown may appear on either or both sides"
+      ],
+      "metadata_method": "human",
+      "review_status": "approved",
+      "difficulty_level": "unspecified"
+    }
+  ]
+}

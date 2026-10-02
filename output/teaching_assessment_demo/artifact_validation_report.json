@@ -1,0 +1,22 @@
+{
+  "status": "PASSED",
+  "slides": 24,
+  "native_tables": 5,
+  "native_charts": 1,
+  "pdf_pages": {
+    "Edexcel_9MA0_Statistics_Assessment.pdf": 9,
+    "Edexcel_9MA0_Statistics_Mark_Scheme.pdf": 9
+  },
+  "docx_content": {
+    "Assessment": "All prompts/answers present; title border removed",
+    "Mark_Scheme": "All prompts/answers present; title border removed"
+  },
+  "artifact_sha256": {
+    "Edexcel_9MA0_Statistics_Assessment.docx": "6bbfe97f099040e36cdfd30d6985b2e8a6ce48d40dade5944ee7068b4270ed72",
+    "Edexcel_9MA0_Statistics_Assessment.pdf": "a429157e138210c4fc25ac775327d0afe2e29fbb6b078092a52d101c90f30a84",
+    "Edexcel_9MA0_Statistics_Exploring_Data.pptx": "0f3b5f8fb3e269b6db5de7f20ccc6baa1b825ab5b49ac608f9a105b66cb64d17",
+    "Edexcel_9MA0_Statistics_Mark_Scheme.docx": "ac6655805d9322ac028db292c0d126b68565a05cd411eab7fc879a4229d8a91a",
+    "Edexcel_9MA0_Statistics_Mark_Scheme.pdf": "242536404205819c2ccb819e01b7db0b8c3157c4d9672eb6b3d23c767d08eb82"
+  },
+  "visual_review": "All 24 slide renders and all 18 PDF pages inspected. Both DOCX files rendered in Word for page review. Generation itself does not require Office."
+}

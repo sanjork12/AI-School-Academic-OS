@@ -1,0 +1,139 @@
+{
+  "academic_approval": false,
+  "candidate": {
+    "brief_ref": "standard-deviation-standard-lesson-SL-11/1",
+    "brief_sha256": "7bc96bf928c8a477725a381fd7fe0aa9c8b9d264c7150c451eb98885f7ba797b",
+    "candidate_id": "ai-candidate-77777777777777777777777777777777",
+    "content": {
+      "formula_hint": "Use σ = sqrt(Σx² / n - (Σx / n)²).",
+      "proposed_math_inputs": {
+        "n": 5,
+        "sum_x": "30",
+        "sum_x2": "190"
+      },
+      "proposed_solution": {
+        "display_answer": "1.41",
+        "exact_radicand": "2",
+        "first_term": {
+          "expression": "sum_x2 / n",
+          "value": "38"
+        },
+        "inputs": {
+          "n": 5,
+          "sum_x": "30",
+          "sum_x2": "190"
+        },
+        "mean": {
+          "expression": "sum_x / n",
+          "value": "6"
+        },
+        "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+        "second_term": {
+          "expression": "(sum_x / n)^2",
+          "value": "36"
+        },
+        "variance": {
+          "expression": "first term - second term",
+          "value": "2"
+        }
+      },
+      "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "scaffold_steps": []
+    },
+    "content_origin": "ai_generated_candidate",
+    "current_inputs_sha256": "6c1bf3edf4052a3e27eacec8c3e28a5c90cc293a2d1473fb193d330b88722b87",
+    "learning_requirement_refs": [
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "model_metadata": {
+      "cost": "not_computed",
+      "input_tokens": null,
+      "latency_seconds": 0.0,
+      "model": "offline-no-model",
+      "output_tokens": null,
+      "provider": "synthetic_test",
+      "total_tokens": null
+    },
+    "role_ref": "profiled-sd-standard-lesson-SL-11",
+    "schema_version": "ai-author-candidate/2",
+    "task_form_refs": [
+      "task-form-summary-statistics"
+    ]
+  },
+  "candidate_sha256": "57b8073eeebef0ab85b074c5b28ca7c4c8001045b238fdc92bfe82b120fb713b",
+  "composition": null,
+  "composition_sha256": "38e0b9de817f645c4bec37c0d4a3e58baecccb040f5718dc069a72c7385a0bed",
+  "controlled_case": null,
+  "controlled_case_sha256": null,
+  "experiment_type": "offline_synthetic",
+  "model_api_calls": 0,
+  "provider_invocations": 0,
+  "publishable": false,
+  "ready_for_rendering": false,
+  "schema_version": "numerical-role-offline-qualification/1",
+  "support": {
+    "formula_ref": "authored-sd-v1-summary-formula",
+    "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+    "identity": "sl11-application-formula-hint/1",
+    "owner": "application",
+    "source_field": "scaffolding/0",
+    "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+    "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+    "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+  },
+  "support_sha256": "e50bd88db0d5a2c6db786eec650980b1b123556a111e66d5d92b6ea9ef3c6638",
+  "validation": {
+    "academic_approval": false,
+    "acceptance_policy": "sl11-numerical-provenance-required/1",
+    "accepted": false,
+    "binding_valid": false,
+    "boundary_valid": false,
+    "candidate_contract": "ai-author-candidate/2",
+    "composition_valid": false,
+    "content_complete": false,
+    "controlled_input_binding_status": "NOT_EVALUATED",
+    "controlled_input_binding_valid": null,
+    "derivation_provenance_status": "NOT_EVALUATED",
+    "derivation_provenance_valid": null,
+    "expression_semantics_valid": false,
+    "math_valid": false,
+    "mathematical_policy": "sl10-provenance-required/1",
+    "numeric_encoding_valid": false,
+    "publishable": false,
+    "ready_for_rendering": false,
+    "role_binding_valid": false,
+    "role_ref": "profiled-sd-standard-lesson-SL-11",
+    "scaffold_status": "NOT_APPLICABLE",
+    "scaffold_valid": null,
+    "schema_valid": false,
+    "schema_version": "numerical-role-validation/1",
+    "scope_valid": false,
+    "semantic_role": "guided_practice",
+    "separation_valid": false,
+    "solution_valid": false,
+    "stage_status": {
+      "binding_valid": "NOT_EVALUATED",
+      "boundary_valid": "NOT_EVALUATED",
+      "composition_valid": "NOT_EVALUATED",
+      "content_complete": "NOT_EVALUATED",
+      "expression_semantics_valid": "NOT_EVALUATED",
+      "math_valid": "NOT_EVALUATED",
+      "numeric_encoding_valid": "NOT_EVALUATED",
+      "role_binding_valid": "NOT_EVALUATED",
+      "schema_valid": "FAILED",
+      "scope_valid": "NOT_EVALUATED",
+      "separation_valid": "NOT_EVALUATED",
+      "solution_valid": "NOT_EVALUATED",
+      "support_policy_valid": "NOT_EVALUATED"
+    },
+    "support_policy": "sl11-single-formula-hint/1",
+    "support_policy_valid": false,
+    "verification_summary": {},
+    "violations": [
+      "schema_invalid",
+      "schema_valid"
+    ]
+  },
+  "validation_sha256": "94b45ffa7c77a67d0faf13fd365d4abf0e683dad9884d7da9ff33d565a2e58fc"
+}

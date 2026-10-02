@@ -1,0 +1,8 @@
+{
+  "files": [
+    "output\\p5b_profiled_authoring\\focused-review.profiled-authored.json",
+    "output\\p5b_profiled_authoring\\standard-lesson.profiled-authored.json",
+    "output\\p5b_profiled_authoring\\verification.json",
+    "output\\p5b_profiled_authoring\\provenance.json"
+  ]
+}

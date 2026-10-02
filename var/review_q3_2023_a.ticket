@@ -1,0 +1,43 @@
+{
+  "bundle_id": "BUNDLE-Q3-2023-A",
+  "definition_version": "27b67727f6113e3f7e5c3b073e376b47ef4891d7efbc7c0213fbc0d3eeb80068",
+  "versions": {
+    "competency:CAN-STAT-PREPARE-DATA-FOR-STATISTICAL-ANALYSIS": "3395219c1d03f88c7c07aedfc58dd2af5f46fdcb6c1b50ad970b13804299cc8b",
+    "concept:CON-STAT-DATA-CLEANING-DATA-PREPARATION": "df2da30fe0ec428af61f96f61e244219d545ac88d548f1c635d6fb18230fde4d",
+    "concept_link:LINK-f49bd49679b9627ab6693ec5": "78f4d1a228ee5124d49f9d2929cadd5627b1932d9641a856207857cb7f050c77",
+    "condition:COND-Q3-2023-GIVEN": "ff0e2db72a55fe4e778b2fa462216788cc08d487448a70598e7e9c6551afa1c9",
+    "context:CTX-9MA0": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+    "locator:MS-2023-Q3-a": "7971a2a4264f9f22e3a7bbf488074c0eb8ea2fd9e09b1a6e32fe18e059d6f1ec",
+    "locator:QP-2023-Q3-a": "e98ca6826f77b0d34c3d2645129c1be2befada37afe099fa6eadd07e3df7ff41",
+    "locator:QP-2023-Q3-whole": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+    "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+    "parsed_part:PARSED-Q3-2023-a": "4f80524a8ceb1d7da63b2365b760fe8ec6aa0cd54f50e7d16e8c134da14edb6e",
+    "proposal:PROPOSE-Q3-2023-a": "f3381c0bb78bf24258d1fc2c032c50dc9c124944e94d922d6cc1986b37016c7a",
+    "question:Q3-2023": "50e393c6138ff1f4706fe02f9a47462607db628efb5be9d73c6bc56dbe0abfd8",
+    "question_part:Q3-2023-a": "65eaf39edb40787edcdff52ac3579aed0b575825260bef3440d0629f1ddcba1c",
+    "source:MS-2023": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+    "source:QP-2023": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+    "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+    "task_condition:TC-HANDLE-SPECIAL-NON-NUMERIC-VALUES-BEFORE-CALCULATING-SUMMARY-STATISTICS": "cb9919c54cabcaba59c8939ccc57b0506df573ba1e135af1a9bac9a0fe2a4172"
+  },
+  "review_heads": {
+    "competency:CAN-STAT-PREPARE-DATA-FOR-STATISTICAL-ANALYSIS": null,
+    "concept:CON-STAT-DATA-CLEANING-DATA-PREPARATION": null,
+    "concept_link:LINK-f49bd49679b9627ab6693ec5": null,
+    "condition:COND-Q3-2023-GIVEN": null,
+    "context:CTX-9MA0": "bundle-object-14dcb62db8eb78a81fac42e796bd54c70445cefb1a22f15aa9bec95db66930ee",
+    "locator:MS-2023-Q3-a": "source-bundle-object-f46a7f5ad670dc9fdd720f451d87a341beb43fc8690c255a2466ce0f02bb7bd2",
+    "locator:QP-2023-Q3-a": "source-bundle-object-74f2d8c5219d79be131d074cfcce2cd1072bb8a257b7040a9e3e667ea290b098",
+    "locator:QP-2023-Q3-whole": "source-bundle-object-4916f925354730c5e91322a5e660009637f9a7b643a9e589acba94c0377b1dab",
+    "locator:SPEC-2.3": "source-bundle-object-c2b6f5b4d40958d4a830ab5994abe7f264fd67c15c0c4880fc0e2bb6c94f451a",
+    "parsed_part:PARSED-Q3-2023-a": null,
+    "proposal:PROPOSE-Q3-2023-a": null,
+    "question:Q3-2023": null,
+    "question_part:Q3-2023-a": null,
+    "source:MS-2023": "source-bundle-object-c133971d7af936f24d4af33ebd2924f533c16f8f8265158bc80c598085a69b69",
+    "source:QP-2023": "source-bundle-object-ecf0172a03339d17b11ce2ca48928375a1ea53c77ce62feb564b010a672b44a1",
+    "source:SPEC": "source-bundle-object-7800147423d39bbbd0d7932c6dec1b053724aa2a1032eadc3f429836625e1d80",
+    "task_condition:TC-HANDLE-SPECIAL-NON-NUMERIC-VALUES-BEFORE-CALCULATING-SUMMARY-STATISTICS": null
+  },
+  "token": "e2cb93e90cb0b31090e293ac6d757f765be95bed0a9bd4842907568776a947cc"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "P5D acceptance passed",
+  "slides": {
+    "focused-review": 11,
+    "standard-lesson": 19
+  },
+  "tests": {
+    "baseline-tests.txt": {
+      "passed": 137,
+      "failures": 0,
+      "errors": 0,
+      "sha256": "d0000be56d62b649372ed886f7dc360f74728f2df043b138357621e41919b731"
+    },
+    "new-tests.txt": {
+      "passed": 30,
+      "failures": 0,
+      "errors": 0,
+      "sha256": "33b967914a562e42419a0e8c1a67a1fa2a9bbfe7d1b51b55417654f64fd575a1"
+    },
+    "final-tests.txt": {
+      "passed": 262,
+      "failures": 0,
+      "errors": 0,
+      "sha256": "5ec3ee51e2eea51135ed647f33e9f30a2b938dba7007076e4153bc834ed7bafa"
+    }
+  }
+}

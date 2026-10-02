@@ -1,0 +1,82 @@
+{
+  "candidate": {
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+    "brief_sha256": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+    "candidate_id": "ai-candidate-07267c4b2e8d4236bdf631440f260086",
+    "content": {
+      "proposed_math_inputs": {
+        "n": 5,
+        "sum_x": "15",
+        "sum_x2": "55"
+      },
+      "proposed_solution": {
+        "display_answer": "1.41",
+        "exact_radicand": "2",
+        "first_term": {
+          "expression": "55/5 = 11",
+          "value": "10"
+        },
+        "inputs": {
+          "n": 5,
+          "sum_x": "15",
+          "sum_x2": "55"
+        },
+        "mean": {
+          "expression": "15/5 = 3",
+          "value": "3"
+        },
+        "numeric_answer": "1.414213562373095048801688724209698078569671875",
+        "second_term": {
+          "expression": "(15/5)² = 9",
+          "value": "9"
+        },
+        "variance": {
+          "expression": "11 - 9 = 2",
+          "value": "2"
+        }
+      },
+      "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "scaffold_steps": [
+        {
+          "instruction": "Calculate Σx² / n.",
+          "type": "compute_first_term"
+        },
+        {
+          "instruction": "Calculate (Σx / n)².",
+          "type": "compute_second_term"
+        },
+        {
+          "instruction": "Subtract the second result from the first.",
+          "type": "subtract_variance_terms"
+        },
+        {
+          "instruction": "Take the square root of the variance.",
+          "type": "square_root"
+        }
+      ]
+    },
+    "content_origin": "ai_generated_candidate",
+    "current_inputs_sha256": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+    "learning_requirement_refs": [
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "model_metadata": {
+      "cost": "not_computed",
+      "input_tokens": 981,
+      "latency_seconds": 10.038435199996457,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 561,
+      "provider": "openai",
+      "total_tokens": 1542
+    },
+    "role_ref": "profiled-sd-standard-lesson-SL-10",
+    "schema_version": "ai-author-candidate/2",
+    "task_form_refs": [
+      "task-form-summary-statistics"
+    ]
+  },
+  "expected_accepted": false,
+  "expected_failure_class": "mathematical_value_invalid",
+  "name": "wrong-value"
+}

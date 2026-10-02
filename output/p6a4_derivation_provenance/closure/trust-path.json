@@ -1,0 +1,41 @@
+{
+  "candidate_intermediate_scalar_claims_are_authority": false,
+  "default": {
+    "status": "NOT_EVALUATED",
+    "value": null
+  },
+  "independent_gates": "Schema, binding, numeric encoding, input mathematics, expression semantics, solution, boundaries and composition retain separate gates. Provenance can pass while an incorrect scalar claim causes semantics/solution failure. Strict acceptance additionally requires provenance true.",
+  "limits": [
+    "Four SL-10 intermediate fields only",
+    "Exact supported canonical trees, not general symbolic equivalence",
+    "Proves represented source references, not model internal reasoning or external dataset truth",
+    "No square-root derivation scope",
+    "No academic approval, publication permission, renderer readiness, production readiness or live model qualification"
+  ],
+  "numeric_equality_cannot_establish_identity": true,
+  "path": [
+    "academic_os.ai_authoring.service.run_once",
+    "academic_os.ai_authoring.validation.validate_candidate",
+    "academic_os.ai_authoring.expressions.context_for",
+    "academic_os.ai_authoring.provenance.verify_solution_provenance",
+    "academic_os.ai_authoring.provenance.outcome",
+    "academic_os.ai_authoring.validation.compose",
+    "academic_os.ai_qualification.runner.execute",
+    "academic_os.ai_qualification.reporting.rebuild"
+  ],
+  "source_resolution": "expressions.context_for independently recomputes Fraction values from proposed_math_inputs using authored_math.summary_stats. provenance.DEPENDENCIES binds names to those inputs and independently derived terms; proposed_solution scalar values are never binding authority.",
+  "status_conditions": {
+    "FAILED": "Any evaluated field has wrong source identity, wrong operation structure, swapped operands, self-reference, unsupported/malformed expression, or a literal under current policy. FAILED dominates aggregate results.",
+    "INSUFFICIENT_EVIDENCE": "Explicit historical replay encounters literal operands whose source identities cannot be established; valid is null. No earlier self-reference violation may be present, and no failed field may dominate the aggregate. All 40 historical fields have this status.",
+    "NOT_EVALUATED": "No verifier result exists: schema/encoding/input computation prevented reaching the stage, explicit legacy policy bypasses that stage, or old records have absent fields. valid remains null; absence is never converted to FAILED or PASSED.",
+    "PASSED": "All four parsed canonical trees exactly match their application-owned role templates, without self references or literal operands. Symbol names and operation structure must match. Numeric values never decide this outcome."
+  },
+  "tests": [
+    "ProvenanceTests.test_identity_collisions_preserve_numeric_pass",
+    "ProvenanceTests.test_resolution_never_uses_candidate_claims",
+    "IntegrationTests.test_independent_provenance_pass_wrong_claim",
+    "IntegrationTests.test_early_failure_not_evaluated",
+    "IntegrationTests.test_candidate_cannot_select_or_downgrade_policy",
+    "ClosurePolicyTests.test_omitted_validation_and_compose_recheck_literals"
+  ]
+}

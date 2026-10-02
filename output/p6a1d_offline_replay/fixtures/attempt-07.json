@@ -1,0 +1,165 @@
+{
+  "candidate": {
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/2",
+    "brief_sha256": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+    "candidate_id": "ai-candidate-261f2129a2a24a7c96d2dddf9cf14ae3",
+    "content": {
+      "proposed_math_inputs": {
+        "n": 5,
+        "sum_x": "15",
+        "sum_x2": "55"
+      },
+      "proposed_solution": {
+        "display_answer": "1.41",
+        "exact_radicand": "2",
+        "first_term": {
+          "expression": "55/5 = 11",
+          "value": "11"
+        },
+        "inputs": {
+          "n": 5,
+          "sum_x": "15",
+          "sum_x2": "55"
+        },
+        "mean": {
+          "expression": "15/5 = 3",
+          "value": "3"
+        },
+        "numeric_answer": "1.414213562373095048801688724209698078569671875",
+        "second_term": {
+          "expression": "(15/5)^2 = 9",
+          "value": "9"
+        },
+        "variance": {
+          "expression": "11 - 9 = 2",
+          "value": "2"
+        }
+      },
+      "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "scaffold_steps": [
+        {
+          "instruction": "Calculate Σx² / n.",
+          "type": "compute_first_term"
+        },
+        {
+          "instruction": "Calculate (Σx / n)².",
+          "type": "compute_second_term"
+        },
+        {
+          "instruction": "Subtract the second result from the first.",
+          "type": "subtract_variance_terms"
+        },
+        {
+          "instruction": "Take the square root of the variance.",
+          "type": "square_root"
+        }
+      ]
+    },
+    "content_origin": "ai_generated_candidate",
+    "current_inputs_sha256": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+    "learning_requirement_refs": [
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "model_metadata": {
+      "cost": "not_computed",
+      "input_tokens": 981,
+      "latency_seconds": 11.241351400007261,
+      "model": "gpt-5.6-sol",
+      "output_tokens": 685,
+      "provider": "openai",
+      "total_tokens": 1666
+    },
+    "role_ref": "profiled-sd-standard-lesson-SL-10",
+    "schema_version": "ai-author-candidate/2",
+    "task_form_refs": [
+      "task-form-summary-statistics"
+    ]
+  },
+  "provenance": {
+    "automatic_repair": false,
+    "binding_mappings": {
+      "brief_ref": {
+        "new": "standard-deviation-standard-lesson-SL-10/2",
+        "old": "standard-deviation-standard-lesson-SL-10/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "brief_sha256": {
+        "new": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+        "old": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "current_inputs_sha256": {
+        "new": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "old": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "learning_requirement_refs": {
+        "new": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "old": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "schema_version": {
+        "new": "ai-author-candidate/2",
+        "old": "ai-author-candidate/1",
+        "reason": "Explicit current replay binding; not a historical model claim"
+      },
+      "task_form_refs": {
+        "new": [
+          "task-form-summary-statistics"
+        ],
+        "old": [
+          "task-form-summary-statistics"
+        ],
+        "reason": "Explicit current replay binding; not a historical model claim"
+      }
+    },
+    "contract_version_new": "ai-author-candidate/2",
+    "contract_version_old": "ai-author-candidate/1",
+    "intermediate_mappings": {
+      "first_term": {
+        "new": {
+          "expression": "55/5 = 11",
+          "value": "11"
+        },
+        "original": "55/5 = 11"
+      },
+      "mean": {
+        "new": {
+          "expression": "15/5 = 3",
+          "value": "3"
+        },
+        "original": "15/5 = 3"
+      },
+      "second_term": {
+        "new": {
+          "expression": "(15/5)^2 = 9",
+          "value": "9"
+        },
+        "original": "(15/5)^2 = 9"
+      },
+      "variance": {
+        "new": {
+          "expression": "11 - 9 = 2",
+          "value": "2"
+        },
+        "original": "11 - 9 = 2"
+      }
+    },
+    "lost_fields": [],
+    "metadata_policy": "Original identity/metadata are provenance only; this fixture is not a new provider response.",
+    "preserved_fields": "All other fields deep-copied unchanged, including proposed inputs, final answers, question, scaffolds, candidate ID and historical model metadata.",
+    "source_attempt_id": "attempt-07",
+    "source_candidate_hash": "7981a5a2f9eea00426ef8c24bfbf7646cd1f13cd08de45ac430c5d07def2279a",
+    "source_path": "output/p6a1_live_qualification/run-3ce33e8d738f42df96182e5ca5409dd9/attempt-07/ai-candidate-261f2129a2a24a7c96d2dddf9cf14ae3.json",
+    "source_raw_response_sha256": "b1e561fcb83cb917a7156842e63b676dbfe1da212778fb1b93393001138268fe",
+    "source_run_id": "run-3ce33e8d738f42df96182e5ca5409dd9",
+    "transformation_kind": "explicit_offline_contract_fixture"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "P1C.1 DEFERRED UNRESOLVED GOVERNANCE PASSED",
+  "changed_files": [
+    "academic_os/governance.py",
+    "academic_os/service.py",
+    "academic_os/cli.py",
+    "academic_os/review_rendering.py",
+    "tests_p0/test_deferred_governance.py",
+    "tests_p0/deferred_demo.py",
+    "tests_p0/deferred_acceptance.py",
+    "docs/P1C1_DEFERRED_UNRESOLVED.md",
+    "docs/P1C_CANONICAL_REUSE.md"
+  ],
+  "governance_model": {
+    "storage": "append-only requests journal",
+    "record_type": "publication_governance/1",
+    "migration_required": false,
+    "trust_boundary": "local OS operator; not production authentication",
+    "scope": "target version + proposal/dependency manifest; no academic state mutation"
+  },
+  "real_database": {
+    "path": "D:\\AI-School-Academic-OS\\var\\p0_q2.sqlite3",
+    "sha256_before": "3304ceb7f8a554855dabddb3b5d8ee342a0c663b7df96ff55a3d249772b0d0f5",
+    "sha256_after": "3304ceb7f8a554855dabddb3b5d8ee342a0c663b7df96ff55a3d249772b0d0f5",
+    "all_original_rows_unchanged": true,
+    "academic_state": "unresolved",
+    "governance_state": "none",
+    "participation": "REQUIRED — currently blocking Q3-2023-CORE",
+    "publishable": false,
+    "states": {
+      "source:QP-2023": "pending",
+      "source:MS-2023": "pending",
+      "proposal:PROPOSE-Q3-2023-a": "pending",
+      "proposal:PROPOSE-Q3-2023-b-i": "pending",
+      "proposal:PROPOSE-Q3-2023-b-ii": "pending",
+      "proposal:PROPOSE-Q3-2023-c-i": "pending",
+      "proposal:PROPOSE-Q3-2023-c-ii": "pending"
+    },
+    "human_academic_source_decisions_before": 43,
+    "human_academic_source_decisions_after": 43,
+    "governance_decisions_before": 0,
+    "governance_decisions_after": 0,
+    "snapshots_before": 1,
+    "snapshots_after": 1
+  },
+  "temporary": {
+    "pre_defer_publishable": false,
+    "post_defer_publishable": false,
+    "final_flags": {
+      "schema_valid": true,
+      "source_verified": true,
+      "human_approved": true,
+      "publishable": true
+    },
+    "semantic_parts": [
+      "Q3-2023-a",
+      "Q3-2023-b-i",
+      "Q3-2023-b-ii",
+      "Q3-2023-c-i"
+    ],
+    "unresolved_entered_trusted_snapshot": false,
+    "parsed_unresolved_entered_trusted_snapshot": false,
+    "deterministic_republication": true,
+    "proposal_unchanged_after_defer": true,
+    "test_only": true
+  },
+  "q2": {
+    "snapshot_id": "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+    "usable": true,
+    "unchanged": true
+  },
+  "tests": {
+    "total": 358,
+    "passed": 357,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0,
+    "governance_tests_passed": 31,
+    "final_renderer_smoke": "passed in disposable database",
+    "not_run": 0,
+    "duration_seconds": 959.879,
+    "baseline": "Prior P1C recorded result: 327 total, 326 passed, 1 known missing-PPT error",
+    "known_error": "Protected PPT missing; test and pinned hash preserved",
+    "log": "full-suite.txt"
+  },
+  "historical_integrity": {
+    "pinned": 61,
+    "unchanged": 60,
+    "missing": [
+      "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+    ],
+    "changed": []
+  },
+  "architectural_notes": [
+    "Current small journal uses linear scans; future scale can add indexed governance persistence behind the same service.",
+    "Shared MS c(ii) evidence remains required for c(i); it is not a trusted c(ii) interpretation.",
+    "Governed snapshot validity requires the service read path; detached exports do not attest current usability.",
+    "Source and academic approvals of unchanged content do not invalidate a committed defer; content/target changes do."
+  ]
+}

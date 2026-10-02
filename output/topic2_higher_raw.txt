@@ -1,0 +1,229 @@
+
+============================================================
+PDF PAGE 37
+============================================================
+ 
+Pearson Edexcel International GCSE in Mathematics (Specification A) –  
+Specification – Issue 2 – November 2017 © Pearson Education Limited 2017 
+31
+2 
+Equations, formulae and identities 
+ 
+ 
+Students should be taught to: 
+Notes 
+2.1  
+Use of symbols 
+A use index notation involving fractional, 
+negative and zero powers 
+ 
+2.2  
+Algebraic 
+manipulation 
+A expand the product of two or more 
+linear expressions 
+Expand and simplify 
+(x + 2)(x + 3)(x – 1) 
+B understand the concept of a quadratic 
+expression and be able to factorise such 
+expressions 
+Factorise 
+6x2 – 5x – 6 
+C manipulate algebraic fractions where the 
+numerator and/or the denominator can 
+be numeric, linear or quadratic 
+Express as a single 
+fraction 
+3
+1
+2
+2
+1
+x
+x
+x
+x
++
+−
+−
++
+−
+  
+Simplify  
+2
+2
+2
+3
+4
+9
+x
+x
+x
++
+−
+D complete the square for a given 
+quadratic expression 
+Write 2x2 + 6x – 1 in 
+the form  
+a(x + b)2 + c 
+E use algebra to support and construct 
+proofs 
+ 
+2.3  
+Expressions and 
+formulae 
+A understand the process of manipulating 
+formulae or equations to change the 
+subject, to include cases where the 
+subject may appear twice or a power of 
+the subject occurs 
+Make r the subject of 
+3
+4
+3
+V
+r
+π
+=
+  
+Make a the subject of 
+4
+3
+5
+a
+a
+r
+−
++
+=
+  
+Make l the subject of 
+2
+l
+T
+g
+π
+=
+ 
+2.4  
+Linear 
+equations 
+See Foundation Tier 
+For example 
+2
+3
+2
+5
+6
+3
+2
+x
+x
+−
++
++
+=
+ 
+
+
+============================================================
+PDF PAGE 38
+============================================================
+ 
+Pearson Edexcel International GCSE in Mathematics (Specification A) –  
+Specification – Issue 2 – November 2017 © Pearson Education Limited 2017 
+32
+ 
+ 
+Students should be taught to: 
+Notes 
+2.5  
+Proportion 
+A set up problems involving direct or 
+inverse proportion and relate algebraic 
+solutions to graphical representation of 
+the equations 
+To include only the 
+following: 
+2
+2
+3
+3
+1
+,
+1
+,
+1
+,
+1
+,
+y
+x y
+x
+y
+x
+y
+x
+y
+x
+y
+x
+y
+x y
+x
+∝
+∝
+∝
+∝
+∝
+∝
+∝
+∝
+ 
+2.6  
+Simultaneous 
+linear equations 
+A calculate the exact solution of two 
+simultaneous equations in two unknowns 
+2x + 3y = 17 
+3x – 5y = 35 
+B interpret the equations as lines and the 
+common solution as the point of 
+intersection 
+ 
+2.7  
+Quadratic 
+equations 
+A solve quadratic equations by 
+factorisation 
+2x2 – 3x + 1 = 0, 
+x(3x – 2) = 5 
+B solve quadratic equations by using the 
+quadratic formula or  completing the 
+square 
+ 
+C form and solve quadratic equations from 
+data given in a context 
+ 
+D solve simultaneous equations in two 
+unknowns, one equation being linear 
+and the other being quadratic 
+y = 2x – 11 and 
+x2 + y2 = 25 
+ 
+y = 11x – 2 and 
+y = 5x2 
+2.8  
+Inequalities 
+A solve quadratic inequalities in one 
+unknown and represent the solution set 
+on a number line 
+x2  25, 4x2 > 25 
+x2 + 3x + 2 > 0 
+B identify harder examples of regions 
+defined by linear inequalities 
+Shade the region 
+defined by the 
+inequalities x  4, 
+y  2x + 1, 
+5x + 2y  20 

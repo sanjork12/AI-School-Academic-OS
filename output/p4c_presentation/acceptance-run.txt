@@ -1,0 +1,15 @@
+{
+  "status": "P4C acceptance passed; one unchanged legacy preservation error",
+  "tests": {
+    "baseline_passed": 95,
+    "focused_passed": 43,
+    "total": 726,
+    "passed": 725,
+    "failures": 0,
+    "errors": 1,
+    "not_run": 0,
+    "known_error": "Missing historical AI_Academic_Operating_System_Brainstorm_CN.pptx; no pins changed"
+  },
+  "pptx": "output\\p4c_presentation\\student\\Standard_Deviation.pptx",
+  "valid": true
+}

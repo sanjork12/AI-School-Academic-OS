@@ -1,0 +1,933 @@
+{
+  "schema_version": "0.2",
+  "purpose": "architecture_prototype_not_production",
+  "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA",
+  "contexts": [
+    {
+      "context_id": "CTX-EDX-4MA1-F-LOCAL-BASELINE",
+      "exam_board": "Pearson Edexcel",
+      "qualification": "International GCSE",
+      "subject": "Mathematics A",
+      "specification_code": "4MA1",
+      "curriculum_version": null,
+      "educational_stage": null,
+      "tier": "Foundation",
+      "pathway": null,
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_foundation_parsed.json",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "context_id": "CTX-EDX-4MA1-H-LOCAL-BASELINE",
+      "exam_board": "Pearson Edexcel",
+      "qualification": "International GCSE",
+      "subject": "Mathematics A",
+      "specification_code": "4MA1",
+      "curriculum_version": null,
+      "educational_stage": null,
+      "tier": "Higher",
+      "pathway": null,
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_higher_parsed.json",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "context_id": "SYN-CTX-VECTOR-A",
+      "exam_board": "Synthetic board A",
+      "qualification": "IGCSE-like",
+      "subject": "Mathematics",
+      "specification_code": null,
+      "curriculum_version": "synthetic-fixture-v1",
+      "educational_stage": "secondary-like",
+      "tier": null,
+      "pathway": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/A/context",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "context_id": "SYN-CTX-VECTOR-B",
+      "exam_board": "Synthetic board B",
+      "qualification": "A-Level-like",
+      "subject": "Mathematics",
+      "specification_code": null,
+      "curriculum_version": "synthetic-fixture-v1",
+      "educational_stage": "upper-secondary-like",
+      "tier": null,
+      "pathway": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/B/context",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "context_id": "SYN-CTX-MATRIX",
+      "exam_board": "Synthetic board C",
+      "qualification": "Synthetic matrix curriculum",
+      "subject": "Mathematics",
+      "specification_code": null,
+      "curriculum_version": null,
+      "educational_stage": null,
+      "tier": null,
+      "pathway": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/context",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "competencies": [
+    {
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "subject_domain": "Algebra",
+      "skill_name": "Identify regions defined by linear inequalities",
+      "description": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+      "status": "approved",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_canonical_promoted.json#CAN-ALG-INEQ-REGION-INTERPRET",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "subject_domain": "Vectors",
+      "skill_name": "Add vectors",
+      "description": "Determine the sum of vectors.",
+      "status": "draft",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/competency",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "canonical_id": "CAN-MATH-MATRIX-ADD",
+      "subject_domain": "Matrices",
+      "skill_name": "Add matrices",
+      "description": "Add matrices.",
+      "status": "draft",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/ADD/candidate",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "canonical_id": "CAN-MATH-MATRIX-SUBTRACT",
+      "subject_domain": "Matrices",
+      "skill_name": "Subtract matrices",
+      "description": "Subtract matrices.",
+      "status": "draft",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/SUBTRACT/candidate",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "canonical_id": "CAN-MATH-MATRIX-SCALAR-MULTIPLY",
+      "subject_domain": "Matrices",
+      "skill_name": "Multiply a matrix by a scalar",
+      "description": "Multiply a matrix by a scalar.",
+      "status": "draft",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/SCALAR-MULTIPLY/candidate",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "canonical_id": "CAN-MATH-MATRIX-MULTIPLY",
+      "subject_domain": "Matrices",
+      "skill_name": "Multiply matrices",
+      "description": "Multiply matrices.",
+      "status": "draft",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/MULTIPLY/candidate",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "canonical_id": "CAN-MATH-MATRIX-INVERSE",
+      "subject_domain": "Matrices",
+      "skill_name": "Find an inverse matrix",
+      "description": "Find an inverse matrix.",
+      "status": "draft",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/INVERSE/candidate",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "objective_references": [
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "context_id": "CTX-EDX-4MA1-F-LOCAL-BASELINE",
+      "wording_excerpt": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_foundation_parsed.json#EDX-4MA1-F-2.8-E",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "context_id": "CTX-EDX-4MA1-H-LOCAL-BASELINE",
+      "wording_excerpt": "identify harder examples of regions defined by linear inequalities",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_higher_parsed.json#EDX-4MA1-H-2.8-B",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-VECTOR-A",
+      "context_id": "SYN-CTX-VECTOR-A",
+      "wording_excerpt": "Add vectors.",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/A/objective",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-VECTOR-B",
+      "context_id": "SYN-CTX-VECTOR-B",
+      "wording_excerpt": "Add vectors.",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/B/objective",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "wording_excerpt": "Understand basic operations on matrices.",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/objective",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "scopes": [
+    {
+      "scope_id": "SCOPE-EDX-4MA1-F-2.8-E-REGION",
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "context_id": "CTX-EDX-4MA1-F-LOCAL-BASELINE",
+      "scope_description": "Identify regions on rectangular Cartesian graphs defined by simple linear inequalities.",
+      "constraints": [
+        "Simple linear inequalities"
+      ],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [],
+      "evidence_ids": [
+        "EV-EDX-4MA1-F-2.8-E-SCOPE"
+      ],
+      "review_status": "approved",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_scope_metadata_prototype.json#EDX-4MA1-F-2.8-E/CAN-ALG-INEQ-REGION-INTERPRET",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "scope_id": "SCOPE-EDX-4MA1-H-2.8-B-REGION",
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "context_id": "CTX-EDX-4MA1-H-LOCAL-BASELINE",
+      "scope_description": "Identify harder examples of regions defined by linear inequalities.",
+      "constraints": [
+        "Harder examples"
+      ],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [],
+      "evidence_ids": [
+        "EV-EDX-4MA1-H-2.8-B-SCOPE"
+      ],
+      "review_status": "approved",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_scope_metadata_prototype.json#EDX-4MA1-H-2.8-B/CAN-ALG-INEQ-REGION-INTERPRET",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-VECTOR-A",
+      "official_source_id": "SYN-OBJ-VECTOR-A",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "context_id": "SYN-CTX-VECTOR-A",
+      "scope_description": "2D vectors; numeric components; direct calculations",
+      "constraints": [
+        "2D vectors",
+        "numeric components",
+        "direct calculations"
+      ],
+      "included_applications": [
+        "direct calculations"
+      ],
+      "excluded_applications": [],
+      "unresolved_scope": [],
+      "evidence_ids": [
+        "SYN-EV-VECTOR-A"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/A/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-VECTOR-B",
+      "official_source_id": "SYN-OBJ-VECTOR-B",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "context_id": "SYN-CTX-VECTOR-B",
+      "scope_description": "2D and 3D vectors; algebraic components; multi-step applications",
+      "constraints": [
+        "2D and 3D vectors",
+        "algebraic components",
+        "multi-step applications"
+      ],
+      "included_applications": [
+        "multi-step applications"
+      ],
+      "excluded_applications": [],
+      "unresolved_scope": [],
+      "evidence_ids": [
+        "SYN-EV-VECTOR-B"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/B/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-MATRIX-ADD",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "canonical_id": "CAN-MATH-MATRIX-ADD",
+      "context_id": "SYN-CTX-MATRIX",
+      "scope_description": "Supported candidate interpretation; official coverage remains unconfirmed",
+      "constraints": [],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [
+        "Official coverage and limits require clarification"
+      ],
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-ADD"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/ADD/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-MATRIX-SUBTRACT",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "canonical_id": "CAN-MATH-MATRIX-SUBTRACT",
+      "context_id": "SYN-CTX-MATRIX",
+      "scope_description": "Supported candidate interpretation; official coverage remains unconfirmed",
+      "constraints": [],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [
+        "Official coverage and limits require clarification"
+      ],
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-SUBTRACT"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/SUBTRACT/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-MATRIX-SCALAR-MULTIPLY",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "canonical_id": "CAN-MATH-MATRIX-SCALAR-MULTIPLY",
+      "context_id": "SYN-CTX-MATRIX",
+      "scope_description": "Supported candidate interpretation; official coverage remains unconfirmed",
+      "constraints": [],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [
+        "Official coverage and limits require clarification"
+      ],
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-SCALAR-MULTIPLY"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/SCALAR-MULTIPLY/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-MATRIX-MULTIPLY",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "canonical_id": "CAN-MATH-MATRIX-MULTIPLY",
+      "context_id": "SYN-CTX-MATRIX",
+      "scope_description": "Supported candidate interpretation; official coverage remains unconfirmed",
+      "constraints": [],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [
+        "Official coverage and limits require clarification"
+      ],
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-MULTIPLY"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/MULTIPLY/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "scope_id": "SYN-SCOPE-MATRIX-INVERSE",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "canonical_id": "CAN-MATH-MATRIX-INVERSE",
+      "context_id": "SYN-CTX-MATRIX",
+      "scope_description": "Unresolved candidate interpretation",
+      "constraints": [],
+      "included_applications": [],
+      "excluded_applications": [],
+      "unresolved_scope": [
+        "Whether inverse matrices are required"
+      ],
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-INVERSE"
+      ],
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/INVERSE/scope",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "EV-EDX-4MA1-F-2.8-E-SUPPORT",
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "context_id": "CTX-EDX-4MA1-F-LOCAL-BASELINE",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "scope_id": null,
+      "source_type": "official_syllabus",
+      "authority": "official_requirement",
+      "observation": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_foundation_parsed.json#EDX-4MA1-F-2.8-E",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "evidence_id": "EV-EDX-4MA1-F-2.8-E-SCOPE",
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "context_id": "CTX-EDX-4MA1-F-LOCAL-BASELINE",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "scope_id": "SCOPE-EDX-4MA1-F-2.8-E-REGION",
+      "source_type": "official_syllabus",
+      "authority": "official_requirement",
+      "observation": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+      "evidence_role": "clarifies",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_foundation_parsed.json#EDX-4MA1-F-2.8-E",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "evidence_id": "EV-EDX-4MA1-H-2.8-B-SUPPORT",
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "context_id": "CTX-EDX-4MA1-H-LOCAL-BASELINE",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "scope_id": null,
+      "source_type": "official_syllabus",
+      "authority": "official_requirement",
+      "observation": "identify harder examples of regions defined by linear inequalities",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_higher_parsed.json#EDX-4MA1-H-2.8-B",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "evidence_id": "EV-EDX-4MA1-H-2.8-B-SCOPE",
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "context_id": "CTX-EDX-4MA1-H-LOCAL-BASELINE",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "scope_id": "SCOPE-EDX-4MA1-H-2.8-B-REGION",
+      "source_type": "official_syllabus",
+      "authority": "official_requirement",
+      "observation": "identify harder examples of regions defined by linear inequalities",
+      "evidence_role": "clarifies",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_higher_parsed.json#EDX-4MA1-H-2.8-B",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-VECTOR-A",
+      "official_source_id": "SYN-OBJ-VECTOR-A",
+      "context_id": "SYN-CTX-VECTOR-A",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "scope_id": "SYN-SCOPE-VECTOR-A",
+      "source_type": "official_specification_note",
+      "authority": "official_requirement",
+      "observation": "Synthetic specification-note example: 2D vectors; numeric components; direct calculations.",
+      "evidence_role": "clarifies",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/A/specification-note",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-VECTOR-B",
+      "official_source_id": "SYN-OBJ-VECTOR-B",
+      "context_id": "SYN-CTX-VECTOR-B",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "scope_id": "SYN-SCOPE-VECTOR-B",
+      "source_type": "official_specification_note",
+      "authority": "official_requirement",
+      "observation": "Synthetic specification-note example: 2D and 3D vectors; algebraic components; multi-step applications.",
+      "evidence_role": "clarifies",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/B/specification-note",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-AMBIGUOUS",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": null,
+      "scope_id": null,
+      "source_type": "official_syllabus",
+      "authority": "official_requirement",
+      "observation": "Synthetic broad wording does not enumerate which matrix operations are required.",
+      "evidence_role": "clarifies",
+      "observation_status": "ambiguous",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/syllabus-like-wording",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-ADD",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-ADD",
+      "scope_id": "SYN-SCOPE-MATRIX-ADD",
+      "source_type": "official_past_paper",
+      "authority": "official_assessment",
+      "observation": "Synthetic past-paper-like sample contains an example of: Add matrices.",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": "Add matrices",
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/examined-sample/ADD",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-SUBTRACT",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-SUBTRACT",
+      "scope_id": "SYN-SCOPE-MATRIX-SUBTRACT",
+      "source_type": "official_past_paper",
+      "authority": "official_assessment",
+      "observation": "Synthetic past-paper-like sample contains an example of: Subtract matrices.",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": "Subtract matrices",
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/examined-sample/SUBTRACT",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-SCALAR-MULTIPLY",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-SCALAR-MULTIPLY",
+      "scope_id": "SYN-SCOPE-MATRIX-SCALAR-MULTIPLY",
+      "source_type": "official_past_paper",
+      "authority": "official_assessment",
+      "observation": "Synthetic past-paper-like sample contains an example of: Multiply a matrix by a scalar.",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": "Multiply a matrix by a scalar",
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/examined-sample/SCALAR-MULTIPLY",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-MULTIPLY",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-MULTIPLY",
+      "scope_id": "SYN-SCOPE-MATRIX-MULTIPLY",
+      "source_type": "official_past_paper",
+      "authority": "official_assessment",
+      "observation": "Synthetic past-paper-like sample contains an example of: Multiply matrices.",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": "Multiply matrices",
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/examined-sample/MULTIPLY",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-INVERSE",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-INVERSE",
+      "scope_id": "SYN-SCOPE-MATRIX-INVERSE",
+      "source_type": "official_past_paper",
+      "authority": "official_assessment",
+      "observation": "Synthetic past-paper-like sample examined did not contain inverse matrices. This is not evidence of exclusion.",
+      "evidence_role": "clarifies",
+      "observation_status": "not_observed",
+      "explicit_exclusion": false,
+      "application": "Find an inverse matrix",
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/examined-sample/INVERSE",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "evidence_id": "SYN-EV-MATRIX-TEXTBOOK",
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-ADD",
+      "scope_id": null,
+      "source_type": "third_party_textbook",
+      "authority": "third_party_material",
+      "observation": "Synthetic textbook-like example illustrates matrix addition; it does not define syllabus coverage.",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "explicit_exclusion": false,
+      "application": null,
+      "confidence": null,
+      "review_status": "pending",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/textbook-like-example",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "mappings": [
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "context_id": "CTX-EDX-4MA1-F-LOCAL-BASELINE",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved",
+      "evidence_ids": [
+        "EV-EDX-4MA1-F-2.8-E-SUPPORT"
+      ],
+      "human_review_decision_id": "REV-4MA1-T2-INEQ-REGION-001",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_canonical_promoted.json#EDX-4MA1-F-2.8-E/CAN-ALG-INEQ-REGION-INTERPRET",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "context_id": "CTX-EDX-4MA1-H-LOCAL-BASELINE",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved",
+      "evidence_ids": [
+        "EV-EDX-4MA1-H-2.8-B-SUPPORT"
+      ],
+      "human_review_decision_id": "REV-4MA1-T2-INEQ-REGION-001",
+      "provenance": {
+        "origin": "real",
+        "source_reference": "output/topic2_canonical_promoted.json#EDX-4MA1-H-2.8-B/CAN-ALG-INEQ-REGION-INTERPRET",
+        "synthetic_notice": null
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-VECTOR-A",
+      "context_id": "SYN-CTX-VECTOR-A",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "relationship": "narrower",
+      "confidence": 0.9,
+      "mapping_method": "human",
+      "review_status": "pending",
+      "evidence_ids": [
+        "SYN-EV-VECTOR-A"
+      ],
+      "human_review_decision_id": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/A/mapping",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-VECTOR-B",
+      "context_id": "SYN-CTX-VECTOR-B",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "relationship": "narrower",
+      "confidence": 0.9,
+      "mapping_method": "human",
+      "review_status": "pending",
+      "evidence_ids": [
+        "SYN-EV-VECTOR-B"
+      ],
+      "human_review_decision_id": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/vector/B/mapping",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-ADD",
+      "relationship": "broader",
+      "confidence": 0.7,
+      "mapping_method": "human",
+      "review_status": "pending",
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-ADD"
+      ],
+      "human_review_decision_id": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/ADD/candidate-mapping",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-SUBTRACT",
+      "relationship": "broader",
+      "confidence": 0.7,
+      "mapping_method": "human",
+      "review_status": "pending",
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-SUBTRACT"
+      ],
+      "human_review_decision_id": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/SUBTRACT/candidate-mapping",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-SCALAR-MULTIPLY",
+      "relationship": "broader",
+      "confidence": 0.7,
+      "mapping_method": "human",
+      "review_status": "pending",
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-SCALAR-MULTIPLY"
+      ],
+      "human_review_decision_id": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/SCALAR-MULTIPLY/candidate-mapping",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "official_source_id": "SYN-OBJ-MATRIX-BASIC",
+      "context_id": "SYN-CTX-MATRIX",
+      "canonical_id": "CAN-MATH-MATRIX-MULTIPLY",
+      "relationship": "broader",
+      "confidence": 0.7,
+      "mapping_method": "human",
+      "review_status": "pending",
+      "evidence_ids": [
+        "SYN-EV-MATRIX-AMBIGUOUS",
+        "SYN-EV-MATRIX-MULTIPLY"
+      ],
+      "human_review_decision_id": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/matrix/MULTIPLY/candidate-mapping",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "SYN-Q-VECTOR-DIRECT",
+      "source_type": "other",
+      "curriculum_context_id": "SYN-CTX-VECTOR-A",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/questions/DIRECT",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "question_id": "SYN-Q-VECTOR-MULTISTEP",
+      "source_type": "other",
+      "curriculum_context_id": "SYN-CTX-VECTOR-A",
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/questions/MULTISTEP",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ],
+  "question_mappings": [
+    {
+      "question_id": "SYN-Q-VECTOR-DIRECT",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "primary": true,
+      "confidence": 0.9
+    },
+    {
+      "question_id": "SYN-Q-VECTOR-MULTISTEP",
+      "canonical_id": "CAN-MATH-VECTOR-ADD",
+      "primary": true,
+      "confidence": 0.9
+    }
+  ],
+  "question_difficulties": [
+    {
+      "question_id": "SYN-Q-VECTOR-DIRECT",
+      "scale": "0_to_1_higher_is_harder",
+      "predicted_difficulty": 0.25,
+      "observed_difficulty": null,
+      "reasoning_steps": 1,
+      "scaffolding_level": "substantial",
+      "context_familiarity": "familiar",
+      "difficulty_method": "expert_estimate",
+      "observed_sample_size": null,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/questions/DIRECT/simulated-measurement-not-student-data",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    },
+    {
+      "question_id": "SYN-Q-VECTOR-MULTISTEP",
+      "scale": "0_to_1_higher_is_harder",
+      "predicted_difficulty": 0.75,
+      "observed_difficulty": 0.6,
+      "reasoning_steps": 4,
+      "scaffolding_level": "none",
+      "context_familiarity": "novel",
+      "difficulty_method": "mixed",
+      "observed_sample_size": 40,
+      "provenance": {
+        "origin": "synthetic",
+        "source_reference": "synthetic://architecture-v02/questions/MULTISTEP/simulated-measurement-not-student-data",
+        "synthetic_notice": "SYNTHETIC ARCHITECTURE TEST DATA — NOT OFFICIAL CURRICULUM DATA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "structure_valid": true,
+  "source_verified": false,
+  "selected_targets": [
+    {
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-a-MEAN-CALC"
+      },
+      "source_verified": false,
+      "reasons": [
+        "unverified_evidence:EV-001",
+        "unverified_evidence:EV-002",
+        "no_verified_supporting_source"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-b-SD-CALC"
+      },
+      "source_verified": false,
+      "reasons": [
+        "unverified_evidence:EV-003",
+        "unverified_evidence:EV-004",
+        "no_verified_supporting_source"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-c-VARIATION-INTERPRET"
+      },
+      "source_verified": false,
+      "reasons": [
+        "unverified_evidence:EV-005",
+        "unverified_evidence:EV-006",
+        "no_verified_supporting_source"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-c-CONTEXT-INFER"
+      },
+      "source_verified": false,
+      "reasons": [
+        "unverified_evidence:EV-007",
+        "unverified_evidence:EV-008",
+        "no_verified_supporting_source"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q4-b-DATA-CLEAN"
+      },
+      "source_verified": false,
+      "reasons": [
+        "unverified_evidence:EV-009",
+        "unverified_evidence:EV-010",
+        "no_verified_supporting_source"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q4-c-ii-MODEL-PARAM-INTERPRET"
+      },
+      "source_verified": false,
+      "reasons": [
+        "unverified_evidence:EV-011",
+        "unverified_evidence:EV-012",
+        "no_verified_supporting_source"
+      ],
+      "review_status": "pending"
+    }
+  ],
+  "unverified_sources": [
+    "SRC-9MA0-SPEC",
+    "SRC-9MA0-2025-31-QP",
+    "SRC-9MA0-2025-31-MS",
+    "SRC-GOLD-DISCUSSION"
+  ],
+  "pending_review_count": 52,
+  "counts": {
+    "sources": 4,
+    "locators": 15,
+    "contexts": 1,
+    "concepts": 14,
+    "competencies": 15,
+    "concept_links": 4,
+    "gold_standard_entries": 34,
+    "objective_references": 0,
+    "scopes": 0,
+    "objective_mappings": 0,
+    "questions": 2,
+    "question_parts": 6,
+    "task_conditions": 4,
+    "part_condition_links": 6,
+    "resources": 1,
+    "resource_uses": 2,
+    "evidence": 22,
+    "part_mappings": 6,
+    "question_difficulties": 0,
+    "review_decisions": 0
+  },
+  "notice": "Structure and source readiness are not academic approval or production promotion."
+}

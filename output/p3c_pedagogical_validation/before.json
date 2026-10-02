@@ -1,0 +1,59 @@
+{
+  "database": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      },
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    }
+  },
+  "files": {
+    "academic_os\\pedagogical_core.py": "2267fda811983de176a8fbab02ae5ecd3e7dfc1b080059e45cd6ec508a990eaf",
+    "academic_os\\pedagogical_models.py": "892766b65fed12c47d9a87dbb096dc28fd470dfab2fcca189cb43eb585cada03",
+    "academic_os\\pedagogical_service.py": "5d8ac45478dd6a62bc5354b573f2460af6e0c01347c51596fa154c13858caa2a",
+    "academic_os\\learning_core.py": "8a4ea732058ce4d1179d350243fec9a492c4182cf13d56fe603ea174e1121bf4",
+    "academic_os\\learning_models.py": "1b78dd2322d0abd692c6f1923f79ea961d8508e13799d5c4e1306f573d9c13ac",
+    "academic_os\\learning_rendering.py": "5b0cfa5faa7b2f8ccc904f5c4cbf2d705d9440d3fc358d1ac5cea661a142b86b",
+    "academic_os\\learning_service.py": "eb4642c9931101179b1e2fd18e9b7abcc45e0ecc1b31077f1e8e492fbed08c31",
+    "academic_os\\product_models.py": "07ecc8a6b2f03a2b4d9f345b82d446900a9db5a5f179708c6e85bf3baa55c22b",
+    "academic_os\\product_service.py": "5f097b05aacd63417f30e97e0fef55bec201f6400d4ab3cec2aa41b23d7e9e06",
+    "academic_os\\assessment_intelligence.py": "1bc8c4c8ee30c226ebfe01fca6bd9a7d711ed29ea3061de5e2a7ed9d147825f2",
+    "tests_p0\\fixtures\\learning_standard_deviation_gold.json": "7d968182bb2cdc3e76636c009af840e227f81fcf336f778673d8836bb232fcb3",
+    "tests_p0\\fixtures\\pedagogical_standard_deviation_gold.json": "25586cfec290a4348e235db3b9d444f0c9a28ddcae07a136090f6b07718876de",
+    "tests_p0\\fixtures\\q2_gold_standard.json": "5485118dec44a6be52ac2eb9445b95e299a5dc961f7a650b0674aadc6300be65",
+    "tests_p0\\fixtures\\q3_gold_standard.json": "a2d98701e8fc16b0dca9facd123a17fbc966c39106ea8c4a4f5a26da51a09d51",
+    "output\\p2a_teacher_view\\standard_deviation.json": "f898f9f3b0ce1e09dda5648f12c523691e90d4856d76076203b2b84cc65da5c9",
+    "output\\p2b_assessment_intelligence\\standard_deviation.json": "510a509369e1248bc7e39cb0a11f4d9592ad366f28d704ba59c6e11502310577",
+    "output\\p3a_learning_specification\\standard_deviation.json": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "output\\p3b_pedagogical_specification\\standard_deviation.json": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357"
+  }
+}

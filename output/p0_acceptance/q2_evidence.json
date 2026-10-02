@@ -1,0 +1,555 @@
+{
+  "key": "part_mapping:MAP-Q2-c-VARIATION-INTERPRET",
+  "version": "a8c152df9da0d20f6e1ac8dce27e4065689083b536a101dcd7f71ffc2a69ba4d",
+  "state": "pending",
+  "expected_decision": null,
+  "dependency_digest": "0beab0172bc70d676e7e6a663cb78dc754094ec80e68f2502528dff988dac860",
+  "dependencies": {
+    "competency:CAN-STAT-VARIATION-INTERPRET": "d8c976f55c72de5ad22333a3caf587731281d23acce5ca81d6828696bfc59a7d",
+    "condition:COND-COMPARE": "c0c84f340f223ab0907f6a6d0d663dca2d42ccbd3f24ab9c3e4a22927df1e52a",
+    "condition:COND-SUMMARY": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+    "context:CTX-9MA0": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+    "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET": "e1b995640b83e3823d2dae3de2c3bd106c493ad3e0673ce3d444475b5adb1535",
+    "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET": "35eae350f4e771ddf93e6597d6039a91de9d5b2f9afd39986abad9484b23d2c6",
+    "locator:MS-Q2-c": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+    "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+    "locator:QP-Q2-b": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+    "locator:QP-Q2-c": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+    "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+    "part_mapping:MAP-Q2-c-VARIATION-INTERPRET": "a8c152df9da0d20f6e1ac8dce27e4065689083b536a101dcd7f71ffc2a69ba4d",
+    "question:Q2": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+    "question_part:Q2-b": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+    "question_part:Q2-c": "b34d877b0c76e72b4897a48fcb57fd131d305574a1732f6438076fdfc2bfa110",
+    "scope:SCOPE-STAT-2.3": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+    "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+    "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+    "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+  },
+  "record": {
+    "judgment_refs": [
+      "scope:SCOPE-STAT-2.3"
+    ],
+    "kind": "part_mapping",
+    "payload": {
+      "assessment_extent": "partial",
+      "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+      "confidence": null,
+      "evidence_ids": [
+        "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+        "EV-MS-MAP-Q2-c-VARIATION-INTERPRET"
+      ],
+      "focus_concept_ids": [],
+      "mapping_id": "MAP-Q2-c-VARIATION-INTERPRET",
+      "mapping_method": "rule",
+      "part_id": "Q2-c",
+      "provenance": {
+        "creation_method": "rule",
+        "origin": "real",
+        "source_references": [
+          "locator:QP-Q2-c",
+          "locator:MS-Q2-c"
+        ],
+        "synthetic_notice": null
+      },
+      "rationale": "Candidate mapping checked against question and mark scheme pages; academic approval pending. Section association is a separate candidate scope.",
+      "review_decision_id": null,
+      "review_status": "pending",
+      "role": "assessed"
+    }
+  },
+  "evidence_bundle": {
+    "competency:CAN-STAT-VARIATION-INTERPRET": {
+      "version": "d8c976f55c72de5ad22333a3caf587731281d23acce5ca81d6828696bfc59a7d",
+      "record": {
+        "judgment_refs": [],
+        "kind": "competency",
+        "payload": {
+          "action_classification": null,
+          "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+          "description": "Interpret a measure of variation in context without turning it into a guarantee about individual extremes.",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:SPEC-2.3",
+              "locator:MS-Q2-c"
+            ],
+            "synthetic_notice": null
+          },
+          "registry_decision_id": null,
+          "skill_name": "Interpret variation",
+          "status": "draft",
+          "subject_domain": "Statistics"
+        }
+      }
+    },
+    "condition:COND-COMPARE": {
+      "version": "c0c84f340f223ab0907f6a6d0d663dca2d42ccbd3f24ab9c3e4a22927df1e52a",
+      "record": {
+        "judgment_refs": [],
+        "kind": "condition",
+        "payload": {
+          "availability": "given_in_question",
+          "condition_id": "COND-COMPARE",
+          "description": "Coach B: n=100, mean 55.1 seconds and SD 3.6 seconds. Equal numbers of the fastest runners from each coach compete. Mark scheme (c) uses result (b); larger SD alone is not a mathematical guarantee about extremes.",
+          "evidence_ids": [],
+          "kind": "context_detail",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:QP-Q2"
+            ],
+            "synthetic_notice": null
+          },
+          "question_id": "Q2",
+          "resource_id": null,
+          "review_decision_id": null,
+          "review_status": "pending"
+        }
+      }
+    },
+    "condition:COND-SUMMARY": {
+      "version": "217baaae996ac9fa27ecdd0852ada78c2359aa43785393614be8fb18682e57f3",
+      "record": {
+        "judgment_refs": [],
+        "kind": "condition",
+        "payload": {
+          "availability": "given_in_question",
+          "condition_id": "COND-SUMMARY",
+          "description": "Coach A: n=120, sum x=6612, sum x squared=364902; x is best 400 m time in seconds. Formula glyphs in extracted PDF text are imperfect; check the original page.",
+          "evidence_ids": [],
+          "kind": "input_form",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:QP-Q2"
+            ],
+            "synthetic_notice": null
+          },
+          "question_id": "Q2",
+          "resource_id": null,
+          "review_decision_id": null,
+          "review_status": "pending"
+        }
+      }
+    },
+    "context:CTX-9MA0": {
+      "version": "c2590b4fb08e1366c6e816609be37711b1d38553977344dd4417c0e5079a4bf2",
+      "record": {
+        "judgment_refs": [],
+        "kind": "context",
+        "payload": {
+          "context_id": "CTX-9MA0",
+          "curriculum_version": "2017 qualification; specification Issue 4 February 2020",
+          "educational_stage": "UK Level 3 / A Level",
+          "exam_board": "Pearson Edexcel",
+          "pathway": null,
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:SPEC-2.3"
+            ],
+            "synthetic_notice": null
+          },
+          "qualification": "A Level Mathematics",
+          "specification_code": "9MA0",
+          "subject": "Mathematics",
+          "tier": null
+        }
+      }
+    },
+    "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET": {
+      "version": "e1b995640b83e3823d2dae3de2c3bd106c493ad3e0673ce3d444475b5adb1535",
+      "record": {
+        "judgment_refs": [],
+        "kind": "evidence",
+        "payload": {
+          "application": null,
+          "confidence": null,
+          "content_kind": "interpretation",
+          "context_id": "CTX-9MA0",
+          "evidence_id": "EV-MS-MAP-Q2-c-VARIATION-INTERPRET",
+          "evidence_role": "supports",
+          "examined_sample": null,
+          "explicit_exclusion": false,
+          "objective_id": null,
+          "observation": "Candidate reading of MS Q2(c): Interpret a measure of variation in context without turning it into a guarantee about individual extremes.",
+          "observation_status": "observed",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:MS-Q2-c"
+            ],
+            "synthetic_notice": null
+          },
+          "review_decision_id": null,
+          "review_status": "pending",
+          "source_locator_ids": [
+            "MS-Q2-c"
+          ],
+          "target": {
+            "id": "MAP-Q2-c-VARIATION-INTERPRET",
+            "kind": "part_mapping"
+          }
+        }
+      }
+    },
+    "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET": {
+      "version": "35eae350f4e771ddf93e6597d6039a91de9d5b2f9afd39986abad9484b23d2c6",
+      "record": {
+        "judgment_refs": [],
+        "kind": "evidence",
+        "payload": {
+          "application": null,
+          "confidence": null,
+          "content_kind": "interpretation",
+          "context_id": "CTX-9MA0",
+          "evidence_id": "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+          "evidence_role": "supports",
+          "examined_sample": null,
+          "explicit_exclusion": false,
+          "objective_id": null,
+          "observation": "Candidate reading of QP Q2(c): Interpret a measure of variation in context without turning it into a guarantee about individual extremes.",
+          "observation_status": "observed",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:QP-Q2-c"
+            ],
+            "synthetic_notice": null
+          },
+          "review_decision_id": null,
+          "review_status": "pending",
+          "source_locator_ids": [
+            "QP-Q2-c"
+          ],
+          "target": {
+            "id": "MAP-Q2-c-VARIATION-INTERPRET",
+            "kind": "part_mapping"
+          }
+        }
+      }
+    },
+    "locator:MS-Q2-c": {
+      "version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+      "record": {
+        "judgment_refs": [],
+        "kind": "locator",
+        "payload": {
+          "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-MS.pdf#page=7",
+          "assessment_part_id": "Q2-c",
+          "assessment_question_id": "Q2",
+          "extracted_text": "Question Scheme Marks AOs \n2(a) 6612\n120x = =\n 55.1 (seconds) B1 1.1b \n (1)  \n2(b) [ ]\n2364 902 (\"55.1\")     or    4.84120\nxσ = −  M1 1.1b \n                                                                         = 2.2 (seconds) A1 1.1b \n (2)  \n2(c) Coach B  because standard deviation is greater M1 2.4 \nThis means B has a greater range and therefore more extreme values A1ft 2.2b \n (2)  \n(5 marks) \nNotes:  \nIgnore units in this question \n(a) B1 for 55.1  or 1\n1055  only  (may be seen in the question) ISW e.g. 55.1 followed by 55 etc \nDo not accept 551\n10  that scores B0 \n(b) M1 for a correct expression (values seen not just a formula)(including ) \nA1 for 2.2  or  11\n5  o.e. (allow s = 2.209… so awrt 2.21) \nCorrect answer is 2 marks \n(c) \n \n“2.2”<3.6 \n \n \n \n \n \n \n \n \n \n \nSC \n“2.2”>3.6 \nIgnore comments about different number of runners.  Don’t need to state means are the same. \nIf there is no answer given for (b) then no marks can be scored in (c) \nB1 for coach B and states  s.d. of B is greater o.e. Must compare. Allow implied choose B \ne.g. B has a greater range or Bs values are more spread out or  3.6 > “2.2”  or \"2.2\"Bσ >  \nMay say s.d. of A is smaller which is equivalent to saying s.d. of B is larger \ndB1 (dep on 1st B1 scored) for clear reason why greater s.d. means choose coach B \nIdea of greater range and more extreme values (faster times) in B  \ne.g. B has more (or greater chance of or greater % of) runners at lower times \n(may compare mean – 1 or 2 or 3 standard deviations to show that B has the quicker time) \ne.g. coach A (52.9) > (51.5) coach B so coach B likely to be quickest \nNB “coach B  since B has greater range /s.d.  and so more extreme values” scores B1B1 \n(A0 in (b) and answer > 3.6) \nB1 equivalent reasons as above but choose A \ndB1 same rules as above but applied to A \n \n \n  ",
+          "extraction_method": "pypdf_page_text",
+          "extractor_version": "6.12.2",
+          "label": "Q2(c) scoring and notes",
+          "locator_id": "MS-Q2-c",
+          "locator_kind": "question_part",
+          "page_index": 6,
+          "source_id": "MS",
+          "source_version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+          "text_digest": "12672ba2bbce5667f44ee413e3b0db9635192adb0ea7c138bc6fc8ae3d81703b",
+          "text_summary": "Coach B, using greater SD and the likelihood of more extreme faster times. Conditional follow-through notes refer to answer (b). This contextual inference is not a universal implication of SD alone.",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "visual_region": [
+            0.05,
+            0.02,
+            0.91,
+            0.82
+          ]
+        }
+      }
+    },
+    "locator:QP-Q2": {
+      "version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+      "record": {
+        "judgment_refs": [],
+        "kind": "locator",
+        "payload": {
+          "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+          "assessment_part_id": null,
+          "assessment_question_id": "Q2",
+          "extracted_text": "*P75695A0420*\nDO NOT WRITE IN THIS AREA   DO  NOT WRITE IN THIS AREA      DO  NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO  NOT WRITE IN THIS AREA       DO  NOT WRITE IN THIS AREA\n4\n  \n2. Runners in an athletics club can train with either coach A or coach B for the 400 m race.\n Coach A\n trains 120 runners for the 400  m and records the best time, x seconds, for \neach runner\n.\n The results are summarised by the following  statistics\nxx/g32/g32/g166/g1666612 364902\n2\n (a) Calculate the mean  of the best times for the runners trained by coach  A\n(1)\n (b) Calculate \nthe standard deviation of the best times for the runners trained by coach  A\n(2)\n The mean and standard deviation \nfor the best times of the 100 runners trained for \nthe 400 m by coach B are 55.1 seconds and 3.6 seconds  respectively\n.\n A 400 m race consists of equal numbers of the fastest runners trained \nby coach A and by \ncoach B\n (c) State, giving a reason, which coach \nis more likely to have trained the  winner\n.\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________",
+          "extraction_method": "pypdf_page_text",
+          "extractor_version": "6.12.2",
+          "label": "Question 2",
+          "locator_id": "QP-Q2",
+          "locator_kind": "section",
+          "page_index": 3,
+          "source_id": "QP",
+          "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "text_digest": "dfb5f8f2d83d95ad62433cea6be11e5db7f79a25b5fadb4088f06ba7d5ccc98a",
+          "text_summary": "Athletics coaches, 400 m best times; summary statistics and comparison.",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "visual_region": [
+            0.05,
+            0.06,
+            0.89,
+            0.4
+          ]
+        }
+      }
+    },
+    "locator:QP-Q2-b": {
+      "version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+      "record": {
+        "judgment_refs": [],
+        "kind": "locator",
+        "payload": {
+          "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+          "assessment_part_id": "Q2-b",
+          "assessment_question_id": "Q2",
+          "extracted_text": "*P75695A0420*\nDO NOT WRITE IN THIS AREA   DO  NOT WRITE IN THIS AREA      DO  NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO  NOT WRITE IN THIS AREA       DO  NOT WRITE IN THIS AREA\n4\n  \n2. Runners in an athletics club can train with either coach A or coach B for the 400 m race.\n Coach A\n trains 120 runners for the 400  m and records the best time, x seconds, for \neach runner\n.\n The results are summarised by the following  statistics\nxx/g32/g32/g166/g1666612 364902\n2\n (a) Calculate the mean  of the best times for the runners trained by coach  A\n(1)\n (b) Calculate \nthe standard deviation of the best times for the runners trained by coach  A\n(2)\n The mean and standard deviation \nfor the best times of the 100 runners trained for \nthe 400 m by coach B are 55.1 seconds and 3.6 seconds  respectively\n.\n A 400 m race consists of equal numbers of the fastest runners trained \nby coach A and by \ncoach B\n (c) State, giving a reason, which coach \nis more likely to have trained the  winner\n.\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________",
+          "extraction_method": "pypdf_page_text",
+          "extractor_version": "6.12.2",
+          "label": "Q2(b)",
+          "locator_id": "QP-Q2-b",
+          "locator_kind": "question_part",
+          "page_index": 3,
+          "source_id": "QP",
+          "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "text_digest": "dfb5f8f2d83d95ad62433cea6be11e5db7f79a25b5fadb4088f06ba7d5ccc98a",
+          "text_summary": "Calculate standard deviation; 2 marks.",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "visual_region": [
+            0.07,
+            0.12,
+            0.85,
+            0.31
+          ]
+        }
+      }
+    },
+    "locator:QP-Q2-c": {
+      "version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+      "record": {
+        "judgment_refs": [],
+        "kind": "locator",
+        "payload": {
+          "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-2025-31-QP.pdf#page=4",
+          "assessment_part_id": "Q2-c",
+          "assessment_question_id": "Q2",
+          "extracted_text": "*P75695A0420*\nDO NOT WRITE IN THIS AREA   DO  NOT WRITE IN THIS AREA      DO  NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO  NOT WRITE IN THIS AREA       DO  NOT WRITE IN THIS AREA\n4\n  \n2. Runners in an athletics club can train with either coach A or coach B for the 400 m race.\n Coach A\n trains 120 runners for the 400  m and records the best time, x seconds, for \neach runner\n.\n The results are summarised by the following  statistics\nxx/g32/g32/g166/g1666612 364902\n2\n (a) Calculate the mean  of the best times for the runners trained by coach  A\n(1)\n (b) Calculate \nthe standard deviation of the best times for the runners trained by coach  A\n(2)\n The mean and standard deviation \nfor the best times of the 100 runners trained for \nthe 400 m by coach B are 55.1 seconds and 3.6 seconds  respectively\n.\n A 400 m race consists of equal numbers of the fastest runners trained \nby coach A and by \ncoach B\n (c) State, giving a reason, which coach \nis more likely to have trained the  winner\n.\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________",
+          "extraction_method": "pypdf_page_text",
+          "extractor_version": "6.12.2",
+          "label": "Q2(c)",
+          "locator_id": "QP-Q2-c",
+          "locator_kind": "question_part",
+          "page_index": 3,
+          "source_id": "QP",
+          "source_version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+          "text_digest": "dfb5f8f2d83d95ad62433cea6be11e5db7f79a25b5fadb4088f06ba7d5ccc98a",
+          "text_summary": "Infer which coach is more likely to have trained the winner; 2 marks.",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "visual_region": [
+            0.07,
+            0.12,
+            0.85,
+            0.31
+          ]
+        }
+      }
+    },
+    "locator:SPEC-2.3": {
+      "version": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+      "record": {
+        "judgment_refs": [],
+        "kind": "locator",
+        "payload": {
+          "anchor": "file:///D:/AI-School-Academic-OS/output/academic_knowledge_v03/source_audit_20260919/sources/9MA0-Specification-Issue4.pdf#page=35",
+          "assessment_part_id": null,
+          "assessment_question_id": null,
+          "extracted_text": " \nPearson Edexcel Level 3 Advanced GCE in Mathematics  \nSpecification – Issue 4 – February 2020 – © Pearson Education Limited 2020 \n31 \n \nTopics \nWhat students need to learn: \nContent Guidance \n2 \nData \npresentation \nand \ninterpretation \ncontinued \n \n2.2 Interpret scatter \ndiagrams and regression \nlines for bivariate data,\n \nincluding recognition of \nscatter diagrams which \ninclude distinct sections \nof the population \n(calculations involving \nregression lines are \nexcluded). \nStudents should be familiar with the \nterms explanatory (independent) and \nresponse (dependent) variables. \nUse of interpolation and the dangers \nof extrapolation. Variables other than \nx and y may be used.  \nUse to make predictions within the range \nof values of the explanatory variable.  \nChange of variable may be required, e.g. \nusing knowledge of logarithms to reduce a \nrelationship of the form y = axn or y = kbx \ninto linear form to estimate a and n or k \nand b. \nUnderstand informal \ninterpretation of \ncorrelation. \nUnderstand that \ncorrelation does not \nimply causation. \nUse of terms such as positive, \nnegative, zero, strong and weak are \nexpected. \n \n2.3 \n \nInterpret measures of \ncentral tendency and \nvariation, extending to \nstandard deviation. \n \nData may be discrete, continuous, \ngrouped or ungrouped. Understanding \nand use of coding. \nMeasures of central tendency: mean, \nmedian, mode. \nMeasures of variation:\n variance, \nstandard deviation, range and \ninterpercentile ranges. \nUse of linear interpolation to calculate \npercentiles from grouped data is \nexpected. \nBe able to calculate \nstandard deviation, \nincluding from summary \nstatistics. \nStudents should be able to use the \nstatistic x \nSxx =  2()xx−∑ = \n2\n2 () xx\nn\n− ∑∑\n \nUse of standard deviation = xxS\nn\n (or \nequivalent) is expected but the use of \nS = \n1\nxx\nn\nS\n−\n (as used on spreadsheets) \nwill be accepted. ",
+          "extraction_method": "pypdf_page_text",
+          "extractor_version": "6.12.2",
+          "label": "Statistics section 2.3, printed page 31",
+          "locator_id": "SPEC-2.3",
+          "locator_kind": "section",
+          "page_index": 34,
+          "source_id": "SPEC",
+          "source_version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+          "text_digest": "04ea15d9f2c920fde3299e9b504d6add90a6b9d12fe89e76d77a674322aaf5f9",
+          "text_summary": "Location and variation, including standard deviation from summary statistics. Candidate scope association; no invented official objective ID.",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "visual_region": [
+            0.3,
+            0.49,
+            0.62,
+            0.43
+          ]
+        }
+      }
+    },
+    "question:Q2": {
+      "version": "afa336af73c7e6aefe76952411278b07c4af197afec1458340209f07b6538e3d",
+      "record": {
+        "judgment_refs": [],
+        "kind": "question",
+        "payload": {
+          "curriculum_context_id": "CTX-9MA0",
+          "label": "June 2025 9MA0/31 Q2",
+          "paper_source_id": "QP",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:QP-Q2"
+            ],
+            "synthetic_notice": null
+          },
+          "question_id": "Q2",
+          "source_locator_id": "QP-Q2"
+        }
+      }
+    },
+    "question_part:Q2-b": {
+      "version": "943bf66b57bfdcebf269c50bdb8804f925614c0c3ed8b5ce1167794f1df098db",
+      "record": {
+        "judgment_refs": [
+          "condition:COND-SUMMARY"
+        ],
+        "kind": "question_part",
+        "payload": {
+          "label": "Q2(b)",
+          "node_kind": "assessable",
+          "parent_part_id": null,
+          "part_id": "Q2-b",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:QP-Q2-b"
+            ],
+            "synthetic_notice": null
+          },
+          "question_id": "Q2",
+          "source_locator_id": "QP-Q2-b"
+        }
+      }
+    },
+    "question_part:Q2-c": {
+      "version": "b34d877b0c76e72b4897a48fcb57fd131d305574a1732f6438076fdfc2bfa110",
+      "record": {
+        "judgment_refs": [
+          "condition:COND-COMPARE",
+          "condition:COND-SUMMARY",
+          "question_part:Q2-b"
+        ],
+        "kind": "question_part",
+        "payload": {
+          "label": "Q2(c)",
+          "node_kind": "assessable",
+          "parent_part_id": null,
+          "part_id": "Q2-c",
+          "provenance": {
+            "creation_method": "rule",
+            "origin": "real",
+            "source_references": [
+              "locator:QP-Q2-c"
+            ],
+            "synthetic_notice": null
+          },
+          "question_id": "Q2",
+          "source_locator_id": "QP-Q2-c"
+        }
+      }
+    },
+    "scope:SCOPE-STAT-2.3": {
+      "version": "557cfad67ce945a540db0cdcde5e1e279bc6678e5e2723f7d01b3a65349c2597",
+      "record": {
+        "judgment_refs": [],
+        "kind": "scope",
+        "payload": {
+          "association_status": "candidate",
+          "context_id": "CTX-9MA0",
+          "description": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+          "locator_ids": [
+            "SPEC-2.3"
+          ],
+          "official_section_label": "2.3 (Statistics)",
+          "scope_id": "SCOPE-STAT-2.3"
+        }
+      }
+    },
+    "source:MS": {
+      "version": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1",
+      "record": {
+        "judgment_refs": [],
+        "kind": "source",
+        "payload": {
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-MS.pdf",
+          "content_digest": "e90d722e74e3af32d6c389cb1b90b6d29b3acabfce5d5ddee5036fbb053dc449",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "edition": null,
+          "identity_basis": "Cover identifies Summer 2025, Mathematics (9MA0), Paper 31 Statistics. Operator must check authenticity/edition.",
+          "origin": "real",
+          "publisher": null,
+          "source_id": "MS",
+          "source_type": "official_mark_scheme",
+          "synthetic_notice": null,
+          "title": "Pearson Edexcel Mathematics 9MA0 Paper 31 Statistics mark scheme",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "version_label": "Summer 2025"
+        }
+      }
+    },
+    "source:QP": {
+      "version": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a",
+      "record": {
+        "judgment_refs": [],
+        "kind": "source",
+        "payload": {
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-2025-31-QP.pdf",
+          "content_digest": "ab9ba2534ad3547f74b55863df74b7dd9f8cad27e050c8562b923148069fd5a9",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "edition": null,
+          "identity_basis": "Cover identifies 9MA0/31, Thursday 19 June 2025 and P75695A. Identity is a candidate assertion until local operator verification.",
+          "origin": "real",
+          "publisher": null,
+          "source_id": "QP",
+          "source_type": "official_past_paper",
+          "synthetic_notice": null,
+          "title": "Pearson Edexcel 9MA0/31 Statistics question paper",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "version_label": "19 June 2025, P75695A"
+        }
+      }
+    },
+    "source:SPEC": {
+      "version": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091",
+      "record": {
+        "judgment_refs": [],
+        "kind": "source",
+        "payload": {
+          "artifact_reference": "D:\\AI-School-Academic-OS\\output\\academic_knowledge_v03\\source_audit_20260919\\sources\\9MA0-Specification-Issue4.pdf",
+          "content_digest": "b008c50064090bab5c3e26e1f3c97778d21b492d5b839219f73eca11828ecef8",
+          "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+          "edition": null,
+          "identity_basis": "Cover identifies 9MA0 and Issue 4; printed page 31 identifies February 2020.",
+          "origin": "real",
+          "publisher": null,
+          "source_id": "SPEC",
+          "source_type": "official_syllabus",
+          "synthetic_notice": null,
+          "title": "Pearson Edexcel Level 3 Advanced GCE in Mathematics (9MA0)",
+          "verification_reference": null,
+          "verification_status": "unverified",
+          "version_label": "Issue 4, February 2020; first teaching September 2017"
+        }
+      }
+    }
+  },
+  "history": []
+}

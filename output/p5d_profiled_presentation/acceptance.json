@@ -1,0 +1,474 @@
+{
+  "counts_after": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "counts_before": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "database_after": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "database_before": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "frozen_p4c1_semantic_regression": "test_05_focused_semantic_regression",
+  "full_repository_suite_run": false,
+  "limitations": [
+    "No native PowerPoint rendering verification.",
+    "No timing, difficulty, quality or mastery guarantee."
+  ],
+  "minimum_only_subset_test": "test_11_minimum_target_subset",
+  "new_governance_decisions": 0,
+  "new_reviews": 0,
+  "new_snapshots": 0,
+  "profiles": {
+    "focused-review": {
+      "artifact_validation": {
+        "artifact_sha256": "917f3eac313f3f03d9ea2b1f99e9d8180faa60190be446cbe1478c5823e4d8c6",
+        "authored_content_sha256": "9e777dd4dcb4552a826a39277298a453da32643bf0f87ba32d87feefb3600bca",
+        "checks": {
+          "academic_scope_preserved": true,
+          "content_coverage": true,
+          "geometry_and_fonts": true,
+          "question_solution_separation": true,
+          "role_coverage": true,
+          "slide_manifest_consistency": true,
+          "source_text_preservation": true
+        },
+        "content_coverage": {
+          "authored-sd-v1-calculation-check-block": [
+            "focused-review-slide-10"
+          ],
+          "authored-sd-v1-calculation-check-question": [
+            "focused-review-slide-10"
+          ],
+          "authored-sd-v1-calculation-check-solution": [
+            "focused-review-slide-10"
+          ],
+          "authored-sd-v1-concept": [
+            "focused-review-slide-02"
+          ],
+          "authored-sd-v1-concept-check-block": [
+            "focused-review-slide-09"
+          ],
+          "authored-sd-v1-concept-check-question": [
+            "focused-review-slide-09"
+          ],
+          "authored-sd-v1-concept-check-solution": [
+            "focused-review-slide-09"
+          ],
+          "authored-sd-v1-deviation-formula": [
+            "focused-review-slide-04"
+          ],
+          "authored-sd-v1-method": [
+            "focused-review-slide-04"
+          ],
+          "authored-sd-v1-practice-1-block": [
+            "focused-review-slide-07"
+          ],
+          "authored-sd-v1-practice-1-question": [
+            "focused-review-slide-07"
+          ],
+          "authored-sd-v1-practice-1-solution": [
+            "focused-review-slide-07"
+          ],
+          "authored-sd-v1-practice-2-block": [
+            "focused-review-slide-08"
+          ],
+          "authored-sd-v1-practice-2-question": [
+            "focused-review-slide-08"
+          ],
+          "authored-sd-v1-practice-2-solution": [
+            "focused-review-slide-08"
+          ],
+          "authored-sd-v1-summary-formula": [
+            "focused-review-slide-05",
+            "focused-review-slide-06"
+          ],
+          "authored-sd-v1-summary-method": [
+            "focused-review-slide-05"
+          ],
+          "authored-sd-v1-visual": [
+            "focused-review-slide-03"
+          ],
+          "authored-sd-v1-worked-block": [
+            "focused-review-slide-06"
+          ],
+          "authored-sd-v1-worked-question": [
+            "focused-review-slide-06"
+          ],
+          "authored-sd-v1-worked-solution": [
+            "focused-review-slide-06"
+          ]
+        },
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "manifest_sha256": "2235425bacfab1e66032c4dffa0a1cfded72013001bc58d89ea3a4549296f4fa",
+        "schema_version": "artifact-render-validation/1",
+        "slide_count": 11,
+        "valid": true,
+        "violations": [],
+        "warnings": [
+          "Composition and artifact preservation only; no academic approval or guaranteed classroom runtime."
+        ]
+      },
+      "file_sha256": {
+        "Standard_Deviation_focused-review.pptx": "917f3eac313f3f03d9ea2b1f99e9d8180faa60190be446cbe1478c5823e4d8c6",
+        "artifact_render_validation.json": "295cd91c3b638a4cb98e9aa78ac8d20a365317b73686b4b324d92c7eda149d45",
+        "presentation_manifest.json": "2235425bacfab1e66032c4dffa0a1cfded72013001bc58d89ea3a4549296f4fa",
+        "provenance.json": "8f98e6298ce68ed362eb981e824134190eae7eccaebf5132f848ee65f43ea2c7",
+        "teacher_solutions.json": "e78c673f382208fe00240fce1e0e1730b196a32c288d9443680fa582d222caf2"
+      },
+      "idempotent_reuse_verified": true,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "preview_sha256": {
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-01.png": "6a3838abb902fced5abbc865dd957567bd321793e411fb8d3b9a4fdab5373d53",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-02.png": "354030d683404b6675ccc99fe78755dda5634fce4a404db78706ca80f1df1702",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-03.png": "b86e841ab430d10e48a7d66fbc8d8585c27279f4cfcb066fe75a6b3c892660ff",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-04.png": "0197e4bc5ad27462e8fb9ff8e8a92df83163cf37dc862eb2dc210046154098fa",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-05.png": "20f8ab70eaf124e7b280151cde47e01a37bf45b81f148224e0397ef05658b004",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-06.png": "0c05938324afddd3f8b32a2f5970e85a89b905dcdea9cd8c7cd1949a484aedd3",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-07.png": "e42b656f37863f6a2a66e384ebd4b96da1f5468f7fda3eba0d0c6181624d605b",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-08.png": "a1038f42d9fd514fe671c9731bb10140e097fe56579188654364999ee71a58d1",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-09.png": "340a8150c546542d6ca20ba604ffb8b6b4356a50e5d15c8fc8c8fd53a275e498",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-10.png": "8547e28e2258ab29cc4b7336079ee2783c85586696a413848165456b66e40118",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-11.png": "e2ec69944c2a8b863af8d331919087073e04eef6be7101df64569f85ca08b76d"
+      },
+      "role_count": 9,
+      "scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+      "slide_count": 11,
+      "target_density_attained": true
+    },
+    "standard-lesson": {
+      "artifact_validation": {
+        "artifact_sha256": "9496ab5160f780865818e4258fe5862614fea316c75a99812063eb8b698a4118",
+        "authored_content_sha256": "07fec791137d8f92131094f4fc53fc4572686066b035e4d2cba4b621f9aaf721",
+        "checks": {
+          "academic_scope_preserved": true,
+          "content_coverage": true,
+          "geometry_and_fonts": true,
+          "question_solution_separation": true,
+          "role_coverage": true,
+          "slide_manifest_consistency": true,
+          "source_text_preservation": true
+        },
+        "content_coverage": {
+          "authored-sd-p5b-v1-early_concept_retrieval-1": [
+            "standard-lesson-slide-04"
+          ],
+          "authored-sd-p5b-v1-early_concept_retrieval-1-solution": [
+            "standard-lesson-slide-04"
+          ],
+          "authored-sd-p5b-v1-exit_check-1": [
+            "standard-lesson-slide-17",
+            "standard-lesson-slide-18"
+          ],
+          "authored-sd-p5b-v1-exit_check-1-solution": [
+            "standard-lesson-slide-17",
+            "standard-lesson-slide-18"
+          ],
+          "authored-sd-p5b-v1-full_worked_examples-2": [
+            "standard-lesson-slide-09"
+          ],
+          "authored-sd-p5b-v1-full_worked_examples-2-solution": [
+            "standard-lesson-slide-09"
+          ],
+          "authored-sd-p5b-v1-guided_practice-1": [
+            "standard-lesson-slide-10"
+          ],
+          "authored-sd-p5b-v1-guided_practice-1-solution": [
+            "standard-lesson-slide-10"
+          ],
+          "authored-sd-p5b-v1-guided_practice-2": [
+            "standard-lesson-slide-11"
+          ],
+          "authored-sd-p5b-v1-guided_practice-2-solution": [
+            "standard-lesson-slide-11"
+          ],
+          "authored-sd-p5b-v1-independent_practice-3": [
+            "standard-lesson-slide-14"
+          ],
+          "authored-sd-p5b-v1-independent_practice-3-solution": [
+            "standard-lesson-slide-14"
+          ],
+          "authored-sd-p5b-v1-mini_worked_example-1": [
+            "standard-lesson-slide-06"
+          ],
+          "authored-sd-p5b-v1-mini_worked_example-1-solution": [
+            "standard-lesson-slide-06"
+          ],
+          "authored-sd-v1-calculation-check-block": [
+            "standard-lesson-slide-16"
+          ],
+          "authored-sd-v1-calculation-check-question": [
+            "standard-lesson-slide-16"
+          ],
+          "authored-sd-v1-calculation-check-solution": [
+            "standard-lesson-slide-16"
+          ],
+          "authored-sd-v1-concept": [
+            "standard-lesson-slide-02"
+          ],
+          "authored-sd-v1-concept-check-block": [
+            "standard-lesson-slide-15"
+          ],
+          "authored-sd-v1-concept-check-question": [
+            "standard-lesson-slide-15"
+          ],
+          "authored-sd-v1-concept-check-solution": [
+            "standard-lesson-slide-15"
+          ],
+          "authored-sd-v1-deviation-formula": [
+            "standard-lesson-slide-05"
+          ],
+          "authored-sd-v1-method": [
+            "standard-lesson-slide-05"
+          ],
+          "authored-sd-v1-practice-1-block": [
+            "standard-lesson-slide-12"
+          ],
+          "authored-sd-v1-practice-1-question": [
+            "standard-lesson-slide-12"
+          ],
+          "authored-sd-v1-practice-1-solution": [
+            "standard-lesson-slide-12"
+          ],
+          "authored-sd-v1-practice-2-block": [
+            "standard-lesson-slide-13"
+          ],
+          "authored-sd-v1-practice-2-question": [
+            "standard-lesson-slide-13"
+          ],
+          "authored-sd-v1-practice-2-solution": [
+            "standard-lesson-slide-13"
+          ],
+          "authored-sd-v1-summary-formula": [
+            "standard-lesson-slide-07",
+            "standard-lesson-slide-08",
+            "standard-lesson-slide-09"
+          ],
+          "authored-sd-v1-summary-method": [
+            "standard-lesson-slide-07"
+          ],
+          "authored-sd-v1-visual": [
+            "standard-lesson-slide-03"
+          ],
+          "authored-sd-v1-worked-block": [
+            "standard-lesson-slide-08"
+          ],
+          "authored-sd-v1-worked-question": [
+            "standard-lesson-slide-08"
+          ],
+          "authored-sd-v1-worked-solution": [
+            "standard-lesson-slide-08"
+          ]
+        },
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "manifest_sha256": "e4119d9b05b899053b03d01a31e4a4bb467fe30b21324890158b92d591f771b5",
+        "schema_version": "artifact-render-validation/1",
+        "slide_count": 19,
+        "valid": true,
+        "violations": [],
+        "warnings": [
+          "Composition and artifact preservation only; no academic approval or guaranteed classroom runtime."
+        ]
+      },
+      "file_sha256": {
+        "Standard_Deviation_standard-lesson.pptx": "9496ab5160f780865818e4258fe5862614fea316c75a99812063eb8b698a4118",
+        "artifact_render_validation.json": "99d0a9255603e819ef7468d5e1972bda49d91c5f984c19a089320075e8bfa37e",
+        "presentation_manifest.json": "e4119d9b05b899053b03d01a31e4a4bb467fe30b21324890158b92d591f771b5",
+        "provenance.json": "d3a5ef53b18c91771e7a60962a81827ddaf70687e82551069264d362b8ad66e0",
+        "teacher_solutions.json": "4b8d490e79ac894884a8013302c79475aefa82c546cc0dafebe6b9f4cb9942c7"
+      },
+      "idempotent_reuse_verified": true,
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "preview_sha256": {
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-01.png": "3960f5d366878ff67969fe1dace0972ad3d9c31c3c3f9dbe6fff313957d320bb",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-02.png": "5c9fdbaf659c0c1831ddec34c6233bc15ada80036d512ff1f21d1afb875b78b7",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-03.png": "1462516bd00ffbca2bee1ac0c208c9a2eed36b596d221ab28d8a85cacdd61a62",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-04.png": "a05a7cf5847ab49bd714351672f730ba555d0a964a9d6f49f71dc2909ac41203",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-05.png": "ecdb34679b42b58fe6bdcb06d0aff3bb128bad7c52020d9fc9e021f994811fa1",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-06.png": "167fa265cfb90889666ee5680b6a49ae998abe874cf06856799aabd0b1c904ad",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-07.png": "e81e8013a6f304626491493d7b507dada855a010cba037b4cb1a79a6be1a3e58",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-08.png": "301047c4184c39e3e83dae26320bfe1d28354adc6abcd0bb81ce276c48147651",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-09.png": "4a0c1ac8c8e2c8d705de007927d17beaebe58a1d383cbbe5784ec7eb2c6bccca",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-10.png": "ed515ef77639dc64dce5ff16e5988fe6db1b689f41483e7087566ca5a77b1701",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-11.png": "b5e59e3964bd69caa7ee7e98fca85927fb6425b35d88380f4f9bcd1e9e17ef32",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-12.png": "13ef5af5ddc484bf404cd0a10920d1dd83016d5418b38635d5fa5e0b83122b49",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-13.png": "19cc1bf8988c482cbd569a205ce652f886b2aaec09bdd21c76a1c4f39e28d905",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-14.png": "2f529dd4fea0f012ae00ba7ae1515dd775cbd278c23447596179136b3096073c",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-15.png": "8ca94e088454ce6f50639ec1578567d394f1200e85ff2fdb505619748bdefb70",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-16.png": "c78eddf5f8890dc02d1ca3fbc65321ac10e13b7a92de4159f365f0903cc8016f",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-17.png": "688af538d7d91966b947d94c75eea04af964e0c304b08576539fb50f30047314",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-18.png": "046483b67e261ba3a6b917a97c006a2e04e9feb4eb83ecd5710746f676a03b60",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-19.png": "b0846f47bf879dbf057ef7d8a81c74450c891e6169fe2e084f86da1f51b8a8e5"
+      },
+      "role_count": 15,
+      "scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+      "slide_count": 19,
+      "target_density_attained": true
+    }
+  },
+  "protected_files_checked": 273,
+  "status": "P5D acceptance passed",
+  "tests": {
+    "baseline-tests.txt": {
+      "errors": 0,
+      "failures": 0,
+      "passed": 137,
+      "sha256": "d0000be56d62b649372ed886f7dc360f74728f2df043b138357621e41919b731"
+    },
+    "final-tests.txt": {
+      "errors": 0,
+      "failures": 0,
+      "passed": 262,
+      "sha256": "5ec3ee51e2eea51135ed647f33e9f30a2b938dba7007076e4153bc834ed7bafa"
+    },
+    "new-tests.txt": {
+      "errors": 0,
+      "failures": 0,
+      "passed": 30,
+      "sha256": "33b967914a562e42419a0e8c1a67a1fa2a9bbfe7d1b51b55417654f64fd575a1"
+    }
+  },
+  "visual_review": {
+    "native_powerpoint_rendering_verified": false,
+    "observations": "All 30 slides inspected. No observed clipping or unintended overlap. Guided prompts and open independent working areas remain distinct. Old P4C.1 worked-example preview compared.",
+    "profiles": {
+      "focused-review": {
+        "all_slides_individually_inspected": true,
+        "preview_sha256": {
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-01.png": "6a3838abb902fced5abbc865dd957567bd321793e411fb8d3b9a4fdab5373d53",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-02.png": "354030d683404b6675ccc99fe78755dda5634fce4a404db78706ca80f1df1702",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-03.png": "b86e841ab430d10e48a7d66fbc8d8585c27279f4cfcb066fe75a6b3c892660ff",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-04.png": "0197e4bc5ad27462e8fb9ff8e8a92df83163cf37dc862eb2dc210046154098fa",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-05.png": "20f8ab70eaf124e7b280151cde47e01a37bf45b81f148224e0397ef05658b004",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-06.png": "0c05938324afddd3f8b32a2f5970e85a89b905dcdea9cd8c7cd1949a484aedd3",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-07.png": "e42b656f37863f6a2a66e384ebd4b96da1f5468f7fda3eba0d0c6181624d605b",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-08.png": "a1038f42d9fd514fe671c9731bb10140e097fe56579188654364999ee71a58d1",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-09.png": "340a8150c546542d6ca20ba604ffb8b6b4356a50e5d15c8fc8c8fd53a275e498",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-10.png": "8547e28e2258ab29cc4b7336079ee2783c85586696a413848165456b66e40118",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-11.png": "e2ec69944c2a8b863af8d331919087073e04eef6be7101df64569f85ca08b76d"
+        }
+      },
+      "standard-lesson": {
+        "all_slides_individually_inspected": true,
+        "preview_sha256": {
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-01.png": "3960f5d366878ff67969fe1dace0972ad3d9c31c3c3f9dbe6fff313957d320bb",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-02.png": "5c9fdbaf659c0c1831ddec34c6233bc15ada80036d512ff1f21d1afb875b78b7",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-03.png": "1462516bd00ffbca2bee1ac0c208c9a2eed36b596d221ab28d8a85cacdd61a62",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-04.png": "a05a7cf5847ab49bd714351672f730ba555d0a964a9d6f49f71dc2909ac41203",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-05.png": "ecdb34679b42b58fe6bdcb06d0aff3bb128bad7c52020d9fc9e021f994811fa1",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-06.png": "167fa265cfb90889666ee5680b6a49ae998abe874cf06856799aabd0b1c904ad",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-07.png": "e81e8013a6f304626491493d7b507dada855a010cba037b4cb1a79a6be1a3e58",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-08.png": "301047c4184c39e3e83dae26320bfe1d28354adc6abcd0bb81ce276c48147651",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-09.png": "4a0c1ac8c8e2c8d705de007927d17beaebe58a1d383cbbe5784ec7eb2c6bccca",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-10.png": "ed515ef77639dc64dce5ff16e5988fe6db1b689f41483e7087566ca5a77b1701",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-11.png": "b5e59e3964bd69caa7ee7e98fca85927fb6425b35d88380f4f9bcd1e9e17ef32",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-12.png": "13ef5af5ddc484bf404cd0a10920d1dd83016d5418b38635d5fa5e0b83122b49",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-13.png": "19cc1bf8988c482cbd569a205ce652f886b2aaec09bdd21c76a1c4f39e28d905",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-14.png": "2f529dd4fea0f012ae00ba7ae1515dd775cbd278c23447596179136b3096073c",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-15.png": "8ca94e088454ce6f50639ec1578567d394f1200e85ff2fdb505619748bdefb70",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-16.png": "c78eddf5f8890dc02d1ca3fbc65321ac10e13b7a92de4159f365f0903cc8016f",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-17.png": "688af538d7d91966b947d94c75eea04af964e0c304b08576539fb50f30047314",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-18.png": "046483b67e261ba3a6b917a97c006a2e04e9feb4eb83ecd5710746f676a03b60",
+          "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-19.png": "b0846f47bf879dbf057ef7d8a81c74450c891e6169fe2e084f86da1f51b8a8e5"
+        }
+      }
+    },
+    "renderer": "Artifact Tool import of finalized PPTX"
+  }
+}

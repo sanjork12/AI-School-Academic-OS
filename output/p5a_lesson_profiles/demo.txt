@@ -1,0 +1,11 @@
+{
+  "files": [
+    "output\\p5a_lesson_profiles\\focused-review.lesson-profile.json",
+    "output\\p5a_lesson_profiles\\focused-review.profiled-pedagogy.json",
+    "output\\p5a_lesson_profiles\\focused-review.validation.json",
+    "output\\p5a_lesson_profiles\\standard-lesson.lesson-profile.json",
+    "output\\p5a_lesson_profiles\\standard-lesson.profiled-pedagogy.json",
+    "output\\p5a_lesson_profiles\\standard-lesson.validation.json",
+    "output\\p5a_lesson_profiles\\provenance.json"
+  ]
+}

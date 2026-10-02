@@ -1,0 +1,50 @@
+test_01_schema (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_01_schema) ... ok
+test_02_unsupported_schema (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_02_unsupported_schema) ... ok
+test_03_upstream_not_mutated (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_03_upstream_not_mutated) ... ok
+test_04_frozen_upstream_files (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_04_frozen_upstream_files) ... ok
+test_05_identity (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_05_identity) ... ok
+test_06_five_gold_roles (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_06_five_gold_roles) ... ok
+test_07_gold_coverage (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_07_gold_coverage) ... ok
+test_08_gold_constraint_levels (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_08_gold_constraint_levels) ... ok
+test_09_concept_meaning_required (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_09_concept_meaning_required) ... ok
+test_10_visual_recommended_only (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_10_visual_recommended_only) ... ok
+test_11_no_numeric_scores (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_11_no_numeric_scores) ... ok
+test_12_method_is_unfilled_slot (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_12_method_is_unfilled_slot) ... ok
+test_13_no_calculator_or_formula_content (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_13_no_calculator_or_formula_content) ... ok
+test_14_input_slot_preserves_uncertainty (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_14_input_slot_preserves_uncertainty) ... ok
+test_15_no_new_learning_requirements (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_15_no_new_learning_requirements) ... ok
+test_16_worked_example_alignment (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_16_worked_example_alignment) ... ok
+test_17_no_question_reproduction (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_17_no_question_reproduction) ... ok
+test_18_practice_assessment_refs (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_18_practice_assessment_refs) ... ok
+test_19_progression_not_required (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_19_progression_not_required) ... ok
+test_20_flexible_practice_choices (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_20_flexible_practice_choices) ... ok
+test_21_planned_not_validated (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_21_planned_not_validated) ... ok
+test_22_coverage_map_exact (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_22_coverage_map_exact) ... ok
+test_23_ten_boundaries (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_23_ten_boundaries) ... ok
+test_24_normal_no_canonical_ids (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_24_normal_no_canonical_ids) ... ok
+test_25_full_provenance_chain (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_25_full_provenance_chain) ... ok
+test_26_oracle_not_read_by_production (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_26_oracle_not_read_by_production) ... ok
+test_27_no_topic_branching (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_27_no_topic_branching) ... ok
+test_28_names_do_not_determine_coverage (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_28_names_do_not_determine_coverage) ... ok
+test_29_repeated_output (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_29_repeated_output) ... ok
+test_30_reversed_collections (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_30_reversed_collections) ... ok
+test_31_refs_stable_on_wording_change (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_31_refs_stable_on_wording_change) ... ok
+test_32_unique_refs (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_32_unique_refs) ... ok
+test_33_wrong_coverage_map_rejected (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_33_wrong_coverage_map_rejected) ... ok
+test_34_unknown_content_ref_rejected (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_34_unknown_content_ref_rejected) ... ok
+test_35_status_cannot_be_approved (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_35_status_cannot_be_approved) ... ok
+test_36_real_db_unchanged (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_36_real_db_unchanged) ... ok
+test_37_saved_json_not_authority (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_37_saved_json_not_authority) ... ok
+test_38_fresh_read_every_time (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_38_fresh_read_every_time) ... ok
+test_39_cli_json (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_39_cli_json) ... ok
+test_40_human_output (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_40_human_output) ... ok
+test_41_real_revocation_blocks (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_41_real_revocation_blocks) ... ok
+test_42_reversed_snapshots (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_42_reversed_snapshots) ... ok
+test_43_cli_no_write_store (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_43_cli_no_write_store) ... ok
+test_44_no_raw_bypass (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_44_no_raw_bypass) ... ok
+test_45_no_unresolved_leak_or_new_claim (tests_p0.test_pedagogical_specification.PedagogicalSpecificationTests.test_45_no_unresolved_leak_or_new_claim) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 12.548s
+
+OK

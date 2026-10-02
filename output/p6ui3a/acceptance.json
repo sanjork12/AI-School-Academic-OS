@@ -1,0 +1,71 @@
+{
+  "backend_tests": {
+    "errors": 0,
+    "failures": 0,
+    "model_api_calls": 0,
+    "successful": true,
+    "total": 191
+  },
+  "baseline": {
+    "active_reference_version": "v1.9",
+    "manifest_path": "output/reference_freeze_v1_9/reference_manifest.json",
+    "manifest_sha256": "c3a901f1037544d289fc7f85d588965a03dab400ee0fa74890d2782a1623751d",
+    "protected_files": 1695
+  },
+  "baseline_verification": {
+    "errors": [],
+    "manifest_sha256": "c3a901f1037544d289fc7f85d588965a03dab400ee0fa74890d2782a1623751d",
+    "reference_version": "v1.9",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "browser_tests": {
+    "duration": 77575.604,
+    "expected": 3,
+    "flaky": 0,
+    "skipped": 0,
+    "startTime": "2026-10-02T07:14:20.994Z",
+    "unexpected": 0
+  },
+  "evidence": {
+    "api-acceptance.json": "fba620bc437279221dd7a42fa7656e4f018728277ef0b8af8999b2c6835f4f01",
+    "backend-tests.json": "57a0928ae0498e59b2871943db0a3ffe681c64d2c556e333745b8d1ad15d9657",
+    "final-regression-tests.json": "6c8023f4e162601d02fa5cc393a7df99c75953bbb1992c33f491ecc430f112f2",
+    "final-regression-tests.txt": "2f20b8901289f00340a8ba6d38a5072ec9dafe12cdfb70b8c2ec31cb56b236a2",
+    "frontend-e2e.json": "1bd00548a22da9ff40d7e0e51e02322515c0a05255aac92e1a1282c36ce60469"
+  },
+  "final_regression_tests": {
+    "errors": 0,
+    "failures": 0,
+    "model_api_calls": 0,
+    "python_utf8_mode": 1,
+    "skipped": 0,
+    "successful": true,
+    "total": 142
+  },
+  "gitignore_reconciled_per_user_authorization": true,
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1568,
+    "manifests_through_v1_8_unchanged": true,
+    "model_api_calls": 0,
+    "trusted_state_unchanged": true
+  },
+  "limitations": [
+    "Exact known 4MA1 PDF edition and Topic 2 only",
+    "No OCR or Word",
+    "No topic-to-lesson generation",
+    "Windows test command requires Python UTF-8 mode; two fixture reads use platform default encoding"
+  ],
+  "live_parser_qualified": false,
+  "milestone": "P6UI.3A",
+  "model_api_calls": 0,
+  "prior_failed_checks_retained": [
+    "postfreeze-tests.json",
+    "post-reconciliation-tests.json",
+    "post-reconciliation-utf8-tests.json"
+  ],
+  "verdict": "PASS"
+}

@@ -1,0 +1,1278 @@
+{
+  "case_c": {
+    "evidence": "Executed in both new-tests.txt and final-tests.txt; isolated in-memory mutation.",
+    "minimum_compliance": true,
+    "ready_for_rendering": true,
+    "target_attainment": false,
+    "test": "test_07_case_c_minimum_without_target_ready"
+  },
+  "counts_after": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "counts_before": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "database_after": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "database_before": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "full_repository_suite_run": false,
+  "limitations": [
+    "Composition eligibility only; no academic approval or PPTX generation.",
+    "Language validation is bounded to current deterministic provider content.",
+    "No classroom duration guarantee or quality score."
+  ],
+  "new_governance_decisions": 0,
+  "new_reviews": 0,
+  "new_snapshots": 0,
+  "output_sha256": {
+    "output\\p5c_profiled_validation\\focused-review.validation.json": "420d0cb76900d9679b0c76293506234a0a7976f8b1c5cf67b18fefc3328936b7",
+    "output\\p5c_profiled_validation\\provenance.json": "84a1347049594fa1c62db1c0bce0b76808b4941352fa286222005c408b3039ff",
+    "output\\p5c_profiled_validation\\standard-lesson.validation.json": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702"
+  },
+  "profiles": {
+    "focused-review": {
+      "academic_scope_validation": {
+        "valid": true
+      },
+      "boundary_compliance": {
+        "valid": true
+      },
+      "composite_role_validation": {
+        "valid": true
+      },
+      "coverage_matrix": [
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-concept"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-01",
+          "role_key": "FR-01",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-visual"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-02",
+          "role_key": "FR-02",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-method"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-03",
+          "role_key": "FR-03",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-summary-method"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-04",
+          "role_key": "FR-04",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-worked-block"
+          ],
+          "coverage_requirement_refs": [
+            "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+          ],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-05",
+          "role_key": "FR-05",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-practice-1-block"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-06",
+          "role_key": "FR-06",
+          "status": "populated",
+          "support_mode": "independent",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-practice-2-block"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-07",
+          "role_key": "FR-07",
+          "status": "populated",
+          "support_mode": "independent",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-concept-check-block"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-08",
+          "role_key": "FR-08",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-calculation-check-block"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-focused-review-FR-09",
+          "role_key": "FR-09",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        }
+      ],
+      "coverage_requirement_coverage": {
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862": [
+          "profiled-sd-focused-review-FR-06",
+          "profiled-sd-focused-review-FR-07",
+          "profiled-sd-focused-review-FR-09"
+        ],
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c": [
+          "profiled-sd-focused-review-FR-05"
+        ]
+      },
+      "density_summary": [
+        {
+          "actual_valid_content_count": 1,
+          "kind": "concept_explanation",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "concept_visual",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 0,
+          "kind": "early_concept_retrieval",
+          "minimum": 0,
+          "minimum_compliance": true,
+          "target": 0,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "calculation_method",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 0,
+          "kind": "mini_worked_example",
+          "minimum": 0,
+          "minimum_compliance": true,
+          "target": 0,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "summary_method",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "full_worked_examples",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 0,
+          "kind": "guided_practice",
+          "minimum": 0,
+          "minimum_compliance": true,
+          "target": 0,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 2,
+          "kind": "independent_practice",
+          "minimum": 2,
+          "minimum_compliance": true,
+          "target": 2,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "concept_check",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "calculation_check",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 0,
+          "kind": "exit_check",
+          "minimum": 0,
+          "minimum_compliance": true,
+          "target": 0,
+          "target_attainment": true
+        }
+      ],
+      "density_validation": {
+        "minimum_compliance": true,
+        "policy": "minimum_required_target_preferred",
+        "target_attainment": true,
+        "valid": true
+      },
+      "identity": {
+        "profile_key": "focused-review",
+        "topic_key": "standard-deviation"
+      },
+      "input_contracts": {
+        "authored-content-validation/1": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804",
+        "authored-teaching-content/1": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "learning-specification/1": "b52a2c57a909a6bcb0bc7cce3b58a70cd0042a90e38af6564fa7ea3bb55fe60a",
+        "lesson-profile/1": "955186f6b764d8ae0763db35d73f6957a5f23ad502f41491cf9670bb3163153d",
+        "pedagogical-specification/1": "763e5359644ffc958a7caa7fca2d3803a7c65afc10575d54d21fafd3319969be",
+        "profiled-authored-teaching-content/1": "2e40cb2668edb952e291e9851dae69a7da645060142d03ebbe5b1bf8182c1211",
+        "profiled-pedagogical-specification/1": "88da72064095578b6f2afd73c02f96ba7ce3b6271e5cae155a59569d94645aa3"
+      },
+      "learning_requirement_coverage": [
+        {
+          "assessment_check_coverage": [
+            "profiled-sd-focused-review-FR-08"
+          ],
+          "learning_requirement_ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "new_content_refs": [],
+          "reused_content_refs": [
+            "authored-sd-v1-concept",
+            "authored-sd-v1-concept-check-block",
+            "authored-sd-v1-visual"
+          ],
+          "teaching_coverage": [
+            "profiled-sd-focused-review-FR-01",
+            "profiled-sd-focused-review-FR-02"
+          ]
+        },
+        {
+          "assessment_check_coverage": [
+            "profiled-sd-focused-review-FR-09"
+          ],
+          "learning_requirement_ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "new_content_refs": [],
+          "reused_content_refs": [
+            "authored-sd-v1-calculation-check-block",
+            "authored-sd-v1-method",
+            "authored-sd-v1-practice-1-block",
+            "authored-sd-v1-practice-2-block",
+            "authored-sd-v1-worked-block"
+          ],
+          "teaching_coverage": [
+            "profiled-sd-focused-review-FR-03",
+            "profiled-sd-focused-review-FR-05",
+            "profiled-sd-focused-review-FR-06",
+            "profiled-sd-focused-review-FR-07"
+          ]
+        },
+        {
+          "assessment_check_coverage": [
+            "profiled-sd-focused-review-FR-09"
+          ],
+          "learning_requirement_ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+          "new_content_refs": [],
+          "reused_content_refs": [
+            "authored-sd-v1-calculation-check-block",
+            "authored-sd-v1-practice-1-block",
+            "authored-sd-v1-practice-2-block",
+            "authored-sd-v1-summary-method",
+            "authored-sd-v1-worked-block"
+          ],
+          "teaching_coverage": [
+            "profiled-sd-focused-review-FR-04",
+            "profiled-sd-focused-review-FR-05",
+            "profiled-sd-focused-review-FR-06",
+            "profiled-sd-focused-review-FR-07"
+          ]
+        }
+      ],
+      "lesson_profile": "focused-review",
+      "mathematical_verification": {},
+      "new_content_integrity": {
+        "valid": true
+      },
+      "profile_structure": {
+        "valid": true
+      },
+      "renderer_readiness": {
+        "blocking_codes": [],
+        "ready_for_rendering": true,
+        "target_attainment": true
+      },
+      "reuse_integrity": {
+        "valid": true
+      },
+      "role_population": {
+        "populated": 9,
+        "required": 9,
+        "valid": true
+      },
+      "schema_version": "profiled-content-validation/1",
+      "trust_summary": {
+        "academic_approval": false,
+        "current_service_required": true,
+        "limitations": [
+          "Renderer eligibility for composition only; no PPTX generated or publication approved.",
+          "Duration is planning guidance, not guaranteed classroom runtime.",
+          "Language integrity is bounded to the current deterministic provider, not arbitrary semantic or student-response grading."
+        ],
+        "quality_score_provided": false,
+        "student_mastery_claimed": false,
+        "target_policy": "Current lesson-profile/1 has no mandatory-target flag. Minima (including min=target) are hard requirements; larger targets are preferred. Unknown profile schema/policy is rejected."
+      },
+      "unresolved_roles": [],
+      "unresolved_validation": {
+        "valid": true
+      },
+      "violations": [],
+      "warnings": [
+        {
+          "code": "bounded_validation",
+          "dimension": "profile_structure",
+          "message": "Composition eligibility is not proof of pedagogical effectiveness or classroom duration",
+          "ref": "package",
+          "severity": "WARNING"
+        }
+      ]
+    },
+    "standard-lesson": {
+      "academic_scope_validation": {
+        "valid": true
+      },
+      "boundary_compliance": {
+        "valid": true
+      },
+      "composite_role_validation": {
+        "valid": true
+      },
+      "coverage_matrix": [
+        {
+          "actual_valid_content_count": 0,
+          "content_refs": [],
+          "coverage_requirement_refs": [],
+          "decision": "framing",
+          "framing": true,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 0,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-01",
+          "role_key": "SL-01",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 0
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-concept"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-02",
+          "role_key": "SL-02",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-visual"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-03",
+          "role_key": "SL-03",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-p5b-v1-early_concept_retrieval-1"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-04",
+          "role_key": "SL-04",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-method"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-05",
+          "role_key": "SL-05",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-p5b-v1-mini_worked_example-1"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-06",
+          "role_key": "SL-06",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-summary-method"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-07",
+          "role_key": "SL-07",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-worked-block"
+          ],
+          "coverage_requirement_refs": [
+            "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+          ],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-08",
+          "role_key": "SL-08",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-p5b-v1-full_worked_examples-2"
+          ],
+          "coverage_requirement_refs": [
+            "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+          ],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-09",
+          "role_key": "SL-09",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-p5b-v1-guided_practice-1"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-10",
+          "role_key": "SL-10",
+          "status": "populated",
+          "support_mode": "guided",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-p5b-v1-guided_practice-2"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-11",
+          "role_key": "SL-11",
+          "status": "populated",
+          "support_mode": "guided",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 3,
+          "content_refs": [
+            "authored-sd-v1-practice-1-block",
+            "authored-sd-v1-practice-2-block",
+            "authored-sd-p5b-v1-independent_practice-3"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 2,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-12",
+          "role_key": "SL-12",
+          "status": "populated",
+          "support_mode": "independent",
+          "target_attainment": true,
+          "target_requirement": 3
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-concept-check-block"
+          ],
+          "coverage_requirement_refs": [],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-13",
+          "role_key": "SL-13",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-v1-calculation-check-block"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "reuse",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-14",
+          "role_key": "SL-14",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        },
+        {
+          "actual_valid_content_count": 1,
+          "content_refs": [
+            "authored-sd-p5b-v1-exit_check-1"
+          ],
+          "coverage_requirement_refs": [
+            "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+          ],
+          "decision": "author_new",
+          "framing": false,
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "minimum_compliance": true,
+          "minimum_requirement": 1,
+          "profiled_role_ref": "profiled-sd-standard-lesson-SL-15",
+          "role_key": "SL-15",
+          "status": "populated",
+          "support_mode": "not_applicable",
+          "target_attainment": true,
+          "target_requirement": 1
+        }
+      ],
+      "coverage_requirement_coverage": {
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862": [
+          "profiled-sd-standard-lesson-SL-10",
+          "profiled-sd-standard-lesson-SL-11",
+          "profiled-sd-standard-lesson-SL-12",
+          "profiled-sd-standard-lesson-SL-14",
+          "profiled-sd-standard-lesson-SL-15"
+        ],
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c": [
+          "profiled-sd-standard-lesson-SL-08",
+          "profiled-sd-standard-lesson-SL-09"
+        ]
+      },
+      "density_summary": [
+        {
+          "actual_valid_content_count": 1,
+          "kind": "concept_explanation",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "concept_visual",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "early_concept_retrieval",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "calculation_method",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "mini_worked_example",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "summary_method",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 2,
+          "kind": "full_worked_examples",
+          "minimum": 2,
+          "minimum_compliance": true,
+          "target": 2,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 2,
+          "kind": "guided_practice",
+          "minimum": 2,
+          "minimum_compliance": true,
+          "target": 2,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 3,
+          "kind": "independent_practice",
+          "minimum": 2,
+          "minimum_compliance": true,
+          "target": 3,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "concept_check",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "calculation_check",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        },
+        {
+          "actual_valid_content_count": 1,
+          "kind": "exit_check",
+          "minimum": 1,
+          "minimum_compliance": true,
+          "target": 1,
+          "target_attainment": true
+        }
+      ],
+      "density_validation": {
+        "minimum_compliance": true,
+        "policy": "minimum_required_target_preferred",
+        "target_attainment": true,
+        "valid": true
+      },
+      "identity": {
+        "profile_key": "standard-lesson",
+        "topic_key": "standard-deviation"
+      },
+      "input_contracts": {
+        "authored-content-validation/1": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804",
+        "authored-teaching-content/1": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "learning-specification/1": "b52a2c57a909a6bcb0bc7cce3b58a70cd0042a90e38af6564fa7ea3bb55fe60a",
+        "lesson-profile/1": "851d84206f1bc787ffab3a0335188784edf07275ebdbebe374bb4d3fa6a040c8",
+        "pedagogical-specification/1": "763e5359644ffc958a7caa7fca2d3803a7c65afc10575d54d21fafd3319969be",
+        "profiled-authored-teaching-content/1": "cb06970e0df300391e2f3d1e9b40a5c08b9e35e4d704b5328f1b7f3851e200d9",
+        "profiled-pedagogical-specification/1": "cbd464e4b7a11e44030d3e3fc910b9c3556482699fc6d1f9957001fdf9af9458"
+      },
+      "learning_requirement_coverage": [
+        {
+          "assessment_check_coverage": [
+            "profiled-sd-standard-lesson-SL-04",
+            "profiled-sd-standard-lesson-SL-13",
+            "profiled-sd-standard-lesson-SL-15"
+          ],
+          "learning_requirement_ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "new_content_refs": [
+            "authored-sd-p5b-v1-early_concept_retrieval-1",
+            "authored-sd-p5b-v1-exit_check-1"
+          ],
+          "reused_content_refs": [
+            "authored-sd-v1-concept",
+            "authored-sd-v1-concept-check-block",
+            "authored-sd-v1-visual"
+          ],
+          "teaching_coverage": [
+            "profiled-sd-standard-lesson-SL-02",
+            "profiled-sd-standard-lesson-SL-03"
+          ]
+        },
+        {
+          "assessment_check_coverage": [
+            "profiled-sd-standard-lesson-SL-14",
+            "profiled-sd-standard-lesson-SL-15"
+          ],
+          "learning_requirement_ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "new_content_refs": [
+            "authored-sd-p5b-v1-exit_check-1",
+            "authored-sd-p5b-v1-full_worked_examples-2",
+            "authored-sd-p5b-v1-guided_practice-1",
+            "authored-sd-p5b-v1-guided_practice-2",
+            "authored-sd-p5b-v1-independent_practice-3",
+            "authored-sd-p5b-v1-mini_worked_example-1"
+          ],
+          "reused_content_refs": [
+            "authored-sd-v1-calculation-check-block",
+            "authored-sd-v1-method",
+            "authored-sd-v1-practice-1-block",
+            "authored-sd-v1-practice-2-block",
+            "authored-sd-v1-worked-block"
+          ],
+          "teaching_coverage": [
+            "profiled-sd-standard-lesson-SL-05",
+            "profiled-sd-standard-lesson-SL-06",
+            "profiled-sd-standard-lesson-SL-08",
+            "profiled-sd-standard-lesson-SL-09",
+            "profiled-sd-standard-lesson-SL-10",
+            "profiled-sd-standard-lesson-SL-11",
+            "profiled-sd-standard-lesson-SL-12"
+          ]
+        },
+        {
+          "assessment_check_coverage": [
+            "profiled-sd-standard-lesson-SL-14",
+            "profiled-sd-standard-lesson-SL-15"
+          ],
+          "learning_requirement_ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+          "new_content_refs": [
+            "authored-sd-p5b-v1-exit_check-1",
+            "authored-sd-p5b-v1-full_worked_examples-2",
+            "authored-sd-p5b-v1-guided_practice-1",
+            "authored-sd-p5b-v1-guided_practice-2",
+            "authored-sd-p5b-v1-independent_practice-3"
+          ],
+          "reused_content_refs": [
+            "authored-sd-v1-calculation-check-block",
+            "authored-sd-v1-practice-1-block",
+            "authored-sd-v1-practice-2-block",
+            "authored-sd-v1-summary-method",
+            "authored-sd-v1-worked-block"
+          ],
+          "teaching_coverage": [
+            "profiled-sd-standard-lesson-SL-07",
+            "profiled-sd-standard-lesson-SL-08",
+            "profiled-sd-standard-lesson-SL-09",
+            "profiled-sd-standard-lesson-SL-10",
+            "profiled-sd-standard-lesson-SL-11",
+            "profiled-sd-standard-lesson-SL-12"
+          ]
+        }
+      ],
+      "lesson_profile": "standard-lesson",
+      "mathematical_verification": {
+        "authored-sd-p5b-v1-early_concept_retrieval-1": {
+          "checks": {
+            "concept_response_separate": true,
+            "no_numeric_answer": true,
+            "separate_solution_identity": true
+          },
+          "errors": [],
+          "status": "verified"
+        },
+        "authored-sd-p5b-v1-exit_check-1": {
+          "checks": {
+            "concept_response_separate": true,
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "separate_solution_identity": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        },
+        "authored-sd-p5b-v1-full_worked_examples-2": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "separate_solution_identity": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        },
+        "authored-sd-p5b-v1-guided_practice-1": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "separate_solution_identity": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        },
+        "authored-sd-p5b-v1-guided_practice-2": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "separate_solution_identity": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        },
+        "authored-sd-p5b-v1-independent_practice-3": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "separate_solution_identity": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        },
+        "authored-sd-p5b-v1-mini_worked_example-1": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "raw_deviations": true,
+            "raw_instructional_only": true,
+            "raw_mean_variance": true,
+            "raw_prompt_values": true,
+            "raw_squared_deviations": true,
+            "rounding_recomputed": true,
+            "separate_solution_identity": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "new_content_integrity": {
+        "valid": true
+      },
+      "profile_structure": {
+        "valid": true
+      },
+      "renderer_readiness": {
+        "blocking_codes": [],
+        "ready_for_rendering": true,
+        "target_attainment": true
+      },
+      "reuse_integrity": {
+        "valid": true
+      },
+      "role_population": {
+        "populated": 15,
+        "required": 15,
+        "valid": true
+      },
+      "schema_version": "profiled-content-validation/1",
+      "trust_summary": {
+        "academic_approval": false,
+        "current_service_required": true,
+        "limitations": [
+          "Renderer eligibility for composition only; no PPTX generated or publication approved.",
+          "Duration is planning guidance, not guaranteed classroom runtime.",
+          "Language integrity is bounded to the current deterministic provider, not arbitrary semantic or student-response grading."
+        ],
+        "quality_score_provided": false,
+        "student_mastery_claimed": false,
+        "target_policy": "Current lesson-profile/1 has no mandatory-target flag. Minima (including min=target) are hard requirements; larger targets are preferred. Unknown profile schema/policy is rejected."
+      },
+      "unresolved_roles": [],
+      "unresolved_validation": {
+        "valid": true
+      },
+      "violations": [],
+      "warnings": [
+        {
+          "code": "bounded_validation",
+          "dimension": "profile_structure",
+          "message": "Composition eligibility is not proof of pedagogical effectiveness or classroom duration",
+          "ref": "package",
+          "severity": "WARNING"
+        }
+      ]
+    }
+  },
+  "protected_files_checked": 220,
+  "status": "P5C acceptance passed",
+  "tests": {
+    "baseline-tests.txt": {
+      "errors": 0,
+      "failures": 0,
+      "passed": 45,
+      "sha256": "f9651f2ccb7af7f99b1e36cb486dfb7056c8d98a80d27bd7aff3b22d4d9ed79c"
+    },
+    "final-tests.txt": {
+      "errors": 0,
+      "failures": 0,
+      "passed": 202,
+      "sha256": "7c04b7864ddba8e8cbef82fe2775ef338fb478c6f4680f7f0021ba34b19de1cb"
+    },
+    "new-tests.txt": {
+      "errors": 0,
+      "failures": 0,
+      "passed": 50,
+      "sha256": "d7a2ee0965b5f610a3fff0cd8bb791c055df1d5a8bd572da9420ea82aff3b0af"
+    }
+  }
+}

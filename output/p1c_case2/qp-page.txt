@@ -1,0 +1,44 @@
+*P72819A0820*
+DO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA
+DO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA
+8
+  
+3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987
+ He used all the data from the large data set and summarised the information in the 
+following table.
+x 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr
+Frequency 55 18 18 21 17 9 9 6 2 29
+ (a) Explain how the data will need to be cleaned before Ben can start to calculate 
+statistics such as the mean and standard deviation.
+(2)
+ Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x
+2
+ = 4336
+ (b) Calculate estimates for
+  (i) the mean Daily Total Rainfall,
+  (ii) the standard deviation of the Daily Total Rainfall.
+(3)
+ Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean 
+Daily 
+Total Rainfall in Leeming for 1987
+ (c) Using your knowledge of the large data set,
+  (i) give a reason why these data would not be suitable,
+  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ 
+from the actual 
+annual mean Daily Total Rainfall in Leeming for 1987
+(2)
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+_____________________________________________________________________________________
+PMT

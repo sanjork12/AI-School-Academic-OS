@@ -1,0 +1,108 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "allowed_question_templates": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Allowed Question Templates",
+      "type": "array"
+    },
+    "allowed_scaffolds": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Allowed Scaffolds",
+      "type": "object"
+    },
+    "content_origin_policy": {
+      "const": "ai_generated_candidate",
+      "default": "ai_generated_candidate",
+      "title": "Content Origin Policy",
+      "type": "string"
+    },
+    "copyright_policy": {
+      "title": "Copyright Policy",
+      "type": "string"
+    },
+    "forbidden_content": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Forbidden Content",
+      "type": "array"
+    },
+    "formula": {
+      "title": "Formula",
+      "type": "string"
+    },
+    "identity": {
+      "const": "standard-deviation-standard-lesson-SL-10/1",
+      "default": "standard-deviation-standard-lesson-SL-10/1",
+      "title": "Identity",
+      "type": "string"
+    },
+    "learning_targets": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Learning Targets",
+      "type": "array"
+    },
+    "profile_context": {
+      "title": "Profile Context",
+      "type": "string"
+    },
+    "required_output": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Required Output",
+      "type": "array"
+    },
+    "role": {
+      "const": "Guided practice 1",
+      "default": "Guided practice 1",
+      "title": "Role",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "authoring-brief/1",
+      "default": "authoring-brief/1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "solution_policy": {
+      "title": "Solution Policy",
+      "type": "string"
+    },
+    "support_mode": {
+      "const": "guided",
+      "default": "guided",
+      "title": "Support Mode",
+      "type": "string"
+    },
+    "task_form": {
+      "const": "From summary statistics",
+      "default": "From summary statistics",
+      "title": "Task Form",
+      "type": "string"
+    }
+  },
+  "required": [
+    "profile_context",
+    "learning_targets",
+    "formula",
+    "required_output",
+    "allowed_question_templates",
+    "allowed_scaffolds",
+    "forbidden_content",
+    "copyright_policy",
+    "solution_policy"
+  ],
+  "title": "AuthoringBrief",
+  "type": "object"
+}

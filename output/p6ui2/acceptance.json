@@ -1,0 +1,67 @@
+{
+  "milestone": "P6UI.2",
+  "verdict": "PASS",
+  "backend_tests": {
+    "total": 110,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "model_api_calls": 0
+  },
+  "postfreeze_tests": {
+    "total": 110,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "model_api_calls": 0
+  },
+  "frontend_e2e": {
+    "startTime": "2026-10-02T06:40:35.359Z",
+    "duration": 67515.659,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "production_build": "PASS",
+  "typescript": "PASS",
+  "targeted_eslint": "PASS",
+  "historical_frontend_data_tests": 3,
+  "lesson_roles": 15,
+  "lesson_questions": 12,
+  "teacher_solutions": 12,
+  "historical_p6_records": 34,
+  "model_api_calls": 0,
+  "integrity": {
+    "historical_files_checked": 1517,
+    "historical_artifacts_unchanged": true,
+    "manifests_v1_through_v1_7_unchanged": true,
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "trusted_database_unchanged": true,
+    "governance_review_snapshots_unchanged": true,
+    "model_api_calls": 0
+  },
+  "baseline": {
+    "active_reference_version": "v1.8",
+    "manifest_path": "output/reference_freeze_v1_8/reference_manifest.json",
+    "manifest_sha256": "9ececb3bd18e89776ea771a0b754a27f8bbbc0d6a8409ee28d075b1e3c1cf562",
+    "protected_files": 1661
+  },
+  "baseline_conformance": {
+    "reference_version": "v1.8",
+    "valid": true,
+    "errors": [],
+    "manifest_sha256": "9ececb3bd18e89776ea771a0b754a27f8bbbc0d6a8409ee28d075b1e3c1cf562",
+    "trust_authority": false,
+    "verification_scope": "current_conformance"
+  },
+  "local_url": "http://127.0.0.1:3000",
+  "limitations": [
+    "Only Standard Deviation deterministic lesson assembly",
+    "Topic 2 read/inspect only",
+    "No upload, live AI, trusted writes, new PPT rendering or P6 bridge",
+    "Run API state is session-local; persisted files retained for audit",
+    "Restricted Windows Playwright server cleanup required explicit process stops",
+    "App panel open tool unavailable; browser URL works"
+  ]
+}

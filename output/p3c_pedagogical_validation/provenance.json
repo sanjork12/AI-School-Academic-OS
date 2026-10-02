@@ -1,0 +1,321 @@
+{
+  "current_upstream_validated": true,
+  "upstream": {
+    "coverage_status": "planned_coverage",
+    "status": "candidate",
+    "teaching_blocks": {
+      "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e": {
+        "coverage_requirement_refs": [
+          "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+        ],
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ]
+      },
+      "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3": {
+        "coverage_requirement_refs": [],
+        "evidence_refs": [],
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+        ]
+      },
+      "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4": {
+        "coverage_requirement_refs": [],
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ]
+      },
+      "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898": {
+        "coverage_requirement_refs": [
+          "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+        ],
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ]
+      },
+      "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597": {
+        "coverage_requirement_refs": [],
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+        ]
+      }
+    },
+    "upstream": {
+      "coverage_requirements": {
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862": {
+          "epistemic_class": "evidence_backed_requirement",
+          "evidence_refs": [
+            "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+            "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+          ],
+          "learning_requirement_refs": [
+            "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+            "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "policy_basis": "learning-specification/1 coverage policy",
+          "ref": "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+          "source_refs": [
+            "capability-standard-deviation-calculate",
+            "concept-standard-deviation",
+            "task-form-summary-statistics"
+          ],
+          "statement": "Assessment material must declare which included Learning Requirements it assesses; unsupported content must not silently be labelled as covered.",
+          "type": "assessment_alignment"
+        },
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c": {
+          "epistemic_class": "evidence_backed_requirement",
+          "evidence_refs": [
+            "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+            "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+          ],
+          "learning_requirement_refs": [
+            "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+          ],
+          "policy_basis": "learning-specification/1 coverage policy",
+          "ref": "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c",
+          "source_refs": [
+            "capability-standard-deviation-calculate",
+            "task-form-summary-statistics"
+          ],
+          "statement": "Teaching material should provide an assessment connection aligned to the supported capability and task form. Copying a past-paper question is not required.",
+          "type": "teaching_assessment_connection"
+        }
+      },
+      "learning_requirements": {
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928": {
+          "evidence_refs": [],
+          "source_refs": [
+            "concept-standard-deviation"
+          ],
+          "type": "conceptual_understanding"
+        },
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a": {
+          "evidence_refs": [
+            "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+            "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+          ],
+          "source_refs": [
+            "capability-standard-deviation-calculate"
+          ],
+          "type": "capability"
+        },
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b": {
+          "evidence_refs": [
+            "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+            "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+          ],
+          "source_refs": [
+            "capability-standard-deviation-calculate",
+            "task-form-summary-statistics"
+          ],
+          "type": "capability_under_task_form"
+        }
+      },
+      "notice": "Derived learning contract, not a new academic approval. Refresh validity through upstream services.",
+      "source_contracts": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "upstream": {
+        "assessment_examples": {
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b": {
+            "canonical_id": "CAN-STAT-SD-CALC",
+            "concept_id": "CON-STAT-SD",
+            "mapping_keys": [
+              "proposal:PROPOSE-Q3-2023-b-ii"
+            ],
+            "parsed_part_key": "parsed_part:PARSED-Q3-2023-b-ii",
+            "snapshot_ids": [
+              "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+            ],
+            "task_condition_ids": [
+              "TC-SUMMARY-STATISTICS"
+            ]
+          },
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b": {
+            "canonical_id": "CAN-STAT-SD-CALC",
+            "concept_id": "CON-STAT-SD",
+            "mapping_keys": [
+              "part_mapping:MAP-Q2-b-SD-CALC"
+            ],
+            "parsed_part_key": "parsed_part:PARSED-Q2-b",
+            "snapshot_ids": [
+              "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070"
+            ],
+            "task_condition_ids": [
+              "TC-SUMMARY-STATISTICS"
+            ]
+          }
+        },
+        "patterns": [
+          {
+            "epistemic_level": "derived_observation",
+            "evidence_count": 2,
+            "evidence_refs": [
+              "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+              "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+            ],
+            "statement": "All 2 reviewed examples assess \"Calculate standard deviation\".",
+            "type": "shared_capability"
+          },
+          {
+            "epistemic_level": "derived_observation",
+            "evidence_count": 2,
+            "evidence_refs": [
+              "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+              "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+            ],
+            "statement": "All 2 reviewed examples use the task form \"From summary statistics\".",
+            "type": "shared_task_form"
+          },
+          {
+            "epistemic_level": "derived_observation",
+            "evidence_count": 2,
+            "evidence_refs": [
+              "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+              "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+            ],
+            "statement": "The reviewed examples have different question wording; no context classification is inferred.",
+            "type": "distinct_question_wording"
+          },
+          {
+            "epistemic_level": "derived_observation",
+            "evidence_count": 2,
+            "evidence_refs": [
+              "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+              "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+            ],
+            "statement": "All 2 reviewed examples carry 2 marks.",
+            "type": "shared_marks"
+          }
+        ],
+        "upstream": {
+          "assessment_examples": [
+            {
+              "canonical_id": "CAN-STAT-SD-CALC",
+              "concept_id": "CON-STAT-SD",
+              "mapping_keys": [
+                "part_mapping:MAP-Q2-b-SD-CALC"
+              ],
+              "parsed_part_key": "parsed_part:PARSED-Q2-b",
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070"
+              ],
+              "task_condition_ids": [
+                "TC-SUMMARY-STATISTICS"
+              ]
+            },
+            {
+              "canonical_id": "CAN-STAT-SD-CALC",
+              "concept_id": "CON-STAT-SD",
+              "mapping_keys": [
+                "proposal:PROPOSE-Q3-2023-b-ii"
+              ],
+              "parsed_part_key": "parsed_part:PARSED-Q3-2023-b-ii",
+              "snapshot_ids": [
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "task_condition_ids": [
+                "TC-SUMMARY-STATISTICS"
+              ]
+            }
+          ],
+          "canonical_objects": {
+            "competency:CAN-STAT-SD-CALC": {
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "version": "1ef9ddf75fac8db4f8b68d85dbe3ba216f55014c6c745a9dcfe08dbd4f1f917c"
+            },
+            "concept:CON-STAT-SD": {
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a"
+            },
+            "task_condition:TC-SUMMARY-STATISTICS": {
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8"
+            }
+          },
+          "conflicts": [],
+          "curriculum_excerpts": [
+            {
+              "locator_key": "locator:SPEC-2.3",
+              "normalized_text_end": 1568,
+              "normalized_text_start": 1493,
+              "source_key": "source:SPEC"
+            }
+          ],
+          "input_snapshot_ids": [
+            "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+            "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+          ],
+          "product_refs": {
+            "capability-standard-deviation-calculate": {
+              "object_key": "competency:CAN-STAT-SD-CALC",
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "version": "1ef9ddf75fac8db4f8b68d85dbe3ba216f55014c6c745a9dcfe08dbd4f1f917c"
+            },
+            "concept-standard-deviation": {
+              "object_key": "concept:CON-STAT-SD",
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a"
+            },
+            "task-form-summary-statistics": {
+              "object_key": "task_condition:TC-SUMMARY-STATISTICS",
+              "snapshot_ids": [
+                "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+                "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+              ],
+              "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8"
+            }
+          },
+          "snapshot_usability": {
+            "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": true,
+            "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": true
+          },
+          "supporting_sources": [
+            "source:MS",
+            "source:MS-2023",
+            "source:QP",
+            "source:QP-2023",
+            "source:SPEC"
+          ]
+        },
+        "upstream_schema_version": "teacher-topic/2"
+      }
+    }
+  },
+  "validation_schema": "pedagogical-validation/1"
+}

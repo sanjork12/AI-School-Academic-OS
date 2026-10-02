@@ -1,0 +1,384 @@
+{
+  "inputs": {
+    "n": 5,
+    "sum_x": "15",
+    "sum_x2": "55"
+  },
+  "cases": [
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "Σx",
+        "claimed_value": "15",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "variable",
+          "name": "sum_x"
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "15"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "Σx²",
+        "claimed_value": "55",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "variable",
+          "name": "sum_x2"
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "55"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "Σx / n",
+        "claimed_value": "3",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "variable",
+            "name": "sum_x"
+          },
+          "right": {
+            "op": "variable",
+            "name": "n"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "3"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "(Σx / n)²",
+        "claimed_value": "9",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "square",
+          "arg": {
+            "op": "divide",
+            "left": {
+              "op": "variable",
+              "name": "sum_x"
+            },
+            "right": {
+              "op": "variable",
+              "name": "n"
+            }
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "9"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "Σx² / n",
+        "claimed_value": "11",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "variable",
+            "name": "sum_x2"
+          },
+          "right": {
+            "op": "variable",
+            "name": "n"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "11"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "Σx² / n - (Σx / n)²",
+        "claimed_value": "2",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "subtract",
+          "left": {
+            "op": "divide",
+            "left": {
+              "op": "variable",
+              "name": "sum_x2"
+            },
+            "right": {
+              "op": "variable",
+              "name": "n"
+            }
+          },
+          "right": {
+            "op": "square",
+            "arg": {
+              "op": "divide",
+              "left": {
+                "op": "variable",
+                "name": "sum_x"
+              },
+              "right": {
+                "op": "variable",
+                "name": "n"
+              }
+            }
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "2"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "sqrt(2)",
+        "claimed_value": "1.414213562373095048801688724209698078569671875",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "sqrt",
+          "arg": {
+            "op": "constant",
+            "value": "2"
+          }
+        },
+        "comparison": "decimal_absolute_tolerance_1e-40",
+        "evaluated_value": "1.4142135623730950488016887242096980785696718753769"
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "Σx / n",
+        "claimed_value": "4",
+        "valid": false,
+        "reason": "expression_value_mismatch",
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "variable",
+            "name": "sum_x"
+          },
+          "right": {
+            "op": "variable",
+            "name": "n"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "3"
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "(Σx / n)²",
+        "claimed_value": "8",
+        "valid": false,
+        "reason": "expression_value_mismatch",
+        "ast": {
+          "op": "square",
+          "arg": {
+            "op": "divide",
+            "left": {
+              "op": "variable",
+              "name": "sum_x"
+            },
+            "right": {
+              "op": "variable",
+              "name": "n"
+            }
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "9"
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "Σx² / n",
+        "claimed_value": "10",
+        "valid": false,
+        "reason": "expression_value_mismatch",
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "variable",
+            "name": "sum_x2"
+          },
+          "right": {
+            "op": "variable",
+            "name": "n"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "11"
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "30/4 = 999",
+        "claimed_value": "15/2",
+        "valid": false,
+        "reason": "unsupported_expression",
+        "ast": null
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "n.real",
+        "claimed_value": "5",
+        "valid": false,
+        "reason": "unsupported_expression",
+        "ast": null
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "1+2",
+        "claimed_value": "3",
+        "valid": false,
+        "reason": "unsupported_expression",
+        "ast": null
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "(",
+        "claimed_value": "1",
+        "valid": false,
+        "reason": "parser_failure",
+        "ast": null
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "1/0",
+        "claimed_value": "1",
+        "valid": false,
+        "reason": "division_by_zero",
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "constant",
+            "value": "1"
+          },
+          "right": {
+            "op": "constant",
+            "value": "0"
+          }
+        }
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "15/2",
+        "claimed_value": "15/2",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "constant",
+            "value": "15"
+          },
+          "right": {
+            "op": "constant",
+            "value": "2"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "15/2"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "-1/2",
+        "claimed_value": "-1/2",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "constant",
+            "value": "-1"
+          },
+          "right": {
+            "op": "constant",
+            "value": "2"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "-1/2"
+      }
+    },
+    {
+      "expected_valid": true,
+      "result": {
+        "expression": "0.3 - 0.2",
+        "claimed_value": "0.1",
+        "valid": true,
+        "reason": null,
+        "ast": {
+          "op": "subtract",
+          "left": {
+            "op": "constant",
+            "value": "3/10"
+          },
+          "right": {
+            "op": "constant",
+            "value": "1/5"
+          }
+        },
+        "comparison": "exact_rational",
+        "evaluated_value": "1/10"
+      }
+    },
+    {
+      "expected_valid": false,
+      "result": {
+        "expression": "sqrt(2)/2",
+        "claimed_value": "1",
+        "valid": false,
+        "reason": "unsupported_root_composition",
+        "ast": {
+          "op": "divide",
+          "left": {
+            "op": "sqrt",
+            "arg": {
+              "op": "constant",
+              "value": "2"
+            }
+          },
+          "right": {
+            "op": "constant",
+            "value": "2"
+          }
+        }
+      }
+    }
+  ],
+  "model_provider_calls": 0
+}

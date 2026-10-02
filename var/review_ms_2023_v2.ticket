@@ -1,0 +1,21 @@
+{
+  "bundle_id": "SOURCE-BUNDLE-MS-Q3-2023",
+  "definition_version": "737160b95ff596b9d564bc5f98f2ff6c81f8028e6e40dca6fbddbc1f9e5aabb0",
+  "versions": {
+    "locator:MS-2023-Q3-a": "7971a2a4264f9f22e3a7bbf488074c0eb8ea2fd9e09b1a6e32fe18e059d6f1ec",
+    "locator:MS-2023-Q3-b-i": "f3274d3d5c9c026b38eee854cf501cbf55f9aabc172b69d29f1b41cd8d6d8286",
+    "locator:MS-2023-Q3-b-ii": "acff4f99222504d7092234f8c2b11355bfb88ea6b3da4bac2721a25d1f510f9c",
+    "locator:MS-2023-Q3-c-i": "51286a61e160eac79317b0189260f2f5cf116335202f20db3e528ef3e668cc1b",
+    "locator:MS-2023-Q3-c-ii": "87c6e314c620946ca7bf0a456986bada1acbefe2c9cee1938ddd798e9f3c668d",
+    "source:MS-2023": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615"
+  },
+  "review_heads": {
+    "locator:MS-2023-Q3-a": null,
+    "locator:MS-2023-Q3-b-i": null,
+    "locator:MS-2023-Q3-b-ii": null,
+    "locator:MS-2023-Q3-c-i": null,
+    "locator:MS-2023-Q3-c-ii": null,
+    "source:MS-2023": null
+  },
+  "token": "2b5de5d7b180305352dc7af12750c4c28209cba1961b969a9acf348e90017012"
+}

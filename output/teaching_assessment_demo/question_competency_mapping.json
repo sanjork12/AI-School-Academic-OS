@@ -1,0 +1,301 @@
+{
+  "mapping_unit": "question_part",
+  "attribution_policy": "Each part awards all its marks to one primary competency and its topic. Supporting links receive zero exclusive marks. Inclusive linked marks show exposure only and must not be summed.",
+  "mappings": [
+    {
+      "part_id": "Q1(a)",
+      "primary_competency": "CAN-STAT-TYPE-CLASSIFY",
+      "supporting_competencies": [],
+      "marks": 2,
+      "predicted_difficulty": 1,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "qualitative travel mode",
+        "quantitative discrete bus changes"
+      ]
+    },
+    {
+      "part_id": "Q1(b)",
+      "primary_competency": "CAN-STAT-VARIABLE-INTERPRET",
+      "supporting_competencies": [
+        "CAN-STAT-TYPE-CLASSIFY"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "quantitative continuous",
+        "distinguishes underlying measurement from rounding"
+      ]
+    },
+    {
+      "part_id": "Q1(c)",
+      "primary_competency": "CAN-STAT-GROUPED-INTERPRET",
+      "supporting_competencies": [],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "frequency in each interval",
+        "exact individual times lost"
+      ]
+    },
+    {
+      "part_id": "Q2(a)",
+      "primary_competency": "CAN-STAT-MEAN-CALCULATE",
+      "supporting_competencies": [],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "sum 77 divided by 7",
+        "11 minutes"
+      ]
+    },
+    {
+      "part_id": "Q2(b)",
+      "primary_competency": "CAN-STAT-MEDIAN-CALCULATE",
+      "supporting_competencies": [],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "median 8",
+        "correct contextual interpretation"
+      ]
+    },
+    {
+      "part_id": "Q2(c)",
+      "primary_competency": "CAN-STAT-LOCATION-SELECT",
+      "supporting_competencies": [
+        "CAN-STAT-OUTLIER-INTERPRET"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 3,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "median",
+        "justification referring to 30 minutes and influence on mean"
+      ]
+    },
+    {
+      "part_id": "Q3(a)",
+      "primary_competency": "CAN-STAT-MEAN-CALCULATE",
+      "supporting_competencies": [
+        "CAN-STAT-GROUPED-INTERPRET"
+      ],
+      "marks": 3,
+      "predicted_difficulty": 3,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "correct weighted midpoint sum divided by 40",
+        "15 seconds",
+        "midpoint/unknown within-class values explanation"
+      ]
+    },
+    {
+      "part_id": "Q3(b)",
+      "primary_competency": "CAN-STAT-QUANTILE-DETERMINE",
+      "supporting_competencies": [
+        "CAN-STAT-GROUPED-INTERPRET"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 3,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "interpolation or correct cumulative-frequency boundary giving 20",
+        "interpretation of 75% in context"
+      ]
+    },
+    {
+      "part_id": "Q4(a)",
+      "primary_competency": "CAN-STAT-RANGE-CALCULATE",
+      "supporting_competencies": [],
+      "marks": 1,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "26 minutes"
+      ]
+    },
+    {
+      "part_id": "Q4(b)",
+      "primary_competency": "CAN-STAT-IQR-CALCULATE",
+      "supporting_competencies": [
+        "CAN-STAT-QUANTILE-DETERMINE"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "both quartiles correct",
+        "IQR 9 minutes"
+      ]
+    },
+    {
+      "part_id": "Q4(c)",
+      "primary_competency": "CAN-STAT-OUTLIER-INTERPRET",
+      "supporting_competencies": [
+        "CAN-STAT-IQR-CALCULATE",
+        "CAN-STAT-LIMITATIONS-EVALUATE"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 3,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "fence 30 and 31 correctly flagged",
+        "investigate rather than automatically delete"
+      ]
+    },
+    {
+      "part_id": "Q5(a)",
+      "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "supporting_competencies": [
+        "CAN-STAT-MEDIAN-CALCULATE",
+        "CAN-STAT-IQR-CALCULATE"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "contextual median comparison with values",
+        "contextual IQR comparison with values"
+      ]
+    },
+    {
+      "part_id": "Q5(b)",
+      "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "supporting_competencies": [
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 3,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "summaries do not give all values/extremes",
+        "possible overlap or contextual counterexample"
+      ]
+    },
+    {
+      "part_id": "Q6(a)",
+      "primary_competency": "CAN-STAT-VARIANCE-INTERPRET",
+      "supporting_competencies": [
+        "CAN-STAT-MEAN-CALCULATE"
+      ],
+      "marks": 3,
+      "predicted_difficulty": 3,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "correct variance expression with divisor 8",
+        "value 9",
+        "squared units ml^2"
+      ]
+    },
+    {
+      "part_id": "Q6(b)",
+      "primary_competency": "CAN-STAT-SD-CALCULATE",
+      "supporting_competencies": [
+        "CAN-STAT-VARIANCE-INTERPRET"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "square root of variance",
+        "3 ml"
+      ]
+    },
+    {
+      "part_id": "Q6(c)",
+      "primary_competency": "CAN-STAT-SD-INTERPRET",
+      "supporting_competencies": [
+        "CAN-STAT-DISTRIBUTION-COMPARE"
+      ],
+      "marks": 3,
+      "predicted_difficulty": 4,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "same mean in context",
+        "second machine less variable with SD evidence",
+        "SD is not a maximum deviation or guarantee"
+      ]
+    },
+    {
+      "part_id": "Q7(a)",
+      "primary_competency": "CAN-STAT-CONTEXT-CONCLUDE",
+      "supporting_competencies": [
+        "CAN-STAT-VARIABLE-INTERPRET"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 2,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "one day at one station",
+        "rainfall in millimetres"
+      ]
+    },
+    {
+      "part_id": "Q7(b)",
+      "primary_competency": "CAN-STAT-LIMITATIONS-EVALUATE",
+      "supporting_competencies": [
+        "CAN-STAT-MEAN-CALCULATE"
+      ],
+      "marks": 3,
+      "predicted_difficulty": 4,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "sum 6.0 divided by 5",
+        "1.2 mm",
+        "missing day cannot be treated as zero"
+      ]
+    },
+    {
+      "part_id": "Q7(c)",
+      "primary_competency": "CAN-STAT-CONTEXT-CONCLUDE",
+      "supporting_competencies": [
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-DISTRIBUTION-COMPARE"
+      ],
+      "marks": 4,
+      "predicted_difficulty": 5,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "limited comparison using means",
+        "very small/short sample",
+        "different months/seasonality",
+        "missing value could bias result"
+      ]
+    },
+    {
+      "part_id": "Q8(a)",
+      "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "supporting_competencies": [
+        "CAN-STAT-MEAN-CALCULATE",
+        "CAN-STAT-OUTLIER-INTERPRET"
+      ],
+      "marks": 3,
+      "predicted_difficulty": 4,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "reconstruct total 180 and subtract 54",
+        "remaining mean 14",
+        "correct contextual comparison with 15"
+      ]
+    },
+    {
+      "part_id": "Q8(b)",
+      "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "supporting_competencies": [
+        "CAN-STAT-LIMITATIONS-EVALUATE",
+        "CAN-STAT-CONTEXT-CONCLUDE"
+      ],
+      "marks": 2,
+      "predicted_difficulty": 5,
+      "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+      "reasoning_steps": [
+        "valid data-quality reason needed for removal",
+        "qualified conclusion with variation/representativeness limitation"
+      ]
+    }
+  ]
+}

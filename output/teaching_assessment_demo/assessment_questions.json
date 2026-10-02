@@ -1,0 +1,630 @@
+{
+  "material_notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+  "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "title": "Variables in a travel survey",
+      "context": "A college records travel mode, number of bus changes and journey time in minutes for each student. Journey time is rounded to the nearest minute.",
+      "question_purpose": "Classify variables and explain what grouping loses.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [],
+      "parts": [
+        {
+          "part_id": "Q1(a)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-TYPE-CLASSIFY",
+          "supporting_competencies": [],
+          "prompt": "Classify travel mode and number of bus changes. Use qualitative, quantitative discrete or quantitative continuous as appropriate.",
+          "predicted_difficulty": 1,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "qualitative travel mode",
+            "quantitative discrete bus changes"
+          ],
+          "answer": "Travel mode: qualitative. Number of bus changes: quantitative discrete.",
+          "marking_points": [
+            "B1 qualitative travel mode",
+            "B1 quantitative discrete bus changes"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q1(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-VARIABLE-INTERPRET",
+          "supporting_competencies": [
+            "CAN-STAT-TYPE-CLASSIFY"
+          ],
+          "prompt": "State the underlying type of journey time and explain why rounding does not change that type.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "quantitative continuous",
+            "distinguishes underlying measurement from rounding"
+          ],
+          "answer": "Quantitative continuous. Time can take any value in an interval; rounding only changes recording precision.",
+          "marking_points": [
+            "B1 quantitative continuous",
+            "B1 distinguishes underlying measurement from rounding"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q1(c)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-GROUPED-INTERPRET",
+          "supporting_competencies": [],
+          "prompt": "The college replaces individual times with counts in 0 <= t < 10, 10 <= t < 20, and so on. State what the counts represent and one piece of information that is lost.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "frequency in each interval",
+            "exact individual times lost"
+          ],
+          "answer": "Each count is the frequency in an interval. Exact individual journey times are lost.",
+          "marking_points": [
+            "B1 frequency in each interval",
+            "B1 exact individual times lost"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "title": "Choosing a typical waiting time",
+      "context": "The waiting times, in minutes, of seven customers are shown. Treat them as the complete set of observations.",
+      "question_purpose": "Calculate location and choose a robust summary.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [
+        [
+          "Waiting time (minutes)",
+          "4, 6, 7, 8, 9, 13, 30"
+        ]
+      ],
+      "parts": [
+        {
+          "part_id": "Q2(a)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-MEAN-CALCULATE",
+          "supporting_competencies": [],
+          "prompt": "Calculate the mean waiting time.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "sum 77 divided by 7",
+            "11 minutes"
+          ],
+          "answer": "77/7 = 11 minutes.",
+          "marking_points": [
+            "M1 sum 77 divided by 7",
+            "A1 11 minutes"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q2(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-MEDIAN-CALCULATE",
+          "supporting_competencies": [],
+          "prompt": "Find the median and interpret it for these customers.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "median 8",
+            "correct contextual interpretation"
+          ],
+          "answer": "Median = 8 minutes. At least half waited no more than 8 minutes and at least half no less.",
+          "marking_points": [
+            "B1 median 8",
+            "B1 correct contextual interpretation"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q2(c)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-LOCATION-SELECT",
+          "supporting_competencies": [
+            "CAN-STAT-OUTLIER-INTERPRET"
+          ],
+          "prompt": "Choose the mean or median to describe a typical wait. Justify your choice using the data.",
+          "predicted_difficulty": 3,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "median",
+            "justification referring to 30 minutes and influence on mean"
+          ],
+          "answer": "Median: the 30-minute wait pulls the mean upwards; the median resists this extreme value.",
+          "marking_points": [
+            "B1 median",
+            "B1 justification referring to 30 minutes and influence on mean"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "title": "Grouped download times",
+      "context": "A technician groups the download times t, in seconds, for 40 files. Use class midpoints for the estimated mean. Use position 0.75n and linear interpolation for the 75th percentile.",
+      "question_purpose": "Estimate summaries from grouped data and explain their meaning.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [
+        [
+          "Time t (seconds)",
+          "Frequency"
+        ],
+        [
+          "0 <= t < 10",
+          "10"
+        ],
+        [
+          "10 <= t < 20",
+          "20"
+        ],
+        [
+          "20 <= t < 30",
+          "10"
+        ]
+      ],
+      "parts": [
+        {
+          "part_id": "Q3(a)",
+          "marks": 3,
+          "primary_competency": "CAN-STAT-MEAN-CALCULATE",
+          "supporting_competencies": [
+            "CAN-STAT-GROUPED-INTERPRET"
+          ],
+          "prompt": "Estimate the mean download time. Explain why your answer is an estimate.",
+          "predicted_difficulty": 3,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "correct weighted midpoint sum divided by 40",
+            "15 seconds",
+            "midpoint/unknown within-class values explanation"
+          ],
+          "answer": "Midpoints 5, 15, 25. Sum fm = 600, n = 40. Estimated mean = 15 seconds. Actual within-class values are unknown.",
+          "marking_points": [
+            "M1 correct weighted midpoint sum divided by 40",
+            "A1 15 seconds",
+            "B1 midpoint/unknown within-class values explanation"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q3(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-QUANTILE-DETERMINE",
+          "supporting_competencies": [
+            "CAN-STAT-GROUPED-INTERPRET"
+          ],
+          "prompt": "Estimate the 75th percentile and interpret it.",
+          "predicted_difficulty": 3,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "interpolation or correct cumulative-frequency boundary giving 20",
+            "interpretation of 75% in context"
+          ],
+          "answer": "Position 30 lies at the top of the second class. 10 + ((30 - 10)/20) x 10 = 20 seconds. Approximately 75% take no more than 20 seconds.",
+          "marking_points": [
+            "M1 interpolation or correct cumulative-frequency boundary giving 20",
+            "B1 interpretation of 75% in context"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q4",
+      "title": "Quartiles and an unusual value",
+      "context": "Twelve packet delivery times in minutes are ordered below. Define Q1 and Q3 as the medians of the lower six and upper six values. Use the rule: an outlier lies below Q1 - 1.5 IQR or above Q3 + 1.5 IQR.",
+      "question_purpose": "Calculate spread and apply an explicitly specified outlier rule.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [
+        [
+          "Delivery time (minutes)",
+          "5, 6, 7, 8, 10, 11, 13, 14, 16, 17, 19, 31"
+        ]
+      ],
+      "parts": [
+        {
+          "part_id": "Q4(a)",
+          "marks": 1,
+          "primary_competency": "CAN-STAT-RANGE-CALCULATE",
+          "supporting_competencies": [],
+          "prompt": "Find the range.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "26 minutes"
+          ],
+          "answer": "31 - 5 = 26 minutes.",
+          "marking_points": [
+            "B1 26 minutes"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q4(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-IQR-CALCULATE",
+          "supporting_competencies": [
+            "CAN-STAT-QUANTILE-DETERMINE"
+          ],
+          "prompt": "Find Q1, Q3 and the interquartile range.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "both quartiles correct",
+            "IQR 9 minutes"
+          ],
+          "answer": "Q1 = (7 + 8)/2 = 7.5; Q3 = (16 + 17)/2 = 16.5. IQR = 9 minutes.",
+          "marking_points": [
+            "B1 both quartiles correct",
+            "A1 IQR 9 minutes"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q4(c)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-OUTLIER-INTERPRET",
+          "supporting_competencies": [
+            "CAN-STAT-IQR-CALCULATE",
+            "CAN-STAT-LIMITATIONS-EVALUATE"
+          ],
+          "prompt": "Decide whether 31 minutes is an outlier. State whether this alone justifies deleting it.",
+          "predicted_difficulty": 3,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "fence 30 and 31 correctly flagged",
+            "investigate rather than automatically delete"
+          ],
+          "answer": "Upper fence = 16.5 + 1.5 x 9 = 30. Since 31 > 30 it is flagged. No: investigate whether it is an error or a genuine delay.",
+          "marking_points": [
+            "B1 fence 30 and 31 correctly flagged",
+            "B1 investigate rather than automatically delete"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q5",
+      "title": "Two bus routes",
+      "context": "A student samples 30 comparable weekday journeys on each of two routes. The table summarises journey times in minutes.",
+      "question_purpose": "Use both location and variation to make a contextual comparison.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [
+        [
+          "Route",
+          "Median (minutes)",
+          "IQR (minutes)"
+        ],
+        [
+          "A",
+          "24",
+          "10"
+        ],
+        [
+          "B",
+          "28",
+          "4"
+        ]
+      ],
+      "parts": [
+        {
+          "part_id": "Q5(a)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+          "supporting_competencies": [
+            "CAN-STAT-MEDIAN-CALCULATE",
+            "CAN-STAT-IQR-CALCULATE"
+          ],
+          "prompt": "Compare the typical journey time and consistency of the two routes, using the statistics.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "contextual median comparison with values",
+            "contextual IQR comparison with values"
+          ],
+          "answer": "Route A is typically quicker (median 24 vs 28 minutes), but B is more consistent in its middle half (IQR 4 vs 10 minutes).",
+          "marking_points": [
+            "B1 contextual median comparison with values",
+            "B1 contextual IQR comparison with values"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q5(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+          "supporting_competencies": [
+            "CAN-STAT-CONTEXT-CONCLUDE"
+          ],
+          "prompt": "A student says: \"Every journey on A will be quicker than every journey on B.\" Explain why the summaries do not justify this claim.",
+          "predicted_difficulty": 3,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "summaries do not give all values/extremes",
+            "possible overlap or contextual counterexample"
+          ],
+          "answer": "Medians and IQRs summarise parts of the distributions, not all individual times. The distributions may overlap, so an A journey may take longer than a B journey.",
+          "marking_points": [
+            "B1 summaries do not give all values/extremes",
+            "B1 possible overlap or contextual counterexample"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q6",
+      "title": "Variation in machine filling",
+      "context": "For eight measured fill volumes x in millilitres, n = 8, sum x = 400 and sum x^2 = 20072. Describe these eight observations using divisor n, not n - 1.",
+      "question_purpose": "Connect summary statistics, variance, standard deviation and units.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [],
+      "parts": [
+        {
+          "part_id": "Q6(a)",
+          "marks": 3,
+          "primary_competency": "CAN-STAT-VARIANCE-INTERPRET",
+          "supporting_competencies": [
+            "CAN-STAT-MEAN-CALCULATE"
+          ],
+          "prompt": "Calculate the variance of the eight fill volumes and give its units.",
+          "predicted_difficulty": 3,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "correct variance expression with divisor 8",
+            "value 9",
+            "squared units ml^2"
+          ],
+          "answer": "Mean = 50 ml. Variance = 20072/8 - 50^2 = 9 ml^2.",
+          "marking_points": [
+            "M1 correct variance expression with divisor 8",
+            "A1 value 9",
+            "B1 squared units ml^2"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q6(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-SD-CALCULATE",
+          "supporting_competencies": [
+            "CAN-STAT-VARIANCE-INTERPRET"
+          ],
+          "prompt": "Calculate the standard deviation and give its units.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "square root of variance",
+            "3 ml"
+          ],
+          "answer": "sqrt(9) = 3 ml.",
+          "marking_points": [
+            "M1 square root of variance",
+            "A1 3 ml"
+          ],
+          "acceptable_alternatives": "Allow M1 for square root of their non-negative variance; A1 requires 3 ml.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q6(c)",
+          "marks": 3,
+          "primary_competency": "CAN-STAT-SD-INTERPRET",
+          "supporting_competencies": [
+            "CAN-STAT-DISTRIBUTION-COMPARE"
+          ],
+          "prompt": "A second machine has mean 50 ml and standard deviation 1.2 ml for a comparable set of fills. Compare the two machines, and explain why standard deviation 3 ml does not mean every fill is between 47 and 53 ml.",
+          "predicted_difficulty": 4,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "same mean in context",
+            "second machine less variable with SD evidence",
+            "SD is not a maximum deviation or guarantee"
+          ],
+          "answer": "Both average 50 ml. The second machine has less variation around its mean (1.2 < 3). SD describes overall variation, not a bound on individual values.",
+          "marking_points": [
+            "B1 same mean in context",
+            "B1 second machine less variable with SD evidence",
+            "B1 SD is not a maximum deviation or guarantee"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q7",
+      "title": "Weather records and missing values",
+      "context": "ILLUSTRATIVE DATA: these invented values are not Pearson LDS observations. Daily rainfall at fictional Station P over six scheduled days is 0, 1.2, tr, 0, 4.8, missing (mm). Here tr means 0 < rainfall < 0.05 mm. For this calculation replace tr by 0. Station R has a reported mean of 0.8 mm over six complete days in a different month.",
+      "question_purpose": "Analyse weather data with an explicit cleaning policy and qualified conclusions.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [],
+      "parts": [
+        {
+          "part_id": "Q7(a)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-CONTEXT-CONCLUDE",
+          "supporting_competencies": [
+            "CAN-STAT-VARIABLE-INTERPRET"
+          ],
+          "prompt": "Explain what one observation represents and state the unit.",
+          "predicted_difficulty": 2,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "one day at one station",
+            "rainfall in millimetres"
+          ],
+          "answer": "The total rainfall at Station P over one day, measured in millimetres.",
+          "marking_points": [
+            "B1 one day at one station",
+            "B1 rainfall in millimetres"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q7(b)",
+          "marks": 3,
+          "primary_competency": "CAN-STAT-LIMITATIONS-EVALUATE",
+          "supporting_competencies": [
+            "CAN-STAT-MEAN-CALCULATE"
+          ],
+          "prompt": "Estimate the mean rainfall for the available days at P using the stated rule. Explain why you do not divide by six.",
+          "predicted_difficulty": 4,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "sum 6.0 divided by 5",
+            "1.2 mm",
+            "missing day cannot be treated as zero"
+          ],
+          "answer": "(0 + 1.2 + 0 + 0 + 4.8)/5 = 1.2 mm. Five recorded days remain; missing is not an observed zero.",
+          "marking_points": [
+            "M1 sum 6.0 divided by 5",
+            "A1 1.2 mm",
+            "B1 missing day cannot be treated as zero"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q7(c)",
+          "marks": 4,
+          "primary_competency": "CAN-STAT-CONTEXT-CONCLUDE",
+          "supporting_competencies": [
+            "CAN-STAT-LIMITATIONS-EVALUATE",
+            "CAN-STAT-DISTRIBUTION-COMPARE"
+          ],
+          "prompt": "A researcher concludes that P has a wetter climate than R. Give the limited comparison supported by the means, then explain three distinct reasons why this climate claim is not justified.",
+          "predicted_difficulty": 5,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "limited comparison using means",
+            "very small/short sample",
+            "different months/seasonality",
+            "missing value could bias result"
+          ],
+          "answer": "For the available observations P has higher mean daily rainfall (1.2 vs 0.8 mm). Only a few days are represented; different months may have seasonal effects; the missing day at P may bias its mean. This does not establish a climate difference.",
+          "marking_points": [
+            "B1 limited comparison using means",
+            "B1 very small/short sample",
+            "B1 different months/seasonality",
+            "B1 missing value could bias result"
+          ],
+          "acceptable_alternatives": "Accept distinct valid limitations tied to the setup; do not credit the same limitation twice.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    },
+    {
+      "question_id": "Q8",
+      "title": "A mean changes after inspection",
+      "context": "In a second delivery study, 10 recorded times have mean 18 minutes. One time is 54 minutes. A comparable service has mean 15 minutes. The analyst proposes removing 54 because it makes the first service look slow.",
+      "question_purpose": "Combine an updated mean with an evaluation of an unjustified conclusion.",
+      "question_format": "Original multi-part written practice",
+      "provenance": "teacher_generated",
+      "data_provenance": "synthetic_illustrative",
+      "notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+      "data_notice": "ILLUSTRATIVE DATA — invented for practice, not Pearson LDS observations.",
+      "data": [],
+      "parts": [
+        {
+          "part_id": "Q8(a)",
+          "marks": 3,
+          "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+          "supporting_competencies": [
+            "CAN-STAT-MEAN-CALCULATE",
+            "CAN-STAT-OUTLIER-INTERPRET"
+          ],
+          "prompt": "Calculate the mean of the remaining nine times if 54 is removed. Compare it with 15 minutes.",
+          "predicted_difficulty": 4,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "reconstruct total 180 and subtract 54",
+            "remaining mean 14",
+            "correct contextual comparison with 15"
+          ],
+          "answer": "(10 x 18 - 54)/9 = 14 minutes. The remaining nine average 1 minute less than the other service, reversing the original comparison (18 > 15).",
+          "marking_points": [
+            "M1 reconstruct total 180 and subtract 54",
+            "A1 remaining mean 14",
+            "B1 correct contextual comparison with 15"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        },
+        {
+          "part_id": "Q8(b)",
+          "marks": 2,
+          "primary_competency": "CAN-STAT-DISTRIBUTION-COMPARE",
+          "supporting_competencies": [
+            "CAN-STAT-LIMITATIONS-EVALUATE",
+            "CAN-STAT-CONTEXT-CONCLUDE"
+          ],
+          "prompt": "Evaluate the proposed removal and the claim that the first service is generally faster.",
+          "predicted_difficulty": 5,
+          "difficulty_basis": "Teacher estimate of task demand, 1 easiest to 5 hardest; not empirically calibrated.",
+          "reasoning_steps": [
+            "valid data-quality reason needed for removal",
+            "qualified conclusion with variation/representativeness limitation"
+          ],
+          "answer": "Removal to improve the result is unjustified: verify whether 54 is an error or genuine delay. A changed sample mean alone does not establish that the service is generally faster; compare representative samples and variation.",
+          "marking_points": [
+            "B1 valid data-quality reason needed for removal",
+            "B1 qualified conclusion with variation/representativeness limitation"
+          ],
+          "acceptable_alternatives": "Accept equivalent correct reasoning.",
+          "interpretation_requirements": "Use the context and units stated in the question."
+        }
+      ]
+    }
+  ]
+}

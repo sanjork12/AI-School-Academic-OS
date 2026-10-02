@@ -1,0 +1,552 @@
+{
+  "document": {
+    "document_id": "1ee8beb715084bb6b131587a6759f28b",
+    "original_filename": "known.pdf",
+    "sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "byte_size": 1534117,
+    "page_count": 70,
+    "uploaded_at": "2026-10-02T07:14:10.089358+00:00",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "status": "UPLOADED",
+    "trust": "UNTRUSTED / REVIEWABLE CURRICULUM EVIDENCE"
+  },
+  "extraction_run": {
+    "run_id": "26b30af7c2fe400a9caaa1cc1958ac77",
+    "operation": "extract",
+    "document_id": "1ee8beb715084bb6b131587a6759f28b",
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "tier": "foundation",
+    "start_page": 21,
+    "end_page": 22,
+    "extraction_run_id": null,
+    "mode": "no-model",
+    "status": "succeeded",
+    "stages": {
+      "extraction": "PASS",
+      "parsing": "NOT_EVALUATED",
+      "validation": "NOT_EVALUATED"
+    },
+    "parser_configuration": {},
+    "model_calls": 0,
+    "outputs": {
+      "extraction": "aa0d487445cf6558aa9e1395498cb7df13cb4b0e396ebd3cdb8f1b86cba1403a"
+    },
+    "warnings": [
+      {
+        "code": "SYMBOL_EXTRACTION_WARNING",
+        "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+        "page": 22
+      }
+    ],
+    "errors": [],
+    "started_at": "2026-10-02T07:14:10.120602+00:00",
+    "ended_at": "2026-10-02T07:14:10.163730+00:00"
+  },
+  "parse_run": {
+    "run_id": "14c6f4868e7e405180574ab258bd9d83",
+    "operation": "parse",
+    "document_id": "1ee8beb715084bb6b131587a6759f28b",
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "tier": "foundation",
+    "start_page": 21,
+    "end_page": 22,
+    "extraction_run_id": "26b30af7c2fe400a9caaa1cc1958ac77",
+    "mode": "preserved",
+    "status": "succeeded",
+    "stages": {
+      "extraction": "PASS",
+      "parsing": "PASS",
+      "validation": "PASS"
+    },
+    "parser_configuration": {
+      "mode": "preserved parse replay",
+      "fixture_sha256": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+      "extracted_text_sha256": "fe4e64875e2b1f3dbe0a8375e9637268a9095da8da3c260e6ff40eb1a7d716ff",
+      "model_invoked": false
+    },
+    "model_calls": 0,
+    "outputs": {
+      "parsed": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+      "validation": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+      "tree": "f932df5b463e5112692779e0e076059d033b5c24a49a175845115d55c304aba4"
+    },
+    "warnings": [
+      {
+        "code": "SYMBOL_EXTRACTION_WARNING",
+        "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+        "page": 22
+      },
+      {
+        "code": "PARSER_WARNING",
+        "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: \u201c\uf085\u201d and \u201c\uf084\u201d have been preserved exactly rather than interpreted or repaired.",
+        "page": null
+      },
+      {
+        "code": "PARSER_WARNING",
+        "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+        "page": null
+      },
+      {
+        "code": "VALIDATION_WARNING",
+        "message": "Parser reported 2 warning(s).",
+        "page": null
+      }
+    ],
+    "errors": [],
+    "started_at": "2026-10-02T07:14:10.177981+00:00",
+    "ended_at": "2026-10-02T07:14:10.212727+00:00"
+  },
+  "tree": {
+    "document_id": "1ee8beb715084bb6b131587a6759f28b",
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "run_id": "14c6f4868e7e405180574ab258bd9d83",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "tier": "Foundation",
+    "topics": [
+      {
+        "topic_code": "2",
+        "topic_name": "Equations, formulae and identities",
+        "subtopics": [
+          {
+            "subtopic_code": "2.1",
+            "subtopic_name": "Use of symbols",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
+                "source_id": "EDX-4MA1-F-2.1-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "B",
+                "official_text": "understand that algebraic expressions follow the generalised rules of arithmetic",
+                "source_id": "EDX-4MA1-F-2.1-B",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "C",
+                "official_text": "use index notation for positive and negative integer powers (including zero)",
+                "source_id": "EDX-4MA1-F-2.1-C",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "D",
+                "official_text": "use index laws in simple cases",
+                "source_id": "EDX-4MA1-F-2.1-D",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "a\u00b3 = a \u00d7 a \u00d7 a",
+              "a\u2075/a\u2075 = 1; a\u2070 = 1; a\u207b\u00b9 = 1/a",
+              "x\u1d50 \u00d7 x\u207f = x\u1d50\u207a\u207f; x\u1d50 \u00f7 x\u207f = x\u1d50\u207b\u207f; (x\u1d50)\u207f = x\u1d50\u207f"
+            ]
+          },
+          {
+            "subtopic_code": "2.2",
+            "subtopic_name": "Algebraic manipulation",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "evaluate expressions by substituting numerical values for letters",
+                "source_id": "EDX-4MA1-F-2.2-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "B",
+                "official_text": "collect like terms",
+                "source_id": "EDX-4MA1-F-2.2-B",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "C",
+                "official_text": "multiply a single term over a bracket",
+                "source_id": "EDX-4MA1-F-2.2-C",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "D",
+                "official_text": "take out common factors",
+                "source_id": "EDX-4MA1-F-2.2-D",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "E",
+                "official_text": "expand the product of two simple linear expressions",
+                "source_id": "EDX-4MA1-F-2.2-E",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "F",
+                "official_text": "understand the concept of a quadratic expression and be able to factorise such expressions (limited to x2 + bx + c)",
+                "source_id": "EDX-4MA1-F-2.2-F",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "3(2x + 5)",
+              "Factorise fully 8xy\u00b2 + 12y\u00b2",
+              "Expand and simplify (x + 8)(x \u2212 5)",
+              "Factorise x2 + 10x + 24"
+            ]
+          },
+          {
+            "subtopic_code": "2.3",
+            "subtopic_name": "Expressions and formulae",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "understand that a letter may represent an unknown number or a variable",
+                "source_id": "EDX-4MA1-F-2.3-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "B",
+                "official_text": "use correct notational conventions for algebraic expressions and formulae",
+                "source_id": "EDX-4MA1-F-2.3-B",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "C",
+                "official_text": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+                "source_id": "EDX-4MA1-F-2.3-C",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "D",
+                "official_text": "use formulae from mathematics and other real-life contexts expressed initially in words or diagrammatic form and convert to letters and symbols",
+                "source_id": "EDX-4MA1-F-2.3-D",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "E",
+                "official_text": "derive a formula or expression",
+                "source_id": "EDX-4MA1-F-2.3-E",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "F",
+                "official_text": "change the subject of a formula where the subject appears once",
+                "source_id": "EDX-4MA1-F-2.3-F",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "Evaluate 2x \u2212 3y when x = 4 and y = \u22125",
+              "Make r the subject of A = \u03c0r\u00b2",
+              "Make t the subject of v = u + at"
+            ]
+          },
+          {
+            "subtopic_code": "2.4",
+            "subtopic_name": "Linear equations",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+                "source_id": "EDX-4MA1-F-2.4-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "B",
+                "official_text": "set up simple linear equations from given data",
+                "source_id": "EDX-4MA1-F-2.4-B",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "5x + 8 = 12",
+              "7(x + 3) = 5x \u2212 8",
+              "4x + 5/3 = 2",
+              "The three angles of a triangle are a\u00b0, (a + 10)\u00b0, (a + 20)\u00b0. Find the value of a"
+            ]
+          },
+          {
+            "subtopic_code": "2.5",
+            "subtopic_name": "Proportion",
+            "objectives": [],
+            "notes": [
+              "Higher Tier only"
+            ]
+          },
+          {
+            "subtopic_code": "2.6",
+            "subtopic_name": "Simultaneous linear equations",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "calculate the exact solution of two simultaneous equations in two unknowns",
+                "source_id": "EDX-4MA1-F-2.6-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "x + y = 14, x \u2212 y = 2",
+              "2a + 5b = 12, 3a + b = 5"
+            ]
+          },
+          {
+            "subtopic_code": "2.7",
+            "subtopic_name": "Quadratic equations",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "solve quadratic equations by factorisation (limited to x2 + bx + c = 0)",
+                "source_id": "EDX-4MA1-F-2.7-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "Solve x2 + x \u2212 30 = 0"
+            ]
+          },
+          {
+            "subtopic_code": "2.8",
+            "subtopic_name": "Inequalities",
+            "objectives": [
+              {
+                "objective_code": "A",
+                "official_text": "understand and use the symbols >,<, \uf085 and \uf084",
+                "source_id": "EDX-4MA1-F-2.8-A",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "B",
+                "official_text": "understand and use the convention for open and closed intervals on a number line",
+                "source_id": "EDX-4MA1-F-2.8-B",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "C",
+                "official_text": "solve simple linear inequalities in one variable and represent the solution set on a number line",
+                "source_id": "EDX-4MA1-F-2.8-C",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "D",
+                "official_text": "represent simple linear inequalities on rectangular Cartesian graphs",
+                "source_id": "EDX-4MA1-F-2.8-D",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              },
+              {
+                "objective_code": "E",
+                "official_text": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+                "source_id": "EDX-4MA1-F-2.8-E",
+                "canonical": {
+                  "status": "unmapped",
+                  "mapping_id": null,
+                  "review_status": null,
+                  "reason": "No governed mapping for this uploaded document version"
+                }
+              }
+            ],
+            "notes": [
+              "To include double-ended inequalities e.g. 1 < x \uf084 5",
+              "3x \u2212 2 < 10, so x < 4",
+              "7 \u2212 x \uf084 5, so x \uf085 2",
+              "3 < x + 2 \uf084 5 so 1 < x \uf084 3",
+              "Shade the region defined by the inequalities x \uf085 0, y \uf085 1, x + y \uf084 5",
+              "Conventions for the inclusion of boundaries are not required"
+            ]
+          }
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "code": "SYMBOL_EXTRACTION_WARNING",
+        "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+        "page": 22
+      },
+      {
+        "code": "PARSER_WARNING",
+        "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: \u201c\uf085\u201d and \u201c\uf084\u201d have been preserved exactly rather than interpreted or repaired.",
+        "page": null
+      },
+      {
+        "code": "PARSER_WARNING",
+        "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+        "page": null
+      },
+      {
+        "code": "VALIDATION_WARNING",
+        "message": "Parser reported 2 warning(s).",
+        "page": null
+      }
+    ],
+    "validation": {
+      "status": "STRUCTURE_VALID",
+      "structure_valid": true,
+      "errors": [],
+      "warnings": [
+        "Parser reported 2 warning(s)."
+      ],
+      "parser_warnings": [
+        "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: \u201c\uf085\u201d and \u201c\uf084\u201d have been preserved exactly rather than interpreted or repaired.",
+        "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable."
+      ],
+      "objective_count": 25,
+      "subtopic_count": 8,
+      "source_ids_valid": true,
+      "validated_source_ids": 25,
+      "official_text_confirmed": false
+    },
+    "provenance_mode": "preserved"
+  },
+  "capability": {
+    "target": {
+      "target_id": "701223bebec6e87f476ceb8cdab313b97f22a6fd14f9a66a842d237219332403",
+      "document_id": "1ee8beb715084bb6b131587a6759f28b",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "run_id": "14c6f4868e7e405180574ab258bd9d83",
+      "parsed_sha256": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+      "profile": "edexcel-4ma1-topic2-2017/1",
+      "specification": "4MA1",
+      "tier": "Foundation",
+      "topic_code": "2",
+      "subtopic_code": "2.1",
+      "objective_codes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "source_ids": [
+        "EDX-4MA1-F-2.1-A",
+        "EDX-4MA1-F-2.1-B",
+        "EDX-4MA1-F-2.1-C",
+        "EDX-4MA1-F-2.1-D"
+      ],
+      "validation_state": "STRUCTURE_VALID",
+      "academically_approved": false
+    },
+    "CURRICULUM_BROWSABLE": true,
+    "LESSON_GENERATION_SUPPORTED": false,
+    "QUESTION_GENERATION_SUPPORTED": false,
+    "PRESENTATION_SUPPORTED": false,
+    "reason": "No topic-to-learning/pedagogy adapter; uploaded 4MA1 never routes to Standard Deviation."
+  },
+  "model_api_calls": 0
+}

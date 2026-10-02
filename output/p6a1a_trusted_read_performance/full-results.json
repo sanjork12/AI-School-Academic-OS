@@ -1,0 +1,30 @@
+{
+  "total": 1075,
+  "passed": 1071,
+  "failed": 3,
+  "errors": 1,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "seconds": 258.89858079999976,
+  "error_details": [
+    {
+      "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+    }
+  ],
+  "failure_details": [
+    {
+      "test": "test_27_preserved_foundation (tests_p0.test_profile_presentation.ProfilePresentationTests.test_27_preserved_foundation)",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\tests_p0\\test_profile_presentation.py\", line 192, in test_27_preserved_foundation\n    for path,digest in before['files'].items():self.assertEqual(hashlib.sha256(Path(path).read_bytes()).hexdigest(),digest,path)\n                                               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8' != 'ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e'\n- f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8\n+ ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e\n : academic_os\\sources.py\n"
+    },
+    {
+      "test": "test_34_frozen_hashes (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_34_frozen_hashes)",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\tests_p0\\test_reference_freeze.py\", line 55, in test_34_frozen_hashes\n    for p,h in self.before['files'].items():self.assertEqual(sha(p),h,p)\n                                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^\nAssertionError: 'f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8' != 'ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e'\n- f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8\n+ ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e\n : academic_os\\sources.py\n"
+    },
+    {
+      "test": "test_35_no_production_dependency_change (tests_p0.test_reference_freeze.ReferenceFreezeTests.test_35_no_production_dependency_change)",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\tests_p0\\test_reference_freeze.py\", line 58, in test_35_no_production_dependency_change\n    if p.suffix in ('.py','.mjs'):self.assertEqual(sha(p),self.before['files'][str(p)])\n                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: 'f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8' != 'ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e'\n- f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8\n+ ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e\n\n"
+    }
+  ]
+}

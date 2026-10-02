@@ -1,0 +1,1353 @@
+{
+  "items": [
+    {
+      "kind": "source",
+      "payload": {
+        "source_id": "QP-2023",
+        "title": "Pearson Edexcel 9MA0/31 Statistics QP-2023",
+        "source_type": "official_past_paper",
+        "origin": "real",
+        "artifact_reference": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 QP (Stats) (1).pdf",
+        "content_digest": "4b5e3dc04ba1951026605f495a4127f4afbdc3746c03f4be366b3e1f8d7e5c64",
+        "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+        "version_label": "20 June 2023; P72819A",
+        "identity_basis": "Cover text: 20 June 2023, 9MA0/31, P72819A. Local supplied PDF carries PMT branding; authenticity/edition awaits operator verification."
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-whole",
+        "source_id": "QP-2023",
+        "locator_kind": "section",
+        "label": "Q3 whole",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": null,
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 whole; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-b",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 b",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-b",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 b; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-c",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 c",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-c",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 c; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-a",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 a",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-a",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 a; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-b-i",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 b-i",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-b-i",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 b-i; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-b-ii",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 b-ii",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-b-ii",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 b-ii; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-c-i",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 c-i",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-c-i",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 c-i; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "QP-2023-Q3-c-ii",
+        "source_id": "QP-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 c-ii",
+        "page_index": 7,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20QP%20%28Stats%29%20%281%29.pdf#page=8",
+        "assessment_part_id": "Q3-2023-c-ii",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e",
+        "extracted_text": "*P72819A0820*\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA      DO NOT WRITE IN THIS AREA\nDO NOT WRITE IN THIS AREA   DO NOT WRITE IN THIS AREA       DO NOT WRITE IN THIS AREA\n8\n  \n3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n(2)\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\n_____________________________________________________________________________________\nPMT",
+        "text_digest": "e303534a040a5fd499526a1483992ee05ed04d9770f447d09600a3dbd94680b9",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 c-ii; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "source",
+      "payload": {
+        "source_id": "MS-2023",
+        "title": "Pearson Edexcel 9MA0/31 Statistics MS-2023",
+        "source_type": "official_mark_scheme",
+        "origin": "real",
+        "artifact_reference": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 MS (Stats).pdf",
+        "content_digest": "152b5434487fa2445d1130159feffc05e9883ae7197f75fffe4ceffc785d4823",
+        "curriculum_identity": "Pearson Edexcel UK A Level Mathematics 9MA0",
+        "version_label": "Summer 2023; Paper 31 Statistics",
+        "identity_basis": "Cover text: Summer 2023, 9MA0, Paper 31 Statistics. Local supplied PDF carries PMT branding; authenticity/edition awaits operator verification."
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "MS-2023-Q3-a",
+        "source_id": "MS-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 a",
+        "page_index": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "assessment_part_id": "Q3-2023-a",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+        "extracted_text": "Qu 3 Scheme Marks AO \n(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  ( 7 marks) \n Notes \n(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n Part (c) can effectively be marked together. \n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \nPMT",
+        "text_digest": "fa4a8f9976750cea9d4440a169e05ab8c4fe92e9fbce91494e2bb54ce0f90d3d",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 a; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "MS-2023-Q3-b-i",
+        "source_id": "MS-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 b-i",
+        "page_index": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "assessment_part_id": "Q3-2023-b-i",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+        "extracted_text": "Qu 3 Scheme Marks AO \n(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  ( 7 marks) \n Notes \n(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n Part (c) can effectively be marked together. \n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \nPMT",
+        "text_digest": "fa4a8f9976750cea9d4440a169e05ab8c4fe92e9fbce91494e2bb54ce0f90d3d",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 b-i; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "MS-2023-Q3-b-ii",
+        "source_id": "MS-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 b-ii",
+        "page_index": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "assessment_part_id": "Q3-2023-b-ii",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+        "extracted_text": "Qu 3 Scheme Marks AO \n(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  ( 7 marks) \n Notes \n(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n Part (c) can effectively be marked together. \n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \nPMT",
+        "text_digest": "fa4a8f9976750cea9d4440a169e05ab8c4fe92e9fbce91494e2bb54ce0f90d3d",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 b-ii; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "MS-2023-Q3-c-i",
+        "source_id": "MS-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 c-i",
+        "page_index": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "assessment_part_id": "Q3-2023-c-i",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+        "extracted_text": "Qu 3 Scheme Marks AO \n(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  ( 7 marks) \n Notes \n(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n Part (c) can effectively be marked together. \n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \nPMT",
+        "text_digest": "fa4a8f9976750cea9d4440a169e05ab8c4fe92e9fbce91494e2bb54ce0f90d3d",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 c-i; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "locator",
+      "payload": {
+        "locator_id": "MS-2023-Q3-c-ii",
+        "source_id": "MS-2023",
+        "locator_kind": "question_part",
+        "label": "Q3 c-ii",
+        "page_index": 8,
+        "anchor": "file:///D:/AI-School-Academic-OS/output/p1c_case2/sources/June%202023%20MS%20%28Stats%29.pdf#page=9",
+        "assessment_part_id": "Q3-2023-c-ii",
+        "assessment_question_id": "Q3-2023",
+        "source_version": "0049d24ef1a6b24413e37f67796a2588226986009c8386ebcf70a474f3b39615",
+        "extracted_text": "Qu 3 Scheme Marks AO \n(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  ( 7 marks) \n Notes \n(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n Part (c) can effectively be marked together. \n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \nPMT",
+        "text_digest": "fa4a8f9976750cea9d4440a169e05ab8c4fe92e9fbce91494e2bb54ce0f90d3d",
+        "text_summary": "Exact source page and bounded parsed spans for Q3 c-ii; interpretation is a separate pending proposal.",
+        "extractor_version": "6.12.2",
+        "visual_region": [
+          0.08,
+          0.06,
+          0.84,
+          0.84
+        ]
+      }
+    },
+    {
+      "kind": "question",
+      "payload": {
+        "question_id": "Q3-2023",
+        "paper_source_id": "QP-2023",
+        "label": "June 2023 9MA0/31 Q3",
+        "source_locator_id": "QP-2023-Q3-whole",
+        "curriculum_context_id": "CTX-9MA0",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-whole"
+          ]
+        }
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-b",
+        "question_id": "Q3-2023",
+        "label": "Q3(b)",
+        "node_kind": "container",
+        "source_locator_id": "QP-2023-Q3-b",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-b"
+          ]
+        }
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-c",
+        "question_id": "Q3-2023",
+        "label": "Q3(c)",
+        "node_kind": "container",
+        "source_locator_id": "QP-2023-Q3-c",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-c"
+          ]
+        }
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "condition",
+      "payload": {
+        "condition_id": "COND-Q3-2023-GIVEN",
+        "question_id": "Q3-2023",
+        "kind": "context_detail",
+        "description": "3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n(2)\n Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x\n2\n = 4336\n (b) Calculate estimates for\n  (i) the mean Daily Total Rainfall,\n  (ii) the standard deviation of the Daily Total Rainfall.\n(3)\n Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean \nDaily \nTotal Rainfall in Leeming for 1987\n (c) Using your knowledge of the large data set,\n  (i) give a reason why these data would not be suitable,\n  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n\nQP group marks: a=2, b=3, c=2. No glyph repair; original page review required.",
+        "availability": "given_in_question",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-whole"
+          ]
+        }
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "scope",
+      "payload": {
+        "scope_id": "SCOPE-Q3-2023-LDS",
+        "context_id": "CTX-9MA0",
+        "description": "Dataset knowledge asserted by the mark scheme, not a universal rainfall fact:\n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  \n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \n",
+        "locator_ids": [
+          "MS-2023-Q3-c-i",
+          "MS-2023-Q3-c-ii"
+        ],
+        "association_status": "candidate"
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-a",
+        "question_id": "Q3-2023",
+        "label": "Q3(a)",
+        "node_kind": "assessable",
+        "source_locator_id": "QP-2023-Q3-a",
+        "parent_part_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-a"
+          ]
+        }
+      },
+      "judgment_refs": [
+        "condition:COND-Q3-2023-GIVEN"
+      ]
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q3-2023-a",
+        "part_id": "Q3-2023-a",
+        "parser_version": "located-q3-structure/1",
+        "marks": 2,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-2023-Q3-whole",
+            "locator_version": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+            "start": 198,
+            "end": 483,
+            "text": "3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-2023-Q3-a",
+            "locator_version": "acfdd22ee73c1aff7aef7d2de1decf2b8d9e1a96d794a2861edae98c63430f30",
+            "start": 483,
+            "end": 620,
+            "text": " (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-2023-Q3-a",
+            "locator_version": "7355054808873b98d096da5bccb476ddb0f1fe4d7e1681a966a33e4d7f5559fc",
+            "start": 22,
+            "end": 175,
+            "text": "(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-2023-Q3-a",
+            "locator_version": "7355054808873b98d096da5bccb476ddb0f1fe4d7e1681a966a33e4d7f5559fc",
+            "start": 765,
+            "end": 1239,
+            "text": "(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n"
+          }
+        ],
+        "warnings": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-b-i",
+        "question_id": "Q3-2023",
+        "label": "Q3(b)(i)",
+        "node_kind": "assessable",
+        "source_locator_id": "QP-2023-Q3-b-i",
+        "parent_part_id": "Q3-2023-b",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-b-i"
+          ]
+        }
+      },
+      "judgment_refs": [
+        "condition:COND-Q3-2023-GIVEN"
+      ]
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q3-2023-b-i",
+        "part_id": "Q3-2023-b-i",
+        "parser_version": "located-q3-structure/1",
+        "marks": 1,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-2023-Q3-whole",
+            "locator_version": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+            "start": 198,
+            "end": 483,
+            "text": "3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-2023-Q3-b-i",
+            "locator_version": "938948153d4ef003bf88f1638f37b9a9975960e86f2b73098dcf94923b48c1cc",
+            "start": 731,
+            "end": 768,
+            "text": "  (i) the mean Daily Total Rainfall,\n"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-2023-Q3-b-i",
+            "locator_version": "bd3a8a9ad386a2eb86722e0d560fc09e3110f26ecf419904fea3c0e90522a7bf",
+            "start": 175,
+            "end": 292,
+            "text": "(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-2023-Q3-b-i",
+            "locator_version": "bd3a8a9ad386a2eb86722e0d560fc09e3110f26ecf419904fea3c0e90522a7bf",
+            "start": 1239,
+            "end": 1333,
+            "text": "(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n"
+          },
+          {
+            "role": "comparison_context",
+            "locator_id": "QP-2023-Q3-b-i",
+            "locator_version": "938948153d4ef003bf88f1638f37b9a9975960e86f2b73098dcf94923b48c1cc",
+            "start": 702,
+            "end": 731,
+            "text": " (b) Calculate estimates for\n"
+          }
+        ],
+        "warnings": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-b-ii",
+        "question_id": "Q3-2023",
+        "label": "Q3(b)(ii)",
+        "node_kind": "assessable",
+        "source_locator_id": "QP-2023-Q3-b-ii",
+        "parent_part_id": "Q3-2023-b",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-b-ii"
+          ]
+        }
+      },
+      "judgment_refs": [
+        "condition:COND-Q3-2023-GIVEN",
+        "question_part:Q3-2023-b-i"
+      ]
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q3-2023-b-ii",
+        "part_id": "Q3-2023-b-ii",
+        "parser_version": "located-q3-structure/1",
+        "marks": 2,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-2023-Q3-whole",
+            "locator_version": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+            "start": 198,
+            "end": 483,
+            "text": "3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-2023-Q3-b-ii",
+            "locator_version": "7b255038f252e10cc5f0545c8e0b365a87832a95b8f39ab87402f0eab4c8893a",
+            "start": 768,
+            "end": 827,
+            "text": "  (ii) the standard deviation of the Daily Total Rainfall.\n"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-2023-Q3-b-ii",
+            "locator_version": "d4034d94dd9708b04efc57b1589e4c554d09459463d85667b7c3a46f60f90c3a",
+            "start": 292,
+            "end": 510,
+            "text": "(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-2023-Q3-b-ii",
+            "locator_version": "d4034d94dd9708b04efc57b1589e4c554d09459463d85667b7c3a46f60f90c3a",
+            "start": 1333,
+            "end": 1679,
+            "text": "(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n"
+          },
+          {
+            "role": "comparison_context",
+            "locator_id": "QP-2023-Q3-b-ii",
+            "locator_version": "7b255038f252e10cc5f0545c8e0b365a87832a95b8f39ab87402f0eab4c8893a",
+            "start": 702,
+            "end": 731,
+            "text": " (b) Calculate estimates for\n"
+          }
+        ],
+        "warnings": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-c-i",
+        "question_id": "Q3-2023",
+        "label": "Q3(c)(i)",
+        "node_kind": "assessable",
+        "source_locator_id": "QP-2023-Q3-c-i",
+        "parent_part_id": "Q3-2023-c",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-c-i"
+          ]
+        }
+      },
+      "judgment_refs": [
+        "condition:COND-Q3-2023-GIVEN",
+        "scope:SCOPE-Q3-2023-LDS",
+        "question_part:Q3-2023-b-i"
+      ]
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q3-2023-c-i",
+        "part_id": "Q3-2023-c-i",
+        "parser_version": "located-q3-structure/1",
+        "marks": 1,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-2023-Q3-whole",
+            "locator_version": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+            "start": 198,
+            "end": 483,
+            "text": "3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-2023-Q3-c-i",
+            "locator_version": "0f116e0d79e906c197c611fa4fa40a2e1abbc047bf1c5cd64d4751c9fe53f350",
+            "start": 1011,
+            "end": 1069,
+            "text": "  (i) give a reason why these data would not be suitable,\n"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-2023-Q3-c-i",
+            "locator_version": "93b53bd15d75def78ddb26f99e129397c4ae378fa63b400faa84f6f343eb614d",
+            "start": 510,
+            "end": 578,
+            "text": "(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-2023-Q3-c-i",
+            "locator_version": "93b53bd15d75def78ddb26f99e129397c4ae378fa63b400faa84f6f343eb614d",
+            "start": 1726,
+            "end": 2045,
+            "text": "(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n"
+          },
+          {
+            "role": "comparison_context",
+            "locator_id": "QP-2023-Q3-c-i",
+            "locator_version": "0f116e0d79e906c197c611fa4fa40a2e1abbc047bf1c5cd64d4751c9fe53f350",
+            "start": 962,
+            "end": 1011,
+            "text": " (c) Using your knowledge of the large data set,\n"
+          }
+        ],
+        "warnings": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "question_part",
+      "payload": {
+        "part_id": "Q3-2023-c-ii",
+        "question_id": "Q3-2023",
+        "label": "Q3(c)(ii)",
+        "node_kind": "assessable",
+        "source_locator_id": "QP-2023-Q3-c-ii",
+        "parent_part_id": "Q3-2023-c",
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:QP-2023-Q3-c-ii"
+          ]
+        }
+      },
+      "judgment_refs": [
+        "condition:COND-Q3-2023-GIVEN",
+        "scope:SCOPE-Q3-2023-LDS",
+        "question_part:Q3-2023-b-i"
+      ]
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q3-2023-c-ii",
+        "part_id": "Q3-2023-c-ii",
+        "parser_version": "located-q3-structure/1",
+        "marks": 1,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-2023-Q3-whole",
+            "locator_version": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+            "start": 198,
+            "end": 483,
+            "text": "3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987\n He used all the data from the large data set and summarised the information in the \nfollowing table.\nx 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr\nFrequency 55 18 18 21 17 9 9 6 2 29\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-2023-Q3-c-ii",
+            "locator_version": "440611552f47e9af6269ecc35b85bc27961b6b338813a16a24d7747a5f3ae528",
+            "start": 1069,
+            "end": 1230,
+            "text": "  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-2023-Q3-c-ii",
+            "locator_version": "f9872b7eb7c61193228f5db7cb9aec0e5d0e9f822cb739518b424ee4c2b77b2b",
+            "start": 578,
+            "end": 745,
+            "text": "(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  "
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-2023-Q3-c-ii",
+            "locator_version": "f9872b7eb7c61193228f5db7cb9aec0e5d0e9f822cb739518b424ee4c2b77b2b",
+            "start": 2045,
+            "end": 2765,
+            "text": "(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \n"
+          },
+          {
+            "role": "comparison_context",
+            "locator_id": "QP-2023-Q3-c-ii",
+            "locator_version": "440611552f47e9af6269ecc35b85bc27961b6b338813a16a24d7747a5f3ae528",
+            "start": 962,
+            "end": 1011,
+            "text": " (c) Using your knowledge of the large data set,\n"
+          }
+        ],
+        "warnings": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "competency",
+      "payload": {
+        "canonical_id": "CAN-STAT-PREPARE-DATA-FOR-STATISTICAL-ANALYSIS",
+        "subject_domain": "Statistics",
+        "skill_name": "Prepare data for statistical analysis",
+        "description": "Prepare data for statistical analysis. Evidence scope is recorded on each proposal.",
+        "status": "draft",
+        "registry_decision_id": null,
+        "action_classification": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-a",
+            "locator:QP-2023-Q3-a",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        }
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "concept",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-a",
+            "locator:QP-2023-Q3-a",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "concept_id": "CON-STAT-DATA-CLEANING-DATA-PREPARATION",
+        "subject_domain": "Statistics",
+        "name": "Data cleaning / data preparation",
+        "description": "Data cleaning / data preparation as a general statistical concept."
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "task_condition",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-a",
+            "locator:QP-2023-Q3-a",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "condition_id": "TC-HANDLE-SPECIAL-NON-NUMERIC-VALUES-BEFORE-CALCULATING-SUMMARY-STATISTICS",
+        "name": "Handle special/non-numeric values before calculating summary statistics",
+        "description": "Handle special/non-numeric values before calculating summary statistics. No particular dataset, year or numerical value is part of this identity.",
+        "kind": "input_form"
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-a",
+            "locator:QP-2023-Q3-a",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "link_id": "LINK-f49bd49679b9627ab6693ec5",
+        "canonical_id": "CAN-STAT-PREPARE-DATA-FOR-STATISTICAL-ANALYSIS",
+        "concept_id": "CON-STAT-DATA-CLEANING-DATA-PREPARATION",
+        "relationship": "applies_concept",
+        "rationale": "Pending proposal that this general competency applies this concept; question-specific scope remains separate.",
+        "evidence_ids": []
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "proposal",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-a",
+            "locator:QP-2023-Q3-a",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "proposal_id": "PROPOSE-Q3-2023-a",
+        "parsed_part_id": "PARSED-Q3-2023-a",
+        "candidate_action": "create_candidate",
+        "competency_id": "CAN-STAT-PREPARE-DATA-FOR-STATISTICAL-ANALYSIS",
+        "concept_ids": [
+          "CON-STAT-DATA-CLEANING-DATA-PREPARATION"
+        ],
+        "concept_link_ids": [
+          "LINK-f49bd49679b9627ab6693ec5"
+        ],
+        "task_condition_ids": [
+          "TC-HANDLE-SPECIAL-NON-NUMERIC-VALUES-BEFORE-CALCULATING-SUMMARY-STATISTICS"
+        ],
+        "observation": " (a) Explain how the data will need to be cleaned before Ben can start to calculate \nstatistics such as the mean and standard deviation.\n\nScoring evidence:\n(a) Need to replace tr with a numerical value  M1 1.2 \n Value of tr is between 0 and 0.05 suggest using e.g 0.025 , 0 or value \n„  0.05 A1 1.1b \n  (2)  \n\nScoring notes:\n(a) M1    for recognising that tr must be replaced (oe) with a numerical value \n      The following examples would score M0: The tr values are worth 0 so ignore (not replacing) \nor  must remove outliers or fill gaps in table or make widths the same or need to find mid-points \n A1    for using a suitable value: e.g.  0.025 (or allow 0) i.e. any value in [0, 0.05] \n      (these give \nx = 390 (3sf), use of 0.05 gives 390.8, use of 0 gives 389.3 allow in (b)(i))       \n  \n",
+        "reasoning": "Preparation instruction and scored numerical replacement evidence",
+        "evidence_scope": "Partial evidence: replacing special/non-numeric values before summary calculations only; not all data preparation operations.",
+        "alternatives": [],
+        "registry_lookup": [
+          {
+            "kind": "competency",
+            "query": "Prepare data for statistical analysis",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          },
+          {
+            "kind": "concept",
+            "query": "Data cleaning / data preparation",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          },
+          {
+            "kind": "task_condition",
+            "query": "Handle special/non-numeric values before calculating summary statistics",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          }
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "proposal",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-b-i",
+            "locator:QP-2023-Q3-b-i",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "proposal_id": "PROPOSE-Q3-2023-b-i",
+        "parsed_part_id": "PARSED-Q3-2023-b-i",
+        "candidate_action": "reuse_existing",
+        "competency_id": "CAN-STAT-MEAN-CALC",
+        "concept_ids": [
+          "CON-STAT-MEAN"
+        ],
+        "concept_link_ids": [
+          "LINK-MEAN-CALC-MEAN"
+        ],
+        "task_condition_ids": [
+          "TC-SUMMARY-STATISTICS"
+        ],
+        "observation": "  (i) the mean Daily Total Rainfall,\n\nScoring evidence:\n(b)(i)  \n389.3 ~ 390.8\n184x =\n = 2.119…                  awrt    2.12    allow  \n195\n92   or \n11\n922  B1 1.1b \n\nScoring notes:\n(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for \n390\n184  \n",
+        "reasoning": "Mean calculation request, scored response and supplied summaries",
+        "evidence_scope": "Partial evidence: compute a mean estimate from supplied summaries; estimation is a question condition.",
+        "alternatives": [],
+        "registry_lookup": [
+          {
+            "kind": "competency",
+            "query": "Calculate the mean",
+            "candidate_action": "reuse_existing",
+            "matches": [
+              {
+                "key": "competency:CAN-STAT-MEAN-CALC",
+                "version": "32cb77c3f694a2fcb4c0b1f1ba0e2460b5321b43407feb22019d7f3496cf9d50",
+                "state": "approve"
+              }
+            ],
+            "selected": "competency:CAN-STAT-MEAN-CALC"
+          },
+          {
+            "kind": "concept",
+            "query": "Mean",
+            "candidate_action": "reuse_existing",
+            "matches": [
+              {
+                "key": "concept:CON-STAT-MEAN",
+                "version": "0d132a26a31f7944f289f1ffc54f92c21e25b55b0ee1069cbcca74d6ed14118b",
+                "state": "approve"
+              }
+            ],
+            "selected": "concept:CON-STAT-MEAN"
+          },
+          {
+            "kind": "task_condition",
+            "query": "From summary statistics",
+            "candidate_action": "reuse_existing",
+            "matches": [
+              {
+                "key": "task_condition:TC-SUMMARY-STATISTICS",
+                "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8",
+                "state": "approve"
+              }
+            ],
+            "selected": "task_condition:TC-SUMMARY-STATISTICS"
+          }
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "proposal",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-b-ii",
+            "locator:QP-2023-Q3-b-ii",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "proposal_id": "PROPOSE-Q3-2023-b-ii",
+        "parsed_part_id": "PARSED-Q3-2023-b-ii",
+        "candidate_action": "reuse_existing",
+        "competency_id": "CAN-STAT-SD-CALC",
+        "concept_ids": [
+          "CON-STAT-SD"
+        ],
+        "concept_link_ids": [
+          "LINK-SD-CALC-SD"
+        ],
+        "task_condition_ids": [
+          "TC-SUMMARY-STATISTICS"
+        ],
+        "observation": "  (ii) the standard deviation of the Daily Total Rainfall.\n\nScoring evidence:\n(ii) \n \n2(awrt)4336 \"\"184 x =−\n  or allow \n22 (awrt)4336 \"\"184 x =− or   awrt  19.1 \n                               = 4.367…                                   awrt    4.37 \nM1 \n \nA1 \n1.1b \n \n1.1b \n  (3)  \n    \n\nScoring notes:\n(ii) M1  for a correct expression for standard deviation or variance.  Allow \n2x = awrt 4336 \n             Ignore their label   or  2  Can ft their mean \n  \n A1  for awrt 4.37  [Use of s gives 4.3791… so for correct use seen allow awrt 4.38] \n  \nSC Using n = 155  Allow M1 for expression \n2(awrt)4336[ ] \" \" 21.64...155 x = − =  or 4.65… \n  \n",
+        "reasoning": "Calculation request, dispersion scoring and supplied summaries",
+        "evidence_scope": "Partial evidence: compute a dispersion estimate from supplied summaries; estimate/context does not define a new competency.",
+        "alternatives": [],
+        "registry_lookup": [
+          {
+            "kind": "competency",
+            "query": "Calculate standard deviation",
+            "candidate_action": "reuse_existing",
+            "matches": [
+              {
+                "key": "competency:CAN-STAT-SD-CALC",
+                "version": "1ef9ddf75fac8db4f8b68d85dbe3ba216f55014c6c745a9dcfe08dbd4f1f917c",
+                "state": "approve"
+              }
+            ],
+            "selected": "competency:CAN-STAT-SD-CALC"
+          },
+          {
+            "kind": "concept",
+            "query": "Standard deviation",
+            "candidate_action": "reuse_existing",
+            "matches": [
+              {
+                "key": "concept:CON-STAT-SD",
+                "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a",
+                "state": "approve"
+              }
+            ],
+            "selected": "concept:CON-STAT-SD"
+          },
+          {
+            "kind": "task_condition",
+            "query": "From summary statistics",
+            "candidate_action": "reuse_existing",
+            "matches": [
+              {
+                "key": "task_condition:TC-SUMMARY-STATISTICS",
+                "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8",
+                "state": "approve"
+              }
+            ],
+            "selected": "task_condition:TC-SUMMARY-STATISTICS"
+          }
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "competency",
+      "payload": {
+        "canonical_id": "CAN-STAT-ASSESS-WHETHER-DATA-ARE-REPRESENTATIVE",
+        "subject_domain": "Statistics",
+        "skill_name": "Assess whether data are representative",
+        "description": "Assess whether data are representative. Evidence scope is recorded on each proposal.",
+        "status": "draft",
+        "registry_decision_id": null,
+        "action_classification": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-c-i",
+            "locator:QP-2023-Q3-c-i",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        }
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "concept",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-c-i",
+            "locator:QP-2023-Q3-c-i",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "concept_id": "CON-STAT-REPRESENTATIVENESS",
+        "subject_domain": "Statistics",
+        "name": "Representativeness",
+        "description": "Representativeness as a general statistical concept."
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "task_condition",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-c-i",
+            "locator:QP-2023-Q3-c-i",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "condition_id": "TC-COMPARE-DATASET-COVERAGE-WITH-THE-TARGET-POPULATION-TIME-PERIOD",
+        "name": "Compare dataset coverage with the target population/time period",
+        "description": "Compare dataset coverage with the target population/time period. No particular dataset, year or numerical value is part of this identity.",
+        "kind": "comparison_form"
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "concept_link",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-c-i",
+            "locator:QP-2023-Q3-c-i",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "link_id": "LINK-41c1a3cc86ccfc0f3194aa19",
+        "canonical_id": "CAN-STAT-ASSESS-WHETHER-DATA-ARE-REPRESENTATIVE",
+        "concept_id": "CON-STAT-REPRESENTATIVENESS",
+        "relationship": "applies_concept",
+        "rationale": "Pending proposal that this general competency applies this concept; question-specific scope remains separate.",
+        "evidence_ids": []
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "proposal",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-c-i",
+            "locator:QP-2023-Q3-c-i",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "proposal_id": "PROPOSE-Q3-2023-c-i",
+        "parsed_part_id": "PARSED-Q3-2023-c-i",
+        "candidate_action": "create_candidate",
+        "competency_id": "CAN-STAT-ASSESS-WHETHER-DATA-ARE-REPRESENTATIVE",
+        "concept_ids": [
+          "CON-STAT-REPRESENTATIVENESS"
+        ],
+        "concept_link_ids": [
+          "LINK-41c1a3cc86ccfc0f3194aa19"
+        ],
+        "task_condition_ids": [
+          "TC-COMPARE-DATASET-COVERAGE-WITH-THE-TARGET-POPULATION-TIME-PERIOD"
+        ],
+        "observation": "  (i) give a reason why these data would not be suitable,\n\nScoring evidence:\n(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b \n    \n\nScoring notes:\n(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  \n       whole year).   \n      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            \n  \n",
+        "reasoning": "Suitability/representativeness request with coverage-based scoring evidence",
+        "evidence_scope": "Partial evidence: coverage relative to a target period/population; not every aspect of data suitability.",
+        "alternatives": [],
+        "registry_lookup": [
+          {
+            "kind": "competency",
+            "query": "Assess whether data are representative",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          },
+          {
+            "kind": "concept",
+            "query": "Representativeness",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          },
+          {
+            "kind": "task_condition",
+            "query": "Compare dataset coverage with the target population/time period",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          }
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "proposal",
+      "payload": {
+        "review_status": "pending",
+        "review_decision_id": null,
+        "provenance": {
+          "origin": "real",
+          "creation_method": "rule",
+          "source_references": [
+            "locator:MS-2023-Q3-c-ii",
+            "locator:QP-2023-Q3-c-ii",
+            "locator:QP-2023-Q3-whole"
+          ],
+          "synthetic_notice": null
+        },
+        "proposal_id": "PROPOSE-Q3-2023-c-ii",
+        "parsed_part_id": "PARSED-Q3-2023-c-ii",
+        "candidate_action": "unresolved",
+        "competency_id": null,
+        "concept_ids": [],
+        "concept_link_ids": [],
+        "task_condition_ids": [],
+        "observation": "  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ \nfrom the actual \nannual mean Daily Total Rainfall in Leeming for 1987\n\nScoring evidence:\n(ii) e.g.  Winter months are missing when we’d expect more rain \n                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 \n  (2)  \n    \n  \nScoring notes:\n(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  \n                                                                                                                          “underestimate”(oe) \n      We are looking for all 3 of these ideas here: \n      1.   A statement or implication that missing data is from winter or different months. \n      2.   A suggestion about the rainfall in these months (probably more rain). \n      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  \n            an underestimate or the (actual) mean will be higher. \nSC If you see  “Leeming or N or NE has less rain in winter months” – please send to review \n  \n",
+        "reasoning": "No sufficiently specific supported canonical rule; do not infer identity from contextual similarity",
+        "evidence_scope": "Observed reasoning is retained; canonical equivalence/distinctness is not established by this evidence alone.",
+        "alternatives": [
+          "Apply representativeness to the direction of an estimate error",
+          "A distinct competency for effects of non-representative data on estimates may be needed; human boundary review required"
+        ],
+        "registry_lookup": [
+          {
+            "kind": "competency",
+            "query": "Evaluate the effect of non-representative data on a statistical estimate",
+            "candidate_action": "create_candidate",
+            "matches": [],
+            "selected": null
+          }
+        ]
+      },
+      "judgment_refs": []
+    }
+  ],
+  "expected_heads": {
+    "source:QP-2023": null,
+    "locator:QP-2023-Q3-whole": null,
+    "locator:QP-2023-Q3-b": null,
+    "locator:QP-2023-Q3-c": null,
+    "locator:QP-2023-Q3-a": null,
+    "locator:QP-2023-Q3-b-i": null,
+    "locator:QP-2023-Q3-b-ii": null,
+    "locator:QP-2023-Q3-c-i": null,
+    "locator:QP-2023-Q3-c-ii": null,
+    "source:MS-2023": null,
+    "locator:MS-2023-Q3-a": null,
+    "locator:MS-2023-Q3-b-i": null,
+    "locator:MS-2023-Q3-b-ii": null,
+    "locator:MS-2023-Q3-c-i": null,
+    "locator:MS-2023-Q3-c-ii": null,
+    "question:Q3-2023": null,
+    "question_part:Q3-2023-b": null,
+    "question_part:Q3-2023-c": null,
+    "condition:COND-Q3-2023-GIVEN": null,
+    "scope:SCOPE-Q3-2023-LDS": null,
+    "question_part:Q3-2023-a": null,
+    "parsed_part:PARSED-Q3-2023-a": null,
+    "question_part:Q3-2023-b-i": null,
+    "parsed_part:PARSED-Q3-2023-b-i": null,
+    "question_part:Q3-2023-b-ii": null,
+    "parsed_part:PARSED-Q3-2023-b-ii": null,
+    "question_part:Q3-2023-c-i": null,
+    "parsed_part:PARSED-Q3-2023-c-i": null,
+    "question_part:Q3-2023-c-ii": null,
+    "parsed_part:PARSED-Q3-2023-c-ii": null,
+    "competency:CAN-STAT-PREPARE-DATA-FOR-STATISTICAL-ANALYSIS": null,
+    "concept:CON-STAT-DATA-CLEANING-DATA-PREPARATION": null,
+    "task_condition:TC-HANDLE-SPECIAL-NON-NUMERIC-VALUES-BEFORE-CALCULATING-SUMMARY-STATISTICS": null,
+    "concept_link:LINK-f49bd49679b9627ab6693ec5": null,
+    "proposal:PROPOSE-Q3-2023-a": null,
+    "proposal:PROPOSE-Q3-2023-b-i": null,
+    "proposal:PROPOSE-Q3-2023-b-ii": null,
+    "competency:CAN-STAT-ASSESS-WHETHER-DATA-ARE-REPRESENTATIVE": null,
+    "concept:CON-STAT-REPRESENTATIVENESS": null,
+    "task_condition:TC-COMPARE-DATASET-COVERAGE-WITH-THE-TARGET-POPULATION-TIME-PERIOD": null,
+    "concept_link:LINK-41c1a3cc86ccfc0f3194aa19": null,
+    "proposal:PROPOSE-Q3-2023-c-i": null,
+    "proposal:PROPOSE-Q3-2023-c-ii": null
+  }
+}

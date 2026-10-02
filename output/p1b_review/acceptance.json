@@ -1,0 +1,231 @@
+{
+  "task": "P1B Human Review Bundle + Trusted Publication",
+  "status": "P1B FUNCTIONAL REQUIREMENTS PASSED; pre-existing historical artifact error remains",
+  "baseline": {
+    "total": 211,
+    "passed": 210,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0
+  },
+  "p1b_tests": {
+    "total": 41,
+    "passed": 41,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "full_regression": {
+    "total": 252,
+    "passed": 251,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0
+  },
+  "final_cli_presentation_regression": {
+    "total": 1,
+    "passed": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "real_database": {
+    "versions": 72,
+    "heads": 52,
+    "reviews": 0,
+    "snapshots": 0,
+    "human_approvals": 0,
+    "publishable": false,
+    "source_verified": false,
+    "human_approved": false,
+    "byte_for_byte_unchanged": true
+  },
+  "publication_policy": {
+    "target_id": "Q2-CORE",
+    "required_objects": 45,
+    "optional_only_objects": 7,
+    "unit": "All three Q2 core academic bundles in one atomic snapshot",
+    "role_shortcut": false
+  },
+  "temporary_database": {
+    "trust_boundary": "TEST ONLY isolated database and copied sources; not a real operator decision",
+    "before_review": {
+      "source_verified": false,
+      "human_approved": false,
+      "publishable": false
+    },
+    "after_source_verification_only": {
+      "source_verified": true,
+      "human_approved": false,
+      "publishable": false
+    },
+    "after_core_academic_approval": {
+      "source_verified": true,
+      "human_approved": true,
+      "publishable": true
+    },
+    "publication": {
+      "snapshot_id": "5cb4489e7b224cfdc1235eca6afcd70adc80028a834da836025b85536af7ddac",
+      "publishable": true,
+      "object_count": 45
+    },
+    "snapshot_usable": true,
+    "optional_candidate_status": "pending",
+    "optional_candidates_excluded": true,
+    "semantic_units": [
+      {
+        "interpretations": [
+          {
+            "competency": {
+              "id": "CAN-STAT-MEAN-CALC",
+              "name": "Calculate the mean"
+            },
+            "concepts": [
+              {
+                "id": "CON-STAT-MEAN",
+                "name": "Mean"
+              }
+            ],
+            "evidence_refs": [
+              "evidence:EV-QP-MAP-Q2-a-MEAN-CALC",
+              "evidence:EV-MS-MAP-Q2-a-MEAN-CALC"
+            ],
+            "mapping_id": "MAP-Q2-a-MEAN-CALC",
+            "parsed_part_ref": "parsed_part:PARSED-Q2-a",
+            "role": "primary",
+            "task_conditions": [
+              {
+                "id": "TC-SUMMARY-STATISTICS",
+                "name": "From summary statistics"
+              }
+            ]
+          }
+        ],
+        "part_id": "Q2-a",
+        "question": "Q2(a)"
+      },
+      {
+        "interpretations": [
+          {
+            "competency": {
+              "id": "CAN-STAT-SD-CALC",
+              "name": "Calculate standard deviation"
+            },
+            "concepts": [
+              {
+                "id": "CON-STAT-SD",
+                "name": "Standard deviation"
+              }
+            ],
+            "evidence_refs": [
+              "evidence:EV-QP-MAP-Q2-b-SD-CALC",
+              "evidence:EV-MS-MAP-Q2-b-SD-CALC"
+            ],
+            "mapping_id": "MAP-Q2-b-SD-CALC",
+            "parsed_part_ref": "parsed_part:PARSED-Q2-b",
+            "role": "primary",
+            "task_conditions": [
+              {
+                "id": "TC-SUMMARY-STATISTICS",
+                "name": "From summary statistics"
+              }
+            ]
+          }
+        ],
+        "part_id": "Q2-b",
+        "question": "Q2(b)"
+      },
+      {
+        "interpretations": [
+          {
+            "competency": {
+              "id": "CAN-STAT-VARIATION-INTERPRET",
+              "name": "Interpret measures of variation"
+            },
+            "concepts": [
+              {
+                "id": "CON-STAT-SD",
+                "name": "Standard deviation"
+              },
+              {
+                "id": "CON-STAT-SPREAD",
+                "name": "Variation / spread"
+              },
+              {
+                "id": "CON-STAT-EXTREMES",
+                "name": "Extreme values"
+              }
+            ],
+            "evidence_refs": [
+              "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+              "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET"
+            ],
+            "mapping_id": "MAP-Q2-c-VARIATION-INTERPRET",
+            "parsed_part_ref": "parsed_part:PARSED-Q2-c",
+            "role": "primary",
+            "task_conditions": [
+              {
+                "id": "TC-COMPARE-VARIATION-SD",
+                "name": "Compare variation using standard deviation"
+              }
+            ]
+          }
+        ],
+        "part_id": "Q2-c",
+        "question": "Q2(c)"
+      }
+    ]
+  },
+  "historical_integrity": {
+    "real_database": {
+      "versions": 72,
+      "heads": 52,
+      "reviews": 0,
+      "snapshots": 0
+    },
+    "real_database_file_sha256_before": "fa950352ac39cb896fdd78ee3fabbac0d9dc7a825b0dc98a9be2a81601257eb8",
+    "real_database_file_sha256_after": "fa950352ac39cb896fdd78ee3fabbac0d9dc7a825b0dc98a9be2a81601257eb8",
+    "real_database_tables_unchanged": {
+      "versions": true,
+      "heads": true,
+      "reviews": true,
+      "snapshots": true,
+      "requests": true,
+      "review_heads": true,
+      "snapshot_blocks": true,
+      "snapshot_members": true,
+      "schema_migrations": true
+    },
+    "pinned_manifest_entries": 61,
+    "pinned_manifest_missing": [
+      "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+    ],
+    "pinned_manifest_changed": [],
+    "historical_files_checked": 68,
+    "historical_files_changed": [],
+    "protected_artifact_classification": "Historical protected project presentation; not one of the three registered Q2 PDF sources.",
+    "absence_cause": "Unknown: absent before P1B; no matching copy or deletion/move evidence found in the inspected repository.",
+    "proposed_resolution": "Restore the original historical PPT from a verified backup and match the unchanged pinned SHA-256; do not fabricate or replace the manifest."
+  },
+  "known_error": {
+    "test": "test_academic_knowledge_v03.V03Tests.test_preserved_project_files (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+  },
+  "not_run": [
+    "Real operator source verification / academic approval / rejection / publication (explicitly prohibited)",
+    "Production authentication, frontend, ontology expansion and model calls (outside scope)"
+  ],
+  "changed_files": [
+    "academic_os/publication.py",
+    "academic_os/review_bundles.py",
+    "academic_os/review_rendering.py",
+    "academic_os/service.py",
+    "academic_os/storage.py",
+    "academic_os/cli.py",
+    "tests_p0/bundle_fixtures.py",
+    "tests_p0/test_review_bundles.py",
+    "scripts/demo_p1b_temporary.py",
+    "docs/P1B_HUMAN_REVIEW_AND_PUBLICATION.md"
+  ],
+  "next_step": "Operator inspects source families, verifies each source/locator, reviews core bundles and explicitly publishes Q2-CORE; optional secondary may remain pending."
+}

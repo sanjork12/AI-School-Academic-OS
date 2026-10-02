@@ -1,0 +1,141 @@
+# =========================
+# Secrets / environment
+# =========================
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+
+
+# =========================
+# Python
+# =========================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+
+# =========================
+# Node / Next.js
+# =========================
+node_modules/
+.next/
+frontend/out/
+frontend/test-results/
+frontend/playwright-report/
+frontend/.tools/
+
+
+# =========================
+# Temporary / runtime
+# =========================
+tmp/
+temp/
+cache/
+logs/
+*.log
+*.pid
+
+
+# =========================
+# Local databases
+# =========================
+var/*.sqlite3
+var/*.sqlite
+var/*.db
+
+
+# =========================
+# P6UI runtime data
+# =========================
+var/p6ui/uploads/
+var/p6ui/runs/
+
+output/p6ui2/runs/
+
+console_api/runs/
+console_api/uploads/
+
+
+# =========================
+# Local source documents
+# =========================
+international-gcse-in-mathematics-spec-a.pdf
+
+
+# =========================
+# OS / IDE
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+# =========================================
+# Generated presentation / rendering files
+# =========================================
+
+output/**/.build/
+output/**/preview/
+
+# Generated binary artifacts
+output/**/*.pptx
+output/**/*.pdf
+output/**/*.png
+output/**/*.jpg
+output/**/*.jpeg
+
+
+# =========================================
+# Copied third-party/source documents
+# =========================================
+
+output/**/sources/
+
+
+# =========================================
+# Per-attempt runtime evidence
+# Keep summaries/reports/acceptance evidence,
+# but not every low-level attempt directory.
+# =========================================
+
+output/**/attempt-*/
+
+# =========================================
+# Generated execution instances
+# Keep stable summaries / acceptance evidence,
+# exclude per-run and repeated replay artifacts.
+# =========================================
+
+# UUID / timestamp style execution directories
+output/**/run-*/
+
+# Diagnostic attempts
+output/**/diagnostics/attempt-*.json
+
+# Repeated replay execution copies
+output/**/replay-[0-9]*/
+
+# Historical validation attempt workspaces
+output/**/validation_attempt_*/
+
+# Tool/browser transient state
+output/**/browser-test-results/
+
+# OS / tool transient marker files
+output/**/.last-run.json
+
+# Selected acceptance evidence must remain versionable.
+!output/p6ui2/*-acceptance.png
+!output/p6ui2/backend-tests.log
+!output/p6ui2/postfreeze-tests.log
+!output/p6ui3a/*-acceptance.png
+!output/p6ui3a/ingestion-browser.png
+!output/p6ui3a/backend-tests.log
+!output/p6ui3a/postfreeze-tests.log
+!output/p6ui3a/post-reconciliation-tests.log

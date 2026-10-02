@@ -1,0 +1,13 @@
+{
+  "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+  "definition_version": "b3afc6ad7fe73b80748514ee5db08ffd585ebfd56076c1f6a1fc1a1fd5fe3d5f",
+  "versions": {
+    "locator:SPEC-2.3": "b80d5465f6f355cae9108538613e221a65a6efc33dfa13a33aa22adce52cfba3",
+    "source:SPEC": "282dbb9a581b7f1ddf1836852e71672e8fba9ee435114fb44ea69e55a74ad091"
+  },
+  "review_heads": {
+    "locator:SPEC-2.3": null,
+    "source:SPEC": null
+  },
+  "token": "59db470eae5d080ca1c9a90865d7de9acf2b5b7f3120f670e4efcd1db67b58a9"
+}

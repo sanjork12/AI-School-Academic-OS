@@ -1,0 +1,2733 @@
+{
+  "schema_version": "0.3",
+  "purpose": "architecture_prototype_not_production",
+  "evidence_notice": "Working baseline transcribed from the prior human discussion by AI. Original specification, question paper and mark scheme have NOT been verified in this import. Official locators are provisional labels; observations are inherited paraphrases, not quotations. Gold Standard approval is not registry approval, source verification, or student mastery. This is a five-part sample, not complete paper coverage.",
+  "sources": [
+    {
+      "source_id": "SRC-9MA0-SPEC",
+      "title": "Edexcel 9MA0 specification (exact edition unverified)",
+      "source_type": "official_syllabus",
+      "origin": "real",
+      "verification_status": "unverified",
+      "publisher": null,
+      "edition": null,
+      "artifact_reference": null,
+      "content_digest": null,
+      "verification_reference": null,
+      "synthetic_notice": null
+    },
+    {
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "title": "June 2025 9MA0/31 Question paper (identity inherited, file unverified)",
+      "source_type": "official_past_paper",
+      "origin": "real",
+      "verification_status": "unverified",
+      "publisher": null,
+      "edition": null,
+      "artifact_reference": null,
+      "content_digest": null,
+      "verification_reference": null,
+      "synthetic_notice": null
+    },
+    {
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "title": "June 2025 9MA0/31 Mark scheme (identity inherited, file unverified)",
+      "source_type": "official_mark_scheme",
+      "origin": "real",
+      "verification_status": "unverified",
+      "publisher": null,
+      "edition": null,
+      "artifact_reference": null,
+      "content_digest": null,
+      "verification_reference": null,
+      "synthetic_notice": null
+    },
+    {
+      "source_id": "SRC-GOLD-DISCUSSION",
+      "title": "分析学校智能系统工作量 — Gold Standard v0.1 discussion",
+      "source_type": "other",
+      "origin": "real",
+      "verification_status": "unverified",
+      "publisher": null,
+      "edition": null,
+      "artifact_reference": null,
+      "content_digest": null,
+      "verification_reference": null,
+      "synthetic_notice": null
+    }
+  ],
+  "locators": [
+    {
+      "locator_id": "LOC-GOLD-DISCUSSION",
+      "source_id": "SRC-GOLD-DISCUSSION",
+      "locator_kind": "conversation_item",
+      "label": "Gold Standard v0.1 Consolidated Draft and Q2/Q4 discussion",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": "chatgpt-conversation://6aa2488a-4e2c-83ed-8024-3ec92658a045",
+      "assessment_part_id": null,
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q2",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "section",
+      "label": "Q2",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": null,
+      "assessment_question_id": "Q-9MA0-2025-31-Q2",
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q4",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "section",
+      "label": "Q4",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": null,
+      "assessment_question_id": "Q-9MA0-2025-31-Q4",
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q2-a",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "question_part",
+      "label": "Q2(a)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q2-a",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-MS-Q2-a",
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "locator_kind": "question_part",
+      "label": "Q2(a)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q2-a",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q2-b",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "question_part",
+      "label": "Q2(b)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q2-b",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-MS-Q2-b",
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "locator_kind": "question_part",
+      "label": "Q2(b)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q2-b",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q2-c",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "question_part",
+      "label": "Q2(c)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q2-c",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-MS-Q2-c",
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "locator_kind": "question_part",
+      "label": "Q2(c)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q2-c",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q4-b",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "question_part",
+      "label": "Q4(b)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q4-b",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-MS-Q4-b",
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "locator_kind": "question_part",
+      "label": "Q4(b)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q4-b",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q4-c",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "question_part",
+      "label": "Q4(c)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q4-c",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-MS-Q4-c",
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "locator_kind": "question_part",
+      "label": "Q4(c)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q4-c",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-QP-Q4-c-ii",
+      "source_id": "SRC-9MA0-2025-31-QP",
+      "locator_kind": "question_part",
+      "label": "Q4(c)(ii)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q4-c-ii",
+      "assessment_question_id": null,
+      "verification_reference": null
+    },
+    {
+      "locator_id": "LOC-MS-Q4-c-ii",
+      "source_id": "SRC-9MA0-2025-31-MS",
+      "locator_kind": "question_part",
+      "label": "Q4(c)(ii)",
+      "verification_status": "unverified",
+      "page_index": null,
+      "anchor": null,
+      "assessment_part_id": "QP-9MA0-2025-31-Q4-c-ii",
+      "assessment_question_id": null,
+      "verification_reference": null
+    }
+  ],
+  "contexts": [
+    {
+      "context_id": "CTX-EDX-9MA0-STAT",
+      "exam_board": "Pearson Edexcel",
+      "qualification": "A Level Mathematics",
+      "subject": "Mathematics",
+      "specification_code": "9MA0",
+      "curriculum_version": null,
+      "educational_stage": null,
+      "tier": null,
+      "pathway": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-MEAN",
+      "subject_domain": "Statistics",
+      "name": "Mean",
+      "description": "The concept of Mean; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-MEDIAN",
+      "subject_domain": "Statistics",
+      "name": "Median",
+      "description": "The concept of Median; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-MODE",
+      "subject_domain": "Statistics",
+      "name": "Mode",
+      "description": "The concept of Mode; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-PERCENTILE",
+      "subject_domain": "Statistics",
+      "name": "Percentile",
+      "description": "The concept of Percentile; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-RANGE",
+      "subject_domain": "Statistics",
+      "name": "Range",
+      "description": "The concept of Range; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-INTERPERCENTILE-RANGE",
+      "subject_domain": "Statistics",
+      "name": "Interpercentile range",
+      "description": "The concept of Interpercentile range; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-VARIANCE",
+      "subject_domain": "Statistics",
+      "name": "Variance",
+      "description": "The concept of Variance; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-SD",
+      "subject_domain": "Statistics",
+      "name": "Standard deviation",
+      "description": "The concept of Standard deviation; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-DISCRETE",
+      "subject_domain": "Statistics",
+      "name": "Discrete data",
+      "description": "The concept of Discrete data; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-CONTINUOUS",
+      "subject_domain": "Statistics",
+      "name": "Continuous data",
+      "description": "The concept of Continuous data; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-GROUPED",
+      "subject_domain": "Statistics",
+      "name": "Grouped data",
+      "description": "The concept of Grouped data; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-UNGROUPED",
+      "subject_domain": "Statistics",
+      "name": "Ungrouped data",
+      "description": "The concept of Ungrouped data; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-STAT-REGRESSION-LINE",
+      "subject_domain": "Statistics",
+      "name": "Regression line",
+      "description": "The concept of Regression line; distinct from an action using it."
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "concept_id": "CON-MATH-Y-INTERCEPT",
+      "subject_domain": "Mathematics",
+      "name": "y-intercept",
+      "description": "The concept of y-intercept; distinct from an action using it."
+    }
+  ],
+  "competencies": [
+    {
+      "canonical_id": "CAN-STAT-MEAN-CALC",
+      "subject_domain": "Statistics",
+      "skill_name": "Calculate the mean",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-MEDIAN-DETERMINE",
+      "subject_domain": "Statistics",
+      "skill_name": "Determine the median",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-MODE-DETERMINE",
+      "subject_domain": "Statistics",
+      "skill_name": "Determine the mode",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-PERCENTILES-DETERMINE",
+      "subject_domain": "Statistics",
+      "skill_name": "Determine percentiles",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-RANGE-DETERMINE",
+      "subject_domain": "Statistics",
+      "skill_name": "Determine the range",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-INTERPERCENTILE-RANGE-DETERMINE",
+      "subject_domain": "Statistics",
+      "skill_name": "Determine an interpercentile range",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-VARIANCE-CALC",
+      "subject_domain": "Statistics",
+      "skill_name": "Calculate variance",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-SD-CALC",
+      "subject_domain": "Statistics",
+      "skill_name": "Calculate standard deviation",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+      "subject_domain": "Statistics",
+      "skill_name": "Interpret measures of variation",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-DATA-CLEAN",
+      "subject_domain": "Statistics",
+      "skill_name": "Clean data for statistical analysis",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-CODING-USE",
+      "subject_domain": "Statistics",
+      "skill_name": "Use coding in statistical calculations",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-CENTRAL-TENDENCY-INTERPRET",
+      "subject_domain": "Statistics",
+      "skill_name": "Interpret measures of central tendency",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-CONTEXT-INFER",
+      "subject_domain": "Statistics",
+      "skill_name": "Make contextual inferences using statistical evidence",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-MODEL-PARAM-INTERPRET",
+      "subject_domain": "Statistics",
+      "skill_name": "Interpret parameters of a statistical model in context",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "canonical_id": "CAN-STAT-DATA-CLASSIFY",
+      "subject_domain": "Statistics",
+      "skill_name": "Classify statistical data",
+      "description": null,
+      "status": "draft",
+      "registry_decision_id": null,
+      "action_classification": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    }
+  ],
+  "concept_links": [
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "link_id": "LINK-MEAN-CALC-CON-STAT-MEAN",
+      "canonical_id": "CAN-STAT-MEAN-CALC",
+      "concept_id": "CON-STAT-MEAN",
+      "relationship": "applies_concept",
+      "rationale": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "evidence_ids": [
+        "EV-013"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "link_id": "LINK-SD-CALC-CON-STAT-SD",
+      "canonical_id": "CAN-STAT-SD-CALC",
+      "concept_id": "CON-STAT-SD",
+      "relationship": "applies_concept",
+      "rationale": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "evidence_ids": [
+        "EV-014"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "link_id": "LINK-MODEL-PARAM-INTERPRET-CON-STAT-REGRESSION-LINE",
+      "canonical_id": "CAN-STAT-MODEL-PARAM-INTERPRET",
+      "concept_id": "CON-STAT-REGRESSION-LINE",
+      "relationship": "applies_concept",
+      "rationale": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "evidence_ids": [
+        "EV-015"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "link_id": "LINK-MODEL-PARAM-INTERPRET-CON-MATH-Y-INTERCEPT",
+      "canonical_id": "CAN-STAT-MODEL-PARAM-INTERPRET",
+      "concept_id": "CON-MATH-Y-INTERCEPT",
+      "relationship": "applies_concept",
+      "rationale": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "evidence_ids": [
+        "EV-016"
+      ]
+    }
+  ],
+  "gold_standard_entries": [
+    {
+      "entry_id": "GS-ENTRY-01",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Calculate the mean",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-MEAN-CALC"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-02",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Determine the median",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-MEDIAN-DETERMINE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-03",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Determine the mode",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-MODE-DETERMINE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-04",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Determine percentiles",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-PERCENTILES-DETERMINE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-05",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Determine the range",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-RANGE-DETERMINE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-06",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Determine an interpercentile range",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-INTERPERCENTILE-RANGE-DETERMINE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-07",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Calculate variance",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-VARIANCE-CALC"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-08",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Calculate standard deviation",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-SD-CALC"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-09",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Interpret measures of variation",
+      "category": "competency",
+      "disposition": "approved",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-VARIATION-INTERPRET"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-10",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Clean data for statistical analysis",
+      "category": "competency",
+      "disposition": "strong_candidate",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-DATA-CLEAN"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-11",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Use coding in statistical calculations",
+      "category": "competency",
+      "disposition": "strong_candidate",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-CODING-USE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-12",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Interpret measures of central tendency",
+      "category": "competency",
+      "disposition": "strong_candidate",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-CENTRAL-TENDENCY-INTERPRET"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-13",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Make contextual inferences using statistical evidence",
+      "category": "competency",
+      "disposition": "candidate",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-CONTEXT-INFER"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-14",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Interpret parameters of a statistical model in context",
+      "category": "competency",
+      "disposition": "candidate",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-MODEL-PARAM-INTERPRET"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-15",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Classify statistical data",
+      "category": "competency",
+      "disposition": "candidate",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "competency",
+        "id": "CAN-STAT-DATA-CLASSIFY"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-16",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Mean",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-MEAN"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-17",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Median",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-MEDIAN"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-18",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Mode",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-MODE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-19",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Percentile",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-PERCENTILE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-20",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Range",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-RANGE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-21",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Interpercentile range",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-INTERPERCENTILE-RANGE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-22",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Variance",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-VARIANCE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-23",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Standard deviation",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-SD"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-24",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Discrete data",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-DISCRETE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-25",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Continuous data",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-CONTINUOUS"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-26",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Grouped data",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-GROUPED"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-27",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Ungrouped data",
+      "category": "concept",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "concept",
+        "id": "CON-STAT-UNGROUPED"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-28",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "From summary statistics",
+      "category": "condition",
+      "disposition": "recorded",
+      "rationale": "Shared task condition for Q2(a/b); no universal curriculum requirement inferred.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "condition",
+        "id": "COND-Q2-SUMMARY"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-29",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Grouped-data percentiles using linear interpolation",
+      "category": "scope",
+      "disposition": "recorded",
+      "rationale": "Preserved scope/method note; objective locator not verified, so no official scope record manufactured.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": null,
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-30",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Discrete / continuous / grouped / ungrouped data",
+      "category": "scope",
+      "disposition": "recorded",
+      "rationale": "Preserved curriculum scope note from baseline; exact official objective remains unregistered.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": null,
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-31",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Pearson Large Data Set",
+      "category": "resource",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "resource",
+        "id": "RES-PEARSON-LDS"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-32",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "tr / trace rainfall entry",
+      "category": "condition",
+      "disposition": "recorded",
+      "rationale": "Inherited working conclusion from the prior consolidated baseline; not a new approval.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": {
+        "kind": "condition",
+        "id": "COND-Q4-TRACE"
+      },
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-33",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Qualitative / Quantitative",
+      "category": "concept",
+      "disposition": "deferred",
+      "rationale": "Deferred from this working baseline; not curriculum exclusion.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": null,
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "entry_id": "GS-ENTRY-34",
+      "baseline_id": "GS-EDX-9MA0-STAT",
+      "baseline_version": "0.1",
+      "label": "Quartiles",
+      "category": "concept",
+      "disposition": "deferred",
+      "rationale": "Deferred from this working baseline; not curriculum exclusion.",
+      "decision_source_reference": "LOC-GOLD-DISCUSSION",
+      "target": null,
+      "evidence_ids": [],
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    }
+  ],
+  "objective_references": [],
+  "scopes": [],
+  "objective_mappings": [],
+  "questions": [
+    {
+      "question_id": "Q-9MA0-2025-31-Q2",
+      "paper_source_id": "SRC-9MA0-2025-31-QP",
+      "label": "Q2",
+      "source_locator_id": "LOC-QP-Q2",
+      "curriculum_context_id": "CTX-EDX-9MA0-STAT",
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "paper_source_id": "SRC-9MA0-2025-31-QP",
+      "label": "Q4",
+      "source_locator_id": "LOC-QP-Q4",
+      "curriculum_context_id": "CTX-EDX-9MA0-STAT",
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    }
+  ],
+  "question_parts": [
+    {
+      "part_id": "QP-9MA0-2025-31-Q2-a",
+      "question_id": "Q-9MA0-2025-31-Q2",
+      "label": "Q2(a)",
+      "node_kind": "assessable",
+      "source_locator_id": "LOC-QP-Q2-a",
+      "parent_part_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q2-b",
+      "question_id": "Q-9MA0-2025-31-Q2",
+      "label": "Q2(b)",
+      "node_kind": "assessable",
+      "source_locator_id": "LOC-QP-Q2-b",
+      "parent_part_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q2-c",
+      "question_id": "Q-9MA0-2025-31-Q2",
+      "label": "Q2(c)",
+      "node_kind": "assessable",
+      "source_locator_id": "LOC-QP-Q2-c",
+      "parent_part_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-b",
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "label": "Q4(b)",
+      "node_kind": "assessable",
+      "source_locator_id": "LOC-QP-Q4-b",
+      "parent_part_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-c",
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "label": "Q4(c)",
+      "node_kind": "container",
+      "source_locator_id": "LOC-QP-Q4-c",
+      "parent_part_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-c-ii",
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "label": "Q4(c)(ii)",
+      "node_kind": "assessable",
+      "source_locator_id": "LOC-QP-Q4-c-ii",
+      "parent_part_id": "QP-9MA0-2025-31-Q4-c",
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    }
+  ],
+  "task_conditions": [
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "condition_id": "COND-Q2-SUMMARY",
+      "question_id": "Q-9MA0-2025-31-Q2",
+      "kind": "input_form",
+      "description": "Inherited analysis: summary statistics are supplied; numerical values are not transcribed.",
+      "availability": "given_in_question",
+      "resource_id": null,
+      "evidence_ids": [
+        "EV-019"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "condition_id": "COND-Q4-WEATHER",
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "kind": "context_detail",
+      "description": "Inherited analysis: Leeming 2015; sunshine is x and rainfall is y.",
+      "availability": "given_in_question",
+      "resource_id": null,
+      "evidence_ids": [
+        "EV-020"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "condition_id": "COND-Q4-TRACE",
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "kind": "context_detail",
+      "description": "Inherited analysis: rainfall entries may include tr/trace; identifying the issue is the observed demand.",
+      "availability": "recalled_from_resource",
+      "resource_id": "RES-PEARSON-LDS",
+      "evidence_ids": [
+        "EV-021"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "condition_id": "COND-Q4-c-ii-LINE",
+      "question_id": "Q-9MA0-2025-31-Q4",
+      "kind": "given_model",
+      "description": "Inherited analysis: y = 0.741 + 0.199x is the given regression model.",
+      "availability": "given_in_question",
+      "resource_id": null,
+      "evidence_ids": [
+        "EV-022"
+      ]
+    }
+  ],
+  "part_condition_links": [
+    {
+      "part_id": "QP-9MA0-2025-31-Q2-a",
+      "condition_id": "COND-Q2-SUMMARY"
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q2-b",
+      "condition_id": "COND-Q2-SUMMARY"
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-b",
+      "condition_id": "COND-Q4-WEATHER"
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-c-ii",
+      "condition_id": "COND-Q4-WEATHER"
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-b",
+      "condition_id": "COND-Q4-TRACE"
+    },
+    {
+      "part_id": "QP-9MA0-2025-31-Q4-c-ii",
+      "condition_id": "COND-Q4-c-ii-LINE"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": "RES-PEARSON-LDS",
+      "name": "Pearson Large Data Set",
+      "resource_kind": "dataset",
+      "description": "Dataset identity inherited from the discussion; workbook content and version not imported.",
+      "version": null,
+      "artifact_source_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      }
+    }
+  ],
+  "resource_uses": [
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "use_id": "USE-Q4-b-LDS",
+      "resource_id": "RES-PEARSON-LDS",
+      "target": {
+        "kind": "question_part",
+        "id": "QP-9MA0-2025-31-Q4-b"
+      },
+      "relationship": "uses_context",
+      "description": "Inherited analysis: this part uses the Pearson LDS weather context.",
+      "evidence_ids": [
+        "EV-017"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "use_id": "USE-Q4-c-ii-LDS",
+      "resource_id": "RES-PEARSON-LDS",
+      "target": {
+        "kind": "question_part",
+        "id": "QP-9MA0-2025-31-Q4-c-ii"
+      },
+      "relationship": "uses_context",
+      "description": "Inherited analysis: this part uses the Pearson LDS weather context.",
+      "evidence_ids": [
+        "EV-018"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-001",
+      "source_locator_ids": [
+        "LOC-QP-Q2-a"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-a-MEAN-CALC"
+      },
+      "observation": "Inherited analysis: calculate the mean using the supplied summary statistics.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-002",
+      "source_locator_ids": [
+        "LOC-MS-Q2-a"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-a-MEAN-CALC"
+      },
+      "observation": "Inherited analysis: calculate the mean using the supplied summary statistics.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-003",
+      "source_locator_ids": [
+        "LOC-QP-Q2-b"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-b-SD-CALC"
+      },
+      "observation": "Inherited analysis: calculate standard deviation from summary statistics.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-004",
+      "source_locator_ids": [
+        "LOC-MS-Q2-b"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-b-SD-CALC"
+      },
+      "observation": "Inherited analysis: calculate standard deviation from summary statistics.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-005",
+      "source_locator_ids": [
+        "LOC-QP-Q2-c"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-c-VARIATION-INTERPRET"
+      },
+      "observation": "Inherited analysis: interpret differences in variation/spread in the running context.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-006",
+      "source_locator_ids": [
+        "LOC-MS-Q2-c"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-c-VARIATION-INTERPRET"
+      },
+      "observation": "Inherited analysis: interpret differences in variation/spread in the running context.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-007",
+      "source_locator_ids": [
+        "LOC-QP-Q2-c"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-c-CONTEXT-INFER"
+      },
+      "observation": "Inherited analysis: use the variation evidence to make a contextual inference; competency remains Candidate.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-008",
+      "source_locator_ids": [
+        "LOC-MS-Q2-c"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q2-c-CONTEXT-INFER"
+      },
+      "observation": "Inherited analysis: use the variation evidence to make a contextual inference; competency remains Candidate.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-009",
+      "source_locator_ids": [
+        "LOC-QP-Q4-b"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q4-b-DATA-CLEAN"
+      },
+      "observation": "Inherited analysis: identify possible tr/trace rainfall entries. This is partial evidence, not demonstration of a complete cleaning workflow.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-010",
+      "source_locator_ids": [
+        "LOC-MS-Q4-b"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q4-b-DATA-CLEAN"
+      },
+      "observation": "Inherited analysis: identify possible tr/trace rainfall entries. This is partial evidence, not demonstration of a complete cleaning workflow.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-011",
+      "source_locator_ids": [
+        "LOC-QP-Q4-c-ii"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q4-c-ii-MODEL-PARAM-INTERPRET"
+      },
+      "observation": "Inherited analysis: at zero sunshine, predicted/average rainfall is approximately 0.741 mm; minimum rain is not the accepted interpretation.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-012",
+      "source_locator_ids": [
+        "LOC-MS-Q4-c-ii"
+      ],
+      "target": {
+        "kind": "part_mapping",
+        "id": "MAP-Q4-c-ii-MODEL-PARAM-INTERPRET"
+      },
+      "observation": "Inherited analysis: at zero sunshine, predicted/average rainfall is approximately 0.741 mm; minimum rain is not the accepted interpretation.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-013",
+      "source_locator_ids": [
+        "LOC-GOLD-DISCUSSION"
+      ],
+      "target": {
+        "kind": "concept_link",
+        "id": "LINK-MEAN-CALC-CON-STAT-MEAN"
+      },
+      "observation": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-014",
+      "source_locator_ids": [
+        "LOC-GOLD-DISCUSSION"
+      ],
+      "target": {
+        "kind": "concept_link",
+        "id": "LINK-SD-CALC-CON-STAT-SD"
+      },
+      "observation": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-015",
+      "source_locator_ids": [
+        "LOC-GOLD-DISCUSSION"
+      ],
+      "target": {
+        "kind": "concept_link",
+        "id": "LINK-MODEL-PARAM-INTERPRET-CON-STAT-REGRESSION-LINE"
+      },
+      "observation": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-016",
+      "source_locator_ids": [
+        "LOC-GOLD-DISCUSSION"
+      ],
+      "target": {
+        "kind": "concept_link",
+        "id": "LINK-MODEL-PARAM-INTERPRET-CON-MATH-Y-INTERCEPT"
+      },
+      "observation": "A discussed application of the concept; this link is not an exhaustive competency definition.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-017",
+      "source_locator_ids": [
+        "LOC-QP-Q4-b"
+      ],
+      "target": {
+        "kind": "resource_use",
+        "id": "USE-Q4-b-LDS"
+      },
+      "observation": "Inherited analysis: this part uses the Pearson LDS weather context.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-018",
+      "source_locator_ids": [
+        "LOC-QP-Q4-c-ii"
+      ],
+      "target": {
+        "kind": "resource_use",
+        "id": "USE-Q4-c-ii-LDS"
+      },
+      "observation": "Inherited analysis: this part uses the Pearson LDS weather context.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-019",
+      "source_locator_ids": [
+        "LOC-QP-Q2"
+      ],
+      "target": {
+        "kind": "condition",
+        "id": "COND-Q2-SUMMARY"
+      },
+      "observation": "Inherited analysis: summary statistics are supplied; numerical values are not transcribed.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-020",
+      "source_locator_ids": [
+        "LOC-QP-Q4"
+      ],
+      "target": {
+        "kind": "condition",
+        "id": "COND-Q4-WEATHER"
+      },
+      "observation": "Inherited analysis: Leeming 2015; sunshine is x and rainfall is y.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-021",
+      "source_locator_ids": [
+        "LOC-MS-Q4-b"
+      ],
+      "target": {
+        "kind": "condition",
+        "id": "COND-Q4-TRACE"
+      },
+      "observation": "Inherited analysis: rainfall entries may include tr/trace; identifying the issue is the observed demand.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "evidence_id": "EV-022",
+      "source_locator_ids": [
+        "LOC-QP-Q4-c-ii"
+      ],
+      "target": {
+        "kind": "condition",
+        "id": "COND-Q4-c-ii-LINE"
+      },
+      "observation": "Inherited analysis: y = 0.741 + 0.199x is the given regression model.",
+      "content_kind": "paraphrase",
+      "evidence_role": "supports",
+      "observation_status": "observed",
+      "examined_sample": null,
+      "confidence": null,
+      "context_id": null,
+      "objective_id": null,
+      "explicit_exclusion": false,
+      "application": null
+    }
+  ],
+  "part_mappings": [
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "mapping_id": "MAP-Q2-a-MEAN-CALC",
+      "part_id": "QP-9MA0-2025-31-Q2-a",
+      "canonical_id": "CAN-STAT-MEAN-CALC",
+      "role": "assessed",
+      "assessment_extent": "undetermined",
+      "rationale": "Inherited analysis: calculate the mean using the supplied summary statistics.",
+      "evidence_ids": [
+        "EV-001",
+        "EV-002"
+      ],
+      "mapping_method": "ai",
+      "confidence": null,
+      "focus_concept_ids": [
+        "CON-STAT-MEAN"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "mapping_id": "MAP-Q2-b-SD-CALC",
+      "part_id": "QP-9MA0-2025-31-Q2-b",
+      "canonical_id": "CAN-STAT-SD-CALC",
+      "role": "assessed",
+      "assessment_extent": "undetermined",
+      "rationale": "Inherited analysis: calculate standard deviation from summary statistics.",
+      "evidence_ids": [
+        "EV-003",
+        "EV-004"
+      ],
+      "mapping_method": "ai",
+      "confidence": null,
+      "focus_concept_ids": [
+        "CON-STAT-SD"
+      ]
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "mapping_id": "MAP-Q2-c-VARIATION-INTERPRET",
+      "part_id": "QP-9MA0-2025-31-Q2-c",
+      "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+      "role": "assessed",
+      "assessment_extent": "partial",
+      "rationale": "Inherited analysis: interpret differences in variation/spread in the running context.",
+      "evidence_ids": [
+        "EV-005",
+        "EV-006"
+      ],
+      "mapping_method": "ai",
+      "confidence": null,
+      "focus_concept_ids": []
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "mapping_id": "MAP-Q2-c-CONTEXT-INFER",
+      "part_id": "QP-9MA0-2025-31-Q2-c",
+      "canonical_id": "CAN-STAT-CONTEXT-INFER",
+      "role": "assessed",
+      "assessment_extent": "undetermined",
+      "rationale": "Inherited analysis: use the variation evidence to make a contextual inference; competency remains Candidate.",
+      "evidence_ids": [
+        "EV-007",
+        "EV-008"
+      ],
+      "mapping_method": "ai",
+      "confidence": null,
+      "focus_concept_ids": []
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "mapping_id": "MAP-Q4-b-DATA-CLEAN",
+      "part_id": "QP-9MA0-2025-31-Q4-b",
+      "canonical_id": "CAN-STAT-DATA-CLEAN",
+      "role": "assessed",
+      "assessment_extent": "partial",
+      "rationale": "Inherited analysis: identify possible tr/trace rainfall entries. This is partial evidence, not demonstration of a complete cleaning workflow.",
+      "evidence_ids": [
+        "EV-009",
+        "EV-010"
+      ],
+      "mapping_method": "ai",
+      "confidence": null,
+      "focus_concept_ids": []
+    },
+    {
+      "review_status": "pending",
+      "review_decision_id": null,
+      "provenance": {
+        "origin": "real",
+        "creation_method": "ai",
+        "source_references": [
+          "locator:LOC-GOLD-DISCUSSION"
+        ],
+        "synthetic_notice": null
+      },
+      "mapping_id": "MAP-Q4-c-ii-MODEL-PARAM-INTERPRET",
+      "part_id": "QP-9MA0-2025-31-Q4-c-ii",
+      "canonical_id": "CAN-STAT-MODEL-PARAM-INTERPRET",
+      "role": "assessed",
+      "assessment_extent": "partial",
+      "rationale": "Inherited analysis: at zero sunshine, predicted/average rainfall is approximately 0.741 mm; minimum rain is not the accepted interpretation.",
+      "evidence_ids": [
+        "EV-011",
+        "EV-012"
+      ],
+      "mapping_method": "ai",
+      "confidence": null,
+      "focus_concept_ids": [
+        "CON-STAT-REGRESSION-LINE",
+        "CON-MATH-Y-INTERCEPT"
+      ]
+    }
+  ],
+  "question_difficulties": [],
+  "review_decisions": []
+}

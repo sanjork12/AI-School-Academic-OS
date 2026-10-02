@@ -1,0 +1,213 @@
+{
+  "architectural_notes": [
+    "Task-form LR retains worked/practice references when its primary block is removed. Matrix reports those references but marks structural coverage uncovered without its required primary role.",
+    "Frozen P3B model treats boundary order as significant. P3C normalizes unordered validation copies only; upstream schema and output remain unchanged.",
+    "Frozen candidate_slot has no authored-content representation. Purpose text or a claimed populated status cannot establish readiness.",
+    "Boundary text rules are explicit lexical checks, not an arbitrary-language semantic proof; warnings retain this limitation.",
+    "Future authored artifact validation and pedagogical quality evaluation are not implemented."
+  ],
+  "authoring_readiness": {
+    "ready_as_completed_teaching_content": false,
+    "ready_for_content_authoring": true
+  },
+  "boundary_validation": {
+    "valid": true
+  },
+  "changed_files": [
+    "academic_os/pedagogical_validation.py",
+    "academic_os/cli.py",
+    "tests_p0/test_pedagogical_validation.py",
+    "tests_p0/pedagogical_validation_acceptance.py",
+    "docs/P3C_PEDAGOGICAL_VALIDATION.md"
+  ],
+  "content_readiness": {
+    "populated": 0,
+    "ready": false,
+    "reason": "Frozen candidate_slot objects contain specification instructions, not authored and validated content.",
+    "required_slots_total": 4,
+    "slot_types": {
+      "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253": "learning_check_slot",
+      "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba": "calculation_method_slot",
+      "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f": "worked_example_slot",
+      "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640": "task_input_slot"
+    },
+    "unpopulated": [
+      "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253",
+      "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba",
+      "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f",
+      "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+    ]
+  },
+  "counts_after": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "counts_before": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "database_after": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "database_before": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "determinism": {
+    "repeated": true,
+    "reversed_collections": true,
+    "reversed_snapshots": true,
+    "sha256": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "new_academic_decisions": 0,
+  "new_governance_decisions": 0,
+  "new_source_decisions": 0,
+  "new_trusted_snapshots": 0,
+  "pedagogical_output_byte_identical": true,
+  "protected_files": {
+    "changed": [],
+    "missing": [
+      "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+    ]
+  },
+  "reference_integrity": {
+    "valid": true
+  },
+  "schema_version": "pedagogical-validation/1",
+  "slot_validation": {
+    "missing_roles": [],
+    "required_roles": [
+      "calculation_method",
+      "conceptual_meaning",
+      "practice_learning_check",
+      "supported_task_form",
+      "worked_assessment_connection"
+    ],
+    "valid": true
+  },
+  "snapshot_usability": {
+    "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": true,
+    "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": true
+  },
+  "status": "P3C PEDAGOGICAL CONTRACT VALIDATOR + COVERAGE READINESS PASSED",
+  "structural_coverage": {
+    "coverage_planned": 2,
+    "coverage_total": 2,
+    "learning_planned": 3,
+    "learning_total": 3,
+    "valid": true
+  },
+  "test_results": {
+    "duration_seconds": 589.398,
+    "errors": 1,
+    "failures": 0,
+    "groups": {
+      "test_assessment_intelligence": 40,
+      "test_learning_specification": 45,
+      "test_pedagogical_specification": 45,
+      "test_pedagogical_validation": 40,
+      "test_teacher_product": 60
+    },
+    "known_error": "FileNotFoundError: AI_Academic_Operating_System_Brainstorm_CN.pptx; original test and pinned hash preserved",
+    "latest_focused_passed": 40,
+    "not_run": 0,
+    "passed": 587,
+    "skipped": 0,
+    "total": 588
+  },
+  "upstream_files_unchanged": {
+    "academic_os\\assessment_intelligence.py": "1bc8c4c8ee30c226ebfe01fca6bd9a7d711ed29ea3061de5e2a7ed9d147825f2",
+    "academic_os\\learning_core.py": "8a4ea732058ce4d1179d350243fec9a492c4182cf13d56fe603ea174e1121bf4",
+    "academic_os\\learning_models.py": "1b78dd2322d0abd692c6f1923f79ea961d8508e13799d5c4e1306f573d9c13ac",
+    "academic_os\\learning_rendering.py": "5b0cfa5faa7b2f8ccc904f5c4cbf2d705d9440d3fc358d1ac5cea661a142b86b",
+    "academic_os\\learning_service.py": "eb4642c9931101179b1e2fd18e9b7abcc45e0ecc1b31077f1e8e492fbed08c31",
+    "academic_os\\pedagogical_core.py": "2267fda811983de176a8fbab02ae5ecd3e7dfc1b080059e45cd6ec508a990eaf",
+    "academic_os\\pedagogical_models.py": "892766b65fed12c47d9a87dbb096dc28fd470dfab2fcca189cb43eb585cada03",
+    "academic_os\\pedagogical_service.py": "5d8ac45478dd6a62bc5354b573f2460af6e0c01347c51596fa154c13858caa2a",
+    "academic_os\\product_models.py": "07ecc8a6b2f03a2b4d9f345b82d446900a9db5a5f179708c6e85bf3baa55c22b",
+    "academic_os\\product_service.py": "5f097b05aacd63417f30e97e0fef55bec201f6400d4ab3cec2aa41b23d7e9e06",
+    "output\\p2a_teacher_view\\standard_deviation.json": "f898f9f3b0ce1e09dda5648f12c523691e90d4856d76076203b2b84cc65da5c9",
+    "output\\p2b_assessment_intelligence\\standard_deviation.json": "510a509369e1248bc7e39cb0a11f4d9592ad366f28d704ba59c6e11502310577",
+    "output\\p3a_learning_specification\\standard_deviation.json": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "output\\p3b_pedagogical_specification\\standard_deviation.json": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "tests_p0\\fixtures\\learning_standard_deviation_gold.json": "7d968182bb2cdc3e76636c009af840e227f81fcf336f778673d8836bb232fcb3",
+    "tests_p0\\fixtures\\pedagogical_standard_deviation_gold.json": "25586cfec290a4348e235db3b9d444f0c9a28ddcae07a136090f6b07718876de",
+    "tests_p0\\fixtures\\q2_gold_standard.json": "5485118dec44a6be52ac2eb9445b95e299a5dc961f7a650b0674aadc6300be65",
+    "tests_p0\\fixtures\\q3_gold_standard.json": "a2d98701e8fc16b0dca9facd123a17fbc966c39106ea8c4a4f5a26da51a09d51"
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "$defs": {
+    "Attempt": {
+      "additionalProperties": false,
+      "properties": {
+        "accepted": {
+          "title": "Accepted",
+          "type": "boolean"
+        },
+        "artifact_hashes": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Artifact Hashes",
+          "type": "object"
+        },
+        "attempt_id": {
+          "title": "Attempt Id",
+          "type": "string"
+        },
+        "blocked": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Blocked"
+        },
+        "boundary_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Boundary Valid"
+        },
+        "brief_hash": {
+          "title": "Brief Hash",
+          "type": "string"
+        },
+        "brief_ref": {
+          "title": "Brief Ref",
+          "type": "string"
+        },
+        "candidate_artifact_ref": {
+          "title": "Candidate Artifact Ref",
+          "type": "string"
+        },
+        "candidate_id": {
+          "title": "Candidate Id",
+          "type": "string"
+        },
+        "case_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Case Id"
+        },
+        "completed_at": {
+          "title": "Completed At",
+          "type": "string"
+        },
+        "composition_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Composition Valid"
+        },
+        "content_complete": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Content Complete"
+        },
+        "expected_guardrail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Expected Guardrail"
+        },
+        "forbidden_behavior_observed": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Forbidden Behavior Observed"
+        },
+        "latency_ms": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Latency Ms"
+        },
+        "math_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Math Valid"
+        },
+        "model_identifier": {
+          "title": "Model Identifier",
+          "type": "string"
+        },
+        "observed_configuration": {
+          "additionalProperties": true,
+          "title": "Observed Configuration",
+          "type": "object"
+        },
+        "operational_error": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Operational Error"
+        },
+        "outcome": {
+          "enum": [
+            "candidate_accepted",
+            "candidate_validation_rejected",
+            "candidate_schema_failure",
+            "provider_failure",
+            "input_validation_failure"
+          ],
+          "title": "Outcome",
+          "type": "string"
+        },
+        "provider_calls": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Provider Calls",
+          "type": "integer"
+        },
+        "provider_request_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Provider Request Id"
+        },
+        "scaffold_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Scaffold Valid"
+        },
+        "schema_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Schema Valid"
+        },
+        "scope_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Scope Valid"
+        },
+        "solution_valid": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Solution Valid"
+        },
+        "started_at": {
+          "title": "Started At",
+          "type": "string"
+        },
+        "usage": {
+          "additionalProperties": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "title": "Usage",
+          "type": "object"
+        },
+        "violations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Violations",
+          "type": "array"
+        },
+        "warnings": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Warnings",
+          "type": "array"
+        }
+      },
+      "required": [
+        "attempt_id",
+        "candidate_id",
+        "brief_ref",
+        "brief_hash",
+        "model_identifier",
+        "started_at",
+        "completed_at",
+        "latency_ms",
+        "provider_request_id",
+        "provider_calls",
+        "outcome",
+        "operational_error",
+        "schema_valid",
+        "content_complete",
+        "scaffold_valid",
+        "math_valid",
+        "solution_valid",
+        "scope_valid",
+        "boundary_valid",
+        "composition_valid",
+        "accepted",
+        "violations",
+        "warnings",
+        "usage",
+        "candidate_artifact_ref",
+        "artifact_hashes",
+        "observed_configuration"
+      ],
+      "title": "Attempt",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "aggregate_validation": {
+      "additionalProperties": true,
+      "title": "Aggregate Validation",
+      "type": "object"
+    },
+    "attempt_count": {
+      "minimum": 0,
+      "title": "Attempt Count",
+      "type": "integer"
+    },
+    "attempts": {
+      "items": {
+        "$ref": "#/$defs/Attempt"
+      },
+      "title": "Attempts",
+      "type": "array"
+    },
+    "authoring_brief": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Authoring Brief",
+      "type": "object"
+    },
+    "baseline_integrity": {
+      "additionalProperties": true,
+      "title": "Baseline Integrity",
+      "type": "object"
+    },
+    "completion_reason": {
+      "title": "Completion Reason",
+      "type": "string"
+    },
+    "configuration": {
+      "additionalProperties": true,
+      "title": "Configuration",
+      "type": "object"
+    },
+    "experiment_type": {
+      "enum": [
+        "live_normal",
+        "offline_synthetic",
+        "live_adversarial",
+        "offline_synthetic_stress"
+      ],
+      "title": "Experiment Type",
+      "type": "string"
+    },
+    "identity": {
+      "title": "Identity",
+      "type": "string"
+    },
+    "latency_summary": {
+      "additionalProperties": true,
+      "title": "Latency Summary",
+      "type": "object"
+    },
+    "limitations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Limitations",
+      "type": "array"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "operational_outcomes": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Operational Outcomes",
+      "type": "object"
+    },
+    "provider": {
+      "title": "Provider",
+      "type": "string"
+    },
+    "rejection_summary": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Rejection Summary",
+      "type": "object"
+    },
+    "requested_attempt_count": {
+      "maximum": 20,
+      "minimum": 1,
+      "title": "Requested Attempt Count",
+      "type": "integer"
+    },
+    "safety_summary": {
+      "additionalProperties": true,
+      "title": "Safety Summary",
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "live-model-qualification/1",
+      "default": "live-model-qualification/1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "slot": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Slot",
+      "type": "object"
+    },
+    "started_attempt_count": {
+      "minimum": 0,
+      "title": "Started Attempt Count",
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "incomplete"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "stress_summary": {
+      "additionalProperties": true,
+      "title": "Stress Summary",
+      "type": "object"
+    },
+    "stress_tests": {
+      "items": {
+        "$ref": "#/$defs/Attempt"
+      },
+      "title": "Stress Tests",
+      "type": "array"
+    },
+    "usage_summary": {
+      "additionalProperties": true,
+      "title": "Usage Summary",
+      "type": "object"
+    }
+  },
+  "required": [
+    "identity",
+    "experiment_type",
+    "status",
+    "completion_reason",
+    "slot",
+    "authoring_brief",
+    "provider",
+    "model",
+    "configuration",
+    "requested_attempt_count",
+    "attempt_count",
+    "started_attempt_count",
+    "attempts",
+    "aggregate_validation",
+    "rejection_summary",
+    "operational_outcomes",
+    "usage_summary",
+    "latency_summary",
+    "stress_tests",
+    "stress_summary",
+    "safety_summary",
+    "baseline_integrity",
+    "limitations"
+  ],
+  "title": "QualificationReport",
+  "type": "object"
+}

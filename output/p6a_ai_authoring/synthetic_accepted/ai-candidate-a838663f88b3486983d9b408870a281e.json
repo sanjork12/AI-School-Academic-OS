@@ -1,0 +1,2392 @@
+{
+  "academic_approval": false,
+  "brief": {
+    "allowed_question_templates": [
+      "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+    ],
+    "allowed_scaffolds": {
+      "compute_first_term": [
+        "Calculate Σx² / n.",
+        "Divide the sum of squares by the number of observations."
+      ],
+      "compute_second_term": [
+        "Calculate (Σx / n)².",
+        "Divide the sum by the number of observations, then square the result."
+      ],
+      "square_root": [
+        "Take the square root.",
+        "Take the square root of the variance."
+      ],
+      "subtract_variance_terms": [
+        "Subtract the second result from the first.",
+        "Find the difference: first term minus second term."
+      ]
+    },
+    "content_origin_policy": "ai_generated_candidate",
+    "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+    "forbidden_content": [
+      "new learning requirements, concepts, competencies or task forms",
+      "sample standard deviation or n - 1",
+      "population/sample comparison",
+      "difficulty, common-mistake or prerequisite claims",
+      "frequency, typical marks or exam predictions",
+      "formula memorisation",
+      "calculator models or button sequences",
+      "Pearson copying or official endorsement",
+      "approval, verification, safety, trust or readiness declarations"
+    ],
+    "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+    "identity": "standard-deviation-standard-lesson-SL-10/1",
+    "learning_targets": [
+      "Student should be able to: Calculate the standard deviation of a distribution.",
+      "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+    ],
+    "profile_context": "Standard lesson, guided calculation practice",
+    "required_output": [
+      "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+      "Choose one permitted question template verbatim, preserving its placeholders.",
+      "Four ordered scaffold types, with one permitted instruction for each.",
+      "Separate solution with identical inputs; exact rational intermediate results; numeric SD to 45 decimal digits when irrational; display to 2 decimal places."
+    ],
+    "role": "Guided practice 1",
+    "schema_version": "authoring-brief/1",
+    "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+    "support_mode": "guided",
+    "task_form": "From summary statistics"
+  },
+  "candidate": {
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+    "brief_sha256": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+    "candidate_id": "ai-candidate-a838663f88b3486983d9b408870a281e",
+    "content": {
+      "proposed_math_inputs": {
+        "n": 10,
+        "sum_x": "50",
+        "sum_x2": "290"
+      },
+      "proposed_solution": {
+        "display_answer": "2.00",
+        "exact_radicand": "4",
+        "first_term": "29",
+        "inputs": {
+          "n": 10,
+          "sum_x": "50",
+          "sum_x2": "290"
+        },
+        "mean": "5",
+        "numeric_answer": "2",
+        "second_term": "25",
+        "variance": "4"
+      },
+      "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "scaffold_steps": [
+        {
+          "instruction": "Calculate Σx² / n.",
+          "type": "compute_first_term"
+        },
+        {
+          "instruction": "Calculate (Σx / n)².",
+          "type": "compute_second_term"
+        },
+        {
+          "instruction": "Subtract the second result from the first.",
+          "type": "subtract_variance_terms"
+        },
+        {
+          "instruction": "Take the square root.",
+          "type": "square_root"
+        }
+      ]
+    },
+    "content_origin": "ai_generated_candidate",
+    "current_inputs_sha256": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+    "learning_requirement_refs": [
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "model_metadata": {
+      "cost": "not_computed",
+      "input_tokens": null,
+      "latency_seconds": 0.0,
+      "model": "synthetic-not-a-model",
+      "output_tokens": null,
+      "provider": "synthetic_test",
+      "total_tokens": null
+    },
+    "role_ref": "profiled-sd-standard-lesson-SL-10",
+    "schema_version": "ai-author-candidate/1",
+    "task_form_refs": [
+      "task-form-summary-statistics"
+    ]
+  },
+  "candidate_id": "ai-candidate-a838663f88b3486983d9b408870a281e",
+  "experimental_package": {
+    "academic_scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+    "ai_lineage": {
+      "brief_sha256": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+      "candidate_id": "ai-candidate-a838663f88b3486983d9b408870a281e",
+      "candidate_sha256": "2899293c7c9c40ba95d1257cb85f60a823c46162e719145531d7f9376aa02eee",
+      "deterministic_base_sha256": "07fec791137d8f92131094f4fc53fc4572686066b035e4d2cba4b621f9aaf721",
+      "role_ref": "profiled-sd-standard-lesson-SL-10",
+      "validation_sha256": "e1d4f05c8fac7457dee04db4d71a4287252007b9a3b4a437f5eb2c03bac5fd7b"
+    },
+    "authoring_provider": "single-slot-ai/1",
+    "content_boundaries": [
+      "Instructional formulas are supplied for teaching; formula memorisation is not required.",
+      "No specific calculator or manual-only method is required.",
+      "No calibrated difficulty, exam frequency, typical marks, common student mistakes or future-exam prediction is claimed.",
+      "No new Learning Requirements or prerequisite requirements are introduced.",
+      "This package uses population-style calculations; population-versus-sample comparison is outside this Learning Specification.",
+      "Only the supported summary-statistics assessment task form is authored; no additional task form is made a required target.",
+      "Two decimal places with ROUND_HALF_UP is this package's display choice, not a universal exam requirement.",
+      "Input notation is newly authored instructional support, not a repair of uncertain source glyphs.",
+      "Examples and numerical checks are original authored items, not Pearson questions or historical exam appearances.",
+      "Slot population records supplied content only; downstream content validation is still required."
+    ],
+    "content_complete": true,
+    "coverage_requirement_refs": [
+      "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+      "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+    ],
+    "evidence_boundaries": [
+      {
+        "basis": "upstream_limitation",
+        "code": "insufficient_evidence_for_frequency",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+        ],
+        "statement": "The 2 reviewed examples do not establish assessment frequency."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "insufficient_evidence_for_typical_marks",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+        ],
+        "statement": "These reviewed examples do not establish a typical mark allocation."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "difficulty_not_calibrated",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+        ],
+        "statement": "No calibrated difficulty evidence is available."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "no_exam_prediction",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/no_exam_prediction"
+        ],
+        "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "no_student_error_evidence",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/no_student_error_evidence"
+        ],
+        "statement": "No student response evidence supports common-mistake claims."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "prerequisites_not_modelled",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "teaching_sequence_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Teaching sequence has not yet been established by these contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "calculator_method_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "A required calculator or manual method has not been established."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "formula_memorisation_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "unsupported_task_forms_excluded",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+      }
+    ],
+    "framing": {
+      "profiled-sd-standard-lesson-SL-01": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "profiled-sd-standard-lesson-SL-15": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ]
+    },
+    "learning_requirement_refs": [
+      "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "mathematical_verification": {
+      "ai-candidate-a838663f88b3486983d9b408870a281e": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-p5b-v1-early_concept_retrieval-1": {
+        "checks": {
+          "concept_response_separate": true,
+          "no_numeric_answer": true,
+          "separate_solution_identity": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-p5b-v1-exit_check-1": {
+        "checks": {
+          "concept_response_separate": true,
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "separate_solution_identity": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-p5b-v1-full_worked_examples-2": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "separate_solution_identity": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-p5b-v1-guided_practice-2": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "separate_solution_identity": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-p5b-v1-independent_practice-3": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "separate_solution_identity": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-p5b-v1-mini_worked_example-1": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "raw_deviations": true,
+          "raw_instructional_only": true,
+          "raw_mean_variance": true,
+          "raw_prompt_values": true,
+          "raw_squared_deviations": true,
+          "rounding_recomputed": true,
+          "separate_solution_identity": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    "minimum_density_met": true,
+    "new_content": [
+      {
+        "assesses_learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+        ],
+        "calculation_learning_requirement_refs": [],
+        "concept_learning_requirement_refs": [],
+        "concept_prompt": null,
+        "content_origin": "generated_original",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": false,
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+        ],
+        "lineage": "created_for_profile_density",
+        "question": "Two datasets have the same mean. One is more dispersed around that mean. Which has the larger standard deviation?",
+        "raw_values": [],
+        "ref": "authored-sd-p5b-v1-early_concept_retrieval-1",
+        "scaffolding": [],
+        "semantic_role": "early_concept_retrieval",
+        "summary": null,
+        "support_mode": "not_applicable",
+        "task_form_refs": []
+      },
+      {
+        "assesses_learning_requirement_refs": [],
+        "calculation_learning_requirement_refs": [],
+        "concept_learning_requirement_refs": [],
+        "concept_prompt": null,
+        "content_origin": "generated_original",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": true,
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+        ],
+        "lineage": "created_for_profile_density",
+        "question": "Calculate the population standard deviation of these observations: 2, 4, 4, 6.",
+        "raw_values": [
+          "2",
+          "4",
+          "4",
+          "6"
+        ],
+        "ref": "authored-sd-p5b-v1-mini_worked_example-1",
+        "scaffolding": [],
+        "semantic_role": "mini_worked_example",
+        "summary": null,
+        "support_mode": "not_applicable",
+        "task_form_refs": []
+      },
+      {
+        "assesses_learning_requirement_refs": [],
+        "calculation_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "concept_learning_requirement_refs": [],
+        "concept_prompt": null,
+        "content_origin": "generated_original",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": false,
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "lineage": "created_for_profile_density",
+        "question": "A dataset contains 12 observations. The sum of the observations is 96, and the sum of their squares is 816. Calculate the standard deviation.",
+        "raw_values": [],
+        "ref": "authored-sd-p5b-v1-full_worked_examples-2",
+        "scaffolding": [],
+        "semantic_role": "full_worked_examples",
+        "summary": {
+          "n": 12,
+          "sum_x": "96",
+          "sum_x2": "816"
+        },
+        "support_mode": "not_applicable",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ]
+      },
+      {
+        "assesses_learning_requirement_refs": [],
+        "calculation_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "concept_learning_requirement_refs": [],
+        "concept_prompt": null,
+        "content_origin": "ai_generated_candidate",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": false,
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "lineage": "validated_ai_candidate",
+        "question": "A dataset contains 10 observations. Their sum is 50 and the sum of their squares is 290. Calculate the population standard deviation.",
+        "raw_values": [],
+        "ref": "ai-candidate-a838663f88b3486983d9b408870a281e",
+        "scaffolding": [
+          "Calculate Σx² / n.",
+          "Calculate (Σx / n)².",
+          "Subtract the second result from the first.",
+          "Take the square root."
+        ],
+        "semantic_role": "guided_practice",
+        "summary": {
+          "n": 10,
+          "sum_x": "50",
+          "sum_x2": "290"
+        },
+        "support_mode": "guided",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ]
+      },
+      {
+        "assesses_learning_requirement_refs": [],
+        "calculation_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "concept_learning_requirement_refs": [],
+        "concept_prompt": null,
+        "content_origin": "generated_original",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": false,
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "lineage": "created_for_profile_density",
+        "question": "A dataset contains 5 observations. The sum of the observations is 30, and the sum of their squares is 190. Calculate the standard deviation.",
+        "raw_values": [],
+        "ref": "authored-sd-p5b-v1-guided_practice-2",
+        "scaffolding": [
+          "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+        ],
+        "semantic_role": "guided_practice",
+        "summary": {
+          "n": 5,
+          "sum_x": "30",
+          "sum_x2": "190"
+        },
+        "support_mode": "guided",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ]
+      },
+      {
+        "assesses_learning_requirement_refs": [],
+        "calculation_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "concept_learning_requirement_refs": [],
+        "concept_prompt": null,
+        "content_origin": "generated_original",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": false,
+        "learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "lineage": "created_for_profile_density",
+        "question": "A dataset contains 16 observations. The sum of the observations is 160, and the sum of their squares is 1664. Calculate the standard deviation.",
+        "raw_values": [],
+        "ref": "authored-sd-p5b-v1-independent_practice-3",
+        "scaffolding": [],
+        "semantic_role": "independent_practice",
+        "summary": {
+          "n": 16,
+          "sum_x": "160",
+          "sum_x2": "1664"
+        },
+        "support_mode": "independent",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ]
+      },
+      {
+        "assesses_learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "calculation_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "concept_learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+        ],
+        "concept_prompt": "In one sentence, what does standard deviation measure?",
+        "content_origin": "generated_original",
+        "creates_assessed_task_form": false,
+        "instructional_demonstration_only": false,
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "lineage": "created_for_profile_density",
+        "question": "A dataset contains 4 observations. The sum of the observations is 20, and the sum of their squares is 116. Calculate the standard deviation.",
+        "raw_values": [],
+        "ref": "authored-sd-p5b-v1-exit_check-1",
+        "scaffolding": [],
+        "semantic_role": "exit_check",
+        "summary": {
+          "n": 4,
+          "sum_x": "20",
+          "sum_x2": "116"
+        },
+        "support_mode": "not_applicable",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ]
+      }
+    ],
+    "new_solutions": [
+      {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": null,
+        "exact_answer": null,
+        "exact_string_matching_required": false,
+        "expected_meaning": "The more dispersed dataset has the larger standard deviation.",
+        "item_ref": "authored-sd-p5b-v1-early_concept_retrieval-1",
+        "key_semantic_elements": [
+          "more spread or dispersion",
+          "larger standard deviation"
+        ],
+        "mean": null,
+        "method_steps": [],
+        "numeric_answer": null,
+        "ref": "authored-sd-p5b-v1-early_concept_retrieval-1-solution",
+        "squared_deviations": [],
+        "variance": null
+      },
+      {
+        "content_origin": "authored_instructional_content",
+        "deviations": [
+          "-2",
+          "0",
+          "0",
+          "2"
+        ],
+        "display_answer": "1.41",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "2"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-mini_worked_example-1",
+        "key_semantic_elements": [],
+        "mean": "4",
+        "method_steps": [
+          "mean = 16/4 = 4",
+          "population variance = 18 - (4)^2 = 2",
+          "population SD = sqrt(2)",
+          "Display to 2 decimal places: 1.41"
+        ],
+        "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+        "ref": "authored-sd-p5b-v1-mini_worked_example-1-solution",
+        "squared_deviations": [
+          "4",
+          "0",
+          "0",
+          "4"
+        ],
+        "variance": "2"
+      },
+      {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-full_worked_examples-2",
+        "key_semantic_elements": [],
+        "mean": "8",
+        "method_steps": [
+          "mean = 96/12 = 8",
+          "population variance = 68 - (8)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-full_worked_examples-2-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      {
+        "content_origin": "ai_generated_candidate",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "ai-candidate-a838663f88b3486983d9b408870a281e",
+        "key_semantic_elements": [],
+        "mean": "5",
+        "method_steps": [
+          "mean = 50/10 = 5",
+          "population variance = 29 - (5)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "ai-candidate-a838663f88b3486983d9b408870a281e-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "1.41",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "2"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-guided_practice-2",
+        "key_semantic_elements": [],
+        "mean": "6",
+        "method_steps": [
+          "mean = 30/5 = 6",
+          "population variance = 38 - (6)^2 = 2",
+          "population SD = sqrt(2)",
+          "Display to 2 decimal places: 1.41"
+        ],
+        "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+        "ref": "authored-sd-p5b-v1-guided_practice-2-solution",
+        "squared_deviations": [],
+        "variance": "2"
+      },
+      {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "item_ref": "authored-sd-p5b-v1-independent_practice-3",
+        "key_semantic_elements": [],
+        "mean": "10",
+        "method_steps": [
+          "mean = 160/16 = 10",
+          "population variance = 104 - (10)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-independent_practice-3-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      },
+      {
+        "content_origin": "authored_instructional_content",
+        "deviations": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": "It measures the spread of observations around the mean.",
+        "item_ref": "authored-sd-p5b-v1-exit_check-1",
+        "key_semantic_elements": [
+          "spread or dispersion",
+          "around the mean"
+        ],
+        "mean": "5",
+        "method_steps": [
+          "mean = 20/4 = 5",
+          "population variance = 29 - (5)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "ref": "authored-sd-p5b-v1-exit_check-1-solution",
+        "squared_deviations": [],
+        "variance": "4"
+      }
+    ],
+    "profile_key": "standard-lesson",
+    "ready_for_p5c": false,
+    "ready_for_rendering": false,
+    "reused_content": [
+      {
+        "content_sha256": "4bac9b8d8b49c6b0f4aad8e832befe1ee53b214d490e16c83d9c040a9deae16a",
+        "dependency_hashes": {
+          "authored-sd-v1-calculation-check-question": "3b1c457eac246a2e1601bae34dc76ab6c518ccbcc8bb7632e6220d0cb134e94c",
+          "authored-sd-v1-calculation-check-solution": "71960e2df1016bc160d36ebdde4d5d414c9e79afd0b9bd81b1a49c4c6f649b18"
+        },
+        "ref": "authored-sd-v1-calculation-check-block",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "c123d191f7ed1e8a97e3e1d62375d29ef2a819a5304022aa804b27407ac66edb",
+        "dependency_hashes": {},
+        "ref": "authored-sd-v1-concept",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "a1b9f0e5cc4710e0f32537f5bb599a19ac6a843d55ac200748f47c7a78fbfabd",
+        "dependency_hashes": {
+          "authored-sd-v1-concept-check-question": "a8f47fbde7105d466041deddde495656819f206eb3c5a23cd03c7f82991be01b",
+          "authored-sd-v1-concept-check-solution": "d6f31b7975838cd021005d7532081135242ed2a0f8af1ed09d5dbdc51961b13e"
+        },
+        "ref": "authored-sd-v1-concept-check-block",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "ffcd394b098f1f4147742f8971fd4e25d630ff6a8bb06190b999cf03c73ec25a",
+        "dependency_hashes": {
+          "authored-sd-v1-deviation-formula": "2663641679aded7e150f017af4449cc517831c075ec8e2f69da65b668d98fa27"
+        },
+        "ref": "authored-sd-v1-method",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "251966b81787b85cc9a7f77142014622e49b9022fcd8bdcf516c823d1083f10a",
+        "dependency_hashes": {
+          "authored-sd-v1-practice-1-question": "841535d186186d1d8624a547980b2227622f16a885f0a098936c6cfafabb5530",
+          "authored-sd-v1-practice-1-solution": "da588238162b413170e775f2d8640a5b19ed286927fbabad52a060e511e80ee5"
+        },
+        "ref": "authored-sd-v1-practice-1-block",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "c529fa4f3d9a48bc3eeb884e88ee603eb4a84ac0b836fb5e5b876e1b9f853af9",
+        "dependency_hashes": {
+          "authored-sd-v1-practice-2-question": "33e0e317943a872b90071a54289ef33f24b868db3132ffd26f95995bac9e5467",
+          "authored-sd-v1-practice-2-solution": "a4da18d64102914aed5a22a6e1041615e53051a97856174ffd83d57c9455133d"
+        },
+        "ref": "authored-sd-v1-practice-2-block",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "e5b03709346f941da35e62a89752b9968994941a3db8d385279db955339c5b89",
+        "dependency_hashes": {
+          "authored-sd-v1-summary-formula": "ef6a7fdaca19273fa5a1eaa572bcf7eb83755930ba584454901d2cf660dcc0b7"
+        },
+        "ref": "authored-sd-v1-summary-method",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "822ab7241df43d3bd724c11197db7820b8f46b575861b9dbef21461667be0c0a",
+        "dependency_hashes": {},
+        "ref": "authored-sd-v1-visual",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      },
+      {
+        "content_sha256": "c1aeebbd6bfc38265fb0aff9c9a93f4094e2c295b00892d3f764c286cf798517",
+        "dependency_hashes": {
+          "authored-sd-v1-worked-question": "94ad8a62b4717a4639e726e2e0cb7001acd542574276937b20dfcc45b1b5b0c4",
+          "authored-sd-v1-worked-solution": "c9f538882083743fe50d0a1f075b0f4a3f8bd4d39e5c190d7df82955a0d29048"
+        },
+        "ref": "authored-sd-v1-worked-block",
+        "source_package_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+        "source_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+      }
+    ],
+    "role_decisions": [
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-concept"
+        ],
+        "role_key": "SL-02",
+        "role_ref": "profiled-sd-standard-lesson-SL-02",
+        "solution_refs": [],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-visual"
+        ],
+        "role_key": "SL-03",
+        "role_ref": "profiled-sd-standard-lesson-SL-03",
+        "solution_refs": [],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [
+          "authored-sd-p5b-v1-early_concept_retrieval-1"
+        ],
+        "reason": "Retained compatible validated content; authored only the remaining distinct density items.",
+        "reused_content_refs": [],
+        "role_key": "SL-04",
+        "role_ref": "profiled-sd-standard-lesson-SL-04",
+        "solution_refs": [
+          "authored-sd-p5b-v1-early_concept_retrieval-1-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-method"
+        ],
+        "role_key": "SL-05",
+        "role_ref": "profiled-sd-standard-lesson-SL-05",
+        "solution_refs": [],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [
+          "authored-sd-p5b-v1-mini_worked_example-1"
+        ],
+        "reason": "Retained compatible validated content; authored only the remaining distinct density items.",
+        "reused_content_refs": [],
+        "role_key": "SL-06",
+        "role_ref": "profiled-sd-standard-lesson-SL-06",
+        "solution_refs": [
+          "authored-sd-p5b-v1-mini_worked_example-1-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-summary-method"
+        ],
+        "role_key": "SL-07",
+        "role_ref": "profiled-sd-standard-lesson-SL-07",
+        "solution_refs": [],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-worked-block"
+        ],
+        "role_key": "SL-08",
+        "role_ref": "profiled-sd-standard-lesson-SL-08",
+        "solution_refs": [
+          "authored-sd-v1-worked-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [
+          "authored-sd-p5b-v1-full_worked_examples-2"
+        ],
+        "reason": "Retained compatible validated content; authored only the remaining distinct density items.",
+        "reused_content_refs": [],
+        "role_key": "SL-09",
+        "role_ref": "profiled-sd-standard-lesson-SL-09",
+        "solution_refs": [
+          "authored-sd-p5b-v1-full_worked_examples-2-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "ai-candidate-a838663f88b3486983d9b408870a281e": {
+            "single_slot_validated": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [
+          "ai-candidate-a838663f88b3486983d9b408870a281e"
+        ],
+        "reason": "P6A single-slot candidate accepted by deterministic checks; no academic approval.",
+        "reused_content_refs": [],
+        "role_key": "SL-10",
+        "role_ref": "profiled-sd-standard-lesson-SL-10",
+        "solution_refs": [
+          "ai-candidate-a838663f88b3486983d9b408870a281e-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [
+          "authored-sd-p5b-v1-guided_practice-2"
+        ],
+        "reason": "Retained compatible validated content; authored only the remaining distinct density items.",
+        "reused_content_refs": [],
+        "role_key": "SL-11",
+        "role_ref": "profiled-sd-standard-lesson-SL-11",
+        "solution_refs": [
+          "authored-sd-p5b-v1-guided_practice-2-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 2,
+        "minimum_met": true,
+        "new_content_refs": [
+          "authored-sd-p5b-v1-independent_practice-3"
+        ],
+        "reason": "Retained compatible validated content; authored only the remaining distinct density items.",
+        "reused_content_refs": [
+          "authored-sd-v1-practice-1-block",
+          "authored-sd-v1-practice-2-block"
+        ],
+        "role_key": "SL-12",
+        "role_ref": "profiled-sd-standard-lesson-SL-12",
+        "solution_refs": [
+          "authored-sd-v1-practice-1-solution",
+          "authored-sd-v1-practice-2-solution",
+          "authored-sd-p5b-v1-independent_practice-3-solution"
+        ],
+        "supplied_items": 3,
+        "target_items": 3,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-concept-check-block"
+        ],
+        "role_key": "SL-13",
+        "role_ref": "profiled-sd-standard-lesson-SL-13",
+        "solution_refs": [
+          "authored-sd-v1-concept-check-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": true,
+            "content_type": true,
+            "current_p4b_validation": true,
+            "distinct_density_instance": true,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": true,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": true,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "reuse",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [],
+        "reason": "All required compatibility dimensions passed for existing validated objects.",
+        "reused_content_refs": [
+          "authored-sd-v1-calculation-check-block"
+        ],
+        "role_key": "SL-14",
+        "role_ref": "profiled-sd-standard-lesson-SL-14",
+        "solution_refs": [
+          "authored-sd-v1-calculation-check-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      },
+      {
+        "compatibility": {
+          "authored-sd-v1-calculation-check-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-concept": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-concept-check-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-practice-1-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-practice-2-block": {
+            "base_lineage": true,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-summary-method": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          },
+          "authored-sd-v1-visual": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": false
+          },
+          "authored-sd-v1-worked-block": {
+            "base_lineage": false,
+            "content_type": false,
+            "current_p4b_validation": true,
+            "distinct_density_instance": false,
+            "evidence_boundaries": true,
+            "learning_requirements": false,
+            "semantic_role": false,
+            "task_form": true
+          }
+        },
+        "decision": "author_new",
+        "minimum_items": 1,
+        "minimum_met": true,
+        "new_content_refs": [
+          "authored-sd-p5b-v1-exit_check-1"
+        ],
+        "reason": "Retained compatible validated content; authored only the remaining distinct density items.",
+        "reused_content_refs": [],
+        "role_key": "SL-15",
+        "role_ref": "profiled-sd-standard-lesson-SL-15",
+        "solution_refs": [
+          "authored-sd-p5b-v1-exit_check-1-solution"
+        ],
+        "supplied_items": 1,
+        "target_items": 1,
+        "target_met": true
+      }
+    ],
+    "schema_version": "experimental-profiled-ai-content/1",
+    "source_authored_content": {
+      "ref": "standard-deviation",
+      "schema_version": "authored-teaching-content/1",
+      "sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a"
+    },
+    "source_authored_validation": {
+      "ref": "standard-deviation",
+      "schema_version": "authored-content-validation/1",
+      "sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    "source_profiled_pedagogy": {
+      "ref": "profiled-standard-deviation-standard-lesson",
+      "schema_version": "profiled-pedagogical-specification/1",
+      "sha256": "cbd464e4b7a11e44030d3e3fc910b9c3556482699fc6d1f9957001fdf9af9458"
+    },
+    "status": "accepted_candidate_not_renderable",
+    "target_density_met": true,
+    "unresolved_role_refs": []
+  },
+  "format": "ai-slot-experiment/1",
+  "live_provider": false,
+  "model_metadata": {
+    "cost": "not_computed",
+    "input_tokens": null,
+    "latency_seconds": 0.0,
+    "model": "synthetic-not-a-model",
+    "output_tokens": null,
+    "provider": "synthetic_test",
+    "total_tokens": null
+  },
+  "provider_error_code": null,
+  "raw_response": "{\"question_template\": \"A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.\", \"proposed_math_inputs\": {\"n\": 10, \"sum_x\": \"50\", \"sum_x2\": \"290\"}, \"scaffold_steps\": [{\"type\": \"compute_first_term\", \"instruction\": \"Calculate \\u03a3x\\u00b2 / n.\"}, {\"type\": \"compute_second_term\", \"instruction\": \"Calculate (\\u03a3x / n)\\u00b2.\"}, {\"type\": \"subtract_variance_terms\", \"instruction\": \"Subtract the second result from the first.\"}, {\"type\": \"square_root\", \"instruction\": \"Take the square root.\"}], \"proposed_solution\": {\"inputs\": {\"n\": 10, \"sum_x\": \"50\", \"sum_x2\": \"290\"}, \"first_term\": \"29\", \"second_term\": \"25\", \"mean\": \"5\", \"variance\": \"4\", \"exact_radicand\": \"4\", \"numeric_answer\": \"2\", \"display_answer\": \"2.00\"}}",
+  "raw_response_label": "UNTRUSTED MODEL OUTPUT",
+  "ready_for_rendering": false,
+  "validation": {
+    "accepted": true,
+    "binding_valid": true,
+    "boundary_valid": true,
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+    "candidate_id": "ai-candidate-a838663f88b3486983d9b408870a281e",
+    "composition_valid": true,
+    "content_complete": true,
+    "math_valid": true,
+    "origin_valid": true,
+    "scaffold_valid": true,
+    "schema_valid": true,
+    "schema_version": "ai-candidate-validation/1",
+    "scope_valid": true,
+    "separation_valid": true,
+    "solution_valid": true,
+    "verification_summary": {
+      "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+      "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+      "mathematics": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    "violations": [],
+    "warnings": [
+      "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+      "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+    ]
+  }
+}

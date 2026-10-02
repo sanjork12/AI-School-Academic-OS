@@ -1,0 +1,973 @@
+{
+  "academic_scope": {
+    "assessment_evidence": [
+      {
+        "assessment_label": "June 2025 9MA0/31 Q2",
+        "capability_ref": "capability-standard-deviation-calculate",
+        "epistemic_level": "observed_evidence",
+        "marks": 2,
+        "paper": "9MA0/31",
+        "question_part": "Q2(b)",
+        "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+        "reading_notes": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+        ],
+        "ref": "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2025
+      },
+      {
+        "assessment_label": "June 2023 9MA0/31 Q3",
+        "capability_ref": "capability-standard-deviation-calculate",
+        "epistemic_level": "observed_evidence",
+        "marks": 2,
+        "paper": "9MA0/31",
+        "question_part": "Q3(b)(ii)",
+        "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+        "reading_notes": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ],
+        "ref": "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2023
+      }
+    ],
+    "coverage_requirements": [
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "policy_basis": "learning-specification/1 coverage policy",
+        "ref": "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Teaching material should provide an assessment connection aligned to the supported capability and task form. Copying a past-paper question is not required.",
+        "type": "teaching_assessment_connection"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "policy_basis": "learning-specification/1 coverage policy",
+        "ref": "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "concept-standard-deviation",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Assessment material must declare which included Learning Requirements it assesses; unsupported content must not silently be labelled as covered.",
+        "type": "assessment_alignment"
+      }
+    ],
+    "curriculum": {
+      "references": [
+        {
+          "association_note": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+          "association_status": "candidate",
+          "section": "Statistics section 2.3, printed page 31",
+          "wording": "Be able to calculate standard deviation, including from summary statistics."
+        }
+      ]
+    },
+    "evidence_boundaries": [
+      {
+        "basis": "upstream_limitation",
+        "code": "insufficient_evidence_for_frequency",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+        ],
+        "statement": "The 2 reviewed examples do not establish assessment frequency."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "insufficient_evidence_for_typical_marks",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+        ],
+        "statement": "These reviewed examples do not establish a typical mark allocation."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "difficulty_not_calibrated",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+        ],
+        "statement": "No calibrated difficulty evidence is available."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "no_exam_prediction",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/no_exam_prediction"
+        ],
+        "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "no_student_error_evidence",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/no_student_error_evidence"
+        ],
+        "statement": "No student response evidence supports common-mistake claims."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "prerequisites_not_modelled",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "teaching_sequence_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Teaching sequence has not yet been established by these contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "calculator_method_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "A required calculator or manual method has not been established."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "formula_memorisation_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "unsupported_task_forms_excluded",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+      }
+    ],
+    "learning_requirements": [
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [],
+        "ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "concept-standard-deviation"
+        ],
+        "statement": "Student should understand \"Standard deviation\": A measure of dispersion about the mean in the units of the observations.",
+        "type": "conceptual_understanding"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution.",
+        "type": "capability"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics.",
+        "type": "capability_under_task_form"
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p2a_teacher_view\\cli-json-check.json",
+      "implementation_files": [],
+      "name": "teacher-topic",
+      "note": "No new academic review authority.",
+      "role": "Teacher-facing meaning and capabilities derived from usable reviewed snapshots",
+      "schema_version": "teacher-topic/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p2a_teacher_view\\standard_deviation.json",
+      "implementation_files": [
+        "academic_os\\assessment_intelligence.py",
+        "academic_os\\learning_core.py",
+        "academic_os\\learning_models.py",
+        "academic_os\\product_models.py"
+      ],
+      "name": "teacher-topic",
+      "note": "No new academic review authority.",
+      "role": "Teacher-facing meaning and capabilities derived from usable reviewed snapshots",
+      "schema_version": "teacher-topic/2",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p2b_assessment_intelligence\\acceptance.json",
+      "implementation_files": [
+        "academic_os\\assessment_intelligence.py",
+        "academic_os\\learning_core.py",
+        "academic_os\\learning_models.py"
+      ],
+      "name": "assessment-intelligence",
+      "note": "No new academic review authority.",
+      "role": "Bounded observations from reviewed assessment examples, not frequency or difficulty",
+      "schema_version": "assessment-intelligence/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p3a_learning_specification\\acceptance.json",
+      "implementation_files": [
+        "academic_os\\content_validation.py",
+        "academic_os\\learning_models.py",
+        "academic_os\\pedagogical_core.py",
+        "academic_os\\pedagogical_models.py",
+        "academic_os\\pedagogical_validation.py",
+        "academic_os\\presentation_manifest.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "learning-specification",
+      "note": "No new academic review authority.",
+      "role": "Evidence-backed learning requirements and coverage boundaries",
+      "schema_version": "learning-specification/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p3b_pedagogical_specification\\acceptance.json",
+      "implementation_files": [
+        "academic_os\\authored_models.py",
+        "academic_os\\content_validation.py",
+        "academic_os\\lesson_profile_models.py",
+        "academic_os\\pedagogical_models.py",
+        "academic_os\\pedagogical_validation.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "pedagogical-specification",
+      "note": "No new academic review authority.",
+      "role": "Candidate teaching structure constrained by learning scope",
+      "schema_version": "pedagogical-specification/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p3c_pedagogical_validation\\acceptance.json",
+      "implementation_files": [
+        "academic_os\\authored_models.py",
+        "academic_os\\content_validation.py",
+        "academic_os\\lesson_profile_models.py",
+        "academic_os\\pedagogical_validation.py"
+      ],
+      "name": "pedagogical-validation",
+      "note": "No new academic review authority.",
+      "role": "Independent pedagogical alignment and authoring-readiness checks",
+      "schema_version": "pedagogical-validation/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p4a_authored_teaching_content\\acceptance.json",
+      "implementation_files": [
+        "academic_os\\authored_models.py",
+        "academic_os\\content_validation.py",
+        "academic_os\\presentation_manifest.py",
+        "academic_os\\profiled_content_models.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "authored-teaching-content",
+      "note": "No new academic review authority.",
+      "role": "Deterministic original teaching candidates and separate solutions",
+      "schema_version": "authored-teaching-content/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p4b_authored_content_validation\\acceptance.json",
+      "implementation_files": [
+        "academic_os\\content_validation_models.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "authored-content-validation",
+      "note": "No new academic review authority.",
+      "role": "Recomputed mathematical/content integrity and rendering gate",
+      "schema_version": "authored-content-validation/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p4c1_presentation_design\\artifact_render_validation.json",
+      "implementation_files": [
+        "academic_os\\presentation_models.py"
+      ],
+      "name": "artifact-render-validation",
+      "note": "No new academic review authority.",
+      "role": "Actual PPTX preservation, answer separation and geometry checks",
+      "schema_version": "artifact-render-validation/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p4c1_presentation_design\\presentation_manifest.json",
+      "implementation_files": [
+        "academic_os\\presentation_models.py"
+      ],
+      "name": "presentation-manifest",
+      "note": "No new academic review authority.",
+      "role": "Reference-bound slide layout and solution-visibility mapping",
+      "schema_version": "presentation-manifest/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p4c1_presentation_design\\teacher_solutions.json",
+      "implementation_files": [
+        "academic_os\\presentation_service.py"
+      ],
+      "name": "presentation-teacher-solutions",
+      "note": "No new academic review authority.",
+      "role": "Separate teacher solution objects linked to item and profile roles where applicable",
+      "schema_version": "presentation-teacher-solutions/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5a_lesson_profiles\\.initial-build\\focused-review.lesson-profile.json",
+      "implementation_files": [
+        "academic_os\\lesson_profile_models.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "lesson-profile",
+      "note": "No new academic review authority.",
+      "role": "Explicit purpose, duration planning and pedagogical density policy",
+      "schema_version": "lesson-profile/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5a_lesson_profiles\\.initial-build\\focused-review.profiled-pedagogy.json",
+      "implementation_files": [
+        "academic_os\\lesson_profile_models.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "profiled-pedagogical-specification",
+      "note": "No new academic review authority.",
+      "role": "Ordered lesson roles preserving the same academic scope",
+      "schema_version": "profiled-pedagogical-specification/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5a_lesson_profiles\\.initial-build\\focused-review.validation.json",
+      "implementation_files": [
+        "academic_os\\lesson_profile_models.py"
+      ],
+      "name": "profiled-pedagogical-validation",
+      "note": "No new academic review authority.",
+      "role": "Profile role, density and scope compatibility checks",
+      "schema_version": "profiled-pedagogical-validation/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5b_profiled_authoring\\.initial-build\\focused-review.profiled-authored.json",
+      "implementation_files": [
+        "academic_os\\profiled_content_models.py",
+        "academic_os\\profiled_content_validation.py"
+      ],
+      "name": "profiled-authored-teaching-content",
+      "note": "No new academic review authority.",
+      "role": "Reuse-first composition plus bounded new candidates for density gaps",
+      "schema_version": "profiled-authored-teaching-content/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5c_profiled_validation\\focused-review.validation.json",
+      "implementation_files": [
+        "academic_os\\profiled_validation_models.py"
+      ],
+      "name": "profiled-content-validation",
+      "note": "No new academic review authority.",
+      "role": "Independent actual composition, minimum/target and current readiness checks",
+      "schema_version": "profiled-content-validation/1",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5d_profiled_presentation\\focused-review\\presentation_manifest.json",
+      "implementation_files": [
+        "academic_os\\profile_presentation.py"
+      ],
+      "name": "presentation-manifest",
+      "note": "No new academic review authority.",
+      "role": "Reference-bound slide layout and solution-visibility mapping",
+      "schema_version": "presentation-manifest/2",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\p5d_profiled_presentation\\focused-review\\teacher_solutions.json",
+      "implementation_files": [
+        "academic_os\\profile_presentation.py"
+      ],
+      "name": "presentation-teacher-solutions",
+      "note": "No new academic review authority.",
+      "role": "Separate teacher solution objects linked to item and profile roles where applicable",
+      "schema_version": "presentation-teacher-solutions/2",
+      "trusted_state_write": false
+    },
+    {
+      "deterministic": true,
+      "example_artifact": "output\\q2_core_trusted_snapshot.json\\04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070.json",
+      "implementation_files": [
+        "academic_os\\service.py"
+      ],
+      "name": "academic-os-readonly-snapshot",
+      "note": "Snapshot creation uses governed Service.publish; a saved payload is immutable data, not a write capability.",
+      "role": "Immutable reviewed dependency closure, requiring current service usability checks",
+      "schema_version": "academic-os-readonly-snapshot/1",
+      "trusted_state_write": false
+    }
+  ],
+  "created_at": "2026-09-30T16:50:01.565498+00:00",
+  "database_baseline": {
+    "decision_counts": {
+      "academic_decisions": 57,
+      "governance_decisions": 1,
+      "requests": 101,
+      "review_decisions": 83,
+      "snapshots": 2,
+      "source_and_locator_decisions": 26
+    },
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "freeze_kind": "Pre-AI Reference Implementation",
+  "gold_standards": [
+    {
+      "path": "tests_p0\\fixtures\\authored_standard_deviation_gold.json",
+      "role": "Acceptance oracle; never a production knowledge source",
+      "sha256": "3b58dc52d5762434be0f3c8bb969bbdc43ee88afe64dafbbc59f9b96309d33ec"
+    },
+    {
+      "path": "tests_p0\\fixtures\\learning_standard_deviation_gold.json",
+      "role": "Acceptance oracle; never a production knowledge source",
+      "sha256": "7d968182bb2cdc3e76636c009af840e227f81fcf336f778673d8836bb232fcb3"
+    },
+    {
+      "path": "tests_p0\\fixtures\\pedagogical_standard_deviation_gold.json",
+      "role": "Acceptance oracle; never a production knowledge source",
+      "sha256": "25586cfec290a4348e235db3b9d444f0c9a28ddcae07a136090f6b07718876de"
+    },
+    {
+      "path": "tests_p0\\fixtures\\profiled_content_gold.json",
+      "role": "Acceptance oracle; never a production knowledge source",
+      "sha256": "201161de45e5a158d8ae85133ef0033e4cd42e54018384763081d85978b378c9"
+    },
+    {
+      "path": "tests_p0\\fixtures\\q2_gold_standard.json",
+      "role": "Acceptance oracle; never a production knowledge source",
+      "sha256": "5485118dec44a6be52ac2eb9445b95e299a5dc961f7a650b0674aadc6300be65"
+    },
+    {
+      "path": "tests_p0\\fixtures\\q3_gold_standard.json",
+      "role": "Acceptance oracle; never a production knowledge source",
+      "sha256": "a2d98701e8fc16b0dca9facd123a17fbc966c39106ea8c4a4f5a26da51a09d51"
+    },
+    {
+      "path": "tests_p0/test_lesson_profiles.py",
+      "role": "Lesson Profile acceptance assertions, not a standalone JSON Gold fixture. Production user-specified product configuration is in lesson_profiles.py.",
+      "sha256": "485a327140266f810f2780fd73ffa0d05f818ed04688ee92ee6ac4ed2a4e66f4"
+    }
+  ],
+  "integrity_summary": {
+    "before_file": "output\\reference_freeze\\before.json",
+    "llm_authoring_in_current_service_path": false,
+    "production_imports_gold_or_freeze": [],
+    "protected_files": 548,
+    "recorded_hashes_are_reference_only": true
+  },
+  "known_limitations": [
+    "One deeply developed topic slice; reuse evidence is limited to two reviewed assessment examples.",
+    "Deterministic authoring and bounded natural-language checks, not general prose safety or a general CAS.",
+    "No calibrated difficulty, modelled prerequisites, established misconceptions, frequency or exam predictions.",
+    "Duration is a planning target, not measured classroom runtime.",
+    "Native Microsoft PowerPoint rendering has not been validated; P5D used Artifact Tool import previews.",
+    "Local operator CLI / OS account trust boundary; no production authentication claim.",
+    "Saved derived JSON and this engineering manifest are not current trust authorities.",
+    "Verified curriculum wording retains candidate association status, not confirmed full equivalence.",
+    "AI_Academic_Operating_System_Brainstorm_CN.pptx is missing; existing integrity test and pinned hash remain unchanged."
+  ],
+  "lesson_profiles": [
+    {
+      "academic_scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "decisions": {
+        "author_new": 0,
+        "reuse": 9,
+        "unresolved": 0
+      },
+      "duration": {
+        "acceptable_range_minutes": {
+          "max": 30,
+          "min": 20
+        },
+        "interpretation": "planning_target_not_runtime_guarantee",
+        "target_minutes": 25
+      },
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "new_content_count": 0,
+      "pedagogical_roles": 9,
+      "pptx": "output/p5d_profiled_presentation/focused-review/Standard_Deviation_focused-review.pptx",
+      "profile_key": "focused-review",
+      "rendered_slide_count": 11,
+      "slide_count_is_profile_requirement": false,
+      "substantive_roles": 9
+    },
+    {
+      "academic_scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "decisions": {
+        "author_new": 7,
+        "reuse": 7,
+        "unresolved": 0
+      },
+      "duration": {
+        "acceptable_range_minutes": {
+          "max": 60,
+          "min": 50
+        },
+        "interpretation": "planning_target_not_runtime_guarantee",
+        "target_minutes": 60
+      },
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "new_content_count": 7,
+      "pedagogical_roles": 15,
+      "pptx": "output/p5d_profiled_presentation/standard-lesson/Standard_Deviation_standard-lesson.pptx",
+      "profile_key": "standard-lesson",
+      "rendered_slide_count": 19,
+      "slide_count_is_profile_requirement": false,
+      "substantive_roles": 14
+    }
+  ],
+  "protected_snapshots": [
+    {
+      "format": "academic-os-readonly-snapshot/1",
+      "label": "Q2",
+      "snapshot_id": "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+      "usable": true
+    },
+    {
+      "format": "academic-os-readonly-snapshot/1",
+      "label": "Q3",
+      "snapshot_id": "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826",
+      "usable": true
+    }
+  ],
+  "reference_artifacts": [
+    {
+      "path": "output\\academic_knowledge_v02_prototype.json",
+      "schema_version": "0.2",
+      "sha256": "c3b931e2ff7e82c780058f8e46f2aa7465426b0c1f98f1a0430124857d6e9e35"
+    },
+    {
+      "path": "output\\academic_knowledge_v03\\prototype.json",
+      "schema_version": "0.3",
+      "sha256": "142dc622d5e618cef29debe5aaef0497387086be057ca5c73106e8493f908a93"
+    },
+    {
+      "path": "output\\p0_acceptance\\init.json",
+      "schema_version": 1,
+      "sha256": "75bcda4b4652fc3c4bb9e3fe88b9e1b205b1e728e40826415e5eab5d3bb543be"
+    },
+    {
+      "path": "output\\p2a_teacher_view\\cli-json-check.json",
+      "schema_version": "teacher-topic/1",
+      "sha256": "93c2693db2a95eba72f8ad09705cf7f9534a38d951de6e607dd5299ef09d8d72"
+    },
+    {
+      "path": "output\\p2a_teacher_view\\p2a1_baseline\\standard_deviation.json",
+      "schema_version": "teacher-topic/1",
+      "sha256": "fc050cd6913d1bd5e30be2e16ce4001d47610830e361c632db6e2b04eda2ee80"
+    },
+    {
+      "path": "output\\p2a_teacher_view\\standard_deviation.json",
+      "schema_version": "teacher-topic/2",
+      "sha256": "f898f9f3b0ce1e09dda5648f12c523691e90d4856d76076203b2b84cc65da5c9"
+    },
+    {
+      "path": "output\\p2b_assessment_intelligence\\acceptance.json",
+      "schema_version": "assessment-intelligence/1",
+      "sha256": "69bdc3e15b983dd6541e8fecb4b6f74857c11d61c8c37542ec6aeb53f94fe1b4"
+    },
+    {
+      "path": "output\\p2b_assessment_intelligence\\standard_deviation.json",
+      "schema_version": "assessment-intelligence/1",
+      "sha256": "510a509369e1248bc7e39cb0a11f4d9592ad366f28d704ba59c6e11502310577"
+    },
+    {
+      "path": "output\\p3a_learning_specification\\acceptance.json",
+      "schema_version": "learning-specification/1",
+      "sha256": "7b8425018d01b52577263bd86bd833a1f19cea367990181fc78d87f49252049a"
+    },
+    {
+      "path": "output\\p3a_learning_specification\\standard_deviation.json",
+      "schema_version": "learning-specification/1",
+      "sha256": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558"
+    },
+    {
+      "path": "output\\p3b_pedagogical_specification\\acceptance.json",
+      "schema_version": "pedagogical-specification/1",
+      "sha256": "b37fd9a4eb1b81973f1543933e7e8154cb016ec5af2f602116ac823cf02473f5"
+    },
+    {
+      "path": "output\\p3b_pedagogical_specification\\standard_deviation.json",
+      "schema_version": "pedagogical-specification/1",
+      "sha256": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357"
+    },
+    {
+      "path": "output\\p3c_pedagogical_validation\\acceptance.json",
+      "schema_version": "pedagogical-validation/1",
+      "sha256": "e85d863d55973e3d6c2d0cad9ba7e88b48860e717ec2ae5bfda654ec4252d513"
+    },
+    {
+      "path": "output\\p3c_pedagogical_validation\\standard_deviation.json",
+      "schema_version": "pedagogical-validation/1",
+      "sha256": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+    },
+    {
+      "path": "output\\p4a_authored_teaching_content\\acceptance.json",
+      "schema_version": "authored-teaching-content/1",
+      "sha256": "ec0a7349720105f6bd2200e86f8372006ef8e190d81ca73a33d1e154e8564d0f"
+    },
+    {
+      "path": "output\\p4a_authored_teaching_content\\standard_deviation.json",
+      "schema_version": "authored-teaching-content/1",
+      "sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a"
+    },
+    {
+      "path": "output\\p4b_authored_content_validation\\acceptance.json",
+      "schema_version": "authored-content-validation/1",
+      "sha256": "e54cf3907f9a4ec2e9025ac2f9aebc7346d9268ef831b67e7f4f9002e2e3f5a2"
+    },
+    {
+      "path": "output\\p4b_authored_content_validation\\standard_deviation.json",
+      "schema_version": "authored-content-validation/1",
+      "sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804"
+    },
+    {
+      "path": "output\\p4c1_presentation_design\\artifact_render_validation.json",
+      "schema_version": "artifact-render-validation/1",
+      "sha256": "3bb9adbe33f8e17c3e7facce28e73bc9bea5b4ca0a5f520abff643f9e05523c9"
+    },
+    {
+      "path": "output\\p4c1_presentation_design\\presentation_manifest.json",
+      "schema_version": "presentation-manifest/1",
+      "sha256": "90641f027647ff8de8875f2f113c76a8eb7f6a21f94d5b6452e5d308f73cb44d"
+    },
+    {
+      "path": "output\\p4c1_presentation_design\\Standard_Deviation_v2.pptx",
+      "schema_version": null,
+      "sha256": "c69f7cf5038e9da58b23e416798ee3a17dc86eab3130998d375d76fe477bd8c3"
+    },
+    {
+      "path": "output\\p4c1_presentation_design\\teacher_solutions.json",
+      "schema_version": "presentation-teacher-solutions/1",
+      "sha256": "3c2bb6b730be6eb77b01bd6142167ba4242429719f82bf5dab499de1c0429de3"
+    },
+    {
+      "path": "output\\p4c_presentation\\artifact_render_validation.json",
+      "schema_version": "artifact-render-validation/1",
+      "sha256": "9b690c1e95491c444bc90fab559af32e81ff12e74726319520c0e890635d281d"
+    },
+    {
+      "path": "output\\p4c_presentation\\presentation_manifest.json",
+      "schema_version": "presentation-manifest/1",
+      "sha256": "4ceab34cdb3e203151c31c234fb0ebeb8109ba011bdb54904f4b49acea42f18b"
+    },
+    {
+      "path": "output\\p4c_presentation\\student\\Standard_Deviation.pptx",
+      "schema_version": null,
+      "sha256": "9cf9332e17909b8bb7507a4a8de3b348753d1c25ef6264b6058bbad6c8b6018d"
+    },
+    {
+      "path": "output\\p4c_presentation\\teacher_solutions.json",
+      "schema_version": "presentation-teacher-solutions/1",
+      "sha256": "3c2bb6b730be6eb77b01bd6142167ba4242429719f82bf5dab499de1c0429de3"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\.initial-build\\focused-review.lesson-profile.json",
+      "schema_version": "lesson-profile/1",
+      "sha256": "345f97d66ec8718da55460a4761cae86b952a43618ecf8d0947905cd18f8fb21"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\.initial-build\\focused-review.profiled-pedagogy.json",
+      "schema_version": "profiled-pedagogical-specification/1",
+      "sha256": "5fad0d115c99a7f36bce79bfd83f626592eff1ddc6ad26e9ed4f6a9e32e0229c"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\.initial-build\\focused-review.validation.json",
+      "schema_version": "profiled-pedagogical-validation/1",
+      "sha256": "a6008af6fd4995bf87e64f9d013503cc10a526afe013fc9571840e432c10fac2"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\.initial-build\\standard-lesson.lesson-profile.json",
+      "schema_version": "lesson-profile/1",
+      "sha256": "ca675abd73fc3aa992aeb3dd1710520c59fd0003253c3a0980fde11186065125"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\.initial-build\\standard-lesson.profiled-pedagogy.json",
+      "schema_version": "profiled-pedagogical-specification/1",
+      "sha256": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\.initial-build\\standard-lesson.validation.json",
+      "schema_version": "profiled-pedagogical-validation/1",
+      "sha256": "a6008af6fd4995bf87e64f9d013503cc10a526afe013fc9571840e432c10fac2"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\focused-review.lesson-profile.json",
+      "schema_version": "lesson-profile/1",
+      "sha256": "345f97d66ec8718da55460a4761cae86b952a43618ecf8d0947905cd18f8fb21"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\focused-review.profiled-pedagogy.json",
+      "schema_version": "profiled-pedagogical-specification/1",
+      "sha256": "70c1d76f6b531864d8ca03797a64ed7d0b9b8af323bb92a1716bf6bd54644b3c"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\focused-review.validation.json",
+      "schema_version": "profiled-pedagogical-validation/1",
+      "sha256": "a6008af6fd4995bf87e64f9d013503cc10a526afe013fc9571840e432c10fac2"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\standard-lesson.lesson-profile.json",
+      "schema_version": "lesson-profile/1",
+      "sha256": "ca675abd73fc3aa992aeb3dd1710520c59fd0003253c3a0980fde11186065125"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\standard-lesson.profiled-pedagogy.json",
+      "schema_version": "profiled-pedagogical-specification/1",
+      "sha256": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce"
+    },
+    {
+      "path": "output\\p5a_lesson_profiles\\standard-lesson.validation.json",
+      "schema_version": "profiled-pedagogical-validation/1",
+      "sha256": "a6008af6fd4995bf87e64f9d013503cc10a526afe013fc9571840e432c10fac2"
+    },
+    {
+      "path": "output\\p5b_profiled_authoring\\.initial-build\\focused-review.profiled-authored.json",
+      "schema_version": "profiled-authored-teaching-content/1",
+      "sha256": "ba28ca1b867f249586cdbc0fba7edf3b449742ff41e85dbf20edbdc8b8a6b971"
+    },
+    {
+      "path": "output\\p5b_profiled_authoring\\.initial-build\\standard-lesson.profiled-authored.json",
+      "schema_version": "profiled-authored-teaching-content/1",
+      "sha256": "fc089164fd734ad71e9cf1233f7db1469dad23b50a033e304ccf92705f63d034"
+    },
+    {
+      "path": "output\\p5b_profiled_authoring\\focused-review.profiled-authored.json",
+      "schema_version": "profiled-authored-teaching-content/1",
+      "sha256": "9e777dd4dcb4552a826a39277298a453da32643bf0f87ba32d87feefb3600bca"
+    },
+    {
+      "path": "output\\p5b_profiled_authoring\\standard-lesson.profiled-authored.json",
+      "schema_version": "profiled-authored-teaching-content/1",
+      "sha256": "07fec791137d8f92131094f4fc53fc4572686066b035e4d2cba4b621f9aaf721"
+    },
+    {
+      "path": "output\\p5c_profiled_validation\\focused-review.validation.json",
+      "schema_version": "profiled-content-validation/1",
+      "sha256": "420d0cb76900d9679b0c76293506234a0a7976f8b1c5cf67b18fefc3328936b7"
+    },
+    {
+      "path": "output\\p5c_profiled_validation\\standard-lesson.validation.json",
+      "schema_version": "profiled-content-validation/1",
+      "sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\focused-review\\artifact_render_validation.json",
+      "schema_version": "artifact-render-validation/1",
+      "sha256": "295cd91c3b638a4cb98e9aa78ac8d20a365317b73686b4b324d92c7eda149d45"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\focused-review\\presentation_manifest.json",
+      "schema_version": "presentation-manifest/2",
+      "sha256": "2235425bacfab1e66032c4dffa0a1cfded72013001bc58d89ea3a4549296f4fa"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\focused-review\\Standard_Deviation_focused-review.pptx",
+      "schema_version": null,
+      "sha256": "917f3eac313f3f03d9ea2b1f99e9d8180faa60190be446cbe1478c5823e4d8c6"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\focused-review\\teacher_solutions.json",
+      "schema_version": "presentation-teacher-solutions/2",
+      "sha256": "e78c673f382208fe00240fce1e0e1730b196a32c288d9443680fa582d222caf2"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\standard-lesson\\artifact_render_validation.json",
+      "schema_version": "artifact-render-validation/1",
+      "sha256": "99d0a9255603e819ef7468d5e1972bda49d91c5f984c19a089320075e8bfa37e"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\standard-lesson\\presentation_manifest.json",
+      "schema_version": "presentation-manifest/2",
+      "sha256": "e4119d9b05b899053b03d01a31e4a4bb467fe30b21324890158b92d591f771b5"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\standard-lesson\\Standard_Deviation_standard-lesson.pptx",
+      "schema_version": null,
+      "sha256": "9496ab5160f780865818e4258fe5862614fea316c75a99812063eb8b698a4118"
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\standard-lesson\\teacher_solutions.json",
+      "schema_version": "presentation-teacher-solutions/2",
+      "sha256": "4b8d490e79ac894884a8013302c79475aefa82c546cc0dafebe6b9f4cb9942c7"
+    },
+    {
+      "path": "output\\q2_core_trusted_snapshot.json\\04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070.json",
+      "schema_version": "academic-os-readonly-snapshot/1",
+      "sha256": "5d5081cc58c74dc70a259a2d5ed0c881808341851a742ed53ba62d19bd5b1177"
+    },
+    {
+      "path": "output\\q3_2023_core_trusted_snapshot.json\\4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826.json",
+      "schema_version": "academic-os-readonly-snapshot/1",
+      "sha256": "3c10ce6d3e09bc26c0ce902eb89a9a5044239b3eaa4c66fe4edd9579d27ff86a"
+    },
+    {
+      "path": "output\\teaching_assessment_demo\\Edexcel_9MA0_Statistics_Exploring_Data.pptx",
+      "schema_version": null,
+      "sha256": "0f3b5f8fb3e269b6db5de7f20ccc6baa1b825ab5b49ac608f9a105b66cb64d17"
+    },
+    {
+      "path": "output\\teaching_assessment_demo\\pack.json",
+      "schema_version": "teaching_demo_0.1",
+      "sha256": "162716023fe4ec0800aaf8e25875d7c7ab93b2129c60e051e5ca56ec944006b9"
+    }
+  ],
+  "reference_name": "Standard Deviation Vertical Slice v1",
+  "reference_version": "1",
+  "repository_state": {
+    "head": null,
+    "head_resolved": false,
+    "note": "No Git revision established; file hashes are the baseline."
+  },
+  "schema_version": "engineering-reference-manifest/1",
+  "status": "Frozen baseline",
+  "trust_authority": false
+}

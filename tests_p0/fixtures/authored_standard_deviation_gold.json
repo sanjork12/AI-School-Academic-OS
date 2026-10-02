@@ -1,0 +1,16 @@
+{
+  "oracle_basis": "Human task P4A sections 12-41; independently transcribed expectations, not runtime authoring input or an academic approval",
+  "schema_version": "authored-teaching-content/1",
+  "status": "authored_candidate",
+  "counts": {"content_blocks": 9, "instructional_formulas": 2, "worked_examples": 1, "practice_items": 2, "learning_checks": 2, "solutions": 5},
+  "slots": 4,
+  "learning_requirements": 3,
+  "new_learning_requirements": 0,
+  "visual": {"A": {"mean": "10", "variance": "2"}, "B": {"mean": "10", "variance": "32"}},
+  "numerical_items": {
+    "5": {"sum_x": "50", "sum_x2": "550", "mean": "10", "variance": "10", "radicand": "10", "display": "3.16"},
+    "10": {"sum_x": "70", "sum_x2": "530", "mean": "7", "variance": "4", "radicand": "4", "display": "2.00"},
+    "8": {"sum_x": "96", "sum_x2": "1200", "mean": "12", "variance": "6", "radicand": "6", "display": "2.45"},
+    "20": {"sum_x": "300", "sum_x2": "4700", "mean": "15", "variance": "10", "radicand": "10", "display": "3.16"}
+  }
+}

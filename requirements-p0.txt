@@ -1,0 +1,3 @@
+# Additional reproducible P0 runtime; existing v0.3 uses Pydantic 2.
+pydantic==2.12.5
+pypdf==6.12.2

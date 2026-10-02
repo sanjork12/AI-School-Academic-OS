@@ -1,0 +1,34 @@
+test_01_independent_stable_briefs_and_default_ten (tests_p0.test_ai_qualification.QualificationTests.test_01_independent_stable_briefs_and_default_ten) ... ok
+test_02_candidate_rejection_separate_from_operational_failure (tests_p0.test_ai_qualification.QualificationTests.test_02_candidate_rejection_separate_from_operational_failure) ... ok
+test_03_schema_failure_not_counted_as_math (tests_p0.test_ai_qualification.QualificationTests.test_03_schema_failure_not_counted_as_math) ... ok
+test_04_missing_usage_stays_unknown (tests_p0.test_ai_qualification.QualificationTests.test_04_missing_usage_stays_unknown) ... ok
+test_05_known_usage_and_latency (tests_p0.test_ai_qualification.QualificationTests.test_05_known_usage_and_latency) ... ok
+test_06_all_synthetic_stress_cases_blocked (tests_p0.test_ai_qualification.QualificationTests.test_06_all_synthetic_stress_cases_blocked) ... ok
+test_07_report_rebuild_is_identical_without_provider (tests_p0.test_ai_qualification.QualificationTests.test_07_report_rebuild_is_identical_without_provider) ... ok
+test_08_interrupt_after_six_keeps_six (tests_p0.test_ai_qualification.QualificationTests.test_08_interrupt_after_six_keeps_six) ... ok
+test_09_missing_completion_is_incomplete (tests_p0.test_ai_qualification.QualificationTests.test_09_missing_completion_is_incomplete) ... ok
+test_10_tampered_raw_artifact_detected (tests_p0.test_ai_qualification.QualificationTests.test_10_tampered_raw_artifact_detected) ... ok
+test_11_tampered_attempt_summary_detected (tests_p0.test_ai_qualification.QualificationTests.test_11_tampered_attempt_summary_detected) ... ok
+test_12_multiple_runs_coexist (tests_p0.test_ai_qualification.QualificationTests.test_12_multiple_runs_coexist) ... ok
+test_13_attempt_bounds_before_provider (tests_p0.test_ai_qualification.QualificationTests.test_13_attempt_bounds_before_provider) ... ok
+test_14_integrity_mismatch_stops_run (tests_p0.test_ai_qualification.QualificationTests.test_14_integrity_mismatch_stops_run) ... ok
+test_15_preexisting_integrity_mismatch_no_calls (tests_p0.test_ai_qualification.QualificationTests.test_15_preexisting_integrity_mismatch_no_calls) ... ok
+test_16_input_refresh_failure_stops_remaining_attempts (tests_p0.test_ai_qualification.QualificationTests.test_16_input_refresh_failure_stops_remaining_attempts) ... ok
+test_17_no_live_intent_cli_refuses (tests_p0.test_ai_qualification.QualificationTests.test_17_no_live_intent_cli_refuses) ... ok
+test_18_cli_max_checked_before_inputs (tests_p0.test_ai_qualification.QualificationTests.test_18_cli_max_checked_before_inputs) ... ok
+test_19_dry_run_no_provider_or_credentials (tests_p0.test_ai_qualification.QualificationTests.test_19_dry_run_no_provider_or_credentials) ... ok
+test_20_observer_keeps_normal_prompt_identical (tests_p0.test_ai_qualification.QualificationTests.test_20_observer_keeps_normal_prompt_identical) ... ok
+test_21_live_wrong_math_preserves_original_and_blocks (tests_p0.test_ai_qualification.QualificationTests.test_21_live_wrong_math_preserves_original_and_blocks) ... ok
+test_22_live_refusal_not_guardrail_success (tests_p0.test_ai_qualification.QualificationTests.test_22_live_refusal_not_guardrail_success) ... ok
+test_23_operational_error_categories (tests_p0.test_ai_qualification.QualificationTests.test_23_operational_error_categories) ... ok
+test_24_secret_raw_is_not_saved (tests_p0.test_ai_qualification.QualificationTests.test_24_secret_raw_is_not_saved) ... ok
+test_25_no_changes_to_trusted_state (tests_p0.test_ai_qualification.QualificationTests.test_25_no_changes_to_trusted_state) ... ok
+test_26_no_report_rebuild_input_reads (tests_p0.test_ai_qualification.QualificationTests.test_26_no_report_rebuild_input_reads) ... ok
+test_27_provider_failure_no_second_call (tests_p0.test_ai_qualification.QualificationTests.test_27_provider_failure_no_second_call) ... ok
+test_28_unknown_fields_report_schema_rejects (tests_p0.test_ai_qualification.QualificationTests.test_28_unknown_fields_report_schema_rejects) ... ok
+test_29_changed_inputs_not_counted_as_model_rejection (tests_p0.test_ai_qualification.QualificationTests.test_29_changed_inputs_not_counted_as_model_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 94.148s
+
+OK

@@ -1,0 +1,19 @@
+{
+  "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+  "definition_version": "6af57eb9999917c265e2eefb3e8d3eadfd44d5a0fe47ca7484dea1938e758754",
+  "versions": {
+    "locator:QP-Q2": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+    "locator:QP-Q2-a": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+    "locator:QP-Q2-b": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+    "locator:QP-Q2-c": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+    "source:QP": "17a31133aef92e298eb59c7bfccc52da4376cd910bd9b4e051ed838b6732c95a"
+  },
+  "review_heads": {
+    "locator:QP-Q2": null,
+    "locator:QP-Q2-a": null,
+    "locator:QP-Q2-b": null,
+    "locator:QP-Q2-c": null,
+    "source:QP": null
+  },
+  "token": "b0c061e2c4271391bab8b62618cc9794ed5aa371ad544ec04071bf31b19d9400"
+}

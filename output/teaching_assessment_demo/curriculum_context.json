@@ -1,0 +1,56 @@
+{
+  "context_id": "CTX-EDX-9MA0-2017-STAT",
+  "exam_board": "Pearson Edexcel",
+  "qualification": "A Level Mathematics",
+  "qualification_code": "9MA0",
+  "curriculum_version": "2017 qualification",
+  "educational_stage": "UK Level 3 / A Level",
+  "component": "Statistics / Applied Mathematics",
+  "unit": "Statistics: Exploring and Summarising Data",
+  "material_notice": "Teacher-generated teaching/practice material. Not official Pearson material.",
+  "facts": [
+    {
+      "kind": "official_source_derived_fact",
+      "claim": "Pearson offers AS and A level Mathematics (2017).",
+      "source_id": "PEARSON-QUAL"
+    },
+    {
+      "kind": "official_source_derived_fact",
+      "claim": "The LDS contains Met Office weather for eight stations, May–October 1987 and 2015.",
+      "source_id": "PEARSON-GUIDE",
+      "page": 9
+    },
+    {
+      "kind": "official_source_derived_fact",
+      "claim": "Trace rainfall and limited month coverage require careful interpretation.",
+      "source_id": "PEARSON-REPORT-2023",
+      "locator": "Question 3"
+    },
+    {
+      "kind": "teacher_demo_content",
+      "claim": "This topic subset, lesson sequence, competencies and assessment weights are teacher selections."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "PEARSON-QUAL",
+      "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/mathematics-2017.html",
+      "title": "Pearson Mathematics 2017 qualification page",
+      "accessed": "2026-09-18"
+    },
+    {
+      "source_id": "PEARSON-GUIDE",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A%20Level/Mathematics/2017/Teaching%20and%20learning%20materials/gce-maths-assessment-guide.pdf",
+      "title": "GCE Maths and Further Maths Qualification and Assessment Guide",
+      "accessed": "2026-09-18"
+    },
+    {
+      "source_id": "PEARSON-REPORT-2023",
+      "url": "https://qualifications.pearson.com/content/dam/pdf/A-Level/Mathematics/2017/Exam-materials/9ma0-31-pef-20230817.pdf",
+      "title": "9MA0/31 June 2023 examiner report",
+      "accessed": "2026-09-18"
+    }
+  ],
+  "source_limitations": "No local official 9MA0 specification or LDS workbook was available. Official guidance and report were consulted online. Exact specification objective mappings remain unverified and pending teacher review; no official objective text or exam question is copied.",
+  "numerical_data_origin": "synthetic_illustrative"
+}

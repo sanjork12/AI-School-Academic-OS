@@ -1,0 +1,2957 @@
+{
+  "status": "frozen_baseline_revision_verified_with_known_historical_test_error",
+  "reference_version": "v1.1",
+  "fully_green": false,
+  "reference_manifest": {
+    "path": "output/reference_freeze_v1_1/reference_manifest.json",
+    "sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747"
+  },
+  "active_descriptor": {
+    "path": "output/reference_freeze_active.json",
+    "sha256": "bf9fc31ea2b90664495026a8c88ff8d2aaf474bf698c1029f02e4b0131188f2c"
+  },
+  "parent_v1_integrity": {
+    "valid": true,
+    "checked_artifacts": 20,
+    "hashes": {
+      "output\\reference_freeze\\acceptance.json": "1c403daddac8a0fc9aecd362363f769ddee47a38ea31fc66c465817516b20b8a",
+      "output\\reference_freeze\\before.json": "4cf43b06b452bdece35e60d49fa48297db13271824902b9bb4046ffa22f56290",
+      "output\\reference_freeze\\focused-results.json": "99e38940c9fddf56ce8ef803b05d210fd8c187ae72e64cbd70ba1bd69d6af5cf",
+      "output\\reference_freeze\\focused-run.txt": "f9741294b40bad9387f10610622aa4ab99adc3903f1cc7d1a4031945673bfdc6",
+      "output\\reference_freeze\\focused-tests.txt": "644c3be882e418d71d7daf7313f2cddc83ded080cd6b5e9cadd319425713cde6",
+      "output\\reference_freeze\\frontend-browser-tests.json": "3e76160a849a45bf8fa8f0eb0085f0e099d06138470de5752e9e5e48e6faa00f",
+      "output\\reference_freeze\\frontend-data-tests.txt": "df658a15dfbd257970806ac806dbb163d05a83d81d3efad1bfa4ccc4669f2558",
+      "output\\reference_freeze\\full-results.json": "bac883ec954ed57bcc17fb79a676bb281202bcc70a3762a12bd58d61e650a612",
+      "output\\reference_freeze\\full-run.txt": "12ca436ee8d4d6317be0f2e200fbef918bc3c1fce7f60f15528f1527ebd7de2c",
+      "output\\reference_freeze\\full-tests.txt": "9b32a0328843bcf7b5d854205ba865363be8e8abfc8d8ba784557aafa87cc1a8",
+      "output\\reference_freeze\\README.md": "9e58de7bf02dbd87ba18d4f303f36526be4c8cc3e83173ff0641f4caef010951",
+      "output\\reference_freeze\\reference_manifest.json": "7717559a8c31d6fa2b60b3b6435bf3906f54d42ea1ab5cc21c439eb3aeb4789d",
+      "output\\reference_freeze\\reference_manifest.schema.json": "7ca9600da996c31d8c8581c40ac4bdb705949844c21d7d460b4fc5d68bb71239",
+      "output\\reference_freeze\\browser-test-results\\.last-run.json": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903",
+      "output\\reference_freeze\\test-results\\graph-desktop.png": "b55ac54254bb2375f364f8d681442ab320b8a95554cfa68dc82ae2b8fa5b454d",
+      "output\\reference_freeze\\test-results\\import-desktop.png": "48df72d639c893faf3a29a037497c36d59e67e353552e293e9cafe47944a3bdb",
+      "output\\reference_freeze\\test-results\\import-mobile.png": "67ec6fcd639f424a0680d6eb10341455dc3fddb02c02da38cea3c3d0eaf2e115",
+      "output\\reference_freeze\\test-results\\review-desktop.png": "d2b97db3bed9a6657e146a308a86ee47fd40c083c137125eaaf4cbf72a5ae41d",
+      "output\\reference_freeze\\test-results\\review-mobile.png": "87b7e732d33b96ba6e8915b2c93a1a095e104c4b9eae99f48778aa27602a265e",
+      "docs\\STANDARD_DEVIATION_REFERENCE_ARCHITECTURE.md": "9fa47228452259ffd064d1b43209ea30cc14fd2d3f00fb08b44b0fa8cb7ec771"
+    },
+    "differences": [],
+    "historical_verification": {
+      "reference_version": "v1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747",
+      "trust_authority": false
+    }
+  },
+  "authorized_delta": [
+    {
+      "path": "academic_os/sources.py",
+      "before": "ca47bf6c1ba63ad89d0ba9ac1cbd85545a44b7a1e52286fc06c81fd38f2f8a7e",
+      "after": "f70a902dd37a8cdb671edbe05d5250180c3068b8cb0469b5a097f71dd92bcbb8",
+      "classification": "performance_optimization"
+    }
+  ],
+  "p6a1b_engineering_selection_changes": [
+    {
+      "after": "6ffa55dae42f40ec7cc1ed30eed1e3bda166d5172659579f471629ba0c7f4122",
+      "before": "0ae7edb91556dd4fc6804147879f3c8889fa684cceb832668d45c4f1e1a07f8a",
+      "path": "academic_os/ai_qualification/__main__.py"
+    },
+    {
+      "after": "ca47523aba801ea3e31dcdf4cabc94cd9948f5d781d8c8a65dda8b4ac41f32b2",
+      "before": "4f28400df2cbab7b3ff7ff824b1c1bd8e725c45d5a11bbf48b726727a005b955",
+      "path": "academic_os/ai_qualification/integrity.py"
+    },
+    {
+      "after": "f2ecc7e61a4e7818218b36c703c62685cbf8dc16843970c18017586a486061da",
+      "before": null,
+      "path": "academic_os/ai_qualification/reference_baseline.py"
+    }
+  ],
+  "unexpected_delta_count": 0,
+  "inventory_classification": [
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/acceptance.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/ai-author-candidate.schema.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/ai-candidate-validation.schema.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/authoring-brief.schema.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/authoring_brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/provider-content.schema.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/regression_results.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/synthetic_accepted/ai-candidate-a838663f88b3486983d9b408870a281e.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/synthetic_rejected/ai-candidate-a939200393854fb49cac1adb9d5f596d.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a_ai_authoring/tests.txt"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/acceptance.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/before.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/dry_run.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/dry_run_verified.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/final-test-results.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/final-tests.txt"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/ai-candidate-12946772beca4656a491be2ce19c4420.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-01/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/ai-candidate-1bd8a88e4d5644d29d840a3ffdee5fd8.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-02/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/ai-candidate-c5495129ca154abfa1c1586932bc8c89.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-03/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/ai-candidate-6728d9dcb5d9464ab725e0929ff59641.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-04/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/ai-candidate-43b2bb1390114296a7b4df8ca0adde00.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-05/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/ai-candidate-0d7fb9c8413b4687b82921cd73a94691.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-06/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/ai-candidate-5aefd19b08764cfba5bc3186a5c85a5e.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-07/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/ai-candidate-583abb474ffd4e5fbdb803fe3d72ffac.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-08/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/ai-candidate-dfba1e9f39974ed9975c4e1dc10164fc.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-09/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/ai-candidate-08395a9219dc4dfdb1faf5eaf9840916.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/attempt-10/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/completion.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/reports/report-2420ee95ea52a74d25bfe8d15745640b0192b1c15b64ad790a99af44561187c4.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/normal_synthetic_demo/run-3c0746b2c67f46dcab8fc2cfd57fea1d/run.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/regression_results.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/report.schema.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/ai-candidate-343427fed70144359462005409d8581b.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-01/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/ai-candidate-43887427d3184bda908eb667bb0287a0.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-02/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/ai-candidate-cb1a04997ce945e0bba27c5570b16836.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-03/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/ai-candidate-23ee54ee198e4ca0b6e96d575b13923e.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-04/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/ai-candidate-a355f6397d3a4d12b76f3d71933a8958.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-05/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/ai-candidate-d9922a6e777b4b0583c93454f5821e51.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-06/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/ai-candidate-d6a5b2cb0ddb4a4ebeeba0a9534fdc68.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-07/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/ai-candidate-a33377658dd64586be013819b6186e7d.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-08/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/ai-candidate-c0c3d6c871524711aca61b3355bdb387.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-09/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/ai-candidate-e674b87580734589bf08aefb50b5d6a8.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-10/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/ai-candidate-1d5b0c8dbd08488eab59023e121e3f29.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-11/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/ai-candidate-296c80d3a2ff4712b3c6101aac55cd0d.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-12/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/ai-candidate-91d40f8f93454ae58a1976c11b5a7f29.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-13/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/ai-candidate-1b54e9dccc1e4315b7b74fcdafb23011.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-14/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/ai-candidate-251ec2bd703047e9a47d39478e701147.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-15/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/ai-candidate-52d9a65901454a9b93876d437b7fc321.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/attempt-16/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/completion.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/reports/report-e67e73afbd4f812a1e06c512d23a3d1de510d6855a319dd66d1307920301f66e.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/stress_synthetic_demo/run-a06256085c2f4f0ba27cde8597870007/run.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance/tests.txt"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/acceptance.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/additional_verification.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/before.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/dry_run.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/ai-candidate-87517e698ff84bf39b5b4f4d43c4e5ec.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-01/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/ai-candidate-063b8c4edf9741d9bfbdbeb2f4fc9dc4.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-02/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/ai-candidate-63c5b785710a4e298d45714738b2781f.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-03/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/ai-candidate-0512077080c84e65a66ef989c7ad96ba.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-04/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/ai-candidate-56781f5d0c9b436eaff548e8241d5c81.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-05/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/ai-candidate-a97efb44e95a4031beeb60b6bc1c8b6e.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-06/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/ai-candidate-b26fa7a7e5414f4fa08bce51a5d14b8d.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-07/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/ai-candidate-2a8a1e009aa64b81bef8fabd37b84507.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-08/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/ai-candidate-2266dbdbac644031b82e215b5857cf73.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-09/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/ai-candidate-9e37cac6db9b458a9222ba9dcfebe6dc.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/attempt-10/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/completion.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/reports/report-71dc07af24c49a93fe8c48f52b0116bddd96426485880e021a24c97dc75176f6.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/normal_synthetic_demo/run-8f6878393d714c14b594f57ef71818a3/run.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/report.schema.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/ai-candidate-5700c3d1c0154a27995cb4328ac0814b.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-01/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/ai-candidate-c5b6c1539c254f0b8db5b2300057282c.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-02/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/ai-candidate-a4f712cdf3804b8ca08f414e14dd9ec4.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-03/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/ai-candidate-21b276466c24411597ccfe995522e6f8.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-04/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/ai-candidate-dafbcf3d4ad0410dbddb7919f6ebd45d.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-05/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/ai-candidate-4f8392a2cdd4487dbec0392ac386212e.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-06/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/ai-candidate-77012f3b66da41f8a2b82f029444a7a6.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-07/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/ai-candidate-f258f1717f954d37b1ad23d41d842a9b.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-08/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/ai-candidate-fd2093ec879d4209b1f614a02b1e5375.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-09/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/ai-candidate-de91d080dcc44c6c93974155ed581976.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-10/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/ai-candidate-4d95dff453da4f0a8bd155d658212860.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-11/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/ai-candidate-ae4a6b5c0e544d0093bbfa09ab6dbebd.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-12/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/ai-candidate-6b043ab29ca344379de887cf6de60db8.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-13/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/ai-candidate-2fbeeb2a38b24bccb9898a62bd91b811.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-14/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/ai-candidate-09f2f31f17f740688558ee8c15f5be76.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-15/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/ai-candidate-6a687b84685943a4901cb8a6276db50f.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/attempt.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/provider_observation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/raw_candidate.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/started.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/attempt-16/validation.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/brief.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/completion.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/reports/report-67732441d70299e69345c63705f004bcf9e2268103c3a086c488855485867b5a.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/stress_synthetic_demo/run-8db097ee0894473996eaed3389b48db3/run.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1_offline_acceptance_final/tests.txt"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/acceptance.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/before.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/dry-run.stdout.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/focused-results.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/focused-tests.txt"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/full-results.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/full-tests.txt"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/performance-after-tests.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_freeze_engineering_experiment",
+      "path": "output/p6a1a_trusted_read_performance/performance.json"
+    },
+    {
+      "academic_reference": false,
+      "classification": "architecture_operational_documentation",
+      "path": "docs/P6A_SINGLE_SLOT_AI_AUTHORING.md"
+    },
+    {
+      "academic_reference": false,
+      "classification": "architecture_operational_documentation",
+      "path": "docs/P6A1_LIVE_MODEL_QUALIFICATION.md"
+    },
+    {
+      "academic_reference": false,
+      "classification": "architecture_operational_documentation",
+      "path": "docs/P6A1A_TRUSTED_READ_PERFORMANCE.md"
+    },
+    {
+      "academic_reference": false,
+      "classification": "architecture_operational_documentation",
+      "path": "docs/STANDARD_DEVIATION_REFERENCE_REVISION_v1_1.md"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_ai_authoring.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_ai_qualification.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_source_cache.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_source_cache_integration.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_reference_revision.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/reference_revision.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_reference_freeze.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "verification_addition",
+      "path": "tests_p0/test_profile_presentation.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/__init__.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/__main__.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/brief.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/models.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/provider.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/service.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_authoring/validation.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/__init__.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "engineering_baseline_selection",
+      "path": "academic_os/ai_qualification/__main__.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "engineering_baseline_selection",
+      "path": "academic_os/ai_qualification/integrity.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/models.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/observer.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "engineering_baseline_selection",
+      "path": "academic_os/ai_qualification/reference_baseline.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/reporting.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/runner.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/storage.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "post_v1_experimental_production_module",
+      "path": "academic_os/ai_qualification/stress.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "legacy_inventory_coverage_addition",
+      "path": "academic_os/examples/__init__.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "legacy_inventory_coverage_addition",
+      "path": "academic_os/examples/q2.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "legacy_inventory_coverage_addition",
+      "path": "academic_os/examples/q2_semantics.py"
+    },
+    {
+      "academic_reference": false,
+      "classification": "legacy_inventory_coverage_addition",
+      "path": "academic_os/migrations/001_initial.sql"
+    }
+  ],
+  "academic_scope_comparison": {
+    "all_live_comparisons_equal": true,
+    "assessment_evidence": [
+      {
+        "assessment_label": "June 2025 9MA0/31 Q2",
+        "capability_ref": "capability-standard-deviation-calculate",
+        "epistemic_level": "observed_evidence",
+        "marks": 2,
+        "paper": "9MA0/31",
+        "question_part": "Q2(b)",
+        "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+        "reading_notes": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+        ],
+        "ref": "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2025
+      },
+      {
+        "assessment_label": "June 2023 9MA0/31 Q3",
+        "capability_ref": "capability-standard-deviation-calculate",
+        "epistemic_level": "observed_evidence",
+        "marks": 2,
+        "paper": "9MA0/31",
+        "question_part": "Q3(b)(ii)",
+        "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+        "reading_notes": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ],
+        "ref": "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2023
+      }
+    ],
+    "comparisons": {
+      "academic_scope": true,
+      "focused-review.authored": true,
+      "focused-review.base_authored": true,
+      "focused-review.base_pedagogy": true,
+      "focused-review.base_validation": true,
+      "focused-review.learning": true,
+      "focused-review.pedagogy": true,
+      "focused-review.presentation": true,
+      "focused-review.profile": true,
+      "focused-review.scope_fingerprint": true,
+      "focused-review.solutions": true,
+      "focused-review.validation": true,
+      "standard-lesson.authored": true,
+      "standard-lesson.base_authored": true,
+      "standard-lesson.base_pedagogy": true,
+      "standard-lesson.base_validation": true,
+      "standard-lesson.learning": true,
+      "standard-lesson.pedagogy": true,
+      "standard-lesson.presentation": true,
+      "standard-lesson.profile": true,
+      "standard-lesson.scope_fingerprint": true,
+      "standard-lesson.solutions": true,
+      "standard-lesson.validation": true,
+      "teacher_product": true
+    },
+    "learning_requirements": [
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [],
+        "ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "concept-standard-deviation"
+        ],
+        "statement": "Student should understand \"Standard deviation\": A measure of dispersion about the mean in the units of the observations.",
+        "type": "conceptual_understanding"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution.",
+        "type": "capability"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics.",
+        "type": "capability_under_task_form"
+      }
+    ],
+    "profiles": {
+      "focused-review": {
+        "roles": 9,
+        "substantive_roles": 9,
+        "target_minutes": 25
+      },
+      "standard-lesson": {
+        "roles": 15,
+        "substantive_roles": 14,
+        "target_minutes": 60
+      }
+    },
+    "recomputed_scope_fingerprints": {
+      "focused-review": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+      "standard-lesson": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359"
+    }
+  },
+  "semantic_change": false,
+  "academic_scope_change": false,
+  "trust_semantics_change": false,
+  "performance_change": true,
+  "database_comparison": {
+    "before": {
+      "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+      "tables": {
+        "versions": {
+          "count": 116,
+          "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+        },
+        "heads": {
+          "count": 95,
+          "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+        },
+        "reviews": {
+          "count": 83,
+          "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+        },
+        "review_heads": {
+          "count": 83,
+          "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+        },
+        "requests": {
+          "count": 101,
+          "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+        },
+        "snapshots": {
+          "count": 2,
+          "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+        },
+        "snapshot_members": {
+          "count": 97,
+          "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+        },
+        "snapshot_blocks": {
+          "count": 0,
+          "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    },
+    "after": {
+      "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+      "tables": {
+        "versions": {
+          "count": 116,
+          "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+        },
+        "heads": {
+          "count": 95,
+          "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+        },
+        "reviews": {
+          "count": 83,
+          "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+        },
+        "review_heads": {
+          "count": 83,
+          "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+        },
+        "requests": {
+          "count": 101,
+          "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+        },
+        "snapshots": {
+          "count": 2,
+          "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+        },
+        "snapshot_members": {
+          "count": 97,
+          "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+        },
+        "snapshot_blocks": {
+          "count": 0,
+          "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    },
+    "unchanged": true
+  },
+  "review_governance_snapshot_comparison": {
+    "before": {
+      "review_decisions": 83,
+      "source_and_locator_decisions": 26,
+      "academic_decisions": 57,
+      "requests": 101,
+      "governance_decisions": 1,
+      "snapshots": 2
+    },
+    "after": {
+      "review_decisions": 83,
+      "source_and_locator_decisions": 26,
+      "academic_decisions": 57,
+      "requests": 101,
+      "governance_decisions": 1,
+      "snapshots": 2
+    },
+    "unchanged": true
+  },
+  "protected_snapshot_validity": {
+    "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": {
+      "usable": true,
+      "format": "academic-os-readonly-snapshot/1",
+      "republished": false
+    },
+    "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": {
+      "usable": true,
+      "format": "academic-os-readonly-snapshot/1",
+      "republished": false
+    }
+  },
+  "pptx_comparison": [
+    {
+      "path": "output\\p4c1_presentation_design\\Standard_Deviation_v2.pptx",
+      "before": "c69f7cf5038e9da58b23e416798ee3a17dc86eab3130998d375d76fe477bd8c3",
+      "after": "c69f7cf5038e9da58b23e416798ee3a17dc86eab3130998d375d76fe477bd8c3",
+      "unchanged": true
+    },
+    {
+      "path": "output\\p4c_presentation\\student\\Standard_Deviation.pptx",
+      "before": "9cf9332e17909b8bb7507a4a8de3b348753d1c25ef6264b6058bbad6c8b6018d",
+      "after": "9cf9332e17909b8bb7507a4a8de3b348753d1c25ef6264b6058bbad6c8b6018d",
+      "unchanged": true
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\focused-review\\Standard_Deviation_focused-review.pptx",
+      "before": "917f3eac313f3f03d9ea2b1f99e9d8180faa60190be446cbe1478c5823e4d8c6",
+      "after": "917f3eac313f3f03d9ea2b1f99e9d8180faa60190be446cbe1478c5823e4d8c6",
+      "unchanged": true
+    },
+    {
+      "path": "output\\p5d_profiled_presentation\\standard-lesson\\Standard_Deviation_standard-lesson.pptx",
+      "before": "9496ab5160f780865818e4258fe5862614fea316c75a99812063eb8b698a4118",
+      "after": "9496ab5160f780865818e4258fe5862614fea316c75a99812063eb8b698a4118",
+      "unchanged": true
+    },
+    {
+      "path": "output\\teaching_assessment_demo\\Edexcel_9MA0_Statistics_Exploring_Data.pptx",
+      "before": "0f3b5f8fb3e269b6db5de7f20ccc6baa1b825ab5b49ac608f9a105b66cb64d17",
+      "after": "0f3b5f8fb3e269b6db5de7f20ccc6baa1b825ab5b49ac608f9a105b66cb64d17",
+      "unchanged": true
+    }
+  ],
+  "gold_standard_comparison": [
+    {
+      "path": "tests_p0\\fixtures\\authored_standard_deviation_gold.json",
+      "before": "3b58dc52d5762434be0f3c8bb969bbdc43ee88afe64dafbbc59f9b96309d33ec",
+      "after": "3b58dc52d5762434be0f3c8bb969bbdc43ee88afe64dafbbc59f9b96309d33ec",
+      "unchanged": true
+    },
+    {
+      "path": "tests_p0\\fixtures\\learning_standard_deviation_gold.json",
+      "before": "7d968182bb2cdc3e76636c009af840e227f81fcf336f778673d8836bb232fcb3",
+      "after": "7d968182bb2cdc3e76636c009af840e227f81fcf336f778673d8836bb232fcb3",
+      "unchanged": true
+    },
+    {
+      "path": "tests_p0\\fixtures\\pedagogical_standard_deviation_gold.json",
+      "before": "25586cfec290a4348e235db3b9d444f0c9a28ddcae07a136090f6b07718876de",
+      "after": "25586cfec290a4348e235db3b9d444f0c9a28ddcae07a136090f6b07718876de",
+      "unchanged": true
+    },
+    {
+      "path": "tests_p0\\fixtures\\profiled_content_gold.json",
+      "before": "201161de45e5a158d8ae85133ef0033e4cd42e54018384763081d85978b378c9",
+      "after": "201161de45e5a158d8ae85133ef0033e4cd42e54018384763081d85978b378c9",
+      "unchanged": true
+    },
+    {
+      "path": "tests_p0\\fixtures\\q2_gold_standard.json",
+      "before": "5485118dec44a6be52ac2eb9445b95e299a5dc961f7a650b0674aadc6300be65",
+      "after": "5485118dec44a6be52ac2eb9445b95e299a5dc961f7a650b0674aadc6300be65",
+      "unchanged": true
+    },
+    {
+      "path": "tests_p0\\fixtures\\q3_gold_standard.json",
+      "before": "a2d98701e8fc16b0dca9facd123a17fbc966c39106ea8c4a4f5a26da51a09d51",
+      "after": "a2d98701e8fc16b0dca9facd123a17fbc966c39106ea8c4a4f5a26da51a09d51",
+      "unchanged": true
+    },
+    {
+      "path": "tests_p0/test_lesson_profiles.py",
+      "before": "485a327140266f810f2780fd73ffa0d05f818ed04688ee92ee6ac4ed2a4e66f4",
+      "after": "485a327140266f810f2780fd73ffa0d05f818ed04688ee92ee6ac4ed2a4e66f4",
+      "unchanged": true
+    }
+  ],
+  "deterministic_reference_content": {
+    "protected_artifact_count": 56,
+    "all_original_hashes_match": true
+  },
+  "p6_experimental_content_promoted": false,
+  "source_integrity_semantic_regression": {
+    "tests": 18,
+    "passed": 18,
+    "results": [
+      "test_changed_bytes_same_size_and_mtime (tests_p0.test_source_cache.ExtractionCacheTests.test_changed_bytes_same_size_and_mtime) ... ok",
+      "test_each_locator_invariant_on_warm_cache (tests_p0.test_source_cache.ExtractionCacheTests.test_each_locator_invariant_on_warm_cache) ... ok",
+      "test_failed_extraction_is_not_cached (tests_p0.test_source_cache.ExtractionCacheTests.test_failed_extraction_is_not_cached) ... ok",
+      "test_json_and_ai_candidate_cannot_populate (tests_p0.test_source_cache.ExtractionCacheTests.test_json_and_ai_candidate_cannot_populate) ... ok",
+      "test_lru_bounds_and_eviction (tests_p0.test_source_cache.ExtractionCacheTests.test_lru_bounds_and_eviction) ... ok",
+      "test_missing_source (tests_p0.test_source_cache.ExtractionCacheTests.test_missing_source) ... ok",
+      "test_parallel_requests_single_extraction (tests_p0.test_source_cache.ExtractionCacheTests.test_parallel_requests_single_extraction) ... ok",
+      "test_parse_uses_hashed_bytes_not_reopened_path (tests_p0.test_source_cache.ExtractionCacheTests.test_parse_uses_hashed_bytes_not_reopened_path) ... ok",
+      "test_parser_and_options_isolation (tests_p0.test_source_cache.ExtractionCacheTests.test_parser_and_options_isolation) ... ok",
+      "test_shared_page_and_independent_locator_validation (tests_p0.test_source_cache.ExtractionCacheTests.test_shared_page_and_independent_locator_validation) ... ok",
+      "test_cold_warm_snapshot_semantics (tests_p0.test_source_cache.WarmTrustTests.test_cold_warm_snapshot_semantics) ... ok",
+      "test_dependency_version (tests_p0.test_source_cache.WarmTrustTests.test_dependency_version) ... ok",
+      "test_existing_block (tests_p0.test_source_cache.WarmTrustTests.test_existing_block) ... ok",
+      "test_revoke (tests_p0.test_source_cache.WarmTrustTests.test_revoke) ... ok",
+      "test_superseding_review (tests_p0.test_source_cache.WarmTrustTests.test_superseding_review) ... ok",
+      "test_full_input_path_counts_and_warm_semantics (tests_p0.test_source_cache_integration.RepresentativeCacheTests.test_full_input_path_counts_and_warm_semantics) ... ok",
+      "test_deferred_dependency_change (tests_p0.test_source_cache_integration.WarmGovernanceTests.test_deferred_dependency_change) ... ok",
+      "test_governance_reopen (tests_p0.test_source_cache_integration.WarmGovernanceTests.test_governance_reopen) ... ok"
+    ],
+    "note": "Parser/options isolation rejects incompatible cache reuse; current parser text is still validated, not automatically rejected solely for a version label."
+  },
+  "performance_evidence": {
+    "before": {
+      "distinct_pages": 5,
+      "integrity_checks": 240,
+      "page_extractions": 880,
+      "product_reads": 80,
+      "reader_constructions": 880,
+      "seconds": 108.2,
+      "snapshot_checks": 160,
+      "source": "preceding read-only diagnosis, not a new uncached run in this implementation turn"
+    },
+    "cold": {
+      "extractions": 5,
+      "readers": 5
+    },
+    "observed": {
+      "dry_run": {
+        "exit_code": 0,
+        "output": {
+          "attempt_count": 10,
+          "brief": {
+            "allowed_question_templates": [
+              "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+              "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+            ],
+            "allowed_scaffolds": {
+              "compute_first_term": [
+                "Calculate Σx² / n.",
+                "Divide the sum of squares by the number of observations."
+              ],
+              "compute_second_term": [
+                "Calculate (Σx / n)².",
+                "Divide the sum by the number of observations, then square the result."
+              ],
+              "square_root": [
+                "Take the square root.",
+                "Take the square root of the variance."
+              ],
+              "subtract_variance_terms": [
+                "Subtract the second result from the first.",
+                "Find the difference: first term minus second term."
+              ]
+            },
+            "content_origin_policy": "ai_generated_candidate",
+            "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+            "forbidden_content": [
+              "new learning requirements, concepts, competencies or task forms",
+              "sample standard deviation or n - 1",
+              "population/sample comparison",
+              "difficulty, common-mistake or prerequisite claims",
+              "frequency, typical marks or exam predictions",
+              "formula memorisation",
+              "calculator models or button sequences",
+              "Pearson copying or official endorsement",
+              "approval, verification, safety, trust or readiness declarations"
+            ],
+            "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+            "identity": "standard-deviation-standard-lesson-SL-10/1",
+            "learning_targets": [
+              "Student should be able to: Calculate the standard deviation of a distribution.",
+              "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+            ],
+            "profile_context": "Standard lesson, guided calculation practice",
+            "required_output": [
+              "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+              "Choose one permitted question template verbatim, preserving its placeholders.",
+              "Four ordered scaffold types, with one permitted instruction for each.",
+              "Separate solution with identical inputs; exact rational intermediate results; numeric SD to 45 decimal digits when irrational; display to 2 decimal places."
+            ],
+            "role": "Guided practice 1",
+            "schema_version": "authoring-brief/1",
+            "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+            "support_mode": "guided",
+            "task_form": "From summary statistics"
+          },
+          "brief_hash": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+          "live_api_will_be_called": false,
+          "model": "not_configured_in_environment",
+          "note": "Live provider also uses the existing dotenv convention; configure the model in the environment for an exact dry-run model display.",
+          "output_location": "D:\\AI-School-Academic-OS\\output\\p6a1_live_qualification",
+          "slot": "profiled-sd-standard-lesson-SL-10",
+          "stress_cases": [],
+          "would_call_with_live_flag": 10
+        },
+        "seconds": 7.003320300005726,
+        "stderr": ""
+      },
+      "measurements": [
+        {
+          "mode": "cold",
+          "seconds": 6.278626300001633
+        },
+        {
+          "mode": "warm",
+          "seconds": 5.9667177999945125
+        }
+      ],
+      "note": "After both test processes completed; no wall-clock acceptance threshold."
+    },
+    "timings_are_guarantees": false,
+    "trust_checks": {
+      "integrity": 240,
+      "product_reads": 80,
+      "snapshot": 160
+    },
+    "warm": {
+      "extractions": 0,
+      "readers": 0
+    }
+  },
+  "active_baseline_preflight": {
+    "reference_version": "v1.1",
+    "valid": true,
+    "errors": [],
+    "manifest_sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747",
+    "trust_authority": false
+  },
+  "dry_run": {
+    "command": [
+      "C:\\Python314\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "academic_os.ai_qualification",
+      "--db",
+      "var/p0_q2.sqlite3",
+      "qualify-ai-author",
+      "standard-deviation",
+      "--profile",
+      "standard-lesson",
+      "--role",
+      "profiled-sd-standard-lesson-SL-10",
+      "--attempts",
+      "10",
+      "--dry-run"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 10.685361399999238,
+    "informational_timing": true,
+    "output": {
+      "attempt_count": 10,
+      "brief": {
+        "allowed_question_templates": [
+          "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+          "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+        ],
+        "allowed_scaffolds": {
+          "compute_first_term": [
+            "Calculate Σx² / n.",
+            "Divide the sum of squares by the number of observations."
+          ],
+          "compute_second_term": [
+            "Calculate (Σx / n)².",
+            "Divide the sum by the number of observations, then square the result."
+          ],
+          "square_root": [
+            "Take the square root.",
+            "Take the square root of the variance."
+          ],
+          "subtract_variance_terms": [
+            "Subtract the second result from the first.",
+            "Find the difference: first term minus second term."
+          ]
+        },
+        "content_origin_policy": "ai_generated_candidate",
+        "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+        "forbidden_content": [
+          "new learning requirements, concepts, competencies or task forms",
+          "sample standard deviation or n - 1",
+          "population/sample comparison",
+          "difficulty, common-mistake or prerequisite claims",
+          "frequency, typical marks or exam predictions",
+          "formula memorisation",
+          "calculator models or button sequences",
+          "Pearson copying or official endorsement",
+          "approval, verification, safety, trust or readiness declarations"
+        ],
+        "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+        "identity": "standard-deviation-standard-lesson-SL-10/1",
+        "learning_targets": [
+          "Student should be able to: Calculate the standard deviation of a distribution.",
+          "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+        ],
+        "profile_context": "Standard lesson, guided calculation practice",
+        "required_output": [
+          "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+          "Choose one permitted question template verbatim, preserving its placeholders.",
+          "Four ordered scaffold types, with one permitted instruction for each.",
+          "Separate solution with identical inputs; exact rational intermediate results; numeric SD to 45 decimal digits when irrational; display to 2 decimal places."
+        ],
+        "role": "Guided practice 1",
+        "schema_version": "authoring-brief/1",
+        "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+        "support_mode": "guided",
+        "task_form": "From summary statistics"
+      },
+      "brief_hash": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+      "engineering_baseline": {
+        "errors": [],
+        "manifest_sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747",
+        "reference_version": "v1.1",
+        "trust_authority": false,
+        "valid": true
+      },
+      "live_api_will_be_called": false,
+      "model": "not_configured_in_environment",
+      "note": "Live provider also uses the existing dotenv convention; configure the model in the environment for an exact dry-run model display.",
+      "output_location": "D:\\AI-School-Academic-OS\\output\\p6a1_live_qualification",
+      "slot": "profiled-sd-standard-lesson-SL-10",
+      "stress_cases": [],
+      "would_call_with_live_flag": 10
+    },
+    "stderr": "",
+    "database_unchanged": true,
+    "qualification_run_directories_unchanged": true,
+    "preflight": {
+      "reference_version": "v1.1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747",
+      "trust_authority": false
+    },
+    "live_api_called": false
+  },
+  "tests": {
+    "focused": {
+      "total": 131,
+      "passed": 131,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "seconds": 178.33516400000372,
+      "failure_details": [],
+      "error_details": []
+    },
+    "full": {
+      "total": 1088,
+      "passed": 1087,
+      "failed": 0,
+      "errors": 1,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "seconds": 337.4689792999998,
+      "failure_details": [],
+      "error_details": [
+        {
+          "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+          "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+        }
+      ]
+    },
+    "version_revision_tests": {
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "prior_validation_attempt": {
+    "directory": "output/reference_freeze_v1_1/validation_attempt_1",
+    "accepted": false,
+    "reason": "New isolated DB mutation test passed its rejection assertion but failed Windows temporary-file cleanup because SQLite context manager did not close the connection. Fixed with explicit closing and commit.",
+    "focused": {
+      "total": 131,
+      "passed": 130,
+      "failed": 0,
+      "errors": 1,
+      "skipped": 0,
+      "seconds": 118.40678950000438,
+      "failure_details": [],
+      "error_details": [
+        {
+          "test": "test_database_copy_mutation (tests_p0.test_reference_revision.IsolatedConformanceTests.test_database_copy_mutation)",
+          "traceback": "Traceback (most recent call last):\n  File \"C:\\Python314\\Lib\\shutil.py\", line 701, in _rmtree_unsafe\n    os.unlink(fullname)\n    ~~~~~~~~~^^^^^^^^^^\nPermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\tmp276sget6\\\\var\\\\p0_q2.sqlite3'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Python314\\Lib\\tempfile.py\", line 975, in cleanup\n    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\tempfile.py\", line 955, in _rmtree\n    _shutil.rmtree(name, onexc=onexc)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\shutil.py\", line 852, in rmtree\n    _rmtree_impl(path, dir_fd, onexc)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\shutil.py\", line 705, in _rmtree_unsafe\n    onexc(os.unlink, fullname, err)\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\tempfile.py\", line 930, in onexc\n    _os.unlink(path)\n    ~~~~~~~~~~^^^^^^\nPermissionError: [WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'C:\\\\Users\\\\ADMINI~1\\\\AppData\\\\Local\\\\Temp\\\\tmp276sget6\\\\var\\\\p0_q2.sqlite3'\n"
+        }
+      ]
+    },
+    "full_suite": "Interrupted; superseded by complete final rerun",
+    "provisional_manifest_sha256": "b101158b2902ccc115cd85ecea640977661a30c4dd3d1898f585741217716619",
+    "note": "Unaccepted candidate and its descriptor/logs retained; original v1 history was never overwritten."
+  },
+  "known_historical_error": {
+    "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+    "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+  },
+  "no_api_or_llm_calls": true,
+  "no_paid_qualification": true,
+  "new_qualification_runs": false,
+  "unexpected_new_outputs_outside_revision": [],
+  "remaining_limitations": [
+    "v1 shallow inventory omitted examples and migration source; no historical byte equality is asserted for those coverage additions.",
+    "Engineering baseline is local operator configuration, not signed authentication or academic authority.",
+    "Upstream fan-out remains 80 product reads / 160 snapshot checks / 240 integrity checks; no optimization here.",
+    "Dry-run timing overlapped full-suite work and is not a runtime guarantee.",
+    "Historical missing PPTX remains absent with its original pinned hash and unskipped test.",
+    "v1 source implementation bytes were not archived; its original source hashes are preserved, not reconstructed."
+  ]
+}

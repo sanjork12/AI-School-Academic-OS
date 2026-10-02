@@ -1,0 +1,38 @@
+{
+  "baseline": {
+    "tests": 179,
+    "errors": 1,
+    "error": "Missing pre-existing pinned file AI_Academic_Operating_System_Brainstorm_CN.pptx"
+  },
+  "final": {
+    "tests": 211,
+    "passed": 210,
+    "failures": 0,
+    "errors": 1,
+    "skipped": 0
+  },
+  "new_semantic_tests": {
+    "tests": 32,
+    "passed": 32
+  },
+  "real_database": {
+    "heads": 52,
+    "versions": 72,
+    "reviews": 0,
+    "snapshots": 0
+  },
+  "prior_50_versions_unchanged": true,
+  "parsed_records_unchanged": true,
+  "historical_files_checked": 68,
+  "historical_files_changed": [],
+  "architecture_valid": true,
+  "publishable": false,
+  "human_approved": false,
+  "source_verified": false,
+  "migration_version": 1,
+  "cli_demo": "Completed all seven documented CLI operations in var/p1a_demo.sqlite3; check returned expected exit 2.",
+  "not_run": [
+    "Real operator approval / trusted real Q2 publication",
+    "Production authentication, models and frontend (outside scope)"
+  ]
+}

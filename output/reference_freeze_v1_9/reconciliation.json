@@ -1,0 +1,17 @@
+{
+  "authorization": "保留当前扩展版，重新验证并收尾 v1.9",
+  "changed_protected_files": [
+    ".gitignore"
+  ],
+  "created_at": "2026-10-02T07:25:42.273030+00:00",
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1568,
+    "manifests_through_v1_8_unchanged": true,
+    "model_api_calls": 0,
+    "trusted_state_unchanged": true
+  },
+  "prior_manifest_sha256": "b266f72d237aab85bac8677696925ef41ddf11932c4e163a4655acf787dceaf8",
+  "reason": "Concurrent expanded .gitignore retained by explicit user authorization; selected acceptance evidence exceptions retained."
+}

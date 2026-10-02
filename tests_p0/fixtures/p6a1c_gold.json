@@ -1,0 +1,343 @@
+{
+  "format": "p6a1c-offline-gold/1",
+  "provenance": "Manually specified isolated contract fixtures; no automatic repair or model generation.",
+  "cases": [
+    {
+      "id": "manual-attempt-01",
+      "content": {
+        "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "proposed_math_inputs": {
+          "n": 5,
+          "sum_x": "15",
+          "sum_x2": "55"
+        },
+        "scaffold_steps": [
+          {
+            "type": "compute_first_term",
+            "instruction": "Calculate \u03a3x\u00b2 / n."
+          },
+          {
+            "type": "compute_second_term",
+            "instruction": "Calculate (\u03a3x / n)\u00b2."
+          },
+          {
+            "type": "subtract_variance_terms",
+            "instruction": "Subtract the second result from the first."
+          },
+          {
+            "type": "square_root",
+            "instruction": "Take the square root."
+          }
+        ],
+        "proposed_solution": {
+          "inputs": {
+            "n": 5,
+            "sum_x": "15",
+            "sum_x2": "55"
+          },
+          "exact_radicand": "2",
+          "numeric_answer": "1.414213562373095048801688724209698078569671875",
+          "display_answer": "1.41",
+          "first_term": {
+            "expression": "55/5",
+            "value": "11"
+          },
+          "second_term": {
+            "expression": "(15/5)^2",
+            "value": "9"
+          },
+          "mean": {
+            "expression": "15/5",
+            "value": "3"
+          },
+          "variance": {
+            "expression": "11 - 9",
+            "value": "2"
+          }
+        }
+      },
+      "accepted": true
+    },
+    {
+      "id": "manual-attempt-02",
+      "content": {
+        "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "proposed_math_inputs": {
+          "n": 4,
+          "sum_x": "10",
+          "sum_x2": "30"
+        },
+        "scaffold_steps": [
+          {
+            "type": "compute_first_term",
+            "instruction": "Calculate \u03a3x\u00b2 / n."
+          },
+          {
+            "type": "compute_second_term",
+            "instruction": "Calculate (\u03a3x / n)\u00b2."
+          },
+          {
+            "type": "subtract_variance_terms",
+            "instruction": "Subtract the second result from the first."
+          },
+          {
+            "type": "square_root",
+            "instruction": "Take the square root."
+          }
+        ],
+        "proposed_solution": {
+          "inputs": {
+            "n": 4,
+            "sum_x": "10",
+            "sum_x2": "30"
+          },
+          "exact_radicand": "5/4",
+          "numeric_answer": "1.118033988749894848204586834365638117720309180",
+          "display_answer": "1.12",
+          "first_term": {
+            "expression": "30/4",
+            "value": "15/2"
+          },
+          "second_term": {
+            "expression": "(10/4)^2",
+            "value": "25/4"
+          },
+          "mean": {
+            "expression": "10/4",
+            "value": "5/2"
+          },
+          "variance": {
+            "expression": "15/2 - 25/4",
+            "value": "5/4"
+          }
+        }
+      },
+      "accepted": true
+    },
+    {
+      "id": "wrong-value",
+      "content": {
+        "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "proposed_math_inputs": {
+          "n": 4,
+          "sum_x": "10",
+          "sum_x2": "30"
+        },
+        "scaffold_steps": [
+          {
+            "type": "compute_first_term",
+            "instruction": "Calculate \u03a3x\u00b2 / n."
+          },
+          {
+            "type": "compute_second_term",
+            "instruction": "Calculate (\u03a3x / n)\u00b2."
+          },
+          {
+            "type": "subtract_variance_terms",
+            "instruction": "Subtract the second result from the first."
+          },
+          {
+            "type": "square_root",
+            "instruction": "Take the square root."
+          }
+        ],
+        "proposed_solution": {
+          "inputs": {
+            "n": 4,
+            "sum_x": "10",
+            "sum_x2": "30"
+          },
+          "exact_radicand": "5/4",
+          "numeric_answer": "1.118033988749894848204586834365638117720309180",
+          "display_answer": "1.12",
+          "first_term": {
+            "expression": "30/4",
+            "value": "4"
+          },
+          "second_term": {
+            "expression": "(10/4)^2",
+            "value": "25/4"
+          },
+          "mean": {
+            "expression": "10/4",
+            "value": "5/2"
+          },
+          "variance": {
+            "expression": "15/2 - 25/4",
+            "value": "5/4"
+          }
+        }
+      },
+      "accepted": false,
+      "reason": "mathematical_value_invalid"
+    },
+    {
+      "id": "wrong-variance",
+      "content": {
+        "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "proposed_math_inputs": {
+          "n": 4,
+          "sum_x": "10",
+          "sum_x2": "30"
+        },
+        "scaffold_steps": [
+          {
+            "type": "compute_first_term",
+            "instruction": "Calculate \u03a3x\u00b2 / n."
+          },
+          {
+            "type": "compute_second_term",
+            "instruction": "Calculate (\u03a3x / n)\u00b2."
+          },
+          {
+            "type": "subtract_variance_terms",
+            "instruction": "Subtract the second result from the first."
+          },
+          {
+            "type": "square_root",
+            "instruction": "Take the square root."
+          }
+        ],
+        "proposed_solution": {
+          "inputs": {
+            "n": 4,
+            "sum_x": "10",
+            "sum_x2": "30"
+          },
+          "exact_radicand": "5/4",
+          "numeric_answer": "1.118033988749894848204586834365638117720309180",
+          "display_answer": "1.12",
+          "first_term": {
+            "expression": "30/4",
+            "value": "15/2"
+          },
+          "second_term": {
+            "expression": "(10/4)^2",
+            "value": "25/4"
+          },
+          "mean": {
+            "expression": "10/4",
+            "value": "5/2"
+          },
+          "variance": {
+            "expression": "15/2 - 25/4",
+            "value": "4/4"
+          }
+        }
+      },
+      "accepted": false,
+      "reason": "mathematical_value_invalid"
+    },
+    {
+      "id": "equation-value",
+      "content": {
+        "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "proposed_math_inputs": {
+          "n": 4,
+          "sum_x": "10",
+          "sum_x2": "30"
+        },
+        "scaffold_steps": [
+          {
+            "type": "compute_first_term",
+            "instruction": "Calculate \u03a3x\u00b2 / n."
+          },
+          {
+            "type": "compute_second_term",
+            "instruction": "Calculate (\u03a3x / n)\u00b2."
+          },
+          {
+            "type": "subtract_variance_terms",
+            "instruction": "Subtract the second result from the first."
+          },
+          {
+            "type": "square_root",
+            "instruction": "Take the square root."
+          }
+        ],
+        "proposed_solution": {
+          "inputs": {
+            "n": 4,
+            "sum_x": "10",
+            "sum_x2": "30"
+          },
+          "exact_radicand": "5/4",
+          "numeric_answer": "1.118033988749894848204586834365638117720309180",
+          "display_answer": "1.12",
+          "first_term": {
+            "expression": "30/4",
+            "value": "30/4 = 15/2"
+          },
+          "second_term": {
+            "expression": "(10/4)^2",
+            "value": "25/4"
+          },
+          "mean": {
+            "expression": "10/4",
+            "value": "5/2"
+          },
+          "variance": {
+            "expression": "15/2 - 25/4",
+            "value": "5/4"
+          }
+        }
+      },
+      "accepted": false,
+      "reason": "numeric_encoding_invalid"
+    },
+    {
+      "id": "old-contract",
+      "content": {
+        "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "proposed_math_inputs": {
+          "n": 5,
+          "sum_x": "15",
+          "sum_x2": "55"
+        },
+        "scaffold_steps": [
+          {
+            "type": "compute_first_term",
+            "instruction": "Calculate \u03a3x\u00b2 / n."
+          },
+          {
+            "type": "compute_second_term",
+            "instruction": "Calculate (\u03a3x / n)\u00b2."
+          },
+          {
+            "type": "subtract_variance_terms",
+            "instruction": "Subtract the second result from the first."
+          },
+          {
+            "type": "square_root",
+            "instruction": "Take the square root."
+          }
+        ],
+        "proposed_solution": {
+          "inputs": {
+            "n": 5,
+            "sum_x": "15",
+            "sum_x2": "55"
+          },
+          "exact_radicand": "2",
+          "numeric_answer": "1.414213562373095048801688724209698078569671875",
+          "display_answer": "1.41",
+          "first_term": "55/5 = 11",
+          "second_term": {
+            "expression": "(15/5)^2",
+            "value": "9"
+          },
+          "mean": {
+            "expression": "15/5",
+            "value": "3"
+          },
+          "variance": {
+            "expression": "11 - 9",
+            "value": "2"
+          }
+        }
+      },
+      "accepted": false,
+      "reason": "candidate_contract_version_unsupported"
+    }
+  ]
+}

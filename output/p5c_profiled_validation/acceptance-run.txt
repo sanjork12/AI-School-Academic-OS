@@ -1,0 +1,35 @@
+{
+  "status": "P5C acceptance passed",
+  "profiles": {
+    "focused-review": {
+      "ready_for_rendering": true,
+      "blocking_codes": [],
+      "target_attainment": true
+    },
+    "standard-lesson": {
+      "ready_for_rendering": true,
+      "blocking_codes": [],
+      "target_attainment": true
+    }
+  },
+  "tests": {
+    "baseline-tests.txt": {
+      "passed": 45,
+      "failures": 0,
+      "errors": 0,
+      "sha256": "f9651f2ccb7af7f99b1e36cb486dfb7056c8d98a80d27bd7aff3b22d4d9ed79c"
+    },
+    "new-tests.txt": {
+      "passed": 50,
+      "failures": 0,
+      "errors": 0,
+      "sha256": "d7a2ee0965b5f610a3fff0cd8bb791c055df1d5a8bd572da9420ea82aff3b0af"
+    },
+    "verified-tests.txt": {
+      "passed": 202,
+      "failures": 0,
+      "errors": 0,
+      "sha256": "6001a3447766f86df6713e89a66cc98c6261284207fdc3ef2bcc40baaedcc4de"
+    }
+  }
+}

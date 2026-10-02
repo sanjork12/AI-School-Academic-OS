@@ -1,0 +1,590 @@
+{
+  "items": [
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q2-a",
+        "part_id": "Q2-a",
+        "parser_version": "9ma0-2025-q2/1",
+        "marks": 1,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-Q2",
+            "locator_version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "start": 202,
+            "end": 487,
+            "text": "2. Runners in an athletics club can train with either coach A or coach B for the 400 m race.\n Coach A\n trains 120 runners for the 400  m and records the best time, x seconds, for \neach runner\n.\n The results are summarised by the following  statistics\nxx/g32/g32/g166/g1666612 364902\n2\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-Q2-a",
+            "locator_version": "a29a54e2101b8bd11922cd6d8c23d47bec531e8849f184ab74819c8ba3b51231",
+            "start": 491,
+            "end": 565,
+            "text": " Calculate the mean  of the best times for the runners trained by coach  A"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-Q2-a",
+            "locator_version": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+            "start": 31,
+            "end": 84,
+            "text": " 6612\n120x = =\n 55.1 (seconds) B1 1.1b \n (1)  \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-Q2-a",
+            "locator_version": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+            "start": 407,
+            "end": 1830,
+            "text": "Notes:  \nIgnore units in this question \n(a) B1 for 55.1  or 1\n1055  only  (may be seen in the question) ISW e.g. 55.1 followed by 55 etc \nDo not accept 551\n10  that scores B0 \n(b) M1 for a correct expression (values seen not just a formula)(including ) \nA1 for 2.2  or  11\n5  o.e. (allow s = 2.209… so awrt 2.21) \nCorrect answer is 2 marks \n(c) \n \n“2.2”<3.6 \n \n \n \n \n \n \n \n \n \n \nSC \n“2.2”>3.6 \nIgnore comments about different number of runners.  Don’t need to state means are the same. \nIf there is no answer given for (b) then no marks can be scored in (c) \nB1 for coach B and states  s.d. of B is greater o.e. Must compare. Allow implied choose B \ne.g. B has a greater range or Bs values are more spread out or  3.6 > “2.2”  or \"2.2\"Bσ >  \nMay say s.d. of A is smaller which is equivalent to saying s.d. of B is larger \ndB1 (dep on 1st B1 scored) for clear reason why greater s.d. means choose coach B \nIdea of greater range and more extreme values (faster times) in B  \ne.g. B has more (or greater chance of or greater % of) runners at lower times \n(may compare mean – 1 or 2 or 3 standard deviations to show that B has the quicker time) \ne.g. coach A (52.9) > (51.5) coach B so coach B likely to be quickest \nNB “coach B  since B has greater range /s.d.  and so more extreme values” scores B1B1 \n(A0 in (b) and answer > 3.6) \nB1 equivalent reasons as above but choose A \ndB1 same rules as above but applied to A \n \n \n  "
+          }
+        ],
+        "warnings": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q2-b",
+        "part_id": "Q2-b",
+        "parser_version": "9ma0-2025-q2/1",
+        "marks": 2,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-Q2",
+            "locator_version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "start": 202,
+            "end": 487,
+            "text": "2. Runners in an athletics club can train with either coach A or coach B for the 400 m race.\n Coach A\n trains 120 runners for the 400  m and records the best time, x seconds, for \neach runner\n.\n The results are summarised by the following  statistics\nxx/g32/g32/g166/g1666612 364902\n2\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-Q2-b",
+            "locator_version": "03874d37b7802a56bd80dda76180f7bf408a046b67e687e1e055e66a14a83e99",
+            "start": 574,
+            "end": 662,
+            "text": " Calculate \nthe standard deviation of the best times for the runners trained by coach  A"
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-Q2-b",
+            "locator_version": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+            "start": 88,
+            "end": 251,
+            "text": " [ ]\n2364 902 (\"55.1\")     or    4.84120\nxσ = −  M1 1.1b \n                                                                         = 2.2 (seconds) A1 1.1b \n (2)  \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-Q2-b",
+            "locator_version": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+            "start": 407,
+            "end": 1830,
+            "text": "Notes:  \nIgnore units in this question \n(a) B1 for 55.1  or 1\n1055  only  (may be seen in the question) ISW e.g. 55.1 followed by 55 etc \nDo not accept 551\n10  that scores B0 \n(b) M1 for a correct expression (values seen not just a formula)(including ) \nA1 for 2.2  or  11\n5  o.e. (allow s = 2.209… so awrt 2.21) \nCorrect answer is 2 marks \n(c) \n \n“2.2”<3.6 \n \n \n \n \n \n \n \n \n \n \nSC \n“2.2”>3.6 \nIgnore comments about different number of runners.  Don’t need to state means are the same. \nIf there is no answer given for (b) then no marks can be scored in (c) \nB1 for coach B and states  s.d. of B is greater o.e. Must compare. Allow implied choose B \ne.g. B has a greater range or Bs values are more spread out or  3.6 > “2.2”  or \"2.2\"Bσ >  \nMay say s.d. of A is smaller which is equivalent to saying s.d. of B is larger \ndB1 (dep on 1st B1 scored) for clear reason why greater s.d. means choose coach B \nIdea of greater range and more extreme values (faster times) in B  \ne.g. B has more (or greater chance of or greater % of) runners at lower times \n(may compare mean – 1 or 2 or 3 standard deviations to show that B has the quicker time) \ne.g. coach A (52.9) > (51.5) coach B so coach B likely to be quickest \nNB “coach B  since B has greater range /s.d.  and so more extreme values” scores B1B1 \n(A0 in (b) and answer > 3.6) \nB1 equivalent reasons as above but choose A \ndB1 same rules as above but applied to A \n \n \n  "
+          }
+        ],
+        "warnings": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "kind": "parsed_part",
+      "payload": {
+        "parsed_id": "PARSED-Q2-c",
+        "part_id": "Q2-c",
+        "parser_version": "9ma0-2025-q2/1",
+        "marks": 2,
+        "spans": [
+          {
+            "role": "shared_stem",
+            "locator_id": "QP-Q2",
+            "locator_version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "start": 202,
+            "end": 487,
+            "text": "2. Runners in an athletics club can train with either coach A or coach B for the 400 m race.\n Coach A\n trains 120 runners for the 400  m and records the best time, x seconds, for \neach runner\n.\n The results are summarised by the following  statistics\nxx/g32/g32/g166/g1666612 364902\n2\n"
+          },
+          {
+            "role": "prompt",
+            "locator_id": "QP-Q2-c",
+            "locator_version": "5456f6b4fe0bd046c76b0e5047e65de46d211a25549ee3984537c420c4a9d263",
+            "start": 925,
+            "end": 1007,
+            "text": " State, giving a reason, which coach \nis more likely to have trained the  winner\n."
+          },
+          {
+            "role": "mark_scheme",
+            "locator_id": "MS-Q2-c",
+            "locator_version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+            "start": 255,
+            "end": 396,
+            "text": " Coach B  because standard deviation is greater M1 2.4 \nThis means B has a greater range and therefore more extreme values A1ft 2.2b \n (2)  \n"
+          },
+          {
+            "role": "mark_scheme_notes",
+            "locator_id": "MS-Q2-c",
+            "locator_version": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+            "start": 407,
+            "end": 1830,
+            "text": "Notes:  \nIgnore units in this question \n(a) B1 for 55.1  or 1\n1055  only  (may be seen in the question) ISW e.g. 55.1 followed by 55 etc \nDo not accept 551\n10  that scores B0 \n(b) M1 for a correct expression (values seen not just a formula)(including ) \nA1 for 2.2  or  11\n5  o.e. (allow s = 2.209… so awrt 2.21) \nCorrect answer is 2 marks \n(c) \n \n“2.2”<3.6 \n \n \n \n \n \n \n \n \n \n \nSC \n“2.2”>3.6 \nIgnore comments about different number of runners.  Don’t need to state means are the same. \nIf there is no answer given for (b) then no marks can be scored in (c) \nB1 for coach B and states  s.d. of B is greater o.e. Must compare. Allow implied choose B \ne.g. B has a greater range or Bs values are more spread out or  3.6 > “2.2”  or \"2.2\"Bσ >  \nMay say s.d. of A is smaller which is equivalent to saying s.d. of B is larger \ndB1 (dep on 1st B1 scored) for clear reason why greater s.d. means choose coach B \nIdea of greater range and more extreme values (faster times) in B  \ne.g. B has more (or greater chance of or greater % of) runners at lower times \n(may compare mean – 1 or 2 or 3 standard deviations to show that B has the quicker time) \ne.g. coach A (52.9) > (51.5) coach B so coach B likely to be quickest \nNB “coach B  since B has greater range /s.d.  and so more extreme values” scores B1B1 \n(A0 in (b) and answer > 3.6) \nB1 equivalent reasons as above but choose A \ndB1 same rules as above but applied to A \n \n \n  "
+          },
+          {
+            "role": "comparison_context",
+            "locator_id": "QP-Q2",
+            "locator_version": "7c9942d0f2a6c37d04cc5f5c5e73566aaf7c0ce3fb0e4794d0ab63cacaae5952",
+            "start": 666,
+            "end": 921,
+            "text": "\n The mean and standard deviation \nfor the best times of the 100 runners trained for \nthe 400 m by coach B are 55.1 seconds and 3.6 seconds  respectively\n.\n A 400 m race consists of equal numbers of the fastest runners trained \nby coach A and by \ncoach B\n"
+          }
+        ],
+        "warnings": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+          "Scheme (c) depends on (b); larger SD alone does not guarantee faster individual times."
+        ]
+      },
+      "judgment_refs": []
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-a",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-MEAN-CALC",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-a-MEAN-CALC",
+          "EV-MS-MAP-Q2-a-MEAN-CALC"
+        ],
+        "focus_concept_ids": [],
+        "mapping_id": "MAP-Q2-a-MEAN-CALC",
+        "mapping_method": "rule",
+        "part_id": "Q2-a",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-a",
+            "locator:MS-Q2-a"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/MEAN-CALC matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed"
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-a"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-QP-MAP-Q2-a-MEAN-CALC",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate MEAN-CALC association based on prompt span; exact text retained in parsed_part:PARSED-Q2-a. Extracted segment:  Calculate the mean  of the best times for the runners trained by coach  A",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-a"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "QP-Q2-a"
+        ],
+        "target": {
+          "id": "MAP-Q2-a-MEAN-CALC",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-a"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-MS-MAP-Q2-a-MEAN-CALC",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate MEAN-CALC association based on mark_scheme span; exact text retained in parsed_part:PARSED-Q2-a. Extracted segment:  6612\n120x = =\n 55.1 (seconds) B1 1.1b \n (1)  \n",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:MS-Q2-a"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "MS-Q2-a"
+        ],
+        "target": {
+          "id": "MAP-Q2-a-MEAN-CALC",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-b",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-SD-CALC",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-b-SD-CALC",
+          "EV-MS-MAP-Q2-b-SD-CALC"
+        ],
+        "focus_concept_ids": [],
+        "mapping_id": "MAP-Q2-b-SD-CALC",
+        "mapping_method": "rule",
+        "part_id": "Q2-b",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-b",
+            "locator:MS-Q2-b"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/SD-CALC matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed"
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-b"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-QP-MAP-Q2-b-SD-CALC",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate SD-CALC association based on prompt span; exact text retained in parsed_part:PARSED-Q2-b. Extracted segment:  Calculate \nthe standard deviation of the best times for the runners trained by coach  A",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-b"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "QP-Q2-b"
+        ],
+        "target": {
+          "id": "MAP-Q2-b-SD-CALC",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-b"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-MS-MAP-Q2-b-SD-CALC",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate SD-CALC association based on mark_scheme span; exact text retained in parsed_part:PARSED-Q2-b. Extracted segment:  [ ]\n2364 902 (\"55.1\")     or    4.84120\nxσ = −  M1 1.1b \n                                                                         = 2.2 (seconds) A1 1.1b \n (2)  \n",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:MS-Q2-b"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "MS-Q2-b"
+        ],
+        "target": {
+          "id": "MAP-Q2-b-SD-CALC",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c",
+        "scope:SCOPE-STAT-2.3"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-VARIATION-INTERPRET",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+          "EV-MS-MAP-Q2-c-VARIATION-INTERPRET"
+        ],
+        "focus_concept_ids": [],
+        "mapping_id": "MAP-Q2-c-VARIATION-INTERPRET",
+        "mapping_method": "rule",
+        "part_id": "Q2-c",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/VARIATION-INTERPRET matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Existing section 2.3 scope remains a candidate association.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed"
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-QP-MAP-Q2-c-VARIATION-INTERPRET",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate VARIATION-INTERPRET association based on prompt span; exact text retained in parsed_part:PARSED-Q2-c. Extracted segment:  State, giving a reason, which coach \nis more likely to have trained the  winner\n.",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "QP-Q2-c"
+        ],
+        "target": {
+          "id": "MAP-Q2-c-VARIATION-INTERPRET",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-MS-MAP-Q2-c-VARIATION-INTERPRET",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate VARIATION-INTERPRET association based on mark_scheme span; exact text retained in parsed_part:PARSED-Q2-c. Extracted segment:  Coach B  because standard deviation is greater M1 2.4 \nThis means B has a greater range and therefore more extreme values A1ft 2.2b \n (2)  \n",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "MS-Q2-c"
+        ],
+        "target": {
+          "id": "MAP-Q2-c-VARIATION-INTERPRET",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c"
+      ],
+      "kind": "part_mapping",
+      "payload": {
+        "assessment_extent": "partial",
+        "canonical_id": "CAN-STAT-CONTEXT-INFER",
+        "confidence": null,
+        "evidence_ids": [
+          "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+          "EV-MS-MAP-Q2-c-CONTEXT-INFER"
+        ],
+        "focus_concept_ids": [],
+        "mapping_id": "MAP-Q2-c-CONTEXT-INFER",
+        "mapping_method": "rule",
+        "part_id": "Q2-c",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c",
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "rationale": "Candidate rule 9ma0-2025-q2/1/CONTEXT-INFER matched the located prompt and scoring segment. Partial assessment only; requires academic review of definition, conditions and scheme notes. Exact syllabus association remains unresolved and is not asserted.",
+        "review_decision_id": null,
+        "review_status": "pending",
+        "role": "assessed"
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-QP-MAP-Q2-c-CONTEXT-INFER",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate CONTEXT-INFER association based on prompt span; exact text retained in parsed_part:PARSED-Q2-c. Extracted segment:  State, giving a reason, which coach \nis more likely to have trained the  winner\n.",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:QP-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "QP-Q2-c"
+        ],
+        "target": {
+          "id": "MAP-Q2-c-CONTEXT-INFER",
+          "kind": "part_mapping"
+        }
+      }
+    },
+    {
+      "judgment_refs": [
+        "parsed_part:PARSED-Q2-c"
+      ],
+      "kind": "evidence",
+      "payload": {
+        "application": null,
+        "confidence": null,
+        "content_kind": "interpretation",
+        "context_id": "CTX-9MA0",
+        "evidence_id": "EV-MS-MAP-Q2-c-CONTEXT-INFER",
+        "evidence_role": "supports",
+        "examined_sample": null,
+        "explicit_exclusion": false,
+        "objective_id": null,
+        "observation": "Candidate CONTEXT-INFER association based on mark_scheme span; exact text retained in parsed_part:PARSED-Q2-c. Extracted segment:  Coach B  because standard deviation is greater M1 2.4 \nThis means B has a greater range and therefore more extreme values A1ft 2.2b \n (2)  \n",
+        "observation_status": "observed",
+        "provenance": {
+          "creation_method": "rule",
+          "origin": "real",
+          "source_references": [
+            "locator:MS-Q2-c"
+          ],
+          "synthetic_notice": null
+        },
+        "review_decision_id": null,
+        "review_status": "pending",
+        "source_locator_ids": [
+          "MS-Q2-c"
+        ],
+        "target": {
+          "id": "MAP-Q2-c-CONTEXT-INFER",
+          "kind": "part_mapping"
+        }
+      }
+    }
+  ],
+  "expected_heads": {
+    "parsed_part:PARSED-Q2-a": null,
+    "parsed_part:PARSED-Q2-b": null,
+    "parsed_part:PARSED-Q2-c": null,
+    "part_mapping:MAP-Q2-a-MEAN-CALC": "f3211a25eab12f6e9fbbba410a3509eadfa92820c7f1530fb93e940bff2a9a2f",
+    "evidence:EV-QP-MAP-Q2-a-MEAN-CALC": "5a9dd7df0794a47f46752fbca28e060552177f50587197275ba34eece63dd9aa",
+    "evidence:EV-MS-MAP-Q2-a-MEAN-CALC": "34b2bafbb71c9b867378d1f33ea090ee6a40f8ce371c087585bad6d5ad6c04a7",
+    "part_mapping:MAP-Q2-b-SD-CALC": "ae10720d524153f7b105cf463205a6a77b70d10287ce2cdc967d7c9a2fd10b3c",
+    "evidence:EV-QP-MAP-Q2-b-SD-CALC": "4dc3e8753a422c7bf3c0dcf44cad11d2208424dc59ec390178c07f01432c8162",
+    "evidence:EV-MS-MAP-Q2-b-SD-CALC": "cc9e7aad966abe0cbf75d675a5269767389fac5da595b99d5734574a6292ddc3",
+    "part_mapping:MAP-Q2-c-VARIATION-INTERPRET": "a8c152df9da0d20f6e1ac8dce27e4065689083b536a101dcd7f71ffc2a69ba4d",
+    "evidence:EV-QP-MAP-Q2-c-VARIATION-INTERPRET": "35eae350f4e771ddf93e6597d6039a91de9d5b2f9afd39986abad9484b23d2c6",
+    "evidence:EV-MS-MAP-Q2-c-VARIATION-INTERPRET": "e1b995640b83e3823d2dae3de2c3bd106c493ad3e0673ce3d444475b5adb1535",
+    "part_mapping:MAP-Q2-c-CONTEXT-INFER": "12f7e110105dbb6698548a7af52c4cc095993ef48a74da6116d736bb76f23ad1",
+    "evidence:EV-QP-MAP-Q2-c-CONTEXT-INFER": "b7141c5d107f60b93e809d940fbfc93e2d9981592169a5fd4a1edee5045864ce",
+    "evidence:EV-MS-MAP-Q2-c-CONTEXT-INFER": "82f6137686ffa533fd164a2b8e8d6a904b28a48ca9fc71aadc6f61f111b2a47b"
+  }
+}

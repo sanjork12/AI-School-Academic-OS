@@ -1,0 +1,47 @@
+{
+  "status": "complete_for_controlled_SL10_grammar_with_known_historical_test_error",
+  "reference_version": "v1.4",
+  "manifest": {
+    "path": "output/reference_freeze_v1_4/reference_manifest.json",
+    "sha256": "dfcf021201db4c1ea6a677ee8f53301acf42d2def370ac427cb77ffaf71755c4"
+  },
+  "baselines": [
+    {
+      "reference_version": "v1.1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "dfcf021201db4c1ea6a677ee8f53301acf42d2def370ac427cb77ffaf71755c4",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.2",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "dfcf021201db4c1ea6a677ee8f53301acf42d2def370ac427cb77ffaf71755c4",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.3",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "dfcf021201db4c1ea6a677ee8f53301acf42d2def370ac427cb77ffaf71755c4",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.4",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "dfcf021201db4c1ea6a677ee8f53301acf42d2def370ac427cb77ffaf71755c4",
+      "trust_authority": false,
+      "verification_scope": "current_conformance"
+    }
+  ],
+  "task_acceptance": {
+    "path": "output/p6a3_expression_verification/acceptance.json",
+    "sha256": "6acc6ed6c5acf6d89c8d1d2e852f380ee0f3e3c2ec6e61b5c0073123b1711177"
+  },
+  "model_provider_calls": 0
+}

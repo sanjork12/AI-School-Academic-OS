@@ -1,0 +1,1 @@
+"""Independent acceptance oracle. Production never reads this fixture."""

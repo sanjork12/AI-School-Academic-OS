@@ -1,0 +1,424 @@
+{
+  "academic_scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+  "artifact_type": "student_classroom_pptx",
+  "aspect_ratio": "16:9",
+  "audience": "UK A Level Mathematics students",
+  "content_coverage": {
+    "authored-sd-v1-calculation-check-block": [
+      "focused-review-slide-10"
+    ],
+    "authored-sd-v1-calculation-check-question": [
+      "focused-review-slide-10"
+    ],
+    "authored-sd-v1-calculation-check-solution": [
+      "focused-review-slide-10"
+    ],
+    "authored-sd-v1-concept": [
+      "focused-review-slide-02"
+    ],
+    "authored-sd-v1-concept-check-block": [
+      "focused-review-slide-09"
+    ],
+    "authored-sd-v1-concept-check-question": [
+      "focused-review-slide-09"
+    ],
+    "authored-sd-v1-concept-check-solution": [
+      "focused-review-slide-09"
+    ],
+    "authored-sd-v1-deviation-formula": [
+      "focused-review-slide-04"
+    ],
+    "authored-sd-v1-method": [
+      "focused-review-slide-04"
+    ],
+    "authored-sd-v1-practice-1-block": [
+      "focused-review-slide-07"
+    ],
+    "authored-sd-v1-practice-1-question": [
+      "focused-review-slide-07"
+    ],
+    "authored-sd-v1-practice-1-solution": [
+      "focused-review-slide-07"
+    ],
+    "authored-sd-v1-practice-2-block": [
+      "focused-review-slide-08"
+    ],
+    "authored-sd-v1-practice-2-question": [
+      "focused-review-slide-08"
+    ],
+    "authored-sd-v1-practice-2-solution": [
+      "focused-review-slide-08"
+    ],
+    "authored-sd-v1-summary-formula": [
+      "focused-review-slide-05",
+      "focused-review-slide-06"
+    ],
+    "authored-sd-v1-summary-method": [
+      "focused-review-slide-05"
+    ],
+    "authored-sd-v1-visual": [
+      "focused-review-slide-03"
+    ],
+    "authored-sd-v1-worked-block": [
+      "focused-review-slide-06"
+    ],
+    "authored-sd-v1-worked-question": [
+      "focused-review-slide-06"
+    ],
+    "authored-sd-v1-worked-solution": [
+      "focused-review-slide-06"
+    ]
+  },
+  "identity": {
+    "profile": "profile-classroom/1",
+    "title": "Standard Deviation",
+    "topic_key": "standard-deviation"
+  },
+  "language": "English",
+  "profile_key": "focused-review",
+  "profile_title": "Focused Review",
+  "render_constraints": [
+    "No new academic content.",
+    "Use validated values and formula ASTs.",
+    "Keep practice/check solutions outside the PPTX.",
+    "Use editable text, mathematical notation and data marks.",
+    "No official branding or endorsement.",
+    "Renderer eligibility is not academic publication."
+  ],
+  "role_coverage": {
+    "profiled-sd-focused-review-FR-01": [
+      "focused-review-slide-02"
+    ],
+    "profiled-sd-focused-review-FR-02": [
+      "focused-review-slide-03"
+    ],
+    "profiled-sd-focused-review-FR-03": [
+      "focused-review-slide-04"
+    ],
+    "profiled-sd-focused-review-FR-04": [
+      "focused-review-slide-05"
+    ],
+    "profiled-sd-focused-review-FR-05": [
+      "focused-review-slide-06"
+    ],
+    "profiled-sd-focused-review-FR-06": [
+      "focused-review-slide-07"
+    ],
+    "profiled-sd-focused-review-FR-07": [
+      "focused-review-slide-08"
+    ],
+    "profiled-sd-focused-review-FR-08": [
+      "focused-review-slide-09"
+    ],
+    "profiled-sd-focused-review-FR-09": [
+      "focused-review-slide-10"
+    ]
+  },
+  "schema_version": "presentation-manifest/2",
+  "slides": [
+    {
+      "content_refs": [],
+      "layout_intent": "classroom-v2/title_learning_goals",
+      "layout_variant": "title_learning_goals",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [],
+      "ref": "focused-review-slide-01",
+      "slide_number": 1,
+      "slide_type": "title_learning_goals",
+      "student_visible": true,
+      "student_visible_refs": [],
+      "teacher_only_refs": [],
+      "title": "Standard Deviation",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-concept"
+      ],
+      "layout_intent": "classroom-v2/concept",
+      "layout_variant": "concept",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-01"
+      ],
+      "ref": "focused-review-slide-02",
+      "slide_number": 2,
+      "slide_type": "concept",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-concept"
+      ],
+      "teacher_only_refs": [],
+      "title": "What is standard deviation?",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-visual"
+      ],
+      "layout_intent": "classroom-v2/visual_comparison",
+      "layout_variant": "visual_comparison",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-02"
+      ],
+      "ref": "focused-review-slide-03",
+      "slide_number": 3,
+      "slide_type": "visual_comparison",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-visual"
+      ],
+      "teacher_only_refs": [],
+      "title": "Same mean, different spread",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-method",
+        "authored-sd-v1-deviation-formula"
+      ],
+      "layout_intent": "classroom-v2/calculation_method",
+      "layout_variant": "calculation_method",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-03"
+      ],
+      "ref": "focused-review-slide-04",
+      "slide_number": 4,
+      "slide_type": "calculation_method",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-method",
+        "authored-sd-v1-deviation-formula"
+      ],
+      "teacher_only_refs": [],
+      "title": "How standard deviation works",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-summary-method",
+        "authored-sd-v1-summary-formula"
+      ],
+      "layout_intent": "classroom-v2/task_form_method",
+      "layout_variant": "task_form_method",
+      "learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-04"
+      ],
+      "ref": "focused-review-slide-05",
+      "slide_number": 5,
+      "slide_type": "task_form_method",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-summary-method",
+        "authored-sd-v1-summary-formula"
+      ],
+      "teacher_only_refs": [],
+      "title": "From summary statistics",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-worked-block",
+        "authored-sd-v1-worked-question",
+        "authored-sd-v1-summary-formula",
+        "authored-sd-v1-worked-solution"
+      ],
+      "layout_intent": "classroom-v2/worked_example",
+      "layout_variant": "worked_example",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-05"
+      ],
+      "ref": "focused-review-slide-06",
+      "slide_number": 6,
+      "slide_type": "worked_example",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-worked-block",
+        "authored-sd-v1-worked-question",
+        "authored-sd-v1-summary-formula",
+        "authored-sd-v1-worked-solution"
+      ],
+      "teacher_only_refs": [],
+      "title": "Worked example",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-1-question"
+      ],
+      "layout_intent": "classroom-v2/student_practice",
+      "layout_variant": "student_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-06"
+      ],
+      "ref": "focused-review-slide-07",
+      "slide_number": 7,
+      "slide_type": "student_practice",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-1-question"
+      ],
+      "teacher_only_refs": [
+        "authored-sd-v1-practice-1-solution"
+      ],
+      "title": "Practice 1",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-v1-practice-2-question"
+      ],
+      "layout_intent": "classroom-v2/student_practice",
+      "layout_variant": "student_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-07"
+      ],
+      "ref": "focused-review-slide-08",
+      "slide_number": 8,
+      "slide_type": "student_practice",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-practice-2-block",
+        "authored-sd-v1-practice-2-question"
+      ],
+      "teacher_only_refs": [
+        "authored-sd-v1-practice-2-solution"
+      ],
+      "title": "Practice 2",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-concept-check-block",
+        "authored-sd-v1-concept-check-question"
+      ],
+      "layout_intent": "classroom-v2/concept_check",
+      "layout_variant": "concept_check",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-08"
+      ],
+      "ref": "focused-review-slide-09",
+      "slide_number": 9,
+      "slide_type": "concept_check",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-concept-check-block",
+        "authored-sd-v1-concept-check-question"
+      ],
+      "teacher_only_refs": [
+        "authored-sd-v1-concept-check-solution"
+      ],
+      "title": "Concept check",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-calculation-check-question"
+      ],
+      "layout_intent": "classroom-v2/calculation_check",
+      "layout_variant": "calculation_check",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-09"
+      ],
+      "ref": "focused-review-slide-10",
+      "slide_number": 10,
+      "slide_type": "calculation_check",
+      "student_visible": true,
+      "student_visible_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-calculation-check-question"
+      ],
+      "teacher_only_refs": [
+        "authored-sd-v1-calculation-check-solution"
+      ],
+      "title": "Calculation check",
+      "visual_refs": []
+    },
+    {
+      "content_refs": [],
+      "layout_intent": "classroom-v2/learning_summary",
+      "layout_variant": "learning_summary",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "notes_refs": [],
+      "profile_role_refs": [],
+      "ref": "focused-review-slide-11",
+      "slide_number": 11,
+      "slide_type": "learning_summary",
+      "student_visible": true,
+      "student_visible_refs": [],
+      "teacher_only_refs": [],
+      "title": "Summary",
+      "visual_refs": []
+    }
+  ],
+  "solution_visibility": {
+    "authored-sd-v1-calculation-check-solution": "teacher_sidecar_only",
+    "authored-sd-v1-concept-check-solution": "teacher_sidecar_only",
+    "authored-sd-v1-practice-1-solution": "teacher_sidecar_only",
+    "authored-sd-v1-practice-2-solution": "teacher_sidecar_only",
+    "authored-sd-v1-worked-solution": "student_worked_example"
+  },
+  "source_validation": {
+    "authored_content_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+    "content_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804",
+    "learning_specification_sha256": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "lesson_profile_sha256": "955186f6b764d8ae0763db35d73f6957a5f23ad502f41491cf9670bb3163153d",
+    "profiled_content_sha256": "2e40cb2668edb952e291e9851dae69a7da645060142d03ebbe5b1bf8182c1211",
+    "profiled_pedagogy_sha256": "88da72064095578b6f2afd73c02f96ba7ce3b6271e5cae155a59569d94645aa3",
+    "profiled_validation_sha256": "dec227dba04c7b313a94ce1bc6b868bcb2d948ec1683bccd464043f6055701ac"
+  },
+  "target_density_attained": true,
+  "target_duration_minutes": 25
+}

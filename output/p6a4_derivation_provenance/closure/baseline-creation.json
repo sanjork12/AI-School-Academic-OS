@@ -1,0 +1,24 @@
+{
+  "active_reference_version": "v1.5",
+  "authorized_existing_file_changes": 18,
+  "current_conformance": {
+    "errors": [],
+    "manifest_sha256": "5f5c3e1453cc079e6ca22926db7c23808128e00e45e58481a24440cd96523c86",
+    "reference_version": "v1.5",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "initial_conformance": {
+    "errors": [],
+    "manifest_sha256": "047c5de7bf01085f7a263b0b91513cc9994d49fdf49c12a36a118284fbfb4472",
+    "reference_version": "v1.5",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "manifest_path": "output/reference_freeze_v1_5/closure_manifest.json",
+  "manifest_sha256": "5f5c3e1453cc079e6ca22926db7c23808128e00e45e58481a24440cd96523c86",
+  "original_protected_files": 1290,
+  "protected_files": 1335
+}

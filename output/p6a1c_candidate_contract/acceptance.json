@@ -1,0 +1,175 @@
+{
+  "task": "P6A.1c",
+  "status": "implemented_offline_verified_with_known_historical_missing_pptx_error",
+  "fully_green": false,
+  "candidate_contract": "ai-author-candidate/2",
+  "brief_contract": "authoring-brief/2",
+  "active_engineering_baseline": "v1.2",
+  "baseline_authorization": "User explicitly approved adding v1.2 and preserving v1.1 historical integrity.",
+  "baseline_checks": [
+    {
+      "reference_version": "v1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.2",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "trust_authority": false,
+      "verification_scope": "current_conformance"
+    }
+  ],
+  "protected_files_checked": 1132,
+  "unexpected_protected_deltas": [],
+  "trusted_database_unchanged": true,
+  "protected_snapshots_unchanged": true,
+  "reviews_and_governance_unchanged": true,
+  "live_run_unchanged": true,
+  "historical_candidates_rejected": 10,
+  "gold_results": [
+    {
+      "id": "manual-attempt-01",
+      "accepted": true,
+      "violations": []
+    },
+    {
+      "id": "manual-attempt-02",
+      "accepted": true,
+      "violations": []
+    },
+    {
+      "id": "wrong-value",
+      "accepted": false,
+      "violations": [
+        "mathematical_value_invalid",
+        "solution_valid"
+      ]
+    },
+    {
+      "id": "wrong-variance",
+      "accepted": false,
+      "violations": [
+        "mathematical_value_invalid",
+        "solution_valid"
+      ]
+    },
+    {
+      "id": "equation-value",
+      "accepted": false,
+      "violations": [
+        "numeric_encoding_invalid"
+      ]
+    },
+    {
+      "id": "old-contract",
+      "accepted": false,
+      "violations": [
+        "candidate_contract_version_unsupported"
+      ]
+    }
+  ],
+  "tests": {
+    "focused_contract": {
+      "total": 17,
+      "passed": 17,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "final_relevant": {
+      "total": 279,
+      "passed": 279,
+      "failed": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 1062.775210199994
+    },
+    "full": {
+      "total": 1105,
+      "passed": 1104,
+      "failed": 0,
+      "errors": 1,
+      "skipped": 0,
+      "expected_failures": 0,
+      "unexpected_successes": 0,
+      "seconds": 295.88868050000747,
+      "failure_details": [],
+      "error_details": [
+        {
+          "test": "test_preserved_project_files (test_academic_knowledge_v03.V03Tests.test_preserved_project_files) (file='AI_Academic_Operating_System_Brainstorm_CN.pptx')",
+          "traceback": "Traceback (most recent call last):\n  File \"D:\\AI-School-Academic-OS\\test_academic_knowledge_v03.py\", line 444, in test_preserved_project_files\n    self.assertEqual(hashlib.sha256((root / relative).read_bytes()).hexdigest(), expected)\n                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 777, in read_bytes\n    with self.open(mode='rb', buffering=0) as f:\n         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Python314\\Lib\\pathlib\\__init__.py\", line 771, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\AI-School-Academic-OS\\\\AI_Academic_Operating_System_Brainstorm_CN.pptx'\n"
+        }
+      ]
+    },
+    "earlier_iterations": [
+      {
+        "suite": "initial focused contract",
+        "total": 17,
+        "passed": 15,
+        "failed": 2,
+        "errors": 0,
+        "reason": "Test assertions expected tuples but audit JSON emits lists; corrected assertions."
+      },
+      {
+        "suite": "initial relevant regressions",
+        "total": 179,
+        "passed": 177,
+        "failed": 1,
+        "errors": 1,
+        "skipped": 0,
+        "seconds": 65.37739159999182,
+        "reason": "v1.2 not yet built (dry-run correctly blocked); Unicode console fixture still loaded historical v1 brief. Updated test input source, preserved old artifact."
+      }
+    ]
+  },
+  "dry_run": {
+    "exit_code": 0,
+    "seconds": 9.755418099986855,
+    "provider_api_calls": 0
+  },
+  "live_api_calls": 0,
+  "paid_qualification_run": false,
+  "production_renderer_connected": false,
+  "expression_mathematics_verified": false,
+  "compatibility": "Old candidates are explicitly rejected, not migrated or repaired. Public validation booleans retained; stage_status distinguishes FAILED and NOT_EVALUATED; qualification uses null for unevaluated checks.",
+  "reproducible_commands": [
+    "python -B -X utf8 -m unittest tests_p0.test_candidate_contract -v",
+    "python -B -X utf8 -m unittest discover -v",
+    "python -B -X utf8 -m academic_os.ai_qualification --db var/p0_q2.sqlite3 qualify-ai-author standard-deviation --profile standard-lesson --role profiled-sd-standard-lesson-SL-10 --attempts 10 --dry-run"
+  ],
+  "evidence": {
+    "output/p6a1c_candidate_contract/dry-run.json": "195ab48a21c22001ab014e9f6fdf710b1b913545c105baf5dc688906d217fa8e",
+    "output/p6a1c_candidate_contract/final-focused-regressions.json": "87b5f8fbd09681e63e88b7fa069c0ff17e7a2d98a9a281e52261aea19bb0853c",
+    "output/p6a1c_candidate_contract/final-focused-regressions.log": "ae76bda4522e26c69432d07eed19a81d71b1261ad2f8bec90fa7e97d8e7e60e2",
+    "output/p6a1c_candidate_contract/full-tests.json": "3fbc38403de5f8ceeccd59c4c237b18eee306d40c7f3f8d6954162242c1840c4",
+    "output/p6a1c_candidate_contract/full-tests.log": "0a57351d9582bc1375e1926b9b7db8f65b3a3269f64237e0247f3cb6afa8ddb1",
+    "output/p6a1c_candidate_contract/offline-replay.json": "2028edd6160dbfb91f49d0496330c9bf5ef3fcae4053d9887be3d11023b1464e",
+    "output/p6a1c_candidate_contract/protected-comparison.json": "e74dd6bf26e76331114fa3c7958646836d0a762e2201fb1b9e6826de413b704d",
+    "output/p6a1c_candidate_contract/regression-tests.json": "21e211380a325fe327921e0eb9d432c33aa1f45b1be1d1e0a0163075f2000b72",
+    "output/p6a1c_candidate_contract/regression-tests.log": "bdc09461328ba22e1b907ade8b72936405dcc37b6bc8cfd981faefde6936a0be",
+    "output/p6a1c_candidate_contract/start-inventory.json": "8434333abbc090b88d110529c860ccedeb0bff3642cd969a3a5a1f18a373e340",
+    "output/p6a1c_candidate_contract/trusted-state.json": "6297971a2b2e5a96d9e1cb66c1d5151e4d9d1b6840a7c2846e23ae667f40d626"
+  },
+  "manifest": {
+    "path": "output/reference_freeze_v1_2/reference_manifest.json",
+    "sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d"
+  },
+  "limitations": [
+    "Explanatory expressions remain unverified and experimental; correct scalar values do not certify their wording.",
+    "Historical verification checks preserved artifacts, not current source conformity to v1.1.",
+    "The pre-existing missing PPTX prevents a fully green suite; no test or pinned hash was altered to mask it."
+  ]
+}

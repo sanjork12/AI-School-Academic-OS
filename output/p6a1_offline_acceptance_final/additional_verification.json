@@ -1,0 +1,22 @@
+{
+  "actual_dry_run_cli_exit_code": 0,
+  "actual_rebuild_cli_exit_code": 0,
+  "earlier_regression_receipt": "output/p6a1_offline_acceptance/regression_results.json",
+  "freeze_and_p5c_regression": {
+    "errors": 0,
+    "failed": 0,
+    "passed": 90,
+    "skipped": 0
+  },
+  "full_suite": "Not rerun; unchanged historical missing PPTX error remains documented.",
+  "live_calls_executed": 0,
+  "new_tests": "See acceptance.json and tests.txt for the final 30-test run.",
+  "p6a_baseline": {
+    "errors": 0,
+    "failed": 0,
+    "passed": 42,
+    "skipped": 0
+  },
+  "rebuild_identical_report_hash": true,
+  "resolved_dry_run_issue": "Windows GBK could not encode U+00B2; terminal JSON now escapes Unicode without altering decoded brief content."
+}

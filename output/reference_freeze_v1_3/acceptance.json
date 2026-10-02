@@ -1,0 +1,39 @@
+{
+  "status": "implementation_preflight_verified_known_historical_test_error",
+  "reference_version": "v1.3",
+  "manifest": {
+    "path": "output/reference_freeze_v1_3/reference_manifest.json",
+    "sha256": "f47bbc11746460a091ce6e699ab66580c1022dab6397f54f31c565c41255e703"
+  },
+  "baseline_checks": [
+    {
+      "reference_version": "v1.1",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "f47bbc11746460a091ce6e699ab66580c1022dab6397f54f31c565c41255e703",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.2",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "f47bbc11746460a091ce6e699ab66580c1022dab6397f54f31c565c41255e703",
+      "trust_authority": false,
+      "verification_scope": "historical_artifact_integrity"
+    },
+    {
+      "reference_version": "v1.3",
+      "valid": true,
+      "errors": [],
+      "manifest_sha256": "f47bbc11746460a091ce6e699ab66580c1022dab6397f54f31c565c41255e703",
+      "trust_authority": false,
+      "verification_scope": "current_conformance"
+    }
+  ],
+  "task_acceptance": {
+    "path": "output/p6a2_live_qualification/acceptance.json",
+    "sha256": "c4dd7e2ceaf087bcb91daf011a756031450201b6072dd70b8b3267ce5b886678"
+  },
+  "live_api_calls": 0
+}

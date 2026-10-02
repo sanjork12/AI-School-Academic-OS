@@ -1,0 +1,137 @@
+{
+  "artifact_sha256": "9496ab5160f780865818e4258fe5862614fea316c75a99812063eb8b698a4118",
+  "authored_content_sha256": "07fec791137d8f92131094f4fc53fc4572686066b035e4d2cba4b621f9aaf721",
+  "checks": {
+    "academic_scope_preserved": true,
+    "content_coverage": true,
+    "geometry_and_fonts": true,
+    "question_solution_separation": true,
+    "role_coverage": true,
+    "slide_manifest_consistency": true,
+    "source_text_preservation": true
+  },
+  "content_coverage": {
+    "authored-sd-p5b-v1-early_concept_retrieval-1": [
+      "standard-lesson-slide-04"
+    ],
+    "authored-sd-p5b-v1-early_concept_retrieval-1-solution": [
+      "standard-lesson-slide-04"
+    ],
+    "authored-sd-p5b-v1-exit_check-1": [
+      "standard-lesson-slide-17",
+      "standard-lesson-slide-18"
+    ],
+    "authored-sd-p5b-v1-exit_check-1-solution": [
+      "standard-lesson-slide-17",
+      "standard-lesson-slide-18"
+    ],
+    "authored-sd-p5b-v1-full_worked_examples-2": [
+      "standard-lesson-slide-09"
+    ],
+    "authored-sd-p5b-v1-full_worked_examples-2-solution": [
+      "standard-lesson-slide-09"
+    ],
+    "authored-sd-p5b-v1-guided_practice-1": [
+      "standard-lesson-slide-10"
+    ],
+    "authored-sd-p5b-v1-guided_practice-1-solution": [
+      "standard-lesson-slide-10"
+    ],
+    "authored-sd-p5b-v1-guided_practice-2": [
+      "standard-lesson-slide-11"
+    ],
+    "authored-sd-p5b-v1-guided_practice-2-solution": [
+      "standard-lesson-slide-11"
+    ],
+    "authored-sd-p5b-v1-independent_practice-3": [
+      "standard-lesson-slide-14"
+    ],
+    "authored-sd-p5b-v1-independent_practice-3-solution": [
+      "standard-lesson-slide-14"
+    ],
+    "authored-sd-p5b-v1-mini_worked_example-1": [
+      "standard-lesson-slide-06"
+    ],
+    "authored-sd-p5b-v1-mini_worked_example-1-solution": [
+      "standard-lesson-slide-06"
+    ],
+    "authored-sd-v1-calculation-check-block": [
+      "standard-lesson-slide-16"
+    ],
+    "authored-sd-v1-calculation-check-question": [
+      "standard-lesson-slide-16"
+    ],
+    "authored-sd-v1-calculation-check-solution": [
+      "standard-lesson-slide-16"
+    ],
+    "authored-sd-v1-concept": [
+      "standard-lesson-slide-02"
+    ],
+    "authored-sd-v1-concept-check-block": [
+      "standard-lesson-slide-15"
+    ],
+    "authored-sd-v1-concept-check-question": [
+      "standard-lesson-slide-15"
+    ],
+    "authored-sd-v1-concept-check-solution": [
+      "standard-lesson-slide-15"
+    ],
+    "authored-sd-v1-deviation-formula": [
+      "standard-lesson-slide-05"
+    ],
+    "authored-sd-v1-method": [
+      "standard-lesson-slide-05"
+    ],
+    "authored-sd-v1-practice-1-block": [
+      "standard-lesson-slide-12"
+    ],
+    "authored-sd-v1-practice-1-question": [
+      "standard-lesson-slide-12"
+    ],
+    "authored-sd-v1-practice-1-solution": [
+      "standard-lesson-slide-12"
+    ],
+    "authored-sd-v1-practice-2-block": [
+      "standard-lesson-slide-13"
+    ],
+    "authored-sd-v1-practice-2-question": [
+      "standard-lesson-slide-13"
+    ],
+    "authored-sd-v1-practice-2-solution": [
+      "standard-lesson-slide-13"
+    ],
+    "authored-sd-v1-summary-formula": [
+      "standard-lesson-slide-07",
+      "standard-lesson-slide-08",
+      "standard-lesson-slide-09"
+    ],
+    "authored-sd-v1-summary-method": [
+      "standard-lesson-slide-07"
+    ],
+    "authored-sd-v1-visual": [
+      "standard-lesson-slide-03"
+    ],
+    "authored-sd-v1-worked-block": [
+      "standard-lesson-slide-08"
+    ],
+    "authored-sd-v1-worked-question": [
+      "standard-lesson-slide-08"
+    ],
+    "authored-sd-v1-worked-solution": [
+      "standard-lesson-slide-08"
+    ]
+  },
+  "learning_requirement_refs": [
+    "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+    "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+    "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+  ],
+  "manifest_sha256": "e4119d9b05b899053b03d01a31e4a4bb467fe30b21324890158b92d591f771b5",
+  "schema_version": "artifact-render-validation/1",
+  "slide_count": 19,
+  "valid": true,
+  "violations": [],
+  "warnings": [
+    "Composition and artifact preservation only; no academic approval or guaranteed classroom runtime."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "baseline": 166,
+  "tests": 179,
+  "new_tests": 13,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "historical_files_changed": [],
+  "real_q2": {
+    "heads": 38,
+    "versions": 50,
+    "reviews": 0,
+    "snapshots": 0
+  }
+}

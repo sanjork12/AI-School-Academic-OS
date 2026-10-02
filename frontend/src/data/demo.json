@@ -1,0 +1,1140 @@
+{
+  "curriculum": {
+    "examBoard": "Pearson Edexcel",
+    "qualification": "International GCSE",
+    "subject": "Mathematics A",
+    "specification": "4MA1",
+    "topicCode": "2",
+    "topicName": "Equations, formulae and identities",
+    "warnings": [
+      "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+      "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+      "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed."
+    ]
+  },
+  "processingSummary": {
+    "official": 41,
+    "skills": 10,
+    "mappings": 13,
+    "mapped": 13,
+    "unmapped": 28,
+    "decisions": 2,
+    "approvedDecisions": 2,
+    "mappingProposals": 7,
+    "consolidationProposals": 6
+  },
+  "topics": [
+    {
+      "code": "2.1",
+      "name": "Use of symbols",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": [
+            "a³ = a × a × a",
+            "a⁵/a⁵ = 1; a⁰ = 1; a⁻¹ = 1/a",
+            "xᵐ × xⁿ = xᵐ⁺ⁿ; xᵐ ÷ xⁿ = xᵐ⁻ⁿ; (xᵐ)ⁿ = xᵐⁿ"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.1-A",
+              "code": "2.1A",
+              "wording": "understand that symbols may be used to represent numbers in equations or variables in expressions and formulae",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.1-B",
+              "code": "2.1B",
+              "wording": "understand that algebraic expressions follow the generalised rules of arithmetic",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.1-C",
+              "code": "2.1C",
+              "wording": "use index notation for positive and negative integer powers (including zero)",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.1-D",
+              "code": "2.1D",
+              "wording": "use index laws in simple cases",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": [],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.1-A",
+              "code": "2.1A",
+              "wording": "use index notation involving fractional, negative and zero powers",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2.2",
+      "name": "Algebraic manipulation",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": [
+            "3(2x + 5)",
+            "Factorise fully 8xy² + 12y²",
+            "Expand and simplify (x + 8)(x − 5)",
+            "Factorise x2 + 10x + 24"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.2-A",
+              "code": "2.2A",
+              "wording": "evaluate expressions by substituting numerical values for letters",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.2-B",
+              "code": "2.2B",
+              "wording": "collect like terms",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.2-C",
+              "code": "2.2C",
+              "wording": "multiply a single term over a bracket",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.2-D",
+              "code": "2.2D",
+              "wording": "take out common factors",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.2-E",
+              "code": "2.2E",
+              "wording": "expand the product of two simple linear expressions",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.2-F",
+              "code": "2.2F",
+              "wording": "understand the concept of a quadratic expression and be able to factorise such expressions (limited to x2 + bx + c)",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": [
+            "Expand and simplify (x + 2)(x + 3)(x – 1)",
+            "Factorise 6x2 – 5x – 6",
+            "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+            "Simplify 2 2 2 3 4 9 x x x + −",
+            "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.2-A",
+              "code": "2.2A",
+              "wording": "expand the product of two or more linear expressions",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.2-B",
+              "code": "2.2B",
+              "wording": "understand the concept of a quadratic expression and be able to factorise such expressions",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.2-C",
+              "code": "2.2C",
+              "wording": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.2-D",
+              "code": "2.2D",
+              "wording": "complete the square for a given quadratic expression",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.2-E",
+              "code": "2.2E",
+              "wording": "use algebra to support and construct proofs",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2.3",
+      "name": "Expressions and formulae",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": [
+            "Evaluate 2x − 3y when x = 4 and y = −5",
+            "Make r the subject of A = πr²",
+            "Make t the subject of v = u + at"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.3-A",
+              "code": "2.3A",
+              "wording": "understand that a letter may represent an unknown number or a variable",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.3-B",
+              "code": "2.3B",
+              "wording": "use correct notational conventions for algebraic expressions and formulae",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.3-C",
+              "code": "2.3C",
+              "wording": "substitute positive and negative integers, decimals and fractions for words and letters in expressions and formulae",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.3-D",
+              "code": "2.3D",
+              "wording": "use formulae from mathematics and other real-life contexts expressed initially in words or diagrammatic form and convert to letters and symbols",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.3-E",
+              "code": "2.3E",
+              "wording": "derive a formula or expression",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.3-F",
+              "code": "2.3F",
+              "wording": "change the subject of a formula where the subject appears once",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": [
+            "Make r the subject of 3 4 3 V r π =",
+            "Make a the subject of 4 3 5 a a r − + =",
+            "Make l the subject of 2 l T g π ="
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.3-A",
+              "code": "2.3A",
+              "wording": "understand the process of manipulating formulae or equations to change the subject, to include cases where the subject may appear twice or a power of the subject occurs",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2.4",
+      "name": "Linear equations",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": [
+            "5x + 8 = 12",
+            "7(x + 3) = 5x − 8",
+            "4x + 5/3 = 2",
+            "The three angles of a triangle are a°, (a + 10)°, (a + 20)°. Find the value of a"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.4-A",
+              "code": "2.4A",
+              "wording": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+                  "name": "Solve linear equations in one unknown",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": {
+                "description": "Solve linear equations in one unknown, including equations with integer or fractional coefficients and equations where the unknown appears on either or both sides.",
+                "constraints": [
+                  "One unknown",
+                  "Integer or fractional coefficients",
+                  "Unknown may appear on either or both sides"
+                ]
+              }
+            },
+            {
+              "id": "EDX-4MA1-F-2.4-B",
+              "code": "2.4B",
+              "wording": "set up simple linear equations from given data",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-LINEAR-EQUATION-FORM",
+                  "name": "Form linear equations from given data",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": [
+            "See Foundation Tier",
+            "For example 2 3 2 5 6 3 2 x x − + + ="
+          ],
+          "objectives": []
+        }
+      ]
+    },
+    {
+      "code": "2.5",
+      "name": "Proportion",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": ["Higher Tier only"],
+          "objectives": []
+        },
+        {
+          "tier": "Higher",
+          "notes": [
+            "To include only the following: 2 2 3 3 1 , 1 , 1 , 1 , y x y x y x y x y x y x y x y x ∝ ∝ ∝ ∝ ∝ ∝ ∝ ∝"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.5-A",
+              "code": "2.5A",
+              "wording": "set up problems involving direct or inverse proportion and relate algebraic solutions to graphical representation of the equations",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2.6",
+      "name": "Simultaneous linear equations",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": ["x + y = 14, x − y = 2", "2a + 5b = 12, 3a + b = 5"],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.6-A",
+              "code": "2.6A",
+              "wording": "calculate the exact solution of two simultaneous equations in two unknowns",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-SIMLINEAR-SOLVE",
+                  "name": "Solve simultaneous linear equations",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": ["2x + 3y = 17; 3x – 5y = 35"],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.6-A",
+              "code": "2.6A",
+              "wording": "calculate the exact solution of two simultaneous equations in two unknowns",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-SIMLINEAR-SOLVE",
+                  "name": "Solve simultaneous linear equations",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.6-B",
+              "code": "2.6B",
+              "wording": "interpret the equations as lines and the common solution as the point of intersection",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-SIMLINEAR-GRAPH",
+                  "name": "Interpret simultaneous linear equations graphically",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2.7",
+      "name": "Quadratic equations",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": ["Solve x2 + x − 30 = 0"],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.7-A",
+              "code": "2.7A",
+              "wording": "solve quadratic equations by factorisation (limited to x2 + bx + c = 0)",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-QUAD-FACTOR",
+                  "name": "Solve quadratic equations by factorisation",
+                  "relationship": "narrower",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": {
+                "description": "Solve quadratic equations by factorisation within the restricted Foundation scope stated in the official objective.",
+                "constraints": ["Limited to x² + bx + c = 0"]
+              }
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": [
+            "2x2 – 3x + 1 = 0, x(3x – 2) = 5",
+            "y = 2x – 11 and x2 + y2 = 25",
+            "y = 11x – 2 and y = 5x2"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.7-A",
+              "code": "2.7A",
+              "wording": "solve quadratic equations by factorisation",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-QUAD-FACTOR",
+                  "name": "Solve quadratic equations by factorisation",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": {
+                "description": "Solve quadratic equations by factorisation.",
+                "constraints": []
+              }
+            },
+            {
+              "id": "EDX-4MA1-H-2.7-B",
+              "code": "2.7B",
+              "wording": "solve quadratic equations by using the quadratic formula or completing the square",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-QUAD-FORMULA-SQUARE",
+                  "name": "Solve quadratic equations using the quadratic formula or completing the square",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.7-C",
+              "code": "2.7C",
+              "wording": "form and solve quadratic equations from data given in a context",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-QUAD-CONTEXT",
+                  "name": "Form and solve quadratic equations from contextual data",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.7-D",
+              "code": "2.7D",
+              "wording": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-SIM-LINEAR-QUAD",
+                  "name": "Solve simultaneous linear and quadratic equations",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2.8",
+      "name": "Inequalities",
+      "tiers": [
+        {
+          "tier": "Foundation",
+          "notes": [
+            "To include double-ended inequalities e.g. 1 < x  5",
+            "3x − 2 < 10, so x < 4",
+            "7 − x  5, so x  2",
+            "3 < x + 2  5 so 1 < x  3",
+            "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+            "Conventions for the inclusion of boundaries are not required"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-F-2.8-A",
+              "code": "2.8A",
+              "wording": "understand and use the symbols >,<,  and ",
+              "tier": "Foundation",
+              "formattingWarning": true,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-INEQ-SYMBOLS",
+                  "name": "Understand and use inequality symbols",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.8-B",
+              "code": "2.8B",
+              "wording": "understand and use the convention for open and closed intervals on a number line",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.8-C",
+              "code": "2.8C",
+              "wording": "solve simple linear inequalities in one variable and represent the solution set on a number line",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.8-D",
+              "code": "2.8D",
+              "wording": "represent simple linear inequalities on rectangular Cartesian graphs",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-F-2.8-E",
+              "code": "2.8E",
+              "wording": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+              "tier": "Foundation",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+                  "name": "Identify regions defined by linear inequalities",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": {
+                "description": "Identify regions on rectangular Cartesian graphs defined by simple linear inequalities.",
+                "constraints": ["Simple linear inequalities"]
+              }
+            }
+          ]
+        },
+        {
+          "tier": "Higher",
+          "notes": [
+            "x2  25, 4x2 > 25",
+            "x2 + 3x + 2 > 0",
+            "Shade the region defined by the inequalities x  4, y  2x + 1, 5x + 2y  20"
+          ],
+          "objectives": [
+            {
+              "id": "EDX-4MA1-H-2.8-A",
+              "code": "2.8A",
+              "wording": "solve quadratic inequalities in one unknown and represent the solution set on a number line",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [],
+              "scope": null
+            },
+            {
+              "id": "EDX-4MA1-H-2.8-B",
+              "code": "2.8B",
+              "wording": "identify harder examples of regions defined by linear inequalities",
+              "tier": "Higher",
+              "formattingWarning": false,
+              "mappings": [
+                {
+                  "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+                  "name": "Identify regions defined by linear inequalities",
+                  "relationship": "equivalent",
+                  "confidence": 1,
+                  "status": "approved"
+                }
+              ],
+              "scope": {
+                "description": "Identify harder examples of regions defined by linear inequalities.",
+                "constraints": ["Harder examples"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewQueue": [
+    {
+      "id": "symbols",
+      "kind": "Curriculum mapping",
+      "name": "Understand and use inequality symbols",
+      "domain": "Algebra",
+      "domainSource": "Historical human review (legacy proposal has no domain)",
+      "description": "Understand and use the symbols >, <, ≥ and ≤.",
+      "canonicalId": "CAN-ALG-INEQ-SYMBOLS",
+      "reasoning": "The objective explicitly concerns understanding and using inequality symbols; none of the existing objectives addresses inequality notation.",
+      "confidence": 0.99,
+      "relationship": "equivalent",
+      "sourceStatus": "pending",
+      "historicalDecisionId": "REV-4MA1-T2-INEQ-SYMBOLS-001",
+      "historicalStatus": "approve",
+      "reviewerNotes": "Approved as a distinct canonical skill for understanding and using inequality notation.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.8-A",
+          "code": "2.8A",
+          "wording": "understand and use the symbols >,<,  and ",
+          "tier": "Foundation",
+          "formattingWarning": true,
+          "mappings": [
+            {
+              "id": "CAN-ALG-INEQ-SYMBOLS",
+              "name": "Understand and use inequality symbols",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "regions",
+      "kind": "Skill consolidation",
+      "name": "Identify regions defined by linear inequalities",
+      "domain": "Algebra",
+      "domainSource": "Historical human review (legacy proposal has no domain)",
+      "description": "Identify or interpret regions on Cartesian graphs that are defined by linear inequalities.",
+      "canonicalId": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "reasoning": "Both candidates concern identifying regions defined by linear inequalities on Cartesian graphs. The word 'harder' describes difficulty or scope only and does not change the underlying competency, so it should be represented as metadata rather than as a separate canonical skill.",
+      "confidence": 0.99,
+      "relationship": "merge",
+      "sourceStatus": "pending",
+      "historicalDecisionId": "REV-4MA1-T2-INEQ-REGION-001",
+      "historicalStatus": "approve",
+      "reviewerNotes": "Foundation simple regions and Higher harder regions represent the same underlying mathematical competency. The difference belongs in scope metadata rather than canonical skill identity.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.8-E",
+          "code": "2.8E",
+          "wording": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+          "tier": "Foundation",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+              "name": "Identify regions defined by linear inequalities",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Identify regions on rectangular Cartesian graphs defined by simple linear inequalities.",
+            "constraints": ["Simple linear inequalities"]
+          }
+        },
+        {
+          "id": "EDX-4MA1-H-2.8-B",
+          "code": "2.8B",
+          "wording": "identify harder examples of regions defined by linear inequalities",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+              "name": "Identify regions defined by linear inequalities",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Identify harder examples of regions defined by linear inequalities.",
+            "constraints": ["Harder examples"]
+          }
+        }
+      ]
+    }
+  ],
+  "approvedGraph": [
+    {
+      "id": "CAN-ALG-SIMLINEAR-SOLVE",
+      "name": "Solve simultaneous linear equations",
+      "domain": "Algebra",
+      "description": "Solve two simultaneous linear equations in two unknowns exactly.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.6-A",
+          "code": "2.6A",
+          "wording": "calculate the exact solution of two simultaneous equations in two unknowns",
+          "tier": "Foundation",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-SIMLINEAR-SOLVE",
+              "name": "Solve simultaneous linear equations",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        },
+        {
+          "id": "EDX-4MA1-H-2.6-A",
+          "code": "2.6A",
+          "wording": "calculate the exact solution of two simultaneous equations in two unknowns",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-SIMLINEAR-SOLVE",
+              "name": "Solve simultaneous linear equations",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-SIMLINEAR-GRAPH",
+      "name": "Interpret simultaneous linear equations graphically",
+      "domain": "Algebra",
+      "description": "Interpret simultaneous linear equations as lines and their common solution as the point of intersection.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-H-2.6-B",
+          "code": "2.6B",
+          "wording": "interpret the equations as lines and the common solution as the point of intersection",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-SIMLINEAR-GRAPH",
+              "name": "Interpret simultaneous linear equations graphically",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-QUAD-FACTOR",
+      "name": "Solve quadratic equations by factorisation",
+      "domain": "Algebra",
+      "description": "Solve quadratic equations by factorisation.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.7-A",
+          "code": "2.7A",
+          "wording": "solve quadratic equations by factorisation (limited to x2 + bx + c = 0)",
+          "tier": "Foundation",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-QUAD-FACTOR",
+              "name": "Solve quadratic equations by factorisation",
+              "relationship": "narrower",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Solve quadratic equations by factorisation within the restricted Foundation scope stated in the official objective.",
+            "constraints": ["Limited to x² + bx + c = 0"]
+          }
+        },
+        {
+          "id": "EDX-4MA1-H-2.7-A",
+          "code": "2.7A",
+          "wording": "solve quadratic equations by factorisation",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-QUAD-FACTOR",
+              "name": "Solve quadratic equations by factorisation",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Solve quadratic equations by factorisation.",
+            "constraints": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-QUAD-FORMULA-SQUARE",
+      "name": "Solve quadratic equations using the quadratic formula or completing the square",
+      "domain": "Algebra",
+      "description": "Solve quadratic equations using the quadratic formula or by completing the square.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-H-2.7-B",
+          "code": "2.7B",
+          "wording": "solve quadratic equations by using the quadratic formula or completing the square",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-QUAD-FORMULA-SQUARE",
+              "name": "Solve quadratic equations using the quadratic formula or completing the square",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-QUAD-CONTEXT",
+      "name": "Form and solve quadratic equations from contextual data",
+      "domain": "Algebra",
+      "description": "Form and solve quadratic equations from data given in a context.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-H-2.7-C",
+          "code": "2.7C",
+          "wording": "form and solve quadratic equations from data given in a context",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-QUAD-CONTEXT",
+              "name": "Form and solve quadratic equations from contextual data",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-SIM-LINEAR-QUAD",
+      "name": "Solve simultaneous linear and quadratic equations",
+      "domain": "Algebra",
+      "description": "Solve simultaneous equations in two unknowns where one equation is linear and the other is quadratic.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-H-2.7-D",
+          "code": "2.7D",
+          "wording": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-SIM-LINEAR-QUAD",
+              "name": "Solve simultaneous linear and quadratic equations",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+      "name": "Solve linear equations in one unknown",
+      "domain": "Algebra",
+      "description": "Solve linear equations in one unknown, including equations where the unknown appears on either or both sides.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.4-A",
+          "code": "2.4A",
+          "wording": "solve linear equations, with integer or fractional coefficients, in one unknown in which the unknown appears on either side or both sides of the equation",
+          "tier": "Foundation",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+              "name": "Solve linear equations in one unknown",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Solve linear equations in one unknown, including equations with integer or fractional coefficients and equations where the unknown appears on either or both sides.",
+            "constraints": [
+              "One unknown",
+              "Integer or fractional coefficients",
+              "Unknown may appear on either or both sides"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-LINEAR-EQUATION-FORM",
+      "name": "Form linear equations from given data",
+      "domain": "Algebra",
+      "description": "Set up simple linear equations from given data.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.4-B",
+          "code": "2.4B",
+          "wording": "set up simple linear equations from given data",
+          "tier": "Foundation",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-LINEAR-EQUATION-FORM",
+              "name": "Form linear equations from given data",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "name": "Identify regions defined by linear inequalities",
+      "domain": "Algebra",
+      "description": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.8-E",
+          "code": "2.8E",
+          "wording": "identify regions on rectangular Cartesian graphs defined by simple linear inequalities",
+          "tier": "Foundation",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+              "name": "Identify regions defined by linear inequalities",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Identify regions on rectangular Cartesian graphs defined by simple linear inequalities.",
+            "constraints": ["Simple linear inequalities"]
+          }
+        },
+        {
+          "id": "EDX-4MA1-H-2.8-B",
+          "code": "2.8B",
+          "wording": "identify harder examples of regions defined by linear inequalities",
+          "tier": "Higher",
+          "formattingWarning": false,
+          "mappings": [
+            {
+              "id": "CAN-ALG-INEQ-REGION-INTERPRET",
+              "name": "Identify regions defined by linear inequalities",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": {
+            "description": "Identify harder examples of regions defined by linear inequalities.",
+            "constraints": ["Harder examples"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "CAN-ALG-INEQ-SYMBOLS",
+      "name": "Understand and use inequality symbols",
+      "domain": "Algebra",
+      "description": "Understand and use the symbols >, <, ≥ and ≤.",
+      "objectives": [
+        {
+          "id": "EDX-4MA1-F-2.8-A",
+          "code": "2.8A",
+          "wording": "understand and use the symbols >,<,  and ",
+          "tier": "Foundation",
+          "formattingWarning": true,
+          "mappings": [
+            {
+              "id": "CAN-ALG-INEQ-SYMBOLS",
+              "name": "Understand and use inequality symbols",
+              "relationship": "equivalent",
+              "confidence": 1,
+              "status": "approved"
+            }
+          ],
+          "scope": null
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "sources": [
+      "output/topic2_foundation_parsed.json",
+      "output/topic2_higher_parsed.json",
+      "output/topic2_ai_mapping_proposals.json",
+      "output/topic2_ai_consolidation_proposals.json",
+      "output/topic2_scope_metadata_prototype.json",
+      "output/topic2_human_review_decisions.json",
+      "output/topic2_canonical_prototype.json",
+      "output/topic2_canonical_promoted.json"
+    ],
+    "note": "Derived presentation data. Not an audit log. Legacy scope difficulty_level is intentionally excluded."
+  }
+}

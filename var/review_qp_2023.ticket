@@ -1,0 +1,27 @@
+{
+  "bundle_id": "SOURCE-BUNDLE-QP-Q3-2023",
+  "definition_version": "5410b45cd4e118fb22b4ac4de311be5c9aa615b2ee2a13d8217ff51817a34568",
+  "versions": {
+    "locator:QP-2023-Q3-a": "e98ca6826f77b0d34c3d2645129c1be2befada37afe099fa6eadd07e3df7ff41",
+    "locator:QP-2023-Q3-b": "cf1c4f415e7be2ead9902c2ccb6bf6fa6e91ec07c8d9f462d6773e4ee6ac5241",
+    "locator:QP-2023-Q3-b-i": "5575a7a5ec9e1d1eb8b9f60efdc34299c5ccb1213e26dd148b797009250c566c",
+    "locator:QP-2023-Q3-b-ii": "2bd3e2a4c2d058b0452e70819da77e04337c3b4c164ee723c3bb888ff6d0e021",
+    "locator:QP-2023-Q3-c": "0f978102f06be1d7d4c1e7c11b56d99542eb02df0440d45379f26b1d625d42d3",
+    "locator:QP-2023-Q3-c-i": "8c19d34959be6af3b2608f43e7d2a8c8379b5777ab9f01c41e651fa979d4e719",
+    "locator:QP-2023-Q3-c-ii": "413e8f3dd54abcb82b7db4761648a27ad1a5487464862f1df6ec1cbff376f4aa",
+    "locator:QP-2023-Q3-whole": "d6a2a033c398e065008ad649f8e1bf57816471e867bb678f739240ca2728069c",
+    "source:QP-2023": "0734ec3d24a59f0704fd4c8589e5f6ab9531b67e3161a0adaa3bd4ede9733b2e"
+  },
+  "review_heads": {
+    "locator:QP-2023-Q3-a": null,
+    "locator:QP-2023-Q3-b": null,
+    "locator:QP-2023-Q3-b-i": null,
+    "locator:QP-2023-Q3-b-ii": null,
+    "locator:QP-2023-Q3-c": null,
+    "locator:QP-2023-Q3-c-i": null,
+    "locator:QP-2023-Q3-c-ii": null,
+    "locator:QP-2023-Q3-whole": null,
+    "source:QP-2023": null
+  },
+  "token": "65605763a54c0350eb25570b8e2598e271630232e129f5473280c14eea677e0e"
+}

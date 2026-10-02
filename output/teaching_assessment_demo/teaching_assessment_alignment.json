@@ -1,0 +1,411 @@
+{
+  "attribution_policy": "Each part awards all its marks to one primary competency and its topic. Supporting links receive zero exclusive marks. Inclusive linked marks show exposure only and must not be summed.",
+  "alignment": [
+    {
+      "competency_id": "CAN-STAT-TYPE-CLASSIFY",
+      "teaching_slides": [
+        4
+      ],
+      "worked_examples": [
+        "A"
+      ],
+      "practice_ids": [
+        "CHECK-04"
+      ],
+      "assessment_parts": [
+        "Q1(a)",
+        "Q1(b)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 4
+    },
+    {
+      "competency_id": "CAN-STAT-GROUPED-INTERPRET",
+      "teaching_slides": [
+        5,
+        7,
+        8,
+        18,
+        22
+      ],
+      "worked_examples": [
+        "G"
+      ],
+      "practice_ids": [
+        "CHECK-05",
+        "CHECK-07",
+        "CHECK-08",
+        "CHECK-18",
+        "CHECK-22"
+      ],
+      "assessment_parts": [
+        "Q1(c)",
+        "Q3(a)",
+        "Q3(b)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 7
+    },
+    {
+      "competency_id": "CAN-STAT-VARIABLE-INTERPRET",
+      "teaching_slides": [
+        4,
+        5,
+        16
+      ],
+      "worked_examples": [
+        "A"
+      ],
+      "practice_ids": [
+        "CHECK-04",
+        "CHECK-05",
+        "CHECK-16"
+      ],
+      "assessment_parts": [
+        "Q1(b)",
+        "Q7(a)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 4
+    },
+    {
+      "competency_id": "CAN-STAT-MEAN-CALCULATE",
+      "teaching_slides": [
+        6,
+        7,
+        18,
+        19,
+        20
+      ],
+      "worked_examples": [
+        "B",
+        "G",
+        "H",
+        "F"
+      ],
+      "practice_ids": [
+        "CHECK-06",
+        "CHECK-07",
+        "CHECK-18",
+        "CHECK-19",
+        "CHECK-20"
+      ],
+      "assessment_parts": [
+        "Q2(a)",
+        "Q3(a)",
+        "Q6(a)",
+        "Q7(b)",
+        "Q8(a)"
+      ],
+      "exclusive_marks": 5,
+      "inclusive_linked_marks": 14
+    },
+    {
+      "competency_id": "CAN-STAT-MEDIAN-CALCULATE",
+      "teaching_slides": [
+        6
+      ],
+      "worked_examples": [
+        "B"
+      ],
+      "practice_ids": [
+        "CHECK-06"
+      ],
+      "assessment_parts": [
+        "Q2(b)",
+        "Q5(a)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 4
+    },
+    {
+      "competency_id": "CAN-STAT-MODE-IDENTIFY",
+      "teaching_slides": [
+        7,
+        24
+      ],
+      "worked_examples": [],
+      "practice_ids": [
+        "CHECK-07",
+        "CHECK-24"
+      ],
+      "assessment_parts": [],
+      "exclusive_marks": 0,
+      "inclusive_linked_marks": 0
+    },
+    {
+      "competency_id": "CAN-STAT-QUANTILE-DETERMINE",
+      "teaching_slides": [
+        8,
+        9,
+        18
+      ],
+      "worked_examples": [
+        "C",
+        "G"
+      ],
+      "practice_ids": [
+        "CHECK-08",
+        "CHECK-09",
+        "CHECK-18"
+      ],
+      "assessment_parts": [
+        "Q3(b)",
+        "Q4(b)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 4
+    },
+    {
+      "competency_id": "CAN-STAT-LOCATION-SELECT",
+      "teaching_slides": [
+        6,
+        14
+      ],
+      "worked_examples": [
+        "B",
+        "J"
+      ],
+      "practice_ids": [
+        "CHECK-06",
+        "CHECK-14"
+      ],
+      "assessment_parts": [
+        "Q2(c)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 2
+    },
+    {
+      "competency_id": "CAN-STAT-RANGE-CALCULATE",
+      "teaching_slides": [
+        9
+      ],
+      "worked_examples": [
+        "C"
+      ],
+      "practice_ids": [
+        "CHECK-09"
+      ],
+      "assessment_parts": [
+        "Q4(a)"
+      ],
+      "exclusive_marks": 1,
+      "inclusive_linked_marks": 1
+    },
+    {
+      "competency_id": "CAN-STAT-IQR-CALCULATE",
+      "teaching_slides": [
+        9
+      ],
+      "worked_examples": [
+        "C"
+      ],
+      "practice_ids": [
+        "CHECK-09"
+      ],
+      "assessment_parts": [
+        "Q4(b)",
+        "Q4(c)",
+        "Q5(a)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 6
+    },
+    {
+      "competency_id": "CAN-STAT-VARIANCE-INTERPRET",
+      "teaching_slides": [
+        10,
+        19
+      ],
+      "worked_examples": [
+        "H"
+      ],
+      "practice_ids": [
+        "CHECK-10",
+        "CHECK-19"
+      ],
+      "assessment_parts": [
+        "Q6(a)",
+        "Q6(b)"
+      ],
+      "exclusive_marks": 3,
+      "inclusive_linked_marks": 5
+    },
+    {
+      "competency_id": "CAN-STAT-SD-CALCULATE",
+      "teaching_slides": [
+        10,
+        19,
+        22
+      ],
+      "worked_examples": [
+        "H"
+      ],
+      "practice_ids": [
+        "CHECK-10",
+        "CHECK-19",
+        "CHECK-22"
+      ],
+      "assessment_parts": [
+        "Q6(b)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 2
+    },
+    {
+      "competency_id": "CAN-STAT-SD-INTERPRET",
+      "teaching_slides": [
+        11,
+        24
+      ],
+      "worked_examples": [
+        "E"
+      ],
+      "practice_ids": [
+        "CHECK-11",
+        "CHECK-24"
+      ],
+      "assessment_parts": [
+        "Q6(c)"
+      ],
+      "exclusive_marks": 3,
+      "inclusive_linked_marks": 3
+    },
+    {
+      "competency_id": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "teaching_slides": [
+        11,
+        12,
+        13,
+        21,
+        23
+      ],
+      "worked_examples": [
+        "E",
+        "D",
+        "I"
+      ],
+      "practice_ids": [
+        "CHECK-11",
+        "CHECK-12",
+        "CHECK-13",
+        "CHECK-21",
+        "CHECK-23"
+      ],
+      "assessment_parts": [
+        "Q5(a)",
+        "Q5(b)",
+        "Q6(c)",
+        "Q7(c)",
+        "Q8(a)",
+        "Q8(b)"
+      ],
+      "exclusive_marks": 9,
+      "inclusive_linked_marks": 16
+    },
+    {
+      "competency_id": "CAN-STAT-OUTLIER-INTERPRET",
+      "teaching_slides": [
+        14,
+        24
+      ],
+      "worked_examples": [
+        "J"
+      ],
+      "practice_ids": [
+        "CHECK-14",
+        "CHECK-24"
+      ],
+      "assessment_parts": [
+        "Q2(c)",
+        "Q4(c)",
+        "Q8(a)"
+      ],
+      "exclusive_marks": 2,
+      "inclusive_linked_marks": 7
+    },
+    {
+      "competency_id": "GROUP-LDS-PURPOSE",
+      "teaching_slides": [
+        3,
+        15,
+        16,
+        24
+      ],
+      "worked_examples": [],
+      "practice_ids": [
+        "CHECK-03",
+        "CHECK-15",
+        "CHECK-16",
+        "CHECK-24"
+      ],
+      "assessment_parts": [],
+      "exclusive_marks": 0,
+      "inclusive_linked_marks": 0
+    },
+    {
+      "competency_id": "CAN-STAT-LIMITATIONS-EVALUATE",
+      "teaching_slides": [
+        13,
+        15,
+        17,
+        20,
+        21,
+        22
+      ],
+      "worked_examples": [
+        "F",
+        "I"
+      ],
+      "practice_ids": [
+        "CHECK-13",
+        "CHECK-15",
+        "CHECK-17",
+        "CHECK-20",
+        "CHECK-21",
+        "CHECK-22"
+      ],
+      "assessment_parts": [
+        "Q4(c)",
+        "Q7(b)",
+        "Q7(c)",
+        "Q8(b)"
+      ],
+      "exclusive_marks": 3,
+      "inclusive_linked_marks": 11
+    },
+    {
+      "competency_id": "CAN-STAT-CONTEXT-CONCLUDE",
+      "teaching_slides": [
+        3,
+        12,
+        17,
+        20,
+        21,
+        23
+      ],
+      "worked_examples": [
+        "D",
+        "F",
+        "I"
+      ],
+      "practice_ids": [
+        "CHECK-03",
+        "CHECK-12",
+        "CHECK-17",
+        "CHECK-20",
+        "CHECK-21",
+        "CHECK-23"
+      ],
+      "assessment_parts": [
+        "Q5(b)",
+        "Q7(a)",
+        "Q7(c)",
+        "Q8(b)"
+      ],
+      "exclusive_marks": 6,
+      "inclusive_linked_marks": 10
+    }
+  ]
+}

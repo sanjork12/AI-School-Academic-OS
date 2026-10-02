@@ -1,0 +1,10 @@
+{
+  "total": 223,
+  "passed": 223,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 153.3237683000043,
+  "baseline_cli_capture": "mocked before first v1.3 freeze; real gate tested afterward",
+  "details": []
+}

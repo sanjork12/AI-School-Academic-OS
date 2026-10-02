@@ -1,0 +1,94 @@
+{
+  "artifact_sha256": "9cf9332e17909b8bb7507a4a8de3b348753d1c25ef6264b6058bbad6c8b6018d",
+  "authored_content_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+  "checks": {
+    "geometry_and_fonts": true,
+    "learning_requirement_representation": true,
+    "mathematical_content_preservation": true,
+    "no_unsupported_content": true,
+    "question_solution_separation": true,
+    "required_content_coverage": true,
+    "slide_manifest_consistency": true
+  },
+  "content_coverage": {
+    "authored-sd-v1-calculation-check-block": [
+      "slide-10"
+    ],
+    "authored-sd-v1-calculation-check-question": [
+      "slide-10"
+    ],
+    "authored-sd-v1-concept": [
+      "slide-02"
+    ],
+    "authored-sd-v1-concept-check-block": [
+      "slide-09"
+    ],
+    "authored-sd-v1-concept-check-question": [
+      "slide-09"
+    ],
+    "authored-sd-v1-deviation-formula": [
+      "slide-04"
+    ],
+    "authored-sd-v1-method": [
+      "slide-04"
+    ],
+    "authored-sd-v1-practice-1-block": [
+      "slide-07"
+    ],
+    "authored-sd-v1-practice-1-question": [
+      "slide-07"
+    ],
+    "authored-sd-v1-practice-2-block": [
+      "slide-08"
+    ],
+    "authored-sd-v1-practice-2-question": [
+      "slide-08"
+    ],
+    "authored-sd-v1-summary-formula": [
+      "slide-05",
+      "slide-06"
+    ],
+    "authored-sd-v1-summary-method": [
+      "slide-05"
+    ],
+    "authored-sd-v1-visual": [
+      "slide-03"
+    ],
+    "authored-sd-v1-worked-block": [
+      "slide-06"
+    ],
+    "authored-sd-v1-worked-question": [
+      "slide-06"
+    ],
+    "authored-sd-v1-worked-solution": [
+      "slide-06"
+    ],
+    "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928": [
+      "slide-01",
+      "slide-11"
+    ],
+    "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a": [
+      "slide-01",
+      "slide-11"
+    ],
+    "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b": [
+      "slide-01",
+      "slide-11"
+    ]
+  },
+  "learning_requirement_refs": [
+    "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+    "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+    "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+  ],
+  "manifest_sha256": "4ceab34cdb3e203151c31c234fb0ebeb8109ba011bdb54904f4b49acea42f18b",
+  "schema_version": "artifact-render-validation/1",
+  "slide_count": 11,
+  "valid": true,
+  "violations": [],
+  "warnings": [
+    "Structural preservation does not prove visual beauty, pedagogical effectiveness, student comprehension, accessibility perfection or teacher preference.",
+    "Mathematical truth and academic boundaries are delegated to the current P4B gate; no new academic validation is performed.",
+    "Editable formula text uses explicit parentheses, Unicode roots/superscripts and slash fractions; it is not an Office equation object."
+  ]
+}

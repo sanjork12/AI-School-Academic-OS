@@ -1,0 +1,182 @@
+{
+  "academic_approval": false,
+  "brief": {
+    "allowed_question_templates": [
+      "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+    ],
+    "allowed_scaffolds": {
+      "compute_first_term": [
+        "Calculate Σx² / n.",
+        "Divide the sum of squares by the number of observations."
+      ],
+      "compute_second_term": [
+        "Calculate (Σx / n)².",
+        "Divide the sum by the number of observations, then square the result."
+      ],
+      "square_root": [
+        "Take the square root.",
+        "Take the square root of the variance."
+      ],
+      "subtract_variance_terms": [
+        "Subtract the second result from the first.",
+        "Find the difference: first term minus second term."
+      ]
+    },
+    "content_origin_policy": "ai_generated_candidate",
+    "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+    "forbidden_content": [
+      "new learning requirements, concepts, competencies or task forms",
+      "sample standard deviation or n - 1",
+      "population/sample comparison",
+      "difficulty, common-mistake or prerequisite claims",
+      "frequency, typical marks or exam predictions",
+      "formula memorisation",
+      "calculator models or button sequences",
+      "Pearson copying or official endorsement",
+      "approval, verification, safety, trust or readiness declarations"
+    ],
+    "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+    "identity": "standard-deviation-standard-lesson-SL-10/1",
+    "learning_targets": [
+      "Student should be able to: Calculate the standard deviation of a distribution.",
+      "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+    ],
+    "profile_context": "Standard lesson, guided calculation practice",
+    "required_output": [
+      "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+      "Choose one permitted question template verbatim, preserving its placeholders.",
+      "Four ordered scaffold types, with one permitted instruction for each.",
+      "Separate solution with identical inputs; exact rational intermediate results; numeric SD to 45 decimal digits when irrational; display to 2 decimal places."
+    ],
+    "role": "Guided practice 1",
+    "schema_version": "authoring-brief/1",
+    "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+    "support_mode": "guided",
+    "task_form": "From summary statistics"
+  },
+  "candidate": {
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+    "brief_sha256": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+    "candidate_id": "ai-candidate-a939200393854fb49cac1adb9d5f596d",
+    "content": {
+      "proposed_math_inputs": {
+        "n": 10,
+        "sum_x": "50",
+        "sum_x2": "290"
+      },
+      "proposed_solution": {
+        "display_answer": "9.99",
+        "exact_radicand": "4",
+        "first_term": "29",
+        "inputs": {
+          "n": 10,
+          "sum_x": "50",
+          "sum_x2": "290"
+        },
+        "mean": "5",
+        "numeric_answer": "2",
+        "second_term": "25",
+        "variance": "4"
+      },
+      "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "scaffold_steps": [
+        {
+          "instruction": "Calculate Σx² / n.",
+          "type": "compute_first_term"
+        },
+        {
+          "instruction": "Calculate (Σx / n)².",
+          "type": "compute_second_term"
+        },
+        {
+          "instruction": "Subtract the second result from the first.",
+          "type": "subtract_variance_terms"
+        },
+        {
+          "instruction": "Take the square root.",
+          "type": "square_root"
+        }
+      ]
+    },
+    "content_origin": "ai_generated_candidate",
+    "current_inputs_sha256": "45f9bb71539ef2b0fe33f84ac0b7ab38001adc8877e05e521bfc6407117a0378",
+    "learning_requirement_refs": [
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "model_metadata": {
+      "cost": "not_computed",
+      "input_tokens": null,
+      "latency_seconds": 0.0,
+      "model": "synthetic-not-a-model",
+      "output_tokens": null,
+      "provider": "synthetic_test",
+      "total_tokens": null
+    },
+    "role_ref": "profiled-sd-standard-lesson-SL-10",
+    "schema_version": "ai-author-candidate/1",
+    "task_form_refs": [
+      "task-form-summary-statistics"
+    ]
+  },
+  "candidate_id": "ai-candidate-a939200393854fb49cac1adb9d5f596d",
+  "experimental_package": null,
+  "format": "ai-slot-experiment/1",
+  "live_provider": false,
+  "model_metadata": {
+    "cost": "not_computed",
+    "input_tokens": null,
+    "latency_seconds": 0.0,
+    "model": "synthetic-not-a-model",
+    "output_tokens": null,
+    "provider": "synthetic_test",
+    "total_tokens": null
+  },
+  "provider_error_code": null,
+  "raw_response": "{\"question_template\": \"A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.\", \"proposed_math_inputs\": {\"n\": 10, \"sum_x\": \"50\", \"sum_x2\": \"290\"}, \"scaffold_steps\": [{\"type\": \"compute_first_term\", \"instruction\": \"Calculate \\u03a3x\\u00b2 / n.\"}, {\"type\": \"compute_second_term\", \"instruction\": \"Calculate (\\u03a3x / n)\\u00b2.\"}, {\"type\": \"subtract_variance_terms\", \"instruction\": \"Subtract the second result from the first.\"}, {\"type\": \"square_root\", \"instruction\": \"Take the square root.\"}], \"proposed_solution\": {\"inputs\": {\"n\": 10, \"sum_x\": \"50\", \"sum_x2\": \"290\"}, \"first_term\": \"29\", \"second_term\": \"25\", \"mean\": \"5\", \"variance\": \"4\", \"exact_radicand\": \"4\", \"numeric_answer\": \"2\", \"display_answer\": \"9.99\"}}",
+  "raw_response_label": "UNTRUSTED MODEL OUTPUT",
+  "ready_for_rendering": false,
+  "validation": {
+    "accepted": false,
+    "binding_valid": true,
+    "boundary_valid": true,
+    "brief_ref": "standard-deviation-standard-lesson-SL-10/1",
+    "candidate_id": "ai-candidate-a939200393854fb49cac1adb9d5f596d",
+    "composition_valid": false,
+    "content_complete": true,
+    "math_valid": true,
+    "origin_valid": true,
+    "scaffold_valid": true,
+    "schema_valid": true,
+    "schema_version": "ai-candidate-validation/1",
+    "scope_valid": true,
+    "separation_valid": true,
+    "solution_valid": false,
+    "verification_summary": {
+      "base_p5c_sha256": "772c2c84b9259c5cf6a2f22fc2669b81404ba48a2d417f89fdc2748a0b840702",
+      "composition_policy": "Unmodified deterministic P5C base plus independently validated one-for-one SL-10 overlay; not a P5C/1 renderer report for AI content.",
+      "mathematics": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": false,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "failed"
+      }
+    },
+    "violations": [
+      "composition_valid",
+      "solution_valid"
+    ],
+    "warnings": [
+      "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+      "P6A accepts controlled question/scaffold wording only; arbitrary natural language requires a later review policy. No general plagiarism detector."
+    ]
+  }
+}

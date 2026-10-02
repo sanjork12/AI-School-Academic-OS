@@ -1,0 +1,27 @@
+{
+  "baseline_tests": 132,
+  "final_tests": 166,
+  "new_tests": 34,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "historical_files_checked": 68,
+  "historical_files_changed": [],
+  "real_q2": {
+    "versions": 35,
+    "heads": 35,
+    "reviews": 0,
+    "snapshots": 0
+  },
+  "real_q2_publishable": false,
+  "real_q2_source_verified": false,
+  "real_q2_human_approved": false,
+  "real_q2_schema_valid": true,
+  "demo_command": "python -X utf8 scripts/demo_p0_q2.py",
+  "test_command": "python -X utf8 -m unittest discover -p 'test_*.py'",
+  "not_run": [
+    "Production authentication / cloud deployment (outside scope)",
+    "Paid model calls / multi-model tests (outside scope)",
+    "Real-source academic approval and successful publication (requires actual operator decisions)"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "artifact_kind": "teacher_product_read_model",
+  "assessment_evidence": [
+    {
+      "assessment_label": "June 2025 9MA0/31 Q2",
+      "competency": "Calculate standard deviation",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q2(b)",
+      "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+      "reading_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+      ],
+      "session": "June",
+      "task_forms": [
+        "From summary statistics"
+      ],
+      "year": 2025
+    },
+    {
+      "assessment_label": "June 2023 9MA0/31 Q3",
+      "competency": "Calculate standard deviation",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q3(b)(ii)",
+      "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+      "reading_notes": [
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "session": "June",
+      "task_forms": [
+        "From summary statistics"
+      ],
+      "year": 2023
+    }
+  ],
+  "competencies": [
+    {
+      "description": "Calculate the standard deviation of a distribution.",
+      "name": "Calculate standard deviation"
+    }
+  ],
+  "concepts": [
+    {
+      "description": "A measure of dispersion about the mean in the units of the observations.",
+      "name": "Standard deviation"
+    }
+  ],
+  "curriculum_wording": [
+    {
+      "association": "Candidate association",
+      "association_note": "Candidate link to the actual section 2.3 on descriptive statistics, not an equivalence claim about every part of Q2.",
+      "section": "Statistics section 2.3, printed page 31",
+      "wording": "Be able to calculate standard deviation, including from summary statistics."
+    }
+  ],
+  "identity": {
+    "awarding_body": "Pearson Edexcel",
+    "curriculum_section": "Statistics",
+    "qualification": "A Level Mathematics",
+    "specification_code": "9MA0",
+    "subject": "Mathematics",
+    "title": "Standard deviation"
+  },
+  "schema_version": "teacher-topic/1",
+  "task_forms": [
+    {
+      "description": "The requested calculation uses supplied summary statistics.",
+      "name": "From summary statistics"
+    }
+  ],
+  "trust_summary": {
+    "assessment_evidence_reviewed": true,
+    "canonical_knowledge_approved": true,
+    "curriculum_association_confirmed": false,
+    "curriculum_verified": true,
+    "reviewed_example_count": 2,
+    "scope_note": "Reviewed examples only; no frequency, difficulty or trend inference. Curriculum verification refers to located wording, not confirmed scope equivalence.",
+    "source_count": 5,
+    "validity_notice": "Checked for this read only. A saved product view is not a trusted snapshot; refresh through the product service before use."
+  }
+}

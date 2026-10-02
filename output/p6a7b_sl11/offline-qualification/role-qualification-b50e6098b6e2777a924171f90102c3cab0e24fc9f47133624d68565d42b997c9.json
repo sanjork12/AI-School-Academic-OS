@@ -1,0 +1,684 @@
+{
+  "academic_approval": false,
+  "candidate": {
+    "brief_ref": "standard-deviation-standard-lesson-SL-11/1",
+    "brief_sha256": "7611e23fb7f79e22850365e5730a0256998d9b4d0fdcb80d3f27c8fd9d6dc93a",
+    "candidate_id": "ai-candidate-77777777777777777777777777777777",
+    "content": {
+      "proposed_math_inputs": {
+        "n": 5,
+        "sum_x": "30",
+        "sum_x2": "190"
+      },
+      "proposed_solution": {
+        "display_answer": "1.41",
+        "exact_radicand": "2",
+        "first_term": {
+          "expression": "sum_x2 / n",
+          "value": "38"
+        },
+        "inputs": {
+          "n": 5,
+          "sum_x": "30",
+          "sum_x2": "190"
+        },
+        "mean": {
+          "expression": "sum_x / n",
+          "value": "6"
+        },
+        "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+        "second_term": {
+          "expression": "(sum_x / n)^2",
+          "value": "36"
+        },
+        "variance": {
+          "expression": "first term - second term",
+          "value": "2"
+        }
+      },
+      "question_template": "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+      "scaffold_steps": []
+    },
+    "content_origin": "ai_generated_candidate",
+    "current_inputs_sha256": "16d8bcb85f0fc8b53578ae961f3448b1ff1e064d1419f9e57327f913e8dd28c4",
+    "learning_requirement_refs": [
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "model_metadata": {
+      "cost": "not_computed",
+      "input_tokens": null,
+      "latency_seconds": 0.0,
+      "model": "offline-no-model",
+      "output_tokens": null,
+      "provider": "synthetic_test",
+      "total_tokens": null
+    },
+    "role_ref": "profiled-sd-standard-lesson-SL-11",
+    "schema_version": "ai-author-candidate/2",
+    "task_form_refs": [
+      "task-form-summary-statistics"
+    ]
+  },
+  "candidate_sha256": "ad40d41e6c49a3509d10c3add6ae0b4cf4acfd78748e48be539cabfee68d0a98",
+  "composition": {
+    "academic_approval": false,
+    "formula_hint": {
+      "formula_ref": "authored-sd-v1-summary-formula",
+      "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+      "identity": "sl11-application-formula-hint/1",
+      "owner": "application",
+      "source_field": "scaffolding/0",
+      "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+      "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+      "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+    },
+    "formula_hint_sha256": "e50bd88db0d5a2c6db786eec650980b1b123556a111e66d5d92b6ea9ef3c6638",
+    "lineage": {
+      "acceptance_policy": "sl11-numerical-provenance-required/1",
+      "brief_ref": "standard-deviation-standard-lesson-SL-11/1",
+      "brief_sha256": "7611e23fb7f79e22850365e5730a0256998d9b4d0fdcb80d3f27c8fd9d6dc93a",
+      "candidate_id": "ai-candidate-77777777777777777777777777777777",
+      "candidate_sha256": "ad40d41e6c49a3509d10c3add6ae0b4cf4acfd78748e48be539cabfee68d0a98",
+      "current_inputs_sha256": "16d8bcb85f0fc8b53578ae961f3448b1ff1e064d1419f9e57327f913e8dd28c4",
+      "deterministic_base_sha256": "07fec791137d8f92131094f4fc53fc4572686066b035e4d2cba4b621f9aaf721",
+      "provenance_verifier": "sl10-derivation-provenance/1",
+      "validation_sha256": "c744241e2e1bb2d4edfd87742fbd507bd5e5f419aa4ef9f5d58a1f8fc0daab3d"
+    },
+    "publishable": false,
+    "ready_for_p5c": false,
+    "ready_for_rendering": false,
+    "role_ref": "profiled-sd-standard-lesson-SL-11",
+    "schema_version": "experimental-numerical-role-content/1",
+    "semantic_role": "guided_practice",
+    "solution_visibility": "teacher_sidecar_only",
+    "status": "accepted_candidate_not_renderable",
+    "student_content": {
+      "formula_hint_ref": "sl11-application-formula-hint/1",
+      "question": "A dataset contains 5 observations. Their sum is 30 and the sum of their squares is 190. Calculate the population standard deviation.",
+      "summary": {
+        "n": 5,
+        "sum_x": "30",
+        "sum_x2": "190"
+      }
+    },
+    "support_policy": {
+      "model_scaffold_count": 0,
+      "profile": "standard-lesson",
+      "role_ref": "profiled-sd-standard-lesson-SL-11",
+      "semantic_role": "guided_practice",
+      "solution_visibility": "teacher_sidecar_only",
+      "support_mode": "guided",
+      "support_model": "single_formula_hint",
+      "support_owner": "application",
+      "topic": "standard-deviation",
+      "version": "sl11-single-formula-hint/1"
+    },
+    "support_policy_sha256": "738f27053449a36e83d8f3a89486f12d01288924c1433b21ff5a2055d7507b92",
+    "teacher_solution": {
+      "content_origin": "ai_generated_candidate",
+      "deviations": [],
+      "display_answer": "1.41",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "2"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "item_ref": "ai-candidate-77777777777777777777777777777777",
+      "key_semantic_elements": [],
+      "mean": "6",
+      "method_steps": [
+        "mean = 30/5 = 6",
+        "population variance = 38 - (6)^2 = 2",
+        "population SD = sqrt(2)",
+        "Display to 2 decimal places: 1.41"
+      ],
+      "numeric_answer": "1.4142135623730950488016887242096980785696718753769",
+      "ref": "ai-candidate-77777777777777777777777777777777-solution",
+      "squared_deviations": [],
+      "variance": "2"
+    }
+  },
+  "composition_sha256": "6603ab4ee287c0d7235f751ff73765c2d700d51e58ee026028723f9c1e34be41",
+  "controlled_case": {
+    "controlled_case_id": "SL11-primary",
+    "inputs": {
+      "n": 5,
+      "sum_x": "30",
+      "sum_x2": "190"
+    }
+  },
+  "controlled_case_sha256": "42b16a43446675bfda35b5ef21c24f55cdce9954161ba0869c64669c3bbda04e",
+  "experiment_type": "offline_synthetic",
+  "model_api_calls": 0,
+  "provider_invocations": 0,
+  "publishable": false,
+  "ready_for_rendering": false,
+  "schema_version": "numerical-role-offline-qualification/1",
+  "support": {
+    "formula_ref": "authored-sd-v1-summary-formula",
+    "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+    "identity": "sl11-application-formula-hint/1",
+    "owner": "application",
+    "source_field": "scaffolding/0",
+    "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+    "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+    "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+  },
+  "support_sha256": "e50bd88db0d5a2c6db786eec650980b1b123556a111e66d5d92b6ea9ef3c6638",
+  "validation": {
+    "academic_approval": false,
+    "acceptance_policy": "sl11-numerical-provenance-required/1",
+    "accepted": true,
+    "binding_valid": true,
+    "boundary_valid": true,
+    "brief": {
+      "acceptance_policy": "sl11-numerical-provenance-required/1",
+      "allowed_question_templates": [
+        "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+      ],
+      "controlled_case": {
+        "controlled_case_id": "SL11-primary",
+        "inputs": {
+          "n": 5,
+          "sum_x": "30",
+          "sum_x2": "190"
+        }
+      },
+      "controlled_case_sha256": "42b16a43446675bfda35b5ef21c24f55cdce9954161ba0869c64669c3bbda04e",
+      "controlled_mode": "summary-statistics-controlled-input/1",
+      "formula_hint": {
+        "formula_ref": "authored-sd-v1-summary-formula",
+        "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+        "identity": "sl11-application-formula-hint/1",
+        "owner": "application",
+        "source_field": "scaffolding/0",
+        "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+        "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+        "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+      },
+      "formula_hint_sha256": "e50bd88db0d5a2c6db786eec650980b1b123556a111e66d5d92b6ea9ef3c6638",
+      "identity": "standard-deviation-standard-lesson-SL-11/1",
+      "learning_targets": [
+        "Student should be able to: Calculate the standard deviation of a distribution.",
+        "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+      ],
+      "mathematical_policy": "sl10-provenance-required/1",
+      "profile": "standard-lesson",
+      "required_output": [
+        "Return ProviderContent for ai-author-candidate/2. scaffold_steps must be an empty list. Do not author a hint or any scaffold.",
+        "Choose one allowed question_template verbatim. Keep all answers in proposed_solution; no student-visible solution.",
+        "Use feasible population summary statistics; n is an integer, sums and values are exact scalar numeric strings.",
+        "Use symbolic expressions: first_term=sum_x2 / n; second_term=(sum_x / n)^2; mean=sum_x / n; variance=first term - second term or sum_x2 / n - (sum_x / n)^2.",
+        "Solution inputs must equal proposed inputs. Provide exact_radicand, finite numeric_answer within 1e-40, and display_answer to two decimals ROUND_HALF_UP.",
+        "No new scope, sample SD, difficulty, prerequisite, common-mistake, exam prediction, memorisation, calculator or approval claims.",
+        "Use exactly the application-owned controlled_case inputs."
+      ],
+      "role_ref": "profiled-sd-standard-lesson-SL-11",
+      "schema_version": "numerical-role-authoring-brief/1",
+      "semantic_role": "guided_practice",
+      "support_policy": "sl11-single-formula-hint/1",
+      "support_policy_sha256": "738f27053449a36e83d8f3a89486f12d01288924c1433b21ff5a2055d7507b92",
+      "task_form": "From summary statistics",
+      "topic": "standard-deviation"
+    },
+    "brief_sha256": "7611e23fb7f79e22850365e5730a0256998d9b4d0fdcb80d3f27c8fd9d6dc93a",
+    "candidate_contract": "ai-author-candidate/2",
+    "candidate_id": "ai-candidate-77777777777777777777777777777777",
+    "candidate_sha256": "ad40d41e6c49a3509d10c3add6ae0b4cf4acfd78748e48be539cabfee68d0a98",
+    "composition_valid": true,
+    "content_complete": true,
+    "controlled_input_binding_reason": "controlled_inputs_match",
+    "controlled_input_binding_status": "PASSED",
+    "controlled_input_binding_valid": true,
+    "derivation_provenance_status": "PASSED",
+    "derivation_provenance_valid": true,
+    "expression_semantics_valid": true,
+    "formula_hint": {
+      "formula_ref": "authored-sd-v1-summary-formula",
+      "formula_sha256": "2d681d83c3018af3b1021838bc08f2e938368f4f55ed7aaba655c046029bff2a",
+      "identity": "sl11-application-formula-hint/1",
+      "owner": "application",
+      "source_field": "scaffolding/0",
+      "source_ref": "authored-sd-p5b-v1-guided_practice-2",
+      "source_sha256": "a4453e3e8dd51eb88fbdb2b3362c511b05acb8f5714f6366bd7c375df0941e9d",
+      "text": "Use σ = sqrt(Σx² / n - (Σx / n)²)."
+    },
+    "formula_hint_sha256": "e50bd88db0d5a2c6db786eec650980b1b123556a111e66d5d92b6ea9ef3c6638",
+    "math_valid": true,
+    "mathematical_policy": "sl10-provenance-required/1",
+    "numeric_encoding_valid": true,
+    "publishable": false,
+    "ready_for_rendering": false,
+    "role_binding_valid": true,
+    "role_ref": "profiled-sd-standard-lesson-SL-11",
+    "scaffold_status": "NOT_APPLICABLE",
+    "scaffold_valid": null,
+    "schema_valid": true,
+    "schema_version": "numerical-role-validation/1",
+    "scope_valid": true,
+    "semantic_role": "guided_practice",
+    "separation_valid": true,
+    "solution_valid": true,
+    "stage_status": {
+      "binding_valid": "PASSED",
+      "boundary_valid": "PASSED",
+      "composition_valid": "PASSED",
+      "content_complete": "PASSED",
+      "derivation_provenance_valid": "PASSED",
+      "expression_semantics_valid": "PASSED",
+      "math_valid": "PASSED",
+      "numeric_encoding": "PASSED",
+      "numeric_encoding_valid": "PASSED",
+      "role_binding_valid": "PASSED",
+      "schema_valid": "PASSED",
+      "scope_valid": "PASSED",
+      "separation_valid": "PASSED",
+      "solution_valid": "PASSED",
+      "support_policy_valid": "PASSED"
+    },
+    "support_policy": "sl11-single-formula-hint/1",
+    "support_policy_sha256": "738f27053449a36e83d8f3a89486f12d01288924c1433b21ff5a2055d7507b92",
+    "support_policy_valid": true,
+    "verification_summary": {
+      "expression_math_verified": true,
+      "expressions": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "name": "sum_x2",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "claimed_value": "38",
+            "comparison": "exact_rational",
+            "evaluated_value": "38",
+            "expression": "sum_x2 / n",
+            "reason": null,
+            "valid": true
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "claimed_value": "6",
+            "comparison": "exact_rational",
+            "evaluated_value": "6",
+            "expression": "sum_x / n",
+            "reason": null,
+            "valid": true
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "name": "sum_x",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              },
+              "op": "square"
+            },
+            "claimed_value": "36",
+            "comparison": "exact_rational",
+            "evaluated_value": "36",
+            "expression": "(sum_x / n)^2",
+            "reason": null,
+            "valid": true
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "name": "first_term",
+                "op": "variable"
+              },
+              "op": "subtract",
+              "right": {
+                "name": "second_term",
+                "op": "variable"
+              }
+            },
+            "claimed_value": "2",
+            "comparison": "exact_rational",
+            "evaluated_value": "2",
+            "expression": "first term - second term",
+            "reason": null,
+            "valid": true
+          }
+        },
+        "expression_semantics_valid": true,
+        "verifier_version": "sl10-expression/1"
+      },
+      "mathematics": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "provenance": {
+        "checks": {
+          "first_term": {
+            "ast": {
+              "left": {
+                "name": "sum_x2",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "evidence_mode": "current",
+            "expected_dependency_structure": [
+              {
+                "left": {
+                  "name": "sum_x2",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              }
+            ],
+            "expected_semantic_role": "first_term",
+            "expected_value": "38",
+            "expression": "sum_x2 / n",
+            "expression_semantics_valid": true,
+            "field": "proposed_solution.first_term",
+            "policy": "sl10-provenance-required/1",
+            "reason": "provenance_verified",
+            "resolved_symbolic_sources": [
+              {
+                "ast_path": "$.left",
+                "dependencies": [
+                  "proposed_math_inputs.sum_x2"
+                ],
+                "name": "sum_x2",
+                "value": "190"
+              },
+              {
+                "ast_path": "$.right",
+                "dependencies": [
+                  "proposed_math_inputs.n"
+                ],
+                "name": "n",
+                "value": "5"
+              }
+            ],
+            "status": "PASSED",
+            "valid": true,
+            "verifier_version": "sl10-derivation-provenance/1"
+          },
+          "mean": {
+            "ast": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "evidence_mode": "current",
+            "expected_dependency_structure": [
+              {
+                "left": {
+                  "name": "sum_x",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              }
+            ],
+            "expected_semantic_role": "mean",
+            "expected_value": "6",
+            "expression": "sum_x / n",
+            "expression_semantics_valid": true,
+            "field": "proposed_solution.mean",
+            "policy": "sl10-provenance-required/1",
+            "reason": "provenance_verified",
+            "resolved_symbolic_sources": [
+              {
+                "ast_path": "$.left",
+                "dependencies": [
+                  "proposed_math_inputs.sum_x"
+                ],
+                "name": "sum_x",
+                "value": "30"
+              },
+              {
+                "ast_path": "$.right",
+                "dependencies": [
+                  "proposed_math_inputs.n"
+                ],
+                "name": "n",
+                "value": "5"
+              }
+            ],
+            "status": "PASSED",
+            "valid": true,
+            "verifier_version": "sl10-derivation-provenance/1"
+          },
+          "second_term": {
+            "ast": {
+              "arg": {
+                "left": {
+                  "name": "sum_x",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              },
+              "op": "square"
+            },
+            "evidence_mode": "current",
+            "expected_dependency_structure": [
+              {
+                "arg": {
+                  "left": {
+                    "name": "sum_x",
+                    "op": "variable"
+                  },
+                  "op": "divide",
+                  "right": {
+                    "name": "n",
+                    "op": "variable"
+                  }
+                },
+                "op": "square"
+              }
+            ],
+            "expected_semantic_role": "second_term",
+            "expected_value": "36",
+            "expression": "(sum_x / n)^2",
+            "expression_semantics_valid": true,
+            "field": "proposed_solution.second_term",
+            "policy": "sl10-provenance-required/1",
+            "reason": "provenance_verified",
+            "resolved_symbolic_sources": [
+              {
+                "ast_path": "$.arg.left",
+                "dependencies": [
+                  "proposed_math_inputs.sum_x"
+                ],
+                "name": "sum_x",
+                "value": "30"
+              },
+              {
+                "ast_path": "$.arg.right",
+                "dependencies": [
+                  "proposed_math_inputs.n"
+                ],
+                "name": "n",
+                "value": "5"
+              }
+            ],
+            "status": "PASSED",
+            "valid": true,
+            "verifier_version": "sl10-derivation-provenance/1"
+          },
+          "variance": {
+            "ast": {
+              "left": {
+                "name": "first_term",
+                "op": "variable"
+              },
+              "op": "subtract",
+              "right": {
+                "name": "second_term",
+                "op": "variable"
+              }
+            },
+            "evidence_mode": "current",
+            "expected_dependency_structure": [
+              {
+                "left": {
+                  "name": "first_term",
+                  "op": "variable"
+                },
+                "op": "subtract",
+                "right": {
+                  "name": "second_term",
+                  "op": "variable"
+                }
+              },
+              {
+                "left": {
+                  "left": {
+                    "name": "sum_x2",
+                    "op": "variable"
+                  },
+                  "op": "divide",
+                  "right": {
+                    "name": "n",
+                    "op": "variable"
+                  }
+                },
+                "op": "subtract",
+                "right": {
+                  "arg": {
+                    "left": {
+                      "name": "sum_x",
+                      "op": "variable"
+                    },
+                    "op": "divide",
+                    "right": {
+                      "name": "n",
+                      "op": "variable"
+                    }
+                  },
+                  "op": "square"
+                }
+              }
+            ],
+            "expected_semantic_role": "variance",
+            "expected_value": "2",
+            "expression": "first term - second term",
+            "expression_semantics_valid": true,
+            "field": "proposed_solution.variance",
+            "policy": "sl10-provenance-required/1",
+            "reason": "provenance_verified",
+            "resolved_symbolic_sources": [
+              {
+                "ast_path": "$.left",
+                "dependencies": [
+                  "sum_x2",
+                  "n"
+                ],
+                "name": "first_term",
+                "value": "38"
+              },
+              {
+                "ast_path": "$.right",
+                "dependencies": [
+                  "sum_x",
+                  "n"
+                ],
+                "name": "second_term",
+                "value": "36"
+              }
+            ],
+            "status": "PASSED",
+            "valid": true,
+            "verifier_version": "sl10-derivation-provenance/1"
+          }
+        },
+        "dependency_map": {
+          "first_term": [
+            "sum_x2",
+            "n"
+          ],
+          "n": [
+            "proposed_math_inputs.n"
+          ],
+          "radicand": [
+            "first_term",
+            "second_term"
+          ],
+          "second_term": [
+            "sum_x",
+            "n"
+          ],
+          "sum_x": [
+            "proposed_math_inputs.sum_x"
+          ],
+          "sum_x2": [
+            "proposed_math_inputs.sum_x2"
+          ]
+        },
+        "derivation_provenance_valid": true,
+        "policy": "sl10-provenance-required/1",
+        "scope": "Four intermediate derivations only; no candidate square-root expression, pedagogy or academic approval.",
+        "status": "PASSED",
+        "verifier_version": "sl10-derivation-provenance/1"
+      },
+      "stage_status": {
+        "derivation_provenance_valid": "PASSED",
+        "expression_semantics_valid": "PASSED",
+        "math_valid": "PASSED",
+        "numeric_encoding": "PASSED",
+        "solution_valid": "PASSED"
+      }
+    },
+    "violations": []
+  },
+  "validation_sha256": "c744241e2e1bb2d4edfd87742fbd507bd5e5f419aa4ef9f5d58a1f8fc0daab3d"
+}

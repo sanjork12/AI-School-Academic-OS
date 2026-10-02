@@ -1,0 +1,243 @@
+{
+  "notice": "TEACHER-GENERATED PRACTICE MARK SCHEME — NOT AN OFFICIAL PEARSON MARK SCHEME",
+  "policy": "M = method; A = accuracy; B = independent statement. Each listed point is 1 mark. A normally depends on its preceding M. B is independent. No double credit. Follow-through only when stated. Equivalent correct methods earn full credit.",
+  "entries": [
+    {
+      "part_id": "Q1(a)",
+      "marks": 2,
+      "answer": "Travel mode: qualitative. Number of bus changes: quantitative discrete.",
+      "marking_points": [
+        "B1 qualitative travel mode",
+        "B1 quantitative discrete bus changes"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q1(b)",
+      "marks": 2,
+      "answer": "Quantitative continuous. Time can take any value in an interval; rounding only changes recording precision.",
+      "marking_points": [
+        "B1 quantitative continuous",
+        "B1 distinguishes underlying measurement from rounding"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q1(c)",
+      "marks": 2,
+      "answer": "Each count is the frequency in an interval. Exact individual journey times are lost.",
+      "marking_points": [
+        "B1 frequency in each interval",
+        "B1 exact individual times lost"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q2(a)",
+      "marks": 2,
+      "answer": "77/7 = 11 minutes.",
+      "marking_points": [
+        "M1 sum 77 divided by 7",
+        "A1 11 minutes"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q2(b)",
+      "marks": 2,
+      "answer": "Median = 8 minutes. At least half waited no more than 8 minutes and at least half no less.",
+      "marking_points": [
+        "B1 median 8",
+        "B1 correct contextual interpretation"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q2(c)",
+      "marks": 2,
+      "answer": "Median: the 30-minute wait pulls the mean upwards; the median resists this extreme value.",
+      "marking_points": [
+        "B1 median",
+        "B1 justification referring to 30 minutes and influence on mean"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q3(a)",
+      "marks": 3,
+      "answer": "Midpoints 5, 15, 25. Sum fm = 600, n = 40. Estimated mean = 15 seconds. Actual within-class values are unknown.",
+      "marking_points": [
+        "M1 correct weighted midpoint sum divided by 40",
+        "A1 15 seconds",
+        "B1 midpoint/unknown within-class values explanation"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q3(b)",
+      "marks": 2,
+      "answer": "Position 30 lies at the top of the second class. 10 + ((30 - 10)/20) x 10 = 20 seconds. Approximately 75% take no more than 20 seconds.",
+      "marking_points": [
+        "M1 interpolation or correct cumulative-frequency boundary giving 20",
+        "B1 interpretation of 75% in context"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q4(a)",
+      "marks": 1,
+      "answer": "31 - 5 = 26 minutes.",
+      "marking_points": [
+        "B1 26 minutes"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q4(b)",
+      "marks": 2,
+      "answer": "Q1 = (7 + 8)/2 = 7.5; Q3 = (16 + 17)/2 = 16.5. IQR = 9 minutes.",
+      "marking_points": [
+        "B1 both quartiles correct",
+        "A1 IQR 9 minutes"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q4(c)",
+      "marks": 2,
+      "answer": "Upper fence = 16.5 + 1.5 x 9 = 30. Since 31 > 30 it is flagged. No: investigate whether it is an error or a genuine delay.",
+      "marking_points": [
+        "B1 fence 30 and 31 correctly flagged",
+        "B1 investigate rather than automatically delete"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q5(a)",
+      "marks": 2,
+      "answer": "Route A is typically quicker (median 24 vs 28 minutes), but B is more consistent in its middle half (IQR 4 vs 10 minutes).",
+      "marking_points": [
+        "B1 contextual median comparison with values",
+        "B1 contextual IQR comparison with values"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q5(b)",
+      "marks": 2,
+      "answer": "Medians and IQRs summarise parts of the distributions, not all individual times. The distributions may overlap, so an A journey may take longer than a B journey.",
+      "marking_points": [
+        "B1 summaries do not give all values/extremes",
+        "B1 possible overlap or contextual counterexample"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q6(a)",
+      "marks": 3,
+      "answer": "Mean = 50 ml. Variance = 20072/8 - 50^2 = 9 ml^2.",
+      "marking_points": [
+        "M1 correct variance expression with divisor 8",
+        "A1 value 9",
+        "B1 squared units ml^2"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q6(b)",
+      "marks": 2,
+      "answer": "sqrt(9) = 3 ml.",
+      "marking_points": [
+        "M1 square root of variance",
+        "A1 3 ml"
+      ],
+      "acceptable_alternatives": "Allow M1 for square root of their non-negative variance; A1 requires 3 ml.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q6(c)",
+      "marks": 3,
+      "answer": "Both average 50 ml. The second machine has less variation around its mean (1.2 < 3). SD describes overall variation, not a bound on individual values.",
+      "marking_points": [
+        "B1 same mean in context",
+        "B1 second machine less variable with SD evidence",
+        "B1 SD is not a maximum deviation or guarantee"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q7(a)",
+      "marks": 2,
+      "answer": "The total rainfall at Station P over one day, measured in millimetres.",
+      "marking_points": [
+        "B1 one day at one station",
+        "B1 rainfall in millimetres"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q7(b)",
+      "marks": 3,
+      "answer": "(0 + 1.2 + 0 + 0 + 4.8)/5 = 1.2 mm. Five recorded days remain; missing is not an observed zero.",
+      "marking_points": [
+        "M1 sum 6.0 divided by 5",
+        "A1 1.2 mm",
+        "B1 missing day cannot be treated as zero"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q7(c)",
+      "marks": 4,
+      "answer": "For the available observations P has higher mean daily rainfall (1.2 vs 0.8 mm). Only a few days are represented; different months may have seasonal effects; the missing day at P may bias its mean. This does not establish a climate difference.",
+      "marking_points": [
+        "B1 limited comparison using means",
+        "B1 very small/short sample",
+        "B1 different months/seasonality",
+        "B1 missing value could bias result"
+      ],
+      "acceptable_alternatives": "Accept distinct valid limitations tied to the setup; do not credit the same limitation twice.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q8(a)",
+      "marks": 3,
+      "answer": "(10 x 18 - 54)/9 = 14 minutes. The remaining nine average 1 minute less than the other service, reversing the original comparison (18 > 15).",
+      "marking_points": [
+        "M1 reconstruct total 180 and subtract 54",
+        "A1 remaining mean 14",
+        "B1 correct contextual comparison with 15"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    },
+    {
+      "part_id": "Q8(b)",
+      "marks": 2,
+      "answer": "Removal to improve the result is unjustified: verify whether 54 is an error or genuine delay. A changed sample mean alone does not establish that the service is generally faster; compare representative samples and variation.",
+      "marking_points": [
+        "B1 valid data-quality reason needed for removal",
+        "B1 qualified conclusion with variation/representativeness limitation"
+      ],
+      "acceptable_alternatives": "Accept equivalent correct reasoning.",
+      "interpretation_requirements": "Use the context and units stated in the question."
+    }
+  ]
+}

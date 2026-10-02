@@ -1,0 +1,259 @@
+{
+  "competencies": [
+    {
+      "competency_id": "CAN-STAT-TYPE-CLASSIFY",
+      "skill_name": "Classify qualitative, discrete and continuous data",
+      "topic_group": "data_types",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-GROUPED-INTERPRET",
+      "skill_name": "Interpret grouped and ungrouped data",
+      "topic_group": "data_types",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-VARIABLE-INTERPRET",
+      "skill_name": "Interpret variables and units in context",
+      "topic_group": "data_types",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-MEAN-CALCULATE",
+      "skill_name": "Calculate and interpret a mean",
+      "topic_group": "location",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-MEDIAN-CALCULATE",
+      "skill_name": "Calculate and interpret a median",
+      "topic_group": "location",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-MODE-IDENTIFY",
+      "skill_name": "Identify a mode or modal class",
+      "topic_group": "location",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-QUANTILE-DETERMINE",
+      "skill_name": "Determine and interpret quartiles and percentiles",
+      "topic_group": "location",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-LOCATION-SELECT",
+      "skill_name": "Select an appropriate measure of location",
+      "topic_group": "location",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-RANGE-CALCULATE",
+      "skill_name": "Calculate and interpret range",
+      "topic_group": "spread",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-IQR-CALCULATE",
+      "skill_name": "Calculate and interpret interquartile range",
+      "topic_group": "spread",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-VARIANCE-INTERPRET",
+      "skill_name": "Calculate and interpret descriptive variance",
+      "topic_group": "spread",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-SD-CALCULATE",
+      "skill_name": "Calculate descriptive standard deviation",
+      "topic_group": "spread",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-SD-INTERPRET",
+      "skill_name": "Interpret standard deviation in context",
+      "topic_group": "spread",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "skill_name": "Compare distributions using location and spread",
+      "topic_group": "comparison",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-OUTLIER-INTERPRET",
+      "skill_name": "Identify and interpret unusual observations",
+      "topic_group": "comparison",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "GROUP-LDS-PURPOSE",
+      "skill_name": "Purpose and structure of the Pearson Large Data Set",
+      "topic_group": "lds",
+      "classification": "teaching_only_grouping",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-LIMITATIONS-EVALUATE",
+      "skill_name": "Evaluate data limitations and cleaning decisions",
+      "topic_group": "lds",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    },
+    {
+      "competency_id": "CAN-STAT-CONTEXT-CONCLUDE",
+      "skill_name": "Draw qualified contextual conclusions from data",
+      "topic_group": "lds",
+      "classification": "candidate_canonical",
+      "review_status": "pending",
+      "provenance": "teacher_generated"
+    }
+  ],
+  "curriculum_scopes": [
+    {
+      "competency_id": "CAN-STAT-TYPE-CLASSIFY",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Interpret measurement, grouping and units in statistical contexts.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-GROUPED-INTERPRET",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Interpret measurement, grouping and units in statistical contexts.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-VARIABLE-INTERPRET",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Interpret measurement, grouping and units in statistical contexts.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-MEAN-CALCULATE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use raw/frequency data, grouped estimates and stated quantile conventions, with interpretation.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-MEDIAN-CALCULATE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use raw/frequency data, grouped estimates and stated quantile conventions, with interpretation.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-MODE-IDENTIFY",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use raw/frequency data, grouped estimates and stated quantile conventions, with interpretation.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-QUANTILE-DETERMINE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use raw/frequency data, grouped estimates and stated quantile conventions, with interpretation.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-LOCATION-SELECT",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use raw/frequency data, grouped estimates and stated quantile conventions, with interpretation.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-RANGE-CALCULATE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use divisor n for descriptive variance/SD, summary statistics and appropriate units.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-IQR-CALCULATE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use divisor n for descriptive variance/SD, summary statistics and appropriate units.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-VARIANCE-INTERPRET",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use divisor n for descriptive variance/SD, summary statistics and appropriate units.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-SD-CALCULATE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use divisor n for descriptive variance/SD, summary statistics and appropriate units.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-SD-INTERPRET",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use divisor n for descriptive variance/SD, summary statistics and appropriate units.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-DISTRIBUTION-COMPARE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Combine numerical location and spread with justified conclusions and data-quality judgements.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-OUTLIER-INTERPRET",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Combine numerical location and spread with justified conclusions and data-quality judgements.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "GROUP-LDS-PURPOSE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use weather variables, explicit cleaning policies and limitations of station/date coverage.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-LIMITATIONS-EVALUATE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use weather variables, explicit cleaning policies and limitations of station/date coverage.",
+      "status": "teacher_selected_scope_pending_review"
+    },
+    {
+      "competency_id": "CAN-STAT-CONTEXT-CONCLUDE",
+      "context_id": "CTX-EDX-9MA0-2017-STAT",
+      "expectations": "Use weather variables, explicit cleaning policies and limitations of station/date coverage.",
+      "status": "teacher_selected_scope_pending_review"
+    }
+  ],
+  "promotion_policy": "No writes to approved graph; all candidate review pending."
+}

@@ -1,0 +1,244 @@
+{
+  "notice": "TEST ONLY copied PDFs and temporary database; no real decisions",
+  "before": {
+    "source_verified": false,
+    "human_approved": false,
+    "publishable": false
+  },
+  "source_decisions": [
+    {
+      "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+      "ticket": {
+        "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+        "definition_version": "028548fa4f716b23ef0eed873c7cb916146ac2546364fa96db081241c19e1f50",
+        "versions": {
+          "locator:MS-Q2-a": "11610fedb492183c5f74166533cd9d9b07b38a353e8a2555a774da63d887f972",
+          "locator:MS-Q2-b": "6ee2c9d6f59c9d8cc06671fb402865c2f22071fc1a2313df364630374f085f8b",
+          "locator:MS-Q2-c": "3b9da41cc49a23c5d252549bd0ec7155fd966d9e88047b453da9026b214297db",
+          "source:MS": "3afb874e4dc1bad47deeb32709a3999c03a4fc36b038b496c0d3435bea6e3ba2"
+        },
+        "review_heads": {
+          "locator:MS-Q2-a": null,
+          "locator:MS-Q2-b": null,
+          "locator:MS-Q2-c": null,
+          "source:MS": null
+        },
+        "token": "dedeeb20e9fc6f4aa35dd7722bd08f6d494b71e37d82705cda591396b616717e"
+      },
+      "receipt": {
+        "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+        "action": "verify",
+        "request_id": "TEST-DEMO-SOURCE-BUNDLE-MS-Q2",
+        "reviewer": "local-os:Administrator",
+        "reason": "TEST ONLY isolated copied corpus, not a real verification",
+        "created_at": "2026-09-29T18:56:07.664917+00:00",
+        "reviewed_ticket": {
+          "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+          "definition_version": "028548fa4f716b23ef0eed873c7cb916146ac2546364fa96db081241c19e1f50",
+          "versions": {
+            "locator:MS-Q2-a": "11610fedb492183c5f74166533cd9d9b07b38a353e8a2555a774da63d887f972",
+            "locator:MS-Q2-b": "6ee2c9d6f59c9d8cc06671fb402865c2f22071fc1a2313df364630374f085f8b",
+            "locator:MS-Q2-c": "3b9da41cc49a23c5d252549bd0ec7155fd966d9e88047b453da9026b214297db",
+            "source:MS": "3afb874e4dc1bad47deeb32709a3999c03a4fc36b038b496c0d3435bea6e3ba2"
+          },
+          "review_heads": {
+            "locator:MS-Q2-a": null,
+            "locator:MS-Q2-b": null,
+            "locator:MS-Q2-c": null,
+            "source:MS": null
+          },
+          "token": "dedeeb20e9fc6f4aa35dd7722bd08f6d494b71e37d82705cda591396b616717e"
+        },
+        "created": [
+          {
+            "decision_id": "source-bundle-object-7aab2b07dbeb3dbe0021b3cc12b1833b5ec64dd8507623087244e448096a5c24",
+            "object_key": "source:MS",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "e368c222688ec4ef56f893ba173f29d05c1d9961b0ff0861b564ee42f723fc96"
+          },
+          {
+            "decision_id": "source-bundle-object-556d70fcea172eaf5a9b8c5e18319c0fcd83f18047df2db3753df910efa90348",
+            "object_key": "locator:MS-Q2-a",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "496b817580e71ff4cc321068eb7b9498da38f99aa2fbe502b57e4716aea472d2"
+          },
+          {
+            "decision_id": "source-bundle-object-12fcd003909f109602aecfbc61eb952daf880ac66b0797efdc03046446aedf2f",
+            "object_key": "locator:MS-Q2-b",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "d13d033e4a1ca5ee215c36230e7f701074f0539a403c9e4d527d494f13fb8c82"
+          },
+          {
+            "decision_id": "source-bundle-object-f9154ec27ff9fabae44c3989455897fb320e79d239fbf549f67e919643e9a74c",
+            "object_key": "locator:MS-Q2-c",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "ee9a80fb5e98c82e771f4bc67703e8bfc526463269d8bfa2cef96342dabaf5f8"
+          }
+        ],
+        "reused": []
+      }
+    },
+    {
+      "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+      "ticket": {
+        "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+        "definition_version": "6af57eb9999917c265e2eefb3e8d3eadfd44d5a0fe47ca7484dea1938e758754",
+        "versions": {
+          "locator:QP-Q2": "a1cd633cb731a961aed2e3fc4be5251a29239ccae403c0eeb4d268d3b84855c3",
+          "locator:QP-Q2-a": "0e6e9c938133cb7ce823e33ef328d78f065cfe30e5129a152bebaca6c7d67f27",
+          "locator:QP-Q2-b": "e1e6d21a82d2077fe406f62405b9d6e2d0d55d3afc8b9eafc3ee6fcc4248553a",
+          "locator:QP-Q2-c": "442533311a3f59bf055ff63bbd509f722e08809411c1c1aab9b4097ec04a3bae",
+          "source:QP": "9a0b47540cb88c3337f3a2adb8bfa1a05a68662a6e8424249b69a8073ac5a3f9"
+        },
+        "review_heads": {
+          "locator:QP-Q2": null,
+          "locator:QP-Q2-a": null,
+          "locator:QP-Q2-b": null,
+          "locator:QP-Q2-c": null,
+          "source:QP": null
+        },
+        "token": "5df5629e3321a8ace5421a3b771e147d7221527815066d162b27ec01c29ce861"
+      },
+      "receipt": {
+        "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+        "action": "verify",
+        "request_id": "TEST-DEMO-SOURCE-BUNDLE-QP-Q2",
+        "reviewer": "local-os:Administrator",
+        "reason": "TEST ONLY isolated copied corpus, not a real verification",
+        "created_at": "2026-09-29T18:56:09.876826+00:00",
+        "reviewed_ticket": {
+          "bundle_id": "SOURCE-BUNDLE-QP-Q2",
+          "definition_version": "6af57eb9999917c265e2eefb3e8d3eadfd44d5a0fe47ca7484dea1938e758754",
+          "versions": {
+            "locator:QP-Q2": "a1cd633cb731a961aed2e3fc4be5251a29239ccae403c0eeb4d268d3b84855c3",
+            "locator:QP-Q2-a": "0e6e9c938133cb7ce823e33ef328d78f065cfe30e5129a152bebaca6c7d67f27",
+            "locator:QP-Q2-b": "e1e6d21a82d2077fe406f62405b9d6e2d0d55d3afc8b9eafc3ee6fcc4248553a",
+            "locator:QP-Q2-c": "442533311a3f59bf055ff63bbd509f722e08809411c1c1aab9b4097ec04a3bae",
+            "source:QP": "9a0b47540cb88c3337f3a2adb8bfa1a05a68662a6e8424249b69a8073ac5a3f9"
+          },
+          "review_heads": {
+            "locator:QP-Q2": null,
+            "locator:QP-Q2-a": null,
+            "locator:QP-Q2-b": null,
+            "locator:QP-Q2-c": null,
+            "source:QP": null
+          },
+          "token": "5df5629e3321a8ace5421a3b771e147d7221527815066d162b27ec01c29ce861"
+        },
+        "created": [
+          {
+            "decision_id": "source-bundle-object-8101d1ea46cd9e57a0b69ab2d3b32e7a002b047bbe63f001a911022e7d123acc",
+            "object_key": "source:QP",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "1255107e46781b44dd52eafa967a2780efaaa975c430b3dbbd41f72d0cbaf514"
+          },
+          {
+            "decision_id": "source-bundle-object-f1e7aa73194e5917d34a0ac7349e83979e8d2cf8acfca24082d05e9b4518006a",
+            "object_key": "locator:QP-Q2",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "071da5f068060c5058eb0d9f9fc199a6eba17390febb051360abbb73d65d1217"
+          },
+          {
+            "decision_id": "source-bundle-object-056d7d0d135014950aa96aa519f2abb1f7f1a214c312c5a843f566b326d67cd4",
+            "object_key": "locator:QP-Q2-a",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "ecee1a36db9e10712f27a8c481cc017043946281eab525ad580f44aff6e4f678"
+          },
+          {
+            "decision_id": "source-bundle-object-b80559a813bded14cbad40a627047e261292a78304da91c469ca16df2df31782",
+            "object_key": "locator:QP-Q2-b",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "a33c85cff1bb800e74328cc6dbc3a48dea84bb23cae66278ffa395833f900e3c"
+          },
+          {
+            "decision_id": "source-bundle-object-1b68917442994738ebe57e0b2ee846e01c30a3d88bf239bb17c2997802a428c8",
+            "object_key": "locator:QP-Q2-c",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "96dd60a815a5af0d1ec55fc5994aca8b0036f08d6f63d546c48b4ffc038bf6a5"
+          }
+        ],
+        "reused": []
+      }
+    },
+    {
+      "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+      "ticket": {
+        "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+        "definition_version": "b3afc6ad7fe73b80748514ee5db08ffd585ebfd56076c1f6a1fc1a1fd5fe3d5f",
+        "versions": {
+          "locator:SPEC-2.3": "bbad16f097e8cdc146359c643ba79cea2a59e05425a9d32535500edf03ed849b",
+          "source:SPEC": "f9015ad194f8010221fc1694b6509d370e44e71a443dc651ae5b5249840f8d47"
+        },
+        "review_heads": {
+          "locator:SPEC-2.3": null,
+          "source:SPEC": null
+        },
+        "token": "9f6c56529a306b3ee177691d69360ad47b94c998cd46eb6c3b7702ea58c2f038"
+      },
+      "receipt": {
+        "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+        "action": "verify",
+        "request_id": "TEST-DEMO-SOURCE-BUNDLE-SPEC-2.3",
+        "reviewer": "local-os:Administrator",
+        "reason": "TEST ONLY isolated copied corpus, not a real verification",
+        "created_at": "2026-09-29T18:56:11.726625+00:00",
+        "reviewed_ticket": {
+          "bundle_id": "SOURCE-BUNDLE-SPEC-2.3",
+          "definition_version": "b3afc6ad7fe73b80748514ee5db08ffd585ebfd56076c1f6a1fc1a1fd5fe3d5f",
+          "versions": {
+            "locator:SPEC-2.3": "bbad16f097e8cdc146359c643ba79cea2a59e05425a9d32535500edf03ed849b",
+            "source:SPEC": "f9015ad194f8010221fc1694b6509d370e44e71a443dc651ae5b5249840f8d47"
+          },
+          "review_heads": {
+            "locator:SPEC-2.3": null,
+            "source:SPEC": null
+          },
+          "token": "9f6c56529a306b3ee177691d69360ad47b94c998cd46eb6c3b7702ea58c2f038"
+        },
+        "created": [
+          {
+            "decision_id": "source-bundle-object-23884546e7718f1f8f6d78800526b7ed387d6862beceee2b608b59c992810300",
+            "object_key": "source:SPEC",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "de53145fb43587f21422003444beb720fb8a2dadb242dec7eaaafdde3a385c45"
+          },
+          {
+            "decision_id": "source-bundle-object-6c55ffd4594c475e1919e7a6661fd01208fe7b9c4c1c275e3687f00e572b5c1c",
+            "object_key": "locator:SPEC-2.3",
+            "action": "verify",
+            "supersedes": null,
+            "dependency_digest": "f239df75a0c272b656b8e228c0ca450500b7298249bb98e65060a41148f8b218"
+          }
+        ],
+        "reused": []
+      }
+    }
+  ],
+  "after_sources": {
+    "source_verified": true,
+    "human_approved": false,
+    "publishable": false
+  },
+  "after_academic": {
+    "source_verified": true,
+    "human_approved": true,
+    "publishable": true
+  },
+  "publication": {
+    "snapshot_id": "cc4695207f85df4dc3308c5c8700787654e909725e7c6f4e7e2863d1ec079d42",
+    "publishable": true,
+    "object_count": 45
+  },
+  "snapshot_usable": true,
+  "optional_candidate_state": "pending"
+}

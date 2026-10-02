@@ -1,0 +1,108 @@
+{
+  "command": [
+    "C:\\Python314\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "academic_os.ai_qualification",
+    "--db",
+    "var/p0_q2.sqlite3",
+    "qualify-ai-author",
+    "standard-deviation",
+    "--profile",
+    "standard-lesson",
+    "--role",
+    "profiled-sd-standard-lesson-SL-10",
+    "--attempts",
+    "10",
+    "--dry-run"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 10.685361399999238,
+  "informational_timing": true,
+  "output": {
+    "attempt_count": 10,
+    "brief": {
+      "allowed_question_templates": [
+        "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+      ],
+      "allowed_scaffolds": {
+        "compute_first_term": [
+          "Calculate \u03a3x\u00b2 / n.",
+          "Divide the sum of squares by the number of observations."
+        ],
+        "compute_second_term": [
+          "Calculate (\u03a3x / n)\u00b2.",
+          "Divide the sum by the number of observations, then square the result."
+        ],
+        "square_root": [
+          "Take the square root.",
+          "Take the square root of the variance."
+        ],
+        "subtract_variance_terms": [
+          "Subtract the second result from the first.",
+          "Find the difference: first term minus second term."
+        ]
+      },
+      "content_origin_policy": "ai_generated_candidate",
+      "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+      "forbidden_content": [
+        "new learning requirements, concepts, competencies or task forms",
+        "sample standard deviation or n - 1",
+        "population/sample comparison",
+        "difficulty, common-mistake or prerequisite claims",
+        "frequency, typical marks or exam predictions",
+        "formula memorisation",
+        "calculator models or button sequences",
+        "Pearson copying or official endorsement",
+        "approval, verification, safety, trust or readiness declarations"
+      ],
+      "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+      "identity": "standard-deviation-standard-lesson-SL-10/1",
+      "learning_targets": [
+        "Student should be able to: Calculate the standard deviation of a distribution.",
+        "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+      ],
+      "profile_context": "Standard lesson, guided calculation practice",
+      "required_output": [
+        "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+        "Choose one permitted question template verbatim, preserving its placeholders.",
+        "Four ordered scaffold types, with one permitted instruction for each.",
+        "Separate solution with identical inputs; exact rational intermediate results; numeric SD to 45 decimal digits when irrational; display to 2 decimal places."
+      ],
+      "role": "Guided practice 1",
+      "schema_version": "authoring-brief/1",
+      "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+      "support_mode": "guided",
+      "task_form": "From summary statistics"
+    },
+    "brief_hash": "aa1d81b6dc655b32bbaace6dac6e807c65047402bc30b291246cc39be251a417",
+    "engineering_baseline": {
+      "errors": [],
+      "manifest_sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747",
+      "reference_version": "v1.1",
+      "trust_authority": false,
+      "valid": true
+    },
+    "live_api_will_be_called": false,
+    "model": "not_configured_in_environment",
+    "note": "Live provider also uses the existing dotenv convention; configure the model in the environment for an exact dry-run model display.",
+    "output_location": "D:\\AI-School-Academic-OS\\output\\p6a1_live_qualification",
+    "slot": "profiled-sd-standard-lesson-SL-10",
+    "stress_cases": [],
+    "would_call_with_live_flag": 10
+  },
+  "stderr": "",
+  "database_unchanged": true,
+  "qualification_run_directories_unchanged": true,
+  "preflight": {
+    "reference_version": "v1.1",
+    "valid": true,
+    "errors": [],
+    "manifest_sha256": "820b56cebc41f4fc37567d8a3f956f678d6be67ec765b0df3e8241b5785a0747",
+    "trust_authority": false
+  },
+  "live_api_called": false
+}

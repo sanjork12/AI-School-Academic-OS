@@ -1,0 +1,733 @@
+{
+  "artifact_kind": "pedagogical_specification_candidate",
+  "coverage_map": {
+    "coverage_requirements": {
+      "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+      ]
+    },
+    "learning_requirements": {
+      "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+        "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597"
+      ],
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+        "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4",
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ]
+    },
+    "status": "planned_coverage"
+  },
+  "evidence_boundaries": [
+    {
+      "basis": "contract_scope",
+      "code": "formula_memorisation_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "prerequisites_not_modelled",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "teaching_sequence_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Teaching sequence has not yet been established by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "calculator_method_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "A required calculator or manual method has not been established."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "difficulty_not_calibrated",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+      ],
+      "statement": "No calibrated difficulty evidence is available."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_student_error_evidence",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_student_error_evidence"
+      ],
+      "statement": "No student response evidence supports common-mistake claims."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_typical_marks",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+      ],
+      "statement": "These reviewed examples do not establish a typical mark allocation."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_frequency",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+      ],
+      "statement": "The 2 reviewed examples do not establish assessment frequency."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_exam_prediction",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_exam_prediction"
+      ],
+      "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "unsupported_task_forms_excluded",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+    }
+  ],
+  "generator_constraints": [
+    {
+      "level": "required",
+      "statement": "Preserve academic meaning, all included learning/coverage requirements and evidence boundaries. Instructional support must not become academic truth, new learning requirements or assessment evidence."
+    },
+    {
+      "level": "required",
+      "statement": "This is planned coverage only; unresolved content slots do not prove a complete or sufficient lesson."
+    },
+    {
+      "level": "recommended",
+      "statement": "Use coherent method presentation, aligned worked-example structures and supported-to-independent practice where useful."
+    },
+    {
+      "level": "flexible",
+      "statement": "Choose contexts, values, visual styles, slide layout and practice format within the required boundaries; block order is not a mandatory teaching sequence."
+    }
+  ],
+  "identity": {
+    "awarding_body": "Pearson Edexcel",
+    "curriculum_section": "Statistics",
+    "qualification": "A Level Mathematics",
+    "specification_code": "9MA0",
+    "subject": "Mathematics",
+    "title": "Standard deviation",
+    "view_key": "standard-deviation",
+    "view_type": "pedagogical_specification"
+  },
+  "instructional_content": [
+    {
+      "assesses_learning_requirement_refs": [],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "formula_memorisation_required": false,
+      "purpose": "Provide a valid instructional method sufficient for the cited capability. Exact method content is not supplied by this deterministic core.",
+      "ref": "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba",
+      "source_product_refs": [
+        "capability-standard-deviation-calculate"
+      ],
+      "source_quality_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "status": "candidate_slot",
+      "supports_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "type": "calculation_method_slot"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "formula_memorisation_required": false,
+      "purpose": "Identify the inputs encountered in the supported task form from reviewed evidence. Exact notation is unavailable as structured upstream input; retain source warnings and do not repair glyphs or invent notation.",
+      "ref": "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640",
+      "source_product_refs": [
+        "capability-standard-deviation-calculate",
+        "task-form-summary-statistics"
+      ],
+      "source_quality_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "status": "candidate_slot",
+      "supports_learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "type": "task_input_slot"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "formula_memorisation_required": false,
+      "purpose": "Provide at least one worked-example design aligned to the declared capability and supported task form, traceable to the reviewed assessment structure.",
+      "ref": "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f",
+      "source_product_refs": [
+        "capability-standard-deviation-calculate",
+        "task-form-summary-statistics"
+      ],
+      "source_quality_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "status": "candidate_slot",
+      "supports_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "type": "worked_example_slot"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "formula_memorisation_required": false,
+      "purpose": "Provide at least one learning-check design aligned to declared Learning Requirements. Future items must declare assesses_learning_requirement_refs.",
+      "ref": "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253",
+      "source_product_refs": [
+        "capability-standard-deviation-calculate",
+        "task-form-summary-statistics"
+      ],
+      "source_quality_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review.",
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "status": "candidate_slot",
+      "supports_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "type": "learning_check_slot"
+    }
+  ],
+  "schema_version": "pedagogical-specification/1",
+  "source_learning_specification": {
+    "assessment_evidence": [
+      {
+        "capability_ref": "capability-standard-deviation-calculate",
+        "paper": "9MA0/31",
+        "question_part": "Q3(b)(ii)",
+        "reading_notes": [
+          "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+          "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+          "Large Data Set statements are question-specific evidence, not canonical definitions."
+        ],
+        "ref": "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2023
+      },
+      {
+        "capability_ref": "capability-standard-deviation-calculate",
+        "paper": "9MA0/31",
+        "question_part": "Q2(b)",
+        "reading_notes": [
+          "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+        ],
+        "ref": "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b",
+        "session": "June",
+        "task_form_refs": [
+          "task-form-summary-statistics"
+        ],
+        "year": 2025
+      }
+    ],
+    "conceptual_basis": [
+      {
+        "concept_ref": "concept-standard-deviation",
+        "description": "A measure of dispersion about the mean in the units of the observations.",
+        "name": "Standard deviation"
+      }
+    ],
+    "coverage_requirements": [
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "policy_basis": "learning-specification/1 coverage policy",
+        "ref": "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "concept-standard-deviation",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Assessment material must declare which included Learning Requirements it assesses; unsupported content must not silently be labelled as covered.",
+        "type": "assessment_alignment"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "learning_requirement_refs": [
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "policy_basis": "learning-specification/1 coverage policy",
+        "ref": "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Teaching material should provide an assessment connection aligned to the supported capability and task form. Copying a past-paper question is not required.",
+        "type": "teaching_assessment_connection"
+      }
+    ],
+    "evidence_boundaries": [
+      {
+        "basis": "contract_scope",
+        "code": "formula_memorisation_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "prerequisites_not_modelled",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "teaching_sequence_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "Teaching sequence has not yet been established by these contracts."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "calculator_method_not_established",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "A required calculator or manual method has not been established."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "difficulty_not_calibrated",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+        ],
+        "statement": "No calibrated difficulty evidence is available."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "no_student_error_evidence",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/no_student_error_evidence"
+        ],
+        "statement": "No student response evidence supports common-mistake claims."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "insufficient_evidence_for_typical_marks",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+        ],
+        "statement": "These reviewed examples do not establish a typical mark allocation."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "insufficient_evidence_for_frequency",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+        ],
+        "statement": "The 2 reviewed examples do not establish assessment frequency."
+      },
+      {
+        "basis": "upstream_limitation",
+        "code": "no_exam_prediction",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "source_refs": [
+          "assessment-intelligence/1:limitations/no_exam_prediction"
+        ],
+        "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+      },
+      {
+        "basis": "contract_scope",
+        "code": "unsupported_task_forms_excluded",
+        "epistemic_class": "evidence_boundary",
+        "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+        "source_refs": [
+          "teacher-topic/2",
+          "assessment-intelligence/1"
+        ],
+        "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+      }
+    ],
+    "identity": {
+      "awarding_body": "Pearson Edexcel",
+      "curriculum_section": "Statistics",
+      "qualification": "A Level Mathematics",
+      "specification_code": "9MA0",
+      "subject": "Mathematics",
+      "title": "Standard deviation",
+      "view_key": "standard-deviation",
+      "view_type": "learning_specification"
+    },
+    "learning_requirements": [
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [],
+        "ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "concept-standard-deviation"
+        ],
+        "statement": "Student should understand \"Standard deviation\": A measure of dispersion about the mean in the units of the observations.",
+        "type": "conceptual_understanding"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution.",
+        "type": "capability"
+      },
+      {
+        "epistemic_class": "evidence_backed_requirement",
+        "evidence_refs": [
+          "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+          "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+        ],
+        "ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b",
+        "scope_note": "Only the cited Product meaning is required; no method, prerequisite, formula or teaching sequence is inferred.",
+        "source_refs": [
+          "capability-standard-deviation-calculate",
+          "task-form-summary-statistics"
+        ],
+        "statement": "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics.",
+        "type": "capability_under_task_form"
+      }
+    ],
+    "schema_version": "learning-specification/1"
+  },
+  "status": "candidate",
+  "teaching_blocks": [
+    {
+      "boundary_refs": [
+        "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08"
+      ],
+      "constraints": [
+        {
+          "level": "required",
+          "statement": "Student should understand \"Standard deviation\": A measure of dispersion about the mean in the units of the observations."
+        },
+        {
+          "level": "recommended",
+          "statement": "Use a visual comparison to illustrate the cited conceptual meaning; this is teaching advice, not a new academic requirement."
+        },
+        {
+          "level": "flexible",
+          "statement": "Choose context, numbers, visual representation, diagram style and example dataset while preserving the cited meaning."
+        }
+      ],
+      "covers_coverage_requirement_refs": [],
+      "covers_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "evidence_refs": [],
+      "instructional_content_refs": [],
+      "purpose": "Communicate the cited trusted conceptual meaning.",
+      "ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "role": "conceptual_meaning",
+      "title": "Conceptual Meaning"
+    },
+    {
+      "boundary_refs": [
+        "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08"
+      ],
+      "constraints": [
+        {
+          "level": "required",
+          "statement": "Provide a valid instructional calculation method sufficient for: Student should be able to: Calculate the standard deviation of a distribution."
+        },
+        {
+          "level": "flexible",
+          "statement": "Choose the method presentation within the evidence boundaries. Neither a specific calculator sequence, manual-only method nor formula memorisation is required."
+        }
+      ],
+      "covers_coverage_requirement_refs": [],
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_content_refs": [
+        "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba"
+      ],
+      "purpose": "Prepare learners to perform the included capability.",
+      "ref": "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597",
+      "role": "calculation_method",
+      "title": "Calculation Method"
+    },
+    {
+      "boundary_refs": [
+        "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08"
+      ],
+      "constraints": [
+        {
+          "level": "required",
+          "statement": "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+        },
+        {
+          "level": "flexible",
+          "statement": "Choose how to present task-specific inputs; they are instructional support, not new Learning Requirements or prerequisites."
+        }
+      ],
+      "covers_coverage_requirement_refs": [],
+      "covers_learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_content_refs": [
+        "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+      ],
+      "purpose": "Apply the capability under its evidenced task conditions.",
+      "ref": "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4",
+      "role": "supported_task_form",
+      "title": "Apply the Supported Task Form"
+    },
+    {
+      "boundary_refs": [
+        "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08"
+      ],
+      "constraints": [
+        {
+          "level": "required",
+          "statement": "Provide at least one worked-example design aligned to the declared capability and supported task form, traceable to the reviewed assessment structure."
+        },
+        {
+          "level": "required",
+          "statement": "Preserve alignment to the declared learning and Product refs. Do not silently assess unsupported content."
+        },
+        {
+          "level": "required",
+          "statement": "Describe an aligned structure; do not require copying a Pearson past-paper question or generate a complete question here."
+        },
+        {
+          "level": "flexible",
+          "statement": "Future authors may choose original values and context while preserving capability and task alignment."
+        }
+      ],
+      "covers_coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_content_refs": [
+        "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+      ],
+      "purpose": "Provide at least one worked-example design aligned to the declared capability and supported task form, traceable to the reviewed assessment structure.",
+      "ref": "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+      "role": "worked_assessment_connection",
+      "title": "Worked Assessment Connection"
+    },
+    {
+      "boundary_refs": [
+        "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+        "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+        "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+        "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+        "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+        "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+        "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+        "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+        "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+        "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08"
+      ],
+      "constraints": [
+        {
+          "level": "required",
+          "statement": "Provide at least one learning-check design aligned to declared Learning Requirements. Future items must declare assesses_learning_requirement_refs."
+        },
+        {
+          "level": "required",
+          "statement": "Preserve alignment to the declared learning and Product refs. Do not silently assess unsupported content."
+        },
+        {
+          "level": "recommended",
+          "statement": "Consider progression from supported or guided application toward independent application; no fixed practice sequence is required."
+        },
+        {
+          "level": "flexible",
+          "statement": "Choose question count, context, practice format, individual or pair work, exit-ticket format and presentation style."
+        }
+      ],
+      "covers_coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_content_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "purpose": "Provide at least one learning-check design aligned to declared Learning Requirements. Future items must declare assesses_learning_requirement_refs.",
+      "ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "role": "practice_learning_check",
+      "title": "Practice & Learning Check"
+    }
+  ],
+  "trust_boundary": "Pedagogical candidate only, not academic approval, curriculum truth, a validated lesson or validated coverage. Refresh upstream trust before use; no new academic decision is created."
+}

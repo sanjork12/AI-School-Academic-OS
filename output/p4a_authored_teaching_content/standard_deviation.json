@@ -1,0 +1,1115 @@
+{
+  "artifact_kind": "authored_teaching_candidate",
+  "authoring_provider": "standard-deviation-population/v1",
+  "content_blocks": [
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [],
+      "item_ref": null,
+      "kind": "concept_explanation",
+      "origin": "trusted_semantic_transformation",
+      "ref": "authored-sd-v1-concept",
+      "teaching_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "text": "Standard deviation is a measure of how spread out the values in a dataset are around the mean. It is measured in the same units as the original observations.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [],
+      "item_ref": null,
+      "kind": "visual_comparison",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-visual",
+      "teaching_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "text": "Compare the supplied datasets: same mean, different spread.",
+      "verification": {
+        "checks": {
+          "A_mean": true,
+          "A_sd": true,
+          "A_variance": true,
+          "B_mean": true,
+          "B_sd": true,
+          "B_variance": true,
+          "brief_matches_claims": true,
+          "same_mean": true,
+          "sd_order": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "visual": {
+        "brief": "Show both datasets around a marked mean of 10. Dataset B is more dispersed than Dataset A. Use the original observations as plotted points.",
+        "claims": {
+          "A": {
+            "mean": "10",
+            "sd": "1.4142135623730950488016887242096980785696718753769",
+            "variance": "2"
+          },
+          "B": {
+            "mean": "10",
+            "sd": "5.6568542494923801952067548968387923142786875015078",
+            "variance": "32"
+          }
+        },
+        "datasets": {
+          "A": [
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "B": [
+            "2",
+            "6",
+            "10",
+            "14",
+            "18"
+          ]
+        },
+        "same_mean": true,
+        "sd_order": [
+          "A",
+          "B"
+        ]
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "formula_refs": [
+        "authored-sd-v1-deviation-formula"
+      ],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [
+        "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba"
+      ],
+      "item_ref": null,
+      "kind": "calculation_method",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-method",
+      "teaching_block_refs": [
+        "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597"
+      ],
+      "text": "Determine the mean. Determine each observation's deviation from the mean. Square the deviations. Average the squared deviations. Take the square root.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "formula_refs": [
+        "authored-sd-v1-summary-formula"
+      ],
+      "instructional_inputs": {
+        "n": "number of observations",
+        "sum_x": "sum of the observations (Σx)",
+        "sum_x2": "sum of the squares of the observations (Σx²)"
+      },
+      "instructional_slot_refs": [
+        "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+      ],
+      "item_ref": null,
+      "kind": "summary_statistics_method",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-summary-method",
+      "teaching_block_refs": [
+        "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4"
+      ],
+      "text": "Use the supplied number of observations, their sum, and the sum of their squares in the summary-statistics relationship. Take the square root of the resulting population variance.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [
+        "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+      ],
+      "item_ref": "authored-sd-v1-worked-question",
+      "kind": "worked_example",
+      "origin": "generated_original",
+      "ref": "authored-sd-v1-worked-block",
+      "teaching_block_refs": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+      ],
+      "text": "Original authored item; the question and solution are stored separately.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-practice-1-question",
+      "kind": "practice_item",
+      "origin": "generated_original",
+      "ref": "authored-sd-v1-practice-1-block",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "text": "Original authored item; the question and solution are stored separately.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-practice-2-question",
+      "kind": "practice_item",
+      "origin": "generated_original",
+      "ref": "authored-sd-v1-practice-2-block",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "text": "Original authored item; the question and solution are stored separately.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "constraint_level": "flexible",
+      "covers_learning_requirement_refs": [],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [],
+      "item_ref": "authored-sd-v1-concept-check-question",
+      "kind": "concept_check",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-concept-check-block",
+      "teaching_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "text": "Explain the meaning in your own words; no exact-answer string is required.",
+      "verification": null,
+      "visual": null
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [],
+      "formula_refs": [],
+      "instructional_inputs": {},
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-calculation-check-question",
+      "kind": "calculation_check",
+      "origin": "generated_original",
+      "ref": "authored-sd-v1-calculation-check-block",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "text": "Original authored item; the question and solution are stored separately.",
+      "verification": null,
+      "visual": null
+    }
+  ],
+  "content_boundaries": [
+    "Instructional formulas are supplied for teaching; formula memorisation is not required.",
+    "No specific calculator or manual-only method is required.",
+    "No calibrated difficulty, exam frequency, typical marks, common student mistakes or future-exam prediction is claimed.",
+    "No new Learning Requirements or prerequisite requirements are introduced.",
+    "This package uses population-style calculations; population-versus-sample comparison is outside this Learning Specification.",
+    "Only the supported summary-statistics assessment task form is authored; no additional task form is made a required target.",
+    "Two decimal places with ROUND_HALF_UP is this package's display choice, not a universal exam requirement.",
+    "Input notation is newly authored instructional support, not a repair of uncertain source glyphs.",
+    "Examples and numerical checks are original authored items, not Pearson questions or historical exam appearances.",
+    "Slot population records supplied content only; downstream content validation is still required."
+  ],
+  "coverage_summary": {
+    "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253": {
+      "content_refs": [
+        "authored-sd-v1-calculation-check-block",
+        "authored-sd-v1-practice-1-block",
+        "authored-sd-v1-practice-2-block"
+      ],
+      "populated": true,
+      "status": "content_supplied_pending_validation"
+    },
+    "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba": {
+      "content_refs": [
+        "authored-sd-v1-method"
+      ],
+      "populated": true,
+      "status": "content_supplied_pending_validation"
+    },
+    "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f": {
+      "content_refs": [
+        "authored-sd-v1-worked-block"
+      ],
+      "populated": true,
+      "status": "content_supplied_pending_validation"
+    },
+    "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640": {
+      "content_refs": [
+        "authored-sd-v1-summary-method"
+      ],
+      "populated": true,
+      "status": "content_supplied_pending_validation"
+    }
+  },
+  "evidence_boundaries": [
+    {
+      "basis": "contract_scope",
+      "code": "formula_memorisation_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "prerequisites_not_modelled",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "teaching_sequence_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Teaching sequence has not yet been established by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "calculator_method_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "A required calculator or manual method has not been established."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "difficulty_not_calibrated",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+      ],
+      "statement": "No calibrated difficulty evidence is available."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_student_error_evidence",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_student_error_evidence"
+      ],
+      "statement": "No student response evidence supports common-mistake claims."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_typical_marks",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+      ],
+      "statement": "These reviewed examples do not establish a typical mark allocation."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_frequency",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+      ],
+      "statement": "The 2 reviewed examples do not establish assessment frequency."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_exam_prediction",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_exam_prediction"
+      ],
+      "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "unsupported_task_forms_excluded",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+    }
+  ],
+  "identity": {
+    "awarding_body": "Pearson Edexcel",
+    "curriculum_section": "Statistics",
+    "qualification": "A Level Mathematics",
+    "specification_code": "9MA0",
+    "subject": "Mathematics",
+    "title": "Standard deviation",
+    "view_key": "standard-deviation",
+    "view_type": "authored_teaching_content"
+  },
+  "instructional_formulas": [
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "display_expression": "sqrt((sum_squared_deviations / n))",
+      "expression": {
+        "args": [
+          {
+            "args": [
+              {
+                "name": "sum_squared_deviations",
+                "op": "variable"
+              },
+              {
+                "name": "n",
+                "op": "variable"
+              }
+            ],
+            "op": "divide"
+          }
+        ],
+        "op": "sqrt"
+      },
+      "formula_memorisation_required": false,
+      "instructional_slot_refs": [
+        "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba"
+      ],
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-deviation-formula",
+      "role": "instructional_formula",
+      "teaching_block_refs": [
+        "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597"
+      ],
+      "verification": {
+        "checks": {
+          "display_matches_expression": true,
+          "population_identity_dataset_0": true,
+          "population_identity_dataset_1": true,
+          "population_identity_dataset_2": true,
+          "population_identity_dataset_3": true,
+          "population_identity_dataset_4": true,
+          "population_identity_dataset_5": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "display_expression": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+      "expression": {
+        "args": [
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "name": "sum_x2",
+                    "op": "variable"
+                  },
+                  {
+                    "name": "n",
+                    "op": "variable"
+                  }
+                ],
+                "op": "divide"
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "name": "sum_x",
+                        "op": "variable"
+                      },
+                      {
+                        "name": "n",
+                        "op": "variable"
+                      }
+                    ],
+                    "op": "divide"
+                  }
+                ],
+                "op": "square"
+              }
+            ],
+            "op": "subtract"
+          }
+        ],
+        "op": "sqrt"
+      },
+      "formula_memorisation_required": false,
+      "instructional_slot_refs": [
+        "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+      ],
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-summary-formula",
+      "role": "instructional_formula",
+      "teaching_block_refs": [
+        "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4"
+      ],
+      "verification": {
+        "checks": {
+          "display_matches_expression": true,
+          "population_identity_dataset_0": true,
+          "population_identity_dataset_1": true,
+          "population_identity_dataset_2": true,
+          "population_identity_dataset_3": true,
+          "population_identity_dataset_4": true,
+          "population_identity_dataset_5": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    }
+  ],
+  "learning_checks": [
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "assessment_structure_origin": "reviewed_evidence_alignment",
+      "capability_refs": [
+        "capability-standard-deviation-calculate"
+      ],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "kind": "calculation_check",
+      "origin": "generated_original",
+      "question": "A dataset contains 20 observations. The sum of the observations is 300, and the sum of their squares is 4700. Calculate the standard deviation.",
+      "ref": "authored-sd-v1-calculation-check-question",
+      "summary": {
+        "n": 20,
+        "sum_x": "300",
+        "sum_x2": "4700"
+      },
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "assessment_structure_origin": null,
+      "capability_refs": [],
+      "constraint_level": "flexible",
+      "covers_learning_requirement_refs": [],
+      "evidence_refs": [],
+      "instructional_slot_refs": [],
+      "kind": "concept_check",
+      "origin": "authored_instructional_content",
+      "question": "What does standard deviation tell us about a set of observations?",
+      "ref": "authored-sd-v1-concept-check-question",
+      "summary": null,
+      "task_form_refs": [],
+      "teaching_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "verification": null
+    }
+  ],
+  "practice_items": [
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "assessment_structure_origin": "reviewed_evidence_alignment",
+      "capability_refs": [
+        "capability-standard-deviation-calculate"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "kind": "practice_item",
+      "origin": "generated_original",
+      "question": "A dataset contains 10 observations. The sum of the observations is 70, and the sum of their squares is 530. Calculate the standard deviation.",
+      "ref": "authored-sd-v1-practice-1-question",
+      "summary": {
+        "n": 10,
+        "sum_x": "70",
+        "sum_x2": "530"
+      },
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "assessment_structure_origin": "reviewed_evidence_alignment",
+      "capability_refs": [
+        "capability-standard-deviation-calculate"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "kind": "practice_item",
+      "origin": "generated_original",
+      "question": "A dataset contains 8 observations. The sum of the observations is 96, and the sum of their squares is 1200. Calculate the standard deviation.",
+      "ref": "authored-sd-v1-practice-2-question",
+      "summary": {
+        "n": 8,
+        "sum_x": "96",
+        "sum_x2": "1200"
+      },
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    }
+  ],
+  "schema_version": "authored-teaching-content/1",
+  "solutions": [
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [],
+      "display_answer": "3.16",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "10"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-calculation-check-question",
+      "key_semantic_elements": [],
+      "mean": "15",
+      "method_steps": [
+        "mean = 300/20 = 15",
+        "population variance = 235 - (15)^2 = 10",
+        "population SD = sqrt(10)",
+        "Display to 2 decimal places: 3.16"
+      ],
+      "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-calculation-check-solution",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "variance": "10",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "constraint_level": "flexible",
+      "covers_learning_requirement_refs": [],
+      "display_answer": null,
+      "exact_answer": null,
+      "exact_string_matching_required": false,
+      "expected_meaning": "It measures how spread out the observations are around the mean.",
+      "instructional_slot_refs": [],
+      "item_ref": "authored-sd-v1-concept-check-question",
+      "key_semantic_elements": [
+        "spread or dispersion",
+        "around the mean"
+      ],
+      "mean": null,
+      "method_steps": [],
+      "numeric_answer": null,
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-concept-check-solution",
+      "teaching_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "variance": null,
+      "verification": null
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "display_answer": "2.00",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "4"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-practice-1-question",
+      "key_semantic_elements": [],
+      "mean": "7",
+      "method_steps": [
+        "mean = 70/10 = 7",
+        "population variance = 53 - (7)^2 = 4",
+        "population SD = sqrt(4)",
+        "Display to 2 decimal places: 2.00"
+      ],
+      "numeric_answer": "2",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-practice-1-solution",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "variance": "4",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "constraint_level": "recommended",
+      "covers_learning_requirement_refs": [],
+      "display_answer": "2.45",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "6"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+      ],
+      "item_ref": "authored-sd-v1-practice-2-question",
+      "key_semantic_elements": [],
+      "mean": "12",
+      "method_steps": [
+        "mean = 96/8 = 12",
+        "population variance = 150 - (12)^2 = 6",
+        "population SD = sqrt(6)",
+        "Display to 2 decimal places: 2.45"
+      ],
+      "numeric_answer": "2.4494897427831780981972840747058913919659474806567",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-practice-2-solution",
+      "teaching_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "variance": "6",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "display_answer": "3.16",
+      "exact_answer": {
+        "op": "sqrt",
+        "radicand": "10"
+      },
+      "exact_string_matching_required": false,
+      "expected_meaning": null,
+      "instructional_slot_refs": [
+        "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+      ],
+      "item_ref": "authored-sd-v1-worked-question",
+      "key_semantic_elements": [],
+      "mean": "10",
+      "method_steps": [
+        "mean = 50/5 = 10",
+        "population variance = 110 - (10)^2 = 10",
+        "population SD = sqrt(10)",
+        "Display to 2 decimal places: 3.16"
+      ],
+      "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+      "origin": "authored_instructional_content",
+      "ref": "authored-sd-v1-worked-solution",
+      "teaching_block_refs": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+      ],
+      "variance": "10",
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    }
+  ],
+  "source_pedagogical_specification": {
+    "instructional_slot_refs": [
+      "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253",
+      "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba",
+      "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f",
+      "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+    ],
+    "learning_requirement_refs": [
+      "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+      "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+      "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    ],
+    "pedagogical_content_sha256": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "schema_version": "pedagogical-specification/1",
+    "teaching_block_refs": [
+      "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+      "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4",
+      "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597"
+    ],
+    "validation_content_sha256": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e",
+    "validation_schema_version": "pedagogical-validation/1",
+    "view_key": "standard-deviation"
+  },
+  "status": "authored_candidate",
+  "trust_boundary": "Authored candidate only. Mathematical verification is not academic approval, publication, pedagogical approval or proof of a completed lesson.",
+  "verification_summary": {
+    "checks": {
+      "authored-sd-v1-calculation-check-question": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-v1-deviation-formula": {
+        "checks": {
+          "display_matches_expression": true,
+          "population_identity_dataset_0": true,
+          "population_identity_dataset_1": true,
+          "population_identity_dataset_2": true,
+          "population_identity_dataset_3": true,
+          "population_identity_dataset_4": true,
+          "population_identity_dataset_5": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-v1-practice-1-question": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-v1-practice-2-question": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-v1-summary-formula": {
+        "checks": {
+          "display_matches_expression": true,
+          "population_identity_dataset_0": true,
+          "population_identity_dataset_1": true,
+          "population_identity_dataset_2": true,
+          "population_identity_dataset_3": true,
+          "population_identity_dataset_4": true,
+          "population_identity_dataset_5": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-v1-visual": {
+        "checks": {
+          "A_mean": true,
+          "A_sd": true,
+          "A_variance": true,
+          "B_mean": true,
+          "B_sd": true,
+          "B_variance": true,
+          "brief_matches_claims": true,
+          "same_mean": true,
+          "sd_order": true
+        },
+        "errors": [],
+        "status": "verified"
+      },
+      "authored-sd-v1-worked-question": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    },
+    "mathematical_checks_passed": true,
+    "ready_as_completed_teaching_content": false,
+    "ready_for_downstream_content_validation": true
+  },
+  "worked_examples": [
+    {
+      "assesses_learning_requirement_refs": [],
+      "assessment_structure_origin": "reviewed_evidence_alignment",
+      "capability_refs": [
+        "capability-standard-deviation-calculate"
+      ],
+      "constraint_level": "required",
+      "covers_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "evidence_refs": [
+        "assessment-example-59d69eb552cbcb118ae49738b8473ada0e299295240a4fc92888d477db3f306b",
+        "assessment-example-8ae5ad6f0b56304c47c703f1838af0d0135d33054339e71acde7e620ff57dd3b"
+      ],
+      "instructional_slot_refs": [
+        "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+      ],
+      "kind": "worked_example",
+      "origin": "generated_original",
+      "question": "A dataset contains 5 observations. The sum of the observations is 50, and the sum of their squares is 550. Calculate the standard deviation.",
+      "ref": "authored-sd-v1-worked-question",
+      "summary": {
+        "n": 5,
+        "sum_x": "50",
+        "sum_x2": "550"
+      },
+      "task_form_refs": [
+        "task-form-summary-statistics"
+      ],
+      "teaching_block_refs": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+      ],
+      "verification": {
+        "checks": {
+          "exact_answer_recomputed": true,
+          "mean_recomputed": true,
+          "method_steps_recomputed": true,
+          "numeric_answer_recomputed": true,
+          "question_values_match": true,
+          "rounding_recomputed": true,
+          "summaries_feasible": true,
+          "variance_recomputed": true
+        },
+        "errors": [],
+        "status": "verified"
+      }
+    }
+  ]
+}

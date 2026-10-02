@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "error": "Bundle stale/conflict; inspect again. concept:CON-STAT-EXTREMES versions: expected 7522db05f403a4cf789051e7ee1798108daa14e5d9c0bcd9808576cd15af421a, current None; concept_link:LINK-VARIATION-INTERPRET-EXTREMES versions: expected 51d1322a429cb94177b493cc65f63f216c71d95d73cce2c4bb47c12ddfd440fb, current None; part_mapping:MAP-Q2-c-VARIATION-INTERPRET versions: expected eb5758cd6d9d9ae787ddbd399cd608ed76235a7d5399cb107a465c020e23e7d2, current 6d19c9d282c67b80f01d38ca6dc687151e25fe993107fb55e63552cc190dcf4a",
+  "review_count_before": 32,
+  "review_count_after": 32,
+  "ticket_sha256": "f3875d34807f4b90b08b39e76cb59b0907d85f6f38008139691fe39f83f2c48c"
+}

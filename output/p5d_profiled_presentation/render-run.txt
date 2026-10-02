@@ -1,0 +1,16 @@
+{
+  "focused-review": {
+    "pptx": "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\Standard_Deviation_focused-review.pptx",
+    "slides": 11,
+    "valid": true,
+    "reused": false,
+    "preview_directory": "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview"
+  },
+  "standard-lesson": {
+    "pptx": "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\Standard_Deviation_standard-lesson.pptx",
+    "slides": 19,
+    "valid": true,
+    "reused": false,
+    "preview_directory": "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview"
+  }
+}

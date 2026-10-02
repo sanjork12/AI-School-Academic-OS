@@ -1,0 +1,20 @@
+{
+  "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+  "profile": "edexcel-4ma1-topic2-2017/1",
+  "tiers": {
+    "foundation": {
+      "path": "output/topic2_foundation_parsed.json",
+      "sha256": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+      "extracted_text_sha256": "fe4e64875e2b1f3dbe0a8375e9637268a9095da8da3c260e6ff40eb1a7d716ff",
+      "start_page": 21,
+      "end_page": 22
+    },
+    "higher": {
+      "path": "output/topic2_higher_parsed.json",
+      "sha256": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+      "extracted_text_sha256": "b571f2f4c2658dcd784524e2de1353917909d21b247757db8862e48e215e6f48",
+      "start_page": 37,
+      "end_page": 38
+    }
+  }
+}

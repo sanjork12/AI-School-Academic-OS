@@ -1,0 +1,43 @@
+test_01_oracle_shape (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_01_oracle_shape) ... ok
+test_02_oracle_answers (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_02_oracle_answers) ... ok
+test_03_visual_oracle (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_03_visual_oracle) ... ok
+test_04_math_summary (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_04_math_summary) ... ok
+test_05_closed_gate (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_05_closed_gate) ... ok
+test_06_invalid_structure_gate (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_06_invalid_structure_gate) ... ok
+test_07_incomplete_upstream_is_allowed (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_07_incomplete_upstream_is_allowed) ... ok
+test_08_original_and_alignment (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_08_original_and_alignment) ... ok
+test_09_question_solution_separation (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_09_question_solution_separation) ... ok
+test_10_concept_check_semantics (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_10_concept_check_semantics) ... ok
+test_11_alignment_no_new_requirements (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_11_alignment_no_new_requirements) ... ok
+test_12_boundaries (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_12_boundaries) ... ok
+test_13_slot_population (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_13_slot_population) ... ok
+test_14_corrupted_answers (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_14_corrupted_answers) ... ok
+test_15_nonfinite_stored_answer (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_15_nonfinite_stored_answer) ... ok
+test_16_stored_labels_not_authority (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_16_stored_labels_not_authority) ... ok
+test_17_corrupted_summary (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_17_corrupted_summary) ... ok
+test_18_corrupted_question (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_18_corrupted_question) ... ok
+test_19_invalid_summaries (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_19_invalid_summaries) ... ok
+test_20_raw_data_edge_cases (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_20_raw_data_edge_cases) ... ok
+test_21_rounding_explicit (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_21_rounding_explicit) ... ok
+test_22_formula_recomputation (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_22_formula_recomputation) ... ok
+test_23_formula_display_tamper (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_23_formula_display_tamper) ... ok
+test_24_invalid_formula_ast (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_24_invalid_formula_ast) ... ok
+test_25_visual_claims_tamper (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_25_visual_claims_tamper) ... ok
+test_26_visual_data_and_relationship_tamper (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_26_visual_data_and_relationship_tamper) ... ok
+test_27_schema_references (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_27_schema_references) ... ok
+test_28_duplicate_and_missing_solution (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_28_duplicate_and_missing_solution) ... ok
+test_29_cannot_claim_approval (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_29_cannot_claim_approval) ... ok
+test_30_provider_pure_no_fixture_reads (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_30_provider_pure_no_fixture_reads) ... ok
+test_31_provider_guards_changed_semantics (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_31_provider_guards_changed_semantics) ... ok
+test_32_fresh_service_no_cache (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_32_fresh_service_no_cache) ... ok
+test_33_provenance_race_refused (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_33_provenance_race_refused) ... ok
+test_34_saved_json_not_authority (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_34_saved_json_not_authority) ... ok
+test_35_real_service_deterministic (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_35_real_service_deterministic) ... ok
+test_36_cli_read_only_and_output_guard (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_36_cli_read_only_and_output_guard) ... ok
+test_37_frozen_state (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_37_frozen_state) ... ok
+test_38_upstream_content_hashes (tests_p0.test_authored_teaching.AuthoredTeachingTests.test_38_upstream_content_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 27.047s
+
+OK

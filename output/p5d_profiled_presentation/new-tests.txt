@@ -1,0 +1,35 @@
+test_01_current_gates (tests_p0.test_profile_presentation.ProfilePresentationTests.test_01_current_gates) ... ok
+test_02_academic_invariance (tests_p0.test_profile_presentation.ProfilePresentationTests.test_02_academic_invariance) ... ok
+test_03_all_roles (tests_p0.test_profile_presentation.ProfilePresentationTests.test_03_all_roles) ... ok
+test_04_density_drives_length (tests_p0.test_profile_presentation.ProfilePresentationTests.test_04_density_drives_length) ... ok
+test_05_focused_semantic_regression (tests_p0.test_profile_presentation.ProfilePresentationTests.test_05_focused_semantic_regression) ... ok
+test_06_composite_children (tests_p0.test_profile_presentation.ProfilePresentationTests.test_06_composite_children) ... ok
+test_07_exit_split (tests_p0.test_profile_presentation.ProfilePresentationTests.test_07_exit_split) ... ok
+test_08_false_gate (tests_p0.test_profile_presentation.ProfilePresentationTests.test_08_false_gate) ... ok
+test_09_spoofed_stale_report (tests_p0.test_profile_presentation.ProfilePresentationTests.test_09_spoofed_stale_report) ... ok
+test_10_scope_difference (tests_p0.test_profile_presentation.ProfilePresentationTests.test_10_scope_difference) ... ok
+test_11_minimum_target_subset (tests_p0.test_profile_presentation.ProfilePresentationTests.test_11_minimum_target_subset) ... ok
+test_12_manifest_drop_role (tests_p0.test_profile_presentation.ProfilePresentationTests.test_12_manifest_drop_role) ... ok
+test_13_manifest_answer_visibility (tests_p0.test_profile_presentation.ProfilePresentationTests.test_13_manifest_answer_visibility) ... ok
+test_14_manifest_profile_identity (tests_p0.test_profile_presentation.ProfilePresentationTests.test_14_manifest_profile_identity) ... ok
+test_15_solution_sources_not_visible (tests_p0.test_profile_presentation.ProfilePresentationTests.test_15_solution_sources_not_visible) ... ok
+test_16_exact_teacher_objects (tests_p0.test_profile_presentation.ProfilePresentationTests.test_16_exact_teacher_objects) ... ok
+test_17_scaffolding_preserved (tests_p0.test_profile_presentation.ProfilePresentationTests.test_17_scaffolding_preserved) ... ok
+test_18_guided_independent_distinct (tests_p0.test_profile_presentation.ProfilePresentationTests.test_18_guided_independent_distinct) ... ok
+test_19_raw_example_actual_values (tests_p0.test_profile_presentation.ProfilePresentationTests.test_19_raw_example_actual_values) ... ok
+test_20_labels_classified (tests_p0.test_profile_presentation.ProfilePresentationTests.test_20_labels_classified) ... ok
+test_21_determinism (tests_p0.test_profile_presentation.ProfilePresentationTests.test_21_determinism) ... ok
+test_22_live_failure_no_output (tests_p0.test_profile_presentation.ProfilePresentationTests.test_22_live_failure_no_output) ... ok
+test_23_final_artifacts_valid (tests_p0.test_profile_presentation.ProfilePresentationTests.test_23_final_artifacts_valid) ... ok
+test_24_actual_answer_leak (tests_p0.test_profile_presentation.ProfilePresentationTests.test_24_actual_answer_leak) ... ok
+test_25_actual_number_tamper (tests_p0.test_profile_presentation.ProfilePresentationTests.test_25_actual_number_tamper) ... ok
+test_26_actual_object_removed (tests_p0.test_profile_presentation.ProfilePresentationTests.test_26_actual_object_removed) ... ok
+test_27_preserved_foundation (tests_p0.test_profile_presentation.ProfilePresentationTests.test_27_preserved_foundation) ... ok
+test_28_same_closure (tests_p0.test_profile_presentation.ProfilePresentationTests.test_28_same_closure) ... ok
+test_29_no_new_content (tests_p0.test_profile_presentation.ProfilePresentationTests.test_29_no_new_content) ... ok
+test_30_profile_context (tests_p0.test_profile_presentation.ProfilePresentationTests.test_30_profile_context) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 99.455s
+
+OK

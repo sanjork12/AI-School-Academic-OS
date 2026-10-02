@@ -1,0 +1,33 @@
+{
+  "format": "p6a1-observed-regression-results/1",
+  "p6a_baseline": {
+    "command": "python -m unittest tests_p0.test_ai_authoring -q",
+    "total": 42,
+    "passed": 42,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 139.709
+  },
+  "freeze_and_p5c_regression": {
+    "command": "python -m unittest tests_p0.test_reference_freeze tests_p0.test_profiled_validation -q",
+    "total": 90,
+    "passed": 90,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "elapsed_seconds": 46.868
+  },
+  "new_qualification_tests": {
+    "command": "python -m tests_p0.ai_qualification_acceptance",
+    "total": 28,
+    "passed": 28,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "test_elapsed_seconds": 96.246,
+    "log": "output/p6a1_offline_acceptance/tests.txt"
+  },
+  "paid_calls_executed": 0,
+  "full_suite": "not rerun; the historical missing PPTX error remains in the unchanged reference-freeze receipt"
+}

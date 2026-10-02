@@ -1,0 +1,66 @@
+{
+  "cli_policy": "Both CLIs explicitly select POLICY; no legacy CLI flag.",
+  "compatibility_only_defaults": [
+    {
+      "path": "academic_os/ai_authoring/models.py",
+      "purpose": "Deserialize historical Validation records with absent provenance fields."
+    },
+    {
+      "path": "academic_os/ai_qualification/models.py",
+      "purpose": "Deserialize historical attempt/report policy and absent provenance fields."
+    },
+    {
+      "function": "rebuild",
+      "path": "academic_os/ai_qualification/reporting.py",
+      "purpose": "Read historical immutable run records; never validate a new candidate or generate a candidate."
+    }
+  ],
+  "defect": "All five public Python entry points implicitly selected legacy validation when policy was omitted; result labelling alone did not prevent accidental bypass.",
+  "entries": [
+    {
+      "after_default": "sl10-provenance-required/1",
+      "before_default": "sl10-expression-required/1",
+      "explicit_legacy_supported": true,
+      "function": "compile_brief",
+      "line": 47,
+      "path": "academic_os/ai_authoring/brief.py"
+    },
+    {
+      "after_default": "sl10-provenance-required/1",
+      "before_default": "sl10-expression-required/1",
+      "explicit_legacy_supported": true,
+      "function": "run_once",
+      "line": 40,
+      "path": "academic_os/ai_authoring/service.py"
+    },
+    {
+      "after_default": "sl10-provenance-required/1",
+      "before_default": "sl10-expression-required/1",
+      "explicit_legacy_supported": true,
+      "function": "validate_candidate",
+      "line": 27,
+      "path": "academic_os/ai_authoring/validation.py"
+    },
+    {
+      "after_default": "sl10-provenance-required/1",
+      "before_default": "sl10-expression-required/1",
+      "explicit_legacy_supported": true,
+      "function": "compose",
+      "line": 173,
+      "path": "academic_os/ai_authoring/validation.py"
+    },
+    {
+      "after_default": "sl10-provenance-required/1",
+      "before_default": "sl10-expression-required/1",
+      "explicit_legacy_supported": true,
+      "function": "execute",
+      "line": 38,
+      "path": "academic_os/ai_qualification/runner.py"
+    }
+  ],
+  "historical_mode": "verify_solution_provenance(historical=True) can classify missing literal identity as INSUFFICIENT_EVIDENCE; it cannot accept or compose candidates and no current validation caller selects it.",
+  "model_api_calls": 0,
+  "regression_module": "tests_p0.test_provenance_closure",
+  "resolution": "Default all five to provenance-required; existing compatibility workflows explicitly select LEGACY_POLICY.",
+  "wiring": "Service and runner forward policy explicitly on every compile, validation, composition and nested run call."
+}

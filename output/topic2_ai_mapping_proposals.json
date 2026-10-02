@@ -1,0 +1,83 @@
+{
+  "model": "gpt-5.6-luna",
+  "proposal_count": 7,
+  "proposals": [
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-A",
+      "proposed_canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.99,
+      "reasoning": "The objective explicitly concerns understanding and using inequality symbols; none of the existing objectives addresses inequality notation.",
+      "proposed_skill_name": "Understand and use inequality symbols",
+      "proposed_description": "Understand and use the symbols >, <, ≥ and ≤.",
+      "review_status": "pending"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-B",
+      "proposed_canonical_id": "CAN-ALG-INEQ-INTERVAL-NUMBERLINE",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.99,
+      "reasoning": "The objective explicitly concerns the convention for open and closed intervals on a number line, which is distinct from solving or graphing inequalities.",
+      "proposed_skill_name": "Use open and closed interval conventions on number lines",
+      "proposed_description": "Understand and use the convention for open and closed intervals on a number line.",
+      "review_status": "pending"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-C",
+      "proposed_canonical_id": "CAN-ALG-INEQ-LINEAR-SOLVE-NUMBERLINE",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.99,
+      "reasoning": "The objective combines solving simple linear inequalities in one variable with representing their solution sets on a number line; no existing objective covers this skill.",
+      "proposed_skill_name": "Solve and represent simple linear inequalities in one variable",
+      "proposed_description": "Solve simple linear inequalities in one variable and represent the solution set on a number line.",
+      "review_status": "pending"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-D",
+      "proposed_canonical_id": "CAN-ALG-INEQ-LINEAR-CARTESIAN-REPRESENT",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.99,
+      "reasoning": "The objective explicitly requires representing simple linear inequalities on rectangular Cartesian graphs, a graphing skill not covered by the existing objectives.",
+      "proposed_skill_name": "Represent simple linear inequalities on Cartesian graphs",
+      "proposed_description": "Represent simple linear inequalities on rectangular Cartesian graphs.",
+      "review_status": "pending"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "proposed_canonical_id": "CAN-ALG-INEQ-REGION-IDENTIFY",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.98,
+      "reasoning": "The objective explicitly requires identifying regions on rectangular Cartesian graphs defined by simple linear inequalities; this is an interpretation skill distinct from representing inequalities.",
+      "proposed_skill_name": "Identify regions defined by simple linear inequalities",
+      "proposed_description": "Identify regions on rectangular Cartesian graphs defined by simple linear inequalities.",
+      "review_status": "pending"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.8-A",
+      "proposed_canonical_id": "CAN-ALG-INEQ-QUADRATIC-SOLVE-NUMBERLINE",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.99,
+      "reasoning": "The objective explicitly requires solving quadratic inequalities in one unknown and representing the solution set on a number line; the existing quadratic objectives concern equations rather than inequalities.",
+      "proposed_skill_name": "Solve and represent quadratic inequalities in one unknown",
+      "proposed_description": "Solve quadratic inequalities in one unknown and represent the solution set on a number line.",
+      "review_status": "pending"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "proposed_canonical_id": "CAN-ALG-INEQ-HARDER-REGIONS",
+      "action": "create_new",
+      "relationship": "equivalent",
+      "confidence": 0.93,
+      "reasoning": "The objective explicitly concerns identifying harder examples of regions defined by linear inequalities. It should remain distinct from the objective on simple linear-inequality regions because the stated difficulty scope differs.",
+      "proposed_skill_name": "Identify harder regions defined by linear inequalities",
+      "proposed_description": "Identify harder examples of regions defined by linear inequalities.",
+      "review_status": "pending"
+    }
+  ]
+}

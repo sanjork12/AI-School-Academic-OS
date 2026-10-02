@@ -1,0 +1,14 @@
+{
+  "status": "P4C.1 design acceptance passed",
+  "tests": {
+    "baseline_passed": 43,
+    "new_design_passed": 44,
+    "regression_total": 182,
+    "passed": 182,
+    "failures": 0,
+    "errors": 0,
+    "full_repository_suite_run": false
+  },
+  "artifact": "output\\p4c1_presentation_design\\Standard_Deviation_v2.pptx",
+  "valid": true
+}

@@ -1,0 +1,28 @@
+{
+  "brief_version": "authoring-brief/4",
+  "candidate_contract": "ai-author-candidate/2",
+  "candidate_schema_sha256": "daa360add7e25d77acba5918289fc99cd18ec5cd89653c26f732340f308ae695",
+  "catalog_validated": 8,
+  "controlled_mode": "sl10-controlled-input/1",
+  "credentials_present": true,
+  "historical_evidence_unchanged": true,
+  "manifest": {
+    "active_reference_version": "v1.6",
+    "manifest_path": "output/reference_freeze_v1_6/reference_manifest.json",
+    "manifest_sha256": "f1a7de965222282fe7f98b8da7994f942f9e99e6ab076f6a8d90a313e0e2178a"
+  },
+  "model": "gpt-5.6-sol",
+  "mutation_enabled": false,
+  "phase": "complete",
+  "policy": "sl10-provenance-required/1",
+  "process_local_model": true,
+  "protected_files": 1578,
+  "provenance_verifier": "sl10-derivation-provenance/1",
+  "provider_constructed": true,
+  "provider_requests_during_preflight": 0,
+  "provider_schema_sha256": "3cc9b2a49657fea5b174dede75b4a7eaebf00f5d16b829b3bd70504152688eeb",
+  "repair_count": 0,
+  "retry_count": 0,
+  "status": "PASSED",
+  "trusted_state_unchanged": true
+}

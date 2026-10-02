@@ -1,0 +1,638 @@
+{
+  "academic_scope_fingerprint": "e53e60013e254a631d64f69a71bcaad5df19242f913fdbe3b9644c8f0031e359",
+  "authoring_requirements": [
+    {
+      "additional_target_items": 0,
+      "content_kind": "concept_explanation",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "ref": "profiled-sd-focused-review-FR-01-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-01",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "concept_visual",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "ref": "profiled-sd-focused-review-FR-02-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-02",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "calculation_method",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "ref": "profiled-sd-focused-review-FR-03-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-03",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "summary_method",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "ref": "profiled-sd-focused-review-FR-04-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-04",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "full_worked_examples",
+      "coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "ref": "profiled-sd-focused-review-FR-05-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-05",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "independent_practice",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "ref": "profiled-sd-focused-review-FR-06-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-06",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "independent_practice",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "ref": "profiled-sd-focused-review-FR-07-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-07",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "concept_check",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "ref": "profiled-sd-focused-review-FR-08-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-08",
+      "status": "unpopulated"
+    },
+    {
+      "additional_target_items": 0,
+      "content_kind": "calculation_check",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "ref": "profiled-sd-focused-review-FR-09-authoring",
+      "reuse_hint": "potential_existing_p4a",
+      "reuse_is_not_validated": true,
+      "role_ref": "profiled-sd-focused-review-FR-09",
+      "status": "unpopulated"
+    }
+  ],
+  "coverage_requirement_refs": [
+    "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862",
+    "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+  ],
+  "density_summary": {
+    "calculation_check": {
+      "minimum": 1,
+      "target": 1
+    },
+    "calculation_method": {
+      "minimum": 1,
+      "target": 1
+    },
+    "concept_check": {
+      "minimum": 1,
+      "target": 1
+    },
+    "concept_explanation": {
+      "minimum": 1,
+      "target": 1
+    },
+    "concept_visual": {
+      "minimum": 1,
+      "target": 1
+    },
+    "early_concept_retrieval": {
+      "minimum": 0,
+      "target": 0
+    },
+    "exit_check": {
+      "minimum": 0,
+      "target": 0
+    },
+    "full_worked_examples": {
+      "minimum": 1,
+      "target": 1
+    },
+    "guided_practice": {
+      "minimum": 0,
+      "target": 0
+    },
+    "independent_practice": {
+      "minimum": 2,
+      "target": 2
+    },
+    "mini_worked_example": {
+      "minimum": 0,
+      "target": 0
+    },
+    "summary_method": {
+      "minimum": 1,
+      "target": 1
+    }
+  },
+  "evidence_boundaries": [
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_frequency",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e9c8d62e8c908bb636ed25d1e9615a19d1018aa2bff571dd928c67f0b0c298a3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_frequency"
+      ],
+      "statement": "The 2 reviewed examples do not establish assessment frequency."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "insufficient_evidence_for_typical_marks",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-e2e4287bf066da2b23b92f8f50c9c0477982f2b9cfb23311676357e8d56dd621",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/insufficient_evidence_for_typical_marks"
+      ],
+      "statement": "These reviewed examples do not establish a typical mark allocation."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "difficulty_not_calibrated",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-8c4e29fef5e9a0ecfa0956b5317001edecea5c769f059c50f4bb704ed61da5d8",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/difficulty_not_calibrated"
+      ],
+      "statement": "No calibrated difficulty evidence is available."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_exam_prediction",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-ed746f0c83f03440c1ad9c18d81bf7c73f325287d057cde8426a1c7917beec79",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_exam_prediction"
+      ],
+      "statement": "Reviewed historical evidence does not support prediction of future exam appearance."
+    },
+    {
+      "basis": "upstream_limitation",
+      "code": "no_student_error_evidence",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-c589a20d3b2815cb98c55a60d8087b2273d0399e928268bcec5ae379b03221f3",
+      "source_refs": [
+        "assessment-intelligence/1:limitations/no_student_error_evidence"
+      ],
+      "statement": "No student response evidence supports common-mistake claims."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "prerequisites_not_modelled",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-532f6c2b79c84d2717936e810ce1596536992078cda6a6ed601cd6a829f77733",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Prerequisite knowledge has not yet been modelled by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "teaching_sequence_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-6779867e7d13ca7690397c65eefd1d800efd38e66e0eea5e6ccdb96ad48da915",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Teaching sequence has not yet been established by these contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "calculator_method_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-80a1ae0eb169998afdb4e878f3b712a21f80e0c898ae92740f10281dc4ddb06f",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "A required calculator or manual method has not been established."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "formula_memorisation_not_established",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-258289be29146231061225d38497b0d04ae510e61387fb8738588636e2b8c393",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "Formula knowledge or memorisation requirements have not been established by the current trusted Product Contracts."
+    },
+    {
+      "basis": "contract_scope",
+      "code": "unsupported_task_forms_excluded",
+      "epistemic_class": "evidence_boundary",
+      "ref": "eb-f1d86f5b651370ed17baa415b7c34e59c0d650db34f0c3b6aae2f3beeccbcb08",
+      "source_refs": [
+        "teacher-topic/2",
+        "assessment-intelligence/1"
+      ],
+      "statement": "This Learning Specification includes only its explicitly supported task forms, not every possible task form for the topic."
+    }
+  ],
+  "identity": {
+    "profile_key": "focused-review",
+    "ref": "profiled-standard-deviation-focused-review",
+    "title": "Standard deviation — Focused Review",
+    "topic_key": "standard-deviation"
+  },
+  "learning_requirement_refs": [
+    "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928",
+    "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+    "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+  ],
+  "lesson_profile": {
+    "ref": "focused-review",
+    "schema_version": "lesson-profile/1",
+    "sha256": "955186f6b764d8ae0763db35d73f6957a5f23ad502f41491cf9670bb3163153d"
+  },
+  "profiled_roles": [
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "concept_explanation",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "concept_development",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-01",
+      "role_key": "FR-01",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Concept explanation"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "concept_visual",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "concept_development",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-02",
+      "role_key": "FR-02",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Concept visual comparison"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "calculation_method",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "calculation_development",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-03",
+      "role_key": "FR-03",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Calculation method"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "summary_method",
+      "learning_requirement_refs": [
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "supported_task_form",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-04",
+      "role_key": "FR-04",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Summary-statistics method"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+      "coverage_requirement_refs": [
+        "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "full_worked_examples",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "supported_task_form",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-05",
+      "role_key": "FR-05",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Worked example"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "independent_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "independent_application",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-06",
+      "role_key": "FR-06",
+      "substantive": true,
+      "support_mode": "independent",
+      "title": "Independent practice 1"
+    },
+    {
+      "assesses_learning_requirement_refs": [],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "independent_practice",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "independent_application",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-focused-review-FR-07",
+      "role_key": "FR-07",
+      "substantive": true,
+      "support_mode": "independent",
+      "title": "Independent practice 2"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "base_teaching_block_ref": "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3",
+      "coverage_requirement_refs": [],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "concept_check",
+      "learning_requirement_refs": [
+        "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+      ],
+      "origin": "profile_density_expansion",
+      "phase": "check_and_closure",
+      "profile_reason": "Additional pedagogical opportunity for the same existing requirements.",
+      "ref": "profiled-sd-focused-review-FR-08",
+      "role_key": "FR-08",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Concept check"
+    },
+    {
+      "assesses_learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "base_teaching_block_ref": "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+      "coverage_requirement_refs": [
+        "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+      ],
+      "items": {
+        "minimum": 1,
+        "target": 1
+      },
+      "kind": "calculation_check",
+      "learning_requirement_refs": [
+        "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+        "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+      ],
+      "origin": "base_pedagogy",
+      "phase": "check_and_closure",
+      "profile_reason": "Preserve the base pedagogical function within the chosen lesson design.",
+      "ref": "profiled-sd-focused-review-FR-09",
+      "role_key": "FR-09",
+      "substantive": true,
+      "support_mode": "not_applicable",
+      "title": "Calculation/application check"
+    }
+  ],
+  "schema_version": "profiled-pedagogical-specification/1",
+  "scope_validation": {
+    "academic_scope_expanded": false,
+    "coverage_status": "planned_only",
+    "policy": "preserve_learning_specification",
+    "ready_as_authored_content": false,
+    "ready_for_rendering": false,
+    "same_coverage_requirement_identity": true,
+    "same_evidence_boundaries": true,
+    "same_learning_requirement_identity": true
+  },
+  "source_base_pedagogy": {
+    "ref": "standard-deviation",
+    "schema_version": "pedagogical-specification/1",
+    "sha256": "763e5359644ffc958a7caa7fca2d3803a7c65afc10575d54d21fafd3319969be"
+  },
+  "source_learning_specification": {
+    "ref": "standard-deviation",
+    "schema_version": "learning-specification/1",
+    "sha256": "b52a2c57a909a6bcb0bc7cce3b58a70cd0042a90e38af6564fa7ea3bb55fe60a"
+  },
+  "time_plan": {
+    "interpretation": "suggestions_not_additive_schedule",
+    "phases": [
+      {
+        "key": "orientation",
+        "suggested_range_minutes": {
+          "max": 2,
+          "min": 1
+        },
+        "title": "Orientation / goals"
+      },
+      {
+        "key": "concept_development",
+        "suggested_range_minutes": {
+          "max": 5,
+          "min": 4
+        },
+        "title": "Concept + visual"
+      },
+      {
+        "key": "calculation_development",
+        "suggested_range_minutes": {
+          "max": 4,
+          "min": 3
+        },
+        "title": "Calculation method"
+      },
+      {
+        "key": "summary_method",
+        "suggested_range_minutes": {
+          "max": 4,
+          "min": 3
+        },
+        "title": "Summary-statistics method"
+      },
+      {
+        "key": "worked_examples",
+        "suggested_range_minutes": {
+          "max": 5,
+          "min": 4
+        },
+        "title": "Worked example"
+      },
+      {
+        "key": "independent_practice",
+        "suggested_range_minutes": {
+          "max": 7,
+          "min": 5
+        },
+        "title": "Independent practice"
+      },
+      {
+        "key": "checks_closure",
+        "suggested_range_minutes": {
+          "max": 4,
+          "min": 3
+        },
+        "title": "Checks + closure"
+      }
+    ],
+    "sequence_basis": "chosen_pedagogical_design_not_trusted_academic_sequence"
+  }
+}

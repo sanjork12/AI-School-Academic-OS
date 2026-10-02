@@ -1,0 +1,71 @@
+Standard deviation
+Authored Teaching Content
+Status: authored_candidate
+Provider: standard-deviation-population/v1
+Content blocks: 9
+Slots supplied: 4 / 4
+Mathematical verification: VERIFIED
+
+Concept Explanation
+Standard deviation is a measure of how spread out the values in a dataset are around the mean. It is measured in the same units as the original observations.
+
+Visual Comparison
+Compare the supplied datasets: same mean, different spread.
+Show both datasets around a marked mean of 10. Dataset B is more dispersed than Dataset A. Use the original observations as plotted points.
+
+Calculation Method
+Determine the mean. Determine each observation's deviation from the mean. Square the deviations. Average the squared deviations. Take the square root.
+
+Summary Statistics Method
+Use the supplied number of observations, their sum, and the sum of their squares in the summary-statistics relationship. Take the square root of the resulting population variance.
+
+Worked Example
+Original authored item; the question and solution are stored separately.
+
+Practice Item
+Original authored item; the question and solution are stored separately.
+
+Practice Item
+Original authored item; the question and solution are stored separately.
+
+Concept Check
+Explain the meaning in your own words; no exact-answer string is required.
+
+Calculation Check
+Original authored item; the question and solution are stored separately.
+
+Worked Example
+A dataset contains 5 observations. The sum of the observations is 50, and the sum of their squares is 550. Calculate the standard deviation.
+
+Practice Item
+A dataset contains 10 observations. The sum of the observations is 70, and the sum of their squares is 530. Calculate the standard deviation.
+
+Practice Item
+A dataset contains 8 observations. The sum of the observations is 96, and the sum of their squares is 1200. Calculate the standard deviation.
+
+Calculation Check
+A dataset contains 20 observations. The sum of the observations is 300, and the sum of their squares is 4700. Calculate the standard deviation.
+
+Concept Check
+What does standard deviation tell us about a set of observations?
+
+Teacher solutions (separate from question objects)
+mean = 300/20 = 15
+population variance = 235 - (15)^2 = 10
+population SD = sqrt(10)
+Display to 2 decimal places: 3.16
+It measures how spread out the observations are around the mean.
+mean = 70/10 = 7
+population variance = 53 - (7)^2 = 4
+population SD = sqrt(4)
+Display to 2 decimal places: 2.00
+mean = 96/8 = 12
+population variance = 150 - (12)^2 = 6
+population SD = sqrt(6)
+Display to 2 decimal places: 2.45
+mean = 50/5 = 10
+population variance = 110 - (10)^2 = 10
+population SD = sqrt(10)
+Display to 2 decimal places: 3.16
+
+Authored candidate only. Mathematical verification is not academic approval, publication, pedagogical approval or proof of a completed lesson.

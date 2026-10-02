@@ -1,0 +1,269 @@
+{
+  "profile_key": "focused-review",
+  "schema_version": "presentation-teacher-solutions/2",
+  "solutions": {
+    "authored-sd-v1-calculation-check-solution": {
+      "item_ref": "authored-sd-v1-calculation-check-question",
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-09"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "constraint_level": "required",
+        "covers_learning_requirement_refs": [],
+        "display_answer": "3.16",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "10"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+        ],
+        "item_ref": "authored-sd-v1-calculation-check-question",
+        "key_semantic_elements": [],
+        "mean": "15",
+        "method_steps": [
+          "mean = 300/20 = 15",
+          "population variance = 235 - (15)^2 = 10",
+          "population SD = sqrt(10)",
+          "Display to 2 decimal places: 3.16"
+        ],
+        "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-calculation-check-solution",
+        "teaching_block_refs": [
+          "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+        ],
+        "variance": "10",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-concept-check-solution": {
+      "item_ref": "authored-sd-v1-concept-check-question",
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-08"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+        ],
+        "constraint_level": "flexible",
+        "covers_learning_requirement_refs": [],
+        "display_answer": null,
+        "exact_answer": null,
+        "exact_string_matching_required": false,
+        "expected_meaning": "It measures how spread out the observations are around the mean.",
+        "instructional_slot_refs": [],
+        "item_ref": "authored-sd-v1-concept-check-question",
+        "key_semantic_elements": [
+          "spread or dispersion",
+          "around the mean"
+        ],
+        "mean": null,
+        "method_steps": [],
+        "numeric_answer": null,
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-concept-check-solution",
+        "teaching_block_refs": [
+          "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+        ],
+        "variance": null,
+        "verification": null
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-practice-1-solution": {
+      "item_ref": "authored-sd-v1-practice-1-question",
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-06"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "constraint_level": "recommended",
+        "covers_learning_requirement_refs": [],
+        "display_answer": "2.00",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "4"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+        ],
+        "item_ref": "authored-sd-v1-practice-1-question",
+        "key_semantic_elements": [],
+        "mean": "7",
+        "method_steps": [
+          "mean = 70/10 = 7",
+          "population variance = 53 - (7)^2 = 4",
+          "population SD = sqrt(4)",
+          "Display to 2 decimal places: 2.00"
+        ],
+        "numeric_answer": "2",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-practice-1-solution",
+        "teaching_block_refs": [
+          "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+        ],
+        "variance": "4",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-practice-2-solution": {
+      "item_ref": "authored-sd-v1-practice-2-question",
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-07"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "constraint_level": "recommended",
+        "covers_learning_requirement_refs": [],
+        "display_answer": "2.45",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "6"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253"
+        ],
+        "item_ref": "authored-sd-v1-practice-2-question",
+        "key_semantic_elements": [],
+        "mean": "12",
+        "method_steps": [
+          "mean = 96/8 = 12",
+          "population variance = 150 - (12)^2 = 6",
+          "population SD = sqrt(6)",
+          "Display to 2 decimal places: 2.45"
+        ],
+        "numeric_answer": "2.4494897427831780981972840747058913919659474806567",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-practice-2-solution",
+        "teaching_block_refs": [
+          "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+        ],
+        "variance": "6",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "teacher_sidecar_only"
+    },
+    "authored-sd-v1-worked-solution": {
+      "item_ref": "authored-sd-v1-worked-question",
+      "profile_role_refs": [
+        "profiled-sd-focused-review-FR-05"
+      ],
+      "solution": {
+        "assesses_learning_requirement_refs": [],
+        "constraint_level": "required",
+        "covers_learning_requirement_refs": [
+          "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a",
+          "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+        ],
+        "display_answer": "3.16",
+        "exact_answer": {
+          "op": "sqrt",
+          "radicand": "10"
+        },
+        "exact_string_matching_required": false,
+        "expected_meaning": null,
+        "instructional_slot_refs": [
+          "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f"
+        ],
+        "item_ref": "authored-sd-v1-worked-question",
+        "key_semantic_elements": [],
+        "mean": "10",
+        "method_steps": [
+          "mean = 50/5 = 10",
+          "population variance = 110 - (10)^2 = 10",
+          "population SD = sqrt(10)",
+          "Display to 2 decimal places: 3.16"
+        ],
+        "numeric_answer": "3.1622776601683793319988935444327185337195551393252",
+        "origin": "authored_instructional_content",
+        "ref": "authored-sd-v1-worked-solution",
+        "teaching_block_refs": [
+          "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+        ],
+        "variance": "10",
+        "verification": {
+          "checks": {
+            "exact_answer_recomputed": true,
+            "mean_recomputed": true,
+            "method_steps_recomputed": true,
+            "numeric_answer_recomputed": true,
+            "question_values_match": true,
+            "rounding_recomputed": true,
+            "summaries_feasible": true,
+            "variance_recomputed": true
+          },
+          "errors": [],
+          "status": "verified"
+        }
+      },
+      "visibility": "student_worked_example"
+    }
+  },
+  "source_validation": {
+    "authored_content_sha256": "d950a73540c123fa826b6d3d572a4cab993cd8d0631d8a0b78028c853342704a",
+    "content_validation_sha256": "6e3a5821525976a5450bbf0675233faac727cc9e6ddf846653d3d6a14d754804",
+    "learning_specification_sha256": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558",
+    "lesson_profile_sha256": "955186f6b764d8ae0763db35d73f6957a5f23ad502f41491cf9670bb3163153d",
+    "profiled_content_sha256": "2e40cb2668edb952e291e9851dae69a7da645060142d03ebbe5b1bf8182c1211",
+    "profiled_pedagogy_sha256": "88da72064095578b6f2afd73c02f96ba7ce3b6271e5cae155a59569d94645aa3",
+    "profiled_validation_sha256": "dec227dba04c7b313a94ce1bc6b868bcb2d948ec1683bccd464043f6055701ac"
+  }
+}

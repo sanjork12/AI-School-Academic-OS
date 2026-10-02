@@ -1,0 +1,52 @@
+import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
+import { resolve } from "node:path";
+const root=resolve(__dirname,"../../..");
+const evidenceRoot=resolve(root,process.env.P6UI_ACCEPTANCE_DIR??"tmp/p6ui-console-browser");
+const hash=(p:string)=>createHash("sha256").update(readFileSync(resolve(root,p))).digest("hex");
+
+test("real Standard Lesson services, evidence, separate solutions and PPT download",async({page})=>{
+  const before=hash("var/p0_q2.sqlite3");const requests:string[]=[];
+  page.on("request",r=>requests.push(r.url()));
+  await page.goto("/");await expect(page.getByText("LOCAL API CONNECTED",{exact:true})).toBeVisible();
+  await expect(page.locator("#source")).toHaveValue("standard-deviation");
+  await expect(page.locator("#profile")).toContainText("Standard Lesson");
+  const submit=page.waitForResponse(r=>r.url().endsWith("/api/runs/assemble-standard-lesson")&&r.request().method()==="POST");
+  await page.getByRole("button",{name:"Assemble & Validate",exact:true}).click();
+  const response=await submit;expect(response.status()).toBe(202);const queued=await response.json();expect(queued.status).toBe("queued");
+  await expect(page.getByTestId("run-status")).toContainText("succeeded",{timeout:60000});
+  await expect(page.getByTestId("lesson-role")).toHaveCount(15);
+  const slots=await page.getByTestId("lesson-role").locator(".role-heading > span:first-child").allTextContents();
+  expect(slots).toEqual(Array.from({length:15},(_,i)=>`SL-${String(i+1).padStart(2,"0")}`));
+  const evidence=page.locator(".evidence-row").filter({hasText:"Profiled content validation"});await expect(evidence.locator(".state")).toHaveText("PASS");
+  await expect(page.locator(".evidence-row").filter({hasText:"Curriculum association confirmed"}).locator(".state")).toHaveText("NOT_EVALUATED");
+  await expect(page.getByTestId("questions").locator(".question")).not.toHaveCount(0);
+  await expect(page.locator(".teacher-answer")).toHaveCount(0);
+  await page.getByRole("button",{name:"View linked teacher solution"}).first().click();
+  await expect(page.getByRole("heading",{name:"TEACHER ONLY · Solutions"})).toBeVisible();
+  await expect(page.locator(".teacher-answer")).toHaveCount(1);
+  await page.getByRole("button",{name:"Presentation",exact:true}).click();
+  const download=page.waitForEvent("download");await page.getByRole("link",{name:/Standard_Deviation_standard-lesson.pptx/}).click();
+  const file=await download;expect(file.suggestedFilename()).toBe("Standard_Deviation_standard-lesson.pptx");
+  await file.saveAs(resolve(root,"tmp/p6ui-downloaded.pptx"));expect(hash("tmp/p6ui-downloaded.pptx")).toBe(hash("output/p5d_profiled_presentation/standard-lesson/Standard_Deviation_standard-lesson.pptx"));
+  await page.getByRole("button",{name:"Historical Runs",exact:true}).click();await expect(page.getByRole("heading",{name:"HISTORICAL EVIDENCE",exact:true})).toBeVisible();
+  await expect(page.getByRole("heading",{name:/P6A.7b · SL-11 · REJECTED/}).first()).toBeVisible();
+  expect(hash("var/p0_q2.sqlite3")).toBe(before);
+  expect(requests.every(url=>url.startsWith("http://127.0.0.1:"))).toBeTruthy();
+  await page.screenshot({path:resolve(evidenceRoot,"console-acceptance.png"),fullPage:false});
+});
+
+test("Topic 2 is a real curriculum explorer, never an SD generation alias",async({page})=>{
+  let posts=0;page.on("request",r=>{if(r.method()==="POST")posts++;});
+  await page.goto("/");await expect(page.getByText("LOCAL API CONNECTED",{exact:true})).toBeVisible();
+  await page.locator("#source").selectOption("topic2");
+  await expect(page.getByRole("button",{name:"Generate Lesson",exact:true})).toBeDisabled();
+  await expect(page.getByText("Lesson generation is not available for this curriculum topic yet.",{exact:true})).toBeVisible();
+  await expect(page.getByText("13 / 41 objectives mapped",{exact:true})).toBeVisible();
+  await expect(page.locator(".objective code").first()).toContainText("EDX-4MA1-F-2.1-A");
+  await expect(page.locator(".warning").filter({hasText:"Structure PASS"})).toBeVisible();
+  await page.locator("#tier").selectOption("Higher");await expect(page.locator(".objective code").first()).toContainText("EDX-4MA1-H-2.1-A");
+  expect(posts).toBe(0);
+  await page.screenshot({path:resolve(evidenceRoot,"topic2-acceptance.png"),fullPage:true});
+});

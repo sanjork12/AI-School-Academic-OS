@@ -1,0 +1,10 @@
+{
+  "total": 135,
+  "passed": 135,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 586.7064434000058,
+  "baseline_capture": "mocked before new freeze",
+  "details": []
+}

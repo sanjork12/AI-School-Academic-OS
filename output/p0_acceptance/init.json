@@ -1,0 +1,4 @@
+{
+  "schema_version": 1,
+  "trust_boundary": "Local OS operator and SQLite file ownership; no production authentication"
+}

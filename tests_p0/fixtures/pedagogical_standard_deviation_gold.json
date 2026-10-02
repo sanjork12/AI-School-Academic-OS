@@ -1,0 +1,18 @@
+{
+  "oracle_kind": "human_acceptance_oracle",
+  "basis": "User-supplied P3B Human Gold Standard v0.1; acceptance only",
+  "status": "candidate",
+  "coverage_status": "planned_coverage",
+  "learning_requirement_count": 3,
+  "coverage_requirement_count": 2,
+  "evidence_boundary_count": 10,
+  "blocks": [
+    {"role": "conceptual_meaning", "learning_types": ["conceptual_understanding"], "coverage_types": [], "levels": ["required", "recommended", "flexible"], "recommended_contains": "visual comparison", "flexible_contains": "context"},
+    {"role": "calculation_method", "learning_types": ["capability"], "coverage_types": [], "levels": ["required", "flexible"], "content_type": "calculation_method_slot", "required_contains": "valid instructional calculation method"},
+    {"role": "supported_task_form", "learning_types": ["capability_under_task_form"], "coverage_types": [], "levels": ["required", "flexible"], "content_type": "task_input_slot", "required_contains": "From summary statistics"},
+    {"role": "worked_assessment_connection", "learning_types": ["capability", "capability_under_task_form"], "coverage_types": ["teaching_assessment_connection"], "levels": ["required", "flexible"], "content_type": "worked_example_slot", "required_contains": "at least one worked-example design"},
+    {"role": "practice_learning_check", "learning_types": ["capability", "capability_under_task_form"], "coverage_types": ["assessment_alignment"], "levels": ["required", "recommended", "flexible"], "content_type": "learning_check_slot", "required_contains": "at least one learning-check design", "recommended_contains": "independent application"}
+  ],
+  "input_policy": "Exact n/Sigma notation is not structured in current upstream learning evidence. Preserve warnings and a candidate input slot; do not invent notation or new learning requirements.",
+  "formula_memorisation_required": false
+}

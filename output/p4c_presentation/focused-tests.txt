@@ -1,0 +1,48 @@
+test_actual_pptx_passes (tests_p0.test_presentation.PresentationTests.test_actual_pptx_passes) ... ok
+test_all_objects_mapped (tests_p0.test_presentation.PresentationTests.test_all_objects_mapped) ... ok
+test_changed_formula (tests_p0.test_presentation.PresentationTests.test_changed_formula) ... ok
+test_changed_geometry (tests_p0.test_presentation.PresentationTests.test_changed_geometry) ... ok
+test_changed_question (tests_p0.test_presentation.PresentationTests.test_changed_question) ... ok
+test_changed_slide_order (tests_p0.test_presentation.PresentationTests.test_changed_slide_order) ... ok
+test_closed_gate (tests_p0.test_presentation.PresentationTests.test_closed_gate) ... ok
+test_database_unchanged (tests_p0.test_presentation.PresentationTests.test_database_unchanged) ... ok
+test_deterministic_layout (tests_p0.test_presentation.PresentationTests.test_deterministic_layout) ... ok
+test_deterministic_manifest (tests_p0.test_presentation.PresentationTests.test_deterministic_manifest) ... ok
+test_eleven_slides (tests_p0.test_presentation.PresentationTests.test_eleven_slides) ... ok
+test_extra_answer_shape (tests_p0.test_presentation.PresentationTests.test_extra_answer_shape) ... ok
+test_false_dimension_cannot_bypass_gate (tests_p0.test_presentation.PresentationTests.test_false_dimension_cannot_bypass_gate) ... ok
+test_formula_substitution_not_arithmetic (tests_p0.test_presentation.PresentationTests.test_formula_substitution_not_arithmetic) ... ok
+test_four_teacher_solutions_exact (tests_p0.test_presentation.PresentationTests.test_four_teacher_solutions_exact) ... ok
+test_frozen_files_unchanged (tests_p0.test_presentation.PresentationTests.test_frozen_files_unchanged) ... ok
+test_gate_failure_creates_no_output (tests_p0.test_presentation.PresentationTests.test_gate_failure_creates_no_output) ... ok
+test_hidden_slide (tests_p0.test_presentation.PresentationTests.test_hidden_slide) ... ok
+test_manifest_duplicate (tests_p0.test_presentation.PresentationTests.test_manifest_duplicate) ... ok
+test_manifest_false_coverage (tests_p0.test_presentation.PresentationTests.test_manifest_false_coverage) ... ok
+test_manifest_missing_lr (tests_p0.test_presentation.PresentationTests.test_manifest_missing_lr) ... ok
+test_manifest_missing_slide (tests_p0.test_presentation.PresentationTests.test_manifest_missing_slide) ... ok
+test_manifest_new_schema (tests_p0.test_presentation.PresentationTests.test_manifest_new_schema) ... ok
+test_manifest_order (tests_p0.test_presentation.PresentationTests.test_manifest_order) ... ok
+test_manifest_teacher_leak (tests_p0.test_presentation.PresentationTests.test_manifest_teacher_leak) ... ok
+test_manifest_unknown_ref (tests_p0.test_presentation.PresentationTests.test_manifest_unknown_ref) ... ok
+test_manifest_wrong_binding (tests_p0.test_presentation.PresentationTests.test_manifest_wrong_binding) ... ok
+test_missing_package (tests_p0.test_presentation.PresentationTests.test_missing_package) ... ok
+test_missing_runtime_fails_closed (tests_p0.test_presentation.PresentationTests.test_missing_runtime_fails_closed) ... ok
+test_missing_shape (tests_p0.test_presentation.PresentationTests.test_missing_shape) ... ok
+test_missing_slide (tests_p0.test_presentation.PresentationTests.test_missing_slide) ... ok
+test_no_internal_ids_visible (tests_p0.test_presentation.PresentationTests.test_no_internal_ids_visible) ... ok
+test_no_teacher_notes (tests_p0.test_presentation.PresentationTests.test_no_teacher_notes) ... ok
+test_plot_has_ten_editable_points (tests_p0.test_presentation.PresentationTests.test_plot_has_ten_editable_points) ... ok
+test_repeat_reuses_exact_bytes (tests_p0.test_presentation.PresentationTests.test_repeat_reuses_exact_bytes) ... ok
+test_saved_receipt_matches_current (tests_p0.test_presentation.PresentationTests.test_saved_receipt_matches_current) ... ok
+test_teacher_refs_never_painted (tests_p0.test_presentation.PresentationTests.test_teacher_refs_never_painted) ... ok
+test_three_goals (tests_p0.test_presentation.PresentationTests.test_three_goals) ... ok
+test_tiny_text (tests_p0.test_presentation.PresentationTests.test_tiny_text) ... ok
+test_unknown_formula_rejected (tests_p0.test_presentation.PresentationTests.test_unknown_formula_rejected) ... ok
+test_white_text (tests_p0.test_presentation.PresentationTests.test_white_text) ... ok
+test_wrong_content_version (tests_p0.test_presentation.PresentationTests.test_wrong_content_version) ... ok
+test_wrong_learning_version (tests_p0.test_presentation.PresentationTests.test_wrong_learning_version) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 22.601s
+
+OK

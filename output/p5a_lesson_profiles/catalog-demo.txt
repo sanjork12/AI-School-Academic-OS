@@ -1,0 +1,309 @@
+{
+  "focused-review": {
+    "schema_version": "lesson-profile/1",
+    "identity": {
+      "profile_key": "focused-review",
+      "profile_type": "lesson_purpose_density",
+      "title": "Focused Review"
+    },
+    "configuration_basis": "user_specified_gold_product_configuration",
+    "duration": {
+      "target_minutes": 25,
+      "acceptable_range_minutes": {
+        "min": 20,
+        "max": 30
+      },
+      "interpretation": "planning_target_not_runtime_guarantee"
+    },
+    "purpose": "Concise consolidation/review of the existing Learning Requirements through explanation, one worked example, short practice and retrieval checks. Review is a product mode, not a claim about prior teaching.",
+    "academic_scope_policy": "preserve_learning_specification",
+    "density_policy": {
+      "concept_explanation": {
+        "minimum": 1,
+        "target": 1
+      },
+      "concept_visual": {
+        "minimum": 1,
+        "target": 1
+      },
+      "early_concept_retrieval": {
+        "minimum": 0,
+        "target": 0
+      },
+      "calculation_method": {
+        "minimum": 1,
+        "target": 1
+      },
+      "mini_worked_example": {
+        "minimum": 0,
+        "target": 0
+      },
+      "summary_method": {
+        "minimum": 1,
+        "target": 1
+      },
+      "full_worked_examples": {
+        "minimum": 1,
+        "target": 1
+      },
+      "guided_practice": {
+        "minimum": 0,
+        "target": 0
+      },
+      "independent_practice": {
+        "minimum": 2,
+        "target": 2
+      },
+      "concept_check": {
+        "minimum": 1,
+        "target": 1
+      },
+      "calculation_check": {
+        "minimum": 1,
+        "target": 1
+      },
+      "exit_check": {
+        "minimum": 0,
+        "target": 0
+      }
+    },
+    "practice_policy": {
+      "support_modes": [
+        "independent"
+      ],
+      "support_is_not_difficulty": true,
+      "learner_ability_not_inferred": true
+    },
+    "assessment_policy": {
+      "exit_check_required": false,
+      "only_existing_learning_requirements": true
+    },
+    "prerequisite_policy": "not_asserted",
+    "difficulty_policy": "not_asserted",
+    "learner_history_policy": "not_asserted",
+    "renderer_policy": {
+      "duration_to_slide_count": "prohibited",
+      "content_then_manifest_then_rendering": true
+    },
+    "time_plan": {
+      "interpretation": "suggestions_not_additive_schedule",
+      "sequence_basis": "chosen_pedagogical_design_not_trusted_academic_sequence",
+      "phases": [
+        {
+          "key": "orientation",
+          "title": "Orientation / goals",
+          "suggested_range_minutes": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "key": "concept_development",
+          "title": "Concept + visual",
+          "suggested_range_minutes": {
+            "min": 4,
+            "max": 5
+          }
+        },
+        {
+          "key": "calculation_development",
+          "title": "Calculation method",
+          "suggested_range_minutes": {
+            "min": 3,
+            "max": 4
+          }
+        },
+        {
+          "key": "summary_method",
+          "title": "Summary-statistics method",
+          "suggested_range_minutes": {
+            "min": 3,
+            "max": 4
+          }
+        },
+        {
+          "key": "worked_examples",
+          "title": "Worked example",
+          "suggested_range_minutes": {
+            "min": 4,
+            "max": 5
+          }
+        },
+        {
+          "key": "independent_practice",
+          "title": "Independent practice",
+          "suggested_range_minutes": {
+            "min": 5,
+            "max": 7
+          }
+        },
+        {
+          "key": "checks_closure",
+          "title": "Checks + closure",
+          "suggested_range_minutes": {
+            "min": 3,
+            "max": 4
+          }
+        }
+      ]
+    }
+  },
+  "standard-lesson": {
+    "schema_version": "lesson-profile/1",
+    "identity": {
+      "profile_key": "standard-lesson",
+      "profile_type": "lesson_purpose_density",
+      "title": "Standard Lesson"
+    },
+    "configuration_basis": "user_specified_gold_product_configuration",
+    "duration": {
+      "target_minutes": 60,
+      "acceptable_range_minutes": {
+        "min": 50,
+        "max": 60
+      },
+      "interpretation": "planning_target_not_runtime_guarantee"
+    },
+    "purpose": "Provide fuller development, modelling, supported application, independent practice and consolidation of the same Learning Requirements.",
+    "academic_scope_policy": "preserve_learning_specification",
+    "density_policy": {
+      "concept_explanation": {
+        "minimum": 1,
+        "target": 1
+      },
+      "concept_visual": {
+        "minimum": 1,
+        "target": 1
+      },
+      "early_concept_retrieval": {
+        "minimum": 1,
+        "target": 1
+      },
+      "calculation_method": {
+        "minimum": 1,
+        "target": 1
+      },
+      "mini_worked_example": {
+        "minimum": 1,
+        "target": 1
+      },
+      "summary_method": {
+        "minimum": 1,
+        "target": 1
+      },
+      "full_worked_examples": {
+        "minimum": 2,
+        "target": 2
+      },
+      "guided_practice": {
+        "minimum": 2,
+        "target": 2
+      },
+      "independent_practice": {
+        "minimum": 2,
+        "target": 3
+      },
+      "concept_check": {
+        "minimum": 1,
+        "target": 1
+      },
+      "calculation_check": {
+        "minimum": 1,
+        "target": 1
+      },
+      "exit_check": {
+        "minimum": 1,
+        "target": 1
+      }
+    },
+    "practice_policy": {
+      "support_modes": [
+        "guided",
+        "independent"
+      ],
+      "support_is_not_difficulty": true,
+      "learner_ability_not_inferred": true
+    },
+    "assessment_policy": {
+      "exit_check_required": true,
+      "only_existing_learning_requirements": true
+    },
+    "prerequisite_policy": "not_asserted",
+    "difficulty_policy": "not_asserted",
+    "learner_history_policy": "not_asserted",
+    "renderer_policy": {
+      "duration_to_slide_count": "prohibited",
+      "content_then_manifest_then_rendering": true
+    },
+    "time_plan": {
+      "interpretation": "suggestions_not_additive_schedule",
+      "sequence_basis": "chosen_pedagogical_design_not_trusted_academic_sequence",
+      "phases": [
+        {
+          "key": "orientation",
+          "title": "Orientation",
+          "suggested_range_minutes": {
+            "min": 3,
+            "max": 5
+          }
+        },
+        {
+          "key": "concept_development",
+          "title": "Concept development",
+          "suggested_range_minutes": {
+            "min": 8,
+            "max": 10
+          }
+        },
+        {
+          "key": "calculation_development",
+          "title": "Calculation development",
+          "suggested_range_minutes": {
+            "min": 8,
+            "max": 10
+          }
+        },
+        {
+          "key": "summary_method",
+          "title": "Summary-statistics method / modelling",
+          "suggested_range_minutes": {
+            "min": 8,
+            "max": 10
+          }
+        },
+        {
+          "key": "worked_examples",
+          "title": "Worked examples",
+          "suggested_range_minutes": {
+            "min": 8,
+            "max": 10
+          }
+        },
+        {
+          "key": "guided_practice",
+          "title": "Guided practice",
+          "suggested_range_minutes": {
+            "min": 8,
+            "max": 10
+          }
+        },
+        {
+          "key": "independent_practice",
+          "title": "Independent practice",
+          "suggested_range_minutes": {
+            "min": 8,
+            "max": 10
+          }
+        },
+        {
+          "key": "checks_closure",
+          "title": "Checks + closure",
+          "suggested_range_minutes": {
+            "min": 5,
+            "max": 7
+          }
+        }
+      ]
+    }
+  }
+}

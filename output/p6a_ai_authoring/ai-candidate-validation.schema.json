@@ -1,0 +1,107 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "accepted": {
+      "title": "Accepted",
+      "type": "boolean"
+    },
+    "binding_valid": {
+      "title": "Binding Valid",
+      "type": "boolean"
+    },
+    "boundary_valid": {
+      "title": "Boundary Valid",
+      "type": "boolean"
+    },
+    "brief_ref": {
+      "title": "Brief Ref",
+      "type": "string"
+    },
+    "candidate_id": {
+      "title": "Candidate Id",
+      "type": "string"
+    },
+    "composition_valid": {
+      "title": "Composition Valid",
+      "type": "boolean"
+    },
+    "content_complete": {
+      "title": "Content Complete",
+      "type": "boolean"
+    },
+    "math_valid": {
+      "title": "Math Valid",
+      "type": "boolean"
+    },
+    "origin_valid": {
+      "title": "Origin Valid",
+      "type": "boolean"
+    },
+    "scaffold_valid": {
+      "title": "Scaffold Valid",
+      "type": "boolean"
+    },
+    "schema_valid": {
+      "title": "Schema Valid",
+      "type": "boolean"
+    },
+    "schema_version": {
+      "const": "ai-candidate-validation/1",
+      "default": "ai-candidate-validation/1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "scope_valid": {
+      "title": "Scope Valid",
+      "type": "boolean"
+    },
+    "separation_valid": {
+      "title": "Separation Valid",
+      "type": "boolean"
+    },
+    "solution_valid": {
+      "title": "Solution Valid",
+      "type": "boolean"
+    },
+    "verification_summary": {
+      "additionalProperties": true,
+      "title": "Verification Summary",
+      "type": "object"
+    },
+    "violations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Violations",
+      "type": "array"
+    },
+    "warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Warnings",
+      "type": "array"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "brief_ref",
+    "schema_valid",
+    "binding_valid",
+    "content_complete",
+    "scaffold_valid",
+    "math_valid",
+    "solution_valid",
+    "scope_valid",
+    "boundary_valid",
+    "separation_valid",
+    "origin_valid",
+    "composition_valid",
+    "accepted",
+    "violations",
+    "warnings",
+    "verification_summary"
+  ],
+  "title": "Validation",
+  "type": "object"
+}

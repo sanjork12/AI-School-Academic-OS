@@ -1,0 +1,88 @@
+  Candidate action: REUSE_EXISTING
+  Evidence scope: Partial evidence: compute a mean estimate from supplied summaries; estimation is a question condition.
+  Registry competency: Calculate the mean [REUSE_EXISTING]
+  Registry concept: Mean [REUSE_EXISTING]
+  Registry task_condition: From summary statistics [REUSE_EXISTING]
+June 2023 Q3(b-i) semantic proposal
+  required in Q3-2023-CORE; unresolved blocks publication
+  Question:   (i) the mean Daily Total Rainfall,
+  (b) Calculate estimates for
+
+  Concepts: Mean
+  Primary competency: Calculate the mean
+  Task condition: From summary statistics
+  Interpretation notes: Mean calculation request, scored response and supplied summaries
+  (i) the mean Daily Total Rainfall,
+
+Scoring evidence:
+(b)(i)  
+389.3 ~ 390.8
+184x =
+ = 2.119…                  awrt    2.12    allow  
+195
+92   or 
+11
+922  B1 1.1b 
+
+Scoring notes:
+(b)(i) B1   for awrt 2.12   or  allow simplified fraction or mixed number.  B0 for 
+390
+184  
+
+  Source verification: INCOMPLETE
+  Academic approval: INCOMPLETE
+  Parsing caution: Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.
+  Parsing caution: Individual subpart marks follow MS scoring rows; QP prints grouped totals.
+  Parsing caution: Large Data Set statements are question-specific evidence, not canonical definitions.
+    competency: Calculate the mean [APPROVE]
+    concept: Mean [APPROVE]
+    concept_link: LINK-MEAN-CALC-MEAN [APPROVE]
+    condition: 3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987
+ He used all the data from the large data set and summarised the information in the 
+following table.
+x 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr
+Frequency 55 18 18 21 17 9 9 6 2 29
+ (a) Explain how the data will need to be cleaned before Ben can start to calculate 
+statistics such as the mean and standard deviation.
+(2)
+ Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x
+2
+ = 4336
+ (b) Calculate estimates for
+  (i) the mean Daily Total Rainfall,
+  (ii) the standard deviation of the Daily Total Rainfall.
+(3)
+ Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean 
+Daily 
+Total Rainfall in Leeming for 1987
+ (c) Using your knowledge of the large data set,
+  (i) give a reason why these data would not be suitable,
+  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ 
+from the actual 
+annual mean Daily Total Rainfall in Leeming for 1987
+
+QP group marks: a=2, b=3, c=2. No glyph repair; original page review required. [PENDING]
+    context: CTX-9MA0 [APPROVE]
+    parsed_part: PARSED-Q3-2023-b-i [PENDING]
+    proposal: PROPOSE-Q3-2023-b-i [PENDING]
+    question: June 2023 9MA0/31 Q3 [PENDING]
+    question_part: Q3(b) [PENDING]
+    question_part: Q3(b)(i) [PENDING]
+    task_condition: From summary statistics [APPROVE]
+  This bundle required closure: BLOCKED
+  Whole Q3 publication: check --target Q3-2023-CORE (all five proposals required; unresolved blocks).
+    condition:COND-Q3-2023-GIVEN: pending; requires approve
+    locator:MS-2023-Q3-b-i: pending; requires verify
+    locator:QP-2023-Q3-b: pending; requires verify
+    locator:QP-2023-Q3-b-i: pending; requires verify
+    locator:QP-2023-Q3-whole: pending; requires verify
+    parsed_part:PARSED-Q3-2023-b-i: pending; requires approve
+    proposal:PROPOSE-Q3-2023-b-i: pending; requires approve
+    question:Q3-2023: pending; requires approve
+    question_part:Q3-2023-b: pending; requires approve
+    question_part:Q3-2023-b-i: pending; requires approve
+    source:MS-2023: pending; requires verify
+    source:QP-2023: pending; requires verify
+  Bundle: BUNDLE-Q3-2023-B-I
+  Inspection makes no decision.
+

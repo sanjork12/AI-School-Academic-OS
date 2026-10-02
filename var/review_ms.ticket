@@ -1,0 +1,17 @@
+{
+  "bundle_id": "SOURCE-BUNDLE-MS-Q2",
+  "definition_version": "028548fa4f716b23ef0eed873c7cb916146ac2546364fa96db081241c19e1f50",
+  "versions": {
+    "locator:MS-Q2-a": "2cf7bea8c4aede9673bd6f86e6aeebd3dc5d5e7336e72b364e234f0cbc2035e3",
+    "locator:MS-Q2-b": "70ffcbef99023cf2edc0aff11c77afea58a7500607bb39353f220eadea07d029",
+    "locator:MS-Q2-c": "8f088bccbf0d27dc68627d1f008d5ac41cb164a7f06618dfca1deb454b68b366",
+    "source:MS": "ad785e6d472a66a7e85b8f691a7641e50238151a1ec96fafd37c7d2dd4a0b8a1"
+  },
+  "review_heads": {
+    "locator:MS-Q2-a": null,
+    "locator:MS-Q2-b": null,
+    "locator:MS-Q2-c": null,
+    "source:MS": null
+  },
+  "token": "99ed58937ef5d8c25ca629413c5213e79acd5cf086f12a54c7de40eb3a7a7ceb"
+}

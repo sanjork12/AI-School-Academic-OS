@@ -1,0 +1,45 @@
+test_01_schema (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_01_schema) ... ok
+test_02_unsupported_schema (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_02_unsupported_schema) ... ok
+test_03_input_unchanged (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_03_input_unchanged) ... ok
+test_04_focus (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_04_focus) ... ok
+test_05_exact_evidence_preserved (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_05_exact_evidence_preserved) ... ok
+test_06_same_refs (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_06_same_refs) ... ok
+test_07_observation_types (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_07_observation_types) ... ok
+test_08_all_patterns_trace_to_evidence (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_08_all_patterns_trace_to_evidence) ... ok
+test_09_limitations (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_09_limitations) ... ok
+test_10_marks_not_typical (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_10_marks_not_typical) ... ok
+test_11_task_not_usual (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_11_task_not_usual) ... ok
+test_12_no_generalising_claims (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_12_no_generalising_claims) ... ok
+test_13_excluded_unresolved (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_13_excluded_unresolved) ... ok
+test_14_curriculum_boundary (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_14_curriculum_boundary) ... ok
+test_15_source_warnings_not_patterns (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_15_source_warnings_not_patterns) ... ok
+test_16_fresh_upstream_each_read (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_16_fresh_upstream_each_read) ... ok
+test_17_no_raw_db_dependency (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_17_no_raw_db_dependency) ... ok
+test_18_normal_vs_provenance (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_18_normal_vs_provenance) ... ok
+test_19_repeated_deterministic (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_19_repeated_deterministic) ... ok
+test_20_reverse_order (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_20_reverse_order) ... ok
+test_21_ref_independent_of_mutable_content (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_21_ref_independent_of_mutable_content) ... ok
+test_22_duplicate_coordinates_rejected (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_22_duplicate_coordinates_rejected) ... ok
+test_23_unknown_coordinates_rejected (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_23_unknown_coordinates_rejected) ... ok
+test_24_no_comparison_for_one (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_24_no_comparison_for_one) ... ok
+test_25_no_evidence (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_25_no_evidence) ... ok
+test_26_changed_marks_remove_shared_marks (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_26_changed_marks_remove_shared_marks) ... ok
+test_27_unknown_marks_not_inferred (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_27_unknown_marks_not_inferred) ... ok
+test_28_same_wording_no_context_claim (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_28_same_wording_no_context_claim) ... ok
+test_29_whitespace_not_wording_difference (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_29_whitespace_not_wording_difference) ... ok
+test_30_other_capability_not_shared (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_30_other_capability_not_shared) ... ok
+test_31_unreviewed_flag_rejected (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_31_unreviewed_flag_rejected) ... ok
+test_32_count_mismatch_rejected (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_32_count_mismatch_rejected) ... ok
+test_33_cli_json (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_33_cli_json) ... ok
+test_34_human_language (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_34_human_language) ... ok
+test_35_real_revocation_blocks_next_read (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_35_real_revocation_blocks_next_read) ... ok
+test_36_detached_json_not_trusted (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_36_detached_json_not_trusted) ... ok
+test_37_database_unchanged (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_37_database_unchanged) ... ok
+test_38_reverse_snapshots (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_38_reverse_snapshots) ... ok
+test_39_upstream_trust_preserved (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_39_upstream_trust_preserved) ... ok
+test_40_cli_no_store_constructor (tests_p0.test_assessment_intelligence.AssessmentIntelligenceTests.test_40_cli_no_store_constructor) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 6.408s
+
+OK

@@ -1,0 +1,32 @@
+{
+  "status": "PASSED",
+  "slides": 24,
+  "marks": 48,
+  "questions": 8,
+  "parts": 21,
+  "stable_files_unchanged": 58,
+  "content_review": "Academic human review pending; validation is structural, not endorsement.",
+  "tests": {
+    "teaching_demo": 26,
+    "academic_knowledge_v02": 33,
+    "human_review_decision_log": 11,
+    "total": 70,
+    "status": "PASSED"
+  },
+  "existing_regressions": {
+    "academic_knowledge_v02": "0 errors",
+    "canonical_prototype": "0 errors; existing warning: 29 unmapped objectives",
+    "canonical_promoted": "0 errors; existing warning: 28 unmapped objectives",
+    "scope": "0 errors, 0 warnings"
+  },
+  "frontend": "Unchanged; build not required",
+  "rendering": {
+    "ppt_slides_reviewed": 24,
+    "student_pdf_pages_reviewed": 9,
+    "mark_scheme_pdf_pages_reviewed": 9,
+    "docx_pages_reviewed": 18,
+    "ppt_package_findings": 0,
+    "ppt_geometry_findings": 0
+  },
+  "academic_review": "Pending: specification scope, conventions, marking alternatives, demand/timing; no canonical approval"
+}

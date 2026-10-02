@@ -1,0 +1,55 @@
+test_01_focused_ready (tests_p0.test_profiled_validation.ProfiledValidationTests.test_01_focused_ready) ... ok
+test_02_standard_ready (tests_p0.test_profiled_validation.ProfiledValidationTests.test_02_standard_ready) ... ok
+test_03_all_dimensions_pass (tests_p0.test_profiled_validation.ProfiledValidationTests.test_03_all_dimensions_pass) ... ok
+test_04_six_numerical_recomputed (tests_p0.test_profiled_validation.ProfiledValidationTests.test_04_six_numerical_recomputed) ... ok
+test_05_case_a_missing_focused_practice (tests_p0.test_profiled_validation.ProfiledValidationTests.test_05_case_a_missing_focused_practice) ... ok
+test_06_case_b_missing_guided (tests_p0.test_profiled_validation.ProfiledValidationTests.test_06_case_b_missing_guided) ... ok
+test_07_case_c_minimum_without_target_ready (tests_p0.test_profiled_validation.ProfiledValidationTests.test_07_case_c_minimum_without_target_ready) ... ok
+test_08_case_d_reused_numbers_digest (tests_p0.test_profiled_validation.ProfiledValidationTests.test_08_case_d_reused_numbers_digest) ... ok
+test_09_case_e_unknown_reuse (tests_p0.test_profiled_validation.ProfiledValidationTests.test_09_case_e_unknown_reuse) ... ok
+test_10_case_f_wrong_reuse_role (tests_p0.test_profiled_validation.ProfiledValidationTests.test_10_case_f_wrong_reuse_role) ... ok
+test_11_all_numeric_answer_tampering (tests_p0.test_profiled_validation.ProfiledValidationTests.test_11_all_numeric_answer_tampering) ... ok
+test_12_corrupt_rounding (tests_p0.test_profiled_validation.ProfiledValidationTests.test_12_corrupt_rounding) ... ok
+test_13_raw_scope_assessed_task (tests_p0.test_profiled_validation.ProfiledValidationTests.test_13_raw_scope_assessed_task) ... ok
+test_14_unknown_task (tests_p0.test_profiled_validation.ProfiledValidationTests.test_14_unknown_task) ... ok
+test_15_unknown_lr (tests_p0.test_profiled_validation.ProfiledValidationTests.test_15_unknown_lr) ... ok
+test_16_unknown_exit_part_lr (tests_p0.test_profiled_validation.ProfiledValidationTests.test_16_unknown_exit_part_lr) ... ok
+test_17_stored_scope_hash (tests_p0.test_profiled_validation.ProfiledValidationTests.test_17_stored_scope_hash) ... ok
+test_18_profile_mismatch (tests_p0.test_profiled_validation.ProfiledValidationTests.test_18_profile_mismatch) ... ok
+test_19_missing_boundary (tests_p0.test_profiled_validation.ProfiledValidationTests.test_19_missing_boundary) ... ok
+test_20_guided_support_corrupt (tests_p0.test_profiled_validation.ProfiledValidationTests.test_20_guided_support_corrupt) ... ok
+test_21_unsupported_claims (tests_p0.test_profiled_validation.ProfiledValidationTests.test_21_unsupported_claims) ... ok
+test_22_solution_in_question_extra_field (tests_p0.test_profiled_validation.ProfiledValidationTests.test_22_solution_in_question_extra_field) ... ok
+test_23_answer_leak_in_prompt (tests_p0.test_profiled_validation.ProfiledValidationTests.test_23_answer_leak_in_prompt) ... ok
+test_24_missing_solution (tests_p0.test_profiled_validation.ProfiledValidationTests.test_24_missing_solution) ... ok
+test_25_duplicate_solution (tests_p0.test_profiled_validation.ProfiledValidationTests.test_25_duplicate_solution) ... ok
+test_26_duplicate_role (tests_p0.test_profiled_validation.ProfiledValidationTests.test_26_duplicate_role) ... ok
+test_27_duplicate_composite_item (tests_p0.test_profiled_validation.ProfiledValidationTests.test_27_duplicate_composite_item) ... ok
+test_28_unresolved_despite_minimum (tests_p0.test_profiled_validation.ProfiledValidationTests.test_28_unresolved_despite_minimum) ... ok
+test_29_framing_orientation_missing (tests_p0.test_profiled_validation.ProfiledValidationTests.test_29_framing_orientation_missing) ... ok
+test_30_closure_refs_mutated (tests_p0.test_profiled_validation.ProfiledValidationTests.test_30_closure_refs_mutated) ... ok
+test_31_population_flags_ignored (tests_p0.test_profiled_validation.ProfiledValidationTests.test_31_population_flags_ignored) ... ok
+test_32_verification_flags_ignored (tests_p0.test_profiled_validation.ProfiledValidationTests.test_32_verification_flags_ignored) ... ok
+test_33_reuse_compatibility_claims_ignored (tests_p0.test_profiled_validation.ProfiledValidationTests.test_33_reuse_compatibility_claims_ignored) ... ok
+test_34_dangling_new_reference (tests_p0.test_profiled_validation.ProfiledValidationTests.test_34_dangling_new_reference) ... ok
+test_35_stale_binding (tests_p0.test_profiled_validation.ProfiledValidationTests.test_35_stale_binding) ... ok
+test_36_forged_reused_content_identity (tests_p0.test_profiled_validation.ProfiledValidationTests.test_36_forged_reused_content_identity) ... ok
+test_37_orphan_new_object (tests_p0.test_profiled_validation.ProfiledValidationTests.test_37_orphan_new_object) ... ok
+test_38_required_target_unknown_schema_rejected (tests_p0.test_profiled_validation.ProfiledValidationTests.test_38_required_target_unknown_schema_rejected) ... ok
+test_39_lr_aggregate (tests_p0.test_profiled_validation.ProfiledValidationTests.test_39_lr_aggregate) ... ok
+test_40_original_coverage (tests_p0.test_profiled_validation.ProfiledValidationTests.test_40_original_coverage) ... ok
+test_41_deterministic (tests_p0.test_profiled_validation.ProfiledValidationTests.test_41_deterministic) ... ok
+test_42_input_not_mutated (tests_p0.test_profiled_validation.ProfiledValidationTests.test_42_input_not_mutated) ... ok
+test_43_frozen_state (tests_p0.test_profiled_validation.ProfiledValidationTests.test_43_frozen_state) ... ok
+test_44_p4b_failure (tests_p0.test_profiled_validation.ProfiledValidationTests.test_44_p4b_failure) ... ok
+test_45_live_source_failure (tests_p0.test_profiled_validation.ProfiledValidationTests.test_45_live_source_failure) ... ok
+test_46_cli_readonly (tests_p0.test_profiled_validation.ProfiledValidationTests.test_46_cli_readonly) ... ok
+test_47_export_idempotent_conflict (tests_p0.test_profiled_validation.ProfiledValidationTests.test_47_export_idempotent_conflict) ... ok
+test_48_no_fixed_slide_count_or_quality_score (tests_p0.test_profiled_validation.ProfiledValidationTests.test_48_no_fixed_slide_count_or_quality_score) ... ok
+test_49_numeric_exact_corruption (tests_p0.test_profiled_validation.ProfiledValidationTests.test_49_numeric_exact_corruption) ... ok
+test_50_mean_variance_corruption (tests_p0.test_profiled_validation.ProfiledValidationTests.test_50_mean_variance_corruption) ... ok
+
+----------------------------------------------------------------------
+Ran 50 tests in 25.494s
+
+OK

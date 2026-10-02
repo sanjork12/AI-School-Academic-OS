@@ -1,0 +1,8 @@
+{
+  "pptx": "D:\\AI-School-Academic-OS\\output\\p4c1_presentation_design\\Standard_Deviation_v2.pptx",
+  "manifest": "D:\\AI-School-Academic-OS\\output\\p4c1_presentation_design\\presentation_manifest.json",
+  "validation": "D:\\AI-School-Academic-OS\\output\\p4c1_presentation_design\\artifact_render_validation.json",
+  "preview_directory": "D:\\AI-School-Academic-OS\\output\\p4c1_presentation_design\\.build\\render-fxcjc93j\\preview",
+  "reused": false,
+  "valid": true
+}

@@ -1,0 +1,47 @@
+test_01_unusable_rejected (tests_p0.test_teacher_product.TeacherProductTests.test_01_unusable_rejected) ... ok
+test_02_q2_usable (tests_p0.test_teacher_product.TeacherProductTests.test_02_q2_usable) ... ok
+test_03_q3_usable (tests_p0.test_teacher_product.TeacherProductTests.test_03_q3_usable) ... ok
+test_04_detached_export_not_trust (tests_p0.test_teacher_product.TeacherProductTests.test_04_detached_export_not_trust) ... ok
+test_05_composition_order (tests_p0.test_teacher_product.TeacherProductTests.test_05_composition_order) ... ok
+test_06_same_competency_identity (tests_p0.test_teacher_product.TeacherProductTests.test_06_same_competency_identity) ... ok
+test_07_same_concept_identity (tests_p0.test_teacher_product.TeacherProductTests.test_07_same_concept_identity) ... ok
+test_08_same_task_identity (tests_p0.test_teacher_product.TeacherProductTests.test_08_same_task_identity) ... ok
+test_09_both_assessments_visible (tests_p0.test_teacher_product.TeacherProductTests.test_09_both_assessments_visible) ... ok
+test_10_canonical_version_conflict (tests_p0.test_teacher_product.TeacherProductTests.test_10_canonical_version_conflict) ... ok
+test_11_title_from_concept (tests_p0.test_teacher_product.TeacherProductTests.test_11_title_from_concept) ... ok
+test_12_capability (tests_p0.test_teacher_product.TeacherProductTests.test_12_capability) ... ok
+test_13_task_form (tests_p0.test_teacher_product.TeacherProductTests.test_13_task_form) ... ok
+test_14_q2_wording_marks (tests_p0.test_teacher_product.TeacherProductTests.test_14_q2_wording_marks) ... ok
+test_15_q3_directive_and_marks (tests_p0.test_teacher_product.TeacherProductTests.test_15_q3_directive_and_marks) ... ok
+test_16_internal_identifiers_hidden (tests_p0.test_teacher_product.TeacherProductTests.test_16_internal_identifiers_hidden) ... ok
+test_17_object_and_unit_order_independent (tests_p0.test_teacher_product.TeacherProductTests.test_17_object_and_unit_order_independent) ... ok
+test_18_byte_serialization_stable (tests_p0.test_teacher_product.TeacherProductTests.test_18_byte_serialization_stable) ... ok
+test_19_deferred_not_teacher_truth (tests_p0.test_teacher_product.TeacherProductTests.test_19_deferred_not_teacher_truth) ... ok
+test_20_optional_candidate_absent (tests_p0.test_teacher_product.TeacherProductTests.test_20_optional_candidate_absent) ... ok
+test_21_pending_mapping_rejected (tests_p0.test_teacher_product.TeacherProductTests.test_21_pending_mapping_rejected) ... ok
+test_22_unverified_source_rejected (tests_p0.test_teacher_product.TeacherProductTests.test_22_unverified_source_rejected) ... ok
+test_23_q2_snapshot_unchanged (tests_p0.test_teacher_product.TeacherProductTests.test_23_q2_snapshot_unchanged) ... ok
+test_24_q3_snapshot_unchanged (tests_p0.test_teacher_product.TeacherProductTests.test_24_q3_snapshot_unchanged) ... ok
+test_25_q2_gold_standard_roots (tests_p0.test_teacher_product.TeacherProductTests.test_25_q2_gold_standard_roots) ... ok
+test_26_q3_gold_standard_roots (tests_p0.test_teacher_product.TeacherProductTests.test_26_q3_gold_standard_roots) ... ok
+test_27_governance_unchanged (tests_p0.test_teacher_product.TeacherProductTests.test_27_governance_unchanged) ... ok
+test_28_source_and_academic_decisions_unchanged (tests_p0.test_teacher_product.TeacherProductTests.test_28_source_and_academic_decisions_unchanged) ... ok
+test_29_no_stale_service_cache (tests_p0.test_teacher_product.TeacherProductTests.test_29_no_stale_service_cache) ... ok
+test_30_rejected_reads_do_not_write_blocks_to_database (tests_p0.test_teacher_product.TeacherProductTests.test_30_rejected_reads_do_not_write_blocks_to_database) ... ok
+test_31_same_version_conflicting_definition (tests_p0.test_teacher_product.TeacherProductTests.test_31_same_version_conflicting_definition) ... ok
+test_32_description_verbatim (tests_p0.test_teacher_product.TeacherProductTests.test_32_description_verbatim) ... ok
+test_33_scope_candidate_not_equivalence (tests_p0.test_teacher_product.TeacherProductTests.test_33_scope_candidate_not_equivalence) ... ok
+test_34_no_curriculum_fallback (tests_p0.test_teacher_product.TeacherProductTests.test_34_no_curriculum_fallback) ... ok
+test_35_duplicate_inputs_do_not_duplicate_examples (tests_p0.test_teacher_product.TeacherProductTests.test_35_duplicate_inputs_do_not_duplicate_examples) ... ok
+test_36_missing_db_not_created (tests_p0.test_teacher_product.TeacherProductTests.test_36_missing_db_not_created) ... ok
+test_37_cli_text_json_and_safe_output (tests_p0.test_teacher_product.TeacherProductTests.test_37_cli_text_json_and_safe_output) ... ok
+test_38_whole_request_rejects_one_bad_snapshot (tests_p0.test_teacher_product.TeacherProductTests.test_38_whole_request_rejects_one_bad_snapshot) ... ok
+test_39_teacher_schema_refuses_internal_fields (tests_p0.test_teacher_product.TeacherProductTests.test_39_teacher_schema_refuses_internal_fields) ... ok
+test_40_marks_are_examples_not_statistics (tests_p0.test_teacher_product.TeacherProductTests.test_40_marks_are_examples_not_statistics) ... ok
+test_41_no_question_label_shortcuts_or_guessed_metadata (tests_p0.test_teacher_product.TeacherProductTests.test_41_no_question_label_shortcuts_or_guessed_metadata) ... ok
+test_42_corrupt_snapshot_rejected_without_mutation (tests_p0.test_teacher_product.TeacherProductTests.test_42_corrupt_snapshot_rejected_without_mutation) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 12.140s
+
+OK

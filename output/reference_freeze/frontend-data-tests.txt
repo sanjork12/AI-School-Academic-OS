@@ -1,0 +1,11 @@
+✔ all official wording is preserved exactly, including damaged glyphs (1.8465ms)
+✔ summary and graph are computed from approved source records (0.2581ms)
+✔ review provenance and source boundaries remain explicit (0.7593ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 110.1432

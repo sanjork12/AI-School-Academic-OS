@@ -1,0 +1,134 @@
+{
+  "authoring_readiness": {
+    "ready_as_completed_teaching_content": false,
+    "ready_for_content_authoring": true
+  },
+  "boundary_validation": {
+    "valid": true
+  },
+  "content_readiness": {
+    "populated": 0,
+    "ready": false,
+    "reason": "Frozen candidate_slot objects contain specification instructions, not authored and validated content.",
+    "required_slots_total": 4,
+    "slot_types": {
+      "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253": "learning_check_slot",
+      "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba": "calculation_method_slot",
+      "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f": "worked_example_slot",
+      "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640": "task_input_slot"
+    },
+    "unpopulated": [
+      "ic-216f325900e796da3c352543f70b5d65bac0bd2b253571fb62e1504ac24ae253",
+      "ic-95db4d7a24522cd06d77f6afd6546e875fcbcd6e7c11a69eb491d6c8f6464dba",
+      "ic-a53461b0bd42ecc9e8f02e44def75cf6df8e0ba3e0dc57254e61b997e5063e4f",
+      "ic-ac15315dad2c3082c4c78508341c968be47db360b6bfb7d74e1e87c6b7af6640"
+    ]
+  },
+  "coverage_matrix": [
+    {
+      "coverage_status": "covered",
+      "covered_by_block_refs": [
+        "tb-a98ff5664af908b018877d57958791287e14d6034cdcabcb0506e2469ad932b3"
+      ],
+      "kind": "learning_requirement",
+      "required_role": "conceptual_meaning",
+      "requirement_ref": "lr-7b24768b44575af081543583a29961215b0c945e9d4ca66bc5ae5286eba58928"
+    },
+    {
+      "coverage_status": "covered",
+      "covered_by_block_refs": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898",
+        "tb-e299206ed7e09ccf9dbc7bd021e3fd54aeea099f95ddaeedc653719d5c255597"
+      ],
+      "kind": "learning_requirement",
+      "required_role": "calculation_method",
+      "requirement_ref": "lr-df03d404c2eba08674287ef118ab8a58ee05db8a84040e73b398178d9296e20a"
+    },
+    {
+      "coverage_status": "covered",
+      "covered_by_block_refs": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e",
+        "tb-c0bd0acc0ae438f71fbd1b3ce66080b1a916315d4c3e7cf0a67986f657d0e5b4",
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "kind": "learning_requirement",
+      "required_role": "supported_task_form",
+      "requirement_ref": "lr-e8285523a4501ff2925f689c15582befdbd161a4b6d53364199f6eedc94c7b0b"
+    },
+    {
+      "coverage_status": "covered",
+      "covered_by_block_refs": [
+        "tb-e0db2d36200ab8ac7de8f55bb88c4677f728b458236b4abbfdba1f9d258eb898"
+      ],
+      "kind": "coverage_requirement",
+      "required_role": "practice_learning_check",
+      "requirement_ref": "cr-8d31cb87562d55f347d44bdc3c6a8270c78aa8948a057e2548fc07796d1a8862"
+    },
+    {
+      "coverage_status": "covered",
+      "covered_by_block_refs": [
+        "tb-22a247c214ffafc067a71e850edd64816f70c6e4837490c0a521d6a4844be45e"
+      ],
+      "kind": "coverage_requirement",
+      "required_role": "worked_assessment_connection",
+      "requirement_ref": "cr-ca7ddd7f9e797c794e68afb56d67a5d67476e13c31e7646e17c0fa38603d752c"
+    }
+  ],
+  "identity": {
+    "awarding_body": "Pearson Edexcel",
+    "curriculum_section": "Statistics",
+    "qualification": "A Level Mathematics",
+    "specification_code": "9MA0",
+    "subject": "Mathematics",
+    "title": "Standard deviation",
+    "view_key": "standard-deviation",
+    "view_type": "pedagogical_validation"
+  },
+  "input_contracts": [
+    "learning-specification/1",
+    "pedagogical-specification/1"
+  ],
+  "reference_integrity": {
+    "valid": true
+  },
+  "schema_version": "pedagogical-validation/1",
+  "slot_validation": {
+    "missing_roles": [],
+    "required_roles": [
+      "calculation_method",
+      "conceptual_meaning",
+      "practice_learning_check",
+      "supported_task_form",
+      "worked_assessment_connection"
+    ],
+    "valid": true
+  },
+  "structural_coverage": {
+    "coverage_planned": 2,
+    "coverage_total": 2,
+    "learning_planned": 3,
+    "learning_total": 3,
+    "valid": true
+  },
+  "trust_summary": {
+    "content_level_validation_implemented": false,
+    "pedagogical_approval": false,
+    "trust_basis": "Caller must supply current service-validated inputs; pure validation does not authenticate JSON."
+  },
+  "violations": [],
+  "warnings": [
+    {
+      "code": "bounded_text_rules",
+      "message": "Boundary text checks cover explicit rule patterns, not arbitrary-language semantic proof. Future authored content still requires content-level review.",
+      "ref": "boundary_validation",
+      "severity": "WARNING"
+    },
+    {
+      "code": "content_unpopulated",
+      "message": "Required slots are instructions only; frozen candidate_slot has no authored-content representation.",
+      "ref": "instructional_content",
+      "severity": "WARNING"
+    }
+  ]
+}

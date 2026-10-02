@@ -1,0 +1,13 @@
+{
+  "total": 40,
+  "passed": 40,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "successful": true,
+  "error_details": [],
+  "failure_details": [],
+  "log": "output\\reference_freeze\\focused-tests.txt"
+}

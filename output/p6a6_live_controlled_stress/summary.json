@@ -1,0 +1,308 @@
+{
+  "academic_approval": false,
+  "baseline": "v1.6",
+  "bounded_conclusion": "Direct controlled symbolic-provenance generation was observed across eight predetermined Standard Deviation SL-10 numeric stress cases.",
+  "case_table": [
+    {
+      "brief_sha256": "cdf2c436f61ebdaad78403d68d78c5b0ba58ba8a00ce4b26d0367d4f1ae1a74f",
+      "case_id": "A",
+      "case_sha256": "af0011f2c8eb308f3cfc2be00331ac228dac75d86b6e099da3e4ce097322750a",
+      "required_inputs": {
+        "n": 10,
+        "sum_x": "50",
+        "sum_x2": "290"
+      }
+    },
+    {
+      "brief_sha256": "fe0684bd402f2e0babf1850106fa8844b61be3c809f181cb91ddff8234dcd800",
+      "case_id": "B",
+      "case_sha256": "4e936ff9b4e0d90c2b30b467104884152d3758ba2e3434a7d92f51b9495cdcb2",
+      "required_inputs": {
+        "n": 4,
+        "sum_x": "10",
+        "sum_x2": "29"
+      }
+    },
+    {
+      "brief_sha256": "324f546832a0fcb5a6d0741d1248a73db165ee03e1241d49e0355d12bb45fc16",
+      "case_id": "C",
+      "case_sha256": "1cd742c94d9c2e746fc9b418107cddc66ea88cb7fc61cf7c919c6f576a191fae",
+      "required_inputs": {
+        "n": 4,
+        "sum_x": "8",
+        "sum_x2": "18"
+      }
+    },
+    {
+      "brief_sha256": "4d99e643c201a72b78de759107643d0806c4058bffd23406e4e815023c3fe66b",
+      "case_id": "D",
+      "case_sha256": "5b7c9913e348b85064050da329a5974a62117a0efd50c0dd404fd174a49ec143",
+      "required_inputs": {
+        "n": 3,
+        "sum_x": "4",
+        "sum_x2": "6"
+      }
+    },
+    {
+      "brief_sha256": "b8f31951655e127a2988531824260cf33c8485b894697e8b154a0ced203c33da",
+      "case_id": "E",
+      "case_sha256": "9e743bd18db4825c0ea4f8392b213e6bbd6629d39c3ac2908a0a68e15a171ce0",
+      "required_inputs": {
+        "n": 1,
+        "sum_x": "-3",
+        "sum_x2": "9"
+      }
+    },
+    {
+      "brief_sha256": "c6bff6647a6f4e44c3a791084804c375ef87ce88d6407aba115fb02711ffeeea",
+      "case_id": "F",
+      "case_sha256": "082571ba816aa0df5b5ea9f03d993a99e58e9820944af37eec2ad1becab1c36b",
+      "required_inputs": {
+        "n": 1000000,
+        "sum_x": "1000000000",
+        "sum_x2": "1000001000000"
+      }
+    },
+    {
+      "brief_sha256": "d2c90d05fc497ecf4cf2d78f9aec94329e9098a1f7b2809461c1471f33181d05",
+      "case_id": "G",
+      "case_sha256": "abd0de541fa9c4c1aa99d966c161bd876adb6f975561b3332132164ce6e25d8f",
+      "required_inputs": {
+        "n": 2,
+        "sum_x": "1/3",
+        "sum_x2": "5/81"
+      }
+    },
+    {
+      "brief_sha256": "01860ffa7279b9682188c4c429797c7d3dffff5f4bc816d8f13fb19bcbb54645",
+      "case_id": "H",
+      "case_sha256": "49a07ab118ea6d37bfd38e425af43e26f500b0aef2392f6e87d24ef28ff95598",
+      "required_inputs": {
+        "n": 2,
+        "sum_x": "0.21",
+        "sum_x2": "0.0441"
+      }
+    }
+  ],
+  "distinct_request_ids": 8,
+  "experiment_complete": true,
+  "expression_fields_passed": 32,
+  "expression_inventory": {
+    "A": {
+      "first_term": "sum_x2 / n",
+      "mean": "sum_x / n",
+      "second_term": "(sum_x / n)^2",
+      "variance": "sum_x2 / n - (sum_x / n)^2"
+    },
+    "B": {
+      "first_term": "sum_x2 / n",
+      "mean": "sum_x / n",
+      "second_term": "(sum_x / n)^2",
+      "variance": "sum_x2 / n - (sum_x / n)^2"
+    },
+    "C": {
+      "first_term": "Σx² / n",
+      "mean": "Σx / n",
+      "second_term": "(Σx / n)²",
+      "variance": "Σx² / n - (Σx / n)²"
+    },
+    "D": {
+      "first_term": "sum_x2 / n",
+      "mean": "sum_x / n",
+      "second_term": "(sum_x / n)^2",
+      "variance": "sum_x2 / n - (sum_x / n)^2"
+    },
+    "E": {
+      "first_term": "Σx² / n",
+      "mean": "Σx / n",
+      "second_term": "(Σx / n)²",
+      "variance": "Σx² / n - (Σx / n)²"
+    },
+    "F": {
+      "first_term": "sum_x2 / n",
+      "mean": "sum_x / n",
+      "second_term": "(sum_x / n)^2",
+      "variance": "first term - second term"
+    },
+    "G": {
+      "first_term": "sum_x2 / n",
+      "mean": "sum_x / n",
+      "second_term": "(sum_x / n)^2",
+      "variance": "sum_x2 / n - (sum_x / n)^2"
+    },
+    "H": {
+      "first_term": "Σx² / n",
+      "mean": "Σx / n",
+      "second_term": "(Σx / n)²",
+      "variance": "Σx² / n - (Σx / n)²"
+    }
+  },
+  "global_model_qualification": false,
+  "historical_artifacts_unchanged": true,
+  "historical_file_count": 931,
+  "manifest_sha256": "f1a7de965222282fe7f98b8da7994f942f9e99e6ab076f6a8d90a313e0e2178a",
+  "milestone": "P6A.6c",
+  "numeric_inventory": {
+    "A": {
+      "display_answer": "2.00",
+      "expected_display": "2.00",
+      "numeric_answer": "2.0"
+    },
+    "B": {
+      "display_answer": "1.00",
+      "expected_display": "1.00",
+      "numeric_answer": "1.0"
+    },
+    "C": {
+      "display_answer": "0.71",
+      "expected_display": "0.71",
+      "numeric_answer": "0.7071067811865475244008443621048490392848359"
+    },
+    "D": {
+      "display_answer": "0.47",
+      "expected_display": "0.47",
+      "numeric_answer": "0.47140452079103168293389624140323269285655729179232"
+    },
+    "E": {
+      "display_answer": "0.00",
+      "expected_display": "0.00",
+      "numeric_answer": "0.0"
+    },
+    "F": {
+      "display_answer": "1.00",
+      "expected_display": "1.00",
+      "numeric_answer": "1.0"
+    },
+    "G": {
+      "display_answer": "0.06",
+      "expected_display": "0.06",
+      "numeric_answer": "0.05555555555555555555555555555555555555555555555555"
+    },
+    "H": {
+      "display_answer": "0.11",
+      "expected_display": "0.11",
+      "numeric_answer": "0.105"
+    }
+  },
+  "offline_api_calls": 0,
+  "offline_replay_passes": 2,
+  "preflight": "PASSED",
+  "production_readiness": false,
+  "protected_files": 1578,
+  "protected_files_modified": 0,
+  "provenance_field_status_counts": {
+    "PASSED": 32
+  },
+  "provider_request_ids": [
+    "req_549d5d9f5a374d1e8bcd64a6e7ffa181",
+    "req_7f39aeb6af6a47a9b3f8d4a89be2169d",
+    "req_c1161a2e1d3247d38f37eb0913b61660",
+    "req_ae2d0f52528b434f84a7d09e5a5e1d64",
+    "req_e883074f57ad4137b89024188f3dde59",
+    "req_7294c9cd25fc40869fad189e90f33ede",
+    "req_88f86bec9d344c98afdd9a4f2c7d00a7",
+    "req_98fd527d476f42e6aa5cd614dc0e1df9"
+  ],
+  "renderer_readiness": false,
+  "root_cause_distribution": {
+    "COMPOSITION_FAILURE": 0,
+    "CONTENT_FAILURE": 0,
+    "CONTROLLED_INPUT_BINDING_FAILURE": 0,
+    "DERIVATION_PROVENANCE_FAILURE": 0,
+    "EXPRESSION_SEMANTIC_FAILURE": 0,
+    "MATH_FAILURE": 0,
+    "NUMERIC_ENCODING_FAILURE": 0,
+    "PROVIDER_FAILURE": 0,
+    "SCHEMA_FAILURE": 0,
+    "SCOPE_FAILURE": 0,
+    "SOLUTION_FAILURE": 0
+  },
+  "statistical_benchmark": false,
+  "totals": {
+    "accepted": 8,
+    "attempted": 8,
+    "candidate_mutations": 0,
+    "completed": 8,
+    "controlled_input_corrections": 0,
+    "dimensions": {
+      "accepted": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "boundary_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "composition_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "content_complete": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "controlled_input_binding_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "derivation_provenance_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "expression_semantics_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "math_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "numeric_encoding_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "provider_call_completed": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "scaffold_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "schema_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "scope_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      },
+      "solution_valid": {
+        "failed": 0,
+        "not_evaluated": 0,
+        "passed": 8
+      }
+    },
+    "provider_failures": 0,
+    "rejected": 0,
+    "repair_count": 0,
+    "replacement_calls": 0,
+    "retry_count": 0,
+    "root_cause_distribution": {},
+    "symbolic_rewrites": 0
+  },
+  "trusted_state_unchanged": true
+}

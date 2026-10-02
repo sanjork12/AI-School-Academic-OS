@@ -1,0 +1,11 @@
+{
+  "purpose": "Acceptance oracle only; never imported by production candidate generation",
+  "snapshot_id": "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+  "target": "Q2-CORE",
+  "parts": {
+    "Q2-a": {"competency": "CAN-STAT-MEAN-CALC", "concepts": ["CON-STAT-MEAN"], "task_conditions": ["TC-SUMMARY-STATISTICS"]},
+    "Q2-b": {"competency": "CAN-STAT-SD-CALC", "concepts": ["CON-STAT-SD"], "task_conditions": ["TC-SUMMARY-STATISTICS"]},
+    "Q2-c": {"competency": "CAN-STAT-VARIATION-INTERPRET", "concepts": ["CON-STAT-SD", "CON-STAT-SPREAD"], "task_conditions": ["TC-COMPARE-VARIATION-SD"]}
+  },
+  "excluded": ["concept:CON-STAT-EXTREMES", "concept_link:LINK-VARIATION-INTERPRET-EXTREMES", "part_mapping:MAP-Q2-c-CONTEXT-INFER"]
+}

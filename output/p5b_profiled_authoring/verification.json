@@ -1,0 +1,14 @@
+{
+  "focused-review": {
+    "ready_for_rendering": false,
+    "valid": true,
+    "validation_scope": "P5B integrity and mathematical verification; P5C remains required",
+    "violations": []
+  },
+  "standard-lesson": {
+    "ready_for_rendering": false,
+    "valid": true,
+    "validation_scope": "P5B integrity and mathematical verification; P5C remains required",
+    "violations": []
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "changed_files": [],
+  "checks": {
+    "database_unchanged": true,
+    "decisions_unchanged": true,
+    "protected_files_unchanged": true,
+    "snapshot_usability_unchanged": true
+  },
+  "counts_after": {
+    "academic_decisions": 57,
+    "governance_decisions": 1,
+    "requests": 101,
+    "review_decisions": 83,
+    "snapshots": 2,
+    "source_and_locator_decisions": 26
+  },
+  "database_after": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "demonstrations": {
+    "normal": {
+      "attempts": 10,
+      "identical_briefs": true,
+      "outcomes": {
+        "candidate_accepted": 7,
+        "candidate_schema_failure": 1,
+        "candidate_validation_rejected": 1,
+        "provider_failure": 1
+      },
+      "report": "output\\p6a1_offline_acceptance\\normal_synthetic_demo\\run-3c0746b2c67f46dcab8fc2cfd57fea1d\\reports\\report-2420ee95ea52a74d25bfe8d15745640b0192b1c15b64ad790a99af44561187c4.json"
+    },
+    "stress": {
+      "report": "output\\p6a1_offline_acceptance\\stress_synthetic_demo\\run-a06256085c2f4f0ba27cde8597870007\\reports\\report-e67e73afbd4f812a1e06c512d23a3d1de510d6855a319dd66d1307920301f66e.json",
+      "summary": {
+        "attempted": 16,
+        "correctly_blocked": 16,
+        "inconclusive": 0,
+        "unexpectedly_accepted": 0
+      }
+    }
+  },
+  "format": "p6a1-offline-acceptance/1",
+  "full_suite": "not run; historical missing PPTX error remains documented in the freeze receipt",
+  "live_calls_executed": 0,
+  "live_model_qualification": "NOT RUN; requires explicit operator --live command",
+  "new_tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 28,
+    "skipped": 0,
+    "total": 28
+  },
+  "protected_file_count": 569,
+  "snapshots": {
+    "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": {
+      "format": "academic-os-readonly-snapshot/1",
+      "usable": true
+    },
+    "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": {
+      "format": "academic-os-readonly-snapshot/1",
+      "usable": true
+    }
+  }
+}

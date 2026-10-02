@@ -1,0 +1,47 @@
+{
+  "profiles": {
+    "focused-review": {
+      "all_slides_individually_inspected": true,
+      "preview_sha256": {
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-01.png": "6a3838abb902fced5abbc865dd957567bd321793e411fb8d3b9a4fdab5373d53",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-02.png": "354030d683404b6675ccc99fe78755dda5634fce4a404db78706ca80f1df1702",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-03.png": "b86e841ab430d10e48a7d66fbc8d8585c27279f4cfcb066fe75a6b3c892660ff",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-04.png": "0197e4bc5ad27462e8fb9ff8e8a92df83163cf37dc862eb2dc210046154098fa",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-05.png": "20f8ab70eaf124e7b280151cde47e01a37bf45b81f148224e0397ef05658b004",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-06.png": "0c05938324afddd3f8b32a2f5970e85a89b905dcdea9cd8c7cd1949a484aedd3",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-07.png": "e42b656f37863f6a2a66e384ebd4b96da1f5468f7fda3eba0d0c6181624d605b",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-08.png": "a1038f42d9fd514fe671c9731bb10140e097fe56579188654364999ee71a58d1",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-09.png": "340a8150c546542d6ca20ba604ffb8b6b4356a50e5d15c8fc8c8fd53a275e498",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-10.png": "8547e28e2258ab29cc4b7336079ee2783c85586696a413848165456b66e40118",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\focused-review\\.build\\render-a2i89auh\\preview\\slide-11.png": "e2ec69944c2a8b863af8d331919087073e04eef6be7101df64569f85ca08b76d"
+      }
+    },
+    "standard-lesson": {
+      "all_slides_individually_inspected": true,
+      "preview_sha256": {
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-01.png": "3960f5d366878ff67969fe1dace0972ad3d9c31c3c3f9dbe6fff313957d320bb",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-02.png": "5c9fdbaf659c0c1831ddec34c6233bc15ada80036d512ff1f21d1afb875b78b7",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-03.png": "1462516bd00ffbca2bee1ac0c208c9a2eed36b596d221ab28d8a85cacdd61a62",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-04.png": "a05a7cf5847ab49bd714351672f730ba555d0a964a9d6f49f71dc2909ac41203",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-05.png": "ecdb34679b42b58fe6bdcb06d0aff3bb128bad7c52020d9fc9e021f994811fa1",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-06.png": "167fa265cfb90889666ee5680b6a49ae998abe874cf06856799aabd0b1c904ad",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-07.png": "e81e8013a6f304626491493d7b507dada855a010cba037b4cb1a79a6be1a3e58",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-08.png": "301047c4184c39e3e83dae26320bfe1d28354adc6abcd0bb81ce276c48147651",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-09.png": "4a0c1ac8c8e2c8d705de007927d17beaebe58a1d383cbbe5784ec7eb2c6bccca",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-10.png": "ed515ef77639dc64dce5ff16e5988fe6db1b689f41483e7087566ca5a77b1701",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-11.png": "b5e59e3964bd69caa7ee7e98fca85927fb6425b35d88380f4f9bcd1e9e17ef32",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-12.png": "13ef5af5ddc484bf404cd0a10920d1dd83016d5418b38635d5fa5e0b83122b49",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-13.png": "19cc1bf8988c482cbd569a205ce652f886b2aaec09bdd21c76a1c4f39e28d905",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-14.png": "2f529dd4fea0f012ae00ba7ae1515dd775cbd278c23447596179136b3096073c",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-15.png": "8ca94e088454ce6f50639ec1578567d394f1200e85ff2fdb505619748bdefb70",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-16.png": "c78eddf5f8890dc02d1ca3fbc65321ac10e13b7a92de4159f365f0903cc8016f",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-17.png": "688af538d7d91966b947d94c75eea04af964e0c304b08576539fb50f30047314",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-18.png": "046483b67e261ba3a6b917a97c006a2e04e9feb4eb83ecd5710746f676a03b60",
+        "D:\\AI-School-Academic-OS\\output\\p5d_profiled_presentation\\standard-lesson\\.build\\render-qty8o8nq\\preview\\slide-19.png": "b0846f47bf879dbf057ef7d8a81c74450c891e6169fe2e084f86da1f51b8a8e5"
+      }
+    }
+  },
+  "renderer": "Artifact Tool import of finalized PPTX",
+  "native_powerpoint_rendering_verified": false,
+  "observations": "All 30 slides inspected. No observed clipping or unintended overlap. Guided prompts and open independent working areas remain distinct. Old P4C.1 worked-example preview compared."
+}

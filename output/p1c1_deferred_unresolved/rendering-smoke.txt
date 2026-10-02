@@ -1,0 +1,125 @@
+PASS: temporary DB; before no decision; after explicit defer; no misleading registry action or static required label.
+
+  Canonical decision: UNRESOLVED
+  Evidence scope: Observed reasoning is retained; canonical equivalence/distinctness is not established by this evidence alone.
+  Registry searches are alternatives, not a CREATE_CANDIDATE decision.
+  Publication participation: DEFERRED FROM Q3-2023-CORE
+  Human governance: DEFERRED
+  Academic identity: STILL UNRESOLVED
+  Unresolved alternative: Apply representativeness to the direction of an estimate error
+  Unresolved alternative: A distinct competency for effects of non-representative data on estimates may be needed; human boundary review required
+June 2023 Q3(c-ii) semantic proposal
+  Academic interpretation remains unresolved; target participation is shown above.
+  Question:   (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ 
+from the actual 
+annual mean Daily Total Rainfall in Leeming for 1987
+  (c) Using your knowledge of the large data set,
+
+  Concepts: 
+  Primary competency: UNRESOLVED — no canonical competency asserted
+  Task condition: 
+  Interpretation notes: No sufficiently specific supported canonical rule; do not infer identity from contextual similarity
+  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ 
+from the actual 
+annual mean Daily Total Rainfall in Leeming for 1987
+
+Scoring evidence:
+(ii) e.g.  Winter months are missing when we’d expect more rain 
+                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 
+  (2)  
+    
+  
+Scoring notes:
+(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  
+                                                                                                                          “underestimate”(oe) 
+      We are looking for all 3 of these ideas here: 
+      1.   A statement or implication that missing data is from winter or different months. 
+      2.   A suggestion about the rainfall in these months (probably more rain). 
+      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  
+            an underestimate or the (actual) mean will be higher. 
+SC If you see  “Leeming or N or NE has less rain in winter months” – please send to review 
+  
+
+  Source verification: INCOMPLETE
+  Academic approval: INCOMPLETE
+  Parsing caution: Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.
+  Parsing caution: Individual subpart marks follow MS scoring rows; QP prints grouped totals.
+  Parsing caution: Large Data Set statements are question-specific evidence, not canonical definitions.
+    condition: 3. Ben is studying the Daily Total Rainfall, x mm, in Leeming for 1987
+ He used all the data from the large data set and summarised the information in the 
+following table.
+x 0 0.1–0.5 0.6–1.0 1.1–1.9 2.0–4.0 4.1–6.9 7.0–12.0 12.1–20.9 21.0–32.0 tr
+Frequency 55 18 18 21 17 9 9 6 2 29
+ (a) Explain how the data will need to be cleaned before Ben can start to calculate 
+statistics such as the mean and standard deviation.
+(2)
+ Using all 184 of these values, Ben estimates  ∑x = 390   and    ∑x
+2
+ = 4336
+ (b) Calculate estimates for
+  (i) the mean Daily Total Rainfall,
+  (ii) the standard deviation of the Daily Total Rainfall.
+(3)
+ Ben suggests using the statistic calculated in part (b)(i) to estimate the annual mean 
+Daily 
+Total Rainfall in Leeming for 1987
+ (c) Using your knowledge of the large data set,
+  (i) give a reason why these data would not be suitable,
+  (ii) state, giving a reason, how you would expect the estimate in part (b)(i) to differ 
+from the actual 
+annual mean Daily Total Rainfall in Leeming for 1987
+
+QP group marks: a=2, b=3, c=2. No glyph repair; original page review required. [PENDING]
+    context: CTX-9MA0 [APPROVE]
+    parsed_part: PARSED-Q3-2023-c-ii [PENDING]
+    proposal: PROPOSE-Q3-2023-c-ii [PENDING]
+    question: June 2023 9MA0/31 Q3 [PENDING]
+    question_part: Q3(b) [PENDING]
+    question_part: Q3(b)(i) [PENDING]
+    question_part: Q3(c) [PENDING]
+    question_part: Q3(c)(ii) [PENDING]
+    scope: Dataset knowledge asserted by the mark scheme, not a universal rainfall fact:
+(c)(i) Only covers May~Oct (so not a suitable sample) B1 1.1b 
+    
+(ii) e.g.  Winter months are missing when we’d expect more rain 
+                      so expect estimate in (b)(i) to be an underestimate (oe) B1 2.4 
+  (2)  
+    
+  
+(c)(i) B1  for a comment mentioning that data is just from May~Oct (so not representative of the  
+       whole year).   
+      Just saying “only 184 days so not representative” is B0, must mention May ~ Oct                                                                                                            
+  
+(ii)  B1 for comment that missing/winter months expected to have more rain (oe) and  
+                                                                                                                          “underestimate”(oe) 
+      We are looking for all 3 of these ideas here: 
+      1.   A statement or implication that missing data is from winter or different months. 
+      2.   A suggestion about the rainfall in these months (probably more rain). 
+      3.   A statement about the impact on the estimate in (b)(i) equivalent to saying it would be  
+            an underestimate or the (actual) mean will be higher. 
+SC If you see  “Leeming or N or NE has less rain in winter months” – please send to review 
+  
+ [PENDING]
+  This bundle required closure: BLOCKED
+  Whole Q3 publication: check --target Q3-2023-CORE (unresolved blocks unless explicitly deferred for that target).
+    condition:COND-Q3-2023-GIVEN: pending; requires approve
+    locator:MS-2023-Q3-c-i: pending; requires verify
+    locator:MS-2023-Q3-c-ii: pending; requires verify
+    locator:QP-2023-Q3-b: pending; requires verify
+    locator:QP-2023-Q3-b-i: pending; requires verify
+    locator:QP-2023-Q3-c: pending; requires verify
+    locator:QP-2023-Q3-c-ii: pending; requires verify
+    locator:QP-2023-Q3-whole: pending; requires verify
+    parsed_part:PARSED-Q3-2023-c-ii: pending; requires approve
+    proposal:PROPOSE-Q3-2023-c-ii: pending; requires approve
+    proposal:PROPOSE-Q3-2023-c-ii: unresolved canonical identity; explicit revision and review required
+    question:Q3-2023: pending; requires approve
+    question_part:Q3-2023-b: pending; requires approve
+    question_part:Q3-2023-b-i: pending; requires approve
+    question_part:Q3-2023-c: pending; requires approve
+    question_part:Q3-2023-c-ii: pending; requires approve
+    scope:SCOPE-Q3-2023-LDS: pending; requires approve
+    source:MS-2023: pending; requires verify
+    source:QP-2023: pending; requires verify
+  Bundle: BUNDLE-Q3-2023-C-II
+  Inspection makes no decision.

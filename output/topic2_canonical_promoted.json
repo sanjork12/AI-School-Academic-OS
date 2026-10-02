@@ -1,0 +1,188 @@
+{
+  "prototype": "Topic 2.6",
+  "canonical_objectives": [
+    {
+      "canonical_id": "CAN-ALG-SIMLINEAR-SOLVE",
+      "subject_domain": "Algebra",
+      "skill_name": "Solve simultaneous linear equations",
+      "description": "Solve two simultaneous linear equations in two unknowns exactly.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-SIMLINEAR-GRAPH",
+      "subject_domain": "Algebra",
+      "skill_name": "Interpret simultaneous linear equations graphically",
+      "description": "Interpret simultaneous linear equations as lines and their common solution as the point of intersection.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-QUAD-FACTOR",
+      "subject_domain": "Algebra",
+      "skill_name": "Solve quadratic equations by factorisation",
+      "description": "Solve quadratic equations by factorisation.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-QUAD-FORMULA-SQUARE",
+      "subject_domain": "Algebra",
+      "skill_name": "Solve quadratic equations using the quadratic formula or completing the square",
+      "description": "Solve quadratic equations using the quadratic formula or by completing the square.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-QUAD-CONTEXT",
+      "subject_domain": "Algebra",
+      "skill_name": "Form and solve quadratic equations from contextual data",
+      "description": "Form and solve quadratic equations from data given in a context.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-SIM-LINEAR-QUAD",
+      "subject_domain": "Algebra",
+      "skill_name": "Solve simultaneous linear and quadratic equations",
+      "description": "Solve simultaneous equations in two unknowns where one equation is linear and the other is quadratic.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+      "subject_domain": "Algebra",
+      "skill_name": "Solve linear equations in one unknown",
+      "description": "Solve linear equations in one unknown, including equations where the unknown appears on either or both sides.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-FORM",
+      "subject_domain": "Algebra",
+      "skill_name": "Form linear equations from given data",
+      "description": "Set up simple linear equations from given data.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "subject_domain": "Algebra",
+      "skill_name": "Identify regions defined by linear inequalities",
+      "description": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+      "status": "approved"
+    },
+    {
+      "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "subject_domain": "Algebra",
+      "skill_name": "Understand and use inequality symbols",
+      "description": "Understand and use the symbols >, <, ≥ and ≤.",
+      "status": "approved"
+    }
+  ],
+  "mappings": [
+    {
+      "official_source_id": "EDX-4MA1-F-2.6-A",
+      "canonical_id": "CAN-ALG-SIMLINEAR-SOLVE",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.6-A",
+      "canonical_id": "CAN-ALG-SIMLINEAR-SOLVE",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.6-B",
+      "canonical_id": "CAN-ALG-SIMLINEAR-GRAPH",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.7-A",
+      "canonical_id": "CAN-ALG-QUAD-FACTOR",
+      "relationship": "narrower",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.7-A",
+      "canonical_id": "CAN-ALG-QUAD-FACTOR",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.7-B",
+      "canonical_id": "CAN-ALG-QUAD-FORMULA-SQUARE",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.7-C",
+      "canonical_id": "CAN-ALG-QUAD-CONTEXT",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.7-D",
+      "canonical_id": "CAN-ALG-SIM-LINEAR-QUAD",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.4-A",
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.4-B",
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-FORM",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-E",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-H-2.8-B",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    },
+    {
+      "official_source_id": "EDX-4MA1-F-2.8-A",
+      "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "relationship": "equivalent",
+      "confidence": 1.0,
+      "mapping_method": "human",
+      "review_status": "approved"
+    }
+  ],
+  "promotion_summary": {
+    "review_decisions": 2,
+    "canonical_nodes_added": 1,
+    "canonical_nodes_skipped": 1,
+    "mappings_added": 1,
+    "mappings_skipped": 2
+  }
+}

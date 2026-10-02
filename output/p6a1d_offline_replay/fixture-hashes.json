@@ -1,0 +1,75 @@
+{
+  "fixtures": [
+    {
+      "attempt_id": "attempt-01",
+      "candidate_content_sha256": "0e4b8d5765c7ae52605e1a77021eb3f78a8bd3394879b35d7c464bcacb5e63f0",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-01.json",
+      "fixture_file_sha256": "92558e51d093d0c1b297dbc290770a34cf5558556347191ac1d7182de4adde51",
+      "source_candidate_hash": "7bebaa35858325eb7c327c4fb3ad35ccce723b15cd94a3c043415dddd6d59196"
+    },
+    {
+      "attempt_id": "attempt-02",
+      "candidate_content_sha256": "f2e3c196582ddf14a04898a2e100b8bd386b9e99fea92f372c7a74cf74e43daf",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-02.json",
+      "fixture_file_sha256": "ea0303190c087d3b03b11693bd6db03c36e9e008ef7c24ec245e4f8d546dd934",
+      "source_candidate_hash": "6a235a52d18c6a66357b3eefbcdd3522eb04b41d484a2026bf962d163eabc906"
+    },
+    {
+      "attempt_id": "attempt-03",
+      "candidate_content_sha256": "a872ccad0999f718fdf16cfcffb66b4c5302e58c94de4dca86a7cd5634f34547",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-03.json",
+      "fixture_file_sha256": "426407c957867bf77159211139f56e53b3cfa6ead4f57a1f040d31c9b1331ee7",
+      "source_candidate_hash": "ddc3fcecb2aa5f716478d801a1888481c24a1d02028f03455f795a80f5cf585c"
+    },
+    {
+      "attempt_id": "attempt-04",
+      "candidate_content_sha256": "82c538fe3b97c5c283b99ef9b7b71e48dfd88e36f9f3b929a9e3f32a0d31a0da",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-04.json",
+      "fixture_file_sha256": "f92159dd05cc403a9b6b4ccac32e525010072a148b77fdbc20923d8b79fc1559",
+      "source_candidate_hash": "11e7842281d4ff3182ba703d5dc937f41ef3150c256723f17f530e0c6b199091"
+    },
+    {
+      "attempt_id": "attempt-05",
+      "candidate_content_sha256": "1fce65f6a5245e63843ffc8cc2de6a6cb4da7def6f9a8f3366ee76dae91eefa3",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-05.json",
+      "fixture_file_sha256": "118dda596000ed24739514f9109a918a49da2f7e8434e9202d46bff7d1dde130",
+      "source_candidate_hash": "1bbf99c0ae5e800c9c1bc1437aac2952c134384ed6f9894b7852bb05350bda8c"
+    },
+    {
+      "attempt_id": "attempt-06",
+      "candidate_content_sha256": "2eaa6923a592c3208784ae7192f3f5f0c3187e8855cfe99bad397dc236cef4db",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-06.json",
+      "fixture_file_sha256": "4f0d3ac7dbad2ef66a345a51ba740ce6cb5b38bdc83eb4da7e996d02cee4bc1a",
+      "source_candidate_hash": "42ca08ae6034a22d879de0cfe9a49a700768eca0ac67a958d1a30f7626d659af"
+    },
+    {
+      "attempt_id": "attempt-07",
+      "candidate_content_sha256": "b51106b988559acdb2c81a73ce59d39fe3f7550f1c6e926a5bb4231dafe708dc",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-07.json",
+      "fixture_file_sha256": "cded3a21a5dee3dc7a47b3bde687c7ee9aa73590e5d9f2653396e9dd3f1c2539",
+      "source_candidate_hash": "7981a5a2f9eea00426ef8c24bfbf7646cd1f13cd08de45ac430c5d07def2279a"
+    },
+    {
+      "attempt_id": "attempt-08",
+      "candidate_content_sha256": "653c9daf915239b9880398a5ec1463c06aa19b954d369e06ce69dcc2b4ddbb67",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-08.json",
+      "fixture_file_sha256": "314513b7a4d7eb10a1cf75612899d57d5dd59afa30bf85c4704a43acbaca6d92",
+      "source_candidate_hash": "c95ea206bf48ed3d41e1f71af00879b8971061dede934cb0308b0ba2589d5ed3"
+    },
+    {
+      "attempt_id": "attempt-09",
+      "candidate_content_sha256": "c057b55ac5b49de3d7cc011fab30c6dc5e909c147829e16037d656d2cbc3acf1",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-09.json",
+      "fixture_file_sha256": "1e2599d277a51a1300415c6b1b2693e33c768e4134313f93c37a3c20dca44792",
+      "source_candidate_hash": "cbd62f5e72a351ae8c06ec3e33ba41451421def008d1d9e645179181053bc2d7"
+    },
+    {
+      "attempt_id": "attempt-10",
+      "candidate_content_sha256": "ed1af67b6d380441318b41fb4f272e314e3ce0948ceeba76b32e381617e89ff2",
+      "fixture_file": "output/p6a1d_offline_replay/fixtures/attempt-10.json",
+      "fixture_file_sha256": "e0bc0b5d320fe11065dc1a4a76c836e183c0b0b2ceb7ca49f45a7aa3be601455",
+      "source_candidate_hash": "89f21cb599eddc6e527f26473f54956ad8ffb37c765cab28f7db7708bf207e58"
+    }
+  ],
+  "hash_semantics": "fixture_file_sha256 covers candidate plus provenance; candidate_content_sha256 is the replay_report v2_replay_fixture_hash and covers canonical candidate JSON only."
+}

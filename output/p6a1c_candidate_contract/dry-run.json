@@ -1,0 +1,79 @@
+{
+  "exit_code": 0,
+  "seconds": 9.755418099986855,
+  "result": {
+    "attempt_count": 10,
+    "brief": {
+      "allowed_question_templates": [
+        "A dataset contains {n} observations. Their sum is {sum_x} and the sum of their squares is {sum_x2}. Calculate the population standard deviation.",
+        "For {n} observations, the supplied summary statistics are sum x = {sum_x} and sum x squared = {sum_x2}. Find the population standard deviation."
+      ],
+      "allowed_scaffolds": {
+        "compute_first_term": [
+          "Calculate Σx² / n.",
+          "Divide the sum of squares by the number of observations."
+        ],
+        "compute_second_term": [
+          "Calculate (Σx / n)².",
+          "Divide the sum by the number of observations, then square the result."
+        ],
+        "square_root": [
+          "Take the square root.",
+          "Take the square root of the variance."
+        ],
+        "subtract_variance_terms": [
+          "Subtract the second result from the first.",
+          "Find the difference: first term minus second term."
+        ]
+      },
+      "content_origin_policy": "ai_generated_candidate",
+      "copyright_policy": "Original numerical problem required. No official source wording is supplied. Do not claim copied or official Pearson material.",
+      "forbidden_content": [
+        "new learning requirements, concepts, competencies or task forms",
+        "sample standard deviation or n - 1",
+        "population/sample comparison",
+        "difficulty, common-mistake or prerequisite claims",
+        "frequency, typical marks or exam predictions",
+        "formula memorisation",
+        "calculator models or button sequences",
+        "Pearson copying or official endorsement",
+        "approval, verification, safety, trust or readiness declarations"
+      ],
+      "formula": "sqrt(((sum_x2 / n) - ((sum_x / n))^2))",
+      "identity": "standard-deviation-standard-lesson-SL-10/2",
+      "learning_targets": [
+        "Student should be able to: Calculate the standard deviation of a distribution.",
+        "Student should be able to: Calculate the standard deviation of a distribution. Under the task form \"From summary statistics\": The requested calculation uses supplied summary statistics."
+      ],
+      "profile_context": "Standard lesson, guided calculation practice",
+      "required_output": [
+        "One original feasible set of n, sum_x, sum_x2; use numeric strings for sums.",
+        "Choose one permitted question template verbatim, preserving its placeholders.",
+        "Four ordered scaffold types, with one permitted instruction for each.",
+        "Separate solution with identical inputs. first_term, second_term, mean and variance each require expression and value. Expression is explanatory working (equations allowed); never numeric authority. Value must be a scalar integer, decimal or simple rational literal only. BAD: first_term=\"55/5 = 11\"; GOOD: first_term={expression:\"55/5\",value:\"11\"}. BAD: variance value=\"11 - 9 = 2\"; GOOD: variance={expression:\"11 - 9\",value:\"2\"}. exact_radicand remains an exact scalar. numeric_answer must be a finite decimal within 1e-40 of computed SD (no fixed digit count); display_answer is exactly two decimals, ROUND_HALF_UP."
+      ],
+      "role": "Guided practice 1",
+      "schema_version": "authoring-brief/2",
+      "solution_policy": "Teacher solution only in proposed_solution; student template and scaffolds must contain no answers. Use the supplied formula without modification.",
+      "support_mode": "guided",
+      "task_form": "From summary statistics"
+    },
+    "brief_hash": "78bc6195dc75d3a02ea1c79496fe88504107456dde735c0df741d95cf26a4e49",
+    "engineering_baseline": {
+      "errors": [],
+      "manifest_sha256": "da596a06692ded1adfb14f471c72082efea512289d6fa49255f3a2875ee6e88d",
+      "reference_version": "v1.2",
+      "trust_authority": false,
+      "valid": true,
+      "verification_scope": "current_conformance"
+    },
+    "live_api_will_be_called": false,
+    "model": "not_configured_in_environment",
+    "note": "Live provider also uses the existing dotenv convention; configure the model in the environment for an exact dry-run model display.",
+    "output_location": "D:\\AI-School-Academic-OS\\output\\p6a1_live_qualification",
+    "slot": "profiled-sd-standard-lesson-SL-10",
+    "stress_cases": [],
+    "would_call_with_live_flag": 10
+  },
+  "provider_api_calls": 0
+}

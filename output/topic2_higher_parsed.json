@@ -1,0 +1,174 @@
+{
+  "exam_board": "Pearson Edexcel",
+  "qualification": "International GCSE",
+  "subject": "Mathematics A",
+  "specification_code": "4MA1",
+  "tier_source": "Higher",
+  "topic_code": "2",
+  "topic_name": "Equations, formulae and identities",
+  "subtopics": [
+    {
+      "code": "2.1",
+      "name": "Use of symbols",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "use index notation involving fractional, negative and zero powers",
+          "source_id": "EDX-4MA1-H-2.1-A"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "code": "2.2",
+      "name": "Algebraic manipulation",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "expand the product of two or more linear expressions",
+          "source_id": "EDX-4MA1-H-2.2-A"
+        },
+        {
+          "code": "B",
+          "official_text": "understand the concept of a quadratic expression and be able to factorise such expressions",
+          "source_id": "EDX-4MA1-H-2.2-B"
+        },
+        {
+          "code": "C",
+          "official_text": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+          "source_id": "EDX-4MA1-H-2.2-C"
+        },
+        {
+          "code": "D",
+          "official_text": "complete the square for a given quadratic expression",
+          "source_id": "EDX-4MA1-H-2.2-D"
+        },
+        {
+          "code": "E",
+          "official_text": "use algebra to support and construct proofs",
+          "source_id": "EDX-4MA1-H-2.2-E"
+        }
+      ],
+      "notes": [
+        "Expand and simplify (x + 2)(x + 3)(x – 1)",
+        "Factorise 6x2 – 5x – 6",
+        "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+        "Simplify 2 2 2 3 4 9 x x x + −",
+        "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+      ]
+    },
+    {
+      "code": "2.3",
+      "name": "Expressions and formulae",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "understand the process of manipulating formulae or equations to change the subject, to include cases where the subject may appear twice or a power of the subject occurs",
+          "source_id": "EDX-4MA1-H-2.3-A"
+        }
+      ],
+      "notes": [
+        "Make r the subject of 3 4 3 V r π =",
+        "Make a the subject of 4 3 5 a a r − + =",
+        "Make l the subject of 2 l T g π ="
+      ]
+    },
+    {
+      "code": "2.4",
+      "name": "Linear equations",
+      "objectives": [],
+      "notes": [
+        "See Foundation Tier",
+        "For example 2 3 2 5 6 3 2 x x − + + ="
+      ]
+    },
+    {
+      "code": "2.5",
+      "name": "Proportion",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "set up problems involving direct or inverse proportion and relate algebraic solutions to graphical representation of the equations",
+          "source_id": "EDX-4MA1-H-2.5-A"
+        }
+      ],
+      "notes": [
+        "To include only the following: 2 2 3 3 1 , 1 , 1 , 1 , y x y x y x y x y x y x y x y x ∝ ∝ ∝ ∝ ∝ ∝ ∝ ∝"
+      ]
+    },
+    {
+      "code": "2.6",
+      "name": "Simultaneous linear equations",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "calculate the exact solution of two simultaneous equations in two unknowns",
+          "source_id": "EDX-4MA1-H-2.6-A"
+        },
+        {
+          "code": "B",
+          "official_text": "interpret the equations as lines and the common solution as the point of intersection",
+          "source_id": "EDX-4MA1-H-2.6-B"
+        }
+      ],
+      "notes": [
+        "2x + 3y = 17; 3x – 5y = 35"
+      ]
+    },
+    {
+      "code": "2.7",
+      "name": "Quadratic equations",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "solve quadratic equations by factorisation",
+          "source_id": "EDX-4MA1-H-2.7-A"
+        },
+        {
+          "code": "B",
+          "official_text": "solve quadratic equations by using the quadratic formula or completing the square",
+          "source_id": "EDX-4MA1-H-2.7-B"
+        },
+        {
+          "code": "C",
+          "official_text": "form and solve quadratic equations from data given in a context",
+          "source_id": "EDX-4MA1-H-2.7-C"
+        },
+        {
+          "code": "D",
+          "official_text": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
+          "source_id": "EDX-4MA1-H-2.7-D"
+        }
+      ],
+      "notes": [
+        "2x2 – 3x + 1 = 0, x(3x – 2) = 5",
+        "y = 2x – 11 and x2 + y2 = 25",
+        "y = 11x – 2 and y = 5x2"
+      ]
+    },
+    {
+      "code": "2.8",
+      "name": "Inequalities",
+      "objectives": [
+        {
+          "code": "A",
+          "official_text": "solve quadratic inequalities in one unknown and represent the solution set on a number line",
+          "source_id": "EDX-4MA1-H-2.8-A"
+        },
+        {
+          "code": "B",
+          "official_text": "identify harder examples of regions defined by linear inequalities",
+          "source_id": "EDX-4MA1-H-2.8-B"
+        }
+      ],
+      "notes": [
+        "x2  25, 4x2 > 25",
+        "x2 + 3x + 2 > 0",
+        "Shade the region defined by the inequalities x  4, y  2x + 1, 5x + 2y  20"
+      ]
+    }
+  ],
+  "warnings": [
+    "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed."
+  ]
+}

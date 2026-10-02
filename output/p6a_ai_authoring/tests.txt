@@ -1,0 +1,47 @@
+test_01_accepted_synthetic_not_live (tests_p0.test_ai_authoring.AIAuthoringTests.test_01_accepted_synthetic_not_live) ... ok
+test_02_original_numerical_values (tests_p0.test_ai_authoring.AIAuthoringTests.test_02_original_numerical_values) ... ok
+test_03_minimal_outbound_context (tests_p0.test_ai_authoring.AIAuthoringTests.test_03_minimal_outbound_context) ... ok
+test_04_model_cannot_choose_authority (tests_p0.test_ai_authoring.AIAuthoringTests.test_04_model_cannot_choose_authority) ... ok
+test_05_nested_extra_rejected (tests_p0.test_ai_authoring.AIAuthoringTests.test_05_nested_extra_rejected) ... ok
+test_06_missing_scaffold (tests_p0.test_ai_authoring.AIAuthoringTests.test_06_missing_scaffold) ... ok
+test_07_invented_scaffold_type (tests_p0.test_ai_authoring.AIAuthoringTests.test_07_invented_scaffold_type) ... ok
+test_08_wrong_order (tests_p0.test_ai_authoring.AIAuthoringTests.test_08_wrong_order) ... ok
+test_09_duplicate_step (tests_p0.test_ai_authoring.AIAuthoringTests.test_09_duplicate_step) ... ok
+test_10_empty_meaning (tests_p0.test_ai_authoring.AIAuthoringTests.test_10_empty_meaning) ... ok
+test_11_nonpositive_n (tests_p0.test_ai_authoring.AIAuthoringTests.test_11_nonpositive_n) ... ok
+test_12_nonfinite_and_large_encodings (tests_p0.test_ai_authoring.AIAuthoringTests.test_12_nonfinite_and_large_encodings) ... ok
+test_13_negative_variance (tests_p0.test_ai_authoring.AIAuthoringTests.test_13_negative_variance) ... ok
+test_14_solution_question_input_disagreement (tests_p0.test_ai_authoring.AIAuthoringTests.test_14_solution_question_input_disagreement) ... ok
+test_15_each_arithmetic_field_recomputed (tests_p0.test_ai_authoring.AIAuthoringTests.test_15_each_arithmetic_field_recomputed) ... ok
+test_16_answer_leak_question (tests_p0.test_ai_authoring.AIAuthoringTests.test_16_answer_leak_question) ... ok
+test_17_answer_leak_scaffold (tests_p0.test_ai_authoring.AIAuthoringTests.test_17_answer_leak_scaffold) ... ok
+test_18_explicit_boundaries (tests_p0.test_ai_authoring.AIAuthoringTests.test_18_explicit_boundaries) ... ok
+test_19_bindings_not_candidate_claims (tests_p0.test_ai_authoring.AIAuthoringTests.test_19_bindings_not_candidate_claims) ... ok
+test_20_unknown_origin (tests_p0.test_ai_authoring.AIAuthoringTests.test_20_unknown_origin) ... ok
+test_21_application_identity (tests_p0.test_ai_authoring.AIAuthoringTests.test_21_application_identity) ... ok
+test_22_one_slot_only (tests_p0.test_ai_authoring.AIAuthoringTests.test_22_one_slot_only) ... ok
+test_23_old_renderer_contract_rejects_experiment (tests_p0.test_ai_authoring.AIAuthoringTests.test_23_old_renderer_contract_rejects_experiment) ... ok
+test_24_promote_rechecks_candidate (tests_p0.test_ai_authoring.AIAuthoringTests.test_24_promote_rechecks_candidate) ... ok
+test_25_changed_composition (tests_p0.test_ai_authoring.AIAuthoringTests.test_25_changed_composition) ... ok
+test_26_secret_not_persisted (tests_p0.test_ai_authoring.AIAuthoringTests.test_26_secret_not_persisted) ... ok
+test_27_atomic_no_overwrite (tests_p0.test_ai_authoring.AIAuthoringTests.test_27_atomic_no_overwrite) ... ok
+test_28_provider_exception_no_retry_no_leak (tests_p0.test_ai_authoring.AIAuthoringTests.test_28_provider_exception_no_retry_no_leak) ... ok
+test_29_refresh_failure_blocks (tests_p0.test_ai_authoring.AIAuthoringTests.test_29_refresh_failure_blocks) ... ok
+test_30_adapter_one_structured_call (tests_p0.test_ai_authoring.AIAuthoringTests.test_30_adapter_one_structured_call) ... ok
+test_31_refusal_rejected (tests_p0.test_ai_authoring.AIAuthoringTests.test_31_refusal_rejected) ... ok
+test_32_adapter_failure_no_exception_payload (tests_p0.test_ai_authoring.AIAuthoringTests.test_32_adapter_failure_no_exception_payload) ... ok
+test_33_cli_no_implicit_live (tests_p0.test_ai_authoring.AIAuthoringTests.test_33_cli_no_implicit_live) ... ok
+test_34_show_brief_does_not_construct_provider (tests_p0.test_ai_authoring.AIAuthoringTests.test_34_show_brief_does_not_construct_provider) ... ok
+test_35_source_state_unchanged (tests_p0.test_ai_authoring.AIAuthoringTests.test_35_source_state_unchanged) ... ok
+test_36_scaffold_wording_variants (tests_p0.test_ai_authoring.AIAuthoringTests.test_36_scaffold_wording_variants) ... ok
+test_37_duplicate_json_keys (tests_p0.test_ai_authoring.AIAuthoringTests.test_37_duplicate_json_keys) ... ok
+test_38_zero_variance_is_not_answer_leak (tests_p0.test_ai_authoring.AIAuthoringTests.test_38_zero_variance_is_not_answer_leak) ... ok
+test_39_irrational_uses_existing_engine (tests_p0.test_ai_authoring.AIAuthoringTests.test_39_irrational_uses_existing_engine) ... ok
+test_40_sdk_retries_disabled_and_config_single_point (tests_p0.test_ai_authoring.AIAuthoringTests.test_40_sdk_retries_disabled_and_config_single_point) ... ok
+test_41_escaped_environment_secret (tests_p0.test_ai_authoring.AIAuthoringTests.test_41_escaped_environment_secret) ... ok
+test_42_changed_current_sources_block_promotion (tests_p0.test_ai_authoring.AIAuthoringTests.test_42_changed_current_sources_block_promotion) ... ok
+
+----------------------------------------------------------------------
+Ran 42 tests in 215.698s
+
+OK

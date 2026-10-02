@@ -1,0 +1,16 @@
+[
+  {
+    "original_path": "C:\\Users\\Administrator\\Downloads\\June 2023 QP (Stats) (1).pdf",
+    "registered_path": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 QP (Stats) (1).pdf",
+    "sha256": "4b5e3dc04ba1951026605f495a4127f4afbdc3746c03f4be366b3e1f8d7e5c64",
+    "copy_byte_identical": true,
+    "verification": "pending"
+  },
+  {
+    "original_path": "C:\\Users\\Administrator\\Downloads\\June 2023 MS (Stats).pdf",
+    "registered_path": "D:\\AI-School-Academic-OS\\output\\p1c_case2\\sources\\June 2023 MS (Stats).pdf",
+    "sha256": "152b5434487fa2445d1130159feffc05e9883ae7197f75fffe4ceffc785d4823",
+    "copy_byte_identical": true,
+    "verification": "pending"
+  }
+]

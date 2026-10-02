@@ -1,0 +1,48 @@
+test_01_focused_gold (tests_p0.test_profiled_content.ProfiledContentTests.test_01_focused_gold) ... ok
+test_02_standard_gold (tests_p0.test_profiled_content.ProfiledContentTests.test_02_standard_gold) ... ok
+test_03_seven_new_items (tests_p0.test_profiled_content.ProfiledContentTests.test_03_seven_new_items) ... ok
+test_04_reused_identity_shared_across_profiles (tests_p0.test_profiled_content.ProfiledContentTests.test_04_reused_identity_shared_across_profiles) ... ok
+test_05_reuse_not_cloned (tests_p0.test_profiled_content.ProfiledContentTests.test_05_reuse_not_cloned) ... ok
+test_06_practice_composite (tests_p0.test_profiled_content.ProfiledContentTests.test_06_practice_composite) ... ok
+test_07_orientation_framing (tests_p0.test_profiled_content.ProfiledContentTests.test_07_orientation_framing) ... ok
+test_08_scope_same (tests_p0.test_profiled_content.ProfiledContentTests.test_08_scope_same) ... ok
+test_09_boundaries_same (tests_p0.test_profiled_content.ProfiledContentTests.test_09_boundaries_same) ... ok
+test_10_new_content_not_profile_named (tests_p0.test_profiled_content.ProfiledContentTests.test_10_new_content_not_profile_named) ... ok
+test_11_numeric_oracle (tests_p0.test_profiled_content.ProfiledContentTests.test_11_numeric_oracle) ... ok
+test_12_raw_data_instructional_only (tests_p0.test_profiled_content.ProfiledContentTests.test_12_raw_data_instructional_only) ... ok
+test_13_raw_deviations (tests_p0.test_profiled_content.ProfiledContentTests.test_13_raw_deviations) ... ok
+test_14_questions_separate (tests_p0.test_profiled_content.ProfiledContentTests.test_14_questions_separate) ... ok
+test_15_guided_support (tests_p0.test_profiled_content.ProfiledContentTests.test_15_guided_support) ... ok
+test_16_independent_no_scaffold (tests_p0.test_profiled_content.ProfiledContentTests.test_16_independent_no_scaffold) ... ok
+test_17_exit_parts (tests_p0.test_profiled_content.ProfiledContentTests.test_17_exit_parts) ... ok
+test_18_semantic_not_exact_grading (tests_p0.test_profiled_content.ProfiledContentTests.test_18_semantic_not_exact_grading) ... ok
+test_19_corrupt_every_numeric_answer (tests_p0.test_profiled_content.ProfiledContentTests.test_19_corrupt_every_numeric_answer) ... ok
+test_20_corrupt_every_rounding (tests_p0.test_profiled_content.ProfiledContentTests.test_20_corrupt_every_rounding) ... ok
+test_21_corrupt_exact_mean_variance_steps (tests_p0.test_profiled_content.ProfiledContentTests.test_21_corrupt_exact_mean_variance_steps) ... ok
+test_22_invalid_summaries_and_nonfinite (tests_p0.test_profiled_content.ProfiledContentTests.test_22_invalid_summaries_and_nonfinite) ... ok
+test_23_corrupt_raw_deviations (tests_p0.test_profiled_content.ProfiledContentTests.test_23_corrupt_raw_deviations) ... ok
+test_24_unresolved_provider_missing (tests_p0.test_profiled_content.ProfiledContentTests.test_24_unresolved_provider_missing) ... ok
+test_25_minimum_target_distinct (tests_p0.test_profiled_content.ProfiledContentTests.test_25_minimum_target_distinct) ... ok
+test_26_bad_provider_math_unresolved (tests_p0.test_profiled_content.ProfiledContentTests.test_26_bad_provider_math_unresolved) ... ok
+test_27_reuse_not_title_based (tests_p0.test_profiled_content.ProfiledContentTests.test_27_reuse_not_title_based) ... ok
+test_28_wrong_type_not_reused (tests_p0.test_profiled_content.ProfiledContentTests.test_28_wrong_type_not_reused) ... ok
+test_29_wrong_task_not_reused (tests_p0.test_profiled_content.ProfiledContentTests.test_29_wrong_task_not_reused) ... ok
+test_30_unknown_alignment_unresolved_analysis (tests_p0.test_profiled_content.ProfiledContentTests.test_30_unknown_alignment_unresolved_analysis) ... ok
+test_31_old_approval_flag_insufficient (tests_p0.test_profiled_content.ProfiledContentTests.test_31_old_approval_flag_insufficient) ... ok
+test_32_p4b_closed (tests_p0.test_profiled_content.ProfiledContentTests.test_32_p4b_closed) ... ok
+test_33_package_verification (tests_p0.test_profiled_content.ProfiledContentTests.test_33_package_verification) ... ok
+test_34_forged_verification_labels_rejected (tests_p0.test_profiled_content.ProfiledContentTests.test_34_forged_verification_labels_rejected) ... ok
+test_35_tampered_prompt_rejected (tests_p0.test_profiled_content.ProfiledContentTests.test_35_tampered_prompt_rejected) ... ok
+test_36_reuse_hash_rejected (tests_p0.test_profiled_content.ProfiledContentTests.test_36_reuse_hash_rejected) ... ok
+test_37_no_render_claim (tests_p0.test_profiled_content.ProfiledContentTests.test_37_no_render_claim) ... ok
+test_38_deterministic (tests_p0.test_profiled_content.ProfiledContentTests.test_38_deterministic) ... ok
+test_39_no_profile_identity_in_new_ref (tests_p0.test_profiled_content.ProfiledContentTests.test_39_no_profile_identity_in_new_ref) ... ok
+test_40_frozen (tests_p0.test_profiled_content.ProfiledContentTests.test_40_frozen) ... ok
+test_41_service_rejects_stale_chain (tests_p0.test_profiled_content.ProfiledContentTests.test_41_service_rejects_stale_chain) ... ok
+test_42_cli_readonly (tests_p0.test_profiled_content.ProfiledContentTests.test_42_cli_readonly) ... ok
+test_43_export_idempotent (tests_p0.test_profiled_content.ProfiledContentTests.test_43_export_idempotent) ... ok
+
+----------------------------------------------------------------------
+Ran 43 tests in 44.952s
+
+OK

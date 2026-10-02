@@ -1,0 +1,17 @@
+{
+  "status": "P5A acceptance passed",
+  "tests": {
+    "baseline_passed": 40,
+    "new_profile_tests_passed": 50,
+    "total": 180,
+    "passed": 180,
+    "failures": 0,
+    "errors": 0,
+    "full_repository_suite_run": false
+  },
+  "same_academic_scope": true,
+  "roles": {
+    "focused-review": 9,
+    "standard-lesson": 15
+  }
+}

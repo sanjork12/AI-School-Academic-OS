@@ -1,0 +1,45 @@
+test_01_current_result (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_01_current_result) ... ok
+test_02_four_unpopulated_slots (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_02_four_unpopulated_slots) ... ok
+test_03_matrix_uses_stable_refs (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_03_matrix_uses_stable_refs) ... ok
+test_04_missing_task_block (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_04_missing_task_block) ... ok
+test_05_missing_coverage_requirement (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_05_missing_coverage_requirement) ... ok
+test_06_broken_lr (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_06_broken_lr) ... ok
+test_07_wrong_kind (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_07_wrong_kind) ... ok
+test_08_formula_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_08_formula_overclaim) ... ok
+test_09_difficulty_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_09_difficulty_overclaim) ... ok
+test_10_prerequisite_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_10_prerequisite_overclaim) ... ok
+test_11_common_mistake_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_11_common_mistake_overclaim) ... ok
+test_12_frequency_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_12_frequency_overclaim) ... ok
+test_13_typical_marks_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_13_typical_marks_overclaim) ... ok
+test_14_prediction_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_14_prediction_overclaim) ... ok
+test_15_calculator_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_15_calculator_overclaim) ... ok
+test_16_sequence_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_16_sequence_overclaim) ... ok
+test_17_unsupported_task (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_17_unsupported_task) ... ok
+test_18_allowed_instructional_support (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_18_allowed_instructional_support) ... ok
+test_19_negation_does_not_hide_other_clause (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_19_negation_does_not_hide_other_clause) ... ok
+test_20_missing_boundary (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_20_missing_boundary) ... ok
+test_21_mutated_learning (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_21_mutated_learning) ... ok
+test_22_slot_missing_not_just_empty (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_22_slot_missing_not_just_empty) ... ok
+test_23_placeholder_not_content (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_23_placeholder_not_content) ... ok
+test_24_forged_populated_status (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_24_forged_populated_status) ... ok
+test_25_duplicate_block (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_25_duplicate_block) ... ok
+test_26_duplicate_content (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_26_duplicate_content) ... ok
+test_27_duplicate_titles_allowed (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_27_duplicate_titles_allowed) ... ok
+test_28_wrong_product_alignment (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_28_wrong_product_alignment) ... ok
+test_29_learning_check_targets (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_29_learning_check_targets) ... ok
+test_30_completion_overclaim (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_30_completion_overclaim) ... ok
+test_31_deterministic_order (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_31_deterministic_order) ... ok
+test_32_deterministic_violations (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_32_deterministic_violations) ... ok
+test_33_no_mutation (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_33_no_mutation) ... ok
+test_34_frozen_files_and_db (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_34_frozen_files_and_db) ... ok
+test_35_fresh_service_and_withdrawal (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_35_fresh_service_and_withdrawal) ... ok
+test_36_saved_json_not_authority (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_36_saved_json_not_authority) ... ok
+test_37_cli_no_write_store (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_37_cli_no_write_store) ... ok
+test_38_human_and_payload (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_38_human_and_payload) ... ok
+test_39_schema_version_rejected (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_39_schema_version_rejected) ... ok
+test_40_formula_flag_rejected (tests_p0.test_pedagogical_validation.PedagogicalValidationTests.test_40_formula_flag_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 12.584s
+
+OK

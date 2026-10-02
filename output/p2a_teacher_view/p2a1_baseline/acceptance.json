@@ -1,0 +1,207 @@
+{
+  "architectural_issues": [
+    "Service.snapshot can append withdrawal blocks; product reads use a mode=ro database connection and disposable memory image to preserve real state.",
+    "Published scope remains a candidate association; verified curriculum wording is not confirmed equivalence.",
+    "Two examples do not establish frequency, typical marks, difficulty, trend or errors.",
+    "Small local database backup per request is intentional; scale may require a foundation-owned pure status API.",
+    "Saved product JSON is not a trusted snapshot; subsequent use must refresh validity through the service."
+  ],
+  "assessment_examples_composed": [
+    {
+      "assessment_label": "June 2025 9MA0/31 Q2",
+      "competency": "Calculate standard deviation",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q2(b)",
+      "question_wording": "Calculate the standard deviation of the best times for the runners trained by coach A",
+      "reading_notes": [
+        "Formula glyphs are preserved verbatim; numerical/formula interpretation requires original-page review."
+      ],
+      "session": "June",
+      "task_forms": [
+        "From summary statistics"
+      ],
+      "year": 2025
+    },
+    {
+      "assessment_label": "June 2023 9MA0/31 Q3",
+      "competency": "Calculate standard deviation",
+      "marks": 2,
+      "paper": "9MA0/31",
+      "question_part": "Q3(b)(ii)",
+      "question_wording": "(b) Calculate estimates for (ii) the standard deviation of the Daily Total Rainfall.",
+      "reading_notes": [
+        "Formula/symbol extraction is layout-defective; no silent repair. Review original PDF page.",
+        "Individual subpart marks follow MS scoring rows; QP prints grouped totals.",
+        "Large Data Set statements are question-specific evidence, not canonical definitions."
+      ],
+      "session": "June",
+      "task_forms": [
+        "From summary statistics"
+      ],
+      "year": 2023
+    }
+  ],
+  "canonical_objects_reused": {
+    "competency:CAN-STAT-SD-CALC": {
+      "snapshot_ids": [
+        "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+        "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+      ],
+      "version": "1ef9ddf75fac8db4f8b68d85dbe3ba216f55014c6c745a9dcfe08dbd4f1f917c"
+    },
+    "concept:CON-STAT-SD": {
+      "snapshot_ids": [
+        "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+        "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+      ],
+      "version": "5ceb4998e5e6c9d0e9aded91efbd5a37ae12f4189bde5760849e4af92208382a"
+    },
+    "task_condition:TC-SUMMARY-STATISTICS": {
+      "snapshot_ids": [
+        "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+        "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+      ],
+      "version": "2c358e24fb6ffb70773a528f2b639c416c676a81e3a708b8c4f170490b0dd5b8"
+    }
+  },
+  "changed_files": [
+    "academic_os/product_models.py",
+    "academic_os/product_catalog.py",
+    "academic_os/product_reader.py",
+    "academic_os/product_service.py",
+    "academic_os/product_rendering.py",
+    "academic_os/cli.py",
+    "tests_p0/test_teacher_product.py",
+    "tests_p0/teacher_product_acceptance.py",
+    "docs/P2A_TEACHER_PRODUCT_VIEW.md"
+  ],
+  "conflicts": [],
+  "database_after": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "database_before": {
+    "sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "tables": {
+      "heads": {
+        "count": 95,
+        "digest": "b42c35911708d0e3a198ed6c769692ed07f348c483cf1e9c22e7db9fcd4f8e3f"
+      },
+      "requests": {
+        "count": 101,
+        "digest": "7bbdaf938832e9003d86d2164ac319e3d85076a6f63f8efb651266699c38f05c"
+      },
+      "review_heads": {
+        "count": 83,
+        "digest": "04ffe0cace3c5d31a696d13cd9addd8e72571f3830615d56e08926ec2c467d8b"
+      },
+      "reviews": {
+        "count": 83,
+        "digest": "119500ae537534edeffe3b4411eea8928fe25921ce6e5cd8de091522639f2a5a"
+      },
+      "snapshot_blocks": {
+        "count": 0,
+        "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "snapshot_members": {
+        "count": 97,
+        "digest": "ba60bbcaac0666f3a077046a339a7de2baed76ee48103f0c076738e3b0229d5b"
+      },
+      "snapshots": {
+        "count": 2,
+        "digest": "985c9be059be5bfb8e7281f46dbfe0c4861da89c94efeb2f58b2d9e409c77ab4"
+      },
+      "versions": {
+        "count": 116,
+        "digest": "941a6962be984c07fc401782ea2cef4abbb72ccf7d1d24915f9f512ebdbb829b"
+      }
+    }
+  },
+  "determinism": {
+    "reversed_inputs_byte_identical": true,
+    "sha256": "fc050cd6913d1bd5e30be2e16ce4001d47610830e361c632db6e2b04eda2ee80"
+  },
+  "full_test_result": {
+    "duration_seconds": 838.998,
+    "errors": 1,
+    "failures": 0,
+    "focused_passed": 42,
+    "known_error": "FileNotFoundError: AI_Academic_Operating_System_Brainstorm_CN.pptx; original integrity test and pinned hash preserved",
+    "log": "output/p2a_teacher_view/full-suite.txt",
+    "not_run": 0,
+    "passed": 399,
+    "skipped": 0,
+    "total": 400
+  },
+  "input_snapshot_ids": [
+    "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+    "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826"
+  ],
+  "new_academic_decisions": 0,
+  "new_governance_decisions": 0,
+  "new_source_decisions": 0,
+  "new_trusted_snapshots": 0,
+  "protected_files": {
+    "changed": [],
+    "missing": [
+      "AI_Academic_Operating_System_Brainstorm_CN.pptx"
+    ],
+    "pinned": 61
+  },
+  "q2_snapshot": {
+    "snapshot_id": "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070",
+    "unchanged": true,
+    "usable": true
+  },
+  "q3_snapshot": {
+    "snapshot_id": "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826",
+    "unchanged": true,
+    "usable": true
+  },
+  "safety": {
+    "curriculum_association_confirmed": false,
+    "q2_pending_contextual_inference_absent": true,
+    "q3_deferred_interpretation_absent": true,
+    "raw_candidates_used": false
+  },
+  "snapshot_usability": {
+    "04765fa526fc03ee889f8e0691a23e07de4dcbd5486a779317a928c0809a7070": true,
+    "4c48326cc3b4e3315118d8dc675764a1cff2d8e0c7d37a2f741bc26d928fe826": true
+  },
+  "status": "P2A TRUSTED KNOWLEDGE → TEACHER PRODUCT VIEW PASSED",
+  "teacher_view_artifact": "output\\p2a_teacher_view\\standard_deviation.json"
+}

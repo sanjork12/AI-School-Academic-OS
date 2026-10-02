@@ -1,0 +1,450 @@
+{
+  "acceptance_policy": "sl10-provenance-required/1",
+  "accepted": false,
+  "binding_valid": false,
+  "boundary_valid": false,
+  "brief_ref": "standard-deviation-standard-lesson-SL-10/3",
+  "candidate_id": "ai-candidate-77777777777777777777777777777777",
+  "composition_valid": false,
+  "content_complete": false,
+  "derivation_provenance_status": "PASSED",
+  "derivation_provenance_valid": true,
+  "expression_semantics_valid": true,
+  "math_valid": true,
+  "origin_valid": true,
+  "scaffold_valid": false,
+  "schema_valid": true,
+  "schema_version": "ai-candidate-validation/2",
+  "scope_valid": true,
+  "separation_valid": false,
+  "solution_valid": true,
+  "verification_summary": {
+    "acceptance_policy": "sl10-provenance-required/1",
+    "expression_math_verified": true,
+    "expression_policy": "Controlled SL-10 expressions independently verified; no production rendering.",
+    "expressions": {
+      "checks": {
+        "first_term": {
+          "ast": {
+            "left": {
+              "name": "sum_x2",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "claimed_value": "38",
+          "comparison": "exact_rational",
+          "evaluated_value": "38",
+          "expression": "sum_x2 / n",
+          "reason": null,
+          "valid": true
+        },
+        "mean": {
+          "ast": {
+            "left": {
+              "name": "sum_x",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "claimed_value": "6",
+          "comparison": "exact_rational",
+          "evaluated_value": "6",
+          "expression": "sum_x / n",
+          "reason": null,
+          "valid": true
+        },
+        "second_term": {
+          "ast": {
+            "arg": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "op": "square"
+          },
+          "claimed_value": "36",
+          "comparison": "exact_rational",
+          "evaluated_value": "36",
+          "expression": "(sum_x / n)^2",
+          "reason": null,
+          "valid": true
+        },
+        "variance": {
+          "ast": {
+            "left": {
+              "name": "first_term",
+              "op": "variable"
+            },
+            "op": "subtract",
+            "right": {
+              "name": "second_term",
+              "op": "variable"
+            }
+          },
+          "claimed_value": "2",
+          "comparison": "exact_rational",
+          "evaluated_value": "2",
+          "expression": "first term - second term",
+          "reason": null,
+          "valid": true
+        }
+      },
+      "expression_semantics_valid": true,
+      "verifier_version": "sl10-expression/1"
+    },
+    "failures": [
+      {
+        "code": "role_binding_invalid",
+        "field": "role_ref"
+      }
+    ],
+    "mathematics": {
+      "checks": {
+        "exact_answer_recomputed": true,
+        "mean_recomputed": true,
+        "method_steps_recomputed": true,
+        "numeric_answer_recomputed": true,
+        "rounding_recomputed": true,
+        "summaries_feasible": true,
+        "variance_recomputed": true
+      },
+      "errors": [],
+      "status": "verified"
+    },
+    "primary_failure": {
+      "code": "role_binding_invalid",
+      "field": "role_ref"
+    },
+    "provenance": {
+      "checks": {
+        "first_term": {
+          "ast": {
+            "left": {
+              "name": "sum_x2",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "evidence_mode": "current",
+          "expected_dependency_structure": [
+            {
+              "left": {
+                "name": "sum_x2",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            }
+          ],
+          "expected_semantic_role": "first_term",
+          "expected_value": "38",
+          "expression": "sum_x2 / n",
+          "expression_semantics_valid": true,
+          "field": "proposed_solution.first_term",
+          "policy": "sl10-provenance-required/1",
+          "reason": "provenance_verified",
+          "resolved_symbolic_sources": [
+            {
+              "ast_path": "$.left",
+              "dependencies": [
+                "proposed_math_inputs.sum_x2"
+              ],
+              "name": "sum_x2",
+              "value": "190"
+            },
+            {
+              "ast_path": "$.right",
+              "dependencies": [
+                "proposed_math_inputs.n"
+              ],
+              "name": "n",
+              "value": "5"
+            }
+          ],
+          "status": "PASSED",
+          "valid": true,
+          "verifier_version": "sl10-derivation-provenance/1"
+        },
+        "mean": {
+          "ast": {
+            "left": {
+              "name": "sum_x",
+              "op": "variable"
+            },
+            "op": "divide",
+            "right": {
+              "name": "n",
+              "op": "variable"
+            }
+          },
+          "evidence_mode": "current",
+          "expected_dependency_structure": [
+            {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            }
+          ],
+          "expected_semantic_role": "mean",
+          "expected_value": "6",
+          "expression": "sum_x / n",
+          "expression_semantics_valid": true,
+          "field": "proposed_solution.mean",
+          "policy": "sl10-provenance-required/1",
+          "reason": "provenance_verified",
+          "resolved_symbolic_sources": [
+            {
+              "ast_path": "$.left",
+              "dependencies": [
+                "proposed_math_inputs.sum_x"
+              ],
+              "name": "sum_x",
+              "value": "30"
+            },
+            {
+              "ast_path": "$.right",
+              "dependencies": [
+                "proposed_math_inputs.n"
+              ],
+              "name": "n",
+              "value": "5"
+            }
+          ],
+          "status": "PASSED",
+          "valid": true,
+          "verifier_version": "sl10-derivation-provenance/1"
+        },
+        "second_term": {
+          "ast": {
+            "arg": {
+              "left": {
+                "name": "sum_x",
+                "op": "variable"
+              },
+              "op": "divide",
+              "right": {
+                "name": "n",
+                "op": "variable"
+              }
+            },
+            "op": "square"
+          },
+          "evidence_mode": "current",
+          "expected_dependency_structure": [
+            {
+              "arg": {
+                "left": {
+                  "name": "sum_x",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              },
+              "op": "square"
+            }
+          ],
+          "expected_semantic_role": "second_term",
+          "expected_value": "36",
+          "expression": "(sum_x / n)^2",
+          "expression_semantics_valid": true,
+          "field": "proposed_solution.second_term",
+          "policy": "sl10-provenance-required/1",
+          "reason": "provenance_verified",
+          "resolved_symbolic_sources": [
+            {
+              "ast_path": "$.arg.left",
+              "dependencies": [
+                "proposed_math_inputs.sum_x"
+              ],
+              "name": "sum_x",
+              "value": "30"
+            },
+            {
+              "ast_path": "$.arg.right",
+              "dependencies": [
+                "proposed_math_inputs.n"
+              ],
+              "name": "n",
+              "value": "5"
+            }
+          ],
+          "status": "PASSED",
+          "valid": true,
+          "verifier_version": "sl10-derivation-provenance/1"
+        },
+        "variance": {
+          "ast": {
+            "left": {
+              "name": "first_term",
+              "op": "variable"
+            },
+            "op": "subtract",
+            "right": {
+              "name": "second_term",
+              "op": "variable"
+            }
+          },
+          "evidence_mode": "current",
+          "expected_dependency_structure": [
+            {
+              "left": {
+                "name": "first_term",
+                "op": "variable"
+              },
+              "op": "subtract",
+              "right": {
+                "name": "second_term",
+                "op": "variable"
+              }
+            },
+            {
+              "left": {
+                "left": {
+                  "name": "sum_x2",
+                  "op": "variable"
+                },
+                "op": "divide",
+                "right": {
+                  "name": "n",
+                  "op": "variable"
+                }
+              },
+              "op": "subtract",
+              "right": {
+                "arg": {
+                  "left": {
+                    "name": "sum_x",
+                    "op": "variable"
+                  },
+                  "op": "divide",
+                  "right": {
+                    "name": "n",
+                    "op": "variable"
+                  }
+                },
+                "op": "square"
+              }
+            }
+          ],
+          "expected_semantic_role": "variance",
+          "expected_value": "2",
+          "expression": "first term - second term",
+          "expression_semantics_valid": true,
+          "field": "proposed_solution.variance",
+          "policy": "sl10-provenance-required/1",
+          "reason": "provenance_verified",
+          "resolved_symbolic_sources": [
+            {
+              "ast_path": "$.left",
+              "dependencies": [
+                "sum_x2",
+                "n"
+              ],
+              "name": "first_term",
+              "value": "38"
+            },
+            {
+              "ast_path": "$.right",
+              "dependencies": [
+                "sum_x",
+                "n"
+              ],
+              "name": "second_term",
+              "value": "36"
+            }
+          ],
+          "status": "PASSED",
+          "valid": true,
+          "verifier_version": "sl10-derivation-provenance/1"
+        }
+      },
+      "dependency_map": {
+        "first_term": [
+          "sum_x2",
+          "n"
+        ],
+        "n": [
+          "proposed_math_inputs.n"
+        ],
+        "radicand": [
+          "first_term",
+          "second_term"
+        ],
+        "second_term": [
+          "sum_x",
+          "n"
+        ],
+        "sum_x": [
+          "proposed_math_inputs.sum_x"
+        ],
+        "sum_x2": [
+          "proposed_math_inputs.sum_x2"
+        ]
+      },
+      "derivation_provenance_valid": true,
+      "policy": "sl10-provenance-required/1",
+      "scope": "Four intermediate derivations only; no candidate square-root expression, pedagogy or academic approval.",
+      "status": "PASSED",
+      "verifier_version": "sl10-derivation-provenance/1"
+    },
+    "stage_status": {
+      "binding_valid": "FAILED",
+      "boundary_valid": "FAILED",
+      "composition_valid": "NOT_EVALUATED",
+      "content_complete": "FAILED",
+      "derivation_provenance_valid": "PASSED",
+      "expression_semantics_valid": "PASSED",
+      "math_valid": "PASSED",
+      "numeric_encoding": "PASSED",
+      "origin_valid": "PASSED",
+      "scaffold_valid": "FAILED",
+      "schema_valid": "PASSED",
+      "scope_valid": "PASSED",
+      "separation_valid": "FAILED",
+      "solution_valid": "PASSED"
+    }
+  },
+  "violations": [
+    "binding_valid",
+    "boundary_valid",
+    "content_complete",
+    "role_binding_invalid",
+    "scaffold_valid",
+    "separation_valid"
+  ],
+  "warnings": [
+    "Acceptance is not human approval, publication permission, pedagogy certification or renderer readiness.",
+    "Only the controlled SL-10 expression grammar is verified; no general symbolic proof or production rendering."
+  ]
+}
