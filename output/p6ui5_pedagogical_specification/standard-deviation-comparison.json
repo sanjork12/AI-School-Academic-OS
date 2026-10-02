@@ -1,0 +1,49 @@
+{
+  "assessment": {
+    "current": "No success criteria or bounded check alignment; no assessment generated",
+    "legacy": "Reviewed task forms and aligned candidate check slots"
+  },
+  "current": {
+    "lesson_authoring": "BLOCKED",
+    "pedagogical_eligibility": "REVIEW_REQUIRED",
+    "pedagogy_constructed": false
+  },
+  "frozen_legacy_artifacts": {
+    "output/p3b_pedagogical_specification/standard_deviation.json": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "output/p3c_pedagogical_validation/standard_deviation.json": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "legacy_hashes": {
+    "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+    "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "legacy_specific": [
+    "capability-to-calculation mapping",
+    "summary statistics task form",
+    "fixed SD Gold sequencing/density",
+    "SL11 application-owned formula hint"
+  ],
+  "missing_generic_adapters": [
+    "reviewed success-criterion contract",
+    "bounded activity/task contract",
+    "check alignment",
+    "role-specific authoring/validation adapters"
+  ],
+  "roles": {
+    "legacy_standard": 15,
+    "new_executable": 0,
+    "non_executable_optional": [
+      "non_assessing_summary"
+    ],
+    "non_executable_required": [
+      "scope_framing"
+    ]
+  },
+  "shared": [
+    "source-bound goals",
+    "coverage constraints",
+    "candidate/content distinction",
+    "role evidence",
+    "warning preservation"
+  ]
+}
