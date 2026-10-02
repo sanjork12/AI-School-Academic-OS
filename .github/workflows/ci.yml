@@ -44,11 +44,15 @@ jobs:
           pip install -r requirements-p6a.txt
           pip install -r requirements-p6ui.txt
 
-      # P6UI console acceptance remains local-only for now.
-      # It depends on the governed var/p0_q2.sqlite3 trusted baseline
-      # and frozen binary presentation artifacts that are not stored in Git.
-      - name: Run syllabus ingestion tests
-        run: python -m unittest tests_p0.test_syllabus_ingestion -v
+      # Real-source, trusted-baseline, and P6UI acceptance tests remain local-only.
+      # They depend on governed SQLite state and/or source/binary artifacts
+      # intentionally excluded from Git.
+     - name: Run repository-safe backend tests
+       run: |
+          python -m unittest \
+             tests_p0.test_workflow.WorkflowTests \
+             tests_p0.test_semantics.SemanticTrustTests \
+             -v
 
 
   frontend:
