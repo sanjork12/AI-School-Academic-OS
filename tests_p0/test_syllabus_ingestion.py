@@ -98,14 +98,14 @@ class IngestionTests(unittest.TestCase):
             with self.assertRaises(core.IngestionError) as c:core.live_parse('text','foundation',{'model':'configured-model'})
         self.assertEqual(c.exception.code,'PARSER_FAILED');self.assertNotIn('sk-test',str(c.exception))
     def test_live_adapter_fixture_and_validation_failure(self):
-        data=json.loads((ROOT/'output/topic2_foundation_parsed.json').read_text());data['subtopics'].pop()
+        data=json.loads((ROOT/'output/topic2_foundation_parsed.json').read_text(encoding="utf-8"));data['subtopics'].pop()
         with patch.object(core,'model_configuration',return_value={'model':'offline-test-double'}),patch.object(core,'live_parse',return_value=data) as provider:
             r=wait(self.s,self.s.submit_parse(self.doc.document_id,ParseRequest(extraction_run_id=self.ex['foundation'].run_id,mode='live',confirm_model_call=True)))
             provider.assert_called_once()
         self.assertEqual(r.status,'failed');self.assertEqual(r.errors[0].code,'CURRICULUM_VALIDATION_FAILED');self.assertFalse(self.s.output(r.run_id,'validation')['structure_valid'])
         with self.assertRaises(core.IngestionError):self.s.tree(r.run_id)
     def test_structure_is_not_official_approval(self):
-        data=json.loads((ROOT/'output/topic2_foundation_parsed.json').read_text());data['subtopics'][0]['objectives'][0]['official_text']='Changed wording not detected by structure alone'
+        data=json.loads((ROOT/'output/topic2_foundation_parsed.json').read_text(encoding="utf-8"));data['subtopics'][0]['objectives'][0]['official_text']='Changed wording not detected by structure alone'
         v=validate_curriculum(data,'foundation');self.assertTrue(v['structure_valid']);self.assertFalse(v['official_text_confirmed'])
     def test_parse_run_provider_failure_sanitized(self):
         with patch.object(core,'model_configuration',return_value={'model':'offline-test-double'}),patch('openai.OpenAI',side_effect=RuntimeError('sk-test-secret-never-return')):

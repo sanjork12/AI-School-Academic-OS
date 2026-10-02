@@ -1,0 +1,88 @@
+name: Academic OS CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: Backend tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: "pip"
+          cache-dependency-path: |
+            requirements-p0.txt
+            requirements-p6a.txt
+            requirements-p6ui.txt
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements-p0.txt
+          pip install -r requirements-p6a.txt
+          pip install -r requirements-p6ui.txt
+
+      # Real-source, trusted-baseline, and P6UI acceptance tests remain local-only.
+      # They depend on governed SQLite state and/or source/binary artifacts
+      # intentionally excluded from Git.
+      - name: Run repository-safe backend tests
+        run: |
+          python -m unittest \
+            tests_p0.test_workflow.WorkflowTests \
+            tests_p0.test_semantics.SemanticTrustTests \
+            -v
+
+
+  frontend:
+    name: Frontend checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "npm"
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install frontend dependencies
+        run: npm ci
+
+      - name: Run frontend data tests
+        run: npm run test:data
+
+      - name: Run lint
+        run: npm run lint
+
+      - name: Build Next.js
+        run: npm run build
