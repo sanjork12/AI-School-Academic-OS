@@ -1,0 +1,112 @@
+{
+  "binding_valid": true,
+  "construction_scope": "BOUNDED_REVIEWABLE_LEARNING_INTENTIONS_ONLY",
+  "evidence_refs": {
+    "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+    "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+    "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+    "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9",
+    "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+    "parsed:0987bc571907418d90ce56469c82a036": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+    "policy:bounded-reviewed-learning-intentions/1": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+    "target:98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74": "98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74",
+    "validation:0987bc571907418d90ce56469c82a036": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552"
+  },
+  "excluded_source_ids": [],
+  "independently_ready_source_ids": [
+    "EDX-4MA1-F-2.8-A"
+  ],
+  "missing_requirements": [],
+  "objective_results": [
+    {
+      "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "decision_ids": [
+        "REV-4MA1-T2-INEQ-SYMBOLS-001"
+      ],
+      "missing_requirements": [],
+      "reason_codes": [
+        "EXACT_HUMAN_REVIEWED_EQUIVALENT_MEANING"
+      ],
+      "source_id": "EDX-4MA1-F-2.8-A",
+      "status": "ELIGIBLE_WITH_WARNINGS"
+    }
+  ],
+  "pedagogy_eligible": false,
+  "policy_sha256": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+  "policy_version": "bounded-reviewed-learning-intentions/1",
+  "publication_eligible": false,
+  "reason_codes": [
+    "BOUNDED_REVIEWED_INTENTIONS_PERMITTED"
+  ],
+  "schema_version": "learning-spec-eligibility/1",
+  "selected_source_ids": [
+    "EDX-4MA1-F-2.8-A"
+  ],
+  "selected_target_id": "98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74",
+  "source_package_hash": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+  "status": "ELIGIBLE_WITH_WARNINGS",
+  "unresolved_source_ids": [],
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 22
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+      "page": null
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 2 warning(s).",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    },
+    {
+      "code": "BOUNDED_CONSTRUCTION_ONLY",
+      "message": "Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.",
+      "page": null
+    },
+    {
+      "code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+      "message": "success_criteria: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+      "message": "prerequisites: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+      "message": "known_misconceptions: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+      "message": "conceptual_knowledge: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+      "message": "concept_skill_task_relations: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+      "message": "assessment_evidence: no governed evidence; no claim constructed.",
+      "page": null
+    }
+  ]
+}

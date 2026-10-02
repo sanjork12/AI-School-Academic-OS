@@ -1,0 +1,38 @@
+{
+  "legacy_result": {
+    "concepts": 1,
+    "learning_requirements": 3,
+    "reviewed_examples": 2
+  },
+  "legacy_schema": "learning-specification/1",
+  "legacy_specific": [
+    "teacher-topic/2 and assessment-intelligence/1 composition",
+    "current trusted snapshots",
+    "SD catalog and product aliases",
+    "reviewed task-form requirements and coverage"
+  ],
+  "missing": [
+    "assessed success criteria",
+    "prerequisites",
+    "misconception evidence",
+    "concept graph",
+    "concrete task forms",
+    "reviewed assessment examples",
+    "publication approval"
+  ],
+  "new_fields": [
+    "per-element provenance classification and rule",
+    "source package and eligibility hashes",
+    "source-specific human decision IDs",
+    "explicit qualified-reviewable governance state"
+  ],
+  "new_schema": "governed-learning-specification/1",
+  "shared": [
+    "curriculum identity",
+    "canonical capability meaning",
+    "source/evidence references",
+    "bounded capability intention",
+    "explicit unavailable evidence"
+  ],
+  "trust_distinction": "New reviewed intention evidence is not a migrated or weakened P3A trusted production view"
+}

@@ -1,0 +1,85 @@
+{
+  "assessment_dependencies": {
+    "existing_product": "Requires at least one reviewed example",
+    "learning_transform": "Capability intention can have no example; task-form requirements require matching reviewed examples",
+    "new_bounded_contract": "Reviewed examples are not necessary to restate explicitly reviewed equivalent canonical skill meaning; required before task-form or assessed-success claims"
+  },
+  "canonical_dependencies": [
+    "concept meaning",
+    "competency meaning",
+    "concept/capability/task relations"
+  ],
+  "created_at": "2026-10-02T08:28:45.968369+00:00",
+  "generic_concepts": [
+    "learning identity and unique references",
+    "conceptual understanding, capability and supported task-form requirements",
+    "source/evidence bindings",
+    "coverage and explicit evidence boundaries"
+  ],
+  "phase": "INSPECTION_BEFORE_CONSTRUCTION",
+  "policy_decision": {
+    "first_candidate": "EDX-4MA1-F-2.8-A",
+    "misconceptions": "Unavailable",
+    "optional_for_this_scope": [
+      "trusted snapshot (required for publication, not reviewable evidence construction)",
+      "assessment examples (required for task-form or scored criteria)",
+      "concept graph (required for conceptual claims, not a bounded skill restatement)"
+    ],
+    "partial_coverage": "Whole selected scope review-required if any objective lacks evidence; explicitly select a smaller independently qualified target",
+    "prerequisites": "Unavailable",
+    "required": [
+      "valid capability package and exact source selection",
+      "every selected objective must have one unambiguous equivalent mapping with matching recorded human decision and canonical wording",
+      "no excluded objectives"
+    ],
+    "scope": "BOUNDED_REVIEWABLE_LEARNING_INTENTIONS_ONLY",
+    "success_criteria": "Unavailable; no rubric or threshold in current evidence",
+    "trust_boundary": "Historical human decision authenticates only canonical mapping/description in the pinned prototype; never approves uploaded source or publishes this new spec"
+  },
+  "sources": {
+    "academic_os/assessment_intelligence.py": "1bc8c4c8ee30c226ebfe01fca6bd9a7d711ed29ea3061de5e2a7ed9d147825f2",
+    "academic_os/governance.py": "b6d685c758f9ea483ad24168a5d728a91c530693e27aa602725ebd20dee2e6c7",
+    "academic_os/learning_core.py": "8a4ea732058ce4d1179d350243fec9a492c4182cf13d56fe603ea174e1121bf4",
+    "academic_os/learning_models.py": "1b78dd2322d0abd692c6f1923f79ea961d8508e13799d5c4e1306f573d9c13ac",
+    "academic_os/learning_service.py": "eb4642c9931101179b1e2fd18e9b7abcc45e0ecc1b31077f1e8e492fbed08c31",
+    "academic_os/product_catalog.py": "cfab19e125f7ba12eeff7d74a0869f62eaf4104994a5aa549f45c437368d0775",
+    "academic_os/product_reader.py": "104f91a2e8067000d493414241726af253d4499d00f81314db3dd1296532f651",
+    "academic_os/product_service.py": "5f097b05aacd63417f30e97e0fef55bec201f6400d4ab3cec2aa41b23d7e9e06",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9"
+  },
+  "standard_deviation": {
+    "assessment_examples": 2,
+    "learning_requirements": 3,
+    "semantic_sha256": "b04a58632fcb79c7b4449f4859cbc501705439dde3a62cf54e222470b880a558"
+  },
+  "standard_deviation_specific": {
+    "fields": [
+      "TOPICS standard-deviation entry",
+      "CON-STAT-SD",
+      "CAN-STAT-SD-CALC",
+      "TC-SUMMARY-STATISTICS",
+      "curriculum excerpt",
+      "PRODUCT_REFS aliases",
+      "protected snapshot selection"
+    ],
+    "location": "academic_os/product_catalog.py"
+  },
+  "teacher_product_dependencies": [
+    "teacher-topic/2",
+    "assessment-intelligence/1",
+    "mutually consistent upstream provenance"
+  ],
+  "trusted_dependencies": [
+    "current usable snapshots",
+    "source locator integrity",
+    "approved published semantic relations",
+    "read-only SQLite backup"
+  ],
+  "unavailable_in_current_learning_contract": [
+    "prerequisites",
+    "teaching sequence",
+    "calculator method",
+    "formula memorisation",
+    "student misconceptions"
+  ]
+}

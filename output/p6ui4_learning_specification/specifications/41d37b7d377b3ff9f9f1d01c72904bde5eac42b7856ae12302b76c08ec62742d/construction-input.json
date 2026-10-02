@@ -1,0 +1,225 @@
+{
+  "academically_approved": false,
+  "construction_version": "topic2-capability-construction/1",
+  "coverage": {
+    "canonical_mapped": 1,
+    "review_required": 0,
+    "selected_objectives": 1,
+    "unmapped": 0,
+    "warnings": 4
+  },
+  "eligibility": {
+    "CURRICULUM_BROWSABLE": {
+      "eligible": true,
+      "missing_requirements": [],
+      "reason_code": "VALIDATED_SOURCE_BOUND_CURRICULUM",
+      "status": "PASS_WITH_WARNINGS"
+    },
+    "LEARNING_SPEC_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "TARGET_SOURCE_VERIFICATION",
+        "TARGET_GOVERNED_CANONICAL_BINDINGS",
+        "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+        "REVIEWED_ASSESSMENT_EVIDENCE",
+        "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+        "TOPIC_CATALOG_ADAPTER",
+        "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "LESSON_AUTHORING_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_PEDAGOGICAL_SPECIFICATION",
+        "BOUNDED_AUTHORING_ADAPTER"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "PEDAGOGY_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_LEARNING_SPECIFICATION",
+        "BOUNDED_PEDAGOGY_ADAPTER"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "PRESENTATION_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "VALIDATED_AUTHORED_CONTENT",
+        "RENDERER_READY_PROFILE"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "QUESTION_AUTHORING_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_LEARNING_SPECIFICATION",
+        "REVIEWED_QUESTION_SCOPE_AND_POLICY"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    }
+  },
+  "evidence": {
+    "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+    "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+    "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+    "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9"
+  },
+  "model_calls": 0,
+  "objectives": [
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-HARDER-REGIONS"
+      ],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+          "canonical_wording": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+          "decision_ids": [
+            "REV-4MA1-T2-INEQ-REGION-001"
+          ],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "RECORDED_DECISION",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.8-B",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "B",
+      "objective_identity": "687c47476c35e11dade9134fb70b70fa40b18de6d0a609ade603e1277fbd685b",
+      "official_text": "identify harder examples of regions defined by linear inequalities",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.8-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "x2  25, 4x2 > 25",
+        "x2 + 3x + 2 > 0",
+        "Shade the region defined by the inequalities x  4, y  2x + 1, 5x + 2y  20"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    }
+  ],
+  "schema_version": "academic-capability-package/1",
+  "source_binding": {
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "extraction_run_id": "964d4de6eedc47fb88ea0f146e5b3406",
+    "extraction_sha256": "cbe923ecb0500e3b389a3958521ec127e974f33c2d46d29e2c6d103fea939843",
+    "parsed_sha256": "0945fc2f0d8ce8119c8403e36e68ca831ea8e290cf1bfa7ca3650d83cffcdb97",
+    "parser_mode": "preserved",
+    "parser_run_id": "ac2be810e3b84dc4abb2974ae6773802",
+    "parser_run_sha256": "c1752b1fd26b70364c88946eb5938189045c5b2b850359e6f0ab01ec0f2655c0",
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "tree_sha256": "905f29d94d6c6dd7b1f66679a0c87a59d095168e40b34e244144c41e406c8e63",
+    "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c"
+  },
+  "supported_capabilities": [
+    "CURRICULUM_BROWSABLE"
+  ],
+  "target": {
+    "academically_approved": false,
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "objective_codes": [
+      "B"
+    ],
+    "parsed_sha256": "0945fc2f0d8ce8119c8403e36e68ca831ea8e290cf1bfa7ca3650d83cffcdb97",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "run_id": "ac2be810e3b84dc4abb2974ae6773802",
+    "run_sha256": "c1752b1fd26b70364c88946eb5938189045c5b2b850359e6f0ab01ec0f2655c0",
+    "schema_version": "selected-curriculum-target/2",
+    "source_ids": [
+      "EDX-4MA1-H-2.8-B"
+    ],
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "specification": "4MA1",
+    "subtopic_code": "2.8",
+    "subtopic_name": "Inequalities",
+    "target_id": "bacbb18633178552bdc9eeb39c80fbf93058f2dddf70ac25ed97ee2cef04cf79",
+    "tier": "Higher",
+    "topic_code": "2",
+    "topic_name": "Equations, formulae and identities",
+    "tree_sha256": "905f29d94d6c6dd7b1f66679a0c87a59d095168e40b34e244144c41e406c8e63",
+    "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+    "validation_state": "STRUCTURE_VALID"
+  },
+  "unresolved_items": [
+    "TARGET_SOURCE_VERIFICATION",
+    "TARGET_GOVERNED_CANONICAL_BINDINGS",
+    "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+    "REVIEWED_ASSESSMENT_EVIDENCE",
+    "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+    "TOPIC_CATALOG_ADAPTER",
+    "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1"
+  ],
+  "unsupported_capabilities": [
+    "LEARNING_SPEC_ELIGIBLE",
+    "PEDAGOGY_ELIGIBLE",
+    "LESSON_AUTHORING_ELIGIBLE",
+    "QUESTION_AUTHORING_ELIGIBLE",
+    "PRESENTATION_ELIGIBLE"
+  ],
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 38
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 1 warning(s).",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "assessment_evidence": {
+    "blocks_learning_intention_construction": false,
+    "claims": [],
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "no-unsupported-claims/1",
+      "source_ids": [
+        "EDX-4MA1-H-2.8-B"
+      ]
+    },
+    "reason_code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+    "status": "MISSING"
+  },
+  "canonical_semantics": [
+    {
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "decision_ids": [
+        "REV-4MA1-T2-INEQ-REGION-001"
+      ],
+      "description": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+      "provenance": {
+        "classifications": [
+          "CANONICAL_DERIVED",
+          "HUMAN_REVIEWED"
+        ],
+        "evidence_refs": [
+          "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+          "output/topic2_canonical_promoted.json",
+          "output/topic2_human_review_decisions.json"
+        ],
+        "rule": "recorded-equivalent-canonical-meaning/1",
+        "source_ids": [
+          "EDX-4MA1-H-2.8-B"
+        ]
+      },
+      "relationship": "equivalent",
+      "source_id": "EDX-4MA1-H-2.8-B"
+    }
+  ],
+  "concept_skill_task_relations": {
+    "blocks_learning_intention_construction": false,
+    "claims": [],
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "no-unsupported-claims/1",
+      "source_ids": [
+        "EDX-4MA1-H-2.8-B"
+      ]
+    },
+    "reason_code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+    "status": "MISSING"
+  },
+  "conceptual_knowledge": {
+    "blocks_learning_intention_construction": false,
+    "claims": [],
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "no-unsupported-claims/1",
+      "source_ids": [
+        "EDX-4MA1-H-2.8-B"
+      ]
+    },
+    "reason_code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+    "status": "MISSING"
+  },
+  "construction_version": "governed-learning-construction/1",
+  "curriculum_scope": {
+    "academically_approved": false,
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "objective_codes": [
+      "B"
+    ],
+    "parsed_sha256": "0945fc2f0d8ce8119c8403e36e68ca831ea8e290cf1bfa7ca3650d83cffcdb97",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "run_id": "ac2be810e3b84dc4abb2974ae6773802",
+    "run_sha256": "c1752b1fd26b70364c88946eb5938189045c5b2b850359e6f0ab01ec0f2655c0",
+    "schema_version": "selected-curriculum-target/2",
+    "source_ids": [
+      "EDX-4MA1-H-2.8-B"
+    ],
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "specification": "4MA1",
+    "subtopic_code": "2.8",
+    "subtopic_name": "Inequalities",
+    "target_id": "bacbb18633178552bdc9eeb39c80fbf93058f2dddf70ac25ed97ee2cef04cf79",
+    "tier": "Higher",
+    "topic_code": "2",
+    "topic_name": "Equations, formulae and identities",
+    "tree_sha256": "905f29d94d6c6dd7b1f66679a0c87a59d095168e40b34e244144c41e406c8e63",
+    "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+    "validation_state": "STRUCTURE_VALID"
+  },
+  "eligibility_hash": "b75266834d5e27cddfe514bef6c225b8698c4e0855f3f12463b4032095012b2c",
+  "evidence": {
+    "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+    "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+    "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+    "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9",
+    "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23": "8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+    "parsed:ac2be810e3b84dc4abb2974ae6773802": "0945fc2f0d8ce8119c8403e36e68ca831ea8e290cf1bfa7ca3650d83cffcdb97",
+    "policy:bounded-reviewed-learning-intentions/1": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+    "target:bacbb18633178552bdc9eeb39c80fbf93058f2dddf70ac25ed97ee2cef04cf79": "bacbb18633178552bdc9eeb39c80fbf93058f2dddf70ac25ed97ee2cef04cf79",
+    "validation:ac2be810e3b84dc4abb2974ae6773802": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c"
+  },
+  "governance_state": {
+    "model_calls": 0,
+    "official_text_confirmed": false,
+    "pedagogy_eligible": false,
+    "published": false,
+    "review_basis": "PINNED_HISTORICAL_HUMAN_CANONICAL_DECISIONS",
+    "spec_human_approved": false,
+    "state": "QUALIFIED_REVIEWABLE_EVIDENCE",
+    "trusted_snapshot_backed": false,
+    "uploaded_source_human_approved": false
+  },
+  "identity": "bc70d96abe2c5d6e8ae72375f3532005453c5727ac68934c49908011cd8e65c4",
+  "known_misconceptions": {
+    "blocks_learning_intention_construction": false,
+    "claims": [],
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "no-unsupported-claims/1",
+      "source_ids": [
+        "EDX-4MA1-H-2.8-B"
+      ]
+    },
+    "reason_code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+    "status": "MISSING"
+  },
+  "learning_intentions": [
+    {
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "intention_id": "777e2b817e2ff506408299829111465cdeddb52492dd5d6fa31e41da635ced44",
+      "kind": "capability",
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_TRANSFORMATION"
+        ],
+        "evidence_refs": [
+          "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+          "output/topic2_canonical_promoted.json",
+          "output/topic2_human_review_decisions.json",
+          "policy:bounded-reviewed-learning-intentions/1"
+        ],
+        "rule": "reviewed-capability-prefix/1",
+        "source_ids": [
+          "EDX-4MA1-H-2.8-B"
+        ]
+      },
+      "source_id": "EDX-4MA1-H-2.8-B",
+      "statement": "Student should be able to: Identify and interpret regions on Cartesian graphs defined by linear inequalities."
+    }
+  ],
+  "learning_objectives": [
+    {
+      "objective_code": "B",
+      "official_text": "identify harder examples of regions defined by linear inequalities",
+      "provenance": {
+        "classifications": [
+          "SOURCE_DERIVED"
+        ],
+        "evidence_refs": [
+          "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+          "parsed:ac2be810e3b84dc4abb2974ae6773802"
+        ],
+        "rule": "exact-parsed-wording/1",
+        "source_ids": [
+          "EDX-4MA1-H-2.8-B"
+        ]
+      },
+      "source_id": "EDX-4MA1-H-2.8-B",
+      "subtopic_code": "2.8",
+      "subtopic_notes": [
+        "x2  25, 4x2 > 25",
+        "x2 + 3x + 2 > 0",
+        "Shade the region defined by the inequalities x  4, y  2x + 1, 5x + 2y  20"
+      ],
+      "tier": "Higher",
+      "topic_code": "2"
+    }
+  ],
+  "policy_sha256": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+  "policy_version": "bounded-reviewed-learning-intentions/1",
+  "prerequisites": {
+    "blocks_learning_intention_construction": false,
+    "claims": [],
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "no-unsupported-claims/1",
+      "source_ids": [
+        "EDX-4MA1-H-2.8-B"
+      ]
+    },
+    "reason_code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+    "status": "MISSING"
+  },
+  "schema_version": "governed-learning-specification/1",
+  "source_package_hash": "8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+  "success_criteria": {
+    "blocks_learning_intention_construction": false,
+    "claims": [],
+    "provenance": {
+      "classifications": [
+        "DETERMINISTIC_TRANSFORMATION"
+      ],
+      "evidence_refs": [
+        "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+        "policy:bounded-reviewed-learning-intentions/1"
+      ],
+      "rule": "no-unsupported-claims/1",
+      "source_ids": [
+        "EDX-4MA1-H-2.8-B"
+      ]
+    },
+    "reason_code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+    "status": "REVIEW_REQUIRED"
+  },
+  "task_capabilities": [
+    {
+      "action_meaning": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "provenance": {
+        "classifications": [
+          "CANONICAL_DERIVED",
+          "HUMAN_REVIEWED"
+        ],
+        "evidence_refs": [
+          "package:8871b3ee10311f4e2d2858281ff090ab2781b29af843fa08140a481baa16ff23",
+          "output/topic2_canonical_promoted.json",
+          "output/topic2_human_review_decisions.json"
+        ],
+        "rule": "recorded-equivalent-canonical-meaning/1",
+        "source_ids": [
+          "EDX-4MA1-H-2.8-B"
+        ]
+      },
+      "source_id": "EDX-4MA1-H-2.8-B",
+      "task_form_state": "TASK_FORM_EVIDENCE_UNAVAILABLE",
+      "task_forms": []
+    }
+  ],
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 38
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 1 warning(s).",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    },
+    {
+      "code": "BOUNDED_CONSTRUCTION_ONLY",
+      "message": "Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.",
+      "page": null
+    },
+    {
+      "code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+      "message": "success_criteria: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+      "message": "prerequisites: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+      "message": "known_misconceptions: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+      "message": "conceptual_knowledge: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+      "message": "concept_skill_task_relations: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+      "message": "assessment_evidence: no governed evidence; no claim constructed.",
+      "page": null
+    }
+  ]
+}

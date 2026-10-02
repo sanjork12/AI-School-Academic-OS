@@ -1,0 +1,583 @@
+{
+  "binding_valid": true,
+  "construction_scope": "BOUNDED_REVIEWABLE_LEARNING_INTENTIONS_ONLY",
+  "evidence_refs": {
+    "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+    "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+    "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+    "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9",
+    "package:f341dc73d43cda996ced79bb9c83dfd6c38b9fa4dace7be10ce31447005018e6": "f341dc73d43cda996ced79bb9c83dfd6c38b9fa4dace7be10ce31447005018e6",
+    "parsed:0987bc571907418d90ce56469c82a036": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+    "policy:bounded-reviewed-learning-intentions/1": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+    "target:296f4b5a4dbf42d5a09678adfc7715ef95eace0e2aa1c3415db5c62355a3f512": "296f4b5a4dbf42d5a09678adfc7715ef95eace0e2aa1c3415db5c62355a3f512",
+    "validation:0987bc571907418d90ce56469c82a036": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552"
+  },
+  "excluded_source_ids": [],
+  "independently_ready_source_ids": [
+    "EDX-4MA1-F-2.8-A",
+    "EDX-4MA1-F-2.8-E"
+  ],
+  "missing_requirements": [
+    "EDX-4MA1-F-2.1-A:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.1-B:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.1-C:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.1-D:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.2-A:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.2-B:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.2-C:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.2-D:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.2-E:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.2-F:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.3-A:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.3-B:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.3-C:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.3-D:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.3-E:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.3-F:CANONICAL_MAPPING_UNMAPPED",
+    "EDX-4MA1-F-2.4-A:RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+    "EDX-4MA1-F-2.4-A:SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED",
+    "EDX-4MA1-F-2.4-B:RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+    "EDX-4MA1-F-2.4-B:SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED",
+    "EDX-4MA1-F-2.6-A:RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+    "EDX-4MA1-F-2.6-A:SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED",
+    "EDX-4MA1-F-2.7-A:EQUIVALENT_SEMANTIC_SCOPE_REQUIRED",
+    "EDX-4MA1-F-2.7-A:RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+    "EDX-4MA1-F-2.7-A:SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED",
+    "EDX-4MA1-F-2.8-B:CANONICAL_MAPPING_REVIEW_REQUIRED",
+    "EDX-4MA1-F-2.8-C:CANONICAL_MAPPING_REVIEW_REQUIRED",
+    "EDX-4MA1-F-2.8-D:CANONICAL_MAPPING_REVIEW_REQUIRED"
+  ],
+  "objective_results": [
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.1-A",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.1-B",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.1-C",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.1-D",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.2-A",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.2-B",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.2-C",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.2-D",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.2-E",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.2-F",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.3-A",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.3-B",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.3-C",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.3-D",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.3-E",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_UNMAPPED"
+      ],
+      "source_id": "EDX-4MA1-F-2.3-F",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-SOLVE",
+      "decision_ids": [],
+      "missing_requirements": [
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.4-A",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": "CAN-ALG-LINEAR-EQUATION-FORM",
+      "decision_ids": [],
+      "missing_requirements": [
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.4-B",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": "CAN-ALG-SIMLINEAR-SOLVE",
+      "decision_ids": [],
+      "missing_requirements": [
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.6-A",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": "CAN-ALG-QUAD-FACTOR",
+      "decision_ids": [],
+      "missing_requirements": [
+        "EQUIVALENT_SEMANTIC_SCOPE_REQUIRED",
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "EQUIVALENT_SEMANTIC_SCOPE_REQUIRED",
+        "RECORDED_HUMAN_CANONICAL_DECISION_REQUIRED",
+        "SOURCE_AND_DESCRIPTION_MATCHING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.7-A",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "decision_ids": [
+        "REV-4MA1-T2-INEQ-SYMBOLS-001"
+      ],
+      "missing_requirements": [],
+      "reason_codes": [
+        "EXACT_HUMAN_REVIEWED_EQUIVALENT_MEANING"
+      ],
+      "source_id": "EDX-4MA1-F-2.8-A",
+      "status": "ELIGIBLE_WITH_WARNINGS"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.8-B",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.8-C",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": null,
+      "decision_ids": [],
+      "missing_requirements": [
+        "CANONICAL_MAPPING_REVIEW_REQUIRED"
+      ],
+      "reason_codes": [
+        "CANONICAL_MAPPING_REVIEW_REQUIRED"
+      ],
+      "source_id": "EDX-4MA1-F-2.8-D",
+      "status": "REVIEW_REQUIRED"
+    },
+    {
+      "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+      "decision_ids": [
+        "REV-4MA1-T2-INEQ-REGION-001"
+      ],
+      "missing_requirements": [],
+      "reason_codes": [
+        "EXACT_HUMAN_REVIEWED_EQUIVALENT_MEANING"
+      ],
+      "source_id": "EDX-4MA1-F-2.8-E",
+      "status": "ELIGIBLE_WITH_WARNINGS"
+    }
+  ],
+  "pedagogy_eligible": false,
+  "policy_sha256": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+  "policy_version": "bounded-reviewed-learning-intentions/1",
+  "publication_eligible": false,
+  "reason_codes": [
+    "EXACT_SCOPE_REVIEW_REQUIRED"
+  ],
+  "schema_version": "learning-spec-eligibility/1",
+  "selected_source_ids": [
+    "EDX-4MA1-F-2.1-A",
+    "EDX-4MA1-F-2.1-B",
+    "EDX-4MA1-F-2.1-C",
+    "EDX-4MA1-F-2.1-D",
+    "EDX-4MA1-F-2.2-A",
+    "EDX-4MA1-F-2.2-B",
+    "EDX-4MA1-F-2.2-C",
+    "EDX-4MA1-F-2.2-D",
+    "EDX-4MA1-F-2.2-E",
+    "EDX-4MA1-F-2.2-F",
+    "EDX-4MA1-F-2.3-A",
+    "EDX-4MA1-F-2.3-B",
+    "EDX-4MA1-F-2.3-C",
+    "EDX-4MA1-F-2.3-D",
+    "EDX-4MA1-F-2.3-E",
+    "EDX-4MA1-F-2.3-F",
+    "EDX-4MA1-F-2.4-A",
+    "EDX-4MA1-F-2.4-B",
+    "EDX-4MA1-F-2.6-A",
+    "EDX-4MA1-F-2.7-A",
+    "EDX-4MA1-F-2.8-A",
+    "EDX-4MA1-F-2.8-B",
+    "EDX-4MA1-F-2.8-C",
+    "EDX-4MA1-F-2.8-D",
+    "EDX-4MA1-F-2.8-E"
+  ],
+  "selected_target_id": "296f4b5a4dbf42d5a09678adfc7715ef95eace0e2aa1c3415db5c62355a3f512",
+  "source_package_hash": "f341dc73d43cda996ced79bb9c83dfd6c38b9fa4dace7be10ce31447005018e6",
+  "status": "REVIEW_REQUIRED",
+  "unresolved_source_ids": [
+    "EDX-4MA1-F-2.1-A",
+    "EDX-4MA1-F-2.1-B",
+    "EDX-4MA1-F-2.1-C",
+    "EDX-4MA1-F-2.1-D",
+    "EDX-4MA1-F-2.2-A",
+    "EDX-4MA1-F-2.2-B",
+    "EDX-4MA1-F-2.2-C",
+    "EDX-4MA1-F-2.2-D",
+    "EDX-4MA1-F-2.2-E",
+    "EDX-4MA1-F-2.2-F",
+    "EDX-4MA1-F-2.3-A",
+    "EDX-4MA1-F-2.3-B",
+    "EDX-4MA1-F-2.3-C",
+    "EDX-4MA1-F-2.3-D",
+    "EDX-4MA1-F-2.3-E",
+    "EDX-4MA1-F-2.3-F",
+    "EDX-4MA1-F-2.4-A",
+    "EDX-4MA1-F-2.4-B",
+    "EDX-4MA1-F-2.6-A",
+    "EDX-4MA1-F-2.7-A",
+    "EDX-4MA1-F-2.8-B",
+    "EDX-4MA1-F-2.8-C",
+    "EDX-4MA1-F-2.8-D"
+  ],
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 22
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+      "page": null
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 2 warning(s).",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.1-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-E: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.2-F: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-E: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-F-2.3-F: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-F-2.8-B: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-F-2.8-C: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-F-2.8-D: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    },
+    {
+      "code": "BOUNDED_CONSTRUCTION_ONLY",
+      "message": "Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.",
+      "page": null
+    },
+    {
+      "code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+      "message": "success_criteria: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+      "message": "prerequisites: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+      "message": "known_misconceptions: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+      "message": "conceptual_knowledge: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+      "message": "concept_skill_task_relations: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+      "message": "assessment_evidence: no governed evidence; no claim constructed.",
+      "page": null
+    }
+  ]
+}
