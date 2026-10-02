@@ -44,11 +44,12 @@ jobs:
           pip install -r requirements-p6a.txt
           pip install -r requirements-p6ui.txt
 
-      - name: Run P6UI console tests
-        run: python -m unittest tests_p0.test_p6ui_console -v
-
+      # P6UI console acceptance remains local-only for now.
+      # It depends on the governed var/p0_q2.sqlite3 trusted baseline
+      # and frozen binary presentation artifacts that are not stored in Git.
       - name: Run syllabus ingestion tests
         run: python -m unittest tests_p0.test_syllabus_ingestion -v
+
 
   frontend:
     name: Frontend checks
