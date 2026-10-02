@@ -1,0 +1,455 @@
+{
+  "activity_scope": [
+    {
+      "activity_id": "ACT-1",
+      "category": "REPRESENTATION",
+      "criterion_ids": [
+        "SC-1"
+      ],
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "SYNTHETIC_OFFLINE",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "response_mode": "SYMBOL_INTERPRETATION",
+      "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+    }
+  ],
+  "brief": {
+    "allowed_categories": [
+      "success_criteria",
+      "activity_scope",
+      "check_alignment",
+      "pedagogical_adapter"
+    ],
+    "authoring_constraints": [
+      "TARGET_SPECIFIC_SYMBOL_CONTRACTS_ONLY",
+      "ROLE_FAMILIES_ARE_NON_EXECUTABLE_PROPOSALS",
+      "PRESERVE_ALL_UPSTREAM_WARNINGS"
+    ],
+    "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "policy_version": "bounded-symbol-evidence-authoring/1",
+    "prohibited_claims": [
+      "NO_SOURCE_MUTATION",
+      "NO_CANONICAL_AS_OFFICIAL",
+      "NO_APPROVAL_CLAIMS",
+      "NO_CONTENT_OR_QUESTIONS",
+      "NO_SD_CALCULATION_ASSUMPTIONS",
+      "NO_PUBLICATION"
+    ],
+    "review_requirements": [
+      "EXACT_PROPOSAL_HASH",
+      "ALL_FOUR_COMPONENT_DECISIONS",
+      "AUTHENTICATED_REVIEW_RECEIPT",
+      "HUMAN_PEDAGOGICAL_JUDGMENT_REQUIRED"
+    ],
+    "role_evidence_hash": "a94d2059470d7e037e00101dee226db8fe5aa9cb9e3914a4c59f4bae489a7d2f",
+    "schema_version": "pedagogical-evidence-authoring-brief/1",
+    "source_learning_spec": {
+      "assessment_evidence": {
+        "blocks_learning_intention_construction": false,
+        "claims": [],
+        "provenance": {
+          "classifications": [
+            "DETERMINISTIC_TRANSFORMATION"
+          ],
+          "evidence_refs": [
+            "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+            "policy:bounded-reviewed-learning-intentions/1"
+          ],
+          "rule": "no-unsupported-claims/1",
+          "source_ids": [
+            "EDX-4MA1-F-2.8-A"
+          ]
+        },
+        "reason_code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+        "status": "MISSING"
+      },
+      "canonical_semantics": [
+        {
+          "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+          "decision_ids": [
+            "REV-4MA1-T2-INEQ-SYMBOLS-001"
+          ],
+          "description": "Understand and use the symbols >, <, ≥ and ≤.",
+          "provenance": {
+            "classifications": [
+              "CANONICAL_DERIVED",
+              "HUMAN_REVIEWED"
+            ],
+            "evidence_refs": [
+              "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+              "output/topic2_canonical_promoted.json",
+              "output/topic2_human_review_decisions.json"
+            ],
+            "rule": "recorded-equivalent-canonical-meaning/1",
+            "source_ids": [
+              "EDX-4MA1-F-2.8-A"
+            ]
+          },
+          "relationship": "equivalent",
+          "source_id": "EDX-4MA1-F-2.8-A"
+        }
+      ],
+      "concept_skill_task_relations": {
+        "blocks_learning_intention_construction": false,
+        "claims": [],
+        "provenance": {
+          "classifications": [
+            "DETERMINISTIC_TRANSFORMATION"
+          ],
+          "evidence_refs": [
+            "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+            "policy:bounded-reviewed-learning-intentions/1"
+          ],
+          "rule": "no-unsupported-claims/1",
+          "source_ids": [
+            "EDX-4MA1-F-2.8-A"
+          ]
+        },
+        "reason_code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+        "status": "MISSING"
+      },
+      "conceptual_knowledge": {
+        "blocks_learning_intention_construction": false,
+        "claims": [],
+        "provenance": {
+          "classifications": [
+            "DETERMINISTIC_TRANSFORMATION"
+          ],
+          "evidence_refs": [
+            "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+            "policy:bounded-reviewed-learning-intentions/1"
+          ],
+          "rule": "no-unsupported-claims/1",
+          "source_ids": [
+            "EDX-4MA1-F-2.8-A"
+          ]
+        },
+        "reason_code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+        "status": "MISSING"
+      },
+      "construction_version": "governed-learning-construction/1",
+      "curriculum_scope": {
+        "academically_approved": false,
+        "document_id": "16418bf7145140449ae7530d2349d9ed",
+        "objective_codes": [
+          "A"
+        ],
+        "parsed_sha256": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+        "profile": "edexcel-4ma1-topic2-2017/1",
+        "run_id": "0987bc571907418d90ce56469c82a036",
+        "run_sha256": "b4f0af7963f88e08a4e87c35a30612a3fe1059722976264fa0003e21e6bf7726",
+        "schema_version": "selected-curriculum-target/2",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ],
+        "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+        "specification": "4MA1",
+        "subtopic_code": "2.8",
+        "subtopic_name": "Inequalities",
+        "target_id": "98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74",
+        "tier": "Foundation",
+        "topic_code": "2",
+        "topic_name": "Equations, formulae and identities",
+        "tree_sha256": "20be8722ff6ab58a60a43494b26a79c37a60f525b333785c70419f077f1eb3d9",
+        "validation_sha256": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552",
+        "validation_state": "STRUCTURE_VALID"
+      },
+      "eligibility_hash": "1883cbd37389469f45828d039e2cc3295e4882e0d747e1cfa436e8823e347092",
+      "evidence": {
+        "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+        "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+        "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+        "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+        "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9",
+        "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "parsed:0987bc571907418d90ce56469c82a036": "1db5bb60df9725aec838a5176f7f9c6885c49e6951faac2858de203c64c358ca",
+        "policy:bounded-reviewed-learning-intentions/1": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+        "target:98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74": "98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74",
+        "validation:0987bc571907418d90ce56469c82a036": "62ead0e85eb468fd105d54cfb41b0ecfe47519b447cf2ba1009bcc2b74613552"
+      },
+      "governance_state": {
+        "model_calls": 0,
+        "official_text_confirmed": false,
+        "pedagogy_eligible": false,
+        "published": false,
+        "review_basis": "PINNED_HISTORICAL_HUMAN_CANONICAL_DECISIONS",
+        "spec_human_approved": false,
+        "state": "QUALIFIED_REVIEWABLE_EVIDENCE",
+        "trusted_snapshot_backed": false,
+        "uploaded_source_human_approved": false
+      },
+      "identity": "b1751f5f0e80ecdf3e64f283826def3312de022c0d9575550e771527f97f4625",
+      "known_misconceptions": {
+        "blocks_learning_intention_construction": false,
+        "claims": [],
+        "provenance": {
+          "classifications": [
+            "DETERMINISTIC_TRANSFORMATION"
+          ],
+          "evidence_refs": [
+            "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+            "policy:bounded-reviewed-learning-intentions/1"
+          ],
+          "rule": "no-unsupported-claims/1",
+          "source_ids": [
+            "EDX-4MA1-F-2.8-A"
+          ]
+        },
+        "reason_code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+        "status": "MISSING"
+      },
+      "learning_intentions": [
+        {
+          "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+          "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+          "kind": "capability",
+          "provenance": {
+            "classifications": [
+              "DETERMINISTIC_TRANSFORMATION"
+            ],
+            "evidence_refs": [
+              "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+              "output/topic2_canonical_promoted.json",
+              "output/topic2_human_review_decisions.json",
+              "policy:bounded-reviewed-learning-intentions/1"
+            ],
+            "rule": "reviewed-capability-prefix/1",
+            "source_ids": [
+              "EDX-4MA1-F-2.8-A"
+            ]
+          },
+          "source_id": "EDX-4MA1-F-2.8-A",
+          "statement": "Student should be able to: Understand and use the symbols >, <, ≥ and ≤."
+        }
+      ],
+      "learning_objectives": [
+        {
+          "objective_code": "A",
+          "official_text": "understand and use the symbols >,<,  and ",
+          "provenance": {
+            "classifications": [
+              "SOURCE_DERIVED"
+            ],
+            "evidence_refs": [
+              "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+              "parsed:0987bc571907418d90ce56469c82a036"
+            ],
+            "rule": "exact-parsed-wording/1",
+            "source_ids": [
+              "EDX-4MA1-F-2.8-A"
+            ]
+          },
+          "source_id": "EDX-4MA1-F-2.8-A",
+          "subtopic_code": "2.8",
+          "subtopic_notes": [
+            "To include double-ended inequalities e.g. 1 < x  5",
+            "3x − 2 < 10, so x < 4",
+            "7 − x  5, so x  2",
+            "3 < x + 2  5 so 1 < x  3",
+            "Shade the region defined by the inequalities x  0, y  1, x + y  5",
+            "Conventions for the inclusion of boundaries are not required"
+          ],
+          "tier": "Foundation",
+          "topic_code": "2"
+        }
+      ],
+      "policy_sha256": "2d896d65bfff85ef980309c930e44ebb3fbfabca0059dde1d68715960cbcc7f7",
+      "policy_version": "bounded-reviewed-learning-intentions/1",
+      "prerequisites": {
+        "blocks_learning_intention_construction": false,
+        "claims": [],
+        "provenance": {
+          "classifications": [
+            "DETERMINISTIC_TRANSFORMATION"
+          ],
+          "evidence_refs": [
+            "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+            "policy:bounded-reviewed-learning-intentions/1"
+          ],
+          "rule": "no-unsupported-claims/1",
+          "source_ids": [
+            "EDX-4MA1-F-2.8-A"
+          ]
+        },
+        "reason_code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+        "status": "MISSING"
+      },
+      "schema_version": "governed-learning-specification/1",
+      "source_package_hash": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+      "success_criteria": {
+        "blocks_learning_intention_construction": false,
+        "claims": [],
+        "provenance": {
+          "classifications": [
+            "DETERMINISTIC_TRANSFORMATION"
+          ],
+          "evidence_refs": [
+            "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+            "policy:bounded-reviewed-learning-intentions/1"
+          ],
+          "rule": "no-unsupported-claims/1",
+          "source_ids": [
+            "EDX-4MA1-F-2.8-A"
+          ]
+        },
+        "reason_code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+        "status": "REVIEW_REQUIRED"
+      },
+      "task_capabilities": [
+        {
+          "action_meaning": "Understand and use the symbols >, <, ≥ and ≤.",
+          "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+          "provenance": {
+            "classifications": [
+              "CANONICAL_DERIVED",
+              "HUMAN_REVIEWED"
+            ],
+            "evidence_refs": [
+              "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+              "output/topic2_canonical_promoted.json",
+              "output/topic2_human_review_decisions.json"
+            ],
+            "rule": "recorded-equivalent-canonical-meaning/1",
+            "source_ids": [
+              "EDX-4MA1-F-2.8-A"
+            ]
+          },
+          "source_id": "EDX-4MA1-F-2.8-A",
+          "task_form_state": "TASK_FORM_EVIDENCE_UNAVAILABLE",
+          "task_forms": []
+        }
+      ],
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 22
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+          "page": null
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 2 warning(s).",
+          "page": null
+        },
+        {
+          "code": "HUMAN_REVIEW_REQUIRED",
+          "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+          "page": null
+        },
+        {
+          "code": "BOUNDED_CONSTRUCTION_ONLY",
+          "message": "Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.",
+          "page": null
+        },
+        {
+          "code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+          "message": "success_criteria: no governed evidence; no claim constructed.",
+          "page": null
+        },
+        {
+          "code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+          "message": "prerequisites: no governed evidence; no claim constructed.",
+          "page": null
+        },
+        {
+          "code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+          "message": "known_misconceptions: no governed evidence; no claim constructed.",
+          "page": null
+        },
+        {
+          "code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+          "message": "conceptual_knowledge: no governed evidence; no claim constructed.",
+          "page": null
+        },
+        {
+          "code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+          "message": "concept_skill_task_relations: no governed evidence; no claim constructed.",
+          "page": null
+        },
+        {
+          "code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+          "message": "assessment_evidence: no governed evidence; no claim constructed.",
+          "page": null
+        }
+      ]
+    }
+  },
+  "check_alignment": [
+    {
+      "activity_id": "ACT-1",
+      "check_id": "CHK-1",
+      "criterion_id": "SC-1",
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "SYNTHETIC_OFFLINE",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "evidence_form": "SYMBOL_INTERPRETATION",
+      "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "prohibited_shortcut": "NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE"
+    }
+  ],
+  "pedagogical_adapter": {
+    "action_meaning": "Understand and use the symbols >, <, ≥ and ≤.",
+    "activity_ids": [
+      "ACT-1"
+    ],
+    "candidate_role_families": [
+      "REPRESENTATION",
+      "CONCEPT_CHECK"
+    ],
+    "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+    "check_ids": [
+      "CHK-1"
+    ],
+    "criterion_ids": [
+      "SC-1"
+    ],
+    "evidence_basis": {
+      "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+      "classification": "PROPOSED",
+      "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "origin": "SYNTHETIC_OFFLINE",
+      "source_id": "EDX-4MA1-F-2.8-A"
+    },
+    "executable": false,
+    "schema_version": "pedagogical-adapter/1"
+  },
+  "schema_version": "pedagogical-evidence-proposal/1",
+  "source_id": "EDX-4MA1-F-2.8-A",
+  "source_wording": "Understand and use symbols",
+  "status": "PROPOSED",
+  "success_criteria": [
+    {
+      "conditions": "SYMBOL_REPRESENTATION",
+      "criterion_id": "SC-1",
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "SYNTHETIC_OFFLINE",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "linked_learning_intention": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "observable_student_action": "INTERPRET_SYMBOL",
+      "quality_or_completion_rule": "MEANING_MATCHES_REVIEWED_SYMBOL",
+      "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+    }
+  ],
+  "tier": "Foundation"
+}

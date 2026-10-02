@@ -1,0 +1,12 @@
+{
+  "total": 66,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "modules": [
+    "tests_p0.test_syllabus_ingestion",
+    "tests_p0.test_curriculum_capability"
+  ],
+  "model_calls": 0
+}

@@ -1,0 +1,168 @@
+{
+  "model_calls": 0,
+  "negative": {
+    "activity-mode-mismatch": {
+      "errors": [
+        "ACTIVITY_ACTION_MISMATCH"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "01ad36697b833b332fdd5b4cf7c6a6494e8d650ea496b6324f06845fedcf5b78",
+      "valid": false
+    },
+    "canonical-as-official": {
+      "errors": [
+        "SOURCE_TIER_WORDING_CHANGED"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "f17a43293c6760449128f22eb51ec2d92df9a24f38e8c808642d230e4636d7f4",
+      "valid": false
+    },
+    "changed-proposal-after-review": {
+      "reason": "EXACT_REVIEW_HASH_MISMATCH",
+      "valid": false
+    },
+    "changed-source": {
+      "errors": [
+        "SOURCE_TIER_WORDING_CHANGED"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "55c3df8b912941d6ad040716ca5cbe872bb72b36e320bf4416877b2958364ae3",
+      "valid": false
+    },
+    "check-mode-mismatch": {
+      "errors": [
+        "CHECK_LINK_INVALID"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "37613e9bb805bb20fe3172642f3b7203aeddc93d0c7b9770c6bc063b825475d9",
+      "valid": false
+    },
+    "check-without-criterion": {
+      "errors": [
+        "CHECK_COVERAGE_INVALID"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "31a550077ff35b7346d5d0ed560f39fb3bdbd1fab375ea693776eacbf13cfcab",
+      "valid": false
+    },
+    "criterion-rule-mismatch": {
+      "errors": [
+        "CRITERION_ACTION_RULE_MISMATCH"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "f78ea69818d774b809217413e73d404e0c73dab117ba3c51688fd5ba73e338eb",
+      "valid": false
+    },
+    "criterion-without-intention": {
+      "errors": [
+        "CRITERION_INTENTION_INVALID"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "04d7a7747002182a373a2552b84e52317c8742f016de8dfee07aa18c8bc843a5",
+      "valid": false
+    },
+    "duplicate-role": {
+      "errors": [
+        "ROLE_REQUIREMENTS_INVALID"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "3a438386c6cded93c875e521400b07190e4c9490aee8ccccaac730c430af02b7",
+      "valid": false
+    },
+    "forged-approval": {
+      "errors": [
+        "1 validation error for Proposal\nstatus\n  Input should be 'PROPOSED' [type=literal_error, input_value='APPROVED', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "e862ae55beff2500519d10a1457d0fb06b1300e13f3cd7d61ad7b179ad97be13",
+      "valid": false
+    },
+    "forged-approval-field": {
+      "errors": [
+        "1 validation error for Proposal\napproved\n  Extra inputs are not permitted [type=extra_forbidden, input_value=True, input_type=bool]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "3942ffad6d9f3fd43ae8ba68a088960b30921b82089d2aba1af4e899b2e4d7e9",
+      "valid": false
+    },
+    "forged-source-provenance": {
+      "errors": [
+        "1 validation error for Proposal\nsuccess_criteria.0.evidence_basis.classification\n  Input should be 'PROPOSED' [type=literal_error, input_value='SOURCE_DERIVED', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "81f433fefdb9e60e8b63274f0e23f48f4b5df1a6ac50700f3d3d08834e8840c4",
+      "valid": false
+    },
+    "lesson-prose": {
+      "errors": [
+        "1 validation error for Proposal\nactivity_scope.0.lesson_content\n  Extra inputs are not permitted [type=extra_forbidden, input_value='Teach the class...', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/extra_forbidden"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "85a4d437b8139c80541d85ec28b59125ec0decf047c0e52b3da95cd05096214a",
+      "valid": false
+    },
+    "sd-method": {
+      "errors": [
+        "ADAPTER_SEMANTIC_INVALID"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "5cfb1bf85e27bff7904729632a165472d062398438bb71518dc30ecb4166e812",
+      "valid": false
+    },
+    "stale-learning-hash": {
+      "errors": [
+        "BRIEF_BINDING_CHANGED"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "bce4351faff806a5c76e2ef5e2d45138d5ca0ae0d114dc3c1892bceac431c90d",
+      "valid": false
+    },
+    "unsupported-activity": {
+      "errors": [
+        "1 validation error for Proposal\nactivity_scope.0.category\n  Input should be 'REPRESENTATION' or 'CONCEPT_CHECK' [type=literal_error, input_value='CALCULATION', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "30be074e6e0a89042f02b748cd9e1d451a427a51f8ae1948beec2652fef11d8f",
+      "valid": false
+    },
+    "unsupported-role": {
+      "errors": [
+        "1 validation error for Proposal\npedagogical_adapter.candidate_role_families.0\n  Input should be 'ORIENTATION', 'REPRESENTATION', 'CONCEPT_CHECK' or 'SUMMARY' [type=literal_error, input_value='SL-05', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "6a50aa7fb2241d62767064755ab10f3c164f44c609fa45979c7af1229d591736",
+      "valid": false
+    },
+    "vague-success-criterion": {
+      "errors": [
+        "1 validation error for Proposal\nsuccess_criteria.0.observable_student_action\n  Input should be 'INTERPRET_SYMBOL' or 'SELECT_SYMBOL' [type=literal_error, input_value='Students should understand inequalities.', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.12/v/literal_error"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "24ef1dfd168a693660736c775c0af6be663507736f983221bd49817d420886a7",
+      "valid": false
+    },
+    "wrong-objective": {
+      "errors": [
+        "SOURCE_TIER_WORDING_CHANGED"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "a71bf4dee0f4873962169e75a0604845679bb9b0787e828df345509e79ee30e5",
+      "valid": false
+    },
+    "wrong-tier": {
+      "errors": [
+        "SOURCE_TIER_WORDING_CHANGED"
+      ],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "b4bc95764824462a356a6474f46a6619a86af4193e2fd5b57081241093c877b2",
+      "valid": false
+    }
+  },
+  "positive": {
+    "errors": [],
+    "pedagogical_truth_confirmed": false,
+    "proposal_hash": "fb0943d39c9a17831c003c170202dd97ec13d50b3df2505ff67df13c645c3dcf",
+    "valid": true
+  },
+  "synthetic_test_only": true
+}
