@@ -1,0 +1,1090 @@
+{
+  "academically_approved": false,
+  "construction_version": "topic2-capability-construction/1",
+  "coverage": {
+    "canonical_mapped": 7,
+    "review_required": 1,
+    "selected_objectives": 16,
+    "unmapped": 8,
+    "warnings": 13
+  },
+  "eligibility": {
+    "CURRICULUM_BROWSABLE": {
+      "eligible": true,
+      "missing_requirements": [],
+      "reason_code": "VALIDATED_SOURCE_BOUND_CURRICULUM",
+      "status": "PASS_WITH_WARNINGS"
+    },
+    "LEARNING_SPEC_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "TARGET_SOURCE_VERIFICATION",
+        "TARGET_GOVERNED_CANONICAL_BINDINGS",
+        "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+        "REVIEWED_ASSESSMENT_EVIDENCE",
+        "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+        "TOPIC_CATALOG_ADAPTER",
+        "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1",
+        "RESOLVED_CANONICAL_SCOPE_OR_EXPLICIT_GOVERNED_PARTIAL_SCOPE"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "LESSON_AUTHORING_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_PEDAGOGICAL_SPECIFICATION",
+        "BOUNDED_AUTHORING_ADAPTER"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "PEDAGOGY_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_LEARNING_SPECIFICATION",
+        "BOUNDED_PEDAGOGY_ADAPTER"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "PRESENTATION_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "VALIDATED_AUTHORED_CONTENT",
+        "RENDERER_READY_PROFILE"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    },
+    "QUESTION_AUTHORING_ELIGIBLE": {
+      "eligible": false,
+      "missing_requirements": [
+        "ELIGIBLE_LEARNING_SPECIFICATION",
+        "REVIEWED_QUESTION_SCOPE_AND_POLICY"
+      ],
+      "reason_code": "ACADEMIC_EVIDENCE_OR_ADAPTER_MISSING",
+      "status": "BLOCKED"
+    }
+  },
+  "evidence": {
+    "output/topic2_ai_mapping_proposals.json": "2376a72def823ec24bd8d632188476d47719420faa07dbdb82fc40d09fc2bc2e",
+    "output/topic2_canonical_promoted.json": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+    "output/topic2_foundation_parsed.json": "4ab060395b4893a65c5d1560518dd154888cd4899c64e1b13a5f571b09941d95",
+    "output/topic2_higher_parsed.json": "0e8b9566fb97519ad1e1019faa5a2ec47a96ce68c194f483e91aa25bebc00d10",
+    "output/topic2_human_review_decisions.json": "05a8a3c8035acdc40f6242dfb9a9d6c9b9bf18858d9fe67bd79f22a7d7ff08f9"
+  },
+  "model_calls": 0,
+  "objectives": [
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "e6eaea3979e42609be2df0a113427d9f64dd601d5e751913c3b40be067713666",
+      "official_text": "use index notation involving fractional, negative and zero powers",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.1-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.1",
+      "subtopic_name": "Use of symbols",
+      "subtopic_notes": [],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "e9cf655e0bf0060b23e5de40f9891ef987944370fdb395a55cc3fde6d26e172b",
+      "official_text": "expand the product of two or more linear expressions",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.2-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "Expand and simplify (x + 2)(x + 3)(x – 1)",
+        "Factorise 6x2 – 5x – 6",
+        "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+        "Simplify 2 2 2 3 4 9 x x x + −",
+        "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "B",
+      "objective_identity": "f80a1eac8be61e4fddcfee8fa40b623a6eb8552a5c1c55598bcb94986707e026",
+      "official_text": "understand the concept of a quadratic expression and be able to factorise such expressions",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.2-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "Expand and simplify (x + 2)(x + 3)(x – 1)",
+        "Factorise 6x2 – 5x – 6",
+        "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+        "Simplify 2 2 2 3 4 9 x x x + −",
+        "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "C",
+      "objective_identity": "d86a9934a5371eddf2ea65ebfe6e5e26ccc17340ac4d2270babf37b4aa51035e",
+      "official_text": "manipulate algebraic fractions where the numerator and/or the denominator can be numeric, linear or quadratic",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.2-C",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "Expand and simplify (x + 2)(x + 3)(x – 1)",
+        "Factorise 6x2 – 5x – 6",
+        "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+        "Simplify 2 2 2 3 4 9 x x x + −",
+        "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "D",
+      "objective_identity": "3a47bc586b96afc820eda605f35da3fb7be389934e628071bf15ef00f8c4c063",
+      "official_text": "complete the square for a given quadratic expression",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.2-D",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "Expand and simplify (x + 2)(x + 3)(x – 1)",
+        "Factorise 6x2 – 5x – 6",
+        "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+        "Simplify 2 2 2 3 4 9 x x x + −",
+        "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "E",
+      "objective_identity": "7bb57691065971fedf51c9920c40789fc5e6afed2231b4cdd8f2b71504028be2",
+      "official_text": "use algebra to support and construct proofs",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.2-E",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.2",
+      "subtopic_name": "Algebraic manipulation",
+      "subtopic_notes": [
+        "Expand and simplify (x + 2)(x + 3)(x – 1)",
+        "Factorise 6x2 – 5x – 6",
+        "Express as a single fraction: 3 1 2 2 1 x x x x + − − + −",
+        "Simplify 2 2 2 3 4 9 x x x + −",
+        "Write 2x2 + 6x – 1 in the form a(x + b)2 + c"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "a4366e6bc9d0ed1fc7c3c6f991e48107dcc5f523e33b989156f6ca524c9d3ffb",
+      "official_text": "understand the process of manipulating formulae or equations to change the subject, to include cases where the subject may appear twice or a power of the subject occurs",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.3-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.3",
+      "subtopic_name": "Expressions and formulae",
+      "subtopic_notes": [
+        "Make r the subject of 3 4 3 V r π =",
+        "Make a the subject of 4 3 5 a a r − + =",
+        "Make l the subject of 2 l T g π ="
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "UNMAPPED",
+      "objective_code": "A",
+      "objective_identity": "8c127d32cc9f968f477d8a3a6cae8c1577be0151789735894aa6deed232d8772",
+      "official_text": "set up problems involving direct or inverse proportion and relate algebraic solutions to graphical representation of the equations",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.5-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.5",
+      "subtopic_name": "Proportion",
+      "subtopic_notes": [
+        "To include only the following: 2 2 3 3 1 , 1 , 1 , 1 , y x y x y x y x y x y x y x y x ∝ ∝ ∝ ∝ ∝ ∝ ∝ ∝"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-SIMLINEAR-SOLVE",
+          "canonical_wording": "Solve two simultaneous linear equations in two unknowns exactly.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.6-A",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "A",
+      "objective_identity": "189ce68936c7c3a7ee55d2602b5b7c728acff6ad0a613d7c7883cb47eb9e8240",
+      "official_text": "calculate the exact solution of two simultaneous equations in two unknowns",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.6-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.6",
+      "subtopic_name": "Simultaneous linear equations",
+      "subtopic_notes": [
+        "2x + 3y = 17; 3x – 5y = 35"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-SIMLINEAR-GRAPH",
+          "canonical_wording": "Interpret simultaneous linear equations as lines and their common solution as the point of intersection.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.6-B",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "B",
+      "objective_identity": "0170382a74ae6cb3563ee0495b6ec7f40836383516a540c9e4f6082cb047e6c0",
+      "official_text": "interpret the equations as lines and the common solution as the point of intersection",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.6-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.6",
+      "subtopic_name": "Simultaneous linear equations",
+      "subtopic_notes": [
+        "2x + 3y = 17; 3x – 5y = 35"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-QUAD-FACTOR",
+          "canonical_wording": "Solve quadratic equations by factorisation.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.7-A",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "A",
+      "objective_identity": "960cd86786b8505a8a28abaf48582586b2afc6f35bd5ef8ab5a3a5072c67f390",
+      "official_text": "solve quadratic equations by factorisation",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.7-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.7",
+      "subtopic_name": "Quadratic equations",
+      "subtopic_notes": [
+        "2x2 – 3x + 1 = 0, x(3x – 2) = 5",
+        "y = 2x – 11 and x2 + y2 = 25",
+        "y = 11x – 2 and y = 5x2"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-QUAD-FORMULA-SQUARE",
+          "canonical_wording": "Solve quadratic equations using the quadratic formula or by completing the square.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.7-B",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "B",
+      "objective_identity": "325a935ccafce22929da4470a617e51d535eda85ab3286f8c1a805f1ece39a81",
+      "official_text": "solve quadratic equations by using the quadratic formula or completing the square",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.7-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.7",
+      "subtopic_name": "Quadratic equations",
+      "subtopic_notes": [
+        "2x2 – 3x + 1 = 0, x(3x – 2) = 5",
+        "y = 2x – 11 and x2 + y2 = 25",
+        "y = 11x – 2 and y = 5x2"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-QUAD-CONTEXT",
+          "canonical_wording": "Form and solve quadratic equations from data given in a context.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.7-C",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "C",
+      "objective_identity": "d529fd2dc7afa6f2d786a1edb9f742e09e8724d8a0b05b4d3f853a1fbe348e1e",
+      "official_text": "form and solve quadratic equations from data given in a context",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.7-C",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.7",
+      "subtopic_name": "Quadratic equations",
+      "subtopic_notes": [
+        "2x2 – 3x + 1 = 0, x(3x – 2) = 5",
+        "y = 2x – 11 and x2 + y2 = 25",
+        "y = 11x – 2 and y = 5x2"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-SIM-LINEAR-QUAD",
+          "canonical_wording": "Solve simultaneous equations in two unknowns where one equation is linear and the other is quadratic.",
+          "decision_ids": [],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "NOT_AVAILABLE",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.7-D",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "D",
+      "objective_identity": "4b43a01d2a1379f27160f6161bfddb8f1c06485fe5ebfa4c5b33fe7889da8df2",
+      "official_text": "solve simultaneous equations in two unknowns, one equation being linear and the other being quadratic",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.7-D",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.7",
+      "subtopic_name": "Quadratic equations",
+      "subtopic_notes": [
+        "2x2 – 3x + 1 = 0, x(3x – 2) = 5",
+        "y = 2x – 11 and x2 + y2 = 25",
+        "y = 11x – 2 and y = 5x2"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-QUADRATIC-SOLVE-NUMBERLINE"
+      ],
+      "canonical_bindings": [],
+      "human_reviewed": false,
+      "mapping_status": "REVIEW_REQUIRED",
+      "objective_code": "A",
+      "objective_identity": "6180b6197066c8aec86183c623fe23c95b5a7c34734df64f14f07bb8f7f794c0",
+      "official_text": "solve quadratic inequalities in one unknown and represent the solution set on a number line",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.8-A",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "x2  25, 4x2 > 25",
+        "x2 + 3x + 2 > 0",
+        "Shade the region defined by the inequalities x  4, y  2x + 1, 5x + 2y  20"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    },
+    {
+      "ai_proposal_ids": [
+        "CAN-ALG-INEQ-HARDER-REGIONS"
+      ],
+      "canonical_bindings": [
+        {
+          "canonical_id": "CAN-ALG-INEQ-REGION-INTERPRET",
+          "canonical_wording": "Identify and interpret regions on Cartesian graphs defined by linear inequalities.",
+          "decision_ids": [
+            "REV-4MA1-T2-INEQ-REGION-001"
+          ],
+          "evidence_path": "output/topic2_canonical_promoted.json",
+          "evidence_sha256": "d985939077a85c8828ee6c45d421a646a6af8b24a46dcd72b377b3120ad600d2",
+          "historical_review_status": "approved",
+          "historically_promoted": true,
+          "human_review_evidence": "RECORDED_DECISION",
+          "mapping_method": "human",
+          "official_source_id": "EDX-4MA1-H-2.8-B",
+          "relationship": "equivalent",
+          "trusted_snapshot_backed": false,
+          "uploaded_target_approved": false
+        }
+      ],
+      "human_reviewed": false,
+      "mapping_status": "MAPPED",
+      "objective_code": "B",
+      "objective_identity": "687c47476c35e11dade9134fb70b70fa40b18de6d0a609ade603e1277fbd685b",
+      "official_text": "identify harder examples of regions defined by linear inequalities",
+      "origin": "parser-derived",
+      "parsed": true,
+      "promoted": false,
+      "source_bound": true,
+      "source_id": "EDX-4MA1-H-2.8-B",
+      "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+      "structure_valid": true,
+      "subtopic_code": "2.8",
+      "subtopic_name": "Inequalities",
+      "subtopic_notes": [
+        "x2  25, 4x2 > 25",
+        "x2 + 3x + 2 > 0",
+        "Shade the region defined by the inequalities x  4, y  2x + 1, 5x + 2y  20"
+      ],
+      "tier": "Higher",
+      "topic_code": "2",
+      "topic_name": "Equations, formulae and identities",
+      "trusted_snapshot_backed": false,
+      "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+      "warning_scope": "run-wide; not attributed to individual glyphs",
+      "warnings": [
+        {
+          "code": "SYMBOL_EXTRACTION_WARNING",
+          "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+          "page": 38
+        },
+        {
+          "code": "PARSER_WARNING",
+          "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+          "page": null
+        },
+        {
+          "code": "VALIDATION_WARNING",
+          "message": "Parser reported 1 warning(s).",
+          "page": null
+        }
+      ]
+    }
+  ],
+  "schema_version": "academic-capability-package/1",
+  "source_binding": {
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "extraction_run_id": "964d4de6eedc47fb88ea0f146e5b3406",
+    "extraction_sha256": "cbe923ecb0500e3b389a3958521ec127e974f33c2d46d29e2c6d103fea939843",
+    "parsed_sha256": "0945fc2f0d8ce8119c8403e36e68ca831ea8e290cf1bfa7ca3650d83cffcdb97",
+    "parser_mode": "preserved",
+    "parser_run_id": "ac2be810e3b84dc4abb2974ae6773802",
+    "parser_run_sha256": "c1752b1fd26b70364c88946eb5938189045c5b2b850359e6f0ab01ec0f2655c0",
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "tree_sha256": "905f29d94d6c6dd7b1f66679a0c87a59d095168e40b34e244144c41e406c8e63",
+    "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c"
+  },
+  "supported_capabilities": [
+    "CURRICULUM_BROWSABLE"
+  ],
+  "target": {
+    "academically_approved": false,
+    "document_id": "16418bf7145140449ae7530d2349d9ed",
+    "objective_codes": [
+      "A",
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "A",
+      "A",
+      "A",
+      "B",
+      "A",
+      "B",
+      "C",
+      "D",
+      "A",
+      "B"
+    ],
+    "parsed_sha256": "0945fc2f0d8ce8119c8403e36e68ca831ea8e290cf1bfa7ca3650d83cffcdb97",
+    "profile": "edexcel-4ma1-topic2-2017/1",
+    "run_id": "ac2be810e3b84dc4abb2974ae6773802",
+    "run_sha256": "c1752b1fd26b70364c88946eb5938189045c5b2b850359e6f0ab01ec0f2655c0",
+    "schema_version": "selected-curriculum-target/2",
+    "source_ids": [
+      "EDX-4MA1-H-2.1-A",
+      "EDX-4MA1-H-2.2-A",
+      "EDX-4MA1-H-2.2-B",
+      "EDX-4MA1-H-2.2-C",
+      "EDX-4MA1-H-2.2-D",
+      "EDX-4MA1-H-2.2-E",
+      "EDX-4MA1-H-2.3-A",
+      "EDX-4MA1-H-2.5-A",
+      "EDX-4MA1-H-2.6-A",
+      "EDX-4MA1-H-2.6-B",
+      "EDX-4MA1-H-2.7-A",
+      "EDX-4MA1-H-2.7-B",
+      "EDX-4MA1-H-2.7-C",
+      "EDX-4MA1-H-2.7-D",
+      "EDX-4MA1-H-2.8-A",
+      "EDX-4MA1-H-2.8-B"
+    ],
+    "source_sha256": "d58830e570d58aeccd7146f5465b3c117378c42d08d663f18478f2793c7e737b",
+    "specification": "4MA1",
+    "subtopic_code": null,
+    "subtopic_name": null,
+    "target_id": "05da302510bd886414f20de5c62f9a2264c74c1b9f69bb142f2e781bde469e29",
+    "tier": "Higher",
+    "topic_code": "2",
+    "topic_name": "Equations, formulae and identities",
+    "tree_sha256": "905f29d94d6c6dd7b1f66679a0c87a59d095168e40b34e244144c41e406c8e63",
+    "validation_sha256": "790d659359a5f129927da288123762bea95d5e82f6e72f571609c8b50ce1769c",
+    "validation_state": "STRUCTURE_VALID"
+  },
+  "unresolved_items": [
+    "TARGET_SOURCE_VERIFICATION",
+    "TARGET_GOVERNED_CANONICAL_BINDINGS",
+    "APPROVED_CONCEPT_CAPABILITY_TASK_RELATIONS",
+    "REVIEWED_ASSESSMENT_EVIDENCE",
+    "CURRENT_USABLE_TRUSTED_SNAPSHOTS",
+    "TOPIC_CATALOG_ADAPTER",
+    "CONSISTENT_TEACHER_TOPIC_2_AND_ASSESSMENT_INTELLIGENCE_1",
+    "RESOLVED_CANONICAL_SCOPE_OR_EXPLICIT_GOVERNED_PARTIAL_SCOPE"
+  ],
+  "unsupported_capabilities": [
+    "LEARNING_SPEC_ELIGIBLE",
+    "PEDAGOGY_ELIGIBLE",
+    "LESSON_AUTHORING_ELIGIBLE",
+    "QUESTION_AUTHORING_ELIGIBLE",
+    "PRESENTATION_ELIGIBLE"
+  ],
+  "warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 38
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Mathematical notation in the supplied PDF extraction is corrupted or unclear in several examples, particularly the algebraic fractions, formulae, and proportion list. These examples have been preserved only as safely extractable text and have not been reconstructed.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 1 warning(s).",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.1-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.2-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.2-B: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.2-C: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.2-D: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.2-E: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.3-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_UNMAPPED",
+      "message": "EDX-4MA1-H-2.5-A: UNMAPPED",
+      "page": null
+    },
+    {
+      "code": "CANONICAL_REVIEW_REQUIRED",
+      "message": "EDX-4MA1-H-2.8-A: REVIEW_REQUIRED",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "integrity": {
+    "database_sha256": "cf1db5020798279b89bda1071938f1baf82ca438a2164f70fd5b530d4e4001ed",
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1640,
+    "manifests_through_v1_9_unchanged": true,
+    "model_calls": 0,
+    "trusted_state_unchanged": true
+  },
+  "model_calls": 0,
+  "no_reparse": true,
+  "selections": {
+    "foundation": {
+      "coverage": {
+        "canonical_mapped": 6,
+        "review_required": 3,
+        "selected_objectives": 25,
+        "unmapped": 16,
+        "warnings": 24
+      },
+      "receipt": {
+        "construction_version": "topic2-capability-construction/1",
+        "created_at": "2026-10-02T07:54:17.001984+00:00",
+        "package_id": "f341dc73d43cda996ced79bb9c83dfd6c38b9fa4dace7be10ce31447005018e6",
+        "package_sha256": "f341dc73d43cda996ced79bb9c83dfd6c38b9fa4dace7be10ce31447005018e6",
+        "source_target_id": "296f4b5a4dbf42d5a09678adfc7715ef95eace0e2aa1c3415db5c62355a3f512"
+      },
+      "validation": {
+        "model_calls": 0,
+        "package_sha256": "f341dc73d43cda996ced79bb9c83dfd6c38b9fa4dace7be10ce31447005018e6",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    },
+    "higher": {
+      "coverage": {
+        "canonical_mapped": 7,
+        "review_required": 1,
+        "selected_objectives": 16,
+        "unmapped": 8,
+        "warnings": 13
+      },
+      "receipt": {
+        "construction_version": "topic2-capability-construction/1",
+        "created_at": "2026-10-02T07:54:17.195732+00:00",
+        "package_id": "8ef21058cd850632eba2f304a38700d5efe60be3c16b80fdb927d240079f4b33",
+        "package_sha256": "8ef21058cd850632eba2f304a38700d5efe60be3c16b80fdb927d240079f4b33",
+        "source_target_id": "05da302510bd886414f20de5c62f9a2264c74c1b9f69bb142f2e781bde469e29"
+      },
+      "validation": {
+        "model_calls": 0,
+        "package_sha256": "8ef21058cd850632eba2f304a38700d5efe60be3c16b80fdb927d240079f4b33",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    },
+    "objective": {
+      "coverage": {
+        "canonical_mapped": 1,
+        "review_required": 0,
+        "selected_objectives": 1,
+        "unmapped": 0,
+        "warnings": 5
+      },
+      "receipt": {
+        "construction_version": "topic2-capability-construction/1",
+        "created_at": "2026-10-02T07:54:17.600170+00:00",
+        "package_id": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "package_sha256": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "source_target_id": "98b9b744a304afc1d176b7c94ba1c6e1ec6b1165268006490d86c7a3344a2c74"
+      },
+      "validation": {
+        "model_calls": 0,
+        "package_sha256": "fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    },
+    "subtopic": {
+      "coverage": {
+        "canonical_mapped": 2,
+        "review_required": 3,
+        "selected_objectives": 5,
+        "unmapped": 0,
+        "warnings": 8
+      },
+      "receipt": {
+        "construction_version": "topic2-capability-construction/1",
+        "created_at": "2026-10-02T07:54:17.382036+00:00",
+        "package_id": "b7e842caee1ab12bca754bd1f9aaa566dfaaf6a6a42a1cdfbb24d5b815a17011",
+        "package_sha256": "b7e842caee1ab12bca754bd1f9aaa566dfaaf6a6a42a1cdfbb24d5b815a17011",
+        "source_target_id": "fad6c01a7ebecc71f5a6786c398e9258dcc68ea88666fa469ec1f0da011c0796"
+      },
+      "validation": {
+        "model_calls": 0,
+        "package_sha256": "b7e842caee1ab12bca754bd1f9aaa566dfaaf6a6a42a1cdfbb24d5b815a17011",
+        "status": "PASS_WITH_WARNINGS",
+        "valid": true
+      }
+    }
+  },
+  "status": "PASS"
+}
