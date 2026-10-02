@@ -47,12 +47,12 @@ jobs:
       # Real-source, trusted-baseline, and P6UI acceptance tests remain local-only.
       # They depend on governed SQLite state and/or source/binary artifacts
       # intentionally excluded from Git.
-     - name: Run repository-safe backend tests
-       run: |
+      - name: Run repository-safe backend tests
+        run: |
           python -m unittest \
-             tests_p0.test_workflow.WorkflowTests \
-             tests_p0.test_semantics.SemanticTrustTests \
-             -v
+            tests_p0.test_workflow.WorkflowTests \
+            tests_p0.test_semantics.SemanticTrustTests \
+            -v
 
 
   frontend:
