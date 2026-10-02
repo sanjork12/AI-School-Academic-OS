@@ -1,0 +1,26 @@
+{
+  "active_baseline": "v1.13",
+  "approved_packs_created": 0,
+  "comparison_artifact": null,
+  "contract_parse_count": 0,
+  "experiment_integrity": "PREFLIGHT_BLOCKED_NO_LIVE_EXPERIMENT",
+  "human_approvals_created": 0,
+  "live_calls": 0,
+  "model_contract_success_rate": null,
+  "mutation": 0,
+  "new_baseline_created": false,
+  "planned_calls": 5,
+  "provider_success_count": 0,
+  "reason_codes": [
+    "AUTHOR_MODEL_CONFIGURATION_MISSING"
+  ],
+  "rejected_candidate_count": 0,
+  "remaining_step": "Configure the qualified authoring model through ACADEMIC_OS_AUTHOR_MODEL, then rerun deterministic preflight before the five-call qualification. Real human review follows valid live candidates.",
+  "repair": 0,
+  "replacement": 0,
+  "replay": "NOT_RUN_NO_CANDIDATES",
+  "retry": 0,
+  "review_bundles_created": 0,
+  "valid_for_human_review_count": 0,
+  "verdict": "INCONCLUSIVE"
+}

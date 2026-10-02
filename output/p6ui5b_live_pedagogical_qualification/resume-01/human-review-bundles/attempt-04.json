@@ -1,0 +1,280 @@
+{
+  "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+  "candidate_id": "attempt-04",
+  "governed_learning_intention": [
+    {
+      "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "kind": "capability",
+      "provenance": {
+        "classifications": [
+          "DETERMINISTIC_TRANSFORMATION"
+        ],
+        "evidence_refs": [
+          "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+          "output/topic2_canonical_promoted.json",
+          "output/topic2_human_review_decisions.json",
+          "policy:bounded-reviewed-learning-intentions/1"
+        ],
+        "rule": "reviewed-capability-prefix/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "source_id": "EDX-4MA1-F-2.8-A",
+      "statement": "Student should be able to: Understand and use the symbols >, <, ≥ and ≤."
+    }
+  ],
+  "inherited_warnings": [
+    {
+      "code": "SYMBOL_EXTRACTION_WARNING",
+      "message": "Extracted symbols require comparison with the PDF; no repair was attempted.",
+      "page": 22
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "The source uses corrupted or unclear glyphs in Topic 2.8A and related examples: “” and “” have been preserved exactly rather than interpreted or repaired.",
+      "page": null
+    },
+    {
+      "code": "PARSER_WARNING",
+      "message": "Some mathematical expressions in the extracted PDF text use flattened or ambiguous superscript/fraction formatting; notation has been preserved as safely extractable.",
+      "page": null
+    },
+    {
+      "code": "VALIDATION_WARNING",
+      "message": "Parser reported 2 warning(s).",
+      "page": null
+    },
+    {
+      "code": "HUMAN_REVIEW_REQUIRED",
+      "message": "Uploaded source and mappings have no target-specific approval or trusted snapshot binding.",
+      "page": null
+    },
+    {
+      "code": "BOUNDED_CONSTRUCTION_ONLY",
+      "message": "Historical canonical review permits only a reviewable skill restatement, not approval of the uploaded source or this specification.",
+      "page": null
+    },
+    {
+      "code": "SUCCESS_CRITERIA_EVIDENCE_UNAVAILABLE",
+      "message": "success_criteria: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "PREREQUISITE_EVIDENCE_UNAVAILABLE",
+      "message": "prerequisites: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "MISCONCEPTION_EVIDENCE_UNAVAILABLE",
+      "message": "known_misconceptions: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_MEANING_EVIDENCE_UNAVAILABLE",
+      "message": "conceptual_knowledge: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "CONCEPT_SKILL_TASK_RELATIONS_UNAVAILABLE",
+      "message": "concept_skill_task_relations: no governed evidence; no claim constructed.",
+      "page": null
+    },
+    {
+      "code": "REVIEWED_ASSESSMENT_EVIDENCE_UNAVAILABLE",
+      "message": "assessment_evidence: no governed evidence; no claim constructed.",
+      "page": null
+    }
+  ],
+  "note": "Contract-valid only. No pedagogical approval, trusted publication, lesson readiness or quality ranking.",
+  "official_source_wording": "understand and use the symbols >,<,  and ",
+  "proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+  "proposed_activity_scope": [
+    {
+      "activity_id": "ACT-1",
+      "category": "REPRESENTATION",
+      "criterion_ids": [
+        "SC-1"
+      ],
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "MODEL_PROPOSED",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "response_mode": "SYMBOL_INTERPRETATION",
+      "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+    },
+    {
+      "activity_id": "ACT-2",
+      "category": "CONCEPT_CHECK",
+      "criterion_ids": [
+        "SC-2"
+      ],
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "MODEL_PROPOSED",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "response_mode": "SYMBOL_SELECTION",
+      "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+    }
+  ],
+  "proposed_check_alignment": [
+    {
+      "activity_id": "ACT-1",
+      "check_id": "CHK-1",
+      "criterion_id": "SC-1",
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "MODEL_PROPOSED",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "evidence_form": "SYMBOL_INTERPRETATION",
+      "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "prohibited_shortcut": "NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE"
+    },
+    {
+      "activity_id": "ACT-2",
+      "check_id": "CHK-2",
+      "criterion_id": "SC-2",
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "MODEL_PROPOSED",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "evidence_form": "SYMBOL_SELECTION",
+      "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "prohibited_shortcut": "NO_COMPLETION_WITHOUT_OBSERVABLE_RESPONSE"
+    }
+  ],
+  "proposed_pedagogical_adapter": {
+    "action_meaning": "Understand and use the symbols >, <, ≥ and ≤.",
+    "activity_ids": [
+      "ACT-1",
+      "ACT-2"
+    ],
+    "candidate_role_families": [
+      "REPRESENTATION",
+      "CONCEPT_CHECK"
+    ],
+    "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+    "check_ids": [
+      "CHK-1",
+      "CHK-2"
+    ],
+    "criterion_ids": [
+      "SC-1",
+      "SC-2"
+    ],
+    "evidence_basis": {
+      "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+      "classification": "PROPOSED",
+      "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "origin": "MODEL_PROPOSED",
+      "source_id": "EDX-4MA1-F-2.8-A"
+    },
+    "executable": false,
+    "schema_version": "pedagogical-adapter/1"
+  },
+  "proposed_role_families": [
+    "REPRESENTATION",
+    "CONCEPT_CHECK"
+  ],
+  "proposed_success_criteria": [
+    {
+      "conditions": "SYMBOL_REPRESENTATION",
+      "criterion_id": "SC-1",
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "MODEL_PROPOSED",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "linked_learning_intention": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "observable_student_action": "INTERPRET_SYMBOL",
+      "quality_or_completion_rule": "MEANING_MATCHES_REVIEWED_SYMBOL",
+      "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+    },
+    {
+      "conditions": "RELATION_REPRESENTATION",
+      "criterion_id": "SC-2",
+      "evidence_basis": {
+        "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+        "classification": "PROPOSED",
+        "intention_id": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+        "origin": "MODEL_PROPOSED",
+        "source_id": "EDX-4MA1-F-2.8-A"
+      },
+      "linked_learning_intention": "c338122a3eedbbd6aa4a6452e82e5ce6f181f0b4e4973b7578a1dcb1fa831953",
+      "observable_student_action": "SELECT_SYMBOL",
+      "quality_or_completion_rule": "SYMBOL_MATCHES_STATED_RELATION",
+      "scope": "REVIEWED_INEQUALITY_SYMBOLS_ONLY"
+    }
+  ],
+  "review_decision": null,
+  "reviewed_canonical_semantic": [
+    {
+      "canonical_id": "CAN-ALG-INEQ-SYMBOLS",
+      "decision_ids": [
+        "REV-4MA1-T2-INEQ-SYMBOLS-001"
+      ],
+      "description": "Understand and use the symbols >, <, ≥ and ≤.",
+      "provenance": {
+        "classifications": [
+          "CANONICAL_DERIVED",
+          "HUMAN_REVIEWED"
+        ],
+        "evidence_refs": [
+          "package:fb02868885c5668587e66d0982e352030b2ffb82e30c433b685b2cc0422939b3",
+          "output/topic2_canonical_promoted.json",
+          "output/topic2_human_review_decisions.json"
+        ],
+        "rule": "recorded-equivalent-canonical-meaning/1",
+        "source_ids": [
+          "EDX-4MA1-F-2.8-A"
+        ]
+      },
+      "relationship": "equivalent",
+      "source_id": "EDX-4MA1-F-2.8-A"
+    }
+  ],
+  "status": "VALID_FOR_HUMAN_REVIEW",
+  "target_objective": "EDX-4MA1-F-2.8-A",
+  "tier": "Foundation",
+  "validation_result": {
+    "dimensions": {
+      "activity_scope_valid": true,
+      "check_alignment_valid": true,
+      "contract_parse_valid": true,
+      "learning_intention_binding_valid": true,
+      "no_forged_approval": true,
+      "overall_proposal_valid": true,
+      "pedagogical_adapter_valid": true,
+      "proposal_status_valid": true,
+      "provenance_valid": true,
+      "provider_success": true,
+      "role_family_valid": true,
+      "source_binding_valid": true,
+      "success_criteria_valid": true,
+      "tier_binding_valid": true
+    },
+    "model_proposed_origin": true,
+    "reason_codes": [],
+    "validation": {
+      "errors": [],
+      "pedagogical_truth_confirmed": false,
+      "proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+      "valid": true
+    }
+  }
+}

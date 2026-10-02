@@ -1,0 +1,39 @@
+{
+  "api_reference": "https://developers.openai.com/api/docs/libraries",
+  "baseline": {
+    "active_reference_version": "v1.13",
+    "manifest_path": "output/reference_freeze_v1_13/reference_manifest.json",
+    "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438"
+  },
+  "checks": {
+    "api_key_available": true,
+    "baseline_valid": true,
+    "brief_deterministic": true,
+    "learning_spec_valid": true,
+    "model_configuration_present": false,
+    "model_configuration_valid": false,
+    "output_isolated": true,
+    "proposal_schema_loads": true,
+    "target_correct": true,
+    "validator_independently_importable": true
+  },
+  "configuration_note": "Only credential availability is recorded; no key, authorization header, or credential verification request is stored.",
+  "identity": {
+    "brief_id": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+    "brief_sha256": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+    "learning_spec_id": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "learning_spec_sha256": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "policy_version": "bounded-symbol-evidence-authoring/1",
+    "source_objective_id": "EDX-4MA1-F-2.8-A",
+    "tier": "Foundation"
+  },
+  "model_variable": "ACADEMIC_OS_AUTHOR_MODEL",
+  "paid_calls": 0,
+  "provider_calls": 0,
+  "reason_codes": [
+    "AUTHOR_MODEL_CONFIGURATION_MISSING"
+  ],
+  "resolved_model": null,
+  "resolved_provider": "openai",
+  "status": "BLOCKED"
+}

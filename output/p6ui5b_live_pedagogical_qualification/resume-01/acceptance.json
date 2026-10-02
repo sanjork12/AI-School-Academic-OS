@@ -1,0 +1,238 @@
+{
+  "active_baseline": {
+    "active_reference_version": "v1.13",
+    "manifest_path": "output/reference_freeze_v1_13/reference_manifest.json",
+    "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438"
+  },
+  "approved_packs": 0,
+  "calls": 5,
+  "candidates": [
+    {
+      "candidate_id": "attempt-01",
+      "component_hashes": {
+        "activity_scope": "d5d822bb707b1339413890e60fc6781f3078ffd8ef67f0381d2331df43fbf59d",
+        "check_alignment": "651c95c0c22529468fd1db33dc7741ac6bd6b6a9d8c988732f770fa808edd0ea",
+        "pedagogical_adapter": "70f75cafaede17173169a4ba6607621bba1d3819fe31bbbc0a598a70f9e6d0ee",
+        "success_criteria": "0ed18d5efd6461a9fa186fcfb4d91e703d622247f2b8318ce0a4d8a73ee16cc6"
+      },
+      "dimensions": {
+        "activity_scope_valid": true,
+        "check_alignment_valid": true,
+        "contract_parse_valid": true,
+        "learning_intention_binding_valid": true,
+        "no_forged_approval": true,
+        "overall_proposal_valid": true,
+        "pedagogical_adapter_valid": true,
+        "proposal_status_valid": true,
+        "provenance_valid": true,
+        "provider_success": true,
+        "role_family_valid": true,
+        "source_binding_valid": true,
+        "success_criteria_valid": true,
+        "tier_binding_valid": true
+      },
+      "exact_proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+      "normalized_semantic_hash": "7f65f6511a153e507f2354abaed9c0a3e1bcd377a3de85d5c397e71d5c9c6f17",
+      "reason_codes": [],
+      "request_id": "req_80a92c7a5f0c4328ac6bb94f75008f5a",
+      "response_id": "resp_0cbec912871b7391016abf816e9ee087d187a1c2f850405a51",
+      "response_model": "gpt-5.6-sol",
+      "status": "VALID_FOR_HUMAN_REVIEW"
+    },
+    {
+      "candidate_id": "attempt-02",
+      "component_hashes": {
+        "activity_scope": "a0bb33b6a647a2ebf94aa86bb47b4b2f9dfbfe058ce5650429c45d395788ead0",
+        "check_alignment": "3911e3d9c60cc8f2dceafe7cbf4d81bbc3d43a74e31cb933966efe09ed80ee3e",
+        "pedagogical_adapter": "1f73d1b7cfd5ac094f18bdd0c2284b399a99c780a05857748ad3dc6f1b907f06",
+        "success_criteria": "ae4f4e097bbeb5897ff3c78e6e97ffb99d780504cf70a6d730efab136e2376c8"
+      },
+      "dimensions": {
+        "activity_scope_valid": true,
+        "check_alignment_valid": true,
+        "contract_parse_valid": true,
+        "learning_intention_binding_valid": true,
+        "no_forged_approval": true,
+        "overall_proposal_valid": true,
+        "pedagogical_adapter_valid": true,
+        "proposal_status_valid": true,
+        "provenance_valid": true,
+        "provider_success": true,
+        "role_family_valid": true,
+        "source_binding_valid": true,
+        "success_criteria_valid": true,
+        "tier_binding_valid": true
+      },
+      "exact_proposal_hash": "1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc",
+      "normalized_semantic_hash": "0569b87c819e8f7ab0f8278d10995cb7a298c4dc8f065ba3913d381680024ee3",
+      "reason_codes": [],
+      "request_id": "req_beb05ba5b07245d2b56b96b56c7f73e1",
+      "response_id": "resp_0ade6db905979df2016abf819b698c87d193c4800b9369f4ef",
+      "response_model": "gpt-5.6-sol",
+      "status": "VALID_FOR_HUMAN_REVIEW"
+    },
+    {
+      "candidate_id": "attempt-03",
+      "component_hashes": {
+        "activity_scope": "d5d822bb707b1339413890e60fc6781f3078ffd8ef67f0381d2331df43fbf59d",
+        "check_alignment": "651c95c0c22529468fd1db33dc7741ac6bd6b6a9d8c988732f770fa808edd0ea",
+        "pedagogical_adapter": "70f75cafaede17173169a4ba6607621bba1d3819fe31bbbc0a598a70f9e6d0ee",
+        "success_criteria": "0ed18d5efd6461a9fa186fcfb4d91e703d622247f2b8318ce0a4d8a73ee16cc6"
+      },
+      "dimensions": {
+        "activity_scope_valid": true,
+        "check_alignment_valid": true,
+        "contract_parse_valid": true,
+        "learning_intention_binding_valid": true,
+        "no_forged_approval": true,
+        "overall_proposal_valid": true,
+        "pedagogical_adapter_valid": true,
+        "proposal_status_valid": true,
+        "provenance_valid": true,
+        "provider_success": true,
+        "role_family_valid": true,
+        "source_binding_valid": true,
+        "success_criteria_valid": true,
+        "tier_binding_valid": true
+      },
+      "exact_proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+      "normalized_semantic_hash": "7f65f6511a153e507f2354abaed9c0a3e1bcd377a3de85d5c397e71d5c9c6f17",
+      "reason_codes": [],
+      "request_id": "req_1ad7863977a04ce1bfebfd3387dcb62e",
+      "response_id": "resp_043b1f6e49516446016abf81c5399087d1b749c83f4236481b",
+      "response_model": "gpt-5.6-sol",
+      "status": "VALID_FOR_HUMAN_REVIEW"
+    },
+    {
+      "candidate_id": "attempt-04",
+      "component_hashes": {
+        "activity_scope": "d5d822bb707b1339413890e60fc6781f3078ffd8ef67f0381d2331df43fbf59d",
+        "check_alignment": "651c95c0c22529468fd1db33dc7741ac6bd6b6a9d8c988732f770fa808edd0ea",
+        "pedagogical_adapter": "70f75cafaede17173169a4ba6607621bba1d3819fe31bbbc0a598a70f9e6d0ee",
+        "success_criteria": "0ed18d5efd6461a9fa186fcfb4d91e703d622247f2b8318ce0a4d8a73ee16cc6"
+      },
+      "dimensions": {
+        "activity_scope_valid": true,
+        "check_alignment_valid": true,
+        "contract_parse_valid": true,
+        "learning_intention_binding_valid": true,
+        "no_forged_approval": true,
+        "overall_proposal_valid": true,
+        "pedagogical_adapter_valid": true,
+        "proposal_status_valid": true,
+        "provenance_valid": true,
+        "provider_success": true,
+        "role_family_valid": true,
+        "source_binding_valid": true,
+        "success_criteria_valid": true,
+        "tier_binding_valid": true
+      },
+      "exact_proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+      "normalized_semantic_hash": "7f65f6511a153e507f2354abaed9c0a3e1bcd377a3de85d5c397e71d5c9c6f17",
+      "reason_codes": [],
+      "request_id": "req_2466ce7460e34580afd68ee4991f6339",
+      "response_id": "resp_02ae41f4cf136190016abf81f9afe887d1a6165b53e4a06307",
+      "response_model": "gpt-5.6-sol",
+      "status": "VALID_FOR_HUMAN_REVIEW"
+    },
+    {
+      "candidate_id": "attempt-05",
+      "component_hashes": {
+        "activity_scope": "d5d822bb707b1339413890e60fc6781f3078ffd8ef67f0381d2331df43fbf59d",
+        "check_alignment": "651c95c0c22529468fd1db33dc7741ac6bd6b6a9d8c988732f770fa808edd0ea",
+        "pedagogical_adapter": "70f75cafaede17173169a4ba6607621bba1d3819fe31bbbc0a598a70f9e6d0ee",
+        "success_criteria": "0ed18d5efd6461a9fa186fcfb4d91e703d622247f2b8318ce0a4d8a73ee16cc6"
+      },
+      "dimensions": {
+        "activity_scope_valid": true,
+        "check_alignment_valid": true,
+        "contract_parse_valid": true,
+        "learning_intention_binding_valid": true,
+        "no_forged_approval": true,
+        "overall_proposal_valid": true,
+        "pedagogical_adapter_valid": true,
+        "proposal_status_valid": true,
+        "provenance_valid": true,
+        "provider_success": true,
+        "role_family_valid": true,
+        "source_binding_valid": true,
+        "success_criteria_valid": true,
+        "tier_binding_valid": true
+      },
+      "exact_proposal_hash": "e496b4f39931108507052a42647b4c193ab5b0a44aba9ac50eed81416ed7e529",
+      "normalized_semantic_hash": "7f65f6511a153e507f2354abaed9c0a3e1bcd377a3de85d5c397e71d5c9c6f17",
+      "reason_codes": [],
+      "request_id": "req_90ca2f48f92a4fe499bd64461a98dfc6",
+      "response_id": "resp_0e32965bc6d84461016abf8228785087d19dd5c03ce1247201",
+      "response_model": "gpt-5.6-sol",
+      "status": "VALID_FOR_HUMAN_REVIEW"
+    }
+  ],
+  "dimension_pass_counts": {
+    "activity_scope_valid": 5,
+    "check_alignment_valid": 5,
+    "contract_parse_valid": 5,
+    "learning_intention_binding_valid": 5,
+    "no_forged_approval": 5,
+    "overall_proposal_valid": 5,
+    "pedagogical_adapter_valid": 5,
+    "proposal_status_valid": 5,
+    "provenance_valid": 5,
+    "provider_success": 5,
+    "role_family_valid": 5,
+    "source_binding_valid": 5,
+    "success_criteria_valid": 5,
+    "tier_binding_valid": 5
+  },
+  "diversity": {
+    "component_distinct_counts": {
+      "activity_scope": 2,
+      "check_alignment": 2,
+      "pedagogical_adapter": 2,
+      "success_criteria": 2
+    },
+    "exact_distinct_proposals": 2,
+    "normalization": "Ignore local IDs and ordering; replace all references with their semantic content; exclude shared brief/provenance. Preserve duplicate multiplicity and all pedagogical fields. No edits to original proposals.",
+    "normalized_distinct_proposals": 2,
+    "quality_ranking": null,
+    "role_family_distinct_count": 1,
+    "scope": "Valid candidates only; malformed/rejected structures are not normalized",
+    "valid_candidate_count": 5
+  },
+  "experiment_integrity": "PASS",
+  "human_approvals": 0,
+  "identity": {
+    "brief_id": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+    "brief_sha256": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+    "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "learning_spec_id": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+    "policy_version": "bounded-symbol-evidence-authoring/1",
+    "source_objective_id": "EDX-4MA1-F-2.8-A",
+    "tier": "Foundation"
+  },
+  "integrity": {
+    "baseline": "v1.13",
+    "historical_files_checked": 1787,
+    "historical_unchanged": true,
+    "protected_files_checked": 1850,
+    "protected_implementation_changed": false,
+    "state_files_added": [],
+    "state_files_checked": 71,
+    "trusted_state_unchanged": true
+  },
+  "limitation": "Small bounded five-call sample; structural contract checks are not pedagogical judgment. Model configured explicitly for this process from user instruction.",
+  "model_contract_success_rate": "5/5",
+  "mutation": 0,
+  "new_baseline_created": false,
+  "protected_implementation_changed": false,
+  "reason_distribution": {},
+  "rejected_count": 0,
+  "repair": 0,
+  "replacement": 0,
+  "replay_candidates": 5,
+  "replay_passes": 2,
+  "resolved_model": "gpt-5.6-sol",
+  "retry": 0,
+  "review_bundles": 5,
+  "verdict": "PASS"
+}
