@@ -1,0 +1,24 @@
+{
+  "files": {
+    "output/p6a7c1_scope_framing/acceptance.json": "16ff38fb6ef041929824f08d1233fc559924d30dd4c19ed728b35e9bcdb1d6e2",
+    "output/p6a7c1_scope_framing/backend-tests.json": "0ac02e87c3a27e147a8ecfcb9238360b7de315ed94fe901ef6585b4cbaf0280b",
+    "output/p6a7c1_scope_framing/backend-tests.txt": "1d6edaf7e19992b838fd7eef9131a5e85a23ee66ac5cd4266183360a9e5d17c7",
+    "output/p6a7c1_scope_framing/baseline-creation.json": "167cc939606902b74940de8ed9886470c666f08cf3553850f68411f4e65e3d59",
+    "output/p6a7c1_scope_framing/before.json": "a33cf2169a5b3332dc834b0b89121795393f95ef577ba4fc6557dd30e63a236a",
+    "output/p6a7c1_scope_framing/compatibility-tests.json": "71934f131d6bc1575e9b76be3adb3db393ca3422e67b62de7883458291cf1a03",
+    "output/p6a7c1_scope_framing/compatibility-tests.txt": "0478ec0bce32635f9cc71174aac8146c18474bbefe0eaba3bda5665c0c3a6ee8",
+    "output/p6a7c1_scope_framing/eligibility-after.json": "6dfc0452e2261d26b9189e0e5e180b459b217df4e27e7098945e5e2d9fe37bcd",
+    "output/p6a7c1_scope_framing/eligibility-before.json": "5359efc394ad30890ff707ce01bc94cf8d83e350fe02bf498e01cc68f40fb59f",
+    "output/p6a7c1_scope_framing/inspection.json": "af84fdaeaf080cdbd8e6d227d70c0bd505c8f4dded8c333df1aad6b84983c200",
+    "output/p6a7c1_scope_framing/lesson-authoring-plan.json": "92861f48ff956eb11c1dbc04c48bd1c282f5deb03ce0886b1e6e3d6176a343ea",
+    "output/p6a7c1_scope_framing/negative-tests.json": "26b26672781326ef95f7c84542615dc42131ea97c528dcfee705185fb3717a9a",
+    "output/p6a7c1_scope_framing/newline-recovery.json": "eab8c40e68821164e42c7b49a5a6abc27335f002c4e9dfd4cdc844506b8841b8",
+    "output/p6a7c1_scope_framing/offline-acceptance.json": "d63ff34da0d94778f6a696044e79bac79b01728a4cc2b5355cb9b9fb084f9968",
+    "output/p6a7c1_scope_framing/offline-replay.json": "934d32922e1d5165904dc846359312f843a8f2bf9830dff1e9283df28f777d2a",
+    "output/p6a7c1_scope_framing/postfreeze-tests.json": "e3aed6152af086093a04b8026fe1390801019efae55e2b5e2849fad6bc54472d",
+    "output/p6a7c1_scope_framing/postfreeze-tests.txt": "a70107a8bb1cf1c9b2695c4e789172dea99ae8e3a07e6aecd9f805da059a4c9c",
+    "output/p6a7c1_scope_framing/role-eligibility.json": "2838f2a9d61886336910a004d4ec8dc2f9cd6b3263c165e7f6849321162bf638",
+    "output/p6a7c1_scope_framing/scope-framing.json": "70ca003a8253ae3321c275a58902083318e15d838ff7a1f15e0cfb14434dc4b9",
+    "output/p6a7c1_scope_framing/scope-validation.json": "0bf101b6d9d426ebe31d6829263a086e2afd80bbc8344c1e429060c94f671934"
+  }
+}

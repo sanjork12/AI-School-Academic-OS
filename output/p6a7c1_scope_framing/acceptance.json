@@ -1,0 +1,104 @@
+{
+  "baseline": {
+    "active_reference_version": "v1.16",
+    "manifest_path": "output/reference_freeze_v1_16/reference_manifest.json",
+    "manifest_sha256": "6bff999b96cf5014c75d72186732abf19d68c35b2cfcfee20b8b2d04a1067e0d",
+    "protected_files": 2077
+  },
+  "baseline_verification": {
+    "errors": [],
+    "manifest_sha256": "6bff999b96cf5014c75d72186732abf19d68c35b2cfcfee20b8b2d04a1067e0d",
+    "reference_version": "v1.16",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "full_lesson_generated": false,
+  "integrity": {
+    "credentials_unchanged": true,
+    "historical_files": 1969,
+    "historical_unchanged": true,
+    "model_calls": 0,
+    "trusted_state_unchanged": true,
+    "unrelated_production_unchanged": true
+  },
+  "live_authoring_qualified": false,
+  "milestone": "P6A.7C.1",
+  "model_calls": 0,
+  "no_candidate_content_generated": true,
+  "offline": {
+    "integrity": {
+      "credentials_unchanged": true,
+      "historical_files": 1969,
+      "historical_unchanged": true,
+      "model_calls": 0,
+      "trusted_state_unchanged": true,
+      "unrelated_production_unchanged": true
+    },
+    "model_calls": 0,
+    "negative_cases": 23,
+    "overall_after": "ELIGIBLE_WITH_WARNINGS",
+    "overall_before": "BLOCKED",
+    "replay_passes": 2,
+    "scope_valid": true,
+    "status": "PASS"
+  },
+  "published": false,
+  "rendered": false,
+  "status": "PASS",
+  "tests": {
+    "backend-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_scope_framing",
+        "tests_p0.test_generic_role_authoring",
+        "tests_p0.test_approved_pedagogical_consumption",
+        "tests_p0.test_pedagogy_evidence",
+        "tests_p0.test_governed_pedagogy",
+        "tests_p0.test_governed_learning",
+        "tests_p0.test_pedagogical_specification",
+        "tests_p0.test_pedagogical_validation",
+        "tests_p0.test_lesson_profiles",
+        "tests_p0.test_syllabus_ingestion",
+        "tests_p0.test_curriculum_capability"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 340
+    },
+    "compatibility-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_ai_authoring",
+        "tests_p0.test_candidate_contract",
+        "tests_p0.test_derivation_provenance",
+        "tests_p0.test_provenance_closure",
+        "tests_p0.test_offline_candidate_replay",
+        "tests_p0.test_sl11_authoring",
+        "tests_p0.test_controlled_inputs",
+        "tests_p0.test_expression_semantics"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 161
+    },
+    "postfreeze-tests": {
+      "errors": 0,
+      "failures": 0,
+      "model_calls": 0,
+      "modules": [
+        "tests_p0.test_reference_freeze",
+        "tests_p0.test_reference_revision",
+        "tests_p0.test_ai_qualification"
+      ],
+      "skipped": 0,
+      "successful": true,
+      "total": 83
+    }
+  },
+  "total_tests": 584
+}

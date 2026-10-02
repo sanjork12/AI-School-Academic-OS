@@ -1,0 +1,11 @@
+{
+  "status": "NOT_STARTED",
+  "attempted_calls": 0,
+  "provider_success": 0,
+  "contract_parse": 0,
+  "valid_candidates": 0,
+  "composition_count": 0,
+  "validation_dimensions_evaluated": 0,
+  "model_rejections": [],
+  "operational_blocker": "AUTHOR_MODEL_UNAVAILABLE"
+}

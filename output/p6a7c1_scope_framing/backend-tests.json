@@ -1,0 +1,21 @@
+{
+  "errors": 0,
+  "failures": 0,
+  "model_calls": 0,
+  "modules": [
+    "tests_p0.test_scope_framing",
+    "tests_p0.test_generic_role_authoring",
+    "tests_p0.test_approved_pedagogical_consumption",
+    "tests_p0.test_pedagogy_evidence",
+    "tests_p0.test_governed_pedagogy",
+    "tests_p0.test_governed_learning",
+    "tests_p0.test_pedagogical_specification",
+    "tests_p0.test_pedagogical_validation",
+    "tests_p0.test_lesson_profiles",
+    "tests_p0.test_syllabus_ingestion",
+    "tests_p0.test_curriculum_capability"
+  ],
+  "skipped": 0,
+  "successful": true,
+  "total": 340
+}

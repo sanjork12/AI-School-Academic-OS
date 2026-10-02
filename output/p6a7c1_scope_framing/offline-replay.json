@@ -1,0 +1,16 @@
+[
+  {
+    "identical": true,
+    "pass_number": 1,
+    "plan_hash": "661c6be092250bdd9ea6a37c69f5ae0b9dcce402fb9e5732dd33e52fea649f26",
+    "scope_hash": "931de5fb717d1dfb3d7fa91851571865402b35bf69678be53e33d68fa6f42945",
+    "validation_hash": "93ed9d8276a63f7750febdcec3e0a6b66c745d1112687feaccafa6e22f38aec9"
+  },
+  {
+    "identical": true,
+    "pass_number": 2,
+    "plan_hash": "661c6be092250bdd9ea6a37c69f5ae0b9dcce402fb9e5732dd33e52fea649f26",
+    "scope_hash": "931de5fb717d1dfb3d7fa91851571865402b35bf69678be53e33d68fa6f42945",
+    "validation_hash": "93ed9d8276a63f7750febdcec3e0a6b66c745d1112687feaccafa6e22f38aec9"
+  }
+]

@@ -1,5 +1,6 @@
 {
   "active_reference_version": "v1.16",
   "manifest_path": "output/reference_freeze_v1_16/reference_manifest.json",
-  "manifest_sha256": "6bff999b96cf5014c75d72186732abf19d68c35b2cfcfee20b8b2d04a1067e0d"
+  "manifest_sha256": "6bff999b96cf5014c75d72186732abf19d68c35b2cfcfee20b8b2d04a1067e0d",
+  "protected_files": 2077
 }

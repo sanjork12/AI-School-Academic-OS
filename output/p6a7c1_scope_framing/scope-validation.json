@@ -1,0 +1,23 @@
+{
+  "checks": {
+    "bindings": true,
+    "excluded": true,
+    "identity": true,
+    "included": true,
+    "intention": true,
+    "provenance": true,
+    "rendering": true,
+    "roles": true,
+    "schema": true,
+    "source_canonical": true,
+    "upstream": true,
+    "warnings": true
+  },
+  "errors": [],
+  "model_calls": 0,
+  "pedagogical_spec_hash": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+  "policy_version": "bounded-scope-framing/1",
+  "schema_version": "scope-framing-validation/1",
+  "scope_hash": "931de5fb717d1dfb3d7fa91851571865402b35bf69678be53e33d68fa6f42945",
+  "valid": true
+}

@@ -17,7 +17,7 @@ from academic_os.ai_qualification.reference_baseline import (
 
 class RevisionTests(unittest.TestCase):
     def test_current_and_historical_baselines(self):
-        for version in ('v1', 'v1.1', 'v1.2', 'v1.3', 'v1.4', 'v1.5', 'v1.6', 'v1.7', 'v1.8', 'v1.9', 'v1.10', 'v1.11', 'v1.12', 'v1.13', 'v1.14', 'v1.15'):
+        for version in ('v1', 'v1.1', 'v1.2', 'v1.3', 'v1.4', 'v1.5', 'v1.6', 'v1.7', 'v1.8', 'v1.9', 'v1.10', 'v1.11', 'v1.12', 'v1.13', 'v1.14', 'v1.15', 'v1.16'):
             result = verify_reference('.', version)
             self.assertTrue(result['valid'], result['errors'])
 
@@ -30,7 +30,7 @@ class RevisionTests(unittest.TestCase):
 
     def test_revision_identity_and_authorized_delta(self):
         m = json.loads(Path('output/reference_freeze_v1_1/reference_manifest.json').read_text())
-        self.assertEqual(ACTIVE_REFERENCE_BASELINE, 'v1.15')
+        self.assertEqual(ACTIVE_REFERENCE_BASELINE, 'v1.16')
         self.assertEqual(m['parent_reference'], 'v1')
         self.assertEqual(m['revision_type'], 'trusted_read_performance')
         self.assertEqual([d['path'] for d in m['lineage']['protected_production_deltas']], ['academic_os/sources.py'])
