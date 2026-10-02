@@ -1,0 +1,18 @@
+{
+  "total": 161,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "modules": [
+    "tests_p0.test_ai_authoring",
+    "tests_p0.test_candidate_contract",
+    "tests_p0.test_derivation_provenance",
+    "tests_p0.test_provenance_closure",
+    "tests_p0.test_offline_candidate_replay",
+    "tests_p0.test_sl11_authoring",
+    "tests_p0.test_controlled_inputs",
+    "tests_p0.test_expression_semantics"
+  ],
+  "model_calls": 0
+}

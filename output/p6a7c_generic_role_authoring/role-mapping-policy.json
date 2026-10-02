@@ -1,0 +1,40 @@
+{
+  "contracts": {
+    "CONCEPT_CHECK": "concept-check-role-candidate/1",
+    "REPRESENTATION": "representation-role-candidate/1"
+  },
+  "legacy_sl_roles_selected": [],
+  "roles": {
+    "CONCEPT_CHECK": {
+      "composition_available": true,
+      "contract": "concept-check-role-candidate/1",
+      "lesson_ready": false,
+      "live_qualified": false,
+      "mapping_policy": "bounded-symbol-role-mapping/1",
+      "provenance_enforced": true,
+      "role_family": "CONCEPT_CHECK",
+      "role_id": "generic-concept-check-69d1224d83adce142a2004f85a6d9c2dbee49efd873dbda651aa3b000a01779f",
+      "status": "ELIGIBLE_WITH_WARNINGS",
+      "validator_available": true
+    },
+    "REPRESENTATION": {
+      "composition_available": true,
+      "contract": "representation-role-candidate/1",
+      "lesson_ready": false,
+      "live_qualified": false,
+      "mapping_policy": "bounded-symbol-role-mapping/1",
+      "provenance_enforced": true,
+      "role_family": "REPRESENTATION",
+      "role_id": "generic-representation-41117787910e5ff2529e41b2666adcd74d7916bd490a282ceef50da8bba63cc1",
+      "status": "ELIGIBLE_WITH_WARNINGS",
+      "validator_available": true
+    }
+  },
+  "semantic_policy": {
+    "<": "LESS_THAN",
+    ">": "GREATER_THAN",
+    "≤": "LESS_THAN_OR_EQUAL_TO",
+    "≥": "GREATER_THAN_OR_EQUAL_TO"
+  },
+  "version": "bounded-symbol-role-mapping/1"
+}

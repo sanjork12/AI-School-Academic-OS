@@ -1,0 +1,744 @@
+{
+  "negative": {
+    "ambiguous-response": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "4bc6c53a7bde16b44c3af0a148498cff55badfbddeb7b4f9a3cba2499e126faf",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": false
+      },
+      "errors": [
+        "SEMANTIC_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "candidate-tampered": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "5ac606726b5207708fef15c97a109a0448d959fc22321ed64ce4025fddd09df0",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": false
+      },
+      "errors": [
+        "SEMANTIC_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "check-mismatch": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "f5dbd085e653731ee8215d95cccb19b65c7ca5d447ea7243c868de9a441fd86f",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": false,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "ALIGNMENT_VALID_FAILED",
+        "RESPONSE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "corrupted-glyph": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "87018a9adb17343f0b01beeb2a5120a807dc8b342b6ae78807a72b164a23b327",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "criterion-mismatch": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "9807e6153776ae35e4141103ce2f3128ece7a98204104f53a0bc4c78b80a5e95",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "ALIGNMENT_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "empty-choices": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "80a386c9d248f2c252bca6ad018673ac565e1f14994f73f6987b9116b9e9a8b6",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "forged-human-approval": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "5a77b9e641f99ee615368e13bdbc683cde7040f5895dc8b7c2565909526e8646",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "forged-source-content-provenance": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "cbe01efed54c72a820ca340b521ea1569e75be693156417dfa2bfd99ff92afbd",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "greater-as-less": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "58476878ed5f8ddd31e0e4a7f661b00b5764aeeae0c32c2db9cbde475b597793",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": false
+      },
+      "errors": [
+        "SEMANTIC_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "inclusive-as-strict": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "493a4ca3dfee2d226ad98de0426cde8240f21ca783f52ba0596c1365294c1dfb",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": false
+      },
+      "errors": [
+        "SEMANTIC_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "missing-provenance": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "5c59b4f8536b5bc65b098f35042bc205acca8bc5e3af8a44a637672adc1fb903",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "no-observable-response": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "2043b7e1a3addac741982e591db10c6bd729a8b9e778473073753fa539b45e63",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "number-line-introduced": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "ba772b13a79639255038b5c656cae51c668070be6745190ec0bf72704571f244",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "role-substitution": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "a286bf8741e9278cbaa6d834e234a35319b5ba46f93685bf644337fd43fab8b4",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "BINDING_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "solving-introduced": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "10323c38f6eb2496172fc4f6795e360988fa9611a87b5988ac5d2a5de4986933",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "stale-pedagogy": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "347912e0bf114544ee227171c9f207b1205ab42a9a6261c3221cce09912146a4",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "BINDING_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "teacher-answer-leak": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "fd54231ee492fd524ce6033524753e4bf85d10ab6ec6661ff40b7aec047e7231",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "unrelated-algebra": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "7756ddb2e6318c236cf02e8262b2672e06c03f201d7a89376a8f998b6a7948e9",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "unsupported-family": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "50759c9205d31468060d6011532ac14ace1b5e19d086d536064608492631e63d",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "unsupported-meaning": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "0590930f4fb925caeb63daf6a094e75b0e9066879a74cac337bbfba345a81c4a",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": false,
+        "response_valid": false,
+        "schema_valid": false,
+        "semantic_valid": false
+      },
+      "errors": [
+        "CONTRACT_OR_CONTEXT_INVALID:ValidationError",
+        "SCHEMA_VALID_FAILED",
+        "BINDING_VALID_FAILED",
+        "ALIGNMENT_VALID_FAILED",
+        "SEMANTIC_VALID_FAILED",
+        "RESPONSE_VALID_FAILED",
+        "PROVENANCE_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "wrong-expected-symbol": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "656e94706597ce49b6bea8176c77367b1321c59fa4c203b60b77655489d2c460",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": false
+      },
+      "errors": [
+        "SEMANTIC_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "wrong-intention": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "893af285b3bef2a59ac61f31f31e03e1447a18b6401bcc233ade1e1726b6dabf",
+      "checks": {
+        "alignment_valid": false,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "ALIGNMENT_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "wrong-objective": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "27e00b96776977754959e0e8ce5bc13f600f876f251ed483bfc75297d937ab49",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "BINDING_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "wrong-pack": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "b810a2add5423194005acf96a4db291fd0f2524de1c7c978f096d714c1251190",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "BINDING_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    },
+    "wrong-tier": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "aa8cbc01e8dbbafd081bbc5d1adaa57b97e392e43e31541898ac5db957212c8a",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": false,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [
+        "BINDING_VALID_FAILED"
+      ],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": false
+    }
+  },
+  "positive": {
+    "concept_check-1": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "9c7942c6c3662b5b9adf2faa7507358ae7f15d3572615db9f29e997106aa890b",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": true
+    },
+    "concept_check-2": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "2e0182de8b906cffc0c5f70e41ba4547caadc85d61d4c8f882f66b595c18549e",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": true
+    },
+    "concept_check-3": {
+      "brief_hash": "3c285cc02ce982f058c7f9c53d7df6a51c9857e625974cb25c740e1d4431c369",
+      "candidate_hash": "17f255c15ae3e01142a9df1d9c2afe7fb049b5848aeab90d8a970d88e9f5b001",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": true
+    },
+    "representation-1": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "35ce9010b4b029470cb99f74e7bc38389759c0efe4d4a1bb6d38622692d09de1",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": true
+    },
+    "representation-2": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "86078542e0e316cc4764aa739bce6f6c31823933226f2ce00c2dfb3ceae5d46d",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": true
+    },
+    "representation-3": {
+      "brief_hash": "312b14d19c44edee9fe373dfa4cc7daaee19a6bb05df5fa21293028b505569ba",
+      "candidate_hash": "a09be0f1e2482fc38fb6e6a0e85ba98c35e3676ecf2c81de5aef7b624a904ba7",
+      "checks": {
+        "alignment_valid": true,
+        "binding_valid": true,
+        "brief_valid": true,
+        "provenance_valid": true,
+        "response_valid": true,
+        "schema_valid": true,
+        "semantic_valid": true
+      },
+      "errors": [],
+      "pedagogically_approved": false,
+      "policy_version": "generic-symbolic-role-validation/1",
+      "provenance": "DETERMINISTIC_VALIDATION",
+      "publishable": false,
+      "schema_version": "generic-role-validation/1",
+      "valid": true
+    }
+  },
+  "stale_valid_candidate_report_rejected": true
+}

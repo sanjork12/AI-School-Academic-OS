@@ -1,0 +1,14 @@
+{
+  "historical_artifacts_unchanged": true,
+  "historical_files_checked": 1915,
+  "legacy_hashes": {
+    "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+    "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+    "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+  },
+  "model_calls": 0,
+  "numerical_behavior_sources_unchanged": true,
+  "review_and_credentials_unchanged": true,
+  "standard_deviation_unchanged": true,
+  "trusted_state_unchanged": true
+}
