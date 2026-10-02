@@ -1,0 +1,33 @@
+{
+  "after": "ELIGIBLE_WITH_WARNINGS",
+  "authoring_gate_valid": true,
+  "before": "REVIEW_REQUIRED",
+  "consumer_valid": true,
+  "deterministic": true,
+  "eligibility_valid": true,
+  "inherited_warnings": 12,
+  "integrity": {
+    "historical_artifacts_unchanged": true,
+    "historical_files_checked": 1877,
+    "legacy_hashes": {
+      "pedagogy": "8b7017f3f14a67df28a358e6b2435eb8ac10ea1dc1799a33202cecd3033f8357",
+      "standard_profile": "511c57b54ae1dec14f1e63fb5f167f517dc3dfdf18c8822b3e4a5e920582bfce",
+      "validation": "014e1066815c488fe5f66ffbfcb3f1e437aa456d8626bc3f19e33a8c102dce7e"
+    },
+    "model_calls": 0,
+    "review_and_credentials_unchanged": true,
+    "standard_deviation_unchanged": true,
+    "trusted_state_unchanged": true
+  },
+  "lesson_authoring": "BLOCKED",
+  "model_calls": 0,
+  "negative_cases": 19,
+  "pack_hash": "828d6f69fc34aed0836e72406699522e9bffd2c2d9f562beaf0e08614952c834",
+  "pack_identity": "46e11a1b1a56b12fefc692a8d2a12af005235f2db0b223bca346a7033163fa17",
+  "replay": true,
+  "role_contract_valid": true,
+  "spec_valid": true,
+  "spec_warnings": 13,
+  "specification_hash": "9a7f4737e52250b8141fc8b183e0f09861290d575a393c619ed9ba427582f40e",
+  "status": "PASS"
+}
