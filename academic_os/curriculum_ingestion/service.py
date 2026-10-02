@@ -158,6 +158,7 @@ class IngestionService:
         if not subs or (objective and not subtopic):raise core.IngestionError('NOT_FOUND','Selection is not in this curriculum run.')
         objects=[o for s in subs for o in s.objectives if objective is None or o.objective_code==objective]
         if objective and not objects:raise core.IngestionError('NOT_FOUND','Objective is not in this subtopic.')
-        fields=dict(document_id=tree.document_id,source_sha256=tree.source_sha256,run_id=tree.run_id,parsed_sha256=self.get(identity).outputs['parsed'],profile=tree.profile,tier=tree.tier,topic_code=topic.topic_code,subtopic_code=subtopic,objective_codes=[o.objective_code for o in objects],source_ids=[o.source_id for o in objects],validation_state=tree.validation.status)
+        run=self.get(identity)
+        fields=dict(schema_version='selected-curriculum-target/2',document_id=tree.document_id,source_sha256=tree.source_sha256,run_id=tree.run_id,parsed_sha256=run.outputs['parsed'],validation_sha256=run.outputs['validation'],tree_sha256=run.outputs['tree'],run_sha256=core.digest(serial(run)),profile=tree.profile,tier=tree.tier,topic_code=topic.topic_code,topic_name=topic.topic_name,subtopic_code=subtopic,subtopic_name=subs[0].subtopic_name if subtopic else None,objective_codes=[o.objective_code for o in objects],source_ids=[o.source_id for o in objects],validation_state=tree.validation.status)
         target=SelectedCurriculumTarget(target_id=core.digest(serial(fields)),**fields)
         return CurriculumCapabilityPackage(target=target,CURRICULUM_BROWSABLE=True)

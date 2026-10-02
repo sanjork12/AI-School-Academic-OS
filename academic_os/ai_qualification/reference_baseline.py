@@ -3,9 +3,9 @@ import hashlib
 import json
 from pathlib import Path
 
-ACTIVE_REFERENCE_BASELINE = 'v1.9'
+ACTIVE_REFERENCE_BASELINE = 'v1.15'
 ACTIVE_DESCRIPTOR = 'output/reference_freeze_active.json'
-ACTIVE_MANIFEST = 'output/reference_freeze_v1_9/reference_manifest.json'
+ACTIVE_MANIFEST = 'output/reference_freeze_v1_15/reference_manifest.json'
 
 
 def sha(path):
@@ -41,8 +41,8 @@ def load_active(root):
         raise ValueError('Active reference manifest digest mismatch')
     manifest = json.loads(path.read_text(encoding='utf-8'))
     if (manifest['reference_version'] != ACTIVE_REFERENCE_BASELINE
-            or manifest['parent_reference'] != 'v1.8'
-            or manifest['revision_type'] != 'bounded_syllabus_ingestion'
+            or manifest['parent_reference'] != 'v1.14'
+            or manifest['revision_type'] != 'generic_symbolic_role_authoring'
             or manifest['status'] != 'frozen_baseline_revision'
             or manifest['trust_authority'] is not False):
         raise ValueError('Unexpected engineering manifest identity')
@@ -59,12 +59,12 @@ def compare_files(root, expected):
 
 
 def verify_reference(root, version=ACTIVE_REFERENCE_BASELINE, database=None):
-    """v1 through v1.8 check historical artifacts; v1.9 checks current code.
+    """v1 through v1.14 check historical artifacts; v1.15 checks current code.
 
     Historical source bytes are not reconstructed or claimed to be checked.
     Their original recorded hashes remain in the unchanged parent documents.
     """
-    if version not in ('v1', 'v1.1', 'v1.2', 'v1.3', 'v1.4', 'v1.5', 'v1.6', 'v1.7', 'v1.8', 'v1.9'):
+    if version not in ('v1', 'v1.1', 'v1.2', 'v1.3', 'v1.4', 'v1.5', 'v1.6', 'v1.7', 'v1.8', 'v1.9', 'v1.10', 'v1.11', 'v1.12', 'v1.13', 'v1.14', 'v1.15'):
         raise ValueError('Unsupported reference version')
     root = Path(root).resolve()
     manifest, descriptor = load_active(root)

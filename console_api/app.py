@@ -13,6 +13,8 @@ from fastapi.responses import FileResponse, JSONResponse
 from .models import *
 from . import adapter as a
 from .syllabi import router as syllabi_router
+from .capability_packages import router as capability_router
+from academic_os.curriculum_capability.service import AcademicCapabilityService
 from academic_os.curriculum_ingestion.service import IngestionService
 from academic_os.curriculum_ingestion.core import IngestionError, MAX_UPLOAD
 
@@ -89,11 +91,13 @@ def create_app(ingestion_root=None):
     async def lifespan(app):
         app.state.manager=Manager()
         app.state.ingestion=IngestionService(ingestion_root)
+        app.state.capability_packages=AcademicCapabilityService(app.state.ingestion)
         yield
         app.state.ingestion.close()
         app.state.manager.pool.shutdown(wait=True)
     app=FastAPI(title='Academic OS local console',lifespan=lifespan,docs_url=None,redoc_url=None,openapi_url=None)
     app.include_router(syllabi_router)
+    app.include_router(capability_router)
     @app.exception_handler(IngestionError)
     async def ingestion_error(request,exc):
         status=404 if exc.code=='NOT_FOUND' else 413 if exc.code=='UPLOAD_TOO_LARGE' else 429 if exc.code=='QUEUE_FULL' else 409 if exc.code in ('NOT_EVALUATED','SOURCE_CHANGED','EVIDENCE_CHANGED') else 400
@@ -111,7 +115,8 @@ def create_app(ingestion_root=None):
             try:length=int(request.headers.get('content-length','0'))
             except ValueError:return JSONResponse({'detail':'Invalid content length'},status_code=400)
             upload=request.url.path=='/api/syllabi'
-            limit=MAX_UPLOAD if upload else 2048
+            capability=request.url.path.startswith('/api/curriculum-targets/') and request.url.path.endswith('/capability-package')
+            limit=MAX_UPLOAD if upload else 16384 if capability else 2048
             expected='application/pdf' if upload else 'application/json'
             if length>limit:
                 return JSONResponse({'error':{'code':'UPLOAD_TOO_LARGE','message':'Request exceeds the size limit.'}},status_code=413)
