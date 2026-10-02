@@ -1,0 +1,24 @@
+{
+  "brief_hash": "e8b65dcff6586dc9a5f1870f0cf81029dd1e2a4864f299a6fbe0100372b32f2f",
+  "component_decisions": {
+    "activity_scope": "REVISE",
+    "check_alignment": "REVISE",
+    "pedagogical_adapter": "REVISE",
+    "success_criteria": "REVISE"
+  },
+  "human_decision_source_sha256": "d7b06312d2b24d47d3ab5a26367ab6215a78f8d7b81c00cbcebf2f16a09b6f43",
+  "learning_spec_hash": "263509477cf795f3c47a4ab68edc2a34e379a664880c6cab4254ad87b9b4cd1e",
+  "policy_version": "bounded-symbol-evidence-authoring/1",
+  "proposal_hash": "1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc",
+  "proposal_validation": {
+    "errors": [],
+    "pedagogical_truth_confirmed": false,
+    "proposal_hash": "1a3afeff4b56d33eac621add9e590d4a87063642e4ec894da75921e7e02f35dc",
+    "valid": true
+  },
+  "receipt_hash": "b1355b7c6fdd0a0388e05d6271a0584797f679aaa31b5739c5b26a057a47a4cb",
+  "review_valid": true,
+  "semantic_review_hash": "ff1072f9eb64eb8386059e99584dbb054a4b808426f6e4882b91f42e09f3df43",
+  "target_source_id": "EDX-4MA1-F-2.8-A",
+  "tier": "Foundation"
+}

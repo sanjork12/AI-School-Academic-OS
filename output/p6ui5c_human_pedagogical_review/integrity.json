@@ -1,0 +1,15 @@
+{
+  "baseline": {
+    "errors": [],
+    "manifest_sha256": "678244ff58f5cdd254cffecdd4afb6415598448bb60a1a216804d4b7f5e85438",
+    "reference_version": "v1.13",
+    "trust_authority": false,
+    "valid": true,
+    "verification_scope": "current_conformance"
+  },
+  "historical_artifacts_unchanged": true,
+  "historical_files_checked": 1853,
+  "protected_implementation_changed": false,
+  "state_files_checked": 71,
+  "trusted_state_unchanged": true
+}
